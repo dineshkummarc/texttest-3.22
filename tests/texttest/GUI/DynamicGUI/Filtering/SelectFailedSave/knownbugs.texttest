@@ -1,0 +1,6 @@
+
+[Reported by geoff at 14May17:16:26]
+search_string:Text Info
+search_file:usecase
+full_description:PyGTK on windows has a bug with gtk.Notebook, see  http://bugzilla.gnome.org/show_bug.cgi?id=438318
+brief_description:PyGTK bug

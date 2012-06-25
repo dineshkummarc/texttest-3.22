@@ -1,0 +1,9 @@
+Using Application PERF
+Running PERF test-suite TargetApp
+  Running PERF test-case Failures
+Comparing differences for PERF test-suite TargetApp
+  Comparing differences for PERF test-case Failures - SUCCESS! (on errors.perf,output.perf)
+  Running PERF test-case FailuresCurrBelowLimit
+  Comparing differences for PERF test-case FailuresCurrBelowLimit - SUCCESS! (on errors.perf,output.perf)
+  Running PERF test-case FailuresZeroTime
+  Comparing differences for PERF test-case FailuresZeroTime - SUCCESS! (on errors.perf,output.perf)

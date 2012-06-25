@@ -1,0 +1,11 @@
+# Path to the executable
+executable:${TEXTTEST_HOME}/dumpcore.py
+
+[collate_file]
+stacktrace:core*
+
+# At the moment the script is actually called interpretcore.py
+# But we fake it anyway and this means the tests will work on Windows...
+[collate_script]
+stacktrace:{CLEAR LIST}
+stacktrace:interpretcore

@@ -1,0 +1,4 @@
+wait for test Basic to be read, test configuration to be read
+set test selection to Basic
+wait for completion of test actions
+quit

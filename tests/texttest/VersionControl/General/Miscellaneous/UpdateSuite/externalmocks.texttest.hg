@@ -1,0 +1,3 @@
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Miscellaneous/UpdateSuite/TargetApp; hg update
+->FIL:TargetApp
+->OUT:1 files updated, 0 files merged, 0 files removed, 0 files unresolved

@@ -1,0 +1,11 @@
+wait for all tests to be read
+set number of slowest tests to select = 3
+select indicated tests
+choose refine for current selection
+set number of slowest tests to select = 0
+set number of fastest tests to select = 1
+select indicated tests
+choose discard for current selection
+set number of fastest tests to select = 10
+select indicated tests
+quit

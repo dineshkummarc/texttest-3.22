@@ -1,0 +1,6 @@
+[Migrated section 2]
+search_string:after [0-9]* seconds
+search_file:output
+full_description:Another version of the delay bug
+brief_description:Delay bug mark 2
+internal_error:1

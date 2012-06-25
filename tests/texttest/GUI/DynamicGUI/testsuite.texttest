@@ -1,0 +1,8 @@
+# Tests for features relating to how text is displayed
+TextView
+
+# Tests progress report filtering
+Filtering
+
+# Tests for the functionality that groups related differences together
+DiffGrouping

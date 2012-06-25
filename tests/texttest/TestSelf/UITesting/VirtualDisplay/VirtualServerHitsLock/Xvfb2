@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+
+import os, sys, signal
+
+# Leak a lock file and check TextTest cleans it for us
+try:
+    open("/tmp/.X3979-lock", "w").close()
+except EnvironmentError:
+    pass # If we get permission error, that's just tough...
+
+os.kill(os.getppid(), signal.SIGUSR1)
+signal.pause()

@@ -1,0 +1,5 @@
+Using SGE queues for Application HELLO, checkout /carm/proj/texttest-tmp/geoff/dynamic_gui.16Aug150231.8977/texttest.sge/QueueSystems/SlaveReuse/Master/ForceReuse/Console/CheckoutChange/TargetApp/
+Using SGE queues for Application HELLO, version altcheckout, checkout /carm/proj/texttest-tmp/geoff/dynamic_gui.16Aug150231.8977/texttest.sge/QueueSystems/SlaveReuse/Master/ForceReuse/Console/CheckoutChange/
+Q: Submitting HELLO test-case Test to default SGE queue
+S: HELLO test-case Test succeeded on centreville.carmen.se
+S: HELLO.altcheckout test-case Test succeeded on centreville.carmen.se

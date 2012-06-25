@@ -1,0 +1,14 @@
+# Test the failure_diaplay_priority option
+DisplayPriority
+
+# Check sensible things appear in the Run Info tab
+RunInfo
+
+# Check an empty string in command line works
+RunInfoEmptyString
+
+# Check we can view previews properly even if application writes lines beginning with ----
+SeparatorsInOutput
+
+# Tests for encoding issues in the stored files. Stored file has Latin-1 characters in it.
+Encoding

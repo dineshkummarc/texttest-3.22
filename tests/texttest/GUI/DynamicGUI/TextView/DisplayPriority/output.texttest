@@ -1,0 +1,5 @@
+Using Application HELLO
+Running HELLO test-suite TargetApp
+  Running HELLO test-case test1
+Comparing differences for HELLO test-suite TargetApp
+  Comparing differences for HELLO test-case test1 (on errors.hello,file1.hello,file2.hello,file3.hello,file4.hello,output.hello)

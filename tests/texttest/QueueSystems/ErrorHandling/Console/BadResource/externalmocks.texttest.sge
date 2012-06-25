@@ -1,0 +1,10 @@
+<-SRV:TextTest slave server started on 10.67.7.89:58239
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/Console/BadResource/texttesttmp/console.badresource.01Mar115322.22231/slavelogs; qsub -N Test-Basic-SLEEP.badresource -l no_such_resource -w e -notify -m n -cwd -b y -V -o Test-Basic-SLEEP.badresource.log -e Test-Basic-SLEEP.badresource.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/Console/BadResource/TargetApp -a sleep.badresource -l -tp 'Basic' -slave /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/Console/BadResource/texttesttmp/console.badresource.01Mar115322.22231 -servaddr 10.67.7.89:50995""
+->ERR:Unable to run job: unknown resource "no_such_resource".
+Exiting.
+->EXC:1
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/Console/BadResource/texttesttmp/console.badresource.01Mar115322.22231/slavelogs; qsub -N Test-Basic2-SLEEP.badresource -l no_such_resource -w e -notify -m n -cwd -b y -V -o Test-Basic2-SLEEP.badresource.log -e Test-Basic2-SLEEP.badresource.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/Console/BadResource/TargetApp -a sleep.badresource -l -tp 'Basic2' -slave /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/Console/BadResource/texttesttmp/console.badresource.01Mar115322.22231 -servaddr 10.67.7.89:50995""
+->ERR:Unable to run job: unknown resource "no_such_resource".
+Exiting.
+->EXC:1
+<-SRV:Completed submission of all tests

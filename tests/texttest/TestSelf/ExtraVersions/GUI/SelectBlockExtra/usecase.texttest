@@ -1,0 +1,8 @@
+wait for all tests to be read
+enter tests for version = blockextra
+select indicated tests
+enter tests for version = block1extra
+select indicated tests
+enter tests for version = foobar
+select indicated tests
+quit

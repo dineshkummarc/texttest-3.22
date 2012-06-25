@@ -1,0 +1,4 @@
+TextTest will write diagnostics in /users/geoff/texttesttmp/texttest.lsf.13Jun123443/TestSelf/TestData/UnixOnly/PartialCopyIgnoreCatalogues based on file at /users/geoff/work/master/Testing/Automatic/texttest/logging.texttest
+Using LSF queues for Application TDAT, version queuesystem
+Q: Submitting test Test1 to default LSF queue
+S: Test Test1 succeeded on forestville

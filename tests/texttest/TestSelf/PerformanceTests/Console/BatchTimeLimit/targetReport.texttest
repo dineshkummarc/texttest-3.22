@@ -1,0 +1,33 @@
+slower=2
+06Aug2010
+PERF : 2 tests : 2 slower
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests ran slower : 
+In PERF test-suite TargetApp:
+  - PERF test-case FailuresCurrBelowLimit : 150% slower
+  - PERF test-case FailuresZeroTime       : infinitely slower
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that ran slower follows...
+--------------------------------------------------------
+TEST ran slower on gewoia : PERF test-case FailuresCurrBelowLimit (under FailuresCurrBelowLimit)
+---------- Differences in performance(slower) ----------
+1,2c1
+< CPU time   :       2.0 sec. on sedom
+< Real time  :       18.2 sec.
+---
+> Total Performance  :      5.0 seconds on gewoia
+--------------------------------------------------------
+TEST ran slower on gewoia : PERF test-case FailuresZeroTime (under FailuresZeroTime)
+---------- Differences in performance(slower) ----------
+1,2c1
+< CPU time   :       0.0 sec. on sedom
+< Real time  :       18.2 sec.
+---
+> Total Performance  :      5.0 seconds on gewoia
+

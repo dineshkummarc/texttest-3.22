@@ -1,0 +1,36 @@
+<-SRV:TextTest slave server started on 10.67.18.24:50672
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.sge.27Apr151447.16953/texttest.sge/QueueSystems/ErrorHandling/Console/PollSgeCrash/texttesttmp/sleep.killing.27Apr151452.16956/slavelogs; qsub -N Test-Basic-SLEEP.killing -w e -notify -m n -cwd -b y -V -o Test-Basic-SLEEP.killing.log -e Test-Basic-SLEEP.killing.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.sge.27Apr151447.16953/texttest.sge/QueueSystems/ErrorHandling/Console/PollSgeCrash/TargetApp -a sleep.killing -l -tp 'Basic' -slave /carm/proj/texttest-tmp/geoff/texttest.sge.27Apr151447.16953/texttest.sge/QueueSystems/ErrorHandling/Console/PollSgeCrash/texttesttmp/sleep.killing.27Apr151452.16956 -servaddr 10.67.18.24:56373 -b short_local""
+->FIL:sleep.killing.02Jun105522.29337
+->OUT:Your job 1 (stupid) has been submitted.
+<-SRV:Completed submission of all tests
+<-CMD:qstat
+<-CMD:qacct -j 1
+->ERR:SGE has died and gone to heaven
+error: job id 1 not found
+<-CMD:qacct -j 1
+->ERR:SGE has died and gone to heaven
+error: job id 1 not found
+<-CMD:qacct -j 1
+->ERR:SGE has died and gone to heaven
+error: job id 1 not found
+<-CMD:qacct -j 1
+->ERR:SGE has died and gone to heaven
+error: job id 1 not found
+<-CMD:qacct -j 1
+->ERR:SGE has died and gone to heaven
+error: job id 1 not found
+<-CMD:qacct -j 1
+->ERR:SGE has died and gone to heaven
+error: job id 1 not found
+<-CMD:qacct -j 1
+->ERR:SGE has died and gone to heaven
+error: job id 1 not found
+<-CMD:qacct -j 1
+->ERR:SGE has died and gone to heaven
+error: job id 1 not found
+<-CMD:qacct -j 1
+->ERR:SGE has died and gone to heaven
+error: job id 1 not found
+<-CMD:qacct -j 1
+->ERR:SGE has died and gone to heaven
+error: job id 1 not found

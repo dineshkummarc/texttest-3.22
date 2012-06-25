@@ -1,0 +1,32 @@
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/MoveTest/TargetApp/Test1
+->OUT:modified:
+  TargetApp/Test1/errors.hello
+unknown:
+  TargetApp/Test1/output.hello.version
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/MoveTest/TargetApp/Suite
+->OUT:modified:
+  TargetApp/Suite/Subsuite/Test3/output.hello
+  TargetApp/Suite/Subsuite/testsuite.hello
+unknown:
+  TargetApp/Suite/Subsuite/Test4/
+<-CMD:bzr mv /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/MoveTest/TargetApp/Test1 /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1
+->FIL:Test1
+->FIL:Test1.edit_2
+->OUT:TargetApp/Test1 => TargetApp/Suite/Test1
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Subsuite/Test4
+->OUT:unknown:
+  TargetApp/Suite/Subsuite/Test4/
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test4/errors.hello
+->OUT:unknown:
+  TargetApp/Suite/Test4/errors.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test4/errors.hello.ignored_by_vcs
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test4/output.hello
+->OUT:unknown:
+  TargetApp/Suite/Test4/output.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1/errors.hello
+->OUT:modified:
+  TargetApp/Suite/Test1/errors.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1/output.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1/output.hello.version
+->OUT:unknown:
+  TargetApp/Suite/Test1/output.hello.version

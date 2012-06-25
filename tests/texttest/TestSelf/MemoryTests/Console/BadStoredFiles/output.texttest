@@ -1,0 +1,23 @@
+Using Application MEM, version nomemfile.badformat
+Running MEM.nomemfile.badformat test-suite TargetApp
+  Running MEM.nomemfile.badformat test-case NoMemFile
+Comparing differences for MEM.nomemfile.badformat test-suite TargetApp
+  Comparing differences for MEM.nomemfile.badformat test-case NoMemFile (on memory.mem,output.mem)
+  MEM.nomemfile.badformat test-case NoMemFile FAILED : new results in memory
+  View details(v), Save Version nomemfile.badformat(1), Save Version nomemfile(2), Save Version badformat(3), Save(s) or continue(any other key)?
+---------- New result in memory ----------
+Max Memory  :      47.8 MB
+  Save Version nomemfile.badformat(1), Save Version nomemfile(2), Save Version badformat(3), Save(s) or continue(any other key)?
+  Running MEM.nomemfile.badformat test-case NoOutputFile
+  Comparing differences for MEM.nomemfile.badformat test-case NoOutputFile (on memory.mem,output.mem)
+  MEM.nomemfile.badformat test-case NoOutputFile FAILED : new results in output, differences in memory(larger)
+  View details(v), Save Version nomemfile.badformat(1), Save Version nomemfile(2), Save Version badformat(3), Save(s) or continue(any other key)?
+---------- Differences in memory(larger) ----------
+1c1
+< Max Memory  :      42.3 MB
+---
+> Max Memory  :      47.8 MB
+---------- New result in output ----------
+Running Fake Memory Program...
+Improving memory usage now!
+  Save Version nomemfile.badformat(1), Save Version nomemfile(2), Save Version badformat(3), Save(s) or continue(any other key)?

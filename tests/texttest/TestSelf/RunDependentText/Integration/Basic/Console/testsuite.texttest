@@ -1,0 +1,8 @@
+# Check run-dependent text works end-to-end
+RunDependent
+
+# Check we can disable run-dependent text on the command line
+IgnoreFilters
+
+# Check we can reset run-dependent text
+ResetFilters

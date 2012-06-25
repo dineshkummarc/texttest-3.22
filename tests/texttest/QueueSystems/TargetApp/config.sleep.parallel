@@ -1,0 +1,15 @@
+
+queue_system_processes:2
+
+# Get a performance file out and see that it has the right form...
+[performance_test_machine]
+cputime:fake_machine1
+cputime:fake_machine2
+
+# How much variation in performance do we allow, in percentage of total runtime? 
+[performance_variation_%]
+cputime:10
+
+# How long (in seconds) must a test be before performance comparison is used?
+[performance_test_minimum]
+cputime:0

@@ -1,0 +1,13 @@
+base_version:vcs
+
+link_test_path:cvsroot
+
+[test_data_environment]
+cvsroot:CVSROOT
+
+[run_dependent_text]
+# sometimes caused by symbolic links...
+externalmocks:cd .*/TargetApp.cvs{REPLACE cd <test write dir>/TargetApp}
+# file references
+pythonmocks:at 0x[0-9a-fA-F]*{REPLACE at <pointer>}
+pythonmocks:/dev/null{REPLACE nul}

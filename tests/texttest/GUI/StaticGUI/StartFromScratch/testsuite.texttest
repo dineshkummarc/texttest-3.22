@@ -1,0 +1,35 @@
+# Ordered list of tests in test suite. Add as appropriate
+
+
+# Check that adding a suite to an empty test suite works
+AddSuite
+
+# Make sure an existing directory doesn't trip us up
+AddToExistingTest
+
+# Try to create a test that clashes with an existing file name
+FileNameClash
+
+# Try to re-add an existing test - should fail
+AddDuplicateTest
+
+# Test names shouldn't be allowed to contain spaces
+TestNameWithSpace
+
+# Re-add a test which is just commented out - should complain at test files...
+AddCommentedTest
+
+# Check that saved new files from the dynamic GUI get shown in the static GUI
+SaveNewFiles
+
+# Check that saving new files causes others to recompute
+RefreshNewFiles
+
+# Make sure we can add and remove a test from scratch
+AddAndRemoveTest
+
+# Save a selection without creating things first
+SaveFirstSelection
+
+# This particular sequence of test creations triggers some sort of PyGTK issue if we don't block the TreeModelFilter...
+TreeModelFilterBug

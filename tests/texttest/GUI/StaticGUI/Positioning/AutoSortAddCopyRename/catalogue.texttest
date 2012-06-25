@@ -1,0 +1,22 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------Game9952
+------------A04_copy
+----------------output.dip
+------------S01.87
+----------------output.dip
+------------S06
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------Game9952
+------------testsuite.dip
+
+The following existing files/directories were deleted:
+<Test Directory>
+----TargetApp
+--------Game9952
+------------S04
+----------------output.dip

@@ -1,0 +1,11 @@
+Using Application HELLO
+Generating web pages...
+Generating page for HELLO
+Writing overview pages...
+wrote: 'test_default.html'
+wrote: 'test_default_all_Jan2006.html'
+Writing detail pages...
+wrote: 'test_default_18Jan2006.html'
+Completed web page generation.
+No file at '/nfs/vm/texttest-tmp/geoff/texttest.23Nov142228.27911/texttest/TestSelf/KnownBugs/BugzillaPlugin/Version3/LinkBugInHtmlReport/report/summary_template.html', copying default file from installation
+wrote: '/nfs/vm/texttest-tmp/geoff/texttest.23Nov142228.27911/texttest/TestSelf/KnownBugs/BugzillaPlugin/Version3/LinkBugInHtmlReport/report/index.html'

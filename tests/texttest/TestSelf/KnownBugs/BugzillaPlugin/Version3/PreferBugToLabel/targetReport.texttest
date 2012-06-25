@@ -1,0 +1,43 @@
+known bugs=1
+09Feb2010
+HELLO : 1 tests : 1 known bugs
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests had known bugs : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Test : bug 42 (NEW)
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that had known bugs follows...
+--------------------------------------------------------
+TEST had known bugs (bug 42 (NEW)) on khwai : HELLO test-case Test (under Test)
+******************************
+Summary: Not greeting the world properly
+Bug Status: NEW
+
+Assigned to: 92
+Bug severity: normal
+Component: system
+Component id: 2
+Creation ts: 2006.04.12 10:28
+Delta ts: 2006-04-12 10:28:25
+Everconfirmed: 1
+Priority: 3
+Product: SACM
+Product id: 4
+Reporter id: 92
+Status: {'is_open': 1, 'value': 'NEW', 'sortkey': 100, 'id': 1}
+******************************
+
+View bug 42 using bugzilla URL=http://bugzilla.mysite.com/show_bug.cgi?id=42
+
+---------- Differences in output ----------
+1c1
+< Hello world
+---
+> Hello after 5 seconds
+

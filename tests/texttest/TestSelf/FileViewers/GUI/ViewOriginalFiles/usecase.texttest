@@ -1,0 +1,8 @@
+wait for completion of test actions
+view actions for file output.hello
+view original file
+wait for file editing operations to complete
+view actions for file output.hello
+view filtered original file
+wait for file editing operations to complete
+quit

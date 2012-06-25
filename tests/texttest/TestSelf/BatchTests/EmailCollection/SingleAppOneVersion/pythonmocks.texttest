@@ -1,0 +1,70 @@
+<-PYT:import smtplib
+<-PYT:smtplib.SMTP()
+->RET:Instance('SMTP', 'smtp1')
+<-PYT:smtp1.connect('localhost')
+->RET:(220, 'novyy.got.jeppesensystems.com ESMTP Sendmail 8.13.8/8.13.8; Tue, 9 Feb 2010 15:20:28 +0100')
+<-PYT:smtp1.sendmail('geoff@localhost', ['tom'], '''From: geoff@localhost
+To: tom
+Subject: 040908 FAKE cas : 3 tests ran, all unrunnable
+
+040908 Matador badrule.extraversion : 3 tests : 3 unrunnable
+
+Matador badrule.extraversion : 2 tests : 2 unrunnable
+Matador badrule.extraversion.parallel : 1 tests : 1 unrunnable
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+Matador badrule.extraversion : 2 tests : 2 unrunnable
+
+The following tests could not be run : 
+In Matador test-suite TargetApp:
+  In Matador test-suite ArtificialUser:
+    - Matador test-case matador_2            
+    - Matador test-case generate_in_subperiod
+
+
+Matador badrule.extraversion.parallel : 1 tests : 1 unrunnable
+
+The following tests could not be run : 
+In Matador test-suite TargetApp:
+  In Matador test-suite ArtificialUser:
+    - Matador test-case generate_in_subperiod
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+Matador badrule.extraversion : 2 tests : 2 unrunnable
+
+
+Detailed information for the tests that could not be run follows...
+--------------------------------------------------------
+TEST could not be run : Matador test-case matador_2             (under ArtificialUser/matador_2)
+Failed to build ruleset Matador_5_bad
+Build Rave program Matador_5_bad started on ninilchik, 08 September 19:18
+Generating code... 
+*** Trouble report (2 errors, 0 warnings):
+
+"source/Matador_5_bad", line 18.22:
+      16: %cost_weight% = parameter 1;
+      17: 
+      18: %cost_of_a_roster% = sum(leg(roser),%cost_weight%);
+                               ^^^
+   ERROR: Missing parent level in traverser
+   ERROR: Undefined level _topmodule.roser in traverser
+
+--------------------------------------------------------
+TEST could not be run : Matador test-case generate_in_subperiod (under ArtificialUser/generate_in_subperiod)
+Trying to use ruleset \'Matador_5_bad\' that failed to build.
+
+---------------------------------------------------------------------------------
+Matador badrule.extraversion.parallel : 1 tests : 1 unrunnable
+
+
+Detailed information for the tests that could not be run follows...
+--------------------------------------------------------
+TEST could not be run : Matador test-case generate_in_subperiod (under ArtificialUser/generate_in_subperiod)
+Trying to use ruleset \'Matador_5_bad\' that failed to build.
+
+''')
+->RET:{}
+<-PYT:smtp1.quit()

@@ -1,0 +1,6 @@
+
+extra_search_directory:dir1
+extra_search_directory:dir2
+
+import_config_file:imported1
+import_config_file:imported2

@@ -1,0 +1,25 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------junitformat.29Jul161825.22562
+------------batchreport.hello
+------------hello
+----------------BothDiff
+--------------------framework_tmp
+------------------------teststate
+----------------OutDiff
+--------------------framework_tmp
+------------------------teststate
+----------------Success
+--------------------framework_tmp
+------------------------teststate
+----------------suite
+--------------------OutDiff2
+------------------------framework_tmp
+----------------------------teststate
+------------junitreport
+----------------hello
+--------------------BothDiff.xml
+--------------------OutDiff.xml
+--------------------OutDiff2.xml
+--------------------Success.xml

@@ -1,0 +1,5 @@
+batch_result_repository:repository
+historical_report_location:report
+
+[performance_variation_serious_%]
+cputime:20

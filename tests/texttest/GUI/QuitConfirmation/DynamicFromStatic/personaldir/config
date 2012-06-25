@@ -1,0 +1,7 @@
+#
+# Test regexs here too
+#
+[query_kill_processes]
+dynamic:.*
+static:emacs
+[end]

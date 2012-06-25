@@ -1,0 +1,6 @@
+
+[Reported by geoff at 14Sep10:59:02]
+search_string:Killed in _poll
+search_file:output
+full_description:Has a slight tendency to pick up core files produced by SIGXCPU
+brief_description:core file problem

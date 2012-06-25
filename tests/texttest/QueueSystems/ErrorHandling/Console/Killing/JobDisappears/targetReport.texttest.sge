@@ -1,0 +1,23 @@
+unrunnable=1
+27Apr2011
+SLEEP killing : 1 tests : 1 unrunnable
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests could not be run : 
+In SLEEP.killing test-suite TargetApp:
+  - SLEEP.killing test-case Basic : SGE job exited
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that could not be run follows...
+--------------------------------------------------------
+TEST could not be run : SLEEP.killing test-case Basic (under Basic)
+SGE job exited
+---------- Full accounting info from SGE ----------
+SGE lost job: 1
+qdel output was as follows:
+denied: job 1 does not exist
+

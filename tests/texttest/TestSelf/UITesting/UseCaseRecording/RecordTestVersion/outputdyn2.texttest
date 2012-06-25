@@ -1,0 +1,12 @@
+Using Application VideoStore, version version, checkout /carm/proj/texttest-tmp/geoff/texttest.06Aug171915.31393/texttest/TestSelf/UITesting/UseCaseRecording/RecordTestVersion/TargetApp/source_with_pyc
+Running VideoStore.version test-suite TargetApp
+  Running VideoStore.version test-case t1
+Comparing differences for VideoStore.version test-suite TargetApp
+  Comparing differences for VideoStore.version test-case t1 (on errors.gui,output.gui,usecase.gui)
+  VideoStore.version test-case t1 FAILED : differences in output
+---------- Differences in output ----------
+1c1
+< Started the video store. The process ID is 27857
+---
+> Started the video store. The process ID is 27871
+  Saving VideoStore.version test-case t1 (exact) 

@@ -1,0 +1,3 @@
+Total Logperf  :      5.0 seconds on perf_machine1
+Also on perf_machine1 : johnny's job 4849948 'a_very_long_job_name'
+Also on perf_machine1 : mary's job 4849949 'another_very_long_job_name'

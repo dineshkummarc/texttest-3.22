@@ -1,0 +1,12 @@
+wait for completion of test actions
+set test selection to Two
+show file menu
+save selected tests in file
+enter filter-file name = filter1
+press save
+set test selection to Three
+show file menu
+save selected tests in file
+enter filter-file name = filter2
+press save
+quit

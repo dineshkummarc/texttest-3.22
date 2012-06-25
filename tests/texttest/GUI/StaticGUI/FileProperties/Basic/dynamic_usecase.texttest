@@ -1,0 +1,9 @@
+wait for completion of test actions
+select tests in category Group 1
+view options for Test
+view actions for file output.hello
+set test selection to Test under TargetApp (hello)
+view actions for file errors.hello
+show properties of selected files
+press close
+quit

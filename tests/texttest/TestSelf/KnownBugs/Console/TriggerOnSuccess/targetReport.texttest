@@ -1,0 +1,19 @@
+known bugs=1
+01Oct2007
+HELLO success.unchanged : 1 tests : 1 known bugs
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests had known bugs : 
+In HELLO.success.unchanged test-suite TargetApp:
+  - HELLO.success.unchanged test-case Test : Delay bug
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that had known bugs follows...
+--------------------------------------------------------
+TEST had known bugs (Delay bug) on painesville : HELLO.success.unchanged test-case Test (under Test)
+Known problem with delay
+

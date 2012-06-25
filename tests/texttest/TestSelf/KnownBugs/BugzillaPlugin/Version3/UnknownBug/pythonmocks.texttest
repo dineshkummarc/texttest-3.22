@@ -1,0 +1,7 @@
+<-PYT:import xmlrpclib
+<-PYT:xmlrpclib.ServerProxy('http://bugzilla.mysite.com/xmlrpc.cgi')
+->RET:Instance('ServerProxy', 'serverproxy1')
+<-PYT:serverproxy1.Bug.get_bugs({'ids': ['42']})
+->RET:raise Instance('Fault(Error, exceptions.Exception)', 'fault1')
+<-PYT:fault1.faultString
+->RET:'Bug #42 does not exist.'

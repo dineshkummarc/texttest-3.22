@@ -1,0 +1,7 @@
+ShowLog
+
+# Press the status button and make sure it works...
+StatusFromLog
+
+# Show log in dynamic GUI, make sure only files visible in the dynamic GUI are reported.
+DynamicLog

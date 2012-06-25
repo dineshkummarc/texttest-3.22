@@ -1,0 +1,17 @@
+Using Application Env Variables, version clear
+Running Env Variables.clear test-suite TargetApp
+  Running Env Variables.clear test-suite Suite1
+    Running Env Variables.clear test-case Test1
+Comparing differences for Env Variables.clear test-suite TargetApp
+  Comparing differences for Env Variables.clear test-suite Suite1
+    Comparing differences for Env Variables.clear test-case Test1 - SUCCESS! (on output.env)
+  Running Env Variables.clear test-case Test2
+  Comparing differences for Env Variables.clear test-case Test2 (on output.env)
+  Env Variables.clear test-case Test2 FAILED : differences in output
+  View details(v), Save Version clear(1), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+1c1
+< VAR1 = default
+---
+> VAR1  NOT DEFINED
+  Save Version clear(1), Save(s) or continue(any other key)?

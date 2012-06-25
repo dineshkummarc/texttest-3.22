@@ -1,0 +1,16 @@
+Using Application HELLO
+Using Application HELLO, version b.c
+Running HELLO test-suite TargetApp
+  Running HELLO test-suite Suite1
+    Running HELLO test-case One1
+Comparing differences for HELLO test-suite TargetApp
+  Comparing differences for HELLO test-suite Suite1
+    Comparing differences for HELLO test-case One1 - SUCCESS! (on errors.hello,output.hello)
+Running HELLO.b.c test-suite TargetApp
+  Running HELLO.b.c test-suite Suite1
+    Running HELLO.b.c test-case Two
+Comparing differences for HELLO.b.c test-suite TargetApp
+  Comparing differences for HELLO.b.c test-suite Suite1
+    Comparing differences for HELLO.b.c test-case Two (on errors.hello,output.hello)
+    HELLO.b.c test-case Two FAILED : differences in output
+    View details(v), Save Version b.c(1), Save Version b(2), Save Version c(3), Save(s) or continue(any other key)?

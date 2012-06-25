@@ -1,0 +1,5 @@
+batch_use_version_filtering:true
+
+[batch_version]
+self_test:batch
+[end]

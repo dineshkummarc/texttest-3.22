@@ -1,0 +1,20 @@
+Started the video store. The process ID is 20480
+
+---------- Window 'The Video Store' ----------
+Focus widget is 'GtkEntry'
+'New Movie Name  ' , Text entry , Button 'Add'
+
+Showing GtkTreeView with columns: Movie Name
+----------------------------------------------
+
+'set new movie name to' event created with arguments 'Star Wars'
+Edited 'GtkEntry' Text entry (set to 'Star Wars')
+
+'add movie' event created with arguments ''
+Adding movie 'Star Wars'. There are now 1 movies.
+
+Updated : GtkTreeView with columns: Movie Name
+-> Star Wars
+
+'close' event created with arguments ''
+Exiting the video store!

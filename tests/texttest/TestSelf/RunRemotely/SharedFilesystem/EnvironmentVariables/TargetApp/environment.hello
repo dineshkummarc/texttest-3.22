@@ -1,0 +1,2 @@
+MY_ENV_VAR:test data
+FUNNY_SHELL_SYNTAX:test $(BAD_VARIABLE)

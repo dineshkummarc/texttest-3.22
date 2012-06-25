@@ -1,0 +1,5 @@
+wait for all tests to be read
+set test selection to Test1,Test3,Test4
+remove selected tests
+answer yes to texttest confirmation
+quit

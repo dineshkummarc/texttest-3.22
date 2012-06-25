@@ -1,0 +1,5 @@
+wait for completion of test actions
+set file selection to errors.hello,output.hello
+view differences
+wait for the graphical difference program to terminate
+quit

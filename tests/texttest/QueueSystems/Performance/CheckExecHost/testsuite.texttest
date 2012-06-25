@@ -1,0 +1,24 @@
+# Ordered list of tests in test suite. Add as appropriate
+# Get performance when resources matches execution machine
+PerfResource
+
+# Land on a non-perf machine with performance_test_resource
+NoPerfResource
+
+# Land on a performance machine using performance_test_machine instead
+PerfMachine
+
+# Don't land on a performance machine with an explicit list given
+NoPerfMachine
+
+# Copy of PerfResource, but have two execution hosts
+PerfParallel
+
+# Copy of NoPerfResource, but one machine of two is OK
+NoPerfParallel
+
+# Copy of PerfResource, but don't report domain names
+ShortMachineNames
+
+# What happens if the memory resource doesn't exist?
+BadMemoryResource

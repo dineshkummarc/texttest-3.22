@@ -1,0 +1,9 @@
+wait for completion of test actions
+show test suite TargetApp (hello.extra2)
+set test selection to Common under TargetApp (hello.extra2)
+show test suite TargetApp (hello.extra1)
+set test selection to Common under TargetApp (hello.extra2),Extra1
+save selected tests in file
+enter filter-file name = two
+press save
+quit

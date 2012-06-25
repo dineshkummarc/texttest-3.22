@@ -1,0 +1,6 @@
+wait for all tests to be read
+set test selection to One1,Super
+save selected tests in file
+enter filter-file name = filter1
+press save
+quit

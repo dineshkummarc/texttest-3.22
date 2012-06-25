@@ -1,0 +1,6 @@
+I wrote a file in <writedir> today.
+And on Windows, I wrote one called <writedir> as well.
+But the default location on Windows has spaces in it, like <writedir>
+And you can even get them on the same line, like "<writedir>" and "<writedir>"
+I set a variable file=<writedir>
+And quoted it a bit "<writedir>".

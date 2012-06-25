@@ -1,0 +1,10 @@
+Using Application FAKE
+Collecting batch files locally...
+Found file called batchreport.fake.dip
+Found file called batchreport.fake.dip.interr
+Not including batchreport.fake.dip.interr as run is more than 2 days old (as determined by batch_collect_max_age_days).
+Found file called batchreport.fake.core
+Creating batch report for application FAKE ...
+done.
+Generating web pages...
+Completed web page generation.

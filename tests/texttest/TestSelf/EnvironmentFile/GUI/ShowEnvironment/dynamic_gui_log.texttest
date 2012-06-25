@@ -1,0 +1,239 @@
+
+---------- Window 'BADBINARY.cmdvar,Env Variables.cmdvar tests (started at 23Jun10:22:22) - TextTest dynamic GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+  _Kill (Stock image 'gtk-stop', greyed out, accelerator 'Ctrl+Delete', tooltip 'Kill selected tests')
+  _Save (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S', tooltip 'Save results for selected tests')
+  Progress bar set to fraction 0.0, text 'All 0 tests completed at 23Jun10:22:25'
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected , Details
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 23Jun10:22:25.' , Image 'throbber_inactive.png'
+----------------------------------------------------------------------------------------------------
+
+Progress bar set to fraction 0.0, text '0 of 1 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (env.cmdvar) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Test1 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+
+Progress bar set to fraction 0.0, text '0 of 2 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/2 selected, none hidden , Details
+-> TargetApp (env.cmdvar) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Test1 (black/white) | (white)
+->   Test2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/2 selected, none hidden , Details
+-> TargetApp (env.cmdvar) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Test1 (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Test2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/2 selected, none hidden , Details
+-> TargetApp (env.cmdvar) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Test1 (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Test2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/2 selected, none hidden , Details
+-> TargetApp (env.cmdvar) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Test1 (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Test2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Progress bar set to fraction 0.5, text '1 of 2 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/2 selected, none hidden , Details
+-> TargetApp (env.cmdvar) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Test1 (black/salmon) | output different (salmon)
+->   Test2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/2 selected, none hidden , Details
+-> TargetApp (env.cmdvar) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Test1 (black/salmon) | output different (salmon)
+->   Test2 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/2 selected, none hidden , Details
+-> TargetApp (env.cmdvar) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Test1 (black/salmon) | output different (salmon)
+->   Test2 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/2 selected, none hidden , Details
+-> TargetApp (env.cmdvar) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Test1 (black/salmon) | output different (salmon)
+->   Test2 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+Progress bar set to fraction 1.0, text 'All 2 tests completed at 23Jun10:22:26'
+
+Updated : Test Tree with columns: Tests: 0/2 selected, none hidden , Details
+-> TargetApp (env.cmdvar) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Test1 (black/salmon) | output different (salmon)
+->   Test2 (black/DarkSeaGreen2) | (DarkSeaGreen2)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Expected application event 'completion of test actions' occurred, proceeding.
+
+'set test selection to' event created with arguments 'Test1'
+
+No longer greyed out : _Save
+
+Changed selection in Test Tree with columns: Tests: 1/2 selected, none hidden , Details
+-> TargetApp (env.cmdvar) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Test1 (black/salmon) | output different (salmon)   ***
+->   Test2 (black/DarkSeaGreen2) | (DarkSeaGreen2)
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: Test1 , Details
+-> Comparison Files (bold)
+->   output.env (salmon) | (salmon)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+Test FAILED :
+---------- Differences in output ----------
+1c1
+< VAR1 = value1
+---
+> VAR1 = the_right_value
+3a4
+> Got argument 'the_right_value'
+===============================
+
+'view options for' event created with arguments 'Run Info'
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Run Info'
+...........
+
+========== Run Info ==========
+Application name : Env Variables
+Version          : cmdvar
+Number of tests  : 2
+Executable       : /carm/proj/texttest-tmp/geoff/dynamic_gui.23Jun102109.22208/texttest.gui/TestSelf/EnvironmentFile/GUI/ShowEnvironment/TargetApp/printenv.py
+
+Command line     : /users/geoff/work/master/Testing/TextTest/bin/texttest.py --vanilla site -v cmdvar -g
+
+Start time       : 23Jun10:22:22
+End time         : 23Jun10:22:26
+==============================
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Test Run Info ==========
+Selected test  : Suite1/Test1
+
+Start time       : 23Jun10:22:25
+End time         : 23Jun10:22:26
+
+Description:
+The First Test
+
+Command Line   : python /carm/proj/texttest-tmp/geoff/dynamic_gui.23Jun102109.22208/texttest.gui/TestSelf/EnvironmentFile/GUI/ShowEnvironment/TargetApp/printenv.py the_right_value
+
+Environment variables :
+PATH=/carm/proj/texttest-tmp/geoff/dynamic_gui.23Jun102109.22208/texttest.gui/TestSelf/EnvironmentFile/GUI/ShowEnvironment/texttesttmp/dynamic_gui.cmdvar.23Jun102222.17182/env.cmdvar/Suite1/Test1:/carm/proj/texttest-tmp/geoff/dynamic_gui.23Jun102109.22208/texttest.gui/TestSelf/EnvironmentFile/GUI/ShowEnvironment:/users/geoff/bin:/carm/proj/texttest/release/current/site/bin:/usr/local/share/sge6.2/bin/lx24-amd64:/users/geoff/bin:/carm/proj/texttest/release/current/site/bin:/tmp/814509.1.short:/users/geoff/bin:/carm/proj/texttest/release/current/site/bin:/users/geoff/bin:/carm/proj/texttest/release/current/site/bin:/usr/local/share/sge6.2/bin/lx24-amd64:/usr/lib64/qt-3.3/bin:/carm/rational/releases/PurifyPlus.7.0.1/i386_linux2/bin:/usr/local/sbin:/usr/kerberos/bin:/usr/local/bin:/usr/bin:/bin:/usr/X11R6/bin:/usr/sbin:/sbin:/usr/local/share/texttest/site/bin:/usr/local/share/java/apache-maven-2.2.1/bin:/opt/dell/srvadmin/bin
+TEXTTEST_ROOT=/carm/proj/texttest-tmp/geoff/dynamic_gui.23Jun102109.22208/texttest.gui/TestSelf/EnvironmentFile/GUI/ShowEnvironment/TargetApp
+TEXTTEST_SANDBOX=/carm/proj/texttest-tmp/geoff/dynamic_gui.23Jun102109.22208/texttest.gui/TestSelf/EnvironmentFile/GUI/ShowEnvironment/texttesttmp/dynamic_gui.cmdvar.23Jun102222.17182/env.cmdvar/Suite1/Test1
+TEXTTEST_SANDBOX_ROOT=/carm/proj/texttest-tmp/geoff/dynamic_gui.23Jun102109.22208/texttest.gui/TestSelf/EnvironmentFile/GUI/ShowEnvironment/texttesttmp/dynamic_gui.cmdvar.23Jun102222.17182
+USECASE_HOME=.
+USECASE_REPLAY_SCRIPT=
+VAR1=the_right_value
+VAR2=value2
+===================================
+
+'quit' event created with arguments ''

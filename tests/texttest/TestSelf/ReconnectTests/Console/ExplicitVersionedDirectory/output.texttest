@@ -1,0 +1,5 @@
+Rejected Application HELLO - Could not find any runs matching Application HELLO
+Using Application HELLO, version version
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.17Feb153233.5527/texttest/TestSelf/ReconnectTests/Console/ExplicitVersionedDirectory/texttesttmp/dynamic_gui.version.13Apr105512.4356/hello.version
+Reconnecting to HELLO.version test-suite TargetApp
+  Reconnecting to HELLO.version test-case Test (state success)

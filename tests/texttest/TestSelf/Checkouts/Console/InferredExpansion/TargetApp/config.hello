@@ -1,0 +1,9 @@
+import_config_file:${STANDARD}
+
+executable:$TEXTTEST_CHECKOUT/hello.py
+
+default_interface:console
+
+default_checkout:checkout1
+checkout_location:some_load_of_nonsense
+checkout_location:$TEXTTEST_HOME/checkouts

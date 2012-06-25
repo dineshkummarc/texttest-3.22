@@ -1,0 +1,13 @@
+wait for all tests to be read
+set test selection to TargetApp (hello)
+view actions for file testsuite.hello
+show properties of selected files
+press close
+set test selection to Test
+set file selection to output.hello,datadir
+view actions for file datadir
+show properties of selected files
+press close
+run selected tests
+wait for dynamic GUI to be closed
+quit

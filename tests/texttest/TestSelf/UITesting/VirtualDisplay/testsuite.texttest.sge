@@ -1,0 +1,8 @@
+# Make sure we aren't reliant on rsh for things to work, if we use localhost, just start things locally
+DisplayOnLocalHost
+
+# Queuesystem slaves should be able to do this too...
+SlaveDisplay
+
+# Make sure virtual displays don't screw up the combination of different configurations
+OtherAppDefaultConfig

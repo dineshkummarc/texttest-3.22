@@ -1,0 +1,34 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------orig
+------------config.hello
+------------overwritetests.py
+------------testsuite.hello
+------------suite1
+----------------testsuite.hello
+------------t1
+----------------output.hello
+
+The following existing files/directories were deleted:
+<Test Directory>
+----TargetApp
+--------new
+------------subdir
+----------------config.hello
+----------------overwritetests.py
+----------------testsuite.hello
+----------------suite1
+--------------------testsuite.hello
+----------------t1
+--------------------output.hello
+--------orig
+------------suite1
+----------------t1
+--------------------output.hello
+----------------t2
+--------------------output.hello

@@ -1,0 +1,5 @@
+wait for all tests to be read
+enter tests for version = extra1
+filter tests to show only those indicated
+set test selection to TargetApp (hello)
+quit

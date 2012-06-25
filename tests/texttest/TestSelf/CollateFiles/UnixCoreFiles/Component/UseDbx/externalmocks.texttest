@@ -1,0 +1,62 @@
+<-CMD:gdb -q -batch -x /tmp/354774.1.short/tmpBei1PVcoreCommands.gdb /bin/grep fakecore
+->OUT:(no debugging symbols found)...#0  0x0000000000000000 in ?? ()
+#0  0x0000000000000000 in ?? ()
+->ERR:
+warning: Couldn't find general-purpose registers in core file.
+
+
+warning: Wrong size fpregset in core file.
+
+warning: Lowest section in /usr/lib/sparcv9/libdl.so.1 is .dynamic at 00000000000000e8
+
+warning: Lowest section in /usr/lib/sparcv9/libthread.so.1 is .dynamic at 00000000000000b0
+
+warning: sol_thread_new_objfile: td_ta_new: Debugger service failed
+
+warning: sol_thread_new_objfile: td_ta_new: Debugger service failed
+
+warning: sol_thread_new_objfile: td_ta_new: Debugger service failed
+
+warning: sol_thread_new_objfile: td_ta_new: Debugger service failed
+
+warning: sol_thread_new_objfile: td_ta_new: Debugger service failed
+
+warning: sol_thread_new_objfile: td_ta_new: Debugger service failed
+
+warning: sol_thread_new_objfile: td_ta_new: Debugger service failed
+
+warning: Couldn't find general-purpose registers in core file.
+
+
+warning: Wrong size fpregset in core file.
+<-CMD:dbx -f -q -c "where; quit" /bin/grep fakecore
+->OUT:core file header read successfully
+t@2 (l@2) program terminated by signal SEGV (Segmentation Fault)
+0xffffffff7e1ce4a0: __pollsys+0x0008:	blu      _cerror	! 0xffffffff7e12cdc4
+current thread: t@2
+=>[1] __pollsys(0x4, 0x0, 0xffffffff7cffa990, 0x0, 0xffffffff7d900000, 0x0), at 0xffffffff7e1ce4a0 
+  [2] _pollsys(0xffffffff7cffa8d0, 0x0, 0xffffffff7cffa990, 0x0, 0x0, 0x0), at 0xffffffff7e1c08f4 
+  [3] _pselect(0x0, 0xffffffff7cffa8d0, 0xffffffff7e2ed5e8, 0xffffffff7e2ed5e8, 0xffffffff7cffa990, 0x0), at 0xffffffff7e16d0ec 
+  [4] _select(0x0, 0x0, 0x0, 0x0, 0xffffffff7cffaab0, 0x2f800), at 0xffffffff7e16d490 
+  [5] floatsleep(0x100000, 0xffffffff7d502928, 0xffffffff7cffab70, 0xffffffffffeffd20, 0x1002b4, 0x100000), at 0xffffffff7d5029d0 
+  [6] time_sleep(0x0, 0x1001b0510, 0x1c00, 0x1, 0x10138c, 0x1c00), at 0xffffffff7d5018bc 
+  [7] call_function(0xffffffff7cffad78, 0x100222fa0, 0x1001b0510, 0x100178580, 0x0, 0xffffffff7f307e60), at 0xffffffff7f1b3b10 
+  [8] PyEval_EvalFrame(0x1001783f0, 0x83, 0x0, 0xffffffff7f322220, 0x0, 0x1001aeea0), at 0xffffffff7f1b06ac 
+  [9] fast_function(0x0, 0xffffffff7cffb058, 0x0, 0x0, 0x0, 0x0), at 0xffffffff7f1b40a8 
+  [10] call_function(0xffffffff7cffb058, 0x2, 0x0, 0x100177ff8, 0xffffffff7f1acfe0, 0xffffffff7f307e60), at 0xffffffff7f1b3e60 
+  [11] PyEval_EvalFrame(0x100177e70, 0x83, 0x0, 0xffffffff7f322220, 0x0, 0x1001aede0), at 0xffffffff7f1b06ac 
+  [12] PyEval_EvalCodeEx(0x1001a1880, 0x100144200, 0x0, 0x100103068, 0x100177e70, 0x100177ff8), at 0xffffffff7f1b2064 
+  [13] function_call(0x100227578, 0x100103050, 0x1002667f0, 0x100147160, 0x0, 0xffffffff7cffb24c), at 0xffffffff7f1509fc 
+  [14] PyObject_Call(0x100227578, 0x100103050, 0x1002667f0, 0x100103050, 0x1d03ac, 0xffffffff7f307e60), at 0xffffffff7f137adc 
+  [15] ext_do_call(0x0, 0xffffffff7cffb4f0, 0x100103050, 0x0, 0x0, 0x100103050), at 0xffffffff7f1b4948 
+  [16] PyEval_EvalFrame(0x1001c69c0, 0x4, 0x0, 0xffffffff7f322220, 0x0, 0x1001ba298), at 0xffffffff7f1b07bc 
+  [17] fast_function(0xfffffffffffffffd, 0x1001c6b50, 0x100184300, 0x0, 0x1, 0x1001c3d90), at 0xffffffff7f1b40a8 
+  [18] call_function(0xffffffff7cffb7d8, 0x0, 0x1, 0x1001842f8, 0xffffffff7f1acfe0, 0xffffffff7f307e60), at 0xffffffff7f1b3e60 
+  [19] PyEval_EvalFrame(0x100184150, 0x83, 0x0, 0xffffffff7f322220, 0x0, 0x1001b7db0), at 0xffffffff7f1b06ac 
+  [20] PyEval_EvalCodeEx(0x1001bc1f0, 0x100169060, 0x1001842e0, 0x1001b0468, 0x100184150, 0x0), at 0xffffffff7f1b2064 
+  [21] function_call(0x1002258c0, 0x1001b0450, 0x0, 0x42f48, 0x1b75d4, 0x4), at 0xffffffff7f150a4c 
+  [22] PyObject_Call(0x1002258c0, 0x1001b0450, 0x0, 0x7, 0x1d03ac, 0xffffffff7f307e60), at 0xffffffff7f137adc 
+  [23] instancemethod_call(0x1001a72d0, 0x1001b0450, 0x0, 0x0, 0xffffffff7da018f0, 0x0), at 0xffffffff7f141394 
+  [24] PyObject_Call(0x1001a72d0, 0x100103050, 0x0, 0x2c0, 0x1d03ac, 0xffffffff7f307e60), at 0xffffffff7f137adc 
+  [25] PyEval_CallObjectWithKeywords(0x1001a72d0, 0x100103050, 0x0, 0xffffffff7f307e60, 0x0, 0x104800), at 0xffffffff7f1b36dc 
+  [26] t_bootstrap(0x100148f70, 0x1fc000, 0x0, 0x100222fa0, 0xffffffff7f307e60, 0x1), at 0xffffffff7f1e3c80 

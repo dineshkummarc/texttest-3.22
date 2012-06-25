@@ -1,0 +1,14 @@
+Using Application APPIDENTIFIER
+auto_collapse_successful|1|Automatically collapse successful test suites?
+file_colours|{'final_filter': 'LightGoldenrod1', 'success': 'DarkSeaGreen2', 'default': 'salmon', 'not_started': 'white', 'marked': 'orange', 'clipboard_copy': 'grey60', 'failure': 'salmon', 'running': 'LightGoldenrod1', 'static': 'grey90', 'clipboard_cut': 'red', 'pending': 'grey80', 'initial_filter': 'LightGoldenrod1'}|Colours to use for each file state
+gui_accelerators|{'unmark': '<control><shift>u', 'recompute_status': 'F5', 'rename_test': '<control>m', 'kill': '<control>Delete', 'reconnect': '<control><shift>r', 'remove_tests': '<control>Delete', 'record_use-case': 'F9', 'move_up': '<control>Page_Up', 'quit': '<control>q', 'cut': '<control>x', 'mark': '<control><shift>m', 'move_down': '<control>Page_Down', 'select': '<control><alt>f', 'enter_failure_information': '<control>i', 'save': '<control>s', 'save_selection': '<control>d', 'run': '<control>r', 'save_as': '<control><alt>s', 'add_test': '<control>n', 'copy': '<control>c', 'paste': '<control>v', 'reset': '<control>e', 'load_selection': '<control><shift>o', 'move_to_last': '<control>End', 'refresh': 'F5', 'filter': '<control>f', 'rerun': '<control>r', 'move_to_first': '<control>Home'}|Custom action accelerators.
+gui_entry_completion_inline|0|Automatically inline common completion prefix in entry.
+gui_entry_completion_matching|1|Which matching type to use for entry completion. 0 means turn entry completions off, 1 means match the start of possible completions, 2 means match any part of possible completions
+gui_entry_completions|{'default': []}|Add these completions to the entry completion lists initially
+hide_gui_element|{'status_bar': 0, 'shortcut_bar': 0, 'toolbar': 0}|List of widgets to hide by default
+hide_test_category|[]|Categories of tests which should not appear in the dynamic GUI test view
+query_kill_processes|{'default': [], 'static': ['Dynamic GUI']}|Ask about whether to kill these processes when exiting texttest.
+sort_test_suites_recursively|1|Sort subsuites when sorting test suites
+static_collapse_suites|0|Whether or not the static GUI will show everything collapsed
+test_colours|{'final_filter': 'LightGoldenrod1', 'success': 'DarkSeaGreen2', 'default': 'salmon', 'not_started': 'white', 'marked': 'orange', 'clipboard_copy': 'grey60', 'failure': 'salmon', 'running': 'LightGoldenrod1', 'static': 'grey90', 'clipboard_cut': 'red', 'pending': 'grey80', 'initial_filter': 'LightGoldenrod1'}|Colours to use for each test state
+window_size|{'height_pixels': '<not set>', 'width_screen': 0.6, 'width_pixels': '<not set>', 'vertical_separator_position': 0.5, 'height_screen': 0.833333333333, 'maximize': 0, 'horizontal_separator_position': 0.46}|To set the initial size of the dynamic/static GUI.

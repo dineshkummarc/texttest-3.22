@@ -1,0 +1,11 @@
+Using Application HELLO, version filtered
+Running HELLO.filtered test-suite TargetApp
+  Running HELLO.filtered test-suite Suite1
+    Running HELLO.filtered test-case One1
+Comparing differences for HELLO.filtered test-suite TargetApp
+  Comparing differences for HELLO.filtered test-suite Suite1
+    Comparing differences for HELLO.filtered test-case One1 - SUCCESS! (on errors.hello,output.hello)
+    Running HELLO.filtered test-case Three
+    Comparing differences for HELLO.filtered test-case Three (on errors.hello,output.hello)
+    HELLO.filtered test-case Three FAILED : differences in errors
+    View details(v), Save Version filtered(1), Save(s) or continue(any other key)?

@@ -1,0 +1,9 @@
+import_config_file:$STANDARD
+
+default_interface:console
+
+create_catalogues:true
+
+log_file:output
+
+catalogue_process_string:Leaking sleep process

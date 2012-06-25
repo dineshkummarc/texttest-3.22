@@ -1,0 +1,4 @@
+<-CMD:rsh fake_machine1 which Xvfb && echo "remote cmd succeeded"
+->OUT:Xvfb: Command not found.
+<-CMD:rsh fake_machine2 which Xvfb && echo "remote cmd succeeded"
+->OUT:Xvfb: Command not found.

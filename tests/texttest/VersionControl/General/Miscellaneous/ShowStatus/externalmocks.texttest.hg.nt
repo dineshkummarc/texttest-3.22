@@ -1,0 +1,16 @@
+<-CMD:hg status -A C:/TextTest/personal/tmp/texttest.hg.22Nov155754.7728/texttest.hg/VersionControl/General/Miscellaneous/ShowStatus/TargetApp/Test1/errors.hello
+->OUT:M TargetApp/Test1/errors.hello
+<-CMD:hg status -A C:/TextTest/personal/tmp/texttest.hg.22Nov155754.7728/texttest.hg/VersionControl/General/Miscellaneous/ShowStatus/TargetApp/Test1/output.hello
+->OUT:C TargetApp/Test1/output.hello
+<-CMD:hg status -A C:/TextTest/personal/tmp/texttest.hg.22Nov155754.7728/texttest.hg/VersionControl/General/Miscellaneous/ShowStatus/TargetApp/Test1/output.hello.version
+->OUT:? TargetApp/Test1/output.hello.version
+<-CMD:hg annotate -f -n C:/TextTest/personal/tmp/texttest.hg.22Nov155754.7728/texttest.hg/VersionControl/General/Miscellaneous/ShowStatus/TargetApp/Test1/errors.hello
+->OUT:4 Test1/errors.hello: Added an extra line
+<-CMD:hg diff -g -r tip C:/TextTest/personal/tmp/texttest.hg.22Nov155754.7728/texttest.hg/VersionControl/General/Miscellaneous/ShowStatus/TargetApp/Test1/errors.hello
+->OUT:diff --git a/TargetApp/Test1/errors.hello b/TargetApp/Test1/errors.hello
+--- a/TargetApp/Test1/errors.hello
++++ b/TargetApp/Test1/errors.hello
+@@ -1,1 +0,0 @@
+-Added an extra line
+<-CMD:hg status -A C:/TextTest/personal/tmp/texttest.hg.22Nov155754.7728/texttest.hg/VersionControl/General/Miscellaneous/ShowStatus/TargetApp/Test2/output.hello
+->OUT:M TargetApp/Test2/output.hello

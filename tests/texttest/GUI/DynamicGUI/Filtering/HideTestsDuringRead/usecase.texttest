@@ -1,0 +1,4 @@
+wait for test configuration to be read, test t1 to be read
+hide tests in category Not started
+wait for completion of test actions
+quit

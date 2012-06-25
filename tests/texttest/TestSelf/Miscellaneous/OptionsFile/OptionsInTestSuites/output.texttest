@@ -1,0 +1,5 @@
+Using Application HELLO, version version
+Running HELLO.version test-suite TargetApp
+  Running HELLO.version test-case Test
+Comparing differences for HELLO.version test-suite TargetApp
+  Comparing differences for HELLO.version test-case Test - SUCCESS! (on errors.hello,output.hello)

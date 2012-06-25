@@ -1,0 +1,13 @@
+wait for all tests to be read
+set test selection to Test
+copy selected tests
+paste tests from clipboard
+rename selected test
+enter new name = Test2
+press ok
+remove selected tests
+answer yes to texttest confirmation
+set test selection to Test
+copy selected tests
+paste tests from clipboard
+quit

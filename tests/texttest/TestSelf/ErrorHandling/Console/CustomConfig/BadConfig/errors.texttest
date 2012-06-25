@@ -1,0 +1,11 @@
+Description of exception thrown :
+Traceback (most recent call last):
+  File "/users/geoff/work/master/Testing/TextTest/lib/testmodel.py", line 1273, in makeConfigObject
+    return plugins.importAndCall(moduleName, "getConfig", self.inputOptions)
+  File "/users/geoff/work/master/Testing/TextTest/lib/plugins.py", line 74, in importAndCall
+    exec command
+  File "<string>", line 1, in <module>
+  File "/carm/proj/texttest-tmp/geoff/texttest.08Sep155156.10252/texttest/TestSelf/ErrorHandling/Console/CustomConfig/BadConfig/customconfig.py", line 1, in <module>
+    svsdsvgdf
+NameError: name 'svsdsvgdf' is not defined
+Unable to load application from file 'config.hello' - config_module 'customconfig' contained errors and could not be imported.

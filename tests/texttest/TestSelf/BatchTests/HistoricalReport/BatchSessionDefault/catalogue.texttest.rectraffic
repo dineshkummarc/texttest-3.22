@@ -1,0 +1,21 @@
+The following new files/directories were created:
+<Test Directory>
+----report
+--------index.html
+--------summary_template.html
+--------hello
+------------test_normal.html
+------------test_normal_18Jan2006.html
+------------test_normal_21Jan2006.html
+------------test_normal_22Jan2006_Rel1.1.html
+------------test_normal_23Jan2006.html
+------------test_normal_24Jan2006.html
+------------test_normal_25Jan2006.html
+------------test_normal_26Jan2006_Rel1.2.html
+------------test_normal_all_Jan2006.html
+------------images
+----------------test_normal.png
+----------------test_normal_all_Jan2006.png
+--------javascript
+------------filter.js
+------------jquery.js

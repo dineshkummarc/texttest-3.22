@@ -1,0 +1,5 @@
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/UpdateSuite/TargetApp; cvs update -dP
+->FIL:TargetApp
+->OUT:U Test/result.hello
+->ERR:cvs update: Updating .
+cvs update: Updating Test

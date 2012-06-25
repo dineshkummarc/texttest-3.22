@@ -1,0 +1,8 @@
+# This test has a bunch of writeable data
+Test1
+
+# While this one has readable data and some environment files...
+Test2
+
+# This test has a bunch of writeable data
+Test1_copy

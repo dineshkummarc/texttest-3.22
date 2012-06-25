@@ -1,0 +1,11 @@
+Using Application SLEEP
+Running SLEEP test-suite TargetApp
+  Running SLEEP test-suite Suite1
+    Running SLEEP test-case Basic
+Comparing differences for SLEEP test-suite TargetApp
+  Comparing differences for SLEEP test-suite Suite1
+    Comparing differences for SLEEP test-case Basic (on errors.sleep,output.sleep)
+  Running SLEEP test-suite Suite
+    Running SLEEP test-case Basic3
+  Comparing differences for SLEEP test-suite Suite
+    Comparing differences for SLEEP test-case Basic3 (on errors.sleep,output.sleep)

@@ -1,0 +1,5 @@
+[batch_collect_compulsory_version]
+default:core
+some_session:cas
+some_session:interr
+some_session:missingrun

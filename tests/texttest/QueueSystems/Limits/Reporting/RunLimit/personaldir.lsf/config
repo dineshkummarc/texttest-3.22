@@ -1,0 +1,2 @@
+queue_system_module:LSF
+queue_system_submit_args:-W 1

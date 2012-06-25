@@ -1,0 +1,13 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------NameMismatch
+------------traffic.edit.version
+------------file_edits.version
+----------------file
+----------------file.edit_2
+----------------file2
+----------------writedir
+--------------------subdir
+------------------------file
+----texttesttmp

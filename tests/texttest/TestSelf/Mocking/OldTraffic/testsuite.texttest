@@ -1,0 +1,5 @@
+# Should print an error and exit
+RefuseToRun
+
+# Check our attempts at automated migration
+ConvertScript

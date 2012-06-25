@@ -1,0 +1,22 @@
+wait for all tests to be read
+set test selection to A05
+copy selected tests
+set test selection to S05
+paste tests from clipboard
+rename selected test
+enter new name = A04_copy
+enter new description = Copy of A04
+press ok
+set test selection to S04
+rename selected test
+enter new name = S01.87
+press ok
+set test selection to Game9952
+add test
+enter test name = B01
+enter test description = Correctly ordered?
+press ok
+rename selected test
+enter new name = S06
+press ok
+quit

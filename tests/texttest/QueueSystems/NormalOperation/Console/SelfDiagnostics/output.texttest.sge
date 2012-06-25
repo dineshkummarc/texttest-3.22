@@ -1,0 +1,4 @@
+TextTest will write diagnostics in /carm/proj/texttest-tmp/geoff/texttest.03Jun113433.13390/texttest.sge/QueueSystems/NormalOperation/Console/SelfDiagnostics/log based on file at /carm/proj/texttest-tmp/geoff/texttest.03Jun113433.13390/texttest.sge/QueueSystems/NormalOperation/Console/SelfDiagnostics/log/logging.debug
+standard log INFO - Using SGE queues for Application SLEEP, version startdigit
+standard log INFO - Q: Submitting SLEEP.startdigit test-case 123Test to default SGE queue
+standard log INFO - S: SLEEP.startdigit test-case 123Test succeeded on shelbyville

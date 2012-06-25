@@ -1,0 +1,4 @@
+WARNING: A file was generated with stem 'options'.
+This stem is intended to indicate a definition file and hence should not be generated.
+Please change the configuration so that the file is called something else,
+or adjust the config file setting 'definition_file_stems' accordingly.

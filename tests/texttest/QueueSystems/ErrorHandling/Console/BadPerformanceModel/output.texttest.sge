@@ -1,0 +1,11 @@
+Using SGE queues for Application SLEEP, version badperfarch
+Q: Submitting SLEEP.badperfarch test-case Basic to default SGE queue
+S: SLEEP.badperfarch test-case Basic not compared:
+Failed to submit to SGE (Unable to run job: error: no suitable queues.)
+Submission command was 'qsub -N Test-Basic-SLEEP.badperfarch -l arch=no_such_arch -w e -notify -m n -cwd -b y -V -o Test-Basic-SLEEP.badperfarch.log -e Test-Basic-SLEEP.badperfarch.errors ... '
+
+Q: Submitting SLEEP.badperfarch test-case Basic2 to default SGE queue
+S: SLEEP.badperfarch test-case Basic2 not compared:
+Failed to submit to SGE (Unable to run job: error: no suitable queues.)
+Submission command was 'qsub -N Test-Basic2-SLEEP.badperfarch -l arch=no_such_arch -w e -notify -m n -cwd -b y -V -o Test-Basic2-SLEEP.badperfarch.log -e Test-Basic2-SLEEP.badperfarch.errors ... '
+

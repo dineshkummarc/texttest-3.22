@@ -1,0 +1,9 @@
+
+import_config_file:$STANDARD
+
+import_config_file:imported1
+import_config_file:imported_after
+
+run_dependent_text:mainfile
+
+full_name:Main Name

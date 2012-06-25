@@ -1,0 +1,5 @@
+Using Application TEST
+Running TEST test-suite TargetApp
+  Running TEST test-case hello
+Comparing differences for TEST test-suite TargetApp
+  Comparing differences for TEST test-case hello - SUCCESS! (on errors.test,output.test)

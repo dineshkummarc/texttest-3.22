@@ -1,0 +1,8 @@
+# Check we get a refresh on editing the options file
+RefreshTest
+
+# Check we can see the environment settings in the GUI
+ShowEnvironment
+
+# Check that settings in the advanced tab propagate correctly
+TemporarySettings

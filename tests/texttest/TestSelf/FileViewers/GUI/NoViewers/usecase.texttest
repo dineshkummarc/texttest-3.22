@@ -1,0 +1,7 @@
+wait for all tests to be read
+set test selection to Test
+select file errors.hello
+agree to texttest message
+select file output.hello
+agree to texttest message
+quit

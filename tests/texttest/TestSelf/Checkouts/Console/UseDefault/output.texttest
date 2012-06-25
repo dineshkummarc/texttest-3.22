@@ -1,0 +1,5 @@
+Using Application HELLO, checkout /carm/proj/texttest-tmp/geoff/texttest.30Mar153906.11545/texttest/TestSelf/Checkouts/Console/UseDefault/TargetApp/checkout1/source
+Running HELLO test-suite TargetApp
+  Running HELLO test-case Test
+Comparing differences for HELLO test-suite TargetApp
+  Comparing differences for HELLO test-case Test - SUCCESS! (on output.hello)

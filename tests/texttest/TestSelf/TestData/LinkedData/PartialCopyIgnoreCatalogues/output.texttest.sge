@@ -1,0 +1,3 @@
+Using SGE queues for Application TDAT, version queuesystem
+Q: Submitting TDAT.queuesystem test-case Test1 to default SGE queue
+S: TDAT.queuesystem test-case Test1 succeeded on statesville

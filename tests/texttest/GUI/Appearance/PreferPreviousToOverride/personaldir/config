@@ -1,0 +1,5 @@
+[gui_entry_overrides]
+version_to_reconnect_to:version_from_config
+
+[gui_entry_options]
+temporary_result_directory:$TEXTTEST_HOME

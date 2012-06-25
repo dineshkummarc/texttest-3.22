@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+
+import signal, shutil
+
+shutil.copyfile("Xvfb2", "Xvfb")
+signal.pause()

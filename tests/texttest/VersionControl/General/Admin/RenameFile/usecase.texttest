@@ -1,0 +1,13 @@
+wait for all tests to be read
+set test selection to Test1
+set file selection to output.hello
+view actions for file output.hello
+rename selected file
+enter new name for file = output_renamed.hello
+press ok
+set file selection to output.hello.version
+view actions for file output.hello.version
+rename selected file
+enter new name for file = output_renamed.hello.version
+press ok
+quit

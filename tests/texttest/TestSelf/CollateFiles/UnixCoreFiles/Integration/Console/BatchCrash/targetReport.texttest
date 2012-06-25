@@ -1,0 +1,26 @@
+CRASHED=1
+14Jan2008
+CORE : 1 tests : 1 CRASHED
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests CRASHED : 
+In CORE test-suite TargetApp:
+  - CORE test-case DumpCore : Segmentation fault in ___newselect_nocancel
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that CRASHED follows...
+--------------------------------------------------------
+TEST CRASHED (Segmentation fault in ___newselect_nocancel) on portmoller : CORE test-case DumpCore (under DumpCore)
+(Core file at /carm/proj/texttest-tmp/geoff/texttest.11Dec180717/texttest/TestSelf/CollateFiles/UnixOnly/Console/BatchCrash/texttesttmp/console.11Dec180740/core/DumpCore/core)
+(Created by binary /bin/grep)
+Program terminated with signal 11, Segmentation fault.
+Stack trace from gdb :
+___newselect_nocancel 
+inittime_the_fake_version 
+?? 
+?? 
+

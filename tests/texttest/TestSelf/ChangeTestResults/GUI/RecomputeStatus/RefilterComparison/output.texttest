@@ -1,0 +1,10 @@
+Using Application HELLO, version 2
+Using Application HELLO, version 2.4
+Running HELLO.2 test-suite TargetApp
+  Running HELLO.2 test-case Test
+Comparing differences for HELLO.2 test-suite TargetApp
+  Comparing differences for HELLO.2 test-case Test (on errors.hello,output.hello)
+Running HELLO.2.4 test-suite TargetApp
+  Running HELLO.2.4 test-case Test
+Comparing differences for HELLO.2.4 test-suite TargetApp
+  Comparing differences for HELLO.2.4 test-case Test (on errors.hello,output.hello)

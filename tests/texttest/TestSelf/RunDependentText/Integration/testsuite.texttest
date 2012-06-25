@@ -1,0 +1,8 @@
+# Ordinary run_dependent_text tests
+Basic
+
+# Tests for unordered_text config file setting
+UnorderedText
+
+# Filtering TextTest's internal write directory
+TestWriteDir

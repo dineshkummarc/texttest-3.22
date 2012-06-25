@@ -1,0 +1,4 @@
+# Accept anything from diff, instead of just the actual text
+
+[text_diff_program_filters]
+diff:.*

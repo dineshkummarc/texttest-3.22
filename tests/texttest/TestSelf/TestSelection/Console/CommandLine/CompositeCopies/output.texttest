@@ -1,0 +1,28 @@
+Using Application HELLO, version v1
+Using Application HELLO, version v1.copy_1
+Using Application HELLO, version v2
+Using Application HELLO, version v2.copy_1
+Running HELLO.v1 test-suite TargetApp
+  Running HELLO.v1 test-suite Suite1
+    Running HELLO.v1 test-case One1
+Comparing differences for HELLO.v1 test-suite TargetApp
+  Comparing differences for HELLO.v1 test-suite Suite1
+    Comparing differences for HELLO.v1 test-case One1 - SUCCESS! (on errors.hello,output.hello)
+Running HELLO.v1.copy_1 test-suite TargetApp
+  Running HELLO.v1.copy_1 test-suite Suite1
+    Running HELLO.v1.copy_1 test-case One1
+Comparing differences for HELLO.v1.copy_1 test-suite TargetApp
+  Comparing differences for HELLO.v1.copy_1 test-suite Suite1
+    Comparing differences for HELLO.v1.copy_1 test-case One1 - SUCCESS! (on errors.hello,output.hello)
+Running HELLO.v2 test-suite TargetApp
+  Running HELLO.v2 test-suite Suite1
+    Running HELLO.v2 test-case One1
+Comparing differences for HELLO.v2 test-suite TargetApp
+  Comparing differences for HELLO.v2 test-suite Suite1
+    Comparing differences for HELLO.v2 test-case One1 - SUCCESS! (on errors.hello,output.hello)
+Running HELLO.v2.copy_1 test-suite TargetApp
+  Running HELLO.v2.copy_1 test-suite Suite1
+    Running HELLO.v2.copy_1 test-case One1
+Comparing differences for HELLO.v2.copy_1 test-suite TargetApp
+  Comparing differences for HELLO.v2.copy_1 test-suite Suite1
+    Comparing differences for HELLO.v2.copy_1 test-case One1 - SUCCESS! (on errors.hello,output.hello)

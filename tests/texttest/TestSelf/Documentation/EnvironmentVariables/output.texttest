@@ -1,0 +1,21 @@
+Using Application APPIDENTIFIER
+The following variables may be set by the user :
+STORYTEXT_HOME|$TEXTTEST_HOME/storytext|Location to store shortcuts from the GUI
+TEXTTEST_DYNAMIC_GUI_INTERPRETER||Alternative interpreter for the dynamic GUI : mostly useful for coverage / testing
+TEXTTEST_HOME|.|Alias for TEXTTEST_PATH
+TEXTTEST_PATH|$TEXTTEST_HOME|Root directories of the test suite
+TEXTTEST_PERSONAL_CONFIG|~/.texttest|Location of personal configuration
+TEXTTEST_PERSONAL_LOG|$TEXTTEST_PERSONAL_CONFIG/log|Location to write TextTest's internal logs
+TEXTTEST_SLAVE_CMD|<source directory>/bin/texttest.py|TextTest start-script for starting subsequent processes
+TEXTTEST_TMP|Config value 'default_texttest_tmp'|Location of temporary files from test runs
+TEXTTEST_XVFB_WAIT|15|Time to wait for Xvfb to set up connections
+The following variables are set by TextTest :
+TEXTTEST_CHECKOUT|Full path to the checkout directory
+TEXTTEST_CHECKOUT_NAME|Local name of the checkout directory
+TEXTTEST_FOLLOW_FILE_TITLE|Title of the window when following file progress
+TEXTTEST_ROOT|Full path to the root directory for each test application
+TEXTTEST_SANDBOX|Full path to the sandbox directory
+TEXTTEST_SANDBOX_ROOT|Full path to the sandbox root directory
+USECASE_RECORD_SCRIPT|Full path to the script to record in GUI tests
+USECASE_REPLAY_DELAY|Time to wait between each action in GUI tests
+USECASE_REPLAY_SCRIPT|Full path to the script to replay in GUI tests

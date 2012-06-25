@@ -1,0 +1,5 @@
+Rejected Application HELLO, version v1 - Could not find any runs matching Application HELLO, version v1
+Using Application HELLO, version v1.v2
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.15Jan165422.22253/texttest/TestSelf/ReconnectTests/GUI/SingleSubVersionOnly/texttesttmp/hello.v1.v2.13Apr104321.3824/hello.v1.v2
+Reconnecting to HELLO.v1.v2 test-suite TargetApp
+  Reconnecting to HELLO.v1.v2 test-case Test (state success)

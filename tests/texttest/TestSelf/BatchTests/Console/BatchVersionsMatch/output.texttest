@@ -1,0 +1,8 @@
+Using Application HELLO, version batch.defined
+Running HELLO.batch.defined test-suite TargetApp
+  Running HELLO.batch.defined test-case BothDiff
+Comparing differences for HELLO.batch.defined test-suite TargetApp
+  Comparing differences for HELLO.batch.defined test-case BothDiff (on errors.hello,output.hello)
+  HELLO.batch.defined test-case BothDiff FAILED on juliaca : differences in errors,output
+Creating batch report for application HELLO ...
+done.

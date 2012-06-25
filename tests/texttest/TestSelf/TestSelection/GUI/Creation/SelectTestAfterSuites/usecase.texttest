@@ -1,0 +1,8 @@
+wait for all tests to be read
+set test selection to TargetApp (hello)
+set test selection to Suite1
+set test selection to One1
+set test selection to Suite1
+set test selection to One1
+set test selection to Suite1
+quit

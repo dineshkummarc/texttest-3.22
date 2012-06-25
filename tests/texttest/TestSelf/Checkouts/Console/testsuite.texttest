@@ -1,0 +1,49 @@
+# Ordered list of tests in test suite. Add as appropriate
+# Make sure we pick up and use default_checkout correctly
+UseDefault
+
+# Check we can override with a generic short identifier
+OverrideGeneric
+
+# Override a short-named checkout that is explicitly given a different structure
+OverrideSpecific
+
+# Check we can read a list and take the first that exists
+MultipleOptions
+
+# Check that we don't have expansion problems with extra:versions
+ExtraVersion
+
+# Check we can infer checkouts from batch settings, but
+# don't infer default checkout from default batch session
+BatchInferCheckout
+DefaultBatchSession
+
+# Tests for the "old style" checkout expansion
+InferredExpansion
+
+# Check what happens when we give paths that doesn't exist
+BadAbsolutePath
+BadRelativePath
+
+# Check what happens if we give -c but nothing can be expanded
+BadExpansion
+
+# Check that reconnection is allowed even when checkouts aren't there
+ReconnectBadCheckout
+
+# Check we can find filter files that depend on the checkout location
+FilterFileInCheckout
+
+# Check we can get a run going with -c c1,c2 on the command line
+RunMultipleCheckouts
+
+# If the abbreviated one comes last, don't fail...
+# 
+RunMultipleCheckoutsOrder
+
+# Provide some funny multiple checkouts and check they get given sensible version names
+MultiCheckoutVersionNames
+
+# Make sure a dodgy checkout doesn't stop us counting the tests...
+CountTestBadCheckout

@@ -1,0 +1,8 @@
+wait for all tests to be read
+set test selection to PrintPermissions
+copy selected tests
+paste tests from clipboard
+set test selection to PrintPermissions,PrintPermissions_copy
+run selected tests
+wait for dynamic GUI to be closed
+quit

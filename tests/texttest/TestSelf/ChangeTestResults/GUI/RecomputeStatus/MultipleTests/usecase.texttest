@@ -1,0 +1,13 @@
+wait for completion of test actions
+set test selection to OutDiff under TargetApp (hello.2)
+save results with non-default settings
+enter version to save = 
+press ok
+set test selection to OutDiff under TargetApp (hello.2),Success under TargetApp (hello.2),BothDiff under TargetApp (hello.2),ErrDiff under TargetApp (hello.2),OutDiff under TargetApp (hello.3),Success under TargetApp (hello.3),BothDiff under TargetApp (hello.3),ErrDiff under TargetApp (hello.3),OutDiff under TargetApp (hello.4),Success under TargetApp (hello.4),BothDiff under TargetApp (hello.4),ErrDiff under TargetApp (hello.4)
+recompute test status, including progress information if appropriate
+set test selection to ErrDiff under TargetApp (hello.3)
+save results with non-default settings
+press ok
+set test selection to ErrDiff under TargetApp (hello.2),OutDiff under TargetApp (hello.2),Success under TargetApp (hello.2),BothDiff under TargetApp (hello.2),OutDiff under TargetApp (hello.3),Success under TargetApp (hello.3),BothDiff under TargetApp (hello.3),ErrDiff under TargetApp (hello.3),OutDiff under TargetApp (hello.4),Success under TargetApp (hello.4),BothDiff under TargetApp (hello.4),ErrDiff under TargetApp (hello.4)
+recompute test status, including progress information if appropriate
+quit

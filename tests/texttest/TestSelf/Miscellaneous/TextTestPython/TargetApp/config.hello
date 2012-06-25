@@ -1,0 +1,6 @@
+import_config_file:$STANDARD
+
+default_interface:console
+
+# Magic name to mean "TextTest's Python version"
+interpreter:ttpython

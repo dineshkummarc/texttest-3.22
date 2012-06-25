@@ -1,0 +1,7 @@
+Using Application TDAT, version copy
+Running TDAT.copy test-suite TargetApp
+  Running TDAT.copy test-case Test1
+Comparing differences for TDAT.copy test-suite TargetApp
+  Comparing differences for TDAT.copy test-case Test1 (on catalogue.tdat,errors.tdat,newfile.tdat,output.tdat)
+  TDAT.copy test-case Test1 FAILED : new results in newfile
+  View details(v), Save Version copy(1), Save(s) or continue(any other key)?

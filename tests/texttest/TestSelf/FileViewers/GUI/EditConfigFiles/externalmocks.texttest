@@ -1,0 +1,6 @@
+<-CMD:emacs /carm/proj/texttest-tmp/geoff/texttest.18Jun155203.12820/texttest/TestSelf/FileViewers/GUI/EditConfigFiles/TargetApp/Test/data1
+<-CMD:emacs /carm/proj/texttest-tmp/geoff/texttest.18Jun155203.12820/texttest/TestSelf/FileViewers/GUI/EditConfigFiles/TargetApp/Test/data2
+<-CMD:emacs /carm/proj/texttest-tmp/geoff/texttest.18Jun155203.12820/texttest/TestSelf/FileViewers/GUI/EditConfigFiles/TargetApp/config.hello
+->FIL:config.hello
+<-CMD:emacs /carm/proj/texttest-tmp/geoff/texttest.18Jun155203.12820/texttest/TestSelf/FileViewers/GUI/EditConfigFiles/personaldir/config
+->FIL:config

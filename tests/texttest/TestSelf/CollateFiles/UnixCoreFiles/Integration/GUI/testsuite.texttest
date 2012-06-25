@@ -1,0 +1,11 @@
+# Check for bug where GUI creates uncrashable tests
+InteractiveCrash
+
+# Don't make the window enormous just because we have huge function names...
+WideCrashText
+
+# Check what happens when we recompute a crashed test
+RecomputeCrash
+
+# Check that we're allowed to save crashed tests, and that it works :)
+SaveCrash

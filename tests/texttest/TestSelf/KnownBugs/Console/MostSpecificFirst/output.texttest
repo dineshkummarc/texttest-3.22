@@ -1,0 +1,8 @@
+Using Application HELLO, version textinfile
+Running HELLO.textinfile test-suite TargetApp
+  Running HELLO.textinfile test-case Test
+Comparing differences for HELLO.textinfile test-suite TargetApp
+  Comparing differences for HELLO.textinfile test-case Test (on errors.hello,output.hello)
+  HELLO.textinfile test-case Test had known bugs (Delay bug) on painesville : differences in output
+Creating batch report for application HELLO ...
+File written.

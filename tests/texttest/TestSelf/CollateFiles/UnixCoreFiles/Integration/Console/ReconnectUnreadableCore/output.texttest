@@ -1,0 +1,11 @@
+Using Application CORE
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.01Jun095308.16635/texttest/TestSelf/CollateFiles/UnixCoreFiles/Integration/Console/ReconnectUnreadableCore/texttesttmp/local.01Jun094958.16578/core
+Reconnecting to CORE test-suite TargetApp
+  Reconnecting to CORE test-case DumpCore (recomputing)
+Comparing differences for CORE test-suite TargetApp
+  Comparing differences for CORE test-case DumpCore (on errors.core,output.core,stacktrace.core)
+  CORE test-case DumpCore CRASHED (No binary found from core) :
+  View details(v), Save(s) or continue(any other key)?
+(Core file at /carm/proj/texttest-tmp/geoff/local.01Jun094958.16578/core/DumpCore/core)
+Could not find binary name '' from core file : Stack trace not produced for crash
+  Save(s) or continue(any other key)?

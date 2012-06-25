@@ -1,0 +1,4 @@
+
+# How much variation in memory do we allow, in percentage of total memory used? (lots) 
+[performance_variation_%]
+memory:20

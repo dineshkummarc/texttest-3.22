@@ -1,0 +1,16 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------npstIII
+------------Game47
+----------------S01_copy
+--------------------output.dip
+----------------S01_copy_2
+--------------------output.dip
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------npstIII
+------------Game47
+----------------testsuite.dip

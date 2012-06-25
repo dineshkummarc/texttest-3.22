@@ -1,0 +1,2 @@
+# consistent behaviour in case default Python too old for CaptureMock
+interpreter:ttpython

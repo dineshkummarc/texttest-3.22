@@ -1,0 +1,17 @@
+wait for all tests to be read
+set test selection to Subsuite
+version control add for the selected files
+close add window
+recursive version control add for the selected files
+select errors.hello under Test4
+show version control status
+close status window
+close add window
+set test selection to Test2
+recursive version control add for the selected files
+close add window
+set test selection to Test1
+version control add for the selected files
+select output.hello.version
+close add window
+quit

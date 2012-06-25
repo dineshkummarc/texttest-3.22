@@ -1,0 +1,23 @@
+# Testing the 'verify quit' dialog, asking about all child processes
+AllStatic
+
+# Verify quitting when xemacs and tkdiff running, close one at a time and check dialog updates
+MultipleDynamic
+
+# Verify quit, but only for texttest
+DynamicFromStatic
+
+# Use bad regular expressions as strings
+BadRegularExpression
+
+# Check we can add a name forthe run which will also request a quit confirmation
+SetRunName
+
+# Check -name from the command line is the same as View/Set Run Name in the dynamic GUI
+RunNameFromCmdLine
+
+# Check -name passes through to the dynamic GUI
+RunNameFromStaticGUI
+
+# Check the message when we have both a run name and active processes
+RunNameWithProcesses

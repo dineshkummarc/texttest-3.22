@@ -1,0 +1,54 @@
+faster=1,slower=2,succeeded=1
+26Sep2007
+PERF : 4 tests : 1 faster, 2 slower
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests ran faster : 
+In PERF test-suite TargetApp:
+  - PERF test-case Failures               : 100% faster
+
+The following tests ran slower : 
+In PERF test-suite TargetApp:
+  - PERF test-case FailuresCurrBelowLimit : 150% slower
+  - PERF test-case FailuresZeroTime       : infinitely slower
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that ran faster follows...
+--------------------------------------------------------
+TEST ran faster on lineville : PERF test-case Failures (under Failures)
+---------- Differences in performance(faster) ----------
+1,2c1
+< CPU time   :       10.0 sec. on sedom
+< Real time  :       18.2 sec.
+---
+> Total Performance  :      5.0 seconds on lineville
+
+Detailed information for the tests that ran slower follows...
+--------------------------------------------------------
+TEST ran slower on lineville : PERF test-case FailuresCurrBelowLimit (under FailuresCurrBelowLimit)
+---------- Differences in performance(slower) ----------
+1,2c1
+< CPU time   :       2.0 sec. on sedom
+< Real time  :       18.2 sec.
+---
+> Total Performance  :      5.0 seconds on lineville
+--------------------------------------------------------
+TEST ran slower on lineville : PERF test-case FailuresZeroTime (under FailuresZeroTime)
+---------- Differences in performance(slower) ----------
+1,2c1
+< CPU time   :       0.0 sec. on sedom
+< Real time  :       18.2 sec.
+---
+> Total Performance  :      5.0 seconds on lineville
+
+Summary of all Successful tests follows...
+---------------------------------------------------------------------------------
+The following tests succeeded : 
+In PERF test-suite TargetApp:
+  - PERF test-case Success
+
+

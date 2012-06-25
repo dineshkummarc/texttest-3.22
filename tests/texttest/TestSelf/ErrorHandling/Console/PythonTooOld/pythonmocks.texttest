@@ -1,0 +1,2 @@
+<-PYT:sys.version_info
+->RET:(2, 3, 4, 'final', 0)

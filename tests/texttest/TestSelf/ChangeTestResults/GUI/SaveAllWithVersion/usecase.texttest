@@ -1,0 +1,6 @@
+wait for completion of test actions
+set test selection to ErrDiff,OutDiff,Success,BothDiff
+save results with non-default settings
+enter version to save = 2
+press ok
+quit

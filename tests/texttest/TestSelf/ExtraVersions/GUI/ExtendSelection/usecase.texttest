@@ -1,0 +1,6 @@
+wait for all tests to be read
+set test selection to Common,Base,Extra1
+enter test names containing = x
+choose extend for current selection
+select indicated tests
+quit

@@ -1,0 +1,4 @@
+executable:${TEXTTEST_CHECKOUT}/TargetApp/hello.py
+
+checkout_location:{CLEAR LIST}
+checkout_location:${TEXTTEST_HOME}/..

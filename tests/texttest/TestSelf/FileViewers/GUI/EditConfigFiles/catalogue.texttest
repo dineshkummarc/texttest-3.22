@@ -1,0 +1,13 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------Test
+------------data1
+------------data2
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------config.hello
+----personaldir
+--------config

@@ -1,0 +1,11 @@
+Using Application HELLO
+Using Application HELLO, version extra1
+Using Application HELLO, version extra2
+Running HELLO.extra1 test-suite TargetApp
+  Running HELLO.extra1 test-case Extra1
+Comparing differences for HELLO.extra1 test-suite TargetApp
+  Comparing differences for HELLO.extra1 test-case Extra1 - SUCCESS! (on errors.hello,output.hello.extra1)
+Running HELLO.extra2 test-suite TargetApp
+  Running HELLO.extra2 test-case Extra2
+Comparing differences for HELLO.extra2 test-suite TargetApp
+  Comparing differences for HELLO.extra2 test-case Extra2 - SUCCESS! (on errors.hello,output.hello)

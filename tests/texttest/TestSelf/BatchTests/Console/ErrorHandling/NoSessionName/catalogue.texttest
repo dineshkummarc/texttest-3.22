@@ -1,0 +1,26 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------console.30Apr164152.32203
+------------hello
+----------------BothDiff
+--------------------errors.hello
+--------------------output.hello
+--------------------framework_tmp
+------------------------teststate
+----------------OutDiff
+--------------------errors.hello
+--------------------output.hello
+--------------------framework_tmp
+------------------------teststate
+----------------Success
+--------------------errors.hello
+--------------------output.hello
+--------------------framework_tmp
+------------------------teststate
+----------------suite
+--------------------OutDiff2
+------------------------errors.hello
+------------------------output.hello
+------------------------framework_tmp
+----------------------------teststate

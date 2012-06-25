@@ -1,0 +1,13 @@
+wait for all tests to be read
+set test selection to Test1
+cut selected tests
+set test selection to Suite
+paste tests from clipboard
+set test selection to Test4
+cut selected tests
+set test selection to Suite
+paste tests from clipboard
+set test selection to Test4 under Suite,Test1 under Suite
+version control status for the selected files
+close status window
+quit

@@ -1,0 +1,19 @@
+Using Application EDIT, version version
+Running EDIT.version test-suite TargetApp
+  Running EDIT.version test-case Test
+Comparing differences for EDIT.version test-suite TargetApp
+  Comparing differences for EDIT.version test-case Test (on catalogue.edit,editedfile.edit,editedfile2.edit,errors.edit,output.edit,traffic.edit,editedfile3.edit)
+  EDIT.version test-case Test FAILED : missing results for editedfile3, differences in catalogue,traffic
+  View details(v), Save Version version(1), Save(s) or continue(any other key)?
+---------- Differences in catalogue ----------
+6,8d5
+< ----writedir
+< --------subdir
+< ------------file
+---------- Differences in traffic ----------
+8d7
+< ->FIL:writedir
+---------- Missing result in editedfile3 ----------
+dummy
+The Editor has made its mark
+  Save Version version(1), Save(s) or continue(any other key)?

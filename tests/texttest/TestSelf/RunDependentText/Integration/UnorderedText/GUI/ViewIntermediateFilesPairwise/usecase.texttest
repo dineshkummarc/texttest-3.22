@@ -1,0 +1,7 @@
+wait for completion of test actions
+select tests in category Group 1
+view options for Test
+view actions for file output.rdt
+view content-filtered differences between tests
+wait for the graphical difference program to terminate
+quit

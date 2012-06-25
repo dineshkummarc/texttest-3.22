@@ -1,0 +1,11 @@
+Using SGE queues for Application SLEEP, version badqueue
+Q: Submitting SLEEP.badqueue test-case Basic to SGE queue non_existent
+S: SLEEP.badqueue test-case Basic not compared:
+Failed to submit to SGE (Unable to run job: Job was rejected because job requests unknown queue "non_existent".)
+Submission command was 'qsub -N Test-Basic-SLEEP.badqueue -q non_existent -w e -notify -m n -cwd -b y -V -o Test-Basic-SLEEP.badqueue.log -e Test-Basic-SLEEP.badqueue.errors ... '
+
+Q: Submitting SLEEP.badqueue test-case Basic2 to SGE queue non_existent
+S: SLEEP.badqueue test-case Basic2 not compared:
+Failed to submit to SGE (Unable to run job: Job was rejected because job requests unknown queue "non_existent".)
+Submission command was 'qsub -N Test-Basic2-SLEEP.badqueue -q non_existent -w e -notify -m n -cwd -b y -V -o Test-Basic2-SLEEP.badqueue.log -e Test-Basic2-SLEEP.badqueue.errors ... '
+

@@ -1,0 +1,12 @@
+wait for all tests to be read
+set test selection to S02
+view options for Running
+enter run this version = blah
+view options for Selection
+enter test names containing = blah
+check select in collapsed suites
+choose extend for current selection
+choose refine for current filtering
+reset selection tab
+view options for Running
+quit

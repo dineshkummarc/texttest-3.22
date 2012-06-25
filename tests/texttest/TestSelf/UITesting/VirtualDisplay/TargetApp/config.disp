@@ -1,0 +1,8 @@
+executable:$TEXTTEST_HOME/display.py
+
+default_interface:console
+
+use_case_record_mode:GUI
+
+# Avoid tkdiff processes to manage as we have to fake ps...
+log_file:errors

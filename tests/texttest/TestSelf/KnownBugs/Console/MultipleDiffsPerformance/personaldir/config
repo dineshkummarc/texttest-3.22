@@ -1,0 +1,7 @@
+log_file:output
+
+[performance_test_machine]
+performance:any
+
+[performance_logfile_extractor]
+performance:Hello after

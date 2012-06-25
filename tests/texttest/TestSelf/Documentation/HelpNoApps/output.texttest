@@ -1,0 +1,8 @@
+TextTest didn't find any valid test applications - you probably need to tell it where to find them.
+The most common way to do this is to set the environment variable TEXTTEST_HOME.
+If this makes no sense, read the online documentation...
+
+Note: the purpose of this help is primarily to document derived configurations and how they differ from the
+defaults. To find information on the configurations provided with texttest, consult the documentation at
+http://www.texttest.org
+

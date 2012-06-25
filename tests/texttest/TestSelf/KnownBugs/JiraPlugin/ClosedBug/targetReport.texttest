@@ -1,0 +1,46 @@
+internal errors=1
+01Oct2010
+HELLO : 1 tests : 1 internal errors
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests had internal errors : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Test : bug FAK-42 (Won't Fix)
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that had internal errors follows...
+--------------------------------------------------------
+TEST had internal errors (bug FAK-42 (Won't Fix)) on kikweto : HELLO test-case Test (under Test)
+**************************************************
+Key: FAK-42
+Summary: I have a red nose
+Status: Closed
+Resolution: Won't Fix
+
+Components: Medical
+Assignee: santaclaus
+Attachmentnames: rednose.mp3
+Created: 2009-06-09 08:47:29.0
+Environment: Foo version 1.00 (40)
+Bar version version 1.00 (20)
+Priority: 3
+Reporter: rudolf
+Updated: 2009-06-15 09:58:58.0
+Votes: 1
+**************************************************
+
+View bug FAK-42 using Jira URL=http://www.myjirasite.com/browse/FAK-42
+
+Rudolf the red-nosed reindeer
+Had a very shiny nose
+
+---------- Differences in output ----------
+1c1
+< Hello world
+---
+> Hello after 5 seconds
+

@@ -1,0 +1,25 @@
+known bugs=1
+22Jan2010
+HELLO : 1 tests : 1 known bugs
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests had known bugs : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Test : bug 42 (BAD SCRIPT)
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that had known bugs follows...
+--------------------------------------------------------
+TEST had known bugs (bug 42 (BAD SCRIPT)) on redenaco : HELLO test-case Test (under Test)
+Could not parse reply from Bugzilla's cli.cgi script, maybe incompatible interface (this only works on version 2). Text of reply follows : 
+What a load of rubbish!
+---------- Differences in output ----------
+1c1
+< Hello world
+---
+> Hello after 5 seconds
+

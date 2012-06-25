@@ -1,0 +1,30 @@
+# Rename a test, i.e. copy to same suite and remove original
+RenameTest
+
+# Rename a test, and then change it back again...
+RenameBackAndForth
+
+# Check that we can run tests after they have been renamed!
+RenameAndRunTest
+
+# Rename a test, i.e. copy to same suite and remove original
+EmptyLineComment
+RenameSuite
+
+# Copy of RenameSuite
+RenameSuiteCopyTest
+
+# Use the rename functionality to change description without changing the name of the test
+ChangeDescription
+
+# Make sure renaming doesn't cause failure if we have windows line endings
+WindowsLineEndings
+
+# Check we can rename a file from the GUI
+RenameFile
+
+# If we rename a definition file to some other stem, should produce a warning that this may sabotage TextTest
+RenameDefinitionFile
+
+# Check for the various error conditions that can arise when renaming
+RenameErrors

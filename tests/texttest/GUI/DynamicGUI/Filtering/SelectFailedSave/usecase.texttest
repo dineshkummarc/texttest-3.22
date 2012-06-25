@@ -1,0 +1,11 @@
+wait for completion of test actions
+hide tests in category Failed
+show tests in category Failed
+select tests in category Failed
+hide tests in category Succeeded
+show tests in category Succeeded
+select tests in category Succeeded
+set test selection to 
+select tests in category output different
+save results for selected tests
+quit

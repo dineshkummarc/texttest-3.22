@@ -1,0 +1,7 @@
+Using Application DIP
+Running DIP test-suite TargetApp
+  Running DIP test-suite Game9952
+    Running DIP test-case S03_copy
+Comparing differences for DIP test-suite TargetApp
+  Comparing differences for DIP test-suite Game9952
+    Comparing differences for DIP test-case S03_copy - SUCCESS! (on output.dip)

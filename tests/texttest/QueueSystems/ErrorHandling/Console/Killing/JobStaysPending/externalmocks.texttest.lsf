@@ -1,0 +1,6 @@
+<-SRV:TextTest slave server started on 10.67.7.13:57034
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.lsf/QueueSystems/ErrorHandling/Console/Killing/JobStaysPending/texttesttmp/sleep.killing.19Aug112832.14943/slavelogs; env --unset=USECASE_RECORD_SCRIPT --unset=USECASE_REPLAY_SCRIPT bsub -J Test-Basic-SLEEP.killing -u nobody -o Test-Basic-SLEEP.killing.log -e Test-Basic-SLEEP.killing.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.lsf/QueueSystems/ErrorHandling/Console/Killing/JobStaysPending/TargetApp -a sleep.killing -l -tp 'Basic' -slave /carm/proj/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.lsf/QueueSystems/ErrorHandling/Console/Killing/JobStaysPending/texttesttmp/sleep.killing.19Aug112832.14943 -servaddr 10.67.7.13:35767 -b short_local""
+->OUT:Job <1> is submitted to queue <bad_machine_queue>.
+<-SRV:Completed submission of all tests
+<-CMD:bkill -s USR1 1
+->OUT:Job <1> is being terminated

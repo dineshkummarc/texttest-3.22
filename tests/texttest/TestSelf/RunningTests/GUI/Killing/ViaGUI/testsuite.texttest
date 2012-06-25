@@ -1,0 +1,14 @@
+# Check we can kill a test from the GUI
+KillTest
+
+# See if we can set the colour of killed tests via "failed" category
+KillTestColour
+
+# Make sure we kill in the right order when we have extra versions
+KillExtraVersion
+
+# See what happens if we quit before reading is complete
+KillDuringRead
+
+# Check we can close the window from the GUI with a test running and not get funny messages
+CloseWindow

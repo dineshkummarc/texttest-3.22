@@ -1,0 +1,2 @@
+<-PYT:locale.getpreferredencoding()
+->RET:'ISO-8859-1'

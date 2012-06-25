@@ -1,0 +1,5 @@
+[python]
+intercepts = datetime.datetime.now,os.stat
+
+[datetime.datetime.now]
+check_repeated_calls = False

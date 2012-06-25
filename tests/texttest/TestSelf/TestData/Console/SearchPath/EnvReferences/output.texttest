@@ -1,0 +1,11 @@
+Using Application TDAT, version env.ref
+Running TDAT.env.ref test-suite TargetApp
+  Running TDAT.env.ref test-case Test
+Comparing differences for TDAT.env.ref test-suite TargetApp
+  Comparing differences for TDAT.env.ref test-case Test (on errors.tdat,output.tdat)
+  TDAT.env.ref test-case Test FAILED : differences in output
+  View details(v), Save Version env.ref(1), Save Version env(2), Save Version ref(3), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+2a3
+> Got environment variable /carm/proj/texttest-tmp/geoff/texttest.30Apr164129/texttest/TestSelf/TestData/Console/SearchPath/EnvReferences/texttesttmp/console.env.ref.30Apr164150.26740/tdat.env.ref/Test/my_personal_file
+  Save Version env.ref(1), Save Version env(2), Save Version ref(3), Save(s) or continue(any other key)?

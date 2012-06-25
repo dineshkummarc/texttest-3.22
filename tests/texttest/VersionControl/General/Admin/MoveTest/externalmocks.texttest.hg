@@ -1,0 +1,29 @@
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.07May101358.9954/texttest.hg/VersionControl/General/Admin/MoveTest/TargetApp/Test1/errors.hello
+->OUT:M TargetApp/Test1/errors.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.07May101358.9954/texttest.hg/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Subsuite/Test3/errors.hello
+->OUT:C TargetApp/Suite/Subsuite/Test3/errors.hello
+<-CMD:hg mv /nfs/vm/texttest-tmp/geoff/texttest.07May101358.9954/texttest.hg/VersionControl/General/Admin/MoveTest/TargetApp/Test1 /nfs/vm/texttest-tmp/geoff/texttest.07May101358.9954/texttest.hg/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1
+->FIL:Test1
+->FIL:Test1.edit_2
+->OUT:moving TargetApp/Test1/errors.hello to TargetApp/Suite/Test1/errors.hello
+moving TargetApp/Test1/output.hello to TargetApp/Suite/Test1/output.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.07May101358.9954/texttest.hg/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Subsuite/Test4/errors.hello
+->OUT:? TargetApp/Suite/Subsuite/Test4/errors.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.07May101358.9954/texttest.hg/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Subsuite/Test4/errors.hello.ignored_by_vcs
+->OUT:I TargetApp/Suite/Subsuite/Test4/errors.hello.ignored_by_vcs
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.07May101358.9954/texttest.hg/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Subsuite/Test4/output.hello
+->OUT:? TargetApp/Suite/Subsuite/Test4/output.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.07May101358.9954/texttest.hg/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test4/errors.hello
+->OUT:? TargetApp/Suite/Test4/errors.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.07May101358.9954/texttest.hg/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test4/errors.hello.ignored_by_vcs
+->OUT:I TargetApp/Suite/Test4/errors.hello.ignored_by_vcs
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.07May101358.9954/texttest.hg/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test4/output.hello
+->OUT:? TargetApp/Suite/Test4/output.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.07May101358.9954/texttest.hg/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1/errors.hello
+->OUT:A TargetApp/Suite/Test1/errors.hello
+  TargetApp/Test1/errors.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.07May101358.9954/texttest.hg/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1/output.hello
+->OUT:A TargetApp/Suite/Test1/output.hello
+  TargetApp/Test1/output.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.07May101358.9954/texttest.hg/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1/output.hello.version
+->OUT:? TargetApp/Suite/Test1/output.hello.version

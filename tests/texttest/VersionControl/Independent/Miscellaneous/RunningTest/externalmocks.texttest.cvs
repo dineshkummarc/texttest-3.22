@@ -1,0 +1,20 @@
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.07May104822.11415/texttest.cvs/VersionControl/Independent/Miscellaneous/RunningTest/TargetApp/Test1/errors.hello
+->OUT:===================================================================
+File: errors.hello     	Status: Needs Patch
+
+   Working revision:	1.1.1.1	Mon Feb 23 01:01:26 2009
+   Repository revision:	1.2	/carm/proj/texttest-tmp/geoff/texttest.07May104822.11415/texttest.cvs/VersionControl/Independent/Miscellaneous/RunningTest/cvsroot/TargetApp/Test1/errors.hello,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.07May104822.11415/texttest.cvs/VersionControl/Independent/Miscellaneous/RunningTest/TargetApp/Test1/output.hello
+->OUT:===================================================================
+File: output.hello     	Status: Up-to-date
+
+   Working revision:	1.1.1.1	Mon Feb 23 01:01:26 2009
+   Repository revision:	1.1.1.1	/carm/proj/texttest-tmp/geoff/texttest.07May104822.11415/texttest.cvs/VersionControl/Independent/Miscellaneous/RunningTest/cvsroot/TargetApp/Test1/output.hello,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+

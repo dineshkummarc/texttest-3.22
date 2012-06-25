@@ -1,0 +1,4 @@
+wait for all tests to be read, test Basic to complete, test Basic3 to start
+hide tests in category Failed
+wait for completion of test actions
+quit

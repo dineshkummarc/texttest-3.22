@@ -1,0 +1,90 @@
+# Save from the GUI
+FailuresSave
+
+# Save from the GUI with a version number
+SaveVersion
+
+# Test that we can save versions other than the one we're running
+SaveVersionNonDefault
+
+# If we have version 2.4 and save from a 4.2 run, what happens then?
+SaveFlipVersions
+
+# Test we can save several tests at once
+SaveSelected
+
+# Test that we can save all the test and set a version using one of them
+SaveAllWithVersion
+
+# Make sure we can correctly save all even when several versions are present
+SaveAllMultiVersions
+
+# Make sure Save behaves the same as Save As if we override the dialog settings
+SaveAllMultiVersionsNoDialog
+
+# If we clear the version to save, make sure all tests get saved with the default version
+SaveAllMultiVersionsDefault
+
+# Check the Save All button works with the single file option
+# also in the case where the final file is saved for some test
+SaveAllSingleFile
+
+# Copy of SaveAllSingleFile but save the errors file instead. This reverses the order of the chosen test and the "lonely" test
+SaveAllSingleFileOrder
+
+# Check that we can save a single file even when it's missing
+SaveMissingSingleFile
+
+# Check we can save a dummy file to represent something missing
+SaveMissingVersioned
+
+# Check we can save a dummy file to represent something missing, even with multiple versions
+SaveMissingMultiVersion
+
+# Check we can save more than one, but not all files that differ
+SavePartial
+
+# Check we can save more than one, but not all files that differ, also with a version
+SavePartialWithVersion
+
+# We shouldn't let a new test be saved with a version ID, that confuses things and is nearly always unintentional
+SaveNewTestVersioned
+
+# Check that if we view a file and then save we save the whole test
+ViewAndSave
+
+# Check that if we view a file via the menu and then save we save the whole test
+ViewFromMenuAndSave
+
+# Test that unsaveable versions don't end up as default
+UnsaveableVersion
+
+# If the unsaveable version has a base version that is saveable, use that
+UnsaveableWithBase
+
+# If part of a composite version is unsaveable, use the other part together with base versions as needed
+UnsaveableCompositeBase
+
+# Implied base versions generated automatically by the default configuration shouldn't be able to become the default save version
+UnsaveableImpliedBase
+
+# Make sure copied-version tests can't be saved as that version
+CopyUnsaveable
+
+# Make sure we can save with the option to invalidate all existing files. The version means new versions of output etc. should appear too
+SaveSuccessFiles
+
+# Check we can backup the old results to a version identifier
+BackupToVersion
+
+# What happens if the file we were going to backup to already exists?
+BackupToPreexisting
+
+# Check we can backup the old results to several version identifiers
+BackupMultiVersions
+
+# Save from the GUI, but we don't have the rights!
+SaveFailsNoPermission
+
+# Tests to do with recomputation of test results after external changes
+RecomputeStatus

@@ -1,0 +1,7 @@
+wait for all tests to be read
+set test selection to npstIII
+cut selected tests
+set test selection to A03
+paste tests from clipboard
+set test selection to S01 under Game9952
+quit

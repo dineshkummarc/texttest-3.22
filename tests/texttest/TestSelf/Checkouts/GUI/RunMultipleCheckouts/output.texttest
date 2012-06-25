@@ -1,0 +1,10 @@
+Using Application HELLO, checkout /carm/proj/texttest-tmp/geoff/dynamic_gui.16Aug144524.7978/texttest.gui/TestSelf/Checkouts/GUI/RunMultipleCheckouts/TargetApp/checkout1/source
+Using Application HELLO, version checkout2, checkout /carm/proj/texttest-tmp/geoff/dynamic_gui.16Aug144524.7978/texttest.gui/TestSelf/Checkouts/GUI/RunMultipleCheckouts/TargetApp/checkout2/source
+Running HELLO test-suite TargetApp
+  Running HELLO test-case Test
+Comparing differences for HELLO test-suite TargetApp
+  Comparing differences for HELLO test-case Test - SUCCESS! (on output.hello)
+Running HELLO.checkout2 test-suite TargetApp
+  Running HELLO.checkout2 test-case Test
+Comparing differences for HELLO.checkout2 test-suite TargetApp
+  Comparing differences for HELLO.checkout2 test-case Test (on output.hello)

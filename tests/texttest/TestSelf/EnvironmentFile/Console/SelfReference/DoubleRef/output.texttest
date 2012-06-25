@@ -1,0 +1,13 @@
+Using Application HELLO, version initialref.laterref
+Running HELLO.initialref.laterref test-suite TargetApp
+  Running HELLO.initialref.laterref test-case Test
+Comparing differences for HELLO.initialref.laterref test-suite TargetApp
+  Comparing differences for HELLO.initialref.laterref test-case Test (on errors.hello,output.hello)
+  HELLO.initialref.laterref test-case Test FAILED : differences in output
+  View details(v), Save Version initialref.laterref(1), Save Version initialref(2), Save Version laterref(3), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+1c1
+< Hello All The People
+---
+> Hello All The People $TO_GREET
+  Save Version initialref.laterref(1), Save Version initialref(2), Save Version laterref(3), Save(s) or continue(any other key)?

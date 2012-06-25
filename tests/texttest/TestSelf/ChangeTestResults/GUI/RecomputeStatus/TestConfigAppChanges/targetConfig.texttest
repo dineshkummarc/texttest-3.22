@@ -1,0 +1,8 @@
+executable:${TEXTTEST_HOME}/hello.py
+
+default_interface:dynamic_gui
+
+# get filter files everywhere, can be useful
+home_operating_system:none
+[run_dependent_text]
+output:Hello

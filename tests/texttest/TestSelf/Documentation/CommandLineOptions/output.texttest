@@ -1,0 +1,47 @@
+Using Application APP
+-R <value>;Advanced;Request grid resource <value>
+-a <value>,...;N/A;Load test applications named <value>,...
+-actrep;N/A;Run with slow motion replay
+-b <value>;Advanced;Run batch mode session <value>
+-bx <value>;N/A;Select tests exactly as for batch mode session <value>
+-c <value>,...;Basic;Use checkout <value>,...
+-coll;N/A;Collect results for batch mode session
+-con;N/A;use console interface
+-cp <value>;Basic;Times to run <value>
+-d <value>;N/A;Look for test files under <value>
+-desc <value>;Selection;Select descriptions containing <value>
+-f <value>,...;Selection;Select tests listed in file <value>,...
+-fintersect <value>,...;N/A;Tests in all files <value>,...
+-finverse <value>;N/A;Tests not listed in file <value>
+-funion <value>,...;N/A;Tests in any of files <value>,...
+-g;N/A;use dynamic GUI
+-grep <value>;Selection;Select test-files containing <value>
+-grepfile <value>;Selection;Select test-file to search <value>
+-gx;N/A;use static GUI
+-help;N/A;Print configuration help text on stdout
+-ignorecat;Basic;Ignore catalogue file when isolating data
+-ignorefilters;Advanced;Ignore all run-dependent text filtering
+-keepslave;Advanced;Keep data files and successful tests until termination
+-keeptmp;Advanced;Keep temporary write-directories
+-l;Basic;Use grid
+-m <value>;Basic;Run on machine <value>
+-n;N/A;Create new results files (overwrite everything)
+-name <value>;Advanced;Name this run <value>
+-new;N/A;Start static GUI with no applications loaded
+-o <value>;N/A;Overwrite failures, optionally using version <value>
+-perf;Advanced;Run on performance machines only
+-q <value>;Advanced;Request grid queue <value>
+-r <time specification string>;Selection;Select execution time
+-reconnect <value>;N/A;Reconnect to previous run <value>
+-reconnfull;N/A;Recompute file filters when reconnecting
+-rectraffic;Basic;CaptureMock
+-s <value>;N/A;Run this script <value>
+-stop;Basic;Stop after first failure
+-t <value>,...;Selection;Select test names containing <value>,...
+-ts <value>,...;Selection;Select test paths containing <value>,...
+-v <value>,...;Basic;Run this version <value>,...
+-vanilla <value>;Advanced;Ignore configuration files <value>
+-x;Advanced;Enable self-diagnostics
+-xr <value>;Advanced;Configure self-diagnostics from <value>
+-xw <value>;Advanced;Write self-diagnostics to <value>
+-zen;N/A;Make console output coloured, for use e.g. with ZenTest

@@ -1,0 +1,44 @@
+# Most basic action
+OneLine
+
+# numbers are equal but text differs
+TextDiff
+
+# Check we can filter out multiple lines in a row
+MultipleLines
+
+# Check we can filter out multiple scattered lines
+ScatteredLines
+
+# Check we can filter out multiple instances in one line
+MultiPerLine
+
+# Check we can filter out differently written floating point values
+ScientificNotation
+
+# Check truncation versus rounding
+Rounding
+
+# Check comparison of different precision
+Precision
+
+# No filtering on not properly aligned data
+Unaligned
+
+# Correct alignment after precison correction
+Realigned
+
+# Filtering even on sign difference
+Signed
+
+# Changing the floating point diff threshold
+Threshold
+
+# Using relative deviation
+Relative
+
+# using absolute and relative deviation in the same file
+AbsoluteRelative
+
+# using relative deviation with 0
+RelativeZero

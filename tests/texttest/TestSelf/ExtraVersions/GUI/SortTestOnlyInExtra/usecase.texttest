@@ -1,0 +1,7 @@
+wait for all tests to be read
+set test selection to TargetApp (hello)
+sort testsuite file for the selected test suite in alphabetical order
+agree to texttest message
+sort testsuite file for the selected test suite in reversed alphabetical order
+agree to texttest message
+quit

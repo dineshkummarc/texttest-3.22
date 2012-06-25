@@ -1,0 +1,5 @@
+Using Application MEM, version nomemfile
+Running MEM.nomemfile test-suite TargetApp
+  Running MEM.nomemfile test-case NoOutputFile
+Comparing differences for MEM.nomemfile test-suite TargetApp
+  Comparing differences for MEM.nomemfile test-case NoOutputFile (on memory.mem,output.mem)

@@ -1,0 +1,7 @@
+wait for all tests to be read
+enter tests for version = extra1
+select indicated tests
+reconnect to previously run tests
+press reconnect
+wait for reconnect GUI to be closed
+quit

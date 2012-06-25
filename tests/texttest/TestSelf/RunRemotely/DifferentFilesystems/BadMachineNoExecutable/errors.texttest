@@ -1,0 +1,6 @@
+Rejected Application HELLO - Unable to contact machine 'testnet-s16'.
+Make sure you have passwordless access set up correctly. The failing command was:
+ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 echo hello
+
+The command produced the following output:
+Permission denied (publickey,gssapi-with-mic,password).

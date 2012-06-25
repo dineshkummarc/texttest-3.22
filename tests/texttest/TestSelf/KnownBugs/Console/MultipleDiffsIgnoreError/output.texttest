@@ -1,0 +1,8 @@
+Using Application HELLO, version baderr.missinginterr
+Running HELLO.baderr.missinginterr test-suite TargetApp
+  Running HELLO.baderr.missinginterr test-case Test
+Comparing differences for HELLO.baderr.missinginterr test-suite TargetApp
+  Comparing differences for HELLO.baderr.missinginterr test-case Test (on errors.hello.baderr,output.hello)
+  HELLO.baderr.missinginterr test-case Test had internal errors (No World!) on granville : differences in errors,output
+Creating batch report for application HELLO ...
+File written.

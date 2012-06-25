@@ -1,0 +1,5 @@
+# Tests for killing tests
+Killing
+
+# Suite for tests that don't need to kill anything, and hence shouldn't...
+OtherOperations

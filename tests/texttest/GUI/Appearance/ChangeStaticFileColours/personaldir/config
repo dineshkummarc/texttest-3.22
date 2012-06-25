@@ -1,0 +1,4 @@
+# Colours for TextTest GUI. These are used in the right window for files
+[file_colours]
+static:yellow
+static_standard:blue

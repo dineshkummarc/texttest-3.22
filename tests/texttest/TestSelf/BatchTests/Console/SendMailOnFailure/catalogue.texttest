@@ -1,0 +1,22 @@
+The following new files/directories were created:
+<Test Directory>
+----repository
+--------hello
+------------default
+----------------BothDiff
+--------------------teststate_22May2008
+----------------Success
+--------------------teststate_22May2008
+----texttesttmp
+--------self_test.22May115434.28640
+------------hello
+----------------BothDiff
+--------------------errors.hello
+--------------------output.hello
+--------------------framework_tmp
+------------------------teststate
+----------------Success
+--------------------errors.hello
+--------------------output.hello
+--------------------framework_tmp
+------------------------teststate

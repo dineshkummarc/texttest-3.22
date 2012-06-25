@@ -1,0 +1,6 @@
+default_interface:static_gui
+
+gui_entry_completion_matching:2
+
+gui_entry_completions:something1
+gui_entry_completions:something2

@@ -1,0 +1,5 @@
+# Check we can replay with slow motion replay
+ReplayDelay
+
+# Check we can record
+Record

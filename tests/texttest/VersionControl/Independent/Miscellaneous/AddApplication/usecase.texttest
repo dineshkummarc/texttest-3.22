@@ -1,0 +1,7 @@
+wait for all tests to be read
+define a new tested application
+select executable program to test hello.py
+enter file extension to use for texttest files associated with this application = new
+press define
+set test selection to TargetApp (new)
+quit

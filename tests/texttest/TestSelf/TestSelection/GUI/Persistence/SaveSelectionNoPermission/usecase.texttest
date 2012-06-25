@@ -1,0 +1,8 @@
+wait for all tests to be read
+enter test-files containing = Error
+enter test-file to search = errors
+select indicated tests
+save selected tests in file
+enter filter-file name = filter1
+press save
+quit

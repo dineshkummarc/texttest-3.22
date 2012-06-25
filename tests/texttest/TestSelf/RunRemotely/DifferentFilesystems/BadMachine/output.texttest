@@ -1,0 +1,8 @@
+Using Application HELLO
+  HELLO test-case Test not compared:
+Unable to contact machine 'testnet-s16'.
+Make sure you have passwordless access set up correctly. The failing command was:
+ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 mkdir -p ${HOME}'/.texttest/tmp/console.29Sep134613.3180/system_under_test'
+
+The command produced the following output:
+Permission denied (publickey,gssapi-with-mic,password).

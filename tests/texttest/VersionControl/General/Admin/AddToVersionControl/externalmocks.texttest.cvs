@@ -1,0 +1,59 @@
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite; cvs add /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite
+->ERR:cvs add: /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/CVS already exists
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite; cvs add /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/testsuite.hello
+->ERR:cvs add: /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/testsuite.hello already exists, with version number 1.2
+->EXC:1
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite; cvs add /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite
+->ERR:cvs add: /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/CVS already exists
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite; cvs add /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/Test3
+->ERR:cvs add: /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/Test3/CVS already exists
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/Test3; cvs add /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/Test3/errors.hello
+->ERR:cvs add: /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/Test3/errors.hello already exists, with version number 1.1.1.1
+->EXC:1
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/Test3; cvs add /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/Test3/output.hello
+->ERR:cvs add: /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/Test3/output.hello already exists, with version number 1.1.1.1
+->EXC:1
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite; cvs add /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/Test4
+->FIL:Subsuite
+->OUT:Directory /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/cvsroot/TargetApp/Suite/Subsuite/Test4 added to the repository
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/Test4; cvs add /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/Test4/errors.hello
+->FIL:Test4
+->ERR:cvs add: scheduling file `/carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/Test4/errors.hello' for addition
+cvs add: use 'cvs commit' to add this file permanently
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/Test4; cvs add /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/Test4/output.hello
+->FIL:Test4.edit_2
+->ERR:cvs add: scheduling file `/carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/Test4/output.hello' for addition
+cvs add: use 'cvs commit' to add this file permanently
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite; cvs add /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/testsuite.hello
+->ERR:cvs add: /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/testsuite.hello already exists, with version number 1.2
+->EXC:1
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/Test4/errors.hello
+->OUT:===================================================================
+File: errors.hello     	Status: Locally Added
+
+   Working revision:	New file!
+   Repository revision:	No revision control file
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp; cvs add /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test2
+->ERR:cvs add: /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test2/CVS already exists
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test2; cvs add /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test2/errors.hello
+->ERR:cvs add: /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test2/errors.hello already exists, with version number 1.1.1.1
+->EXC:1
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test2; cvs add /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test2/output.hello
+->ERR:cvs add: /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test2/output.hello already exists, with version number 1.2
+->EXC:1
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp; cvs add /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test1
+->ERR:cvs add: /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test1/CVS already exists
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test1; cvs add /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test1/errors.hello
+->ERR:cvs add: /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test1/errors.hello already exists, with version number 1.1.1.1
+->EXC:1
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test1; cvs add /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test1/output.hello
+->ERR:cvs add: /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test1/output.hello already exists, with version number 1.1.1.1
+->EXC:1
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test1; cvs add /carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test1/output.hello.version
+->FIL:Test1
+->ERR:cvs add: scheduling file `/carm/proj/texttest-tmp/geoff/texttest.07May102011.10349/texttest.cvs/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test1/output.hello.version' for addition
+cvs add: use 'cvs commit' to add this file permanently

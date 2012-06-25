@@ -1,0 +1,4 @@
+No binary found from core
+-------------------------
+(Core file at fakecore)
+Could not find binary name '/no/such/binary' from core file : Stack trace not produced for crash

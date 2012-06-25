@@ -1,0 +1,5 @@
+config_module:customconfig
+
+executable:$TEXTTEST_HOME/hello.py
+
+default_interface:console

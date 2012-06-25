@@ -1,0 +1,50 @@
+# All tests run correctly: no filters means all tests
+NoFilters
+
+# TestNameFilter, single and multiple
+TestNameFilter
+MultipleTests
+MultipleTestsWithSpace
+
+# Check we can select tests by their full path
+TestFullPath
+
+# Test for testsuite filter, both partial and full paths
+TestSuiteFilter
+TestSuiteFullPath
+
+# Check we handle spaces instead of path separators
+TestSuiteFullPathSpaces
+
+# Test for grep filter : looks in log file as default
+GrepFilter
+
+# Check we can grep in other files...
+GrepFilterOtherFile
+
+# Check we can grep in multiple files
+GrepFilterAnyFile
+
+# Make sure that we can run two tests whose names are substrings of each other...
+TestNameSubstrings
+
+# Check we can select test names with regular expressions
+RegExpTestName
+
+# Check we can run several copies of a test
+MultipleCopies
+
+# Check we can build copies on multiple versions
+CompositeCopies
+
+# Make sure we can sort the test suites in alphabetical order if we want to
+AutoSortTestSuites
+
+# Make sure we can sort the test suites in reversed alphabetical order if we want to
+AutoReversedSortTestSuites
+
+# Check we can give a flag such that the run should give up if any tests fail
+StopOnFailure
+
+# Check we can read a selection where two suite names are substrings of one another
+SuiteNameSubstrings

@@ -1,0 +1,14 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------s
+------------testsuite.hello
+------------t
+--------t1
+--------t2
+--------t3
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------testsuite.hello

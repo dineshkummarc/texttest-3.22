@@ -1,0 +1,1 @@
+-a hello.normal -s "batch.ArchiveRepository before=24Jan2006 after=21Jan2006" -b self_test

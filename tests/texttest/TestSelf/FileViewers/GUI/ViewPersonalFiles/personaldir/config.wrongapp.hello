@@ -1,0 +1,5 @@
+[gui_entry_options]
+suite_names_containing:stuff_from_wrongapp
+
+[hide_gui_element]
+status_bar:1

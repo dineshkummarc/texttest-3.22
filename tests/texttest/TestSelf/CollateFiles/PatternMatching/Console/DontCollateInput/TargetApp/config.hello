@@ -1,0 +1,11 @@
+import_config_file:$STANDARD
+
+default_interface:console
+
+copy_test_path:input_dir
+
+[collate_file]
+# matches read and write but not edit
+writefile:*/*r*file
+# matches read and edit but not write
+editfile:*/*d*file 

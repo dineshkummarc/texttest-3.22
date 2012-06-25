@@ -1,0 +1,5 @@
+Using Application HELLO, version v1.version.v2
+Running HELLO.v1.version.v2 test-suite TargetApp
+  Running HELLO.v1.version.v2 test-case Test1
+Comparing differences for HELLO.v1.version.v2 test-suite TargetApp
+  Comparing differences for HELLO.v1.version.v2 test-case Test1 (on errors.hello,output.hello.version)

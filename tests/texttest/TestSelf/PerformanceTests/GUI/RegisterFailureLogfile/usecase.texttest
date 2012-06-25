@@ -1,0 +1,8 @@
+wait for completion of test actions
+set test selection to Failures
+select file logperf.perf.logfile
+view options for Saving
+choose average performance
+choose exact performance
+save results for selected tests
+quit

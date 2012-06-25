@@ -1,0 +1,19 @@
+Using Application HELLO, version normal
+Generating web pages...
+Generating page for HELLO - version normal
+Generating graph at /nfs/vm/texttest-tmp/geoff/texttest.15Feb165531.19122/texttest/TestSelf/BatchTests/HistoricalReport/GenerateAppInSubDir/report/hello/images/test_normal.png ...
+Generating graph at /nfs/vm/texttest-tmp/geoff/texttest.15Feb165531.19122/texttest/TestSelf/BatchTests/HistoricalReport/GenerateAppInSubDir/report/hello/images/test_normal_all_Jan2006.png ...
+Writing overview pages...
+wrote: 'test_normal.html'
+wrote: 'test_normal_all_Jan2006.html'
+Writing detail pages...
+wrote: 'test_normal_18Jan2006.html'
+wrote: 'test_normal_21Jan2006.html'
+wrote: 'test_normal_22Jan2006_Rel1.1.html'
+wrote: 'test_normal_23Jan2006.html'
+wrote: 'test_normal_24Jan2006.html'
+wrote: 'test_normal_25Jan2006.html'
+wrote: 'test_normal_26Jan2006_Rel1.2.html'
+Completed web page generation.
+No file at '/nfs/vm/texttest-tmp/geoff/texttest.15Feb165531.19122/texttest/TestSelf/BatchTests/HistoricalReport/GenerateAppInSubDir/report/summary_template.html', copying default file from installation
+wrote: '/nfs/vm/texttest-tmp/geoff/texttest.15Feb165531.19122/texttest/TestSelf/BatchTests/HistoricalReport/GenerateAppInSubDir/report/index.html'

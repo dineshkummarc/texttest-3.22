@@ -1,0 +1,15 @@
+wait for all tests to be read
+show view menu
+show toolbar
+select indicated tests
+show view menu
+show shortcut bar
+show view menu
+show status bar
+show view menu
+hide shortcut bar
+run selected tests
+wait for dynamic GUI to be closed
+show view menu
+show shortcut bar
+quit

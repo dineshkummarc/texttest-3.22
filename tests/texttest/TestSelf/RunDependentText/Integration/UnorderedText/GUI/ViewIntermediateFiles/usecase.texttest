@@ -1,0 +1,18 @@
+wait for completion of test actions
+set test selection to Test
+set file selection to output.rdt
+view actions for file output.rdt
+view content-filtered differences
+wait for the graphical difference program to terminate
+set file selection to output.rdt
+view actions for file output.rdt
+view content-filtered file
+wait for file editing operations to complete
+set file selection to output.rdt
+view actions for file output.rdt
+view content-filtered original file
+wait for file editing operations to complete
+view actions for file errors.rdt
+view original file
+wait for file editing operations to complete
+quit

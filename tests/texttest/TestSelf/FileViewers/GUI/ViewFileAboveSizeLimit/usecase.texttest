@@ -1,0 +1,8 @@
+wait for completion of test actions
+select file output.hello
+answer yes to texttest confirmation
+wait for the graphical difference program to terminate
+view actions for file output.hello
+view file
+answer no to texttest confirmation
+quit

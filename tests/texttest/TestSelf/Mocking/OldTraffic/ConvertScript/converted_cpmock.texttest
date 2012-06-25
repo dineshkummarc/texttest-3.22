@@ -1,0 +1,6 @@
+[command line]
+intercepts = foo,bar
+
+[python]
+intercepts = baz,baz2
+

@@ -1,0 +1,3 @@
+import_config_file:$STANDARD
+
+batch_recipients:fakeuser

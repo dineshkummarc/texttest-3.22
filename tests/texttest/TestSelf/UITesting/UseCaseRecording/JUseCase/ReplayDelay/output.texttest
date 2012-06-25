@@ -1,0 +1,5 @@
+Using Application GUI
+Running GUI test-suite TargetApp
+  Running GUI test-case AddMovie
+Comparing differences for GUI test-suite TargetApp
+  Comparing differences for GUI test-case AddMovie (on errors.gui,output.gui,usecase.gui)

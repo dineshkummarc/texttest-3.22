@@ -1,0 +1,18 @@
+Using Application HELLO, version batch
+Running HELLO.batch test-suite TargetApp
+  Running HELLO.batch test-case OutDiff
+Comparing differences for HELLO.batch test-suite TargetApp
+  Comparing differences for HELLO.batch test-case OutDiff (on errors.hello,output.hello)
+  HELLO.batch test-case OutDiff FAILED on gewoia : differences in output
+  Running HELLO.batch test-case Success
+  Comparing differences for HELLO.batch test-case Success - SUCCESS! (on errors.hello,output.hello)
+  Running HELLO.batch test-case BothDiff
+  Comparing differences for HELLO.batch test-case BothDiff (on errors.hello,output.hello)
+  HELLO.batch test-case BothDiff FAILED on gewoia : differences in errors,output
+  Running HELLO.batch test-suite suite
+    Running HELLO.batch test-case OutDiff2
+  Comparing differences for HELLO.batch test-suite suite
+    Comparing differences for HELLO.batch test-case OutDiff2 (on errors.hello,output.hello)
+    HELLO.batch test-case OutDiff2 FAILED on gewoia : differences in output
+Creating batch report for application HELLO ...
+done.

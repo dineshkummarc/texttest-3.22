@@ -1,0 +1,269 @@
+
+---------- Window 'SLEEP tests (started at 09Jun14:03:26) - TextTest dynamic GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+  _Kill (Stock image 'gtk-stop', greyed out, accelerator 'Ctrl+Delete', tooltip 'Kill selected tests')
+  _Save (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S', tooltip 'Save results for selected tests')
+  Progress bar set to fraction 0.0, text 'All 0 tests completed at 09Jun14:03:29'
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected , Details
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Jun14:03:29.' , Image 'throbber_inactive.png'
+--------------------------------------------------------------------------------------------
+
+Progress bar set to fraction 0.0, text '0 of 1 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Basic (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+
+Progress bar set to fraction 0.0, text '0 of 2 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/2 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Basic (black/white) | (white)
+->     Basic2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+
+Progress bar set to fraction 0.0, text '0 of 3 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/3 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Basic (black/white) | (white)
+->     Basic2 (black/white) | (white)
+->   Suite (black/white,bold) | (white)
+->     Basic3 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/3 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Basic (black/LightGoldenrod1) | (LightGoldenrod1)
+->     Basic2 (black/white) | (white)
+->   Suite (black/white,bold) | (white)
+->     Basic3 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/3 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Basic (black/LightGoldenrod1) | (LightGoldenrod1)
+->     Basic2 (black/white) | (white)
+->   Suite (black/white,bold) | (white)
+->     Basic3 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Expected application event 'all tests to be read' occurred, proceeding.
+Expected application event 'test Basic to start' occurred, proceeding.
+
+'set test selection to' event created with arguments 'Basic2'
+
+No longer greyed out : _Kill
+
+Changed selection in Test Tree with columns: Tests: 1/3 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Basic (black/LightGoldenrod1) | (LightGoldenrod1)
+->     Basic2 (black/white) | (white)   ***
+->   Suite (black/white,bold) | (white)
+->     Basic3 (black/white) | (white)
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: Basic2 , Details
+-> Temporary Files
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+
+Description:
+Same again
+
+Full path:
+Suite1/Basic2
+===============================
+
+'kill selected tests' event created with arguments ''
+
+Changing GUI status to: 'Killing 1 tests ...'
+
+Waiting for application event 'test Basic2 to complete' to occur.
+
+Changing GUI status to: 'Performed 'Kill selected tests' on test Suite1/Basic2.'
+
+Greyed out : _Kill
+
+Progress bar set to fraction 0.333333333333, text '1 of 3 tests completed'
+
+Updated : Test Tree with columns: Tests: 1/3 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Basic (black/LightGoldenrod1) | (LightGoldenrod1)
+->     Basic2 (black/salmon) | cancelled (salmon)   ***
+->   Suite (black/white,bold) | (white)
+->     Basic3 (black/white) | (white)
+
+Updated : File Tree with columns: Basic2 , Details
+-> Temporary Files
+
+========== Text Info ==========
+Test were cancelled before starting :
+Test run was cancelled before it had started
+===============================
+
+Expected application event 'test Basic2 to complete' occurred, proceeding.
+
+'set test selection to' event created with arguments 'Basic'
+
+No longer greyed out : _Kill
+
+Changed selection in Test Tree with columns: Tests: 1/3 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Basic (black/LightGoldenrod1) | (LightGoldenrod1)   ***
+->     Basic2 (black/salmon) | cancelled (salmon)
+->   Suite (black/white,bold) | (white)
+->     Basic3 (black/white) | (white)
+
+Updated : File Tree with columns: Basic , Details
+-> Temporary Files (bold)
+->   errors.sleep (LightGoldenrod1) | (LightGoldenrod1)
+->   output.sleep (LightGoldenrod1) | (LightGoldenrod1)
+
+========== Text Info ==========
+Running on batesville
+
+To obtain the latest progress information and an up-to-date comparison of the files above, perform 'recompute status' (press 'F5')
+===============================
+
+'kill selected tests' event created with arguments ''
+
+Changing GUI status to: 'Killing 1 tests ...'
+Killing running test (process id 16873)
+
+Waiting for application event 'test Basic to complete' to occur.
+Waiting for application event 'test Basic3 to start' to occur.
+
+Changing GUI status to: 'Performed 'Kill selected tests' on test Suite1/Basic.'
+
+Updated : Test Tree with columns: Tests: 1/3 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Basic (black/LightGoldenrod1) | (LightGoldenrod1)   ***
+->     Basic2 (black/salmon) | cancelled (salmon)
+->   Suite (black/white,bold) | (white)
+->     Basic3 (black/white) | (white)
+
+Updated : File Tree with columns: Basic , Details
+-> Temporary Files (bold)
+->   errors.sleep (LightGoldenrod1) | (LightGoldenrod1)
+->   output.sleep (LightGoldenrod1) | (LightGoldenrod1)
+
+========== Text Info ==========
+Filtering and comparing newly generated result files on batesville
+
+To obtain the latest progress information and an up-to-date comparison of the files above, perform 'recompute status' (press 'F5')
+===============================
+
+Greyed out : _Kill
+No longer greyed out : _Save
+
+Progress bar set to fraction 0.666666666667, text '2 of 3 tests completed'
+
+Updated : Test Tree with columns: Tests: 1/3 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Basic (black/salmon) | KILLED (salmon)   ***
+->     Basic2 (black/salmon) | cancelled (salmon)
+->   Suite (black/white,bold) | (white)
+->     Basic3 (black/white) | (white)
+
+Updated : File Tree with columns: Basic , Details
+-> Comparison Files (bold)
+->   errors.sleep (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.sleep (salmon) | (salmon)
+
+========== Text Info ==========
+Test were terminated before completion (KILLED) :
+Test killed explicitly at 14:03
+---------- Differences in output ----------
+2d1
+< Done
+===============================
+
+Updated : Test Tree with columns: Tests: 1/3 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Basic (black/salmon) | KILLED (salmon)   ***
+->     Basic2 (black/salmon) | cancelled (salmon)
+->   Suite (black/white,bold) | (white)
+->     Basic3 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Tree with columns: Tests: 1/3 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Basic (black/salmon) | KILLED (salmon)   ***
+->     Basic2 (black/salmon) | cancelled (salmon)
+->   Suite (black/white,bold) | (white)
+->     Basic3 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Expected application event 'test Basic to complete' occurred, proceeding.
+Expected application event 'test Basic3 to start' occurred, proceeding.
+
+'quit' event created with arguments ''
+Killing running test (process id 16881)
+
+Changing GUI status to: 'Waiting for all tests to terminate ...'
+
+Updated : Test Tree with columns: Tests: 1/3 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Basic (black/salmon) | KILLED (salmon)   ***
+->     Basic2 (black/salmon) | cancelled (salmon)
+->   Suite (black/white,bold) | (white)
+->     Basic3 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Progress bar set to fraction 1.0, text 'All 3 tests completed at 09Jun14:03:34'
+
+Updated : Test Tree with columns: Tests: 1/3 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | (white)
+->   Suite1 (black/white,bold) | (white)
+->     Basic (black/salmon) | KILLED (salmon)   ***
+->     Basic2 (black/salmon) | cancelled (salmon)
+->   Suite (black/white,bold) | (white)
+->     Basic3 (black/salmon) | KILLED (salmon)

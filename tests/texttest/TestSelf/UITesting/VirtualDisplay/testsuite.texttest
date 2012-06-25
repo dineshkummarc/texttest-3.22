@@ -1,0 +1,44 @@
+# Make sure we aren't reliant on rsh for things to work, if we use localhost, just start things locally
+DisplayOnLocalHost
+
+# Check we can connect to and run an Xvfb server...
+RemoteDisplay
+
+# If we run a test remotely, we should try to run the Xvfb server there too...
+RemoteTestRun
+
+# If we run a test remotely, we should try to run the Xvfb server there too. Check it works even for non-shared networks
+RemoteTestRunOtherNetwork
+
+# Check we can pass arguments to our virtual server
+ExtraArgsToServer
+
+# Make sure we can failover if there isn't a server running on the earlier machines
+UseAlternativeServer
+
+# All machines have servers that cannot be connected to - what do we do?
+AllMachinesBlocked
+
+# Check we do sensible things when one of the machines is down
+MachineDown
+
+# Don't look for virtual displays when running scripts!
+CountTests
+
+# Don't look for virtual displays when collecting batch files either!
+CollectFiles
+
+# Check we don't recheck Xvfb server with extra_version...
+ExtraVersion
+
+# If the virtual server crashes, we should restart it before running new tests
+VirtualServerCrashes
+
+# See what happens if Xvfb hits a lock file and refuses to start
+VirtualServerHitsLock
+
+# See what happens if Xvfb starts but never sets up any connections (happens occasionally)
+VirtualServerHangs
+
+# See what happens if Xvfb is given bad arguments that mean it will never start
+VirtualServerBadArgs

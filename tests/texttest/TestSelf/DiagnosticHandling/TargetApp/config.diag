@@ -1,0 +1,11 @@
+import_config_file:$STANDARD
+
+# Path to the executable
+executable:${TEXTTEST_HOME}/source_with_pyc/writediags.py
+
+default_interface:dynamic_gui
+
+link_test_path:logging
+
+[test_data_environment]
+logging:TESTDIAG_READFILE

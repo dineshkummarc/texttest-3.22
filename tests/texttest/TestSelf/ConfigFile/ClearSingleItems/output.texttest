@@ -1,0 +1,2 @@
+Using Application HELLO, version version
+run_dependent_text|{'default': [], 'output': ['item_to_keep', 'another_item_to_keep']}|Mapping of patterns to remove from result files

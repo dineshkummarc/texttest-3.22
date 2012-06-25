@@ -1,0 +1,23 @@
+# Should report as known bug when the bug is open in bugzilla
+OpenBug
+
+# Should report internal error if the bug is reckoned to be closed
+ClosedBug
+
+# Make sure bug numbers that don't exist don't fool us
+UnknownBug
+
+# If we have an internal error, choose that over the bug
+PreferInternalErrorToBug
+
+# If we have a known bug and a description, choose the bug
+PreferBugToLabel
+
+# Make sure we don't stack trace if we can't parse what is returned by the bugzilla cli script
+IncompatibleVersion
+
+# Make sure we get a sensible message when the bug_system_script is incorrectly set.
+BadScript
+
+# Make sure we can get to the bug easily in the html report
+LinkBugInHtmlReport

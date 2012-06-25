@@ -1,0 +1,16 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------local.baderr.missinginterr.12May163620.26220
+------------batchreport.hello.baderr.missinginterr
+------------hello.baderr.missinginterr
+----------------Test
+--------------------errors.hello
+--------------------output.hello
+--------------------framework_tmp
+------------------------errors.hellocmp
+------------------------errors.helloorigcmp
+------------------------knownbugs.helloorigcmp
+------------------------output.hellocmp
+------------------------output.helloorigcmp
+------------------------teststate

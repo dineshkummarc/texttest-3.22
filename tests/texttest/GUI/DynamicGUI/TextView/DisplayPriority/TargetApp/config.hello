@@ -1,0 +1,11 @@
+executable:${TEXTTEST_HOME}/helloworld.py
+
+default_interface:dynamic_gui
+
+# Order file2, file1, output, file4, file3
+[failure_display_priority]
+file1:50
+file2:40
+file4:101
+file3:200
+[end]

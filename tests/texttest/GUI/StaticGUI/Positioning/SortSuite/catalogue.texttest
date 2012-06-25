@@ -1,0 +1,12 @@
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------testsuite.dip
+--------Game9952
+------------testsuite.dip
+------------testsuite.dip.small
+--------npstIII
+------------testsuite.dip
+------------Game47
+----------------testsuite.dip

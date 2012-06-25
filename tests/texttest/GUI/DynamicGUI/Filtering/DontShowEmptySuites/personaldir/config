@@ -1,0 +1,5 @@
+auto_collapse_successful:0
+
+hide_test_category:initial filter
+hide_test_category:running
+hide_test_category:final filter

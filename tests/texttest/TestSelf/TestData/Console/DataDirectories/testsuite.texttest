@@ -1,0 +1,8 @@
+# Check we just do an overwrite if given a straightforward copy
+UseMostSpecific
+
+# Combine directories if this is explicitly requested
+MergeAll
+
+# Combine directories if they come from different copy_test_path entries but produce the same result
+SeparateSources

@@ -1,0 +1,8 @@
+# Tests for integration with CaptureMock
+CaptureMock
+
+# Tests for the testcustomize.py hook
+TestCustomize
+
+# Suite with old traffic settings
+OldTraffic

@@ -1,0 +1,12 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------Test_copy
+------------errors.rdt
+------------output.rdt
+----texttesttmp
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------testsuite.rdt

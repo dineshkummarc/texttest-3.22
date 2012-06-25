@@ -1,0 +1,4 @@
+WARNING: The test NoSuchTest could not be found.
+Please check the file at /carm/proj/texttest-tmp/geoff/texttest.20May110049.14924/texttest/TestSelf/EmptyTestSuites/Console/TestListedTwice/TargetApp/SuiteWithBadTest/testsuite.hello
+WARNING: The test Test was included several times in a test suite file.
+Please check the file at /carm/proj/texttest-tmp/geoff/texttest.20May110049.14924/texttest/TestSelf/EmptyTestSuites/Console/TestListedTwice/TargetApp/SuiteWithTest/testsuite.hello.testtwice

@@ -1,0 +1,6 @@
+[command line]
+intercepts = which,rsh
+
+[python]
+intercepts = os.getpid
+ignore_callers = storytext,default,coverage

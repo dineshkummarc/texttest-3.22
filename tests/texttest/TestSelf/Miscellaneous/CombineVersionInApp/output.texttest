@@ -1,0 +1,21 @@
+Using Application HELLO, version 2
+Using Application HELLO, version 4.2
+Using Application HELLO, version 6.2
+Running HELLO.2 test-suite TargetApp
+  Running HELLO.2 test-case Test
+Comparing differences for HELLO.2 test-suite TargetApp
+  Comparing differences for HELLO.2 test-case Test (on errors.hello,output.hello)
+  HELLO.2 test-case Test FAILED : differences in output
+  View details(v), Save Version 2(1), Save(s) or continue(any other key)?
+Running HELLO.4.2 test-suite TargetApp
+  Running HELLO.4.2 test-case Test
+Comparing differences for HELLO.4.2 test-suite TargetApp
+  Comparing differences for HELLO.4.2 test-case Test (on errors.hello,output.hello)
+  HELLO.4.2 test-case Test FAILED : differences in output
+  View details(v), Save Version 4.2(1), Save Version 4(2), Save Version 2(3), Save(s) or continue(any other key)?
+Running HELLO.6.2 test-suite TargetApp
+  Running HELLO.6.2 test-case Test
+Comparing differences for HELLO.6.2 test-suite TargetApp
+  Comparing differences for HELLO.6.2 test-case Test (on errors.hello,output.hello)
+  HELLO.6.2 test-case Test FAILED : differences in output
+  View details(v), Save Version 6.2(1), Save Version 6(2), Save Version 2(3), Save(s) or continue(any other key)?

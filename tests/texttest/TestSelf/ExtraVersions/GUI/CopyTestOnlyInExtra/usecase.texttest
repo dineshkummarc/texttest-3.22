@@ -1,0 +1,13 @@
+wait for all tests to be read
+set test selection to Common
+copy selected tests
+set test selection to TargetApp (hello)
+paste tests from clipboard
+set test selection to Extra1
+copy selected tests
+set test selection to Base
+paste tests from clipboard
+agree to texttest message
+set test selection to Common_copy
+paste tests from clipboard
+quit

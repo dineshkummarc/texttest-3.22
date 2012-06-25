@@ -1,0 +1,3 @@
+copy_test_path:testdata
+
+copy_test_path_script:${TEXTTEST_PERSONAL_CONFIG}/copy_script.py

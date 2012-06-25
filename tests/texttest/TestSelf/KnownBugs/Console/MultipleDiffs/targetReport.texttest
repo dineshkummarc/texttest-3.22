@@ -1,0 +1,26 @@
+FAILED=1
+23Jul2009
+HELLO textinfile.baderr : 1 tests : 1 FAILED
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests FAILED : 
+In HELLO.textinfile.baderr test-suite TargetApp:
+  - HELLO.textinfile.baderr test-case Test : errors different(+)
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that FAILED follows...
+--------------------------------------------------------
+TEST FAILED on gewoia : HELLO.textinfile.baderr test-case Test (under Test)
+---------- Differences in errors ----------
+1d0
+< Some nonsense to trigger failure...
+---------- Differences in output ----------
+1c1
+< Hello world
+---
+> Hello after 5 seconds
+

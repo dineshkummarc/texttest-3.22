@@ -1,0 +1,11 @@
+wait for all tests to be read
+set test selection to Test1
+version control annotate for the selected files
+close annotate window
+set test selection to Suite
+recursive version control annotate for the selected files
+select testsuite.hello under Subsuite
+select output.hello under Test3
+select errors.hello under Test4
+close annotate window
+quit

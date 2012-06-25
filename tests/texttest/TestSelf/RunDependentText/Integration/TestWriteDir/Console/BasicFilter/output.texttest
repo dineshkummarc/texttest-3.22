@@ -1,0 +1,13 @@
+Using Application RDT
+Running RDT test-suite TargetApp
+  Running RDT test-case Test
+Comparing differences for RDT test-suite TargetApp
+  Comparing differences for RDT test-case Test (on errors.rdt,output.rdt)
+  RDT test-case Test FAILED : differences in output
+  View details(v), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+20c20
+< This should always go - somehow:  <test write directory>
+---
+> This should always go: "<test write directory>"
+  Save(s) or continue(any other key)?

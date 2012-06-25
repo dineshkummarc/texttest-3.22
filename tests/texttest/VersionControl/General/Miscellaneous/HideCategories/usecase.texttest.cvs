@@ -1,0 +1,14 @@
+wait for all tests to be read
+set test selection to Test2,Suite
+view actions for test Suite
+recursive version control status for the selected files
+show visibility controls
+hide category up-to-date
+show visibility controls
+hide category unknown
+show visibility controls
+hide category locally modified
+show visibility controls
+show category up-to-date
+close status window
+quit

@@ -1,0 +1,15 @@
+wait for completion of test actions
+set test selection to Test1
+version control log for the selected files
+close log window
+set file selection to output.hello
+version control log for the selected files
+close log window
+set test selection to Test2,Test1
+set file selection to 
+version control log for the selected files
+close log window
+set file selection to output.hello
+version control log for the selected files
+close log window
+quit

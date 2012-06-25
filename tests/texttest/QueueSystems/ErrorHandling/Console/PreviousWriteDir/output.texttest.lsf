@@ -1,0 +1,6 @@
+TextTest will write diagnostics in /nfs/vm/texttest-tmp/geoff/dynamic_gui.30Apr170343/texttest.lsf/QueueSystems/ErrorHandling/Console/PreviousWriteDir based on file at /carm/proj/texttest-tmp/geoff/dynamic_gui.30Apr170343/texttest.lsf/QueueSystems/ErrorHandling/Console/PreviousWriteDir/logging
+Removing previous write directory /carm/proj/texttest-tmp/geoff/dynamic_gui.30Apr170343/texttest.lsf/QueueSystems/ErrorHandling/Console/PreviousWriteDir/texttesttmp/console.startdigit.14Apr2007.273
+Using LSF queues for Application SLEEP, version startdigit
+Q: Submitting SLEEP.startdigit test-case 123Test to default LSF queue
+S: SLEEP.startdigit test-case 123Test succeeded on forestville
+At 17:03 creating batch report for application SLEEP ...file written.

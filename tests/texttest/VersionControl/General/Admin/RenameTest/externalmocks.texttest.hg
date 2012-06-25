@@ -1,0 +1,13 @@
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameTest/TargetApp/Test1/errors.hello
+->OUT:M TargetApp/Test1/errors.hello
+<-CMD:hg mv /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameTest/TargetApp/Test1 /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameTest/TargetApp/NewName
+->FIL:NewName
+->FIL:Test1
+->OUT:moving TargetApp/Test1/errors.hello to TargetApp/NewName/errors.hello
+moving TargetApp/Test1/output.hello to TargetApp/NewName/output.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameTest/TargetApp/Suite/Subsuite/Test4/errors.hello
+->OUT:? TargetApp/Suite/Subsuite/Test4/errors.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameTest/TargetApp/Suite/Subsuite/Test4/errors.hello.ignored_by_vcs
+->OUT:I TargetApp/Suite/Subsuite/Test4/errors.hello.ignored_by_vcs
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameTest/TargetApp/Suite/Subsuite/Test4/output.hello
+->OUT:? TargetApp/Suite/Subsuite/Test4/output.hello

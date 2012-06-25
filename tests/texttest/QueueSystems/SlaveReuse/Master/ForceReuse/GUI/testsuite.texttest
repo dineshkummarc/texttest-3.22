@@ -1,0 +1,19 @@
+# Don't reuse killed tests
+KillBeforeReuse
+
+# Not all jobs that are killed will mark their tests as such, have support in the protocol for this case
+JobKillBeforeReuse
+
+# Make sure we can kill tests that have reused another test's slave process
+QuitBeforeReuse
+
+# Make sure we can kill tests that have reused another test's slave process
+KillReusedTest
+
+# Check that we can kill a test at capacity from the GUI, and that the next one will then be submitted correctly
+KillAndContinue
+
+# If submission has terminated, we need to restart it if we run into a test that cannot be reused anywhere but
+# for which a rerun is requested.
+# 
+RestartSubmission

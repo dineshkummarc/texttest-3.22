@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cd '/carm/proj/texttest-tmp/geoff/texttest.23Sep102414.19709/texttest/TestSelf/RunRemotely/SharedFilesystem/PerformanceMeasurement/texttesttmp/console.23Sep102429.19771/hello/Test'
+PATH='/carm/proj/texttest-tmp/geoff/texttest.23Sep102414.19709/texttest/TestSelf/RunRemotely/SharedFilesystem/PerformanceMeasurement/texttesttmp/console.23Sep102429.19771/hello/Test:'${PATH}
+export PATH
+exec time -p -o /carm/proj/texttest-tmp/geoff/texttest.23Sep102414.19709/texttest/TestSelf/RunRemotely/SharedFilesystem/PerformanceMeasurement/texttesttmp/console.23Sep102429.19771/hello/Test/framework_tmp/unixperf python /carm/proj/texttest-tmp/geoff/texttest.23Sep102414.19709/texttest/TestSelf/RunRemotely/SharedFilesystem/PerformanceMeasurement/TargetApp/hello.py

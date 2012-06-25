@@ -1,0 +1,34 @@
+wait for all tests to be read
+set test selection to A01
+view actions for test A01
+rename selected test
+enter new name = 
+press ok
+agree to texttest message
+press cancel
+view actions for test A01
+rename selected test
+enter new name = A01 with space
+press ok
+agree to texttest message
+press cancel
+view actions for test A01
+rename selected test
+enter new name = A02
+press ok
+agree to texttest message
+press cancel
+set test selection to Game9952
+set file selection to testsuite.dip.small
+view actions for file testsuite.dip.small
+rename selected file
+press ok
+agree to texttest message
+press cancel
+view actions for file testsuite.dip.small
+rename selected file
+enter new name for file = testsuite.dip
+press ok
+agree to texttest message
+press cancel
+quit

@@ -1,0 +1,19 @@
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/HideCategories/TargetApp/Test2/errors.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/HideCategories/TargetApp/Test2/output.hello
+->OUT:modified:
+  TargetApp/Test2/output.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/HideCategories/TargetApp/Suite/Subsuite/Test3/errors.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/HideCategories/TargetApp/Suite/Subsuite/Test3/output.hello
+->OUT:modified:
+  TargetApp/Suite/Subsuite/Test3/output.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/HideCategories/TargetApp/Suite/Subsuite/Test4/errors.hello
+->OUT:unknown:
+  TargetApp/Suite/Subsuite/Test4/errors.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/HideCategories/TargetApp/Suite/Subsuite/Test4/errors.hello.ignored_by_vcs
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/HideCategories/TargetApp/Suite/Subsuite/Test4/output.hello
+->OUT:unknown:
+  TargetApp/Suite/Subsuite/Test4/output.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/HideCategories/TargetApp/Suite/Subsuite/testsuite.hello
+->OUT:modified:
+  TargetApp/Suite/Subsuite/testsuite.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/HideCategories/TargetApp/Suite/testsuite.hello

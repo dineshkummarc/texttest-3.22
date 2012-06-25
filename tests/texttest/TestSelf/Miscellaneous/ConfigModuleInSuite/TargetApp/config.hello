@@ -1,0 +1,5 @@
+import_config_file:$STANDARD
+
+default_interface:console
+
+config_module:customconfig

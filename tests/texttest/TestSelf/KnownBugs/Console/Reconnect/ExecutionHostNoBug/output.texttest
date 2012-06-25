@@ -1,0 +1,9 @@
+Using Application HELLO
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.02Jun170508.5340/texttest/TestSelf/KnownBugs/Console/Reconnect/ExecutionHostNoBug/texttesttmp/console.13Sep092101.2193/hello
+Reconnecting to HELLO test-suite TargetApp
+  Reconnecting to HELLO test-case Test (recomputing)
+Comparing differences for HELLO test-suite TargetApp
+  Comparing differences for HELLO test-case Test (on errors.hello,output.hello)
+  HELLO test-case Test FAILED on fake_machine1 : differences in output
+Creating batch report for application HELLO ...
+File written.

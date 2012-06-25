@@ -1,0 +1,11 @@
+<-CMD:bzr rm --force /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/MoveSuite/TargetApp/Suite/Subsuite/Test4
+->FIL:Test4
+->ERR:deleted TargetApp/Suite/Subsuite/Test4/errors.hello.ignored_by_vcs
+TargetApp/Suite/Subsuite/Test4 is not versioned.
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/MoveSuite/TargetApp/Suite/Subsuite
+->OUT:modified:
+  TargetApp/Suite/Subsuite/Test3/output.hello
+<-CMD:bzr mv /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/MoveSuite/TargetApp/Suite/Subsuite /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/MoveSuite/TargetApp/Subsuite
+->FIL:Subsuite
+->FIL:Subsuite.edit_2
+->OUT:TargetApp/Suite/Subsuite => TargetApp/Subsuite

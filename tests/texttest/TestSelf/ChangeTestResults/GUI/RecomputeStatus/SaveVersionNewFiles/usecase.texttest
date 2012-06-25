@@ -1,0 +1,17 @@
+wait for completion of test actions
+set test selection to OutDiff under TargetApp (hello.10.2)
+save results with non-default settings
+enter version to save = 10
+press ok
+set test selection to OutDiff under TargetApp (hello)
+save results with non-default settings
+enter version to save = 
+press ok
+set test selection to OutDiff under TargetApp (hello.10.4)
+recompute test status, including progress information if appropriate
+show test suite TargetApp (hello.10.4)
+set test selection to OutDiff under TargetApp (hello.10.4)
+set file selection to output.hello.10
+view raw differences
+wait for the graphical difference program to terminate
+quit

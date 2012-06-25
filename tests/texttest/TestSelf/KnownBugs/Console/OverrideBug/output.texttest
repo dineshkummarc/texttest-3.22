@@ -1,0 +1,7 @@
+Using Application HELLO, version textinfile.overridebug
+Running HELLO.textinfile.overridebug test-suite TargetApp
+  Running HELLO.textinfile.overridebug test-case Test
+Comparing differences for HELLO.textinfile.overridebug test-suite TargetApp
+  Comparing differences for HELLO.textinfile.overridebug test-case Test (on errors.hello,output.hello)
+  HELLO.textinfile.overridebug test-case Test FAILED : differences in output
+  View details(v), Save Version textinfile.overridebug(1), Save Version textinfile(2), Save Version overridebug(3), Save(s) or continue(any other key)?

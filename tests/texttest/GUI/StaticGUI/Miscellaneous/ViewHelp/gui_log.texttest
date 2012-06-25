@@ -1,0 +1,707 @@
+
+---------- Window 'DIP test management - TextTest static GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_Edit' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+    ----
+  _Select (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+  Refresh (Stock image 'gtk-refresh', accelerator 'F5', tooltip 'Refresh the whole test suite so that it reflects file changes')
+  _Run (Stock image 'gtk-execute', greyed out, accelerator 'Ctrl+R', tooltip 'Run selected tests')
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Selection , Config
+Viewing page 'Selection'
+Viewing table with 7 rows and 2 columns.
+'Tests for version  ' (tooltip 'Select tests for a specific version.') | Text entry (drop-down list containing ['', '<default>'])
+'Test names containing  ' (tooltip 'Select tests for which the name contains the entered text. The text can be a regular expression.') | Text entry
+'Test paths containing  ' (tooltip 'Select tests for which the full path to the test (e.g. suite1/subsuite/testname) contains the entered text. The text can be a regular expression. You can select tests by suite name this way.') | Text entry
+'Tests listed in file  ' | Text entry , Button '...'
+'Descriptions containing  ' (tooltip 'Select tests for which the description (comment) matches the entered text. The text can be a regular expression.') | Text entry
+'Test-files containing  ' (tooltip 'Select tests which have a file containing the entered text. The text can be a regular expression : e.g. enter '.*' to only look for the file without checking the contents.') | Text entry
+'Test-file to search  ' (tooltip 'When the 'test-files containing' field is non-empty, apply the search in files with the given stem. Unix-style file expansion (note not regular expressions) may be used. For example '*' will look in any file.') | Text entry (drop-down list containing [''])
+.....'Selection'......
+Check button 'Select in collapsed suites' (tooltip 'Select in currently collapsed suites as well?')
+Radio button 'Discard' (checked) (tooltip 'Unselect all currently selected tests before applying the new selection criteria.') , Radio button 'Refine' (tooltip 'Apply the new selection criteria only to the currently selected tests, to obtain a subselection.') , Radio button 'Extend' (tooltip 'Keep the currently selected tests even if they do not match the new criteria, and extend the selection with all other tests which meet the new criteria.') , Radio button 'Exclude' (tooltip 'After applying the new selection criteria to all tests, unselect the currently selected tests, to exclude them from the new selection.')
+Button '_Select' (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+.....'Filtering'......
+Radio button 'Discard' (checked) (tooltip 'Show all tests which match the criteria, and hide all those that do not.') , Radio button 'Refine' (tooltip 'Hide all tests which do not match the criteria. Do not show any tests that aren't already shown.') , Radio button 'Extend' (tooltip 'Show all tests which match the criteria. Do not hide any tests that are currently shown.')
+Button 'Filter' (Stock image 'gtk-find', accelerator 'Ctrl+F', tooltip 'filter tests to show only those indicated')
+Button 'Reset Tab' (tooltip 'Reset all the settings in the current tab to their default values')
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 01Jul14:37:52.' , Image 'throbber_inactive.png'
+------------------------------------------------------------------------
+
+Changing GUI status to: 'Reading tests ...'
+
+Column titles changed in Test Tree with columns: Tests: 0/1 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/2 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/3 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/4 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/5 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/6 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/7 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/8 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/9 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/10 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/11 selected
+
+Updated : Test Tree with columns: Tests: 0/11 selected
+-> TargetApp (dip) (black/grey90,bold)
+->   Game9952 (black/grey90,bold)
+->     S01.99 (black/grey90)
+->     A01 (black/grey90)
+->     S02 (black/grey90)
+->     A02 (black/grey90)
+->     S03 (black/grey90)
+->     A03 (black/grey90)
+->     S04 (black/grey90)
+->     A04 (black/grey90)
+->     S05 (black/grey90)
+->     A05 (black/grey90)
+->   npstIII (black/grey90,bold)
+->     Game47 (black/grey90,bold)
+->       S01 (black/grey90)
+Updated drop-down list in 'Test-file to search' Text entry (set to 'output') (drop-down list containing ['output'])
+
+Changing GUI status to: 'Reading tests completed at 01Jul14:37:53.'
+
+Expected application event 'all tests to be read' occurred, proceeding.
+
+'show help menu' event created with arguments ''
+
+---------- Popup Window ----------
+'Quick Start'
+'_Migration Notes'
+'_Change Logs'
+  ----
+'Component _Versions'
+'Credits'
+'License'
+  ----
+'_About TextTest' (Stock image 'gtk-about')
+----------------------------------
+
+'show information about texttest' event created with arguments ''
+
+Changing GUI status to: ''
+
+---------- Dialog 'About TextTest' ----------
+Default widget is 'gtk-close'
+Image 'texttest-logo.gif'
+'<span size='xx-large'>TextTest trunk</span>
+'
+'<i>TextTest is an application-independent tool for text-based
+functional testing. This means running a batch-mode program
+in lots of different ways, and using the text output produced
+as a means of controlling the behaviour of that application.</i>
+'
+Link button 'http://www.texttest.org'
+'<span size='small'>Copyright © The authors</span>
+'
+---------------
+Button 'gtk-close' (Stock image 'gtk-close') , Button '_Versions' , Button '_License' , Button 'texttest-stock-credits' (Stock image 'texttest-stock-credits')
+---------------------------------------------
+
+'go to website' event created with arguments ''
+
+Changing GUI status to: 'Started "firefox http://www.texttest.org" in background.'
+
+'press credits' event created with arguments ''
+
+---------- Dialog 'TextTest Credits' ----------
+Default widget is 'gtk-close'
+
+Showing Notebook with tabs: Written by
+Viewing page 'Written by'
+
+========== GtkTextView ==========
+Code Maintainer:                                        
+
+    Geoff Bache
+
+Developers:
+
+    Geoff Bache
+    Mattias Grönkvist
+    Johan Ivarsson
+    Johan Andersson
+
+Contributors:
+
+    Patrik Blommaskog
+    Per Bergsten
+    Emily Bache
+    Nicolas Gattario
+    Claes Verdoes
+    Henning Thornblad
+    Michael Behrisch
+    Örjan Råberg
+    Matthew Baker
+=================================
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+-----------------------------------------------
+
+'press close' event created with arguments ''
+
+'press license' event created with arguments ''
+
+---------- Dialog 'TextTest License' ----------
+Default widget is 'gtk-close'
+
+Showing Notebook with tabs: License
+Viewing page 'License'
+
+========== GtkTextView ==========
+TextTest : tool for automatic system-level acceptance testing
+Copyright (c) 2003 Geoff Bache
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Lesser General Public License for more details. This can be found
+online at http://www.opensource.org/licenses/lgpl-license.php
+=================================
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+-----------------------------------------------
+
+'press close' event created with arguments ''
+
+'press versions' event created with arguments ''
+
+---------- Dialog 'Version Information' ----------
+Default widget is 'gtk-close'
+'<b>You are using these versions:
+</b>'
+Viewing table with 6 rows and 2 columns.
+'TextTest:' | 'trunk'
+'Python:' | '2.6.5.final.0'
+'GTK:' | '2.18.9'
+'PyGTK:' | '2.16.0'
+'PyGObject:' | '2.20.0'
+'GLib:' | '2.22.5'
+'<b>You are using these installations:
+</b>'
+Viewing table with 3 rows and 2 columns.
+'Test Suite:' | '/carm/proj/texttest-tmp/geoff/dynamic_gui.01Jul143736.5780/texttest.gui/GUI/StaticGUI/Miscellaneous/ViewHelp/TargetApp'
+'TextTest:' | '/nfs/vm/texttest/geoff/Testing/TextTest'
+'Python:' | '/usr/local/tt-env/python2.6.current/bin/python'
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+--------------------------------------------------
+
+'press close' event created with arguments ''
+
+'close about dialog' event created with arguments ''
+
+'show help menu' event created with arguments ''
+
+---------- Popup Window ----------
+'Quick Start'
+'_Migration Notes'
+'_Change Logs'
+  ----
+'Component _Versions'
+'Credits'
+'License'
+  ----
+'_About TextTest' (Stock image 'gtk-about')
+----------------------------------
+
+'show texttest migration notes' event created with arguments ''
+
+Changing GUI status to: ''
+
+---------- Dialog 'TextTest Migration Notes' ----------
+Default widget is 'gtk-close'
+
+Showing Notebook with tabs: from 3.21 , from 3.20 , from 3.19 , from 3.18 , from 3.17 , from 3.16 , from 3.15 , from 3.14 , from 3.13 , from 3.12 , from 3.11 , from 3.10 , from 3.9 , from 3.8 , from 3.7 , from 3.6 , from 3.5 , from 3.4 , from 3.3 , from 3.1 , from 2.x
+Viewing page 'from 3.21'
+
+========== GtkTextView ==========
+
+
+=========================================================
+CHANGES IN DEFAULT BEHAVIOUR (OR PROCEDURE)
+=========================================================
+
+(1) Scripts that use batch session parameters
+=============================================
+There are several scripts which apply to batch mode data. These are
+
+batch.ArchiveRepository
+batch.CollectFiles (deprecated)
+batch.GenerateGraphs
+batch.GenerateSummaryPage
+
+All of these have had some way of referring to the batch session, usually as a script parameter (with different names for each). These are now removed. To supply the batch session for all of these, do it in the normal way, i.e. with the -b parameter. So for example
+
+texttest -s "batch.CollectFiles session=nightjob"
+
+will no longer work, and should now be done via
+
+texttest -s batch.CollectFiles -b nightjob
+=================================
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+-------------------------------------------------------
+
+'view tab' event created with arguments 'from 3.4'
+
+Current page changed in Notebook with tabs: from 3.21 , from 3.20 , from 3.19 , from 3.18 , from 3.17 , from 3.16 , from 3.15 , from 3.14 , from 3.13 , from 3.12 , from 3.11 , from 3.10 , from 3.9 , from 3.8 , from 3.7 , from 3.6 , from 3.5 , from 3.4 , from 3.3 , from 3.1 , from 2.x
+Viewing page 'from 3.4'
+
+========== GtkTextView ==========
+(1) Due to resurrected support on Windows, the configuration 'unixConfig'
+is no longer present or necessary. The few UNIX-specific things left
+are inferrred by running the configuration 'default' on a UNIX system.
+
+In other words, if your config file says
+config_module:unixConfig
+
+delete this line.
+
+(2) This applies to anyone who was tried to measure CPU time or memory consumption
+with texttest. The config file format of most settings has changed.
+
+Because any number of resource-related files can now be extracted, the settings are 
+now more like the batch settings, each is a section, with type names. So, for example,
+instead of
+
+performance_test_resource:model=Opteron250
+
+you would now write
+
+[performance_test_resource]
+cputime:model=Opteron250
+
+Likewise, minimum_cputime_for_test and minimum_memory_for_test are replaced by
+
+[performance_test_minimum]
+cputime:10
+memory:5
+
+The name 'cputime' for UNIX time-generated CPU time is hardcoded. The rest you can 
+set yourself. Use the entry
+
+[performance_logfile_extractor]
+memory:Memory Usage Is
+
+to tell TextTest how to create the file from your log file. (This replaces 'string_before_memory'.) The file name 'memory' no longer has any special meaning.
+
+There is also a new entry, that can tell it to use a file other than the one indicated by log_file
+for this purpose: as follows.
+
+[performance_logfile]
+memory:output
+
+In summary, the changes are follows:
+
+Old names                               New Names
+=========                               =========
+performance_test_machine (list)         performance_test_machine (section)
+performance_test_resource (list)        performance_test_resource (section)
+<cputime|memory>_variation_% (int)      performance_variation_% (section)
+minimum_<cputime|memory>_for_test (int) performance_test_minimum (section)
+string_before_memory (string)           performance_logfile_extractor (section)
+
+Note for migrators (or checkers): check your sections end correctly. If you have global level 
+settings after a section, an [end] marker will be needed to make sure that they don't end up 
+in the section! Otherwise they will not be included.
+
+(example)
+
+[performance_test_machine]
+cputime:apple
+
+config_module:default
+
+(This will not work as config_module will be entered in the section [performance_test_machine]. Use an [end] marker after the section.)
+=================================
+
+'press close' event created with arguments ''
+
+'show help menu' event created with arguments ''
+
+---------- Popup Window ----------
+'Quick Start'
+'_Migration Notes'
+'_Change Logs'
+  ----
+'Component _Versions'
+'Credits'
+'License'
+  ----
+'_About TextTest' (Stock image 'gtk-about')
+----------------------------------
+
+'show texttest change logs' event created with arguments ''
+
+Changing GUI status to: ''
+
+---------- Dialog 'TextTest Change Logs' ----------
+Default widget is 'gtk-close'
+
+Showing Notebook with tabs: trunk , 3.21 , 3.20 , 3.19 , 3.18 , 3.17 , 3.16.1 , 3.16 , 3.15 , 3.14.1 , 3.14 , 3.13 , 3.12.1 , 3.12 , 3.11.1 , 3.11 , 3.10 , 3.9.1 , 3.9 , 3.8 , 3.7.1 , 3.7 , 3.6 , 3.5.3 , 3.5.2 , 3.5.1 , 3.5 , 3.4 , 3.3 , 3.2 , 3.1.1 , 3.1 , 3.0 , 2.1 , 2.0 , 1.0 , 0.2 , 0.1
+Viewing page 'trunk'
+
+========== GtkTextView ==========
+System requirements (see Migration Notes):
+General GUI Enhancements:
+    - File selection is now preserved when a new test is selected
+	Makes it easier to compare previews of different test results
+    - Window naming changed
+	Main aim is to put differentiating info at the start to aid finding in window managers
+Static GUI Enhancements:
+    - Version information now shown when a single test/suite with extra versions selected
+	Previously hard to tell which was selected
+    - GUI testing for Swing - PyUseCase 3.6 replaces defunct JUseCase in application creation dialog
+Dynamic GUI Enhancements:
+    - New option "<full version>" in "version to save" in Save As dialog
+	Basically save with the full version you ran with, as was default behaviour in TextTest 3.20
+	Particularly helpful when running multiple versions
+    - Recomputed completed tests always reloads config file, even if other tests still running
+	Threading-related issues fixed.
+    - When a file-related row is selected in the status view, select equivalent files in the test file view
+	Note changes behaviour of "Save" in this situation
+    - Settings of $TEXTTEST_CHECKOUT and $TEXTTEST_CHECKOUT_NAME now listed in Run Info tab
+	Also made it easier for configurations to configure what appears there
+Framework Enhancements:
+    - Added possibility to configure copying procedure for test data files
+	See docs for "copy_test_path_script".
+    - Now support GUI testing on separate networks
+	Both virtual display and accessibility of usecase and UI map files fixed
+Batch Report Enhancements:
+    - If a date is used as the name, use that throughout instead of the actual date to identify the run
+    - Junit format report now assumes locale encoding instead of hardcoding UTF-8
+    - Junit format includes times when performance enabled
+    - HTML pages link all graphs at the top so they can be seen at once, if there is more than one graph on the page
+    - Made it easier for configurations to override how batch sessions are defined - single API function for it
+	Caused some backwards compatibility changes for scripts - see migration notes
+Grid Engine (LSF/SGE) enhancements/bug fixes:
+    - Fixed stacktrace when normal polling cannot find a job, e.g. if SGE master goes down
+    - Fixed stacktrace in slave when test names contain colons
+    - Recomputing after a status update in SGE no longer duplicates progress information
+    - Now handles hold state (hqw) correctly
+    - Fixed hang if slave gets an invalid test for any reason
+Bug Fixes:
+    - Fixed inconsistencies in dynamic GUI with test suite "all succeeded" status when tests are recomputed and then fail.
+    - Fixed stacktrace trying to build piecharts when matplotlib not installed
+    - Make sure options after positional arguments get treated as arguments to the new program
+    - Allow linking of executable, which is done in the new rpm (thanks Michael Behrisch)
+    - Record/Add dialog sizes improved
+    - Focus in dialogs with file choosers (like the application creation one) now starts at the top
+    - Command lines with empty string arguments now shown correctly in Run Info
+    - On POSIX platforms, tests that set LANG and change encoding will no longer cause errors from TextTest previews
+    - Fixed occasional stacktraces when viewing files in tests exactly as the test in question completes
+    - Tried to improve handling of errors from "ps" on POSIX systems
+    - Fixed bug where invalid names of saved selections persist even after being changed
+    - Fixed stacktrace replacing text in files if the pattern matches a directory
+=================================
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+---------------------------------------------------
+
+'view tab' event created with arguments '3.7.1'
+
+Current page changed in Notebook with tabs: trunk , 3.21 , 3.20 , 3.19 , 3.18 , 3.17 , 3.16.1 , 3.16 , 3.15 , 3.14.1 , 3.14 , 3.13 , 3.12.1 , 3.12 , 3.11.1 , 3.11 , 3.10 , 3.9.1 , 3.9 , 3.8 , 3.7.1 , 3.7 , 3.6 , 3.5.3 , 3.5.2 , 3.5.1 , 3.5 , 3.4 , 3.3 , 3.2 , 3.1.1 , 3.1 , 3.0 , 2.1 , 2.0 , 1.0 , 0.2 , 0.1
+Viewing page '3.7.1'
+
+========== GtkTextView ==========
+Framework enhancements:
+    - Plugin scripts (-s option) will no longer be rejected by the framework if no tests are found (engine.py)
+	- sometimes they only act on the application anyway.
+    - A couple of config file defaults changed: 
+	"view_program" now defaults to "emacs" rather than "xemacs" on UNIX, as it is slightly more universally available
+	"slow_motion_replay_speed" defaults to 3 instead of 0 (this was more or less a bug)
+LSF/SGE enhancements:
+    - Unrunnable tests will always report the machine they run on (engine.py)
+	Previously some "hard" failures could cause the machine not to be reported
+    - performance_test_resource entry now works when machine names in SGE are 'short' (sge.py)
+	Previously it only worked if the full domain name was in SGE.
+    - If tests report as running but then get terminated hard (e.g. SIGKILL), report them as "killed" (queuesystem.py)
+	Previously reported confusingly as "abandoned" - but there was nothing to abandon
+    - Finding information in older accounting files in SGE now works (sge.py)
+	There has been code lying around to do this for some time but it's never worked until now...
+Bug Fixes:
+    - Fixed crash on removing tests after starting static GUI from scratch (texttestgui.py,testmodel.py)
+	Showed up if the GUI was started with only a config file available.
+    - Removing last test from a test suite now removes it from the GUI display also (texttestgui.py)
+    - Test completion time on progress bar is now always correct (texttestgui.py)
+	It tended to update itself to the current time when clicking around...
+    - Collation of files to names containing "." characters is now forbidden (default.py)
+	It violates TextTest's naming conventions and hence causes trouble
+    - 'Text Info' and 'Viewing' tabs now always appear in the same order (guiplugins.py)
+	Viewing tests that were pending in SGE/LSF could cause them to switch before.
+    - No longer show spurious files in the static GUI if full temporary path contains "." characters (testmodel.py)
+    - External viewers can be started even if the path to the file contains spaces (guiplugins.py)
+    - If the script for interpreting core files on UNIX fails, it no longer causes a TextTest crash (predict.py)
+    - Fixed crash when an extra_version is rejected for a batch run via batch_version (engine.py)
+    - Test data identified by environment variables can now be used as keys in "test_data_searchpath" (default.py)
+    - Disable interactive dialogue in console interface after ^C has been pressed (respond.py)
+Test Fixes:
+    - A certain amount of work done stablising the self-tests and reducing the probability of occasional failures, 
+      particularly the tests for SGE/LSF.
+=================================
+
+'press close' event created with arguments ''
+
+'show help menu' event created with arguments ''
+
+---------- Popup Window ----------
+'Quick Start'
+'_Migration Notes'
+'_Change Logs'
+  ----
+'Component _Versions'
+'Credits'
+'License'
+  ----
+'_About TextTest' (Stock image 'gtk-about')
+----------------------------------
+
+'show component version information' event created with arguments ''
+
+Changing GUI status to: ''
+
+---------- Dialog 'Version Information' ----------
+Default widget is 'gtk-close'
+'<b>You are using these versions:
+</b>'
+Viewing table with 6 rows and 2 columns.
+'TextTest:' | 'trunk'
+'Python:' | '2.6.5.final.0'
+'GTK:' | '2.18.9'
+'PyGTK:' | '2.16.0'
+'PyGObject:' | '2.20.0'
+'GLib:' | '2.22.5'
+'<b>You are using these installations:
+</b>'
+Viewing table with 3 rows and 2 columns.
+'Test Suite:' | '/carm/proj/texttest-tmp/geoff/dynamic_gui.01Jul143736.5780/texttest.gui/GUI/StaticGUI/Miscellaneous/ViewHelp/TargetApp'
+'TextTest:' | '/nfs/vm/texttest/geoff/Testing/TextTest'
+'Python:' | '/usr/local/tt-env/python2.6.current/bin/python'
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+--------------------------------------------------
+
+'press close' event created with arguments ''
+
+'show help menu' event created with arguments ''
+
+---------- Popup Window ----------
+'Quick Start'
+'_Migration Notes'
+'_Change Logs'
+  ----
+'Component _Versions'
+'Credits'
+'License'
+  ----
+'_About TextTest' (Stock image 'gtk-about')
+----------------------------------
+
+'show texttest credits' event created with arguments ''
+
+Changing GUI status to: ''
+
+---------- Dialog 'TextTest Credits' ----------
+Default widget is 'gtk-close'
+
+Showing Notebook with tabs: Written by
+Viewing page 'Written by'
+
+========== GtkTextView ==========
+Code Maintainer:                                        
+
+    Geoff Bache
+
+Developers:
+
+    Geoff Bache
+    Mattias Grönkvist
+    Johan Ivarsson
+    Johan Andersson
+
+Contributors:
+
+    Patrik Blommaskog
+    Per Bergsten
+    Emily Bache
+    Nicolas Gattario
+    Claes Verdoes
+    Henning Thornblad
+    Michael Behrisch
+    Örjan Råberg
+    Matthew Baker
+=================================
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+-----------------------------------------------
+
+'press close' event created with arguments ''
+
+'show help menu' event created with arguments ''
+
+---------- Popup Window ----------
+'Quick Start'
+'_Migration Notes'
+'_Change Logs'
+  ----
+'Component _Versions'
+'Credits'
+'License'
+  ----
+'_About TextTest' (Stock image 'gtk-about')
+----------------------------------
+
+'show texttest quick start' event created with arguments ''
+
+Changing GUI status to: ''
+
+---------- Dialog 'TextTest Quick Start' ----------
+Default widget is 'gtk-close'
+
+Showing Notebook with tabs: Quick Start
+Viewing page 'Quick Start'
+
+========== GtkTextView ==========
+Some features are easiest to understand by example. For complete newcomers to TextTest it's recommended
+to follow the "Getting Started" tutorial and then possibly the "Course Material" which can be seen at
+http://www.texttest.org/index.php?page=documentation_trunk. For those who basically know the tool but
+want to explore features they haven't used, the self-tests provide a wealth of working examples.
+
+These can be found in the download, or the latest version of them can be had from source control.
+See http://www.texttest.org/index.php?page=download.
+
+There are various "TargetApp" directories to be found under it. Each of these contains a test-suite 
+for a simple program (which are in turn part of the larger test suite for TextTest, as it tests 
+itself testing these programs)
+
+To run these apps by hand, you can view and run them in TextTest:
+
+1) Set the environment variable STANDARD to point at the "standard" file at the top level of the self-tests
+2) texttest -d <path to TargetApp> -gx  
+
+What there is to find (below is just a selection):
+
+TargetApp                                  : used by default as it's very basic, this test suite has
+                                               one test (that fails) on a "Hello World" program.
+
+TestSelf/TestSelection/TargetApp           : Contains a few tests with related names, to explore the
+                                               functionality for selecting tests and saving those selections.
+
+TestSelf/ChangeTestResults/TargetApp       : Contains a few tests that fail in various ways, to explore
+                                               how these are reported and how the results can be saved.
+
+TestSelf/RunDependentText/TargetApp        : useful for understanding the run-dependent text filtering
+
+TestSelf/EnvironmentFile/TargetApp         : useful for understanding how environment variables are 
+                                               set and unset
+
+TestSelf/DiagnosticHandling/TargetApp      : useful for understanding integration with log4py, log4j 
+                                               and log4cpp to configuration of produced logs.
+
+TestSelf/TestData/TargetApp                : useful for understanding how TextTest handles test data, and
+                                               the differences between data that is only to be read and that
+                                               which can also be written.
+
+TestSelf/CollateFiles/TargetApp            : useful for understanding how TextTest collects files of any
+                                               name written by an application
+
+TestSelf/Checkouts/TargetApp               : useful for understanding how the checkout mechanism for 
+                                               version control integration works.
+
+TestSelf/BatchTests/TargetApp              : useful for understanding how batch mode works (both plain-text 
+                                             and HTML reports)
+
+TestSelf/MemoryTests/TargetApp             : useful for understanding how memory consumption is compared
+
+TestSelf/PerformanceTests/TargetApp        : useful for understanding how performance-related info is in general 
+                                             compared by extracting and comparing numbers from log files.
+
+TestSelf/KnownBugs/TargetApp               : useful for finding out how textual patterns are identified
+                                               as known bugs, and also linked to bugs in Bugzilla
+
+TestSelf/RunningTests/TargetApp            : shows how you can view your tests before
+                                               they compmlete in the dynamic GUI
+
+TestSelf/BaseVersions/TargetApp            : shows how to get version settings to inherit from each other.
+
+TestSelf/ExtraVersions/TargetApp           : shows how to automatically run other versions than the default
+                                               when running normally.
+
+TestSelf/UITesting/GUI/TargetApp           : useful for understanding TextTest's integration with Use Case
+                                               Recorders such as PyUseCase and JUseCase for GUI testing.
+
+GUI/DynamicGUI/Filtering/TargetApp         : useful for exploring the status tab from the dynamic GUI and what
+                                             it can do.
+
+GUI/DynamicGUI/TextView/TargetApp          : mostly on unicode handling
+
+GUI/StaticGUI/TargetApp                    : fairly large suite that's a residue of the previous default one.
+
+GUI/StaticGUI/StartFromScratch/TargetApp   : useful for getting a handle on what a totally empty test suite
+                                               should look like
+
+TestSelf/TrafficInterception/TargetApp     : useful for understanding how TextTest can record and replay
+                                               results from "third-party" programs run on the command line
+                                               and thus produce repeatable results.
+
+TestSelf/TrafficInterception/ClientServer/TargetApp
+                                             : useful for undestanding how TextTest can record and replay 
+                                               textual traffic on a network connection, allowing creation
+                                               of component tests for client/server systems.
+
+TestSelf/BatchTests/CollectFiles/TargetApp : useful for understanding how batch reporting works.
+
+TestSelf/EmptyTestSuites/TargetApp         : useful for understanding how TextTest handles various unusual
+                                               things in the testsuite files.
+
+TestSelf/PerformanceTests/UnixOnly/TargetApp :
+                                             (UNIX only) shows how performance can be extracted directly via the "time" program
+
+TestSelf/CollateFiles/UnixOnly/TargetApp   : (UNIX only) useful for understanding core file processing
+
+TestSelf/Miscellaneous/UnixOnly/TargetApp  : (UNIX only) useful for understanding how the virtual display
+                                               integration with Xvfb works (to prevent application GUIs popping up)
+
+QueueSystems/TargetApp                     : useful for understanding the queuesystem configuration and
+                                               the associated plugin for LSF and Sun Grid Engine
+
+
+Once you've browsed these a bit and can read them, you can also use the actual self-tests to see how 
+TextTest itself works and what features it has...
+=================================
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+---------------------------------------------------
+
+'press close' event created with arguments ''
+
+'quit' event created with arguments ''

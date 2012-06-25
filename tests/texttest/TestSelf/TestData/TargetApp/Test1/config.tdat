@@ -1,0 +1,4 @@
+partial_copy_test_path:writeabledirs
+
+[test_data_environment]
+writeabledirs:WRITEABLE_DIRS

@@ -1,0 +1,10 @@
+<-SRV:TextTest slave server started on 10.67.7.94:51180
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/Console/BadPerformanceModel/texttesttmp/console.badperfarch.01Mar115324.3584/slavelogs; qsub -N Test-Basic-SLEEP.badperfarch -l arch=no_such_arch -w e -notify -m n -cwd -b y -V -o Test-Basic-SLEEP.badperfarch.log -e Test-Basic-SLEEP.badperfarch.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/Console/BadPerformanceModel/TargetApp -a sleep.badperfarch -l -tp 'Basic' -slave /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/Console/BadPerformanceModel/texttesttmp/console.badperfarch.01Mar115324.3584 -servaddr 10.67.7.94:59826""
+->ERR:Unable to run job: error: no suitable queues.
+Exiting.
+->EXC:1
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/Console/BadPerformanceModel/texttesttmp/console.badperfarch.01Mar115324.3584/slavelogs; qsub -N Test-Basic2-SLEEP.badperfarch -l arch=no_such_arch -w e -notify -m n -cwd -b y -V -o Test-Basic2-SLEEP.badperfarch.log -e Test-Basic2-SLEEP.badperfarch.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/Console/BadPerformanceModel/TargetApp -a sleep.badperfarch -l -tp 'Basic2' -slave /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/Console/BadPerformanceModel/texttesttmp/console.badperfarch.01Mar115324.3584 -servaddr 10.67.7.94:59826""
+->ERR:Unable to run job: error: no suitable queues.
+Exiting.
+->EXC:1
+<-SRV:Completed submission of all tests

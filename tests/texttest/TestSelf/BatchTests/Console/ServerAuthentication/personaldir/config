@@ -1,0 +1,5 @@
+smtp_server:gotmail1.jeppesensystems.com
+smtp_server_username:the_user
+smtp_server_password:the_password
+
+

@@ -1,0 +1,6 @@
+Using Application SLEEP, version startdigit.kbrerun
+Running SLEEP.startdigit.kbrerun test-suite TargetApp
+  Running SLEEP.startdigit.kbrerun test-case 123Test
+Comparing differences for SLEEP.startdigit.kbrerun test-suite TargetApp
+  Comparing differences for SLEEP.startdigit.kbrerun test-case 123Test - SUCCESS! (on errors.sleep,output.sleep)
+  Checking known bugs for SLEEP.startdigit.kbrerun test-case 123Test - found an issue that triggered a rerun

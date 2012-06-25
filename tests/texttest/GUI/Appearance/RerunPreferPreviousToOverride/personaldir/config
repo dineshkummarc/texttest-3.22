@@ -1,0 +1,15 @@
+[gui_entry_overrides]
+run_this_version:version3
+use_checkout:/carm/release1/
+use_checkout:/carm/release2/
+use_checkout:/carm/release3/
+
+[gui_entry_options]
+run_this_version:version1
+run_this_version:version2
+run_this_version:version3
+run_this_version:version4
+use_checkout:/checkout1/
+use_checkout:/checkout2/
+use_checkout:/checkout3/
+use_checkout:/checkout4/

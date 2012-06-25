@@ -1,0 +1,6 @@
+wait for all tests to be read
+set test selection to One1 under TargetApp (hello.v1),Two under TargetApp (hello.v2)
+view options for Running
+run selected tests
+wait for dynamic GUI to be closed
+quit

@@ -1,0 +1,53 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------Test1_copy
+------------catalogue.tdat
+------------catalogue.tdat.nochanges
+------------config.tdat
+------------config.tdat.copy
+------------errors.tdat
+------------options.tdat
+------------output.tdat
+------------readonlyfile
+------------writeabledirs
+----------------otherreadfile
+----------------readfile
+----------------toRemove
+----------------otherdir
+--------------------toRemove
+--------------------writehere
+------------------------readfile
+----------------readdir
+--------------------otherdir
+------------------------readfile
+--------------------somedir
+------------------------readfile
+----------------somedir
+--------------------toEdit
+----------------writehere
+--------------------readfile
+--------------------writeandremovehere
+------------------------readfile
+------------writeabledirs.version
+----------------otherreadfile
+----------------readfile
+----------------toRemove
+----------------otherdir
+--------------------toRemove
+--------------------writehere
+------------------------readfile
+----------------readdir
+--------------------otherdir
+------------------------readfile
+--------------------somedir
+------------------------readfile
+----------------writehere
+--------------------readfile
+--------------------writeandremovehere
+------------------------readfile
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------testsuite.tdat

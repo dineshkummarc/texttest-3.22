@@ -1,0 +1,5 @@
+wait for completion of test actions
+set test selection to Test under TargetApp (hello)
+view options for Run Info
+set test selection to Test under TargetApp (hello.copy_1)
+quit

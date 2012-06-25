@@ -1,0 +1,6 @@
+Using Application HELLO, version version
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.18Jul105333.13284/texttest/TestSelf/ReconnectTests/Console/RecomputeVersionFile/texttesttmp/console.version.18Jul105048.13183/hello.version
+Reconnecting to HELLO.version test-suite TargetApp
+  Reconnecting to HELLO.version test-case Test (recomputing)
+Comparing differences for HELLO.version test-suite TargetApp
+  Comparing differences for HELLO.version test-case Test - SUCCESS! (on errors.hello,output.hello.version)

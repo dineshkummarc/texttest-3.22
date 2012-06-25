@@ -1,0 +1,17 @@
+# Make sure the check boxes reset correctly
+ResetRunFlag
+
+# Make sure the reset button works after changing test
+ChangeTestReset
+
+# Check we can reset the radio button for types of selection
+ResetSelectOption
+
+# Check reset button works if we have an override in the config file
+ResetOverride
+
+# Check we can still remember our original default if the page gets removed in between
+PageRemoval
+
+# Check we can reset just the selection tab (for example)
+ResetSingleTab

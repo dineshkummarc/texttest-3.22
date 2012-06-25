@@ -1,0 +1,13 @@
+wait for all tests to be read
+enter file extension to use for texttest files associated with this application = hello
+enter subdirectory name to store the above application files under (leave blank for local storage) = helloworld
+press define
+set test selection to helloworld (hello)
+view actions for test helloworld (hello)
+add test
+enter test name = Test
+press ok
+view options for Running
+run selected tests
+wait for dynamic GUI to be closed
+quit

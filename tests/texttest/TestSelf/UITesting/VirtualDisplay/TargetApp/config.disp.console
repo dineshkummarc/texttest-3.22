@@ -1,0 +1,4 @@
+# To test interaction with non-GUI apps
+use_case_record_mode:none
+
+executable:nonsense

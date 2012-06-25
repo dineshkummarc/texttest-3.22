@@ -1,0 +1,24 @@
+# Might be local mount problems on slave machine, should recheck for existence of the executable
+BadExecutableInSlave
+
+# Check we can choose a machine and it will be forwarded to the grid
+BadRunMachine
+
+# Check batch report produced by two tests running with LSF in the same suite
+DuplicateSlave
+
+# If we get a nonsense communication, don't fall over
+NonsenseFromSlave
+
+# Error message when there is no server address given
+NoServerAddress
+
+# Need to handle non-existent test, it might have been renamed or removed since
+# we were dispatched, or there might be network trouble
+BadTest
+
+# Make sure we can ignore unexpected printouts
+UnexpectedOutput
+
+# Error handling to do with network trouble
+NetworkErrors

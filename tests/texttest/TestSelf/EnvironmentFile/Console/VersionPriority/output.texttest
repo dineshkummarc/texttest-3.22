@@ -1,0 +1,19 @@
+Using Application Env Variables, version cmdvar.notfixed
+Running Env Variables.cmdvar.notfixed test-suite TargetApp
+  Running Env Variables.cmdvar.notfixed test-suite Suite1
+    Running Env Variables.cmdvar.notfixed test-case Test1
+Comparing differences for Env Variables.cmdvar.notfixed test-suite TargetApp
+  Comparing differences for Env Variables.cmdvar.notfixed test-suite Suite1
+    Comparing differences for Env Variables.cmdvar.notfixed test-case Test1 (on output.env)
+    Env Variables.cmdvar.notfixed test-case Test1 FAILED : differences in output
+    View details(v), Save Version cmdvar.notfixed(1), Save Version cmdvar(2), Save Version notfixed(3), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+1,2c1,2
+< VAR1 = value1
+< VAR2 = value2
+---
+> VAR1 = the_right_value
+> VAR2 = BAD
+3a4
+> Got argument 'the_right_value'
+    Save Version cmdvar.notfixed(1), Save Version cmdvar(2), Save Version notfixed(3), Save(s) or continue(any other key)?

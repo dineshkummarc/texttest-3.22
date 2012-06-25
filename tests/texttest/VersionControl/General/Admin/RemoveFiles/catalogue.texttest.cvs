@@ -1,0 +1,14 @@
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------Test1
+------------CVS
+----------------Entries
+
+The following existing files/directories were deleted:
+<Test Directory>
+----TargetApp
+--------Test1
+------------errors.hello
+------------output.hello.version

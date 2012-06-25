@@ -1,0 +1,29 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------Subsuite
+------------testsuite.hello
+------------Test3
+----------------errors.hello
+----------------output.hello
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------testsuite.hello
+--------Suite
+------------testsuite.hello
+
+The following existing files/directories were deleted:
+<Test Directory>
+----TargetApp
+--------Suite
+------------Subsuite
+----------------testsuite.hello
+----------------Test3
+--------------------errors.hello
+--------------------output.hello
+----------------Test4
+--------------------errors.hello
+--------------------errors.hello.ignored_by_vcs
+--------------------output.hello

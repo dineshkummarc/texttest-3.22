@@ -1,0 +1,38 @@
+# Make sure we can sensibly copy existing tests
+CopyTest
+
+# Put copied test in the middle of the test suite
+CopyTestMiddle
+
+# Copy a test to another suite
+CopyTestOtherSuite
+
+# See what happens if there's already a test of that name in the destination suite
+CopyTestNameClash
+
+# Make sure we can copy a whole suite
+CopySuite
+
+# Move a test to another position in the same suite
+MoveTestSameSuite
+
+# Move a test to another suite
+MoveTestOtherSuite
+
+# Check that we can move several tests at once
+MoveSeveral
+
+# Make sure we can add a test, add a suite and then move the new test to it
+MoveNewTestNewSuite
+
+# Try to move a whole suite to another parent suite
+MoveSuite
+
+# Select the contents also this time
+MoveSuiteAndContents
+
+# Copying the root suite shouldn't be allowed
+RootSuite
+
+# Check what happens if we can't copy the test for some reason
+CopyFails

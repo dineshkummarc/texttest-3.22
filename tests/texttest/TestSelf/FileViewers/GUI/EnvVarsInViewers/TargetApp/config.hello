@@ -1,0 +1,6 @@
+executable:${TEXTTEST_HOME}/helloworld.py
+
+diff_program:$MY_DIFF_PROGRAM
+view_program:$MY_VIEWER
+
+default_interface:dynamic_gui

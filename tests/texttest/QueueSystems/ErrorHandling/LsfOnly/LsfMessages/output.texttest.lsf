@@ -1,0 +1,4 @@
+Using LSF queues for Application SLEEP
+Q: Submitting SLEEP test-case Basic to default LSF queue
+Unexpected output from bsub : Today LSF is feeling talkative
+S: SLEEP test-case Basic succeeded on dolgeville

@@ -1,0 +1,3 @@
+WARNING: Unexpected TextTest slave for SLEEP test-case Basic2 connected from waterville (process 22867)
+Slave already registered from waterville (process 22252)
+Ignored all communication from this unexpected TextTest slave

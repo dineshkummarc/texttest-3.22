@@ -1,0 +1,34 @@
+<-PYT:datetime.datetime.now()
+->RET:datetime.datetime(2006, 1, 19, 7, 29, 29, 24610)
+<-PYT:import smtplib
+<-PYT:smtplib.SMTP()
+->RET:Instance('SMTP', 'smtp1')
+<-PYT:smtp1.connect('localhost')
+->RET:(220, 'gewoia.jeppesensystems.com ESMTP Sendmail 8.13.8/8.13.8; Tue, 9 Feb 2010 14:32:54 +0100')
+<-PYT:smtp1.sendmail('geoff@localhost', ['tom', 'dick', 'harry'], '''From: geoff@localhost
+To: tom,dick,harry
+Subject: 17Sep2010 HELLO : 1 tests : 1 FAILED
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests FAILED : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case BothDiff : errors different(+)
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that FAILED follows...
+--------------------------------------------------------
+TEST FAILED on gewoia : HELLO test-case BothDiff (under BothDiff)
+---------- Differences in errors ----------
+0a1
+> Error text
+---------- Differences in output ----------
+0a1
+> Hello World!
+
+''')
+->RET:{}
+<-PYT:smtp1.quit()

@@ -1,0 +1,109 @@
+# Make sure when we press select and an extra version is present, everything is highlighted
+SelectAll
+
+# Try to just pick out the tests for the extra_version
+SelectExtraTests
+
+# Select tests from different applications, make sure they can be selected
+SelectAcrossVersions
+
+# Check we can find tests via result file search if the results are in the extra version file
+SearchExtraResultFile
+
+# Check we can control the order of the versions in the test tree on the left
+TestTreeVersionPriority
+
+# Extra versions should be run in the order given, not alphabetically
+ExtraVersionOrder
+
+# Make sure dynamic GUI doesn't show applications with no tests
+MissingInExtra
+
+# Make sure we get a sensible response when binary not present in extra versions
+NoBinaryInExtra
+
+# If we add a test in the duplicated suite, we should get several tests added
+AddCommonTest
+
+# Make sure we can easily add a test only to the extra version
+AddTestOnlyInExtra
+
+# What happens when we want to sort a suite with one or more tests only in extra versions?
+SortTestOnlyInExtra
+
+# What happens when we want to reorder a suite with one or more tests only in extra versions?
+RepositionTestOnlyInExtra
+
+# What happens when we want to rename a test which is only in an extra version, and a test which is in a suite which also has tests only in extra versions?
+RenameTestOnlyInExtra
+
+# What happens when we want to copy a test which is only in an extra versions, and a test which is in a suite which also has tests only in extra versions?
+CopyTestOnlyInExtra
+
+# What happens when we want to remove a test which is only in an extra version, and a test which is in a suite which also has tests only in extra versions?
+RemoveTestOnlyInExtra
+
+# Remove a file from a test shared by several versions, check warning is sensible
+RemoveFileFromShared
+
+# Test for bugs removing a duplicated suite with a subsuite
+RemoveCommonSuite
+
+# When starting editor the status message contains <default>, which pango doesn't like. Make sure we convert the message properly to avoid errors
+MarkupConversion
+
+# Make sure that if extra versions are listed in a particular order, the tests come in that order also
+DisplayExtraVersionOrder
+
+# Make sure each extra suite doesn't get the other suites tests also when extending selections
+ExtendSelection
+
+# Make sure we can select with versions and extend the selection
+ExtendExplicitVersion
+
+# Check we can manually extend extra-version selections without side effects
+ManualExtension
+NoExtras
+
+# See what happens if we try and run a version that blocks the extra versions
+BlockExtrasExplicitly
+
+# Define an extra_version via a filter file and make sure we can select sensibly...
+ExtraFromFilterFile
+
+# Check that we can easily get all the batch extra versions up in the GUI
+ViewBatchExtraVersions
+
+# Use the filter functionality to only show tests for an extra version
+FilterExtraVersion
+
+# Use the filter functionality to only show tests for an extra version, then select a suite
+FilterExtraSelectSuite
+
+# Check that we can run multiple copies of extra-versioned tests
+RunMultipleCopies
+
+# Edit the testsuite file, press refresh, make sure test still present and correct!
+RemoveExtraAndRefresh
+
+# Check the config tab doesn't repeat information for extra versions
+ConfigFiles
+
+# See what the Run Info tab looks like when running with extra versions
+RunInfo
+
+# Check that we can select just an extra version and still get reconnection results for it
+ReconnectExtraExplicitly
+
+# See what happens if an extra_version runs a GUI while the default version runs a console app
+DifferentRecordModes
+
+# Select for a version that resets extra_versions
+SelectBlockExtra
+
+# Make sure we don't get outlandish names for temporary directories
+TmpDirName
+Reselect
+
+# Check that versions provided from the static GUI come first
+VersionCompounding

@@ -1,0 +1,7 @@
+Using Application TDAT, version nochanges
+Running TDAT.nochanges test-suite TargetApp
+  Running TDAT.nochanges test-case Test1
+Comparing differences for TDAT.nochanges test-suite TargetApp
+  Comparing differences for TDAT.nochanges test-case Test1 (on catalogue.tdat.nochanges,errors.tdat,exitcode.tdat,output.tdat)
+  TDAT.nochanges test-case Test1 FAILED : new results in exitcode, differences in errors,output
+  View details(v), Save Version nochanges(1), Save(s) or continue(any other key)?

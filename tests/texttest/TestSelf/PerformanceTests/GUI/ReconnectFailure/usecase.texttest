@@ -1,0 +1,7 @@
+wait for completion of test actions
+set test selection to Failures
+save results with non-default settings
+enter version to save = 2
+choose average performance for save
+press ok
+quit

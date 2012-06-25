@@ -1,0 +1,27 @@
+internal errors=1
+22Jan2010
+HELLO baderr.missinginterr : 1 tests : 1 internal errors
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests had internal errors : 
+In HELLO.baderr.missinginterr test-suite TargetApp:
+  - HELLO.baderr.missinginterr test-case Test : No World!
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that had internal errors follows...
+--------------------------------------------------------
+TEST had internal errors (No World!) on khoy : HELLO.baderr.missinginterr test-case Test (under Test)
+We're supposed to be saying hello to the world!
+---------- Differences in errors ----------
+1d0
+< Some nonsense to trigger failure...
+---------- Differences in output ----------
+1c1
+< Hello world
+---
+> Hello after 5 seconds
+

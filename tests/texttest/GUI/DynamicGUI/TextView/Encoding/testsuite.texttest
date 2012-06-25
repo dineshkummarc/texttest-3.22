@@ -1,0 +1,11 @@
+# Stored result has Latin-1 encoding, which is also the encoding we run with
+LocaleMatches
+
+# Stored file has Latin-1 encoding but locale encoding is utf-8
+LocaleMismatch
+
+# Test contains Latin-1 characters, but there is no default encoding (e.g. LANG=C)
+NoDefaultEncoding
+
+# If a LANG-related variable is set in the test, use that to figure it out
+LocaleSetInTest

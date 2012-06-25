@@ -1,0 +1,87 @@
+[Migrated section 1]
+search_string:Bad magic number
+search_file:output
+bug_system:bugzilla
+bug_id:5206
+internal_error:1
+
+[Migrated section 2]
+search_string:interrupted by external
+search_file:output
+bug_system:bugzilla
+bug_id:3180
+
+[Migrated section 4]
+search_string:self.notify(len(self.__waiters))
+search_file:errors
+full_description:Python bug on shutdown, fixed in Python 2.3
+brief_description:unreported bug
+internal_error:0
+
+[Migrated section 7]
+search_string:'NoneType' object has no attribute 'error'
+search_file:errors
+bug_system:bugzilla
+bug_id:8909
+
+[Migrated section 8]
+search_string:krb_sendauth
+search_file:errors
+bug_system:bugzilla
+bug_id:1870
+
+[section 11]
+search_string:OSError: \[Errno [0-9]*\] Error [0-9]* occurred\.
+search_file:free_text
+bug_system:bugzilla
+bug_id:9468
+internal_error:1
+
+[Reported by mattias at 25Jan12:29:40]
+search_string:Could not find the icon 'gnome-fs-home'. The 'hicolor' theme
+search_file:errors
+bug_system:bugzilla
+bug_id:12738
+
+[Reported by geoff at 23May19:44:10]
+search_string:X Window System error
+search_file:errors
+full_description:Self-tests seem to very occasionally get X Window problems. Doesn't seem very easy to fix as it only happens one time in a million.
+brief_description:X-window error
+internal_error:1
+
+[Reported by geoff at 23May19:44:11]
+search_string:likely the X server was shut down or you killed
+search_file:errors
+full_description:Self-tests seem to very occasionally get X Window problems. Doesn't seem very easy to fix as it only happens one time in a million.
+brief_description:X-window error
+internal_error:1
+
+[Reported by geoff at 23May19:44:12]
+search_string:X Window System error
+search_file:gui_log
+full_description:Self-tests seem to very occasionally get X Window problems. Doesn't seem very easy to fix as it only happens one time in a million.
+brief_description:X-window error
+internal_error:1
+
+[Reported by geoff at 23Apr22:53:31]
+search_string:bug in GTK 2.14
+search_file:gui_log
+full_description:FileChooser tests fail with GTK 2.14 because inspecting or attempting to change the shortcut folders dumps core. See http://bugzilla.gnome.org/show_bug.cgi?id=586315. There are 3 solutions to this: (a) Upgrade to at least GTK+ 2.16.3, if it exists yet (b) Patch your local distro with the patch in the above bug or (c) Downgrade to GTK+ 2.12
+brief_description:FileChoosers + GTK 2.14
+internal_error:1
+
+[Reported by geoff at 23Apr22:53:32]
+search_string:bug in GTK 2.14
+search_file:dynamic_gui_log
+full_description:FileChooser tests fail with GTK 2.14 because inspecting or attempting to change the shortcut folders dumps core. See http://bugzilla.gnome.org/show_bug.cgi?id=586315. There are 3 solutions to this: (a) Upgrade to at least GTK+ 2.16.3, if it exists yet (b) Patch your local distro with the patch in the above bug or (c) Downgrade to GTK+ 2.12
+brief_description:FileChoosers + GTK 2.14
+internal_error:1
+
+[Reported by geoff at 16Jul18:24:49]
+search_string:Could not open display
+search_file:errors
+full_description:Xvfb crashed, hence the connection to the virtual display was lost
+brief_description:Xvfb crash
+ignore_other_errors:1
+internal_error:1

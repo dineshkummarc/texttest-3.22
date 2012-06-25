@@ -1,0 +1,3 @@
+# Check file expansions work correctly, and don't duplicate
+definition_file_stems:out*
+definition_file_stems:*put

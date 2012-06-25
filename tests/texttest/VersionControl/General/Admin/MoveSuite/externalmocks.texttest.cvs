@@ -1,0 +1,54 @@
+<-CMD:cvs rm -f /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Suite/Subsuite/Test4
+->ERR:cvs remove: Removing /carm/proj/texttest-tmp/geoff/texttest.16Apr115615.1014/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Suite/Subsuite/Test4
+cvs remove: in directory /carm/proj/texttest-tmp/geoff/texttest.16Apr115615.1014/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Suite/Subsuite/Test4:
+cvs [remove aborted]: there is no version here; do 'cvs checkout' first
+->EXC:1
+<-CMD:cvs help
+->OUT:Unknown command: `help'
+
+CVS commands are:
+        add          Add a new file/directory to the repository
+        admin        Administration front end for rcs
+        annotate     Show last revision where each line was modified
+        checkout     Checkout sources for editing
+        commit       Check files into the repository
+        diff         Show differences between revisions
+        edit         Get ready to edit a watched file
+        editors      See who is editing a watched file
+        export       Export sources from CVS, similar to checkout
+        history      Show repository access history
+        import       Import sources into CVS, using vendor branches
+        init         Create a CVS repository if it doesn't exist
+        kserver      Kerberos server mode
+        log          Print out history information for files
+        login        Prompt for password for authenticating server
+        logout       Removes entry in .cvspass for remote repository
+        pserver      Password server mode
+        rannotate    Show last revision where each line of module was modified
+        rdiff        Create 'patch' format diffs between releases
+<-CMD:cvs rm -f /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Suite/Subsuite
+->FIL:Subsuite
+->ERR:cvs remove: Removing /carm/proj/texttest-tmp/geoff/texttest.16Apr115615.1014/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Suite/Subsuite
+cvs remove: scheduling `/carm/proj/texttest-tmp/geoff/texttest.16Apr115615.1014/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Suite/Subsuite/testsuite.hello' for removal
+cvs remove: Removing /carm/proj/texttest-tmp/geoff/texttest.16Apr115615.1014/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Suite/Subsuite/Test3
+cvs remove: scheduling `/carm/proj/texttest-tmp/geoff/texttest.16Apr115615.1014/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Suite/Subsuite/Test3/errors.hello' for removal
+cvs remove: scheduling `/carm/proj/texttest-tmp/geoff/texttest.16Apr115615.1014/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Suite/Subsuite/Test3/output.hello' for removal
+cvs remove: use 'cvs commit' to remove these files permanently
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp; cvs add /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Subsuite
+->FIL:TargetApp
+->OUT:Directory /carm/proj/texttest-tmp/geoff/texttest.16Apr115615.1014/texttest.cvs/VersionControl/General/Admin/MoveSuite/cvsroot/TargetApp/Subsuite added to the repository
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Subsuite; cvs add /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Subsuite/Test3
+->FIL:Subsuite.edit_2
+->OUT:Directory /carm/proj/texttest-tmp/geoff/texttest.16Apr115615.1014/texttest.cvs/VersionControl/General/Admin/MoveSuite/cvsroot/TargetApp/Subsuite/Test3 added to the repository
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Subsuite/Test3; cvs add /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Subsuite/Test3/errors.hello
+->FIL:Test3
+->ERR:cvs add: scheduling file `/carm/proj/texttest-tmp/geoff/texttest.16Apr115615.1014/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Subsuite/Test3/errors.hello' for addition
+cvs add: use 'cvs commit' to add this file permanently
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Subsuite/Test3; cvs add /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Subsuite/Test3/output.hello
+->FIL:Test3.edit_2
+->ERR:cvs add: scheduling file `/carm/proj/texttest-tmp/geoff/texttest.16Apr115615.1014/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Subsuite/Test3/output.hello' for addition
+cvs add: use 'cvs commit' to add this file permanently
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Subsuite; cvs add /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Subsuite/testsuite.hello
+->FIL:Subsuite.edit_3
+->ERR:cvs add: scheduling file `/carm/proj/texttest-tmp/geoff/texttest.16Apr115615.1014/texttest.cvs/VersionControl/General/Admin/MoveSuite/TargetApp/Subsuite/testsuite.hello' for addition
+cvs add: use 'cvs commit' to add this file permanently

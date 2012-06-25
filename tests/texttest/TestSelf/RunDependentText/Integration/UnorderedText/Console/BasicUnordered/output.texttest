@@ -1,0 +1,11 @@
+Using Application RDT
+Running RDT test-suite TargetApp
+  Running RDT test-case Test
+Comparing differences for RDT test-suite TargetApp
+  Comparing differences for RDT test-case Test (on errors.rdt,output.rdt)
+  RDT test-case Test FAILED : differences in output
+  View details(v), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+2d1
+< Extra stuff
+  Save(s) or continue(any other key)?

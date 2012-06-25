@@ -1,0 +1,9 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------console.console++sge.11Feb180918.102283
+------------disp.sge
+----------------Test
+--------------------framework_tmp
+------------------------teststate
+------------slavelogs

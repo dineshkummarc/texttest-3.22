@@ -1,0 +1,14 @@
+Using Application HELLO
+Removing obsolete versions for HELLO test-suite TargetApp
+  Removing obsolete versions for HELLO test-case Test
+  output.hello.1 obsolete due to output.hello
+  output.hello.2.4 is a version-priority-fixing copy of output.hello.2
+  output.hello.2 equivalent to output.hello.3
+  output.hello.2 equivalent to output.hello.4
+  output.hello.2.4 equivalent to output.hello.3
+  output.hello.2.4 obsolete due to output.hello.4
+  output.hello.3 equivalent to output.hello.4
+Summary : Remove these files!
+=============================
+/carm/proj/texttest-tmp/geoff/texttest.30Mar153906.11545/texttest/TestSelf/Miscellaneous/PrintObsoleteVersions/ReversePriorities/TargetApp/Test/output.hello.1
+/carm/proj/texttest-tmp/geoff/texttest.30Mar153906.11545/texttest/TestSelf/Miscellaneous/PrintObsoleteVersions/ReversePriorities/TargetApp/Test/output.hello.2.4

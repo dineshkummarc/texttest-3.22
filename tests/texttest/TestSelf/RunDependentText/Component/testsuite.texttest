@@ -1,0 +1,83 @@
+# Most basic action
+RemoveLine
+
+# Check we can filter out a regular expression
+RemoveRegexp
+
+# Remove several lines in a row
+MultipleLines
+
+# Remove several lines in a row, triggering on the last
+MultipleLinesBack
+
+# Remove several lines in a row, triggering on the last, when we're at the end of the file
+MultipleLinesBackAtEnd
+
+# Remove several lines in a row, triggering on one in the middle
+MultipleLinesMiddle
+
+# Remove particular line numbers
+LineNumbers
+
+# Remove between markers
+BetweenMarkers
+
+# Remove between markers, including the markers
+BetweenMarkersInclusive
+
+# Just pick out the start marker, add some word filtering
+FilterStartMarker
+
+# Just pick out the end marker, add some word filtering
+FilterEndMarker
+
+# Remove the last word from a line
+WordRemoval
+
+# And the first word
+RemoveFirstWord
+
+# Make sure we can remove all words after a given number
+RemoveWordsAfter
+
+# Combinations...
+WordRemovalMultipleLines
+
+# Combinations...
+WordRemovalBetweenMarkers
+
+# Check that we can filter spaces correctly at both the start and end of lines
+LeadingTrailingSpaces
+
+# Removing words beyond the end of lines should trim trailing spaces
+RemoveWordBeyondEnd
+
+# Removing words before the start of lines doesn't trim leading spaces, we treat trailing and leading spaces separately
+RemoveWordBeforeStart
+
+# Make sure we can replace regular expressions with something else
+ReplaceRegex
+
+# Make sure we can replace regular expressions with partly the matched text within them
+ReplaceRegexWithGroup
+
+# Check that replace functionality works with word removal...
+ReplaceWord
+
+# If we filter out all words we should be able to replace them all with something
+ReplaceMultipleWords
+
+# Check we can replace a whole line
+ReplaceLineNumber
+
+# Check we can pick out unordered lines and sort them at the end
+SortUnordered
+
+# Check we can pick out unordered lines and sort them at the end
+UnorderedBetweenMarkers
+
+# Check we don't get crap at the end if the unordered filter doesn't match anything
+NoMatch
+
+# Check we can pick up TextTest's own internal write directories
+TestWriteDir

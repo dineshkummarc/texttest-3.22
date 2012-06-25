@@ -1,0 +1,5 @@
+<-CMD:tkdiff /carm/proj/texttest-tmp/geoff/texttest.31Aug152116.28581/texttest/TestSelf/RunDependentText/Integration/UnorderedText/GUI/ViewIntermediateFiles/texttesttmp/dynamic_gui.31Aug152118.28587/rdt/Test/framework_tmp/output.rdtorigcmp.normal /carm/proj/texttest-tmp/geoff/texttest.31Aug152116.28581/texttest/TestSelf/RunDependentText/Integration/UnorderedText/GUI/ViewIntermediateFiles/texttesttmp/dynamic_gui.31Aug152118.28587/rdt/Test/framework_tmp/output.rdtcmp.normal
+->EXC:1
+<-CMD:emacs /carm/proj/texttest-tmp/geoff/texttest.31Aug152116.28581/texttest/TestSelf/RunDependentText/Integration/UnorderedText/GUI/ViewIntermediateFiles/texttesttmp/dynamic_gui.31Aug152118.28587/rdt/Test/framework_tmp/output.rdtcmp.normal
+<-CMD:emacs /carm/proj/texttest-tmp/geoff/texttest.31Aug152116.28581/texttest/TestSelf/RunDependentText/Integration/UnorderedText/GUI/ViewIntermediateFiles/texttesttmp/dynamic_gui.31Aug152118.28587/rdt/Test/framework_tmp/output.rdtorigcmp.normal
+<-CMD:emacs /carm/proj/texttest-tmp/geoff/texttest.31Aug152116.28581/texttest/TestSelf/RunDependentText/Integration/UnorderedText/GUI/ViewIntermediateFiles/TargetApp/Test/errors.rdt

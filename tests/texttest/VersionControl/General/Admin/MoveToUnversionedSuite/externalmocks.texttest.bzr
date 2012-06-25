@@ -1,0 +1,20 @@
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.30Apr104351.23910/texttest.bzr/VersionControl/General/Admin/MoveToUnversionedSuite/TargetApp/Suite/Subsuite/Test3
+->OUT:modified:
+  TargetApp/Suite/Subsuite/Test3/output.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.30Apr104351.23910/texttest.bzr/VersionControl/General/Admin/MoveToUnversionedSuite/TargetApp/NewSuite
+->OUT:unknown:
+  TargetApp/NewSuite/
+<-CMD:bzr add /nfs/vm/texttest-tmp/geoff/texttest.30Apr104351.23910/texttest.bzr/VersionControl/General/Admin/MoveToUnversionedSuite/TargetApp/NewSuite/testsuite.hello
+->OUT:added TargetApp/NewSuite
+added TargetApp/NewSuite/testsuite.hello
+<-CMD:bzr mv /carm/proj/texttest-tmp/geoff/texttest.30Apr104351.23910/texttest.bzr/VersionControl/General/Admin/MoveToUnversionedSuite/TargetApp/Suite/Subsuite/Test3 /carm/proj/texttest-tmp/geoff/texttest.30Apr104351.23910/texttest.bzr/VersionControl/General/Admin/MoveToUnversionedSuite/TargetApp/NewSuite/Test3
+->FIL:Test3
+->FIL:Test3.edit_2
+->OUT:TargetApp/Suite/Subsuite/Test3 => TargetApp/NewSuite/Test3
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.30Apr104351.23910/texttest.bzr/VersionControl/General/Admin/MoveToUnversionedSuite/TargetApp/NewSuite/Test3/errors.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.30Apr104351.23910/texttest.bzr/VersionControl/General/Admin/MoveToUnversionedSuite/TargetApp/NewSuite/Test3/output.hello
+->OUT:modified:
+  TargetApp/NewSuite/Test3/output.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.30Apr104351.23910/texttest.bzr/VersionControl/General/Admin/MoveToUnversionedSuite/TargetApp/NewSuite/testsuite.hello
+->OUT:added:
+  TargetApp/NewSuite/testsuite.hello

@@ -1,0 +1,8 @@
+# Check that CPU time measurement is also enabled with a resource
+MeasureCpuResource
+
+# Check we can submit tests where the system under test is parallel
+SubmitParallel
+
+# Check that extra jobs appear in the performance file when there are such
+ReportOtherJobs

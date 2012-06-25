@@ -1,0 +1,16 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------console.31Aug133202.27186
+------------rdt
+----------------Test
+--------------------errors.rdt
+--------------------output.rdt
+--------------------framework_tmp
+------------------------errors.rdtcmp
+------------------------errors.rdtorigcmp
+------------------------output.rdtcmp
+------------------------output.rdtcmp.normal
+------------------------output.rdtorigcmp
+------------------------output.rdtorigcmp.normal
+------------------------teststate

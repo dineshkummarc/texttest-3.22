@@ -1,0 +1,41 @@
+# Same as for console, except use the static GUI
+RecomputeFileFilters
+
+# Check we can find tests via the dynamic GUI textual search
+SelectTextInFiles
+
+# Check rerunning from reconnect works
+RerunFromReconnect
+
+# Don't allow rerunning from a dynamic GUI with reconnection, don't show Run Info for each test either.
+DisabledActions
+
+# A full-blown test to make sure we can run something and then reconnect to it
+RunAndReconnect
+
+# Check we report sensibly when the test directory isn't present (don't report success!!!)
+NoTestDir
+
+# Make sure we can do fast reconnect, and recompute afterwards
+RecomputeLater
+
+# See what happens if we recompute by hand when the diff has changed, but not become successful
+RecomputeLaterDiffChanged
+
+# We should pick up all runs with versions also
+SubVersions
+
+# See what happens if there are only versioned runs and none with the given version
+SubVersionsOnly
+
+# See what happens if there is only one run with a sub-version and none with the given version
+SingleSubVersionOnly
+
+# Check we can configure the places to search in the file chooser via the normal mechanism
+DirectoryOptions
+
+# If we add the default location as an option, check this doesn't screw things up
+DefaultLocationAsOption
+
+# Check that the dialog remembers entered values for next time
+RememberOptions

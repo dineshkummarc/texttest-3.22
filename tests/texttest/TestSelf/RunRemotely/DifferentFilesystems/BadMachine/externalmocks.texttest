@@ -1,0 +1,6 @@
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 mkdir -p ${HOME}'/.texttest/tmp/console.15Nov170802.1099/system_under_test'
+->ERR:Permission denied (publickey,gssapi-with-mic,password).
+->EXC:255
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 rm -rf ${HOME}/.texttest/tmp/console.15Nov170802.1099
+->ERR:Permission denied (publickey,gssapi-with-mic,password).
+->EXC:255

@@ -1,0 +1,60 @@
+<-PYT:import smtplib
+<-PYT:smtplib.SMTP()
+->RET:Instance('SMTP', 'smtp1')
+<-PYT:smtp1.connect('localhost')
+->RET:(220, 'painesville.carmen.se ESMTP Sendmail 8.13.8/8.13.8; Tue, 9 Feb 2010 15:20:28 +0100')
+<-PYT:smtp1.sendmail('geoff@localhost', ['santa.claus@northpole.com'], '''From: geoff@localhost
+To: santa.claus@northpole.com
+Subject: 09Feb2010 HELLO : 10 tests, all successful
+
+HELLO : 2 tests, all successful
+HELLO extra1 : 2 tests, all successful
+HELLO extra2 : 2 tests, all successful
+HELLO batch_extra1 : 2 tests, all successful
+HELLO batch_extra2 : 2 tests, all successful
+
+Summary of all Successful tests follows...
+---------------------------------------------------------------------------------
+HELLO : 2 tests, all successful
+
+The following tests succeeded : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Common
+  - HELLO test-case Base
+
+
+HELLO extra1 : 2 tests, all successful
+
+The following tests succeeded : 
+In HELLO.extra1 test-suite TargetApp:
+  - HELLO.extra1 test-case Common
+  - HELLO.extra1 test-case Extra1
+
+
+HELLO extra2 : 2 tests, all successful
+
+The following tests succeeded : 
+In HELLO.extra2 test-suite TargetApp:
+  - HELLO.extra2 test-case Common
+  - HELLO.extra2 test-case Extra2
+
+
+HELLO batch_extra1 : 2 tests, all successful
+
+The following tests succeeded : 
+In HELLO.batch_extra1 test-suite TargetApp:
+  - HELLO.batch_extra1 test-case Common
+  - HELLO.batch_extra1 test-case Base
+
+
+HELLO batch_extra2 : 2 tests, all successful
+
+The following tests succeeded : 
+In HELLO.batch_extra2 test-suite TargetApp:
+  - HELLO.batch_extra2 test-case Common
+  - HELLO.batch_extra2 test-case Base
+
+
+''')
+->RET:{}
+<-PYT:smtp1.quit()

@@ -1,0 +1,92 @@
+<-CMD:cvs help
+->OUT:Unknown command: `help'
+
+CVS commands are:
+        add          Add a new file/directory to the repository
+        admin        Administration front end for rcs
+        annotate     Show last revision where each line was modified
+        checkout     Checkout sources for editing
+        commit       Check files into the repository
+        diff         Show differences between revisions
+        edit         Get ready to edit a watched file
+        editors      See who is editing a watched file
+        export       Export sources from CVS, similar to checkout
+        history      Show repository access history
+        import       Import sources into CVS, using vendor branches
+        init         Create a CVS repository if it doesn't exist
+        kserver      Kerberos server mode
+        log          Print out history information for files
+        login        Prompt for password for authenticating server
+        logout       Removes entry in .cvspass for remote repository
+        pserver      Password server mode
+        rannotate    Show last revision where each line of module was modified
+        rdiff        Create 'patch' format diffs between releases
+<-CMD:cvs rm -f /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Test1
+->FIL:Test1
+->ERR:cvs remove: Removing /carm/proj/texttest-tmp/geoff/texttest.18Mar120729.2132/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Test1
+cvs remove: scheduling `/carm/proj/texttest-tmp/geoff/texttest.18Mar120729.2132/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Test1/errors.hello' for removal
+cvs remove: scheduling `/carm/proj/texttest-tmp/geoff/texttest.18Mar120729.2132/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Test1/output.hello' for removal
+cvs remove: use 'cvs commit' to remove these files permanently
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Suite; cvs add /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1
+->FIL:Suite
+->OUT:Directory /carm/proj/texttest-tmp/geoff/texttest.18Mar120729.2132/texttest.cvs/VersionControl/General/Admin/MoveTest/cvsroot/TargetApp/Suite/Test1 added to the repository
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1; cvs add /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1/errors.hello
+->FIL:Test1.edit_2
+->ERR:cvs add: scheduling file `/carm/proj/texttest-tmp/geoff/texttest.18Mar120729.2132/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1/errors.hello' for addition
+cvs add: use 'cvs commit' to add this file permanently
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1; cvs add /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1/output.hello
+->FIL:Test1.edit_3
+->ERR:cvs add: scheduling file `/carm/proj/texttest-tmp/geoff/texttest.18Mar120729.2132/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1/output.hello' for addition
+cvs add: use 'cvs commit' to add this file permanently
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1; cvs add /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1/output.hello.version
+->FIL:Test1.edit_4
+->ERR:cvs add: scheduling file `/carm/proj/texttest-tmp/geoff/texttest.18Mar120729.2132/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1/output.hello.version' for addition
+cvs add: use 'cvs commit' to add this file permanently
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test4/errors.hello
+->OUT:===================================================================
+File: errors.hello     	Status: Unknown
+
+   Working revision:	No entry for errors.hello
+   Repository revision:	No revision control file
+
+->ERR:cvs status: cannot open CVS/Entries for reading: No such file or directory
+cvs status: use `cvs add' to create an entry for /carm/proj/texttest-tmp/geoff/texttest.18Mar120729.2132/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test4/errors.hello
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test4/output.hello
+->OUT:===================================================================
+File: output.hello     	Status: Unknown
+
+   Working revision:	No entry for output.hello
+   Repository revision:	No revision control file
+
+->ERR:cvs status: cannot open CVS/Entries for reading: No such file or directory
+cvs status: use `cvs add' to create an entry for /carm/proj/texttest-tmp/geoff/texttest.18Mar120729.2132/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test4/output.hello
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1/errors.hello
+->OUT:===================================================================
+File: errors.hello     	Status: Locally Added
+
+   Working revision:	New file!
+   Repository revision:	No revision control file
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1/output.hello
+->OUT:===================================================================
+File: output.hello     	Status: Locally Added
+
+   Working revision:	New file!
+   Repository revision:	No revision control file
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/MoveTest/TargetApp/Suite/Test1/output.hello.version
+->OUT:===================================================================
+File: output.hello.version	Status: Locally Added
+
+   Working revision:	New file!
+   Repository revision:	No revision control file
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+

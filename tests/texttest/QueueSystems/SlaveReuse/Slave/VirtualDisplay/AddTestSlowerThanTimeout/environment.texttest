@@ -1,0 +1,3 @@
+# Test takes 2 seconds, whereas the timeout is only 1...
+SLEEP_TIME:2
+TEXTTEST_XVFB_WAIT:1

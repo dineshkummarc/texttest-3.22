@@ -1,0 +1,16 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------local.success.baderr.textinfile.23Jul122040.9683
+------------batchreport.hello.success.baderr.textinfile
+------------hello.success.baderr.textinfile
+----------------Test
+--------------------errors.hello
+--------------------output.hello
+--------------------framework_tmp
+------------------------errors.hellocmp
+------------------------errors.helloorigcmp
+------------------------knownbugs.helloorigcmp
+------------------------output.hellocmp
+------------------------output.helloorigcmp
+------------------------teststate

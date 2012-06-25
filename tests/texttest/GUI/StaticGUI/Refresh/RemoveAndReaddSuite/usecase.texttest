@@ -1,0 +1,10 @@
+wait for all tests to be read
+set test selection to t1 under suite2
+copy selected tests
+paste tests from clipboard
+set test selection to orig (hello)
+select file testsuite.hello
+wait for file editing operations to complete
+select file testsuite.hello
+wait for file editing operations to complete
+quit

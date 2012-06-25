@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="HELLO.BothDiff" failures="0" tests="1" time="0" errors="1">
+  <properties/>
+  <testcase name="BothDiff" time="0" classname="HELLO">
+    <error type="none" message="no results">
+    <![CDATA[
+No file found to load results from under /carm/proj/texttest-tmp/geoff/texttest.30Sep092056.23387/texttest/TestSelf/BatchTests/Console/JunitReport/UnrunnableTests/texttesttmp/console.13Apr113811.3289/hello/BothDiff
+]]>
+    </error>
+  </testcase>
+</testsuite>

@@ -1,0 +1,8 @@
+# Create a "historical repository" to test that functionality...
+[batch_result_repository]
+default:repository
+[end]
+
+[historical_report_location]
+default:report
+[end]

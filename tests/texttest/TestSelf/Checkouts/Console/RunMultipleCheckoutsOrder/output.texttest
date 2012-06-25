@@ -1,0 +1,12 @@
+Using Application HELLO, checkout /carm/proj/texttest-tmp/geoff/texttest.16Aug144419.7951/texttest/TestSelf/Checkouts/Console/RunMultipleCheckoutsOrder/TargetApp/checkout2/source
+Using Application HELLO, version checkout1, checkout /carm/proj/texttest-tmp/geoff/texttest.16Aug144419.7951/texttest/TestSelf/Checkouts/Console/RunMultipleCheckoutsOrder/TargetApp/checkout1/source
+Running HELLO test-suite TargetApp
+  Running HELLO test-case Test
+Comparing differences for HELLO test-suite TargetApp
+  Comparing differences for HELLO test-case Test (on output.hello)
+  HELLO test-case Test FAILED : differences in output
+  View details(v), Save(s) or continue(any other key)?
+Running HELLO.checkout1 test-suite TargetApp
+  Running HELLO.checkout1 test-case Test
+Comparing differences for HELLO.checkout1 test-suite TargetApp
+  Comparing differences for HELLO.checkout1 test-case Test - SUCCESS! (on output.hello)

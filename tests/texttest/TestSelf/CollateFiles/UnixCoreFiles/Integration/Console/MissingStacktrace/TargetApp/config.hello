@@ -1,0 +1,4 @@
+
+default_interface:console
+
+import_config_file:$STANDARD

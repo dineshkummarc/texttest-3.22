@@ -1,0 +1,8 @@
+[historical_report_colours]
+run_thursday_fg:green
+column_header_bg:white
+row_header_bg:yellow
+failure_bg:red
+success_bg:green
+no_results_bg:purple
+incomplete_bg:pink

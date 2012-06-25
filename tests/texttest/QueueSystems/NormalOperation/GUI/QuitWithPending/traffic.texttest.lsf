@@ -1,0 +1,10 @@
+<-SRV:TextTest slave server started on 192.168.99.116:54364
+<-CMD:env 'USECASE_RECORD_SCRIPT=' 'USECASE_REPLAY_SCRIPT=' bsub -J Test-Basic-SLEEP -u nobody -o framework_tmp/slavelog -e framework_tmp/slaveerrs 'exec /bin/tcsh -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest -d /users/geoff/texttesttmp/texttest.lsf.01Jun095041/QueueSystems/NormalOperation/GUI/KillPending/TargetApp -a sleep -l -tp Basic -slave /users/geoff/texttesttmp/texttest.lsf.01Jun095041/QueueSystems/NormalOperation/GUI/KillPending/texttesttmp/sleep.01Jun095104 -servaddr 192.168.99.116:54357 -x -xr /users/geoff/work/master/Testing/Automatic/texttest/logging.texttest -xw /users/geoff/texttesttmp/texttest.lsf.01Jun095041/QueueSystems/NormalOperation/GUI/KillPending/slave"'
+->OUT:Job <7480> is submitted to queue <normal>.
+<-CMD:env 'USECASE_RECORD_SCRIPT=' 'USECASE_REPLAY_SCRIPT=' bsub -J Test-Basic2-SLEEP -u nobody -o framework_tmp/slavelog -e framework_tmp/slaveerrs 'exec /bin/tcsh -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest -d /users/geoff/texttesttmp/texttest.lsf.01Jun095041/QueueSystems/NormalOperation/GUI/KillPending/TargetApp -a sleep -l -tp Basic2 -slave /users/geoff/texttesttmp/texttest.lsf.01Jun095041/QueueSystems/NormalOperation/GUI/KillPending/texttesttmp/sleep.01Jun095104 -servaddr 192.168.99.116:54357 -x -xr /users/geoff/work/master/Testing/Automatic/texttest/logging.texttest -xw /users/geoff/texttesttmp/texttest.lsf.01Jun095041/QueueSystems/NormalOperation/GUI/KillPending/slave"'
+->OUT:Job <7481> is submitted to queue <normal>.
+<-SRV:Completed submission of all tests
+<-CMD:bkill -s USR1 7481
+->OUT:Job <7481> is being signaled
+<-CMD:bkill -s USR1 7480
+->OUT:Job <7480> is being signaled

@@ -1,0 +1,18 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------static_gui.gui.cpmock.10Dec205557.12007
+------------dynamic_run1
+----------------errors.log
+----------------gui_select
+----------------output.log
+------------dynamic_run2
+----------------errors.log
+----------------output.log
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------AddMovie
+------------output.gui
+------------usecase.gui

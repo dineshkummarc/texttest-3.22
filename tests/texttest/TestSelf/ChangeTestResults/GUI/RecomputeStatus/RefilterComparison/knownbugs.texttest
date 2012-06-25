@@ -1,0 +1,6 @@
+
+[Reported by geoff at 22Aug10:57:03]
+search_string:output.hello.2.*coloured red
+search_file:dynamic_gui_log
+bug_system:bugzilla
+bug_id:30139

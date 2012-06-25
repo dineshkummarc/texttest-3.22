@@ -1,0 +1,13 @@
+# See what happens if CVS isn't installed
+NotInstalled
+ShowStatus
+
+# Check we can hide and show CVS Status categories
+HideCategories
+Annotate
+
+# What happens if we perform actions on a test that isn't yet in version control?
+NoVersionControl
+
+# Check we can update from version control and see the changes
+UpdateSuite

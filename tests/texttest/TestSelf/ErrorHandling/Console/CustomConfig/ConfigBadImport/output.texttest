@@ -1,0 +1,7 @@
+Using Application HELLO, version normal
+Running HELLO.normal test-suite TargetApp
+  Running HELLO.normal test-case Test
+Comparing differences for HELLO.normal test-suite TargetApp
+  Comparing differences for HELLO.normal test-case Test (on errors.hello,output.hello)
+  HELLO.normal test-case Test FAILED : differences in output
+  View details(v), Save Version normal(1), Save(s) or continue(any other key)?

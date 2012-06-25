@@ -1,0 +1,10 @@
+wait for all tests to be read
+enter file extension to use for texttest files associated with this application = hello
+press define
+view actions for test TargetApp (hello)
+add test
+enter test name = Test
+press ok
+set file selection to Standard Files
+show actions menu
+quit

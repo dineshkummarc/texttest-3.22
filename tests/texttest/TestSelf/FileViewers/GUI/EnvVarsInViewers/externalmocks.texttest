@@ -1,0 +1,2 @@
+<-CMD:tkdiff /carm/proj/texttest-tmp/geoff/texttest.18Jun154352.11974/texttest/TestSelf/FileViewers/GUI/EnvVarsInViewers/TargetApp/test1/output.hello /carm/proj/texttest-tmp/geoff/texttest.18Jun154352.11974/texttest/TestSelf/FileViewers/GUI/EnvVarsInViewers/texttesttmp/console.18Jun154354.11984/hello/test1/output.hello
+->EXC:1

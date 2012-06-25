@@ -1,0 +1,7 @@
+Using SGE queues for Application HELLO, version parallel, checkout /carm/proj/texttest-tmp/geoff/dynamic_gui.28Jul133413.3397/texttest.sge/QueueSystems/SlaveReuse/Master/AllowRacing/RespectParallel/TargetApp/
+Q: Submitting HELLO.parallel test-case Test to default SGE queue
+Waiting Q thread for 5 seconds
+Q: Submitting HELLO.parallel test-case Test to default SGE queue
+S: HELLO.parallel test-case Test FAILED on titusville : differences in output
+View details(v), Save Version parallel(1), Save(s) or continue(any other key)?
+S: HELLO.parallel test-case Test succeeded on graceville, schefferville

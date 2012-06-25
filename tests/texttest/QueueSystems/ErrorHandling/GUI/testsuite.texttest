@@ -1,0 +1,14 @@
+# Check we don't get stack traces if we quit before everything is set up
+QuitDuringSetup
+
+# we need to make sure we report queue system errors intelligently here.
+# Interactive queue system errors are not really handled right now.
+
+# What happens when nightjob cannot delete long-running jobs?
+JobDeletionFails
+
+# Even if we have to resort to SIGKILL, should still show the files
+ShowFilesOnKill
+
+# Test for hanging if the dynamic GUI started with no tests
+StartNoTests

@@ -1,0 +1,12 @@
+<-CMD:editor file
+->FIL:file
+->OUT:Editing file file
+<-CMD:editor file2
+->FIL:file2
+->OUT:Editing file file2
+<-CMD:editor writedir
+->FIL:writedir
+->OUT:Editing file writedir/subdir/file
+<-CMD:editor file
+->FIL:file.edit_2
+->OUT:Editing file file

@@ -1,0 +1,12 @@
+wait for all tests to be read
+set test selection to AddMovie under TargetApp (gui)
+show actions menu
+record use-case
+enter version to record = version
+enter checkout to use for recording = checkout
+press cancel
+set test selection to AddMovie under suite
+show actions menu
+record use-case
+press cancel
+quit

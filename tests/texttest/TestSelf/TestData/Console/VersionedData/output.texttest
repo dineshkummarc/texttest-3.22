@@ -1,0 +1,22 @@
+Using Application TDAT
+Using Application TDAT, version v1
+Running TDAT test-suite TargetApp
+  Running TDAT test-suite suite
+    Running TDAT test-case test
+Comparing differences for TDAT test-suite TargetApp
+  Comparing differences for TDAT test-suite suite
+    Comparing differences for TDAT test-case test - SUCCESS! (on catalogue.tdat,errors.tdat,output.tdat)
+Running TDAT.v1 test-suite TargetApp
+  Running TDAT.v1 test-suite suite
+    Running TDAT.v1 test-case test
+Comparing differences for TDAT.v1 test-suite TargetApp
+  Comparing differences for TDAT.v1 test-suite suite
+    Comparing differences for TDAT.v1 test-case test (on catalogue.tdat,errors.tdat,output.tdat)
+    TDAT.v1 test-case test FAILED : differences in output
+    View details(v), Save Version v1(1), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+2c2
+< root with app
+---
+> suite with version
+    Save Version v1(1), Save(s) or continue(any other key)?

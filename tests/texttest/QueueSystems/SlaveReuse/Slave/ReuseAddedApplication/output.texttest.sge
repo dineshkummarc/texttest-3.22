@@ -1,0 +1,14 @@
+Using Application HELLO, version 1, checkout /carm/proj/texttest-tmp/geoff/texttest.30Mar153906.11545/texttest.sge/QueueSystems/SlaveReuse/Slave/ReuseAddedApplication/TargetApp/
+Running HELLO.1 test-suite TargetApp
+  Running HELLO.1 test-case Test
+Comparing differences for HELLO.1 test-suite TargetApp
+  Comparing differences for HELLO.1 test-case Test (on errors.hello,output.hello)
+Using Application HELLO, version 2, checkout /carm/proj/texttest-tmp/geoff/texttest.30Mar153906.11545/texttest.sge/QueueSystems/SlaveReuse/Slave/ReuseAddedApplication/TargetApp/
+Running HELLO.2 test-suite TargetApp
+  Running HELLO.2 test-suite Suite
+    Running HELLO.2 test-case Test
+Comparing differences for HELLO.2 test-suite TargetApp
+  Comparing differences for HELLO.2 test-suite Suite
+    Comparing differences for HELLO.2 test-case Test - SUCCESS! (on errors.hello,output.hello)
+  Running HELLO.2 test-case Test
+  Comparing differences for HELLO.2 test-case Test (on errors.hello,output.hello)

@@ -1,0 +1,17 @@
+Using Application MEM
+Running MEM test-suite TargetApp
+  Running MEM test-suite Suite
+    Running MEM test-case Success
+Comparing differences for MEM test-suite TargetApp
+  Comparing differences for MEM test-suite Suite
+    Comparing differences for MEM test-case Success - SUCCESS! (on memory.mem,output.mem)
+    Running MEM test-case Failures
+    Comparing differences for MEM test-case Failures (on memory.mem,output.mem)
+    MEM test-case Failures used more memory : differences in memory(larger)
+    View details(v), Save(s) or continue(any other key)?
+---------- Differences in memory(larger) ----------
+1c1
+< Max Memory  :      42.3 MB
+---
+> Max Memory  :      47.8 MB
+    Save(s) or continue(any other key)?

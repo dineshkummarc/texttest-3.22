@@ -1,0 +1,62 @@
+# Ordered list of tests in test suite. Add as appropriate
+
+
+# Make sure we can record a basic GUI test
+RecordTest
+
+# Check we can re-record usecases and the right number of tests get replayed
+RerecordTest
+
+# Copy of RecordTest which sets the version
+RecordTestVersion
+
+# Check we can re-record usecases and save them as a new version
+RerecordTestSaveVersion
+
+# If traffic recording is enabled, present this as an option that is on by default
+RerecordTestAndTraffic
+
+# If we select another test in the static GUI while recording is happening, make sure the auto-replay behaves correctly...
+RerecordTestSelectOther
+
+# Copy of RecordTest which sets the checkout
+RecordTestCheckout
+
+# Test what happens when errors happen during record
+RecordFails
+
+# Check we don't get automatic replays if we abandon a record attempt
+AbortRecording
+
+# Check the record settings don't reset themselves too much...
+RecordSettings
+
+# Check the record settings don't reset themselves too much...
+OverrideRecordSettings
+
+# If we select a checkout from the drop-down list, we don't want the default to go away...
+RecordCheckoutOptions
+
+# Check we can run a test in slow motion replay and see what comes up
+ActionReplay
+
+# Check we get a warning if we try running too many tests with action replay
+MultiTestActionReplay
+
+# Check we get a warning if we try to record too many tests at once
+MultiTestRecord
+
+# Cancel GUI test from the GUI
+KillTest
+
+# Make sure this works OK with a GUI test - particularly with Xvfb on UNIX
+TestAndVersionIncompatible
+
+# Make sure we can disable recording without disabling the virtual display
+DisableRecording
+
+# Make sure we can refer to the replay script properly when running on a different network
+ReplayDifferentNetwork
+
+# Check the JUseCase integration works, at least until PyUseCase supports Swing
+JUseCase

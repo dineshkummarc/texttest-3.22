@@ -1,0 +1,2 @@
+<-PYT:subprocess.call(['cvs', 'help'], stderr=<open file '/dev/null', mode 'w' at 0x1a934270>, stdout=<open file '/dev/null', mode 'w' at 0x1a934150>)
+->RET:raise exceptions.OSError('[Errno 2] No such file or directory')

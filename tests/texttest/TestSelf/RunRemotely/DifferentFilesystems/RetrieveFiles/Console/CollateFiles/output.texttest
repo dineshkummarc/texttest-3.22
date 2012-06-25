@@ -1,0 +1,17 @@
+Using Application HELLO
+Running HELLO test-suite TargetApp
+  Running HELLO test-case Test
+Comparing differences for HELLO test-suite TargetApp
+  Comparing differences for HELLO test-case Test (on errors.hello,extra.hello,localfile.hello,output.hello)
+  HELLO test-case Test FAILED on testnet-s16 : new results in extra,localfile, differences in output
+  View details(v), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+1c1
+< Hello
+---
+> Hello World!
+---------- New result in extra ----------
+extra
+---------- New result in localfile ----------
+local
+  Save(s) or continue(any other key)?

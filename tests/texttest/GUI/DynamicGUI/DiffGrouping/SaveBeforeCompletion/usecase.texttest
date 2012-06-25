@@ -1,0 +1,6 @@
+wait for all tests to be read, test Test1 to complete, test Test1_copy to start
+set test selection to Test1
+save results for selected tests
+wait for completion of test actions
+view options for Status
+quit

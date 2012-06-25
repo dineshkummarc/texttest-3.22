@@ -1,0 +1,17 @@
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 mkdir -p ${HOME}'/.texttest/tmp/console.08Sep161929.23096/system_under_test'
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 test -e /carm/proj/texttest-tmp/geoff/texttest.08Sep161925.23093/texttest/TestSelf/RunRemotely/DifferentFilesystems/TestDataScript/TargetApp/hello.py
+->EXC:1
+<-CMD:scp -Crp -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 /carm/proj/texttest-tmp/geoff/texttest.08Sep161925.23093/texttest/TestSelf/RunRemotely/DifferentFilesystems/TestDataScript/TargetApp/hello.py testnet-s16:${HOME}'/.texttest/tmp/console.08Sep161929.23096/system_under_test/hello.py'
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 test -e /carm/proj/texttest-tmp/geoff/texttest.08Sep161925.23093/texttest/TestSelf/RunRemotely/DifferentFilesystems/TestDataScript/personaldir/copy_script.py
+->EXC:1
+<-CMD:scp -Crp -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 /carm/proj/texttest-tmp/geoff/texttest.08Sep161925.23093/texttest/TestSelf/RunRemotely/DifferentFilesystems/TestDataScript/personaldir/copy_script.py testnet-s16:${HOME}'/.texttest/tmp/console.08Sep161929.23096/system_under_test/copy_script.py'
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 mkdir -p ${HOME}'/.texttest/tmp/console.08Sep161929.23096/hello/Test'
+<-CMD:scp -Crp -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 /carm/proj/texttest-tmp/geoff/texttest.08Sep161925.23093/texttest/TestSelf/RunRemotely/DifferentFilesystems/TestDataScript/texttesttmp/console.08Sep161929.23096/hello/Test/testdata testnet-s16:${HOME}'/.texttest/tmp/console.08Sep161929.23096/hello/Test/scriptSource'
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 ${HOME}/.texttest/tmp/console.08Sep161929.23096/system_under_test/copy_script.py ${HOME}/.texttest/tmp/console.08Sep161929.23096/hello/Test/scriptSource ${HOME}/.texttest/tmp/console.08Sep161929.23096/hello/Test/testdata
+<-CMD:scp -Crp -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 /carm/proj/texttest-tmp/geoff/texttest.08Sep161925.23093/texttest/TestSelf/RunRemotely/DifferentFilesystems/TestDataScript/texttesttmp/console.08Sep161929.23096/hello/Test/run_test.sh testnet-s16:${HOME}'/.texttest/tmp/console.08Sep161929.23096/hello/Test'
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.08Sep161925.23093/texttest/TestSelf/RunRemotely/DifferentFilesystems/TestDataScript/texttesttmp/console.08Sep161929.23096/hello/Test; ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 ${HOME}'/.texttest/tmp/console.08Sep161929.23096/hello/Test/run_test.sh'
+->OUT:Hello test data
+On machine testnet-s16!
+<-CMD:scp -Crp -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16:${HOME}'/.texttest/tmp/console.08Sep161929.23096/hello/Test'/* /carm/proj/texttest-tmp/geoff/texttest.08Sep161925.23093/texttest/TestSelf/RunRemotely/DifferentFilesystems/TestDataScript/texttesttmp/console.08Sep161929.23096/hello/Test
+->FIL:Test
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 rm -rf ${HOME}/.texttest/tmp/console.08Sep161929.23096

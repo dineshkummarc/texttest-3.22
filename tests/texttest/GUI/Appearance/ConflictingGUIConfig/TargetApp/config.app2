@@ -1,0 +1,10 @@
+executable:${TEXTTEST_HOME}/hello.py
+
+auto_sort_test_suites:1
+
+[gui_entry_options]
+tests_for_version:1
+tests_for_version:2
+
+[gui_entry_overrides]
+test_paths_containing:blah

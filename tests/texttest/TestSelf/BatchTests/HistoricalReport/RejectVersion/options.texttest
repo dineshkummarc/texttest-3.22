@@ -1,0 +1,1 @@
+-a hello -v normal,normal.changed -b self_test -coll web

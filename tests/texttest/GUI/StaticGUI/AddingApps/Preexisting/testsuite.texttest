@@ -1,0 +1,23 @@
+# The basic case: create a new application with sensible settings
+AddApplication
+
+# Provide --new on the command line, make sure it works even if the default interface is something else
+NewAppMode
+
+# Make sure the third application doesn't get confused how to refer to the existing ones
+AddThirdApp
+
+# See what happens if we don't provide an extension
+NoExtension
+
+# Don't allow spaces etc in extension names
+BadExtension
+
+# Don't allow multiple-components in subdirectory
+BadSubdirectory
+
+# See what happens if we don't choose an executable
+NoExecutable
+
+# See what happens if we choose a name that already exists
+NameClash

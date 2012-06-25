@@ -1,0 +1,7 @@
+Using LSF queues for Application SLEEP
+Q: Submitting SLEEP test-case Basic to default LSF queue
+Q: Submitting SLEEP test-case Basic2 to default LSF queue
+S: SLEEP test-case Basic succeeded on dolgeville
+S: SLEEP test-case Basic2 FAILED on dolgeville : new results in errors,output
+Creating batch report for application SLEEP ...
+File written.

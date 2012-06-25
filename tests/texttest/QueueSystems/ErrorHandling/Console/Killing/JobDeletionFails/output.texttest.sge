@@ -1,0 +1,72 @@
+Using SGE queues for Application SLEEP, version killing
+Q: Submitting SLEEP.killing test-case Basic to default SGE queue
+
+Expected application event 'all tests to be read' occurred, proceeding.
+Expected application event 'test Basic to start' occurred, proceeding.
+
+Generating signal SIGUSR2
+Terminating testing due to external interruption (RUNLIMIT2)
+T: Cancelling SLEEP.killing test-case Basic in SGE (job 1)
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 1 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 2 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 3 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 4 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 5 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 6 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 7 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 8 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 9 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 10 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 11 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 12 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 13 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 14 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 15 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 16 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 17 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 18 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 19 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 20 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 21 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 22 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 23 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 24 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 25 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 26 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 27 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 28 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 29 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 30 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 31 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 32 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 33 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 34 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 35 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 36 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 37 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 38 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 39 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 40 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 41 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 42 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 43 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 44 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 45 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 46 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 47 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 48 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 49 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 50 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 51 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 52 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 53 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 54 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 55 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 56 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 57 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 58 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 59 seconds so far.
+T: Cancellation in progress for SLEEP.killing test-case Basic, waited 60 seconds so far.
+S: SLEEP.killing test-case Basic not compared:  Could not delete test in SGE (job 1): have abandoned it
+Creating batch report for application SLEEP ...
+File written.

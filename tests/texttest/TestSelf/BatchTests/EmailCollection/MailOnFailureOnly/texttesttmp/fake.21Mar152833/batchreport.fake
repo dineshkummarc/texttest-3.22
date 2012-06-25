@@ -1,0 +1,11 @@
+succeeded=1
+04Jun2008
+HELLO batch : 1 tests, all successful
+
+Summary of all Successful tests follows...
+---------------------------------------------------------------------------------
+The following tests succeeded : 
+In HELLO.batch test-suite TargetApp:
+  - HELLO.batch test-case Success
+
+

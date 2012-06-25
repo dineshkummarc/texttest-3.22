@@ -1,0 +1,2 @@
+# Just to force the test to fail
+create_catalogues:false

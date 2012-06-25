@@ -1,0 +1,60 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------9952
+------------environment
+------------testsuite.dip
+------------testsuite.dip.small
+------------A01
+----------------output.dip
+------------A02
+----------------output.dip
+------------A03
+----------------output.dip
+------------A04
+----------------output.dip
+------------A05
+----------------output.dip
+------------S01.99
+----------------output.dip
+------------S02
+----------------output.dip
+------------S03
+----------------output.dip
+------------S04
+----------------output.dip
+------------S05
+----------------output.dip
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------testsuite.dip
+
+The following existing files/directories were deleted:
+<Test Directory>
+----TargetApp
+--------Game9952
+------------environment
+------------testsuite.dip
+------------testsuite.dip.small
+------------A01
+----------------output.dip
+------------A02
+----------------output.dip
+------------A03
+----------------output.dip
+------------A04
+----------------output.dip
+------------A05
+----------------output.dip
+------------S01.99
+----------------output.dip
+------------S02
+----------------output.dip
+------------S03
+----------------output.dip
+------------S04
+----------------output.dip
+------------S05
+----------------output.dip

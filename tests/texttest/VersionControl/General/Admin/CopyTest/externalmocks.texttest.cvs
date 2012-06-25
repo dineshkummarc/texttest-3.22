@@ -1,0 +1,55 @@
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/CopyTest/TargetApp/Test1/errors.hello
+->OUT:===================================================================
+File: errors.hello     	Status: Needs Patch
+
+   Working revision:	1.1.1.1	Mon Feb 23 01:01:26 2009
+   Repository revision:	1.2	/carm/proj/texttest-tmp/geoff/texttest.cvs.18Mar140236.3194/texttest.cvs/VersionControl/General/Admin/CopyTest/cvsroot/TargetApp/Test1/errors.hello,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/CopyTest/TargetApp/Test1/output.hello
+->OUT:===================================================================
+File: output.hello     	Status: Up-to-date
+
+   Working revision:	1.1.1.1	Mon Feb 23 01:01:26 2009
+   Repository revision:	1.1.1.1	/carm/proj/texttest-tmp/geoff/texttest.cvs.18Mar140236.3194/texttest.cvs/VersionControl/General/Admin/CopyTest/cvsroot/TargetApp/Test1/output.hello,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/CopyTest/TargetApp/Test1/output.hello.version
+->OUT:===================================================================
+File: output.hello.version	Status: Unknown
+
+   Working revision:	No entry for output.hello.version
+   Repository revision:	No revision control file
+
+->ERR:cvs status: use `cvs add' to create an entry for /carm/proj/texttest-tmp/geoff/texttest.cvs.18Mar140236.3194/texttest.cvs/VersionControl/General/Admin/CopyTest/TargetApp/Test1/output.hello.version
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/CopyTest/TargetApp/Test1_copy/errors.hello
+->OUT:===================================================================
+File: errors.hello     	Status: Unknown
+
+   Working revision:	No entry for errors.hello
+   Repository revision:	No revision control file
+
+->ERR:cvs status: cannot open CVS/Entries for reading: No such file or directory
+cvs status: use `cvs add' to create an entry for /carm/proj/texttest-tmp/geoff/texttest.cvs.18Mar140236.3194/texttest.cvs/VersionControl/General/Admin/CopyTest/TargetApp/Test1_copy/errors.hello
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/CopyTest/TargetApp/Test1_copy/output.hello
+->OUT:===================================================================
+File: output.hello     	Status: Unknown
+
+   Working revision:	No entry for output.hello
+   Repository revision:	No revision control file
+
+->ERR:cvs status: cannot open CVS/Entries for reading: No such file or directory
+cvs status: use `cvs add' to create an entry for /carm/proj/texttest-tmp/geoff/texttest.cvs.18Mar140236.3194/texttest.cvs/VersionControl/General/Admin/CopyTest/TargetApp/Test1_copy/output.hello
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/CopyTest/TargetApp/Test1_copy/output.hello.version
+->OUT:===================================================================
+File: output.hello.version	Status: Unknown
+
+   Working revision:	No entry for output.hello.version
+   Repository revision:	No revision control file
+
+->ERR:cvs status: cannot open CVS/Entries for reading: No such file or directory
+cvs status: use `cvs add' to create an entry for /carm/proj/texttest-tmp/geoff/texttest.cvs.18Mar140236.3194/texttest.cvs/VersionControl/General/Admin/CopyTest/TargetApp/Test1_copy/output.hello.version

@@ -1,0 +1,5 @@
+Using Application VideoStore, version cpmock, checkout /home/geoff/.texttest/tmp/texttest.gui.10Dec205339.11889/texttest.gui/TestSelf/UITesting/UseCaseRecording/RerecordTestAndTraffic/TargetApp/source_with_pyc
+Running VideoStore.cpmock test-suite TargetApp
+  Running VideoStore.cpmock test-case AddMovie
+Comparing differences for VideoStore.cpmock test-suite TargetApp
+  Comparing differences for VideoStore.cpmock test-case AddMovie (on errors.gui,output.gui,usecase.gui)

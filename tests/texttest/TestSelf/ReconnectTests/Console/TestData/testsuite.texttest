@@ -1,0 +1,5 @@
+# Check that reconnection works together with linking test paths, without leaking directories
+Normal
+
+# Check for test data and recomputation problems
+Recompute

@@ -1,0 +1,11 @@
+succeeded=1
+01Oct2007
+HELLO success : 1 tests, all successful
+
+Summary of all Successful tests follows...
+---------------------------------------------------------------------------------
+The following tests succeeded : 
+In HELLO.success test-suite TargetApp:
+  - HELLO.success test-case Test
+
+

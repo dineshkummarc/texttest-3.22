@@ -1,0 +1,418 @@
+
+---------- Window 'HELLO tests (started at 09Jun14:03:10) - TextTest dynamic GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+  _Kill (Stock image 'gtk-stop', greyed out, accelerator 'Ctrl+Delete', tooltip 'Kill selected tests')
+  _Save (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S', tooltip 'Save results for selected tests')
+  Progress bar set to fraction 0.0, text 'All 0 tests completed at 09Jun14:03:17'
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected , Details
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Jun14:03:17.' , Image 'throbber_inactive.png'
+--------------------------------------------------------------------------------------------
+
+Progress bar set to fraction 0.0, text '0 of 1 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+
+Progress bar set to fraction 0.0, text '0 of 2 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/2 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/white) | (white)
+->   Success (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+
+Progress bar set to fraction 0.0, text '0 of 3 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/3 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/white) | (white)
+->   Success (black/white) | (white)
+->   BothDiff (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+
+Progress bar set to fraction 0.0, text '0 of 4 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/white) | (white)
+->   Success (black/white) | (white)
+->   BothDiff (black/white) | (white)
+->   ErrDiff (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 4 (white,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Success (black/white) | (white)
+->   BothDiff (black/white) | (white)
+->   ErrDiff (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Success (black/white) | (white)
+->   BothDiff (black/white) | (white)
+->   ErrDiff (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Success (black/white) | (white)
+->   BothDiff (black/white) | (white)
+->   ErrDiff (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Progress bar set to fraction 0.25, text '1 of 4 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/salmon) | output different (salmon)
+->   Success (black/white) | (white)
+->   BothDiff (black/white) | (white)
+->   ErrDiff (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/salmon) | output different (salmon)
+->   Success (black/LightGoldenrod1) | (LightGoldenrod1)
+->   BothDiff (black/white) | (white)
+->   ErrDiff (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/salmon) | output different (salmon)
+->   Success (black/LightGoldenrod1) | (LightGoldenrod1)
+->   BothDiff (black/white) | (white)
+->   ErrDiff (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/salmon) | output different (salmon)
+->   Success (black/LightGoldenrod1) | (LightGoldenrod1)
+->   BothDiff (black/white) | (white)
+->   ErrDiff (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+Progress bar set to fraction 0.5, text '2 of 4 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/salmon) | output different (salmon)
+->   Success (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   BothDiff (black/white) | (white)
+->   ErrDiff (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/salmon) | output different (salmon)
+->   Success (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   BothDiff (black/LightGoldenrod1) | (LightGoldenrod1)
+->   ErrDiff (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/salmon) | output different (salmon)
+->   Success (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   BothDiff (black/LightGoldenrod1) | (LightGoldenrod1)
+->   ErrDiff (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/salmon) | output different (salmon)
+->   Success (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   BothDiff (black/LightGoldenrod1) | (LightGoldenrod1)
+->   ErrDiff (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Progress bar set to fraction 0.75, text '3 of 4 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/salmon) | output different (salmon)
+->   Success (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   BothDiff (black/salmon) | errors different(+) (salmon)
+->   ErrDiff (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->     errors different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->       Group 1 (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/salmon) | output different (salmon)
+->   Success (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   BothDiff (black/salmon) | errors different(+) (salmon)
+->   ErrDiff (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->     errors different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->       Group 1 (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/salmon) | output different (salmon)
+->   Success (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   BothDiff (black/salmon) | errors different(+) (salmon)
+->   ErrDiff (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->     errors different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->       Group 1 (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/salmon) | output different (salmon)
+->   Success (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   BothDiff (black/salmon) | errors different(+) (salmon)
+->   ErrDiff (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Failed (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->     errors different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->       Group 1 (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Progress bar set to fraction 1.0, text 'All 4 tests completed at 09Jun14:03:18'
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/salmon) | output different (salmon)
+->   Success (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   BothDiff (black/salmon) | errors different(+) (salmon)
+->   ErrDiff (black/salmon) | errors different (salmon)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->     errors different (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->       Group 1 (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->       Group 1 (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Expected application event 'completion of test actions' occurred, proceeding.
+
+'set test selection to' event created with arguments 'OutDiff'
+
+No longer greyed out : _Save
+
+Changed selection in Test Tree with columns: Tests: 1/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/salmon) | output different (salmon)   ***
+->   Success (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   BothDiff (black/salmon) | errors different(+) (salmon)
+->   ErrDiff (black/salmon) | errors different (salmon)
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: OutDiff , Details
+-> Comparison Files (bold)
+->   errors.hello (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.hello (salmon) | (salmon)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+Test FAILED :
+---------- Differences in output ----------
+0a1
+> Hello World!
+===============================
+
+'save results for selected tests' event created with arguments ''
+
+Changing GUI status to: 'Saving HELLO test-case OutDiff : output, existing version'
+
+Greyed out : _Save
+
+Updated : Test Tree with columns: Tests: 1/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   OutDiff (black/DarkSeaGreen2) | (DarkSeaGreen2)   ***
+->   Success (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   BothDiff (black/salmon) | errors different(+) (salmon)
+->   ErrDiff (black/salmon) | errors different (salmon)
+
+Updated : File Tree with columns: OutDiff , Details
+-> Comparison Files (bold)
+->   errors.hello (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.hello (DarkSeaGreen2) | (DarkSeaGreen2)
+
+========== Text Info ==========
+Test succeeded
+(Saved at 14:03)
+===============================
+
+Changing GUI status to: 'Saved 1 tests.'
+
+'view options for' event created with arguments 'Status'
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->     errors different (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->       Group 1 (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->       Group 1 (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 2 (DarkSeaGreen2,bold) | Check box (checked)
+->   Saved (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+'quit' event created with arguments ''

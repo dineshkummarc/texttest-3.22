@@ -1,0 +1,22 @@
+import_config_file:${STANDARD}
+
+# Path to the executable
+executable:${TEXTTEST_HOME}/source/generate.py
+
+default_interface:console
+
+discard_file:errors
+discard_file:output
+
+create_catalogues:true
+
+[run_dependent_text]
+generated*:Today is{WORD -1}
+created_[1-9]:Today is
+
+[collate_file]
+generated*:generated*.dump
+created_*:created_[1-9].dump
+
+[failure_severity]
+created_[1-9]:1

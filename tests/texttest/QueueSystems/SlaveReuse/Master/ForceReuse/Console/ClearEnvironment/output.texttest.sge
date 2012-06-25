@@ -1,0 +1,5 @@
+Using SGE queues for Application HELLO, version changeenv, checkout /carm/proj/texttest-tmp/geoff/texttest.30Mar153906.11545/texttest.sge/QueueSystems/SlaveReuse/Master/ForceReuse/Console/ClearEnvironment/TargetApp/
+Q: Submitting HELLO.changeenv test-case Test to default SGE queue
+S: HELLO.changeenv test-case Test FAILED on centreville.carmen.se : differences in output
+View details(v), Save Version changeenv(1), Save(s) or continue(any other key)?
+S: HELLO.changeenv test-case Test succeeded on centreville.carmen.se

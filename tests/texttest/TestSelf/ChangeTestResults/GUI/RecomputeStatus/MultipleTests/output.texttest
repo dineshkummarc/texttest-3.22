@@ -1,0 +1,33 @@
+Using Application HELLO, version 2
+Using Application HELLO, version 3
+Using Application HELLO, version 4
+Running HELLO.2 test-suite TargetApp
+  Running HELLO.2 test-case OutDiff
+Comparing differences for HELLO.2 test-suite TargetApp
+  Comparing differences for HELLO.2 test-case OutDiff (on errors.hello,output.hello)
+  Running HELLO.2 test-case Success
+  Comparing differences for HELLO.2 test-case Success - SUCCESS! (on errors.hello,output.hello)
+  Running HELLO.2 test-case BothDiff
+  Comparing differences for HELLO.2 test-case BothDiff (on errors.hello,output.hello)
+  Running HELLO.2 test-case ErrDiff
+  Comparing differences for HELLO.2 test-case ErrDiff (on errors.hello,output.hello)
+Running HELLO.3 test-suite TargetApp
+  Running HELLO.3 test-case OutDiff
+Comparing differences for HELLO.3 test-suite TargetApp
+  Comparing differences for HELLO.3 test-case OutDiff (on errors.hello,output.hello)
+  Running HELLO.3 test-case Success
+  Comparing differences for HELLO.3 test-case Success - SUCCESS! (on errors.hello,output.hello)
+  Running HELLO.3 test-case BothDiff
+  Comparing differences for HELLO.3 test-case BothDiff (on errors.hello,output.hello)
+  Running HELLO.3 test-case ErrDiff
+  Comparing differences for HELLO.3 test-case ErrDiff (on errors.hello,output.hello)
+Running HELLO.4 test-suite TargetApp
+  Running HELLO.4 test-case OutDiff
+Comparing differences for HELLO.4 test-suite TargetApp
+  Comparing differences for HELLO.4 test-case OutDiff (on errors.hello,output.hello)
+  Running HELLO.4 test-case Success
+  Comparing differences for HELLO.4 test-case Success - SUCCESS! (on errors.hello,output.hello)
+  Running HELLO.4 test-case BothDiff
+  Comparing differences for HELLO.4 test-case BothDiff (on errors.hello,output.hello)
+  Running HELLO.4 test-case ErrDiff
+  Comparing differences for HELLO.4 test-case ErrDiff (on errors.hello,output.hello)

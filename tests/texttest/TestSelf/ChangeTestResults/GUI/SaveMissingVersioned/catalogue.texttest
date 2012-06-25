@@ -1,0 +1,16 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------BothDiff
+------------errors.hello.2
+------------output.hello.2
+----texttesttmp
+--------hello.2.30Apr164151.1043
+------------hello.2
+----------------BothDiff
+--------------------output.hello
+--------------------framework_tmp
+------------------------errors.helloorigcmp
+------------------------output.hellocmp
+------------------------output.helloorigcmp
+------------------------teststate

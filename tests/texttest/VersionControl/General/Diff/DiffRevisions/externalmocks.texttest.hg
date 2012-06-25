@@ -1,0 +1,29 @@
+<-CMD:hg status -A /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/DiffRevisions/TargetApp/Test2/errors.hello
+->OUT:C TargetApp/Test2/errors.hello
+<-CMD:hg status -A /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/DiffRevisions/TargetApp/Test2/output.hello
+->OUT:M TargetApp/Test2/output.hello
+<-CMD:hg diff -g -r 1 /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/DiffRevisions/TargetApp/Test2/output.hello
+->OUT:diff --git a/Test2/output.hello b/TargetApp/Test2/output.hello
+copy from Test2/output.hello
+copy to TargetApp/Test2/output.hello
+--- a/Test2/output.hello
++++ b/TargetApp/Test2/output.hello
+@@ -1,1 +1,1 @@
+-Hello
++Hello uncommitted update!
+<-CMD:hg diff -g -r 1 /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/DiffRevisions/TargetApp/Test2/output.hello
+->OUT:diff --git a/Test2/output.hello b/TargetApp/Test2/output.hello
+copy from Test2/output.hello
+copy to TargetApp/Test2/output.hello
+--- a/Test2/output.hello
++++ b/TargetApp/Test2/output.hello
+@@ -1,1 +1,1 @@
+-Hello
++Hello uncommitted update!
+<-CMD:hg diff -g -r tip -r 1 /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/DiffRevisions/TargetApp/Test2/output.hello
+->OUT:diff --git a/TargetApp/Test2/output.hello b/TargetApp/Test2/output.hello
+deleted file mode 100644
+--- a/TargetApp/Test2/output.hello
++++ /dev/null
+@@ -1,1 +0,0 @@
+-Hello current version!

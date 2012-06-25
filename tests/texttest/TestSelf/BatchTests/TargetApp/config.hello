@@ -1,0 +1,19 @@
+import_config_file:$STANDARD
+
+default_interface:console
+
+[batch_recipients]
+self_test:tom,dick,harry
+
+# Add a recognised section with no end marker last, to catch config file bug...
+[gui_entry_overrides]
+add_environment_file:0
+
+# Create a "historical repository" to test that functionality...
+[batch_result_repository]
+self_test:repository
+[end]
+
+[historical_report_location]
+self_test:report
+[end]

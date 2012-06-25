@@ -1,0 +1,16 @@
+Using Application HELLO, version batch
+Using Application HELLO, version batch.extra1
+Running HELLO.batch test-suite TargetApp
+  Running HELLO.batch test-case Common
+Comparing differences for HELLO.batch test-suite TargetApp
+  Comparing differences for HELLO.batch test-case Common - SUCCESS! (on errors.hello,output.hello)
+  Running HELLO.batch test-case Base
+  Comparing differences for HELLO.batch test-case Base - SUCCESS! (on errors.hello,output.hello)
+Running HELLO.batch.extra1 test-suite TargetApp
+  Running HELLO.batch.extra1 test-case Common
+Comparing differences for HELLO.batch.extra1 test-suite TargetApp
+  Comparing differences for HELLO.batch.extra1 test-case Common - SUCCESS! (on errors.hello,output.hello)
+  Running HELLO.batch.extra1 test-case Extra1
+  Comparing differences for HELLO.batch.extra1 test-case Extra1 - SUCCESS! (on errors.hello,output.hello.extra1)
+Creating batch report for application HELLO ...
+done.

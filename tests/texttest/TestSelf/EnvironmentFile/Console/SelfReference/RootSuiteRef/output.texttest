@@ -1,0 +1,13 @@
+Using Application HELLO, version initialref
+Running HELLO.initialref test-suite TargetApp
+  Running HELLO.initialref test-case Test
+Comparing differences for HELLO.initialref test-suite TargetApp
+  Comparing differences for HELLO.initialref test-case Test (on errors.hello,output.hello)
+  HELLO.initialref test-case Test FAILED : differences in output
+  View details(v), Save Version initialref(1), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+1c1
+< Hello All The People
+---
+> Hello People That Came From The Outside
+  Save Version initialref(1), Save(s) or continue(any other key)?

@@ -1,0 +1,4 @@
+Using SGE queues for Application PERF, version resource
+Q: Submitting PERF.resource test-case Failures to default SGE queue
+S: PERF.resource test-case Failures FAILED on perf_machine1 : new results in logperf
+View details(v), Save Version resource(1), Save(s) or continue(any other key)?

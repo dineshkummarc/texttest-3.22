@@ -1,0 +1,10 @@
+<-PYT:os.getpid()
+->RET:1
+<-PYT:os.getpid()
+->RET:1
+<-PYT:os.getpid()
+->RET:1
+<-PYT:os.getpid()
+->RET:1
+<-PYT:os.getpid()
+->RET:1

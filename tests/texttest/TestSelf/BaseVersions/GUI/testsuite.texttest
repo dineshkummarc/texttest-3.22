@@ -1,0 +1,6 @@
+# Make sure we can correctly select versions which have base versions and get the right answer...
+SelectBaseVersion
+
+# If we provide the name of a base version explicitly, we should still find tests for which it is relevant.
+# 
+ExplicitBaseVersion

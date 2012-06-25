@@ -1,0 +1,8 @@
+Using Application HELLO, version success
+Running HELLO.success test-suite TargetApp
+  Running HELLO.success test-case Test
+Comparing differences for HELLO.success test-suite TargetApp
+  Comparing differences for HELLO.success test-case Test - SUCCESS! (on errors.hello,output.hello.success)
+  HELLO.success test-case Test had known bugs (Delay bug 2) on gewoia :
+Creating batch report for application HELLO ...
+File written.

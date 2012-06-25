@@ -1,0 +1,10 @@
+executable:$TEXTTEST_HOME/writeinsubdir.py
+
+default_interface:console
+
+home_operating_system:posix
+
+create_catalogues:true
+
+[collate_file]
+writefile*:somedir/writefile*.dump

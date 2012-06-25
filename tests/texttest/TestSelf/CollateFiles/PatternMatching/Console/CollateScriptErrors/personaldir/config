@@ -1,0 +1,6 @@
+suppress_stderr_text:Traceback{LINES 3}
+
+[collate_script]
+created_[1-9]:${TEXTTEST_HOME}/source/firstcoll.py
+created_[1-9]:${TEXTTEST_HOME}/source/badcoll.py
+

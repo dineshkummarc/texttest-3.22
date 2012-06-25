@@ -1,0 +1,6 @@
+[section]
+search_string:non_existent
+search_file:free_text
+brief_description:queue didn't exist
+full_description:Test was trying to use a non-existent queue
+internal_error:1

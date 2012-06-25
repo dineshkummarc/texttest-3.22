@@ -1,0 +1,60 @@
+# Make sure the radio button for resetting usage of the queue system resets when asked
+ResetQueueToggle
+
+# Check we get grid info out in run info also
+ViewRunInfo
+
+# Check we can view a non-started test and that a quick pending-running set-up won't cause crashes
+ViewNonStarted
+
+# Check we can view a running test, including pressing Progress
+ViewRunning
+
+# Make sure we can kill tests from the GUI
+KillTests
+
+# Make sure we can kill pending tests also from the GUI
+KillPending
+
+# Make sure we don't hang if tests are still pending when we quit the GUI
+QuitWithPending
+
+# Press quit before we've read all of the tests
+QuitDuringRead
+
+# See what happens when we try to look at a succeeded test that the slave has already removed
+ViewRemovedFile
+
+# See what happens when we try to recompute a succeeded test that the slave has already removed
+RecomputeRemovedFile
+
+# If we've set the minimum to 2 tests for the grid, a single test should run locally
+OneTestLocally
+
+# If we've set the minimum to 2 tests for the grid, running 2 tests should do so remotely
+TwoTestsUseQueue
+
+# Test the flag for always using the queue
+AlwaysUseQueue
+
+# Tests for Reconnecting with grids
+Reconnect
+
+# Make sure we can see when a job is suspended in SGE, looking at the test view
+ShowSuspendInTest
+
+# Do the suspension from the UI options
+SuspendFromUI
+
+# Do the suspension from the UI options, see what happens if it fails in SGE.
+SuspendFromUIFails
+
+# Handle recomputes before and after suspending in an appropriate way
+RecomputeAfterSuspend
+
+# Make sure we can see when a job is suspended in SGE, also in the status view
+ShowSuspendInStatus
+
+# Test we can allow adding an interim SGE process to be run, for example to
+# set up a database resource on a reserved database machine
+UseProxySubmission

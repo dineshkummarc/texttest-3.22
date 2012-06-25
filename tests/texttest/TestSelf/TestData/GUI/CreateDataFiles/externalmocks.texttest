@@ -1,0 +1,4 @@
+<-CMD:emacs /carm/proj/texttest-tmp/geoff/texttest.18Jun162001.14330/texttest/TestSelf/TestData/GUI/CreateDataFiles/TargetApp/Test1/somedir/readonlyfile2
+<-CMD:emacs /carm/proj/texttest-tmp/geoff/texttest.18Jun162001.14330/texttest/TestSelf/TestData/GUI/CreateDataFiles/TargetApp/Test1/readonlyfile
+<-CMD:emacs /carm/proj/texttest-tmp/geoff/texttest.18Jun162001.14330/texttest/TestSelf/TestData/GUI/CreateDataFiles/TargetApp/Test1/input.tdat
+<-CMD:emacs /carm/proj/texttest-tmp/geoff/texttest.18Jun162001.14330/texttest/TestSelf/TestData/GUI/CreateDataFiles/TargetApp/Test2/readonlyfile.v1

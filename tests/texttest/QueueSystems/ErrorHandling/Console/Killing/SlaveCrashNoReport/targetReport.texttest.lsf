@@ -1,0 +1,24 @@
+unrunnable=1
+04Sep2009
+SLEEP killing : 1 tests : 1 unrunnable
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests could not be run : 
+In SLEEP.killing test-suite TargetApp:
+  - SLEEP.killing test-case Basic : LSF job exited
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that could not be run follows...
+--------------------------------------------------------
+TEST could not be run : SLEEP.killing test-case Basic (under Basic)
+LSF job exited
+---------- Error messages written by LSF job ----------
+Some Beautiful Error Message...
+With Extra Nonsense
+---------- Full accounting info from LSF ----------
+Some random accounting info
+

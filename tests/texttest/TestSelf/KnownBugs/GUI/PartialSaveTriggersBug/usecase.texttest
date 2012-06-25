@@ -1,0 +1,8 @@
+wait for completion of test actions
+set test selection to Test under TargetApp (hello.textinfile.baderr)
+set file selection to errors.hello.baderr
+save results for selected tests
+set test selection to Test under TargetApp (hello.textinfile.baderr.copy_1)
+show actions menu
+recompute test status, including progress information if appropriate
+quit

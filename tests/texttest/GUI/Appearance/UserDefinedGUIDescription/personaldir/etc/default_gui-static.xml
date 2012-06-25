@@ -1,0 +1,21 @@
+<ui>
+
+  <menubar name="MainMenuBar">
+    <placeholder name="ExtraMenus">
+    <menu name="actionsmenu" action="actionsmenu">
+        <menuitem action="Load Selection..."/>
+    </menu>
+    </placeholder>
+  </menubar>
+
+  <toolbar name="MainToolBar">   
+    <placeholder name="AfterRun"> 
+      <toolitem action="Reconnect..."/>
+      <toolitem name="Reset" action="Reset"/>
+      <separator/>
+      <toolitem name="Load Selection..." action="Load Selection..."/>
+      <toolitem name="Save Selection..." action="Save Selection..."/>
+    </placeholder>
+  </toolbar>
+
+</ui>

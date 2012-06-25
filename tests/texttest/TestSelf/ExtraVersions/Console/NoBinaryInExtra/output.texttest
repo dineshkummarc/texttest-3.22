@@ -1,0 +1,9 @@
+Using Application HELLO, version badbinextra
+Running HELLO.badbinextra test-suite TargetApp
+  Running HELLO.badbinextra test-case Common
+Comparing differences for HELLO.badbinextra test-suite TargetApp
+  Comparing differences for HELLO.badbinextra test-case Common - SUCCESS! (on errors.hello,output.hello)
+  Running HELLO.badbinextra test-case Base
+  Comparing differences for HELLO.badbinextra test-case Base - SUCCESS! (on errors.hello,output.hello)
+Creating batch report for application HELLO ...
+done.

@@ -1,0 +1,7 @@
+import_config_file:$STANDARD
+
+default_interface:console
+config_module:queuesystem
+
+# We provide a data file with an empty name via an environment file...
+copy_test_path:$EMPTY

@@ -1,0 +1,3 @@
+
+[run_dependent_text]
+pythonmocks:(socketobject[0-9]\.sendall[^0-9]*)[0-9]*{REPLACE \1<pid>}

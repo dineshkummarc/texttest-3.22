@@ -1,0 +1,23 @@
+The following new files/directories were created:
+<Test Directory>
+----writeabledirs
+--------otherdir
+------------writehere
+----------------newfile
+--------writehere
+------------newfile
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----writeabledirs
+--------somedir
+------------toEdit
+--------writehere
+------------writeandremovehere
+
+The following existing files/directories were deleted:
+<Test Directory>
+----writeabledirs
+--------toRemove
+--------otherdir
+------------toRemove

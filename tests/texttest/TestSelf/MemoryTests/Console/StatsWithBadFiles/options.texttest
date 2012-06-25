@@ -1,0 +1,1 @@
+-v nomemfile -s "performance.PerformanceStatistics compv=badformat file=memory"

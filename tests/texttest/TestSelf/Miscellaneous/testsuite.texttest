@@ -1,0 +1,53 @@
+# Make sure we flag the right files as missing
+MissingFiles
+
+# Provide arguments to the interpreter with interpreter_options files
+InterpreterOptions
+
+# Test for keeping temporary files
+KeepTmpFiles
+
+# If test exits with non-zero code, we should store that code in a file
+CollectExitCode
+
+# Test for test counter
+CountTests
+
+# Check that -a <app>.<version> works
+VersionInApp
+
+# Check that -a <app>.<version1> -v <version2> works
+CombineVersionInApp
+
+# Check that -a <app>.<version1> -v <version1>.<version2> works without duplication
+DuplicateVersionInApp
+
+# Check that we can find and clean up processes if the SUT leaks them but logs the process ID
+TrackProcesses
+
+# Check we can supply a flag and get extra info out of TextTest
+SelfDiagnostics
+
+# Check we can export tests to a different suite
+ExportTests
+
+# See what happens if the SUT creates readonly files, make sure we can still clean up
+SUTMakesReadonly
+
+# If "interpreter" is an absolute path with arguments, don't reject it
+InterpreterWithArgs
+
+# Check we can tell the system under test to use TextTest's Python version, in case it relies on that
+TextTestPython
+
+# Check we can store a config module in a standard suite location
+ConfigModuleInSuite
+
+# Tests to do with the various things that go in options files
+OptionsFile
+
+# Test the script that finds obsolete versions
+PrintObsoleteVersions
+
+# Tests for the script default.ReplaceText
+ReplaceText

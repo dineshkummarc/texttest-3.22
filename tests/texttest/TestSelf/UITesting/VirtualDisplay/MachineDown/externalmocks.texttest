@@ -1,0 +1,5 @@
+<-CMD:rsh fake_machine1 which Xvfb && echo "remote cmd succeeded"
+->ERR:fake_machine1: Unknown host
+->EXC:1
+<-CMD:which Xvfb
+->OUT:/usr/X11R6/bin/Xvfb

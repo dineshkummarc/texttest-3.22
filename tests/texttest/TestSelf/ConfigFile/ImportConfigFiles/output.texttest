@@ -1,0 +1,3 @@
+Using Application Dir1 Name
+executable|/imported2.exe|Full path to the System Under Test
+run_dependent_text|{'default': [], 'output': ['dir1', 'imported2']}|Mapping of patterns to remove from result files

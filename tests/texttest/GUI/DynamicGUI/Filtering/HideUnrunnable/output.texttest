@@ -1,0 +1,25 @@
+Using Application HELLO, version custom
+Running HELLO.custom test-suite TargetApp
+WARNING: Caught exception while running HELLO.custom test-case simple_fail1 changing state to UNRUNNABLE :
+Traceback (most recent call last):
+  File "/users/geoff/work/master/Testing/TextTest/lib/default/actionrunner.py", line 240, in handleExceptions
+    method(*args)
+  File "/carm/proj/texttest-tmp/geoff/texttest.14Apr103501.6186/texttest.gui/GUI/DynamicGUI/Filtering/HideUnrunnable/customconfig.py", line 14, in __call__
+    raise Exception, "Don't do simple tests!"
+Exception: Don't do simple tests!
+WARNING: Caught exception while running HELLO.custom test-case simple_fail2 changing state to UNRUNNABLE :
+Traceback (most recent call last):
+  File "/users/geoff/work/master/Testing/TextTest/lib/default/actionrunner.py", line 240, in handleExceptions
+    method(*args)
+  File "/carm/proj/texttest-tmp/geoff/texttest.14Apr103501.6186/texttest.gui/GUI/DynamicGUI/Filtering/HideUnrunnable/customconfig.py", line 14, in __call__
+    raise Exception, "Don't do simple tests!"
+Exception: Don't do simple tests!
+  Running HELLO.custom test-case complex_fail1
+Comparing differences for HELLO.custom test-suite TargetApp
+  Comparing differences for HELLO.custom test-case complex_fail1 (on errors.hello,file1.hello,file2.hello,file3.hello,file4.hello,output.hello)
+  Running HELLO.custom test-case complex_fail2
+  Comparing differences for HELLO.custom test-case complex_fail2 (on errors.hello,file1.hello,file2.hello,file3.hello,file4.hello,output.hello)
+  Running HELLO.custom test-suite suite
+    Running HELLO.custom test-case success
+  Comparing differences for HELLO.custom test-suite suite
+    Comparing differences for HELLO.custom test-case success - SUCCESS! (on errors.hello,file1.hello,file2.hello,file3.hello,file4.hello,output.hello)

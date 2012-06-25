@@ -1,0 +1,17 @@
+# What happens when nightjob cannot delete long-running jobs?
+JobDeletionFails
+
+# What happens if the job never reports in?
+JobSubmissionFails
+
+# Handle case where job is still pending at shutdown time
+JobStaysPending
+
+# Historically, SGE has had trouble with jobs that just disappear altogether...
+JobDisappears
+
+# Check what happens if jobs disappear after they report in
+JobDisappearsAfterStart
+
+# What happens if the slave crashes before it has set up its communication to master?
+SlaveCrashNoReport

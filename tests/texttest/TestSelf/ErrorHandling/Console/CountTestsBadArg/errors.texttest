@@ -1,0 +1,6 @@
+Could not instantiate script action 'default.CountTest' with arguments ['arguments']
+Traceback (most recent call last):
+  File "/users/geoff/work/master/Testing/TextTest/lib/testmodel.py", line 1691, in _getScriptObject
+    return _class(actionArgs)
+TypeError: this constructor takes no arguments
+

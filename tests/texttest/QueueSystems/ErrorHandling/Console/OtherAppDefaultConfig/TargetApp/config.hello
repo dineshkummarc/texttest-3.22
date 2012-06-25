@@ -1,0 +1,7 @@
+import_config_file:$STANDARD
+
+executable:${TEXTTEST_HOME}/hello.py
+
+config_module:queuesystem
+
+default_interface:console

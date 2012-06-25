@@ -1,0 +1,106 @@
+
+---------- Window 'HELLO tests (started at 09Jun14:03:52) - TextTest dynamic GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+  _Kill (Stock image 'gtk-stop', greyed out, accelerator 'Ctrl+Delete', tooltip 'Kill selected tests')
+  _Save (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S', tooltip 'Save results for selected tests')
+  Progress bar set to fraction 0.0, text '0 of 1 tests completed'
+...........
+
+Showing Test Tree with columns: Tests: 0/1 selected, all hidden , Details
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Jun14:03:56.' , Image 'throbber_inactive.png'
+--------------------------------------------------------------------------------------------
+
+Column titles changed in Test Tree with columns: Tests: 0/1 selected, all hidden , Details
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   simple_fail1 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   simple_fail1 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   simple_fail1 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Progress bar set to fraction 1.0, text 'All 1 tests completed at 09Jun14:03:56'
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   simple_fail1 (black/DarkSeaGreen2) | file3 different (salmon)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     file3 different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+No longer greyed out : _Save
+
+Changed selection in Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   simple_fail1 (black/DarkSeaGreen2) | file3 different (salmon)   ***
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: simple__fail1 , Details
+-> Comparison Files (bold)
+->   errors.hello (DarkSeaGreen2) | (DarkSeaGreen2)
+->   file1.hello (DarkSeaGreen2) | (DarkSeaGreen2)
+->   file2.hello (DarkSeaGreen2) | (DarkSeaGreen2)
+->   file3.hello (salmon) | (salmon)
+->   file4.hello (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.hello (DarkSeaGreen2) | (DarkSeaGreen2)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+Test FAILED :
+---------- Differences in file3 ----------
+1c1
+< Something in file3: Whitespace
+---
+> Nothing in file3 ...
+===============================
+
+Expected application event 'completion of test actions' occurred, proceeding.
+
+'quit' event created with arguments ''

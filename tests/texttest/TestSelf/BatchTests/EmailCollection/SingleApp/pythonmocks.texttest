@@ -1,0 +1,156 @@
+<-PYT:import smtplib
+<-PYT:smtplib.SMTP()
+->RET:Instance('SMTP', 'smtp1')
+<-PYT:smtp1.connect('localhost')
+->RET:(220, 'novyy.got.jeppesensystems.com ESMTP Sendmail 8.13.8/8.13.8; Tue, 9 Feb 2010 15:20:28 +0100')
+<-PYT:smtp1.sendmail('geoff@localhost', ['tom'], """From: geoff@localhost
+To: tom
+Subject: 040908 FAKE dip : 22 tests ran : 6 FAILED, 5 internal errors
+
+040909 DIP unix : 11 tests : 5 FAILED
+040908 DIP unix : 11 tests : 5 internal errors, 1 FAILED
+
+Summary of all Unsuccessful tests follows...
+=================================================================================
+040909 DIP unix : 11 tests : 5 FAILED
+
+The following tests FAILED : 
+In DIP test-suite TargetApp:
+  In DIP test-suite Game9952:
+    - DIP test-case S02    : output different
+    - DIP test-case A02    : output different
+    - DIP test-case A03    : output different
+    - DIP test-case A04    : output different
+    - DIP test-case S05    : output different
+
+040908 DIP unix : 11 tests : 5 internal errors, 1 FAILED
+
+The following tests had internal errors : 
+In DIP test-suite TargetApp:
+  In DIP test-suite Game9952:
+    - DIP test-case S02    : Aeg SUPPORT
+    - DIP test-case A03    : Aeg SUPPORT
+    - DIP test-case A04    : missing 'Spa'
+    - DIP test-case S05    : missing 'Spa'
+    - DIP test-case A05    : missing 'Spa'
+
+The following tests FAILED : 
+In DIP test-suite TargetApp:
+  In DIP test-suite Game9952:
+    - DIP test-case A02    : output different
+
+Details of all Unsuccessful tests follows...
+=================================================================================
+040909 DIP unix : 11 tests : 5 FAILED
+
+Detailed information for the tests that FAILED follows...
+--------------------------------------------------------
+TEST FAILED on fougamou : DIP test-case S02    (under Game9952/S02)
+------------------ Differences in output --------------------
+35c35
+< Turkey:  Aeg SUPPORT Bul -> Gre    (*dislodged*)
+---
+> Turkey:  Aeg SUPPORT Bul -> Gre    (*was dislodged*)
+--------------------------------------------------------
+TEST FAILED on fougamou : DIP test-case A02    (under Game9952/A02)
+------------------ Differences in output --------------------
+18c18
+< Germany: Hol HOLD                  (*dislodged*)
+---
+> Germany: Hol HOLD                  (*was dislodged*)
+--------------------------------------------------------
+TEST FAILED on fougamou : DIP test-case A03    (under Game9952/A03)
+------------------ Differences in output --------------------
+28c28
+< Italy:   Tyn CONVOY Tun -> Rom     (*dislodged*)
+---
+> Italy:   Tyn CONVOY Tun -> Rom     (*was dislodged*)
+--------------------------------------------------------
+TEST FAILED on fougamou : DIP test-case A04    (under Game9952/A04)
+------------------ Differences in output --------------------
+18c18
+< France:  Mun SUPPORT Ber HOLD      (*dislodged*)
+---
+> France:  Mun SUPPORT Ber HOLD      (*was dislodged*)
+--------------------------------------------------------
+TEST FAILED on fougamou : DIP test-case S05    (under Game9952/S05)
+------------------ Differences in output --------------------
+21c21
+< France:  Ber SUPPORT Ruh -> Mun    (*dislodged*)
+---
+> France:  Ber SUPPORT Ruh -> Mun    (*was dislodged*)
+
+=================================================================================
+040908 DIP unix : 11 tests : 5 internal errors, 1 FAILED
+
+Detailed information for the tests that had internal errors follows...
+--------------------------------------------------------
+TEST had internal errors on fougamou : DIP test-case S02    (under Game9952/S02)
+------------------ Differences in output --------------------
+35c35
+< Turkey:  Aeg SUPPORT Bul -> Gre    (*dislodged*)
+---
+> Turkey:  Aeg SUPPORT Bul -> Gre    (*was dislodged*)
+--------------------------------------------------------
+TEST had internal errors on fougamou : DIP test-case A03    (under Game9952/A03)
+------------------ Differences in output --------------------
+28c28
+< Italy:   Tyn CONVOY Tun -> Rom     (*dislodged*)
+---
+> Italy:   Tyn CONVOY Tun -> Rom     (*was dislodged*)
+--------------------------------------------------------
+TEST had internal errors on fougamou : DIP test-case A04    (under Game9952/A04)
+------------------ Differences in output --------------------
+18c18
+< France:  Mun SUPPORT Ber HOLD      (*dislodged*)
+---
+> France:  Mun SUPPORT Ber HOLD      (*was dislodged*)
+--------------------------------------------------------
+TEST had internal errors on fougamou : DIP test-case S05    (under Game9952/S05)
+------------------ Differences in output --------------------
+21c21
+< France:  Ber SUPPORT Ruh -> Mun    (*dislodged*)
+---
+> France:  Ber SUPPORT Ruh -> Mun    (*was dislodged*)
+
+Detailed information for the tests that FAILED follows...
+--------------------------------------------------------
+TEST FAILED on fougamou : DIP test-case A02    (under Game9952/A02)
+------------------ Differences in output --------------------
+18c18
+< Germany: Hol HOLD                  (*dislodged*)
+---
+> Germany: Hol HOLD                  (*was dislodged*)
+
+Summary of all Successful tests follows...
+=================================================================================
+040909 DIP unix : 11 tests : 5 FAILED
+
+The following tests succeeded : 
+In DIP test-suite TargetApp:
+  In DIP test-suite Game9952:
+    - DIP test-case S01.99
+    - DIP test-case A01   
+    - DIP test-case S03   
+    - DIP test-case S04   
+    - DIP test-case A05   
+  In DIP test-suite npstIII:
+    In DIP test-suite Game47:
+      - DIP test-case S01
+
+040908 DIP unix : 11 tests : 5 internal errors, 1 FAILED
+
+The following tests succeeded : 
+In DIP test-suite TargetApp:
+  In DIP test-suite Game9952:
+    - DIP test-case S01.99
+    - DIP test-case A01   
+    - DIP test-case S03   
+    - DIP test-case S04   
+  In DIP test-suite npstIII:
+    In DIP test-suite Game47:
+      - DIP test-case S01
+
+""")
+->RET:{}
+<-PYT:smtp1.quit()

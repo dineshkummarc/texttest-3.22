@@ -1,0 +1,4 @@
+# Check we can copy a writeable directory structure. Also run queuesystem slave in that configuration, to check data file handling on termination. Likewise with absolute paths
+CopyEnvironmentPath
+
+AbsolutePathData

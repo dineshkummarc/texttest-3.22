@@ -1,0 +1,8 @@
+wait for all tests to be read
+set test selection to Common
+view options for Selection
+enter tests for version = <default>
+choose refine for current selection
+select indicated tests
+set test selection to Common
+quit

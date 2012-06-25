@@ -1,0 +1,2 @@
+# There are bugs in Mercurial around handling of symbolic links, make sure we handle things correctly
+SymbolicLinks

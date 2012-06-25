@@ -1,0 +1,14 @@
+# Test for collecting core in interactive mode
+InteractiveCrash
+
+# Try to reconnect to a test with an unreadable core file stored
+ReconnectUnreadableCore
+
+# ...and in batch mode
+BatchCrash
+
+# Check what happens when interpretcore.py doesn't do as expected
+CoreInterpretFailure
+
+# Check what happens if we save a crashed test and then it no longer crashes
+MissingStacktrace

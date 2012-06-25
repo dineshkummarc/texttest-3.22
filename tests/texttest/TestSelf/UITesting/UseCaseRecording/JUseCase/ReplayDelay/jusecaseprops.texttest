@@ -1,0 +1,3 @@
+delay = 3.0
+record = /carm/proj/texttest-tmp/geoff/texttest.gui.22Mar114057.29943/texttest.gui/TestSelf/UITesting/UseCaseRecording/JUseCase/ReplayDelay/texttesttmp/console.22Mar114101.29948/gui/AddMovie/usecase.gui
+replay = /carm/proj/texttest-tmp/geoff/texttest.gui.22Mar114057.29943/texttest.gui/TestSelf/UITesting/UseCaseRecording/JUseCase/ReplayDelay/TargetApp/AddMovie/usecase.gui

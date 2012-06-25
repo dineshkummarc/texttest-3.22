@@ -1,0 +1,8 @@
+wait for completion of test actions
+select file errors.hello
+wait for the viewer process to start
+provide a name for this run and warn before closing it
+enter new name for this run = Running emacs too!
+press ok
+quit
+answer yes to texttest confirmation

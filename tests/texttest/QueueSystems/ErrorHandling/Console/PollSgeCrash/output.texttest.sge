@@ -1,0 +1,24 @@
+Using SGE queues for Application SLEEP, version killing
+Q: Submitting SLEEP.killing test-case Basic to default SGE queue
+Waiting 1.0 seconds before retrying account info for job 1
+Waiting 2.0 seconds before retrying account info for job 1
+Waiting 4.0 seconds before retrying account info for job 1
+Waiting 8.0 seconds before retrying account info for job 1
+Waiting 8.0 seconds before retrying account info for job 1
+Waiting 8.0 seconds before retrying account info for job 1
+Waiting 8.0 seconds before retrying account info for job 1
+Waiting 8.0 seconds before retrying account info for job 1
+Waiting 8.0 seconds before retrying account info for job 1
+S: SLEEP.killing test-case Basic not compared:
+SGE job exited
+---------- Error messages written by SGE job ----------
+Some Beautiful Error Message...
+With Extra Nonsense
+---------- Full accounting info from SGE ----------
+Could not find info about job: 1
+qacct error was as follows:
+SGE has died and gone to heaven
+error: job id 1 not found
+
+Creating batch report for application SLEEP ...
+File written.

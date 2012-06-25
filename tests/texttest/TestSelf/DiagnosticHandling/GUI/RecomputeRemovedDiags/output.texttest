@@ -1,0 +1,10 @@
+Using Application DIAG, version nodiag
+Using Application DIAG, version withdiag
+Running DIAG.nodiag test-suite TargetApp
+  Running DIAG.nodiag test-case TestAlwaysDiag
+Comparing differences for DIAG.nodiag test-suite TargetApp
+  Comparing differences for DIAG.nodiag test-case TestAlwaysDiag (on errors.diag,output.diag,first.diag,second.diag,third.diag)
+Running DIAG.withdiag test-suite TargetApp
+  Running DIAG.withdiag test-case TestAlwaysDiag
+Comparing differences for DIAG.withdiag test-suite TargetApp
+  Comparing differences for DIAG.withdiag test-case TestAlwaysDiag - SUCCESS! (on errors.diag,first.diag,output.diag,second.diag,third.diag)

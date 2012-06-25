@@ -1,0 +1,71 @@
+# Try defining custom accelerators
+DefineAccelerators
+
+# Don't show menus and toolbars
+DontShowMenusToolbars
+
+# Don't show menus, but show toolbars
+DontShowMenus
+
+# Don't show toolbars, but show menus
+DontShowToolbars
+
+# Copy of RunAll, without status bar
+DontShowStatusBar
+
+# If StoryText can't be found, don't show a shortcut bar
+NoStoryText
+
+# Toggle the visibility of the various 'bars'
+ToggleVisibility
+
+# Check we can change the window size
+WindowSize
+
+# Check we can configure the size of the individual panes
+PaneSize
+
+# Check we can configure and change the colours
+ChangeColours
+
+# Check we can configure and change the colours using the names from the status window
+ChangeColoursStatus
+
+# Check we can configure and change the colours
+ChangeStaticFileColours
+
+# Check we can configure switches, text boxes and drop-down list default values
+OverridesAndOptions
+
+# Default values in a dialog should in preference show the previously chosen value rather than an overridden value from the config file
+PreferPreviousToOverride
+
+# Default values in the rerun dialog should in preference show the previously chosen value rather than an overridden value from the config file
+RerunPreferPreviousToOverride
+
+# Enable all the entry completion configuration and see what happens
+EntryCompletion
+
+# Test to see what happens if we can't find any images
+BadImages
+
+# See what happens when an accelerator can't be parsed
+BadAccelerator
+
+# If we get a large amount of error text, don't try to show it all in a window
+ExcessiveErrors
+
+# A user-defined GUI description
+UserDefinedGUIDescription
+
+# Make sure we can disable reading of personal configuration
+DisablePersonalConfig
+
+# See what we do when different applications suggest different GUI appearance for global things
+ConflictingGUIConfig
+
+# unordered_text is picked up in the GUI definition files so will be called as a GUI entry. Make sure we don't get strange errors.
+UnorderedTextDiffers
+
+# If a version happens to be a number, don't make spin buttons
+NumericEntries

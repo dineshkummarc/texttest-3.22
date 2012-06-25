@@ -1,0 +1,22 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------gui.01Sep170837.3015
+------------gui
+----------------AddMovie
+--------------------errors.gui
+--------------------output.gui
+--------------------usecase.gui
+--------------------framework_tmp
+------------------------errors.guicmp
+------------------------errors.guiorigcmp
+------------------------output.guicmp
+------------------------output.guiorigcmp
+------------------------teststate
+------------------------usecase.guicmp
+------------------------usecase.guiorigcmp
+--------static_gui.01Sep170834.2987
+------------dynamic_run1
+----------------errors.log
+----------------gui_select
+----------------output.log

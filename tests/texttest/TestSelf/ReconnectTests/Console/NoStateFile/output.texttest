@@ -1,0 +1,8 @@
+Using Application HELLO
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.16Jul153851.14396/texttest/TestSelf/ReconnectTests/Console/NoStateFile/texttesttmp/console.13Apr201124.9432/hello
+Reconnecting to HELLO test-suite TargetApp
+  Reconnecting to HELLO test-case Test (recomputing)
+Comparing differences for HELLO test-suite TargetApp
+  Comparing differences for HELLO test-case Test (on output.hello,errors.hello)
+  HELLO test-case Test FAILED : missing results for errors, differences in output
+  View details(v), Save(s) or continue(any other key)?

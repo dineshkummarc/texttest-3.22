@@ -1,0 +1,8 @@
+wait for completion of test actions
+set test selection to TestAlwaysDiag under TargetApp (diag.nodiag)
+save results with non-default settings
+enter version to save = 
+press ok
+set test selection to TestAlwaysDiag under TargetApp (diag.nodiag),TestAlwaysDiag under TargetApp (diag.withdiag)
+recompute test status, including progress information if appropriate
+quit

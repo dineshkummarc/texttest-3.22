@@ -1,0 +1,7 @@
+
+[Reported by geoff at 24May11:20:15]
+search_string:Test FAILED
+search_file:dynamic_gui_log
+bug_system:bugzilla
+bug_id:16108
+trigger_on_absence:1

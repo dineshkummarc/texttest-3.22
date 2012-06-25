@@ -1,0 +1,5 @@
+Using Application TDAT
+Running TDAT test-suite TargetApp
+  Running TDAT test-case Test1
+Comparing differences for TDAT test-suite TargetApp
+  Comparing differences for TDAT test-case Test1 - SUCCESS! (on catalogue.tdat,errors.tdat,output.tdat)

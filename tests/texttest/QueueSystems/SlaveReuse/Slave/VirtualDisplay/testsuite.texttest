@@ -1,0 +1,14 @@
+# Don't shut down the virtual displauy until we really exit...
+AddTest
+
+# If the virtual display crashes and we get sent a new test, restart it
+AddTestXvfbCrash
+
+# If we're still around when the Xvfb timeout expires, make sure we handle this correctly
+AddTestSlowerThanTimeout
+
+# Make sure adding a new GUI application doesn't start a second virtual server
+AddApplication
+
+# We don't have a display initially, see what happens if we need one for subsequent tests
+AddAppDifferentMode

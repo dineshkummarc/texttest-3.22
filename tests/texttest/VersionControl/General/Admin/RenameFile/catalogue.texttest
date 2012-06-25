@@ -1,0 +1,13 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------Test1
+------------output_renamed.hello
+------------output_renamed.hello.version
+
+The following existing files/directories were deleted:
+<Test Directory>
+----TargetApp
+--------Test1
+------------output.hello
+------------output.hello.version

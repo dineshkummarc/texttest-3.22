@@ -1,0 +1,10 @@
+Using Application CORE
+Running CORE test-suite TargetApp
+  Running CORE test-case DumpCore
+Comparing differences for CORE test-suite TargetApp
+  Comparing differences for CORE test-case DumpCore (on errors.core,output.core,stacktrace.core)
+  CORE test-case DumpCore CRASHED (core not parsed) :
+  View details(v), Save(s) or continue(any other key)?
+The core file could not be parsed. Errors from 'interpretcore' follow :
+interpretcore.py had a bad day and probably threw a nasty exception
+  Save(s) or continue(any other key)?

@@ -1,0 +1,7 @@
+Using Application PERF
+Running PERF test-suite TargetApp
+  Running PERF test-case FailuresCurrBelowLimit
+Comparing differences for PERF test-suite TargetApp
+  Comparing differences for PERF test-case FailuresCurrBelowLimit (on errors.perf,output.perf,performance.perf)
+  PERF test-case FailuresCurrBelowLimit ran slower : differences in performance(slower)
+  View details(v), Save(s) or continue(any other key)?

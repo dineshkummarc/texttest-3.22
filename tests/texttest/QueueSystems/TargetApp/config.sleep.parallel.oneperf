@@ -1,0 +1,4 @@
+# Get a performance file out and see that it has the right form...
+[performance_test_machine]
+cputime:{CLEAR LIST}
+cputime:fake_machine1

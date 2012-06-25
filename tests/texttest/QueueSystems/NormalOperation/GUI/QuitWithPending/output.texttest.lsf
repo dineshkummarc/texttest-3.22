@@ -1,0 +1,6 @@
+TextTest will write diagnostics in /users/geoff/texttesttmp/texttest.lsf.13Jun123443/QueueSystems/NormalOperation/GUI/KillPending based on file at /users/geoff/work/master/Testing/Automatic/texttest/logging.texttest
+Using LSF queues for Application SLEEP
+Q: Submitting test Basic to default LSF queue
+Q: Submitting test Basic2 to default LSF queue
+T: Cancelling test Basic2 in LSF (job 7481)
+T: Cancelling test Basic in LSF (job 7480)

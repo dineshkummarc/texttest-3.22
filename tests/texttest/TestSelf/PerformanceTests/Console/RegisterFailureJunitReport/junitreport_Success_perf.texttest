@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PERF.Success" failures="0" tests="1" time="5.0" errors="0">
+  <properties/>
+  <testcase name="Success" time="5.0" classname="PERF"/>
+</testsuite>

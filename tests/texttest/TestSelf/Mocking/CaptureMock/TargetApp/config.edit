@@ -1,0 +1,16 @@
+import_config_file:$STANDARD
+import_config_file:capturemock_config 
+
+executable:${TEXTTEST_HOME}/writewitheditor.py
+
+create_catalogues:true
+
+copy_test_path:file
+copy_test_path:file2
+copy_test_path:writedir
+
+
+[collate_file]
+editedfile:file
+editedfile2:file2
+editedfile3:*/*/file

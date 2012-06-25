@@ -1,0 +1,7 @@
+generic
+site
+pyusecase
+coverage_tmp
+build
+.project
+.pydevproject

@@ -1,0 +1,8 @@
+# Make sure we can look through the free text, for example with an Unrunnable test
+SearchFreeText
+
+# Copy of SearchFreeText, but don't recompute
+DontRecomputeFreeText
+
+# Check we still react appropriately after a reconnect
+PartialSave

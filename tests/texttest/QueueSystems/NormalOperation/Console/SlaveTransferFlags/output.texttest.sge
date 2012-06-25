@@ -1,0 +1,3 @@
+Using SGE queues for Application SLEEP, version startdigit
+Q: Submitting SLEEP.startdigit test-case 123Test to default SGE queue
+S: SLEEP.startdigit test-case 123Test succeeded on forestville

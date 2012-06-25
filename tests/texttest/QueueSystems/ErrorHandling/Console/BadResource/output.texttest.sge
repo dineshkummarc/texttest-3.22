@@ -1,0 +1,11 @@
+Using SGE queues for Application SLEEP, version badresource
+Q: Submitting SLEEP.badresource test-case Basic to default SGE queue
+S: SLEEP.badresource test-case Basic not compared:
+Failed to submit to SGE (Unable to run job: unknown resource "no_such_resource".)
+Submission command was 'qsub -N Test-Basic-SLEEP.badresource -l no_such_resource -w e -notify -m n -cwd -b y -V -o Test-Basic-SLEEP.badresource.log -e Test-Basic-SLEEP.badresource.errors ... '
+
+Q: Submitting SLEEP.badresource test-case Basic2 to default SGE queue
+S: SLEEP.badresource test-case Basic2 not compared:
+Failed to submit to SGE (Unable to run job: unknown resource "no_such_resource".)
+Submission command was 'qsub -N Test-Basic2-SLEEP.badresource -l no_such_resource -w e -notify -m n -cwd -b y -V -o Test-Basic2-SLEEP.badresource.log -e Test-Basic2-SLEEP.badresource.errors ... '
+

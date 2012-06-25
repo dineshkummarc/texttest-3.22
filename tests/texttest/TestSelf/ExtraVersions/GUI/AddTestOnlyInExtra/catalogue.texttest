@@ -1,0 +1,9 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------NewExtra
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------testsuite.hello.extra1

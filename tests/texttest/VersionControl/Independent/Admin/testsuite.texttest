@@ -1,0 +1,2 @@
+# Check that moving to different suites works if VCS not installed
+MoveNoInstall

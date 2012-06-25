@@ -1,0 +1,11 @@
+#!/bin/sh
+
+cd ${HOME}'/.texttest/tmp/console.10Nov213828.20379/disp/Test'
+DISPLAY='fake_machine1:3979.0'
+export DISPLAY
+PATH=${HOME}'/.texttest/tmp/console.10Nov213828.20379/disp/Test:'${PATH}
+export PATH
+STORYTEXT_HOME=${HOME}'/.texttest/tmp/console.10Nov213828.20379/ui_simulation_files'
+export STORYTEXT_HOME
+echo "kill $$" > kill_test.sh
+exec python ${HOME}/.texttest/tmp/console.10Nov213828.20379/system_under_test/display.py

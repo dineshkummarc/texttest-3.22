@@ -1,0 +1,7 @@
+[command line]
+intercepts = bsub,bhosts,bkill,bjobs,time
+
+[bsub]
+environment = USECASE_RECORD_SCRIPT,USECASE_REPLAY_SCRIPT
+asynchronous = True
+

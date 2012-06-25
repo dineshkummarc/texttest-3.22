@@ -1,0 +1,16 @@
+Using Application HELLO
+Running HELLO test-suite TargetApp
+  Running HELLO test-case Test
+Comparing differences for HELLO test-suite TargetApp
+  Comparing differences for HELLO test-case Test (on errors.hello,exitcode.hello,output.hello)
+  HELLO test-case Test FAILED on testnet-s16 : new results in exitcode, differences in errors,output
+  View details(v), Save(s) or continue(any other key)?
+---------- Differences in errors ----------
+0a1
+> /carm/proj/texttest-tmp/geoff/texttest.28Sep105219.16961/texttest/TestSelf/RunRemotely/DifferentFilesystems/NoCopyCommand/texttesttmp/console.28Sep105223.16964/hello/Test/run_test.sh: Command not found.
+---------- Differences in output ----------
+1d0
+< Hello
+---------- New result in exitcode ----------
+1
+  Save(s) or continue(any other key)?

@@ -1,0 +1,12 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------console.30Apr163200.19751
+------------hello
+----------------Test
+--------------------output.hello
+--------------------framework_tmp
+------------------------errors.helloorigcmp
+------------------------output.hellocmp
+------------------------output.helloorigcmp
+------------------------teststate

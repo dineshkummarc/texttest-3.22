@@ -1,0 +1,12 @@
+Using Application PERF
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.16Jul154449.14902/texttest/TestSelf/PerformanceTests/Console/ReconnectFullNoState/texttesttmp/console.15Sep144224.3454/perf
+Reconnecting to PERF test-suite TargetApp
+  Reconnecting to PERF test-case Success (state unrunnable)
+  PERF test-case Success not compared:  No file found to load results from under /carm/proj/texttest-tmp/geoff/texttest.16Jul154449.14902/texttest/TestSelf/PerformanceTests/Console/ReconnectFullNoState/texttesttmp/console.15Sep144224.3454/perf/Success
+  Reconnecting to PERF test-case Failures (recomputing)
+Comparing differences for PERF test-suite TargetApp
+  Comparing differences for PERF test-case Failures - SUCCESS! (on errors.perf,output.perf,performance.perf)
+  Reconnecting to PERF test-case FailuresCurrBelowLimit (state unrunnable)
+  PERF test-case FailuresCurrBelowLimit not compared:  No file found to load results from under /carm/proj/texttest-tmp/geoff/texttest.16Jul154449.14902/texttest/TestSelf/PerformanceTests/Console/ReconnectFullNoState/texttesttmp/console.15Sep144224.3454/perf/FailuresCurrBelowLimit
+  Reconnecting to PERF test-case FailuresZeroTime (state unrunnable)
+  PERF test-case FailuresZeroTime not compared:  No file found to load results from under /carm/proj/texttest-tmp/geoff/texttest.16Jul154449.14902/texttest/TestSelf/PerformanceTests/Console/ReconnectFullNoState/texttesttmp/console.15Sep144224.3454/perf/FailuresZeroTime

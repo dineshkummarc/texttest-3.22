@@ -1,0 +1,25 @@
+known bugs=1
+22Jan2010
+HELLO : 1 tests : 1 known bugs
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests had known bugs : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Test : bug FAK-42 (BAD SCRIPT)
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that had known bugs follows...
+--------------------------------------------------------
+TEST had known bugs (bug FAK-42 (BAD SCRIPT)) on dodoma : HELLO test-case Test (under Test)
+Could not parse reply from Jira's web service, maybe incompatible interface. Text of reply follows : 
+{'nonsense': 'something useless'}
+---------- Differences in output ----------
+1c1
+< Hello world
+---
+> Hello after 5 seconds
+

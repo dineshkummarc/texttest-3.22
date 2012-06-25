@@ -1,0 +1,18 @@
+Rejected Application HELLO, version run1.extra2 - Could not find an application directory matching Application HELLO, version run1.extra2 for the run directory found at /carm/proj/texttest-tmp/geoff/texttest.18Aug144221.18714/texttest/TestSelf/ExtraVersions/Console/Reconnect/MultiVersions/texttesttmp/console.run1.18Jul111758.14417
+Rejected Application HELLO, version run2.extra2 - Could not find an application directory matching Application HELLO, version run2.extra2 for the run directory found at /carm/proj/texttest-tmp/geoff/texttest.18Aug144221.18714/texttest/TestSelf/ExtraVersions/Console/Reconnect/MultiVersions/texttesttmp/console.run2.18Jul111758.14417
+Using Application HELLO, version run1
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.18Aug144221.18714/texttest/TestSelf/ExtraVersions/Console/Reconnect/MultiVersions/texttesttmp/console.run1.18Jul111758.14417/hello.run1
+Using Application HELLO, version run1.extra1
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.18Aug144221.18714/texttest/TestSelf/ExtraVersions/Console/Reconnect/MultiVersions/texttesttmp/console.run1.18Jul111758.14417/hello.run1.extra1
+Using Application HELLO, version run2
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.18Aug144221.18714/texttest/TestSelf/ExtraVersions/Console/Reconnect/MultiVersions/texttesttmp/console.run2.18Jul111758.14417/hello.run2
+Using Application HELLO, version run2.extra1
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.18Aug144221.18714/texttest/TestSelf/ExtraVersions/Console/Reconnect/MultiVersions/texttesttmp/console.run2.18Jul111758.14417/hello.run2.extra1
+Reconnecting to HELLO.run1 test-suite TargetApp
+  Reconnecting to HELLO.run1 test-case Common (state success)
+Reconnecting to HELLO.run1.extra1 test-suite TargetApp
+  Reconnecting to HELLO.run1.extra1 test-case Common (state success)
+Reconnecting to HELLO.run2 test-suite TargetApp
+  Reconnecting to HELLO.run2 test-case Common (state success)
+Reconnecting to HELLO.run2.extra1 test-suite TargetApp
+  Reconnecting to HELLO.run2.extra1 test-case Common (state success)

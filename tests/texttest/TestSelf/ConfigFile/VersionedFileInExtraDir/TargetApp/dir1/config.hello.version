@@ -1,0 +1,6 @@
+full_name:Dir1 Name
+
+executable:/imported1.exe
+
+[run_dependent_text]
+output:dir1

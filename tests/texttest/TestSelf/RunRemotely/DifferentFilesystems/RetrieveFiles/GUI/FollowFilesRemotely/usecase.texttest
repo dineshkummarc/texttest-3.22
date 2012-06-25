@@ -1,0 +1,7 @@
+wait for all tests to be read, test Test to start
+view actions for test Test
+recompute test status, including progress information if appropriate
+view actions for file extra.hello
+follow file progress
+wait for the file-following program to terminate
+quit

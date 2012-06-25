@@ -1,0 +1,5 @@
+wait for completion of test actions
+hide tests in category Failed
+show tests in category Failed
+hide tests in category Succeeded
+quit

@@ -1,0 +1,5 @@
+O4ba74bdb|geoff|/nfs/vm/texttest/geoff/Testing/Automatic/texttest/VersionControl/General/UpdateSuite/*0|TargetApp||TargetApp
+O4ba74c0d|geoff|/nfs/vm/texttest/geoff/Testing/Automatic/texttest/VersionControl/General/UpdateSuite/TargetApp.cvs|TargetApp||TargetApp.cvs
+O4ba74c56|geoff|/nfs/vm/texttest/geoff/Testing/Automatic/texttest/VersionControl/General/UpdateSuite/checkout|TargetApp||checkout
+A4ba74c6e|geoff|/nfs/vm/texttest/geoff/Testing/Automatic/texttest/VersionControl/General/UpdateSuite/checkout*9|TargetApp/Test|1.1|result.hello
+U4ba74d04|geoff|/nfs/vm/texttest-tmp/geoff/texttest.22Mar115702.16466/texttest.cvs/VersionControl/General/UpdateSuite/*0|TargetApp/Test|1.1|result.hello

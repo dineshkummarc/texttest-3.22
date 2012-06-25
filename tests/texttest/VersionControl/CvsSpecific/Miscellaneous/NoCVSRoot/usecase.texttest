@@ -1,0 +1,5 @@
+wait for all tests to be read
+set test selection to TargetApp (hello)
+version control log for the selected files
+agree to texttest message
+quit

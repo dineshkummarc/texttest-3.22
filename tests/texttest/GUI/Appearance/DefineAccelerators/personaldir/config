@@ -1,0 +1,9 @@
+
+[gui_accelerators]
+run_tests:<alt><shift><control>g
+select:<atl>o
+save:<shift>s
+quit:q
+reset:F2
+remove_tests:<control><alt>r
+[end]

@@ -1,0 +1,32 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------npstIII
+------------Game47
+----------------S02
+--------------------output.dip
+----------------S03
+--------------------output.dip
+----------------S05
+--------------------output.dip
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------Game9952
+------------testsuite.dip
+------------testsuite.dip.small
+--------npstIII
+------------Game47
+----------------testsuite.dip
+
+The following existing files/directories were deleted:
+<Test Directory>
+----TargetApp
+--------Game9952
+------------S02
+----------------output.dip
+------------S03
+----------------output.dip
+------------S05
+----------------output.dip

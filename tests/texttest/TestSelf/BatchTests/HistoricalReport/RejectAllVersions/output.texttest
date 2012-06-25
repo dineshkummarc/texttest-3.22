@@ -1,0 +1,7 @@
+Using Application HELLO, version normal
+Using Application HELLO, version normal.changed
+Not generating web page for Application HELLO, version normal : unregistered version 'normal' for self_test session.
+Not generating web page for Application HELLO, version normal.changed : unregistered version 'normal' for self_test session.
+Generating web pages...
+Completed web page generation.
+No applications generated for index page at '/nfs/vm/texttest-tmp/geoff/texttest.22Jun153358.5521/texttest/TestSelf/BatchTests/HistoricalReport/RejectAllVersions/report/index.html'.

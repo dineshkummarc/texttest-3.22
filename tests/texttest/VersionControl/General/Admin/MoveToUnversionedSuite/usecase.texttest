@@ -1,0 +1,13 @@
+wait for all tests to be read
+set test selection to TargetApp (hello)
+add suite
+enter suite name = NewSuite
+press ok
+set test selection to Test3
+cut selected tests
+set test selection to NewSuite
+paste tests from clipboard
+set test selection to NewSuite
+recursive version control status for the selected files
+close status window
+quit

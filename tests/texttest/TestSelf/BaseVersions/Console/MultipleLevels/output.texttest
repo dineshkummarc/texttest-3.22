@@ -1,0 +1,5 @@
+Using Application VER, version explicit
+Running VER.explicit test-suite TargetApp
+  Running VER.explicit test-case Test
+Comparing differences for VER.explicit test-suite TargetApp
+  Comparing differences for VER.explicit test-case Test - SUCCESS! (on catalogue.ver,errors.ver,output.ver.implicit3)

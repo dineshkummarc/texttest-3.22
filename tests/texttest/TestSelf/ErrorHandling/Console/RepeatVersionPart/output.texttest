@@ -1,0 +1,7 @@
+Using Application HELLO, version version.subversion
+Running HELLO.version.subversion test-suite TargetApp
+  Running HELLO.version.subversion test-case Test
+Comparing differences for HELLO.version.subversion test-suite TargetApp
+  Comparing differences for HELLO.version.subversion test-case Test (on errors.hello,output.hello)
+  HELLO.version.subversion test-case Test FAILED : differences in output
+  View details(v), Save Version version.subversion(1), Save Version version(2), Save Version subversion(3), Save(s) or continue(any other key)?

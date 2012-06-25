@@ -1,0 +1,16 @@
+import_config_file:$STANDARD
+
+default_interface:console
+
+# Use this as a device to provide specific 
+# knownbugs files per test
+extra_search_directory:$TEXTTEST_PERSONAL_CONFIG
+
+#log_file:output
+
+# Use collection for self tests, so we can compare reports
+[batch_use_collection]
+default:true
+
+[bug_system_location]
+bugzilla:http://bugzilla.mysite.com

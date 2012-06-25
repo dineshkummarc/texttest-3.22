@@ -1,0 +1,27 @@
+Using Application Env Variables, version refvar
+Running Env Variables.refvar test-suite TargetApp
+  Running Env Variables.refvar test-suite Suite1
+    Running Env Variables.refvar test-case Test1
+Comparing differences for Env Variables.refvar test-suite TargetApp
+  Comparing differences for Env Variables.refvar test-suite Suite1
+    Comparing differences for Env Variables.refvar test-case Test1 (on output.env)
+    Env Variables.refvar test-case Test1 FAILED : differences in output
+    View details(v), Save Version refvar(1), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+1,2c1,2
+< VAR1 = value1
+< VAR2 = value2
+---
+> VAR1 = value1_extended
+> VAR2 = value1_extended
+    Save Version refvar(1), Save(s) or continue(any other key)?
+  Running Env Variables.refvar test-case Test2
+  Comparing differences for Env Variables.refvar test-case Test2 (on output.env.refvar)
+  Env Variables.refvar test-case Test2 FAILED : differences in output
+  View details(v), Save Version refvar(1), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+2c2
+< VAR2  NOT DEFINED
+---
+> VAR2 = reference_updated
+  Save Version refvar(1), Save(s) or continue(any other key)?

@@ -1,0 +1,14 @@
+Using Application HELLO, version version
+Replacing Hello with Hello World for HELLO.version test-suite TargetApp
+  Replacing Hello with Hello World for HELLO.version test-case Test - file output.hello.version
+Comparing differences for HELLO.version test-suite TargetApp
+  Comparing differences for HELLO.version test-case Test (on output.hello.version)
+  HELLO.version test-case Test FAILED : differences in output
+  View details(v), Save Version version(1), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+1c1
+< Hello Version
+---
+> Hello World Version
+  Save Version version(1), Save(s) or continue(any other key)?
+  Saving HELLO.version test-case Test 

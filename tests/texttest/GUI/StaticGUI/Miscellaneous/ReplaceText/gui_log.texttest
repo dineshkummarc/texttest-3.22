@@ -1,0 +1,172 @@
+
+---------- Window 'DIP test management - TextTest static GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_Edit' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+    ----
+  _Select (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+  Refresh (Stock image 'gtk-refresh', accelerator 'F5', tooltip 'Refresh the whole test suite so that it reflects file changes')
+  _Run (Stock image 'gtk-execute', greyed out, accelerator 'Ctrl+R', tooltip 'Run selected tests')
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Selection , Config
+Viewing page 'Selection'
+Viewing table with 7 rows and 2 columns.
+'Tests for version  ' (tooltip 'Select tests for a specific version.') | Text entry (drop-down list containing ['', '<default>'])
+'Test names containing  ' (tooltip 'Select tests for which the name contains the entered text. The text can be a regular expression.') | Text entry
+'Test paths containing  ' (tooltip 'Select tests for which the full path to the test (e.g. suite1/subsuite/testname) contains the entered text. The text can be a regular expression. You can select tests by suite name this way.') | Text entry
+'Tests listed in file  ' | Text entry , Button '...'
+'Descriptions containing  ' (tooltip 'Select tests for which the description (comment) matches the entered text. The text can be a regular expression.') | Text entry
+'Test-files containing  ' (tooltip 'Select tests which have a file containing the entered text. The text can be a regular expression : e.g. enter '.*' to only look for the file without checking the contents.') | Text entry
+'Test-file to search  ' (tooltip 'When the 'test-files containing' field is non-empty, apply the search in files with the given stem. Unix-style file expansion (note not regular expressions) may be used. For example '*' will look in any file.') | Text entry (drop-down list containing [''])
+.....'Selection'......
+Check button 'Select in collapsed suites' (tooltip 'Select in currently collapsed suites as well?')
+Radio button 'Discard' (checked) (tooltip 'Unselect all currently selected tests before applying the new selection criteria.') , Radio button 'Refine' (tooltip 'Apply the new selection criteria only to the currently selected tests, to obtain a subselection.') , Radio button 'Extend' (tooltip 'Keep the currently selected tests even if they do not match the new criteria, and extend the selection with all other tests which meet the new criteria.') , Radio button 'Exclude' (tooltip 'After applying the new selection criteria to all tests, unselect the currently selected tests, to exclude them from the new selection.')
+Button '_Select' (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+.....'Filtering'......
+Radio button 'Discard' (checked) (tooltip 'Show all tests which match the criteria, and hide all those that do not.') , Radio button 'Refine' (tooltip 'Hide all tests which do not match the criteria. Do not show any tests that aren't already shown.') , Radio button 'Extend' (tooltip 'Show all tests which match the criteria. Do not hide any tests that are currently shown.')
+Button 'Filter' (Stock image 'gtk-find', accelerator 'Ctrl+F', tooltip 'filter tests to show only those indicated')
+Button 'Reset Tab' (tooltip 'Reset all the settings in the current tab to their default values')
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Jun14:04:02.' , Image 'throbber_inactive.png'
+------------------------------------------------------------------------
+
+Changing GUI status to: 'Reading tests ...'
+
+Column titles changed in Test Tree with columns: Tests: 0/1 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/2 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/3 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/4 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/5 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/6 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/7 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/8 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/9 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/10 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/11 selected
+
+Updated : Test Tree with columns: Tests: 0/11 selected
+-> TargetApp (dip) (black/grey90,bold)
+->   Game9952 (black/grey90,bold)
+->     S01.99 (black/grey90)
+->     A01 (black/grey90)
+->     S02 (black/grey90)
+->     A02 (black/grey90)
+->     S03 (black/grey90)
+->     A03 (black/grey90)
+->     S04 (black/grey90)
+->     A04 (black/grey90)
+->     S05 (black/grey90)
+->     A05 (black/grey90)
+->   npstIII (black/grey90,bold)
+->     Game47 (black/grey90,bold)
+->       S01 (black/grey90)
+Updated drop-down list in 'Test-file to search' Text entry (set to 'output') (drop-down list containing ['output'])
+
+Changing GUI status to: 'Reading tests completed at 09Jun14:04:03.'
+
+Expected application event 'all tests to be read' occurred, proceeding.
+
+'set test selection to' event created with arguments 'S01.99,S03,A04'
+
+No longer greyed out : _Run
+
+Changed selection in Test Tree with columns: Tests: 3/11 selected
+-> TargetApp (dip) (black/grey90,bold)
+->   Game9952 (black/grey90,bold)
+->     S01.99 (black/grey90)   ***
+->     A01 (black/grey90)
+->     S02 (black/grey90)
+->     A02 (black/grey90)
+->     S03 (black/grey90)   ***
+->     A03 (black/grey90)
+->     S04 (black/grey90)
+->     A04 (black/grey90)   ***
+->     S05 (black/grey90)
+->     A05 (black/grey90)
+->   npstIII (black/grey90,bold)
+->     Game47 (black/grey90,bold)
+->       S01 (black/grey90)
+
+Current page changed in Notebook with tabs: Selection , Running , Config
+Viewing page 'Selection'
+Viewing table with 7 rows and 2 columns.
+'Tests for version  ' (tooltip 'Select tests for a specific version.') | Text entry (drop-down list containing ['', '<default>'])
+'Test names containing  ' (tooltip 'Select tests for which the name contains the entered text. The text can be a regular expression.') | Text entry
+'Test paths containing  ' (tooltip 'Select tests for which the full path to the test (e.g. suite1/subsuite/testname) contains the entered text. The text can be a regular expression. You can select tests by suite name this way.') | Text entry
+'Tests listed in file  ' | Text entry , Button '...'
+'Descriptions containing  ' (tooltip 'Select tests for which the description (comment) matches the entered text. The text can be a regular expression.') | Text entry
+'Test-files containing  ' (tooltip 'Select tests which have a file containing the entered text. The text can be a regular expression : e.g. enter '.*' to only look for the file without checking the contents.') | Text entry
+'Test-file to search  ' (tooltip 'When the 'test-files containing' field is non-empty, apply the search in files with the given stem. Unix-style file expansion (note not regular expressions) may be used. For example '*' will look in any file.') | Text entry (set to 'output') (drop-down list containing ['output'])
+.....'Selection'......
+Check button 'Select in collapsed suites' (tooltip 'Select in currently collapsed suites as well?')
+Radio button 'Discard' (checked) (tooltip 'Unselect all currently selected tests before applying the new selection criteria.') , Radio button 'Refine' (tooltip 'Apply the new selection criteria only to the currently selected tests, to obtain a subselection.') , Radio button 'Extend' (tooltip 'Keep the currently selected tests even if they do not match the new criteria, and extend the selection with all other tests which meet the new criteria.') , Radio button 'Exclude' (tooltip 'After applying the new selection criteria to all tests, unselect the currently selected tests, to exclude them from the new selection.')
+Button '_Select' (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+.....'Filtering'......
+Radio button 'Discard' (checked) (tooltip 'Show all tests which match the criteria, and hide all those that do not.') , Radio button 'Refine' (tooltip 'Hide all tests which do not match the criteria. Do not show any tests that aren't already shown.') , Radio button 'Extend' (tooltip 'Show all tests which match the criteria. Do not hide any tests that are currently shown.')
+Button 'Filter' (Stock image 'gtk-find', accelerator 'Ctrl+F', tooltip 'filter tests to show only those indicated')
+Button 'Reset Tab' (tooltip 'Reset all the settings in the current tab to their default values')
+
+'show actions menu' event created with arguments ''
+
+---------- Popup Window ----------
+'_Select' (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F')
+'Filter' (Stock image 'gtk-find', accelerator 'Ctrl+F')
+  ----
+'_Run' (Stock image 'gtk-execute', accelerator 'Ctrl+R')
+'Re_connect...' (Stock image 'gtk-connect', accelerator 'Shift+Ctrl+R')
+'Record _Use-Case' (Stock image 'gtk-media-record', greyed out, accelerator 'F9')
+'Replace Text in Files'
+  ----
+'Refresh' (Stock image 'gtk-refresh', accelerator 'F5')
+'R_eset' (Stock image 'gtk-revert-to-saved', accelerator 'Ctrl+E')
+----------------------------------
+
+'replace text in multiple test files' event created with arguments ''
+
+---------- Dialog 'Replace text in multiple test files' ----------
+Default widget is 'gtk-ok'
+'Text or regular expression to search for:'
+Text entry
+'Text to replace it with (may contain regexp back references):'
+Text entry
+'File stem(s) to perform replacement in:'
+Text entry (set to 'output') (drop-down list containing ['output'])
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+------------------------------------------------------------------
+
+'enter text or regular expression to search for =' event created with arguments 'Hello'
+Edited 'Text or regular expression to search for' Text entry (set to 'Hello')
+
+'enter text to replace it with (may contain regexp back references) =' event created with arguments 'Goodbye'
+Edited 'Text to replace it with (may contain regexp back references)' Text entry (set to 'Goodbye')
+
+'press ok' event created with arguments ''
+
+Waiting for application event 'script GUI to be closed' to occur.
+
+Changing GUI status to: 'Replaced text in files for 3 tests at 09Jun14:04:03.'
+
+Expected application event 'script GUI to be closed' occurred, proceeding.
+
+'quit' event created with arguments ''

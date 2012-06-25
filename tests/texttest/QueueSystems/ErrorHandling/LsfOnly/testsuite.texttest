@@ -1,0 +1,5 @@
+# Check that rusage in resource requests works correctly
+BadResourceUsage
+
+# Check that we don't get fooled by the stuff that LSF writes...
+LsfMessages

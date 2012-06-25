@@ -1,0 +1,4 @@
+# Fallback site-specific config file, if there isn't one at site/siteconfig/site_configfile
+# We point the checkout as if a tarball has just been downloaded
+
+checkout_location:${TEXTTEST_HOME}/../source

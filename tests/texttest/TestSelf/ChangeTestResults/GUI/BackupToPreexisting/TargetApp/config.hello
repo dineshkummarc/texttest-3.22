@@ -1,0 +1,7 @@
+import_config_file:$STANDARD
+
+default_interface:dynamic_gui
+
+discard_file:errors
+
+

@@ -1,0 +1,13 @@
+wait for all tests to be read
+set test selection to Common
+rename selected test
+enter new name = Common_renamed
+enter new description = This test was renamed
+press ok
+set test selection to Extra1
+rename selected test
+enter new name = Extra1_renamed
+enter new description = Copy of Common. Renamed.
+press ok
+select indicated tests
+quit

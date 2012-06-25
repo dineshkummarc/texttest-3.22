@@ -1,0 +1,15 @@
+wait for all tests to be read
+load test selection from file
+look in folder strange_filter_files
+select filter-file hello_world.py
+press load
+load test selection from file
+select filter-file text_file.txt
+press load
+load test selection from file
+select filter-file throbber_active.gif
+press load
+load test selection from file
+select filter-file word_document.doc
+press load
+quit

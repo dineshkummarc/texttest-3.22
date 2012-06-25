@@ -1,0 +1,2 @@
+# Check that variables are correctly removed from the environment
+RemoveSuiteVars

@@ -1,0 +1,4 @@
+<-SRV:TextTest slave server started on 10.67.7.95:42190
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.lsf/QueueSystems/ErrorHandling/LsfOnly/BadResourceUsage/texttesttmp/console.badresusage.01Mar115153.3906/slavelogs; bsub -J Test-Basic-SLEEP.badresusage -R rusage[no_such_resource=0] -u nobody -o Test-Basic-SLEEP.badresusage.log -e Test-Basic-SLEEP.badresusage.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.lsf/QueueSystems/ErrorHandling/LsfOnly/BadResourceUsage/TargetApp -a sleep.badresusage -l -tp 'Basic' -slave /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.lsf/QueueSystems/ErrorHandling/LsfOnly/BadResourceUsage/texttesttmp/console.badresusage.01Mar115153.3906 -servaddr 10.67.7.95:39961""
+->ERR:Bad resource requirement syntax. Job not submitted.
+<-SRV:Completed submission of all tests

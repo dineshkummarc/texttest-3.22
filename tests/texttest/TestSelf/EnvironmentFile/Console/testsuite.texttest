@@ -1,0 +1,45 @@
+# Check that variables are correctly removed from the environment
+RemoveSuiteVars
+
+# Make sure that environment.a.b overrides environment.a
+DoubleVersionOverride
+
+# Make sure we can override config file settings as well as environment files (config.a.b overrides config.a). 
+# This is more complex as it happens in two parts
+DoubleVersionConfigOverride
+
+# Copy of DoubleVersionConfigOverride : but with the version IDs reversed
+VersionOrderIrrelevant
+
+# Check that when an exception is thrown in a test, its environment is cleaned
+RemoveVarOnException
+
+# Make sure subtests update variables that depend on other variables that have been changed
+UpdateReferenceVars
+
+# Check we can unset previously set environment variables
+UnsetVariable
+
+# Check we can unset variables from the external environment and that they don't also get unset in unrelated tests.
+UnsetExternalVariable
+
+# Make sure that checkout expansions are only used with real relative paths
+CheckoutExpansionNoPath
+
+# Test for problems setting environment variables external to TextTest, and then reading them via options
+PresetVarInOptions
+
+# Make sure we can control which version is read first
+VersionPriority
+
+# Test for the case where we need to pass through the environment file several times in order to untangle all the indirections
+MultipassEnvFile
+
+# Testing using environment files in the environment_directory
+ExtraEnvironmentDirectory
+
+# Check we can refer to the sandbox variable in appropriate ways
+SandboxVariable
+
+# Check we correctly expand variables that refer to themselves and to others
+SelfReference

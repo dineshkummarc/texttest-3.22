@@ -1,0 +1,2 @@
+Could not start TextTest master GUI due to PyGTK GUI library problems :
+Unable to import module 'gtk' - No module named gtk

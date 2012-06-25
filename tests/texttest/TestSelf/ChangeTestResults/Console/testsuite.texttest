@@ -1,0 +1,20 @@
+# Test for failures, save every test with "s"
+FailuresSave
+
+# Make sure we can save a version ID from the console
+SaveVersion
+
+# Test for overwrite mode
+Overwrite
+
+# Test for bug 1492, where overwriting several versions writes to the same file...
+OverwriteDoubleVersion
+
+# Check that composite versions are overwritten as are, not something else...
+OverwriteCompositeVersion
+
+# Check that we can state the version to save on the command line, which might be different from the version to run
+OverwriteGivenVersion
+
+# Make sure that new-file mode applies to versions too
+NewFileModeWithVersion

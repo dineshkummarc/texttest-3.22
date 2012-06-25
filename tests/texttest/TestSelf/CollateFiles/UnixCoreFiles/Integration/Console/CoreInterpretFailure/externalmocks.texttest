@@ -1,0 +1,2 @@
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.03Jul110252.5893/texttest/TestSelf/CollateFiles/UnixCoreFiles/Integration/Console/CoreInterpretFailure/texttesttmp/console.03Jul110301.4976/core/DumpCore; interpretcore /carm/proj/texttest-tmp/geoff/texttest.03Jul110252.5893/texttest/TestSelf/CollateFiles/UnixCoreFiles/Integration/Console/CoreInterpretFailure/texttesttmp/console.03Jul110301.4976/core/DumpCore/core
+->ERR:interpretcore.py had a bad day and probably threw a nasty exception

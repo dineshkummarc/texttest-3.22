@@ -1,0 +1,5 @@
+import_config_file:$STANDARD
+
+executable:$TEXTTEST_HOME/writeenv.py
+
+extra_version:explicit

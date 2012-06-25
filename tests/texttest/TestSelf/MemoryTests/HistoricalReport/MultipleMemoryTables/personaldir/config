@@ -1,0 +1,10 @@
+batch_result_repository:repository
+historical_report_location:report
+
+[performance_variation_serious_%]
+memory:20
+
+[historical_report_resource_page_tables]
+duplicated_memory:memory
+duplicated_memory:memory2
+[end]

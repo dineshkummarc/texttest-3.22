@@ -1,0 +1,17 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------console.env.30Apr164151.8393
+------------tdat.env
+----------------Test
+--------------------errors.tdat
+--------------------my_personal_file
+--------------------output.tdat
+--------------------framework_tmp
+------------------------environment.tdatorigcmp
+------------------------errors.tdatcmp
+------------------------errors.tdatorigcmp
+------------------------options.tdatorigcmp
+------------------------output.tdatcmp
+------------------------output.tdatorigcmp
+------------------------teststate

@@ -1,0 +1,12 @@
+Using Application TDAT, version version
+Running TDAT.version test-suite TargetApp
+  Running TDAT.version test-case Test1
+Comparing differences for TDAT.version test-suite TargetApp
+  Comparing differences for TDAT.version test-case Test1 (on catalogue.tdat,errors.tdat,output.tdat)
+  TDAT.version test-case Test1 FAILED : differences in catalogue
+  View details(v), Save Version version(1), Save(s) or continue(any other key)?
+---------- Differences in catalogue ----------
+13,14d12
+< --------somedir
+< ------------toEdit
+  Save Version version(1), Save(s) or continue(any other key)?

@@ -1,0 +1,6 @@
+# Here is the magic: if there is more than one level of indirection, Texttest seems to fail to work, although the log writes nice values. Playing around with the rows below indeed affects the behaviour.
+
+MY_ENV_VAR:$INDIRECTION_2
+INDIRECTION_1:value
+INDIRECTION_2:value
+INDIRECTION_2:$INDIRECTION_1

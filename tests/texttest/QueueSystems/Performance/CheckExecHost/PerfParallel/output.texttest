@@ -1,0 +1,5 @@
+Using Application PERF, version resource
+Running PERF.resource test-suite TargetApp
+  Running PERF.resource test-case Failures
+Comparing differences for PERF.resource test-suite TargetApp
+  Comparing differences for PERF.resource test-case Failures (on errors.perf,logperf.perf,output.perf)

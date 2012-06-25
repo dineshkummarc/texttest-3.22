@@ -1,0 +1,6 @@
+wait for all tests to be read
+enter execution time = foo
+select indicated tests
+agree to texttest message
+set test selection to FailuresCurrBelowLimit
+quit

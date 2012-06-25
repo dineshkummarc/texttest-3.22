@@ -1,0 +1,2 @@
+-v startdigit -slave -servaddr no_such_machine:42
+

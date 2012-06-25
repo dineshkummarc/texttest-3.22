@@ -1,0 +1,11 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------local.textinfile.30Apr164155.26793
+------------batchreport.hello.textinfile
+------------hello.textinfile
+----------------Test
+--------------------errors.hello
+--------------------output.hello
+--------------------framework_tmp
+------------------------teststate

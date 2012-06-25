@@ -1,0 +1,7 @@
+wait for all tests to be read
+show test suite npstIII
+show test suite Game47
+hide test suite npstIII
+show test suite npstIII
+select indicated tests
+quit

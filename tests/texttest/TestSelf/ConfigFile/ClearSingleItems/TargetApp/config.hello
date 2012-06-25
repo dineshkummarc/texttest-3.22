@@ -1,0 +1,6 @@
+import_config_file:$STANDARD
+
+[run_dependent_text]
+output:item_to_keep
+output:item_to_remove
+output:another_item_to_keep

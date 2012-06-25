@@ -1,0 +1,6 @@
+wait for completion of test actions
+set test selection to BothDiff under TargetApp (hello.batch.1)
+save results with non-default settings
+enter version to save = batch.1
+press ok
+quit

@@ -1,0 +1,11 @@
+# Tests for normal operation using a queue system
+NormalOperation
+
+# Tests for handling the various limits queue systems tend to impose
+Limits
+
+# Tests for handling performance testing and parallel systems under test
+Performance
+
+# Various error conditions
+ErrorHandling

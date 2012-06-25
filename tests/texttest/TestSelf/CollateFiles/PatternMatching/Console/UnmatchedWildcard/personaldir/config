@@ -1,0 +1,4 @@
+[collate_file]
+# Wildcard can't be used, should be turned into "WILDCARD"
+created_*:created_1.dump
+[end]

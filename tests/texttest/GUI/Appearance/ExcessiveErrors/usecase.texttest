@@ -1,0 +1,6 @@
+wait for all tests to be read
+set test selection to Test
+run selected tests
+wait for dynamic GUI to be closed
+agree to texttest message
+quit

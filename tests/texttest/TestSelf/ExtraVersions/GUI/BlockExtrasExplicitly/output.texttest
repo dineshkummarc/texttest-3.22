@@ -1,0 +1,7 @@
+Using Application HELLO, version blockextra
+Running HELLO.blockextra test-suite TargetApp
+  Running HELLO.blockextra test-case Common
+Comparing differences for HELLO.blockextra test-suite TargetApp
+  Comparing differences for HELLO.blockextra test-case Common - SUCCESS! (on errors.hello,output.hello)
+  Running HELLO.blockextra test-case Base
+  Comparing differences for HELLO.blockextra test-case Base - SUCCESS! (on errors.hello,output.hello)

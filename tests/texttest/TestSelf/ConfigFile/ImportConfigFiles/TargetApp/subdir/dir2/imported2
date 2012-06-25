@@ -1,0 +1,4 @@
+executable:/imported2.exe
+
+[run_dependent_text]
+output:imported2

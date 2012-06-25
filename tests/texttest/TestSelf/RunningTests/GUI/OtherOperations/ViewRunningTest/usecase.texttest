@@ -1,0 +1,7 @@
+wait for all tests to be read, test Basic to start
+set test selection to Basic
+view actions for file output.hello
+follow file progress
+select file output.hello
+wait for completion of test actions, file editing operations to complete
+quit

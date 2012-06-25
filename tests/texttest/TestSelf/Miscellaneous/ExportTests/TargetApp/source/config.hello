@@ -1,0 +1,4 @@
+executable:${TEXTTEST_HOME}/hello.py
+
+link_test_path:datafile
+link_test_path:datadir

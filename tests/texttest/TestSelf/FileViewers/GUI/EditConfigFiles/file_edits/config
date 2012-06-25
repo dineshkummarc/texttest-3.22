@@ -1,0 +1,4 @@
+copy_test_path:data2
+
+[hide_gui_element]
+static_menubar:1

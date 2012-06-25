@@ -1,0 +1,5 @@
+Using Application PERF
+Running PERF test-suite TargetApp
+  Running PERF test-case Failures
+Comparing differences for PERF test-suite TargetApp
+  Comparing differences for PERF test-case Failures (on errors.perf,output.perf,performance.perf)

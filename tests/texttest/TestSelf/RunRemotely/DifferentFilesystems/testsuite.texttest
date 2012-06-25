@@ -1,0 +1,47 @@
+# Copy the executable remotely so we can run it
+CopyExecutable
+
+# Make sure we try to remove previous remotely written directories so they don't build up
+BatchRun
+
+# Make sure we can take the whole checkout over if we need to
+CopyCheckout
+
+# If the checkout already exists remotely, don't fall over!
+RemoteCheckout
+
+# Make sure it works with Rsync also
+UseRsync
+
+# Need to make sure we can get at test data from the remote job
+ReadTestData
+
+# Make sure copy_test_path_merge works properly when running remotely
+MergeTestData
+
+# If we have a test data script, must run it remotely
+TestDataScript
+
+# Make sure we can test performance correctly
+PerformanceMeasurement
+
+# Copy the executable remotely so we can run it
+NoCopyCommand
+
+# Make sure we check remotely as well as locally in case file exists
+NoExecutable
+
+# Make sure we check remotely as well as locally in case checkout exists
+BadCheckout
+
+# Make sure we exit gracefully if we don't have access to the machine
+BadMachine
+
+# Machine access errors should have priority over failing to find path errors
+BadMachineNoExecutable
+
+# If options files contain environment variables, don't expand these locally
+OptionsWithEnv
+
+# Make sure we get hold of files written on the remote machine
+RetrieveFiles

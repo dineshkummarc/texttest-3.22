@@ -1,0 +1,12 @@
+[general]
+server_multithreaded = False
+
+[command line]
+intercepts = async_program,foo,bar
+
+[async_program]
+asynchronous = True
+
+[python]
+intercepts = baz,baz2
+

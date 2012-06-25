@@ -1,0 +1,17 @@
+# Ordered list of tests in test suite. Add as appropriate
+
+
+# Check we can link to read only files and pick up the right ones
+LinkTestPath
+
+# Make sure we can link the readonly parts of a writeable structure
+PartialCopyTestPath
+
+# Reduce to linking if there are no changes in the structure
+PartialCopyNoChanges
+
+# Check that we can temporarily disable partial copying
+PartialCopyIgnoreCatalogues
+
+# Make sure we don't get confused by version suffices when partial copying
+PartialCopyVersionedDir

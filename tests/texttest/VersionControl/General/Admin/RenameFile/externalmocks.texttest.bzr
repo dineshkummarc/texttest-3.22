@@ -1,0 +1,8 @@
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RenameFile/TargetApp/Test1/output.hello
+<-CMD:bzr mv /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RenameFile/TargetApp/Test1/output.hello /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RenameFile/TargetApp/Test1/output_renamed.hello
+->FIL:output_renamed.hello
+->FIL:output.hello
+->OUT:TargetApp/Test1/output.hello => TargetApp/Test1/output_renamed.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RenameFile/TargetApp/Test1/output.hello.version
+->OUT:unknown:
+  TargetApp/Test1/output.hello.version

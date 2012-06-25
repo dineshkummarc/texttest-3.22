@@ -1,0 +1,9 @@
+wait for completion of test actions
+set test selection to Test under TargetApp (hello.core)
+save results for selected tests
+answer no to texttest confirmation
+set test selection to Test under TargetApp (hello)
+save results for selected tests
+set test selection to Test under TargetApp (hello.core)
+recompute test status, including progress information if appropriate
+quit

@@ -1,0 +1,4 @@
+Using Application HELLO
+Removing obsolete versions for HELLO test-suite TargetApp
+  Removing obsolete versions for HELLO test-case Test
+  output.hello.2.4 is a version-priority-fixing copy of output.hello.4

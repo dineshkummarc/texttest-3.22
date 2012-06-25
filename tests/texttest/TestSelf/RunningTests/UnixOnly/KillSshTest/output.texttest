@@ -1,0 +1,19 @@
+Using Application HELLO
+Running HELLO test-suite TargetApp
+  Running HELLO test-case Test
+
+Expected application event 'all tests to be read' occurred, proceeding.
+Expected application event 'test Test to start' occurred, proceeding.
+
+Generating signal SIGINT
+Terminating testing due to external interruption
+Killing running test (process id 14939)
+Comparing differences for HELLO test-suite TargetApp
+  Comparing differences for HELLO test-case Test (on errors.hello,output.hello)
+  HELLO test-case Test were terminated before completion (INTERRUPT) on placerville : new results in errors,output
+  View details(v), Save(s) or continue(any other key)?
+Test terminated via a keyboard interrupt (Ctrl-C)
+---------- New result in errors ----------
+Killed by signal 2.
+---------- New result in output ----------
+  Save(s) or continue(any other key)?

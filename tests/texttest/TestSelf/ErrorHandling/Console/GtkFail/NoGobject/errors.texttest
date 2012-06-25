@@ -1,0 +1,2 @@
+Could not start TextTest trunk GUI due to PyGTK GUI library problems :
+Unable to import module 'gobject' - No module named gobject

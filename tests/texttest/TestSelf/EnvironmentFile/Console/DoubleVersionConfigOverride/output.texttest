@@ -1,0 +1,13 @@
+Using Application Env Variables, version bad.1line
+Running Env Variables.bad.1line test-suite TargetApp
+  Running Env Variables.bad.1line test-suite Suite1
+    Running Env Variables.bad.1line test-case Test1
+Comparing differences for Env Variables.bad.1line test-suite TargetApp
+  Comparing differences for Env Variables.bad.1line test-suite Suite1
+    Comparing differences for Env Variables.bad.1line test-case Test1 (on output.env)
+    Env Variables.bad.1line test-case Test1 FAILED : differences in output
+    View details(v), Save Version bad.1line(1), Save Version bad(2), Save Version 1line(3), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+1,2c1,2
+<truncated after showing first 1 line>
+    Save Version bad.1line(1), Save Version bad(2), Save Version 1line(3), Save(s) or continue(any other key)?

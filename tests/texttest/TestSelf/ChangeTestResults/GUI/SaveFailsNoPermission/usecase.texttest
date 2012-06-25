@@ -1,0 +1,5 @@
+wait for completion of test actions
+set test selection to OutDiff
+save results for selected tests
+agree to texttest message
+quit

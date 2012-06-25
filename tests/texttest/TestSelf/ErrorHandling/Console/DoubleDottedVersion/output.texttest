@@ -1,0 +1,14 @@
+Using Application HELLO, version v1
+Using Application HELLO, version v2
+Running HELLO.v1 test-suite TargetApp
+  Running HELLO.v1 test-case Test
+Comparing differences for HELLO.v1 test-suite TargetApp
+  Comparing differences for HELLO.v1 test-case Test (on errors.hello,output.hello)
+  HELLO.v1 test-case Test FAILED : differences in output
+  View details(v), Save Version v1(1), Save(s) or continue(any other key)?
+Running HELLO.v2 test-suite TargetApp
+  Running HELLO.v2 test-case Test
+Comparing differences for HELLO.v2 test-suite TargetApp
+  Comparing differences for HELLO.v2 test-case Test (on errors.hello,output.hello)
+  HELLO.v2 test-case Test FAILED : differences in output
+  View details(v), Save Version v2(1), Save(s) or continue(any other key)?

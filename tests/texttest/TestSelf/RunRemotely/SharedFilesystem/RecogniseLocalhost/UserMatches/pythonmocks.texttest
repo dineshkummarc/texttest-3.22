@@ -1,0 +1,12 @@
+<-PYT:socket.gethostname()
+->RET:'my_host_name.my_domain.com'
+<-PYT:socket.gethostname()
+->RET:'my_host_name.my_domain.com'
+<-PYT:socket.gethostname()
+->RET:'my_host_name.my_domain.com'
+<-PYT:socket.gethostname()
+->RET:'my_host_name.my_domain.com'
+<-PYT:socket.gethostname()
+->RET:'my_host_name.my_domain.com'
+<-PYT:socket.gethostname()
+->RET:'my_host_name.my_domain.com'

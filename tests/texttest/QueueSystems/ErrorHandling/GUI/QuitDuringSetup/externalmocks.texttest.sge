@@ -1,0 +1,10 @@
+<-SRV:TextTest slave server started on 10.67.7.145:47185
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.sge.gui/QueueSystems/ErrorHandling/GUI/QuitDuringSetup/texttesttmp/console.19Aug112828.11629/slavelogs; env --unset=USECASE_RECORD_SCRIPT --unset=USECASE_REPLAY_SCRIPT qsub -N Test-Test1.Suite1-HELLO -w e -notify -m n -cwd -b y -V -o Test-Test1.Suite1-HELLO.log -e Test-Test1.Suite1-HELLO.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.sge.gui/QueueSystems/ErrorHandling/GUI/QuitDuringSetup/TargetApp -a hello -l -tp 'Suite1/Test1' -slave /carm/proj/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.sge.gui/QueueSystems/ErrorHandling/GUI/QuitDuringSetup/texttesttmp/console.19Aug112828.11629 -servaddr 10.67.7.145:58227""
+->OUT:Your job 8512 ("Test-Test1.Suite1-HELLO") has been submitted
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.sge.gui/QueueSystems/ErrorHandling/GUI/QuitDuringSetup/texttesttmp/console.19Aug112828.11629/slavelogs; env --unset=USECASE_RECORD_SCRIPT --unset=USECASE_REPLAY_SCRIPT qsub -N Test-Test2.Suite2-HELLO -w e -notify -m n -cwd -b y -V -o Test-Test2.Suite2-HELLO.log -e Test-Test2.Suite2-HELLO.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.sge.gui/QueueSystems/ErrorHandling/GUI/QuitDuringSetup/TargetApp -a hello -l -tp 'Suite2/Test2' -slave /carm/proj/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.sge.gui/QueueSystems/ErrorHandling/GUI/QuitDuringSetup/texttesttmp/console.19Aug112828.11629 -servaddr 10.67.7.145:58227""
+->OUT:Your job 8513 ("Test-Test2.Suite2-HELLO") has been submitted
+<-SRV:Completed submission of all tests
+<-CMD:qdel 8512
+->ERR:Somebody has registered the job for deletion
+<-CMD:qdel 8513
+->ERR:Somebody has registered the job for deletion

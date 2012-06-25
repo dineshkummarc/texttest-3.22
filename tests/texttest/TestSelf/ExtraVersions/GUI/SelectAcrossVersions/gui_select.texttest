@@ -1,0 +1,8 @@
+-tp appdata=hello
+Common
+Base
+appdata=hello.extra1
+Common
+Extra1
+appdata=hello.extra2
+Common

@@ -1,0 +1,9 @@
+<-PYT:import xmlrpclib
+<-PYT:xmlrpclib.ServerProxy('http://www.myjirasite.com/rpc/xmlrpc')
+->RET:Instance('ServerProxy', 'serverproxy1')
+<-PYT:serverproxy1.jira1.login('texttest', 'password')
+->RET:'6Y5k582e8q'
+<-PYT:serverproxy1.jira1.getIssue('6Y5k582e8q', 'FAK-42')
+->RET:raise Instance('Fault(Error, exceptions.Exception)', 'fault1')
+<-PYT:fault1.faultString
+->RET:"java.lang.Exception: com.atlassian.jira.rpc.exception.RemotePermissionException: This issue does not exist or you don't have permission to view it."

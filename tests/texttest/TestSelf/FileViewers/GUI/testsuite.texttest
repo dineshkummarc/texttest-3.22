@@ -1,0 +1,65 @@
+# Test for checking that the various viewing options work correctly
+ViewingTabOptions
+
+# View the original files from a dynamic GUI run
+ViewOriginalFiles
+
+# Make sure that personal config files show up in the application view
+ViewPersonalFiles
+
+# Check the preview is updated if we edit a test file
+EditTestFiles
+
+# Make sure data files keep up with config file edits
+EditConfigFiles
+
+# Check we get the correct file if we try to view a saved test
+ViewSavedFile
+
+# Make sure we can vary the viewers according to the file stem
+FileDependentViewers
+
+# Make sure we can specify an empty viewer.
+NoViewers
+
+# Check we don't launch viewers that are inactive in multiple file selections
+MultipleFiles
+
+# What happens when the file names contain spaces?
+SpacesInFileNames
+
+# Make sure we can handle binary output files.
+BinaryFiles
+
+# Handle binary output in the static GUI, i.e. don't attempt to preview it.
+BinaryFilesStatic
+
+# Make sure we can send flags to the graphical viewers also without breaking things
+FlagsToViewers
+
+# If the viewer name is determined by environment variable, read that also
+EnvVarsInViewers
+
+# Check GUI behaviour when files are new
+NewFileViewers
+
+# See what happens if the file we try to view isn't there
+ViewRemovedFile
+
+# Check we can view imported files, and that they appear exactly once if included by several apps. Also check that versioned config files that aren't colocated with the parent config file get shown.
+ViewImportedConfigFiles
+
+# Make sure setting follow file by default doesn't stop viewing from working in the static GUI
+FollowByDefault
+
+# Check we get a warning if we try and view a file that is larger than the limit
+ViewFileAboveSizeLimit
+
+# Check we can configure static GUI to show external files for particular tests
+ViewExternalFile
+
+# Check we can compare test runs with each other
+ViewPairwiseDiffs
+
+# Make sure pairwise viewer works on new files
+NewFilesPairwise

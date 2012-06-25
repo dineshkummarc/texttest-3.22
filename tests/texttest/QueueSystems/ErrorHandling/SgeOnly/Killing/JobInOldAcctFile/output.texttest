@@ -1,0 +1,11 @@
+TextTest will write diagnostics in /users/geoff/texttesttmp/texttest.lsfgeoff23May120616/QueueSystems/Console/ExternalErrors/JobDisappears based on file at /users/geoff/work/master/Testing/Automatic/texttest/log4py.conf
+Using Application SLEEP, version killing, checkout /users/geoff/texttesttmp/texttest.lsfgeoff23May120616/QueueSystems/Console/ExternalErrors/JobDisappears/TargetApp
+Submitting SLEEP test-suite TargetApp to LSF queues
+  Submitting SLEEP test-case Basic to default LSF queue
+Terminating testing due to external interruption (RUNLIMIT2)
+  Cancelling SLEEP test-case Basic in LSF (job 1)
+  SLEEP test-case Basic not compared:
+LSF/system error
+Full accounting info from LSF follows:
+LSF lost job:1
+At 12:12 creating batch report for application SLEEP ...file written

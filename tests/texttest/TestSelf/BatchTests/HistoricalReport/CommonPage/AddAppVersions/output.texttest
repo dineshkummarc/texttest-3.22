@@ -1,0 +1,12 @@
+Using Application HELLO
+Using Application HELLO2
+Generating web pages...
+Generating page for All Known Hello World Programs
+Writing overview pages...
+wrote: 'test_default.html'
+wrote: 'test_default_extra subpage.html'
+wrote: 'test_default_all_Jan2006.html'
+Writing detail pages...
+wrote: 'test_default_23Jan2006.html'
+wrote: 'test_default_24Jan2006.html'
+Completed web page generation.

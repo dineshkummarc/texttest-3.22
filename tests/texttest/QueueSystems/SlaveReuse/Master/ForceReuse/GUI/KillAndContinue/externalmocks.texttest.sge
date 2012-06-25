@@ -1,0 +1,10 @@
+<-SRV:TextTest slave server started on 10.67.7.145:51394
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.sge.gui/QueueSystems/SlaveReuse/Master/ForceReuse/GUI/KillAndContinue/texttesttmp/dynamic_gui.19Aug112828.11631/slavelogs; env --unset=USECASE_RECORD_SCRIPT --unset=USECASE_REPLAY_SCRIPT qsub -N Test-Test-HELLO -w e -notify -m n -cwd -b y -V -o Test-Test-HELLO.log -e Test-Test-HELLO.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.sge.gui/QueueSystems/SlaveReuse/Master/ForceReuse/GUI/KillAndContinue/TargetApp -a hello -l -tp 'Test' -slave /carm/proj/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.sge.gui/QueueSystems/SlaveReuse/Master/ForceReuse/GUI/KillAndContinue/texttesttmp/dynamic_gui.19Aug112828.11631 -servaddr 10.67.7.145:42524""
+->OUT:Your job 9019 ("Test-Test-HELLO") has been submitted
+<-SRV:Completed submission of tests up to capacity
+<-CMD:qdel 9019
+->OUT:somebody has deleted job 9019
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.sge.gui/QueueSystems/SlaveReuse/Master/ForceReuse/GUI/KillAndContinue/texttesttmp/dynamic_gui.19Aug112828.11631/slavelogs; env --unset=USECASE_RECORD_SCRIPT --unset=USECASE_REPLAY_SCRIPT qsub -N Test-Test.Suite-HELLO -w e -notify -m n -cwd -b y -V -o Test-Test.Suite-HELLO.log -e Test-Test.Suite-HELLO.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.sge.gui/QueueSystems/SlaveReuse/Master/ForceReuse/GUI/KillAndContinue/TargetApp -a hello -l -tp 'Suite/Test' -slave /carm/proj/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.sge.gui/QueueSystems/SlaveReuse/Master/ForceReuse/GUI/KillAndContinue/texttesttmp/dynamic_gui.19Aug112828.11631 -servaddr 10.67.7.145:42524""
+->OUT:Your job 9019 ("Test-Test-HELLO") has been submitted
+<-SRV:Completed submission of tests up to capacity
+<-SRV:Completed submission of all tests

@@ -1,0 +1,9 @@
+
+# We can't do this with coverage, it screws up the
+# coverage collection which relies on being able to sleep...
+#import time
+
+#def sleep(seconds):
+#    pass
+
+#time.sleep = sleep

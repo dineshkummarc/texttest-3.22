@@ -1,0 +1,32 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------dest
+------------suite1
+----------------t2
+--------------------errors.hello
+--------------------output.hello
+--------------------datadir
+------------------------dummy
+------------suite2
+----------------datafile
+----------------environment.hello
+----------------testsuite.hello
+----------------t1
+--------------------datafile
+--------------------errors.hello
+--------------------output.hello
+----------------t2
+--------------------errors.hello
+--------------------output.hello
+------------t1
+----------------errors.hello
+----------------output.hello
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------dest
+------------testsuite.hello
+------------suite1
+----------------testsuite.hello

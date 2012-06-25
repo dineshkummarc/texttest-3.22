@@ -1,0 +1,5 @@
+[window_size]
+static_width_screen:0.9
+static_height_pixels:600
+dynamic_maximize:1
+[end]

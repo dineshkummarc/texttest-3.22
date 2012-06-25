@@ -1,0 +1,9 @@
+# Do the same as Bazaar, for consistency...
+partial_copy_test_path:{CLEAR TargetApp}
+link_test_path:{CLEAR .hg}
+copy_test_path:{CLEAR .bzr}
+
+copy_test_path:TargetApp
+copy_test_path:.hg
+
+test_data_ignore:.hg

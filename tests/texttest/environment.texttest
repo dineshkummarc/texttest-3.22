@@ -1,0 +1,11 @@
+# Prevent GTK from writing or reading in ~/.config, start from scratch
+XDG_CONFIG_HOME:$TEXTTEST_SANDBOX/xdg_config_home
+
+# Only has any effect if you patch GTK2.12 currently. See http://bugzilla.gnome.org/show_bug.cgi?id=568526
+# Without it tests will fail intermittently if run in parallel
+GTK_RECENTLY_USED_FILE:$TEXTTEST_SANDBOX/gtk_recently_used
+
+# Just in case any of these is set in the shell...
+LSB_DEFAULTQUEUE:normal
+TEXTTEST_SLAVE_CMD:
+TEXTTEST_DYNAMIC_GUI_INTERPRETER:storytext -l config

@@ -1,0 +1,6 @@
+[gui_entry_overrides]
+temporary_result_directory:$TEXTTEST_HOME
+
+[gui_entry_options]
+temporary_result_directory:$TEXTTEST_PERSONAL_CONFIG
+

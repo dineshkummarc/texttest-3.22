@@ -1,0 +1,17 @@
+wait for all tests to be read
+set test selection to Test
+enter failure information
+enter text or regexp to match = geoff
+enter file to search in = errors
+enter full description = Not mentioning geoff enough
+enter few-word summary = No geoff
+enter trigger only when run on machine(s) = fake_machine1
+check trigger if given text is not present
+enable option for checking equal files
+press ok
+select file knownbugs.hello
+wait for file editing operations to complete
+set test selection to TargetApp (hello)
+enter failure information
+press cancel
+quit

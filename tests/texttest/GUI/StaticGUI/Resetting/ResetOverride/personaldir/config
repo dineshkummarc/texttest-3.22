@@ -1,0 +1,3 @@
+# Entries to configure the GUI...
+[gui_entry_overrides]
+select_in_collapsed_suites:1

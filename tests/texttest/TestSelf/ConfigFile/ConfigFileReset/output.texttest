@@ -1,0 +1,2 @@
+Using Application APPIDENTIFIER, version ver
+performance_test_machine|{'default': ['something'], '*mem*': ['any']}|List of machines where performance can be collected

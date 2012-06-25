@@ -1,0 +1,25 @@
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Diff/DiffRevisions/TargetApp/Test2/errors.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Diff/DiffRevisions/TargetApp/Test2/output.hello
+->OUT:modified:
+  TargetApp/Test2/output.hello
+<-CMD:bzr diff -r 1 /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Diff/DiffRevisions/TargetApp/Test2/output.hello
+->OUT:=== modified file 'TargetApp/Test2/output.hello'
+1c1
+< Hello
+---
+> Hello uncommitted update!
+->EXC:1
+<-CMD:bzr diff -r 1 /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Diff/DiffRevisions/TargetApp/Test2/output.hello
+->OUT:=== modified file 'TargetApp/Test2/output.hello'
+1c1
+< Hello
+---
+> Hello uncommitted update!
+->EXC:1
+<-CMD:bzr diff -r -1..1 /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Diff/DiffRevisions/TargetApp/Test2/output.hello
+->OUT:=== modified file 'Test2/output.hello'
+1c1
+< Hello current version!
+---
+> Hello
+->EXC:1

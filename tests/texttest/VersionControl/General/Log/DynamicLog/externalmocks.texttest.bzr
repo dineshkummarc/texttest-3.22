@@ -1,0 +1,92 @@
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.17May162702.24297/texttest.bzr/VersionControl/General/Log/DynamicLog/TargetApp/Test1/errors.hello
+->OUT:------------------------------------------------------------
+revno: 4
+committer: geoff
+branch nick: HEAD
+timestamp: Tue 2009-02-24 20:21:36 +0000
+message:
+  Adding a line for to get a file that isn't up-to-date
+------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.17May162702.24297/texttest.bzr/VersionControl/General/Log/DynamicLog/TargetApp/Test1/output.hello
+->OUT:------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.17May162702.24297/texttest.bzr/VersionControl/General/Log/DynamicLog/TargetApp/Test1/output.hello
+->OUT:------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.17May162702.24297/texttest.bzr/VersionControl/General/Log/DynamicLog/TargetApp/Test1/errors.hello
+->OUT:------------------------------------------------------------
+revno: 4
+committer: geoff
+branch nick: HEAD
+timestamp: Tue 2009-02-24 20:21:36 +0000
+message:
+  Adding a line for to get a file that isn't up-to-date
+------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.17May162702.24297/texttest.bzr/VersionControl/General/Log/DynamicLog/TargetApp/Test1/output.hello
+->OUT:------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.17May162702.24297/texttest.bzr/VersionControl/General/Log/DynamicLog/TargetApp/Test2/errors.hello
+->OUT:------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.17May162702.24297/texttest.bzr/VersionControl/General/Log/DynamicLog/TargetApp/Test2/output.hello
+->OUT:------------------------------------------------------------
+revno: 3
+committer: geoff
+branch nick: HEAD
+timestamp: Sun 2009-02-22 19:10:04 +0000
+message:
+  We made a change!
+------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.17May162702.24297/texttest.bzr/VersionControl/General/Log/DynamicLog/TargetApp/Test2/output.hello
+->OUT:------------------------------------------------------------
+revno: 3
+committer: geoff
+branch nick: HEAD
+timestamp: Sun 2009-02-22 19:10:04 +0000
+message:
+  We made a change!
+------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision

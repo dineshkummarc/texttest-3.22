@@ -1,0 +1,12 @@
+Using Application HELLO, version 2
+Running HELLO.2 test-suite TargetApp
+  Running HELLO.2 test-case OutDiff
+Comparing differences for HELLO.2 test-suite TargetApp
+  Comparing differences for HELLO.2 test-case OutDiff (on errors.hello,output.hello)
+  HELLO.2 test-case OutDiff FAILED : differences in output
+  View details(v), Save Version 2(1), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+0a1
+> Hello World!
+  Save Version 2(1), Save(s) or continue(any other key)?
+  Saving HELLO.2 test-case OutDiff version 2 

@@ -1,0 +1,5 @@
+[gui_entry_options]
+test_names_containing:stuff_from_appconfig
+
+[hide_gui_element]
+toolbar:1

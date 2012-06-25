@@ -1,0 +1,18 @@
+The following new files/directories were created:
+<Test Directory>
+----repository
+--------hello
+------------default
+----------------BothDiff
+----texttesttmp
+--------self_test.09Aug115610.7395
+------------hello
+----------------BothDiff
+--------------------errors.hello
+--------------------output.hello
+--------------------framework_tmp
+------------------------errors.hellocmp
+------------------------errors.helloorigcmp
+------------------------output.hellocmp
+------------------------output.helloorigcmp
+------------------------teststate

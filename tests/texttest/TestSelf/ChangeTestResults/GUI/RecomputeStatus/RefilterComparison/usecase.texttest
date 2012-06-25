@@ -1,0 +1,8 @@
+wait for completion of test actions
+set test selection to Test under TargetApp (hello.2)
+save results with non-default settings
+enter version to save = 2
+press ok
+set test selection to Test under TargetApp (hello.2.4)
+recompute test status, including progress information if appropriate
+quit

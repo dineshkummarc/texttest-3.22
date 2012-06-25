@@ -1,0 +1,7 @@
+Using LSF queues for Application SLEEP, version kb
+Q: Submitting SLEEP.kb test-case Basic to LSF queue non_existent
+S: SLEEP.kb test-case Basic not compared:  Test was trying to use a non-existent queue
+Q: Submitting SLEEP.kb test-case Basic2 to LSF queue non_existent
+S: SLEEP.kb test-case Basic2 not compared:  Test was trying to use a non-existent queue
+Creating batch report for application SLEEP ...
+File written.

@@ -1,0 +1,9 @@
+wait for completion of test actions
+show test suite TargetApp (sleep)
+set test selection to Basic
+select file output.sleep
+agree to texttest message
+set file selection to output.sleep
+view raw differences
+agree to texttest message
+quit

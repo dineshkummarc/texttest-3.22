@@ -1,0 +1,35 @@
+# Check we get an error message for no tests when we have extra versions
+NoTests
+
+# Test for test counter, using extra_version
+CountTests
+
+# Check that when a composite version includes an extra version, we don't get double tests
+CompositeVersion
+
+# Don't produce errors for tests only in an extra version
+OnlyInExtra
+
+# Make sure we don't get errors if tests not present in extra versions
+MissingInExtra
+
+# Check that extra versions look sensible in collected batch reports
+BatchExtra
+
+# Check we can use batch_extra_version to specify extra versions that are only used in batch mode
+ExtraOnlyForBatch
+
+# Check that rejecting extra versions doesn't lead to crashes...
+BatchRejectExtra
+
+# See that we don't get batch reports when an application has no binary defined
+NoBinaryInExtra
+
+# Check we can handle the extra version also being specified on the command line
+RunExtraExplicitly
+
+# Check the textual search option works properly when different versions have different result files
+GrepFilter
+
+# Tests for reconnecting to extra versions
+Reconnect

@@ -1,0 +1,5 @@
+import_config_file:$STANDARD
+
+default_interface:dynamic_gui
+
+follow_program:xterm -bg black -fg white -T $TEXTTEST_FOLLOW_FILE_TITLE -e tail -f

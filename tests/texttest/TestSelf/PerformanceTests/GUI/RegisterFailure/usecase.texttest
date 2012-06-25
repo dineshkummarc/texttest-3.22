@@ -1,0 +1,9 @@
+wait for completion of test actions
+set test selection to Failures
+select file performance.perf
+wait for the graphical difference program to terminate
+save results with non-default settings
+choose average performance for save
+choose exact performance for save
+press ok
+quit

@@ -1,0 +1,37 @@
+<-PYT:import ctypes
+<-PYT:ctypes.windll
+->RET:Instance('LibraryLoader(object)', 'libraryloader1')
+<-PYT:libraryloader1.kernel32
+->RET:Instance('WinDLL(CDLL, object)', 'windll1')
+<-PYT:windll1.GetStdHandle(-11)
+->RET:1488
+<-PYT:windll1.SetConsoleTextAttribute(1488, 12)
+->RET:0
+<-PYT:windll1.GetStdHandle(-11)
+->RET:1488
+<-PYT:windll1.SetConsoleTextAttribute(1488, 7)
+->RET:0
+<-PYT:windll1.GetStdHandle(-11)
+->RET:1488
+<-PYT:windll1.SetConsoleTextAttribute(1488, 10)
+->RET:0
+<-PYT:windll1.GetStdHandle(-11)
+->RET:1488
+<-PYT:windll1.SetConsoleTextAttribute(1488, 7)
+->RET:0
+<-PYT:windll1.GetStdHandle(-11)
+->RET:1488
+<-PYT:windll1.SetConsoleTextAttribute(1488, 12)
+->RET:0
+<-PYT:windll1.GetStdHandle(-11)
+->RET:1488
+<-PYT:windll1.SetConsoleTextAttribute(1488, 7)
+->RET:0
+<-PYT:windll1.GetStdHandle(-11)
+->RET:1488
+<-PYT:windll1.SetConsoleTextAttribute(1488, 12)
+->RET:0
+<-PYT:windll1.GetStdHandle(-11)
+->RET:1488
+<-PYT:windll1.SetConsoleTextAttribute(1488, 7)
+->RET:0

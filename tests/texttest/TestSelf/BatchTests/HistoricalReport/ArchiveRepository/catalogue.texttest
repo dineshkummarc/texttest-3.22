@@ -1,0 +1,37 @@
+The following new files/directories were created:
+<Test Directory>
+----repository
+--------hello_history
+------------normal
+----------------BothDiff
+--------------------teststate_22Jan2006_Rel1.1
+--------------------teststate_23Jan2006
+----------------OutDiff
+--------------------teststate_22Jan2006_Rel1.1
+--------------------teststate_23Jan2006
+----------------Success
+--------------------teststate_22Jan2006_Rel1.1
+--------------------teststate_23Jan2006
+----------------suite
+--------------------OutDiff2
+------------------------teststate_22Jan2006_Rel1.1
+------------------------teststate_23Jan2006
+
+The following existing files/directories were deleted:
+<Test Directory>
+----repository
+--------hello
+------------normal
+----------------BothDiff
+--------------------teststate_22Jan2006_Rel1.1
+--------------------teststate_23Jan2006
+----------------OutDiff
+--------------------teststate_22Jan2006_Rel1.1
+--------------------teststate_23Jan2006
+----------------Success
+--------------------teststate_22Jan2006_Rel1.1
+--------------------teststate_23Jan2006
+----------------suite
+--------------------OutDiff2
+------------------------teststate_22Jan2006_Rel1.1
+------------------------teststate_23Jan2006

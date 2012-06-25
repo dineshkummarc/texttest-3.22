@@ -1,0 +1,6 @@
+<-CMD:bzr rm --force /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RemoveFiles/TargetApp/Test1/errors.hello
+->FIL:errors.hello
+->ERR:deleted TargetApp/Test1/errors.hello
+<-CMD:bzr rm --force /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RemoveFiles/TargetApp/Test1/output.hello.version
+->FIL:output.hello.version
+->ERR:deleted TargetApp/Test1/output.hello.version

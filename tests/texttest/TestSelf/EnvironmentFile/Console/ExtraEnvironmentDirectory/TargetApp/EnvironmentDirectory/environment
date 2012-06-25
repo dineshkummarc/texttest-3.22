@@ -1,0 +1,2 @@
+MY_ENV_VAR_OTHER:defined_in_other_environment_file
+MY_ENV_VAR:defined_in_other_environment_file

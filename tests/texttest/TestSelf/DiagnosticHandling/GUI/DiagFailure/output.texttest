@@ -1,0 +1,5 @@
+Using Application DIAG, version tmp
+Running DIAG.tmp test-suite TargetApp
+  Running DIAG.tmp test-case TestWithDiag
+Comparing differences for DIAG.tmp test-suite TargetApp
+  Comparing differences for DIAG.tmp test-case TestWithDiag (on errors.diag,first.diag.tmp,output.diag,second.diag.tmp,third.diag)

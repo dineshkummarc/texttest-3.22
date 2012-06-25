@@ -1,0 +1,5 @@
+wait for completion of test actions
+set test selection to Test1
+view actions for file output.hello
+select tests with same diff
+quit

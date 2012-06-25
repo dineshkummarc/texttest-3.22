@@ -1,0 +1,54 @@
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Diff/DiffRevisions/TargetApp/Test2/errors.hello
+->OUT:===================================================================
+File: errors.hello     	Status: Up-to-date
+
+   Working revision:	1.1.1.1	Mon Feb 23 01:01:26 2009
+   Repository revision:	1.1.1.1	/carm/proj/texttest-tmp/geoff/texttest.25Feb165952.5618/texttest/GUI/StaticGUI/CVSPlugin/DiffRevisions/cvsroot/TargetApp/Test2/errors.hello,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Diff/DiffRevisions/TargetApp/Test2/output.hello
+->OUT:===================================================================
+File: output.hello     	Status: Locally Modified
+
+   Working revision:	1.2	Sun Feb 22 20:09:35 2009
+   Repository revision:	1.2	/carm/proj/texttest-tmp/geoff/texttest.25Feb165952.5618/texttest/GUI/StaticGUI/CVSPlugin/DiffRevisions/cvsroot/TargetApp/Test2/output.hello,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+<-CMD:cvs diff -N -r 1.1 /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Diff/DiffRevisions/TargetApp/Test2/output.hello
+->OUT:Index: /carm/proj/texttest-tmp/geoff/texttest.25Feb165952.5618/texttest/GUI/StaticGUI/CVSPlugin/DiffRevisions/TargetApp/Test2/output.hello
+===================================================================
+RCS file: /carm/proj/texttest-tmp/geoff/texttest.25Feb165952.5618/texttest/GUI/StaticGUI/CVSPlugin/DiffRevisions/cvsroot/TargetApp/Test2/output.hello,v
+retrieving revision 1.1
+diff -r1.1 output.hello
+1c1
+< Hello
+---
+> Hello uncommitted update!
+->EXC:1
+<-CMD:cvs diff -N -r 1.1 /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Diff/DiffRevisions/TargetApp/Test2/output.hello
+->OUT:Index: /carm/proj/texttest-tmp/geoff/texttest.25Feb165952.5618/texttest/GUI/StaticGUI/CVSPlugin/DiffRevisions/TargetApp/Test2/output.hello
+===================================================================
+RCS file: /carm/proj/texttest-tmp/geoff/texttest.25Feb165952.5618/texttest/GUI/StaticGUI/CVSPlugin/DiffRevisions/cvsroot/TargetApp/Test2/output.hello,v
+retrieving revision 1.1
+diff -r1.1 output.hello
+1c1
+< Hello
+---
+> Hello uncommitted update!
+->EXC:1
+<-CMD:cvs diff -N -r HEAD -r 1.1 /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Diff/DiffRevisions/TargetApp/Test2/output.hello
+->OUT:Index: /carm/proj/texttest-tmp/geoff/texttest.25Feb165952.5618/texttest/GUI/StaticGUI/CVSPlugin/DiffRevisions/TargetApp/Test2/output.hello
+===================================================================
+RCS file: /carm/proj/texttest-tmp/geoff/texttest.25Feb165952.5618/texttest/GUI/StaticGUI/CVSPlugin/DiffRevisions/cvsroot/TargetApp/Test2/output.hello,v
+retrieving revision 1.2
+retrieving revision 1.1
+diff -r1.2 -r1.1
+1c1
+< Hello current version!
+---
+> Hello
+->EXC:1

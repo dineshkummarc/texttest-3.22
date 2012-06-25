@@ -1,0 +1,4 @@
+wait for completion of test actions
+set test selection to Test under TargetApp (hellonew)
+save results for selected tests
+quit

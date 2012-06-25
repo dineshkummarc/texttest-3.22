@@ -1,0 +1,9 @@
+wait for all tests to be read
+set test selection to TargetApp (hello)
+add test
+enter test name = ExistingTestWithOptions
+enter command line options = -i
+press ok
+agree to texttest message
+press cancel
+quit

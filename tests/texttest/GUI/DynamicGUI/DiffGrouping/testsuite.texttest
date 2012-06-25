@@ -1,0 +1,20 @@
+# Don't separate diffs based on the line numbers
+IgnoreDiffPosition
+
+# Don't form groups if the diffs are longer than the preview maximum
+DontGroupLongDiffs
+
+# Make sure we can handle a mixture of tests that end up in groups and those that don't
+GroupedAndUngrouped
+
+# Select a group via one of its member tests
+SelectOthersInGroup
+
+# Make sure the diff filtering doesn't extend to the output itself...
+ArrowsInOutput
+
+# Make sure the group stuff doesn't get confused if we save tests before others finish
+SaveBeforeCompletion
+
+# Make sure the group stuff doesn't get confused if we recompute tests before others finish
+RecomputeBeforeCompletion

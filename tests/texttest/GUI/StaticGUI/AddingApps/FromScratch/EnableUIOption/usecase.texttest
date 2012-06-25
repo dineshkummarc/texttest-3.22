@@ -1,0 +1,14 @@
+wait for all tests to be read
+enter file extension to use for texttest files associated with this application = hello
+select gui-testing option named Other embedded Use-case Recorder (e.g. NUseCase)
+select executable program to test hello.py
+press define
+set test selection to TargetApp (hello)
+view actions for test TargetApp (hello)
+add test
+enter test name = Test
+press ok
+record use-case
+press record
+wait for record GUI to be closed
+quit

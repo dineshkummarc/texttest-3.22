@@ -1,0 +1,11 @@
+queue_system_module:LSF
+[performance_logfile]
+logperf:{CLEAR LIST}
+memory:output
+memory:erro*
+
+[performance_logfile_extractor]
+memory:cpu time:
+
+[performance_test_resource]
+memory:foobar=1

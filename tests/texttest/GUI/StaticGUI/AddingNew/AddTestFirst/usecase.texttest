@@ -1,0 +1,9 @@
+wait for all tests to be read
+set test selection to Game9952
+add test
+enter place test = first in suite
+enter test name = A05v2
+enter test description = Version 2
+press ok
+select indicated tests
+quit

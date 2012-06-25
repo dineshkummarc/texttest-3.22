@@ -1,0 +1,7 @@
+import_config_file:$STANDARD
+
+default_interface:console
+
+config_module:queuesystem
+
+queue_system_resource:no_such_resource

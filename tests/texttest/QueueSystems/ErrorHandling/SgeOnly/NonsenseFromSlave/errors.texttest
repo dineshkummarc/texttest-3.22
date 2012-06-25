@@ -1,0 +1,6 @@
+WARNING: Unexpected TextTest slave for SLEEP test-case Basic2 connected from gewoia (process 22867)
+Slave already registered from gewoia (process 22252)
+Ignored all communication from this unexpected TextTest slave
+WARNING: Received request from hostname gewoia (process 15007)
+which could not be parsed:
+'nonsense message'

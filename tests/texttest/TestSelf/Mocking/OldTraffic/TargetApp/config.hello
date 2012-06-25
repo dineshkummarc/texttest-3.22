@@ -1,0 +1,11 @@
+import_config_file:$STANDARD
+
+default_interface:console
+
+collect_traffic:foo
+collect_traffic:bar
+
+collect_traffic_python:baz
+collect_traffic_python:baz2
+
+extra_version:version

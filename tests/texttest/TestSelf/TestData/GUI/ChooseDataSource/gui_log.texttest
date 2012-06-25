@@ -1,0 +1,274 @@
+
+---------- Window 'TDAT test management - TextTest static GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_Edit' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+    ----
+  _Select (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+  Refresh (Stock image 'gtk-refresh', accelerator 'F5', tooltip 'Refresh the whole test suite so that it reflects file changes')
+  _Run (Stock image 'gtk-execute', greyed out, accelerator 'Ctrl+R', tooltip 'Run selected tests')
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Selection , Config
+Viewing page 'Selection'
+Viewing table with 7 rows and 2 columns.
+'Tests for version  ' (tooltip 'Select tests for a specific version.') | Text entry (drop-down list containing ['', '<default>'])
+'Test names containing  ' (tooltip 'Select tests for which the name contains the entered text. The text can be a regular expression.') | Text entry
+'Test paths containing  ' (tooltip 'Select tests for which the full path to the test (e.g. suite1/subsuite/testname) contains the entered text. The text can be a regular expression. You can select tests by suite name this way.') | Text entry
+'Tests listed in file  ' | Text entry , Button '...'
+'Descriptions containing  ' (tooltip 'Select tests for which the description (comment) matches the entered text. The text can be a regular expression.') | Text entry
+'Test-files containing  ' (tooltip 'Select tests which have a file containing the entered text. The text can be a regular expression : e.g. enter '.*' to only look for the file without checking the contents.') | Text entry
+'Test-file to search  ' (tooltip 'When the 'test-files containing' field is non-empty, apply the search in files with the given stem. Unix-style file expansion (note not regular expressions) may be used. For example '*' will look in any file.') | Text entry (drop-down list containing [''])
+.....'Selection'......
+Check button 'Select in collapsed suites' (tooltip 'Select in currently collapsed suites as well?')
+Radio button 'Discard' (checked) (tooltip 'Unselect all currently selected tests before applying the new selection criteria.') , Radio button 'Refine' (tooltip 'Apply the new selection criteria only to the currently selected tests, to obtain a subselection.') , Radio button 'Extend' (tooltip 'Keep the currently selected tests even if they do not match the new criteria, and extend the selection with all other tests which meet the new criteria.') , Radio button 'Exclude' (tooltip 'After applying the new selection criteria to all tests, unselect the currently selected tests, to exclude them from the new selection.')
+Button '_Select' (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+.....'Filtering'......
+Radio button 'Discard' (checked) (tooltip 'Show all tests which match the criteria, and hide all those that do not.') , Radio button 'Refine' (tooltip 'Hide all tests which do not match the criteria. Do not show any tests that aren't already shown.') , Radio button 'Extend' (tooltip 'Show all tests which match the criteria. Do not hide any tests that are currently shown.')
+Button 'Filter' (Stock image 'gtk-find', accelerator 'Ctrl+F', tooltip 'filter tests to show only those indicated')
+Button 'Reset Tab' (tooltip 'Reset all the settings in the current tab to their default values')
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Jun14:03:23.' , Image 'throbber_inactive.png'
+-------------------------------------------------------------------------
+
+Changing GUI status to: 'Reading tests ...'
+
+Column titles changed in Test Tree with columns: Tests: 0/1 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/2 selected
+
+Updated : Test Tree with columns: Tests: 0/2 selected
+-> TargetApp (tdat) (black/grey90,bold)
+->   Test1 (black/grey90)
+->   Test2 (black/grey90)
+Updated drop-down list in 'Test-file to search' Text entry (set to 'config') (drop-down list containing ['config', 'environment', 'options', '----------', 'catalogue', 'errors', 'output', 'writeabledirs'])
+
+Changing GUI status to: 'Reading tests completed at 09Jun14:03:23.'
+
+Expected application event 'all tests to be read' occurred, proceeding.
+
+'set test selection to' event created with arguments 'Test1'
+
+No longer greyed out : _Run
+
+Changed selection in Test Tree with columns: Tests: 1/2 selected
+-> TargetApp (tdat) (black/grey90,bold)
+->   Test1 (black/grey90)   ***
+->   Test2 (black/grey90)
+
+Current page changed in Notebook with tabs: Test , Selection , Running , Config
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: Test1
+-> Standard Files (white,bold)
+->   catalogue.tdat (grey90)
+->   catalogue.tdat.nochanges (grey90)
+->   errors.tdat (grey90)
+->   output.tdat (grey90)
+-> Definition Files (white,bold)
+->   config.tdat (grey90)
+->   config.tdat.copy (grey90)
+->   options.tdat (grey90)
+-> Data Files (white,bold)
+->   readonlyfile (grey90)
+->   writeabledirs (grey90,bold)
+->     otherreadfile (grey90)
+->     readfile (grey90)
+->     toRemove (grey90)
+->     otherdir (grey90,bold)
+->       toRemove (grey90)
+->       writehere (grey90,bold)
+->         readfile (grey90)
+->     readdir (grey90,bold)
+->       otherdir (grey90,bold)
+->         readfile (grey90)
+->       somedir (grey90,bold)
+->         readfile (grey90)
+->     somedir (grey90,bold)
+->       toEdit (grey90)
+->     writehere (grey90,bold)
+->       readfile (grey90)
+->       writeandremovehere (grey90,bold)
+->         readfile (grey90)
+->   writeabledirs.version (grey90,bold)
+->     otherreadfile (grey90)
+->     readfile (grey90)
+->     toRemove (grey90)
+->     otherdir (grey90,bold)
+->       toRemove (grey90)
+->       writehere (grey90,bold)
+->         readfile (grey90)
+->     readdir (grey90,bold)
+->       otherdir (grey90,bold)
+->         readfile (grey90)
+->       somedir (grey90,bold)
+->         readfile (grey90)
+->     writehere (grey90,bold)
+->       readfile (grey90)
+->       writeandremovehere (grey90,bold)
+->         readfile (grey90)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+
+Description:
+This test has a bunch of writeable data
+
+Full path:
+Test1
+===============================
+
+'set file selection to' event created with arguments 'Data Files'
+
+Changed selection in File Tree with columns: Test1
+-> Standard Files (white,bold)
+->   catalogue.tdat (grey90)
+->   catalogue.tdat.nochanges (grey90)
+->   errors.tdat (grey90)
+->   output.tdat (grey90)
+-> Definition Files (white,bold)
+->   config.tdat (grey90)
+->   config.tdat.copy (grey90)
+->   options.tdat (grey90)
+-> Data Files (white,bold)   ***
+->   readonlyfile (grey90)
+->   writeabledirs (grey90,bold)
+->     otherreadfile (grey90)
+->     readfile (grey90)
+->     toRemove (grey90)
+->     otherdir (grey90,bold)
+->       toRemove (grey90)
+->       writehere (grey90,bold)
+->         readfile (grey90)
+->     readdir (grey90,bold)
+->       otherdir (grey90,bold)
+->         readfile (grey90)
+->       somedir (grey90,bold)
+->         readfile (grey90)
+->     somedir (grey90,bold)
+->       toEdit (grey90)
+->     writehere (grey90,bold)
+->       readfile (grey90)
+->       writeandremovehere (grey90,bold)
+->         readfile (grey90)
+->   writeabledirs.version (grey90,bold)
+->     otherreadfile (grey90)
+->     readfile (grey90)
+->     toRemove (grey90)
+->     otherdir (grey90,bold)
+->       toRemove (grey90)
+->       writehere (grey90,bold)
+->         readfile (grey90)
+->     readdir (grey90,bold)
+->       otherdir (grey90,bold)
+->         readfile (grey90)
+->       somedir (grey90,bold)
+->         readfile (grey90)
+->     writehere (grey90,bold)
+->       readfile (grey90)
+->       writeandremovehere (grey90,bold)
+->         readfile (grey90)
+
+'create a new file or directory, possibly by copying it' event created with arguments ''
+
+---------- Dialog 'Create/Import Files and Directories' ----------
+Default widget is 'gtk-ok'
+'<b><u>Create or import files in the test directory</u></b>
+'
+'<i>(Test is TDAT test-case Test1)</i>
+'
+'Type of file/directory to create:'
+Text entry (set to 'readonlyfile') (drop-down list containing ['readonlyfile', 'writeabledirs'])
+'Version identifier to use:'
+Text entry
+...........
+Radio button 'Import file/directory from source' (checked)
+Radio button 'Create a new file'
+Radio button 'Create a new directory'
+.....'Source to copy from:'......
+
+Showing Source File Chooser (selected '/carm/proj/texttest-tmp/geoff/dynamic_gui.09Jun140245.14502/texttest.gui/TestSelf/TestData/GUI/ChooseDataSource/TargetApp/readonlyfile')
+Shortcut folders (1) :
+- /carm/proj/texttest-tmp/geoff/dynamic_gui.09Jun140245.14502/texttest.gui/TestSelf/TestData/GUI/ChooseDataSource/TargetApp
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+------------------------------------------------------------------
+
+'enter version identifier to use =' event created with arguments 'v1'
+Edited 'Version identifier to use' Text entry (set to 'v1')
+
+'select source to copy from =' event created with arguments 'environment.dataref'
+
+Updated : Source File Chooser (selected '/carm/proj/texttest-tmp/geoff/dynamic_gui.09Jun140245.14502/texttest.gui/TestSelf/TestData/GUI/ChooseDataSource/TargetApp/environment.dataref')
+
+'press create' event created with arguments ''
+
+Waiting for application event 'file editing operations to complete' to occur.
+
+Updated : File Tree with columns: Test1
+-> Standard Files (white,bold)
+->   catalogue.tdat (grey90)
+->   catalogue.tdat.nochanges (grey90)
+->   errors.tdat (grey90)
+->   output.tdat (grey90)
+-> Definition Files (white,bold)
+->   config.tdat (grey90)
+->   config.tdat.copy (grey90)
+->   options.tdat (grey90)
+-> Data Files (white,bold)   ***
+->   readonlyfile (grey90)
+->   readonlyfile.v1 (grey90)
+->   writeabledirs (grey90,bold)
+->     otherreadfile (grey90)
+->     readfile (grey90)
+->     toRemove (grey90)
+->     otherdir (grey90,bold)
+->       toRemove (grey90)
+->       writehere (grey90,bold)
+->         readfile (grey90)
+->     readdir (grey90,bold)
+->       otherdir (grey90,bold)
+->         readfile (grey90)
+->       somedir (grey90,bold)
+->         readfile (grey90)
+->     somedir (grey90,bold)
+->       toEdit (grey90)
+->     writehere (grey90,bold)
+->       readfile (grey90)
+->       writeandremovehere (grey90,bold)
+->         readfile (grey90)
+->   writeabledirs.version (grey90,bold)
+->     otherreadfile (grey90)
+->     readfile (grey90)
+->     toRemove (grey90)
+->     otherdir (grey90,bold)
+->       toRemove (grey90)
+->       writehere (grey90,bold)
+->         readfile (grey90)
+->     readdir (grey90,bold)
+->       otherdir (grey90,bold)
+->         readfile (grey90)
+->       somedir (grey90,bold)
+->         readfile (grey90)
+->     writehere (grey90,bold)
+->       readfile (grey90)
+->       writeandremovehere (grey90,bold)
+->         readfile (grey90)
+
+Changing GUI status to: 'Started "emacs readonlyfile.v1" in background (from test Test1).'
+
+Expected application event 'file editing operations to complete' occurred, proceeding.
+
+'quit' event created with arguments ''

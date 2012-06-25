@@ -1,0 +1,7 @@
+wait for all tests to be read
+set test selection to Test2
+version control difference for the selected files
+show version control differences graphically
+agree to texttest message
+close difference window
+quit

@@ -1,0 +1,5 @@
+# Check we can use patterns in failure_severity also...
+FailureSeverity
+
+# If a collate script hangs and the test is killed, we should clean up in a nice way and not write stacktraces
+CollateScriptHangs

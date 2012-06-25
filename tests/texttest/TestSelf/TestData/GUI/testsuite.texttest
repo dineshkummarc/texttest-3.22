@@ -1,0 +1,39 @@
+# Ordered list of tests in test suite. Add as appropriate
+# Check all the correct data files appear in the static GUI
+ViewDataFiles
+
+# Make sure we can copy test data along with the test
+CopyTest
+
+# Make sure permissions are preserved when copying test files
+CopyTestPermission
+
+# Check we can create them from the GUI
+CreateDataFiles
+
+# Check we can create files with multiple parts, i.e. a/b
+MultipartDataFile
+
+# We try to create a directory, make sure we don't get an empty file
+CreateDataDirectory
+
+# Check that if we import a directory over an existing one, it will overwrite the directory correctly
+RecreateDataDirectory
+
+# Check we can pick out an explicit data source from a filechooser
+ChooseDataSource
+
+# Check the directories can be removed as well as the files
+RemoveDataDirectory
+
+# Check we appropriate refuse to overwrite a root suite file
+OverwriteFileRootSuite
+
+# Test what happens when test data files are called the same things TextTest uses
+ReservedNames
+
+# Make sure we don't get recursion going on
+ViewEnvironmentData
+
+# Check what happens if we have data files file and file.ext
+NamesOverlap

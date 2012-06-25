@@ -1,0 +1,58 @@
+head	1.2;
+access;
+symbols
+	othertag:1.1.1.1 tag:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2009.02.26.07.31.01;	author geoff;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2009.02.19.20.26.26;	author geoff;	state Exp;
+branches
+	1.1.1.1;
+next	;
+commitid	rWzEIC5JwaIek5Dt;
+
+1.1.1.1
+date	2009.02.19.20.26.26;	author geoff;	state Exp;
+branches;
+next	;
+commitid	rWzEIC5JwaIek5Dt;
+
+
+desc
+@@
+
+
+1.2
+log
+@Extra comment
+@
+text
+@# In a subsuite - other tests not added in CVS
+Test3
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+a1 1
+# In a subsuite
+@
+
+
+1.1.1.1
+log
+@Initial import
+@
+text
+@@

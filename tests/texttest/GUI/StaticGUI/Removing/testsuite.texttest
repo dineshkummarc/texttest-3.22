@@ -1,0 +1,26 @@
+# Make sure deletion works from the static GUI...
+RemoveTest
+
+# Make sure deletion works when files are selected (used to be banned)
+RemoveTestFilesSelected
+
+# Make sure we can delete individual files
+RemoveFiles
+
+# Check that tests can be removed after they are run...
+RunAndRemoveTest
+
+# Should be able to remove test suites also
+RemoveSuite
+
+# What happens when we try to remove the root suite?
+RemoveRootSuite
+
+# Check we can remove multiple tests at once
+RemoveSelection
+
+# Make sure we can remove a test and then put it back
+RemoveAndReaddTest
+
+# Copy of RemoveTest, except the directories can't be removed
+ReadonlyTest

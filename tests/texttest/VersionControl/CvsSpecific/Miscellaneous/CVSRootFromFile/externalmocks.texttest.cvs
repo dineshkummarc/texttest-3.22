@@ -1,0 +1,6 @@
+<-CMD:cvs -d /no/such/path log -N /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/CvsSpecific/Miscellaneous/CVSRootFromFile/TargetApp/config.hello
+->ERR:cvs [log aborted]: /no/such/path/CVSROOT: No such file or directory
+->EXC:1
+<-CMD:cvs -d /no/such/path log -N /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/CvsSpecific/Miscellaneous/CVSRootFromFile/TargetApp/testsuite.hello
+->ERR:cvs [log aborted]: /no/such/path/CVSROOT: No such file or directory
+->EXC:1

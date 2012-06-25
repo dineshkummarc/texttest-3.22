@@ -1,0 +1,5 @@
+Using Application RDT
+Running RDT test-suite TargetApp
+  Running RDT test-case Test
+Comparing differences for RDT test-suite TargetApp
+  Comparing differences for RDT test-case Test (on errors.rdt,output.rdt)

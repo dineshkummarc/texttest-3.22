@@ -1,0 +1,2 @@
+<-CMD:which Xvfb
+->OUT:/usr/X11R6/bin/Xvfb

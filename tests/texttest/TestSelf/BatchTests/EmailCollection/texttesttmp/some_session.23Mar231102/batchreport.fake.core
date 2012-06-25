@@ -1,0 +1,32 @@
+CRASHED=1
+040907 
+CORE : 1 tests : 1 CRASHED
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests CRASHED : 
+In CORE test-suite TargetApp:
+  - CORE test-case DumpCore
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that CRASHED follows...
+--------------------------------------------------------
+TEST CRASHED on severodoneck : CORE test-case DumpCore (under DumpCore)
+Program terminated with signal 11, Segmentation fault.
+Stack trace from gdb :
+___newselect_nocancel 
+floatsleep 
+time_sleep 
+PyCFunction_Call 
+PyEval_EvalCode 
+PyEval_EvalCodeEx 
+PyEval_EvalCode 
+PyRun_FileExFlags 
+PyRun_SimpleFileExFlags 
+PyRun_AnyFileExFlags 
+Py_Main 
+main 
+

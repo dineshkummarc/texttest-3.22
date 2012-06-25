@@ -1,0 +1,6 @@
+Reading bugs from file /carm/proj/texttest-tmp/geoff/texttest.23Jul120838.9481/texttest/TestSelf/KnownBugs/Console/MultipleDiffs/TargetApp/Test/knownbugs.hello.textinfile
+Reading bugs from file /carm/proj/texttest-tmp/geoff/texttest.23Jul120838.9481/texttest/TestSelf/KnownBugs/Console/MultipleDiffs/personaldir/knownbugs.hello
+Looking for bugs in file output
+Looking for bugs in /carm/proj/texttest-tmp/geoff/texttest.23Jul120838.9481/texttest/TestSelf/KnownBugs/Console/MultipleDiffs/texttesttmp/local.textinfile.baderr.23Jul120840.9486/hello.textinfile.baderr/Test/output.hello
+Checking for existence of after [0-9]* seconds
+Multiple differences present, allowing others through

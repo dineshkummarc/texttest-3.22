@@ -1,0 +1,12 @@
+# Update text in all tests without running them. By not providing a file, infer that we mean the "log_file".
+# 
+NormalString
+
+# Update text using a regular expression
+RegularExpression
+
+# Check we can use file expansions in ReplaceText
+FileExpansion
+
+# Make sure it works with a version
+VersionedFile

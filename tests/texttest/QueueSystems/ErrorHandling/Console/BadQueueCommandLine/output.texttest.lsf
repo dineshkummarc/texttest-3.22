@@ -1,0 +1,11 @@
+Using LSF queues for Application SLEEP
+Q: Submitting SLEEP test-case Basic to LSF queue non_existent
+S: SLEEP test-case Basic not compared:
+Failed to submit to LSF (non_existent: No such queue. Job not submitted.)
+Submission command was 'bsub -J Test-Basic-SLEEP -q non_existent -u nobody -o Test-Basic-SLEEP.log -e Test-Basic-SLEEP.errors ... '
+
+Q: Submitting SLEEP test-case Basic2 to LSF queue non_existent
+S: SLEEP test-case Basic2 not compared:
+Failed to submit to LSF (non_existent: No such queue. Job not submitted.)
+Submission command was 'bsub -J Test-Basic2-SLEEP -q non_existent -u nobody -o Test-Basic2-SLEEP.log -e Test-Basic2-SLEEP.errors ... '
+

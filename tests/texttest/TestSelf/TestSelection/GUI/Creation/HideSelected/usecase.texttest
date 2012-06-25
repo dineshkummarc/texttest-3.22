@@ -1,0 +1,5 @@
+wait for all tests to be read
+set test selection to Two,One
+show view menu
+hide all tests that are currently selected
+quit

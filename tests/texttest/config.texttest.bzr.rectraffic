@@ -1,0 +1,9 @@
+# Bzr status can't handle directory becoming a symlink, copy the whole working tree when recording
+# Nor does it like it's own control directory containing symbolic links
+partial_copy_test_path:{CLEAR TargetApp}
+link_test_path:{CLEAR .bzr}
+
+copy_test_path:TargetApp
+copy_test_path:.bzr
+
+test_data_ignore:.bzr

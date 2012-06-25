@@ -1,0 +1,26 @@
+# Should report as known bug when the bug is open in bugzilla
+OpenBug
+
+# Sometimes fields returned are not strings
+BugWithListValues
+
+# Sometimes custom fields are included without defined values
+BugWithUndefinedValues
+
+# Should report internal error if the bug is reckoned to be closed
+ClosedBug
+
+# Make sure bug numbers that don't exist don't fool us
+UnknownBug
+
+# Make sure we don't stack trace if we can't parse what we get back from Jira
+IncompatibleVersion
+
+# Make sure we get a sensible message when the login fails
+BadLogin
+
+# Make sure we get a sensible message when the bug_system_script is incorrectly set.
+BadScript
+
+# Tests for various issues around unicode in bug data
+Unicode

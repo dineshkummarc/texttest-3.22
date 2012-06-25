@@ -1,0 +1,11 @@
+wait for all tests to be read
+view actions for test TargetApp (hello)
+enter failure information
+enter text or regexp to match = Harald
+enter version to report for = new
+enter extract info from bug system = bugzilla
+enter bug id = 1831
+check trigger even if other files differ
+set rerun attempts to 1
+press ok
+quit

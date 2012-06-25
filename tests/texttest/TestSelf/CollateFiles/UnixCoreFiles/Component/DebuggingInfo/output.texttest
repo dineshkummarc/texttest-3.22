@@ -1,0 +1,23 @@
+Segmentation fault in #0  CrcResetContext
+-----------------------------------------
+(Core file at fakecore)
+(Created by binary /bin/grep)
+Program terminated with signal 11, Segmentation fault.
+Stack trace from GDB :
+#0  CrcResetContext (key=2, ix=-1)
+    at /users/thomasjo/work/master/Rules_and_Reports/crc/rts.h:344
+344	  void removeAll() {
+#0  CrcResetContext (key=2, ix=-1)
+    at /users/thomasjo/work/master/Rules_and_Reports/crc/rts.h:344
+Init ()
+    at /users/thomasjo/work/master/Rules_and_Reports/crc/crcfuncs.cc:1651
+rave::Program::init (this=0x8e21e68)
+    at /users/thomasjo/work/master/Rules_and_Reports/crc/Program.cc:392
+Program (this=0x8e21e68, ep=0x876a800)
+    at /users/thomasjo/work/master/Rules_and_Reports/crc/Program.cc:334
+rave::SetExecuteThreadSafe (executeThreadSafely=false)
+    at /users/thomasjo/work/master/Rules_and_Reports/crc/statlink.cc:122
+apc_setup (argc=10, argv=0xffffb034)
+    at /users/thomasjo/work/master/Optimization/APC/apc_files/apc_setup.cc:795
+main (argc=10, argv=0xffffb034)
+    at /users/thomasjo/work/master/Optimization/APC/apclib/apc_main.cc:181

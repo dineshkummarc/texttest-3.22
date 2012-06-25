@@ -1,0 +1,18 @@
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.06May120918.9697/texttest.hg/VersionControl/General/Admin/MoveToUnversionedSuite/TargetApp/Suite/Subsuite/Test3/errors.hello
+->OUT:C TargetApp/Suite/Subsuite/Test3/errors.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.06May120918.9697/texttest.hg/VersionControl/General/Admin/MoveToUnversionedSuite/TargetApp/NewSuite/testsuite.hello
+->OUT:? TargetApp/NewSuite/testsuite.hello
+<-CMD:hg add /carm/proj/texttest-tmp/geoff/texttest.06May120918.9697/texttest.hg/VersionControl/General/Admin/MoveToUnversionedSuite/TargetApp/NewSuite/testsuite.hello
+<-CMD:hg mv /nfs/vm/texttest-tmp/geoff/texttest.06May120918.9697/texttest.hg/VersionControl/General/Admin/MoveToUnversionedSuite/TargetApp/Suite/Subsuite/Test3 /nfs/vm/texttest-tmp/geoff/texttest.06May120918.9697/texttest.hg/VersionControl/General/Admin/MoveToUnversionedSuite/TargetApp/NewSuite/Test3
+->FIL:Test3
+->FIL:Test3.edit_2
+->OUT:moving TargetApp/Suite/Subsuite/Test3/errors.hello to TargetApp/NewSuite/Test3/errors.hello
+moving TargetApp/Suite/Subsuite/Test3/output.hello to TargetApp/NewSuite/Test3/output.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.06May120918.9697/texttest.hg/VersionControl/General/Admin/MoveToUnversionedSuite/TargetApp/NewSuite/Test3/errors.hello
+->OUT:A TargetApp/NewSuite/Test3/errors.hello
+  TargetApp/Suite/Subsuite/Test3/errors.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.06May120918.9697/texttest.hg/VersionControl/General/Admin/MoveToUnversionedSuite/TargetApp/NewSuite/Test3/output.hello
+->OUT:A TargetApp/NewSuite/Test3/output.hello
+  TargetApp/Suite/Subsuite/Test3/output.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.06May120918.9697/texttest.hg/VersionControl/General/Admin/MoveToUnversionedSuite/TargetApp/NewSuite/testsuite.hello
+->OUT:A TargetApp/NewSuite/testsuite.hello

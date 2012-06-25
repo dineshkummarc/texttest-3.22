@@ -1,0 +1,6 @@
+wait for test Basic to be read, test Basic2 to be read, test configuration to be read
+set test selection to Basic2
+show view menu
+show only tests that are currently selected
+wait for completion of test actions
+quit

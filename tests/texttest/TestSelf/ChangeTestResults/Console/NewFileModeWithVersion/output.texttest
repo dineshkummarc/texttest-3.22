@@ -1,0 +1,6 @@
+Using Application HELLO, version 2
+Running HELLO.2 test-suite TargetApp
+  Running HELLO.2 test-case Success
+Comparing differences for HELLO.2 test-suite TargetApp
+  Comparing differences for HELLO.2 test-case Success - SUCCESS! (on errors.hello,output.hello)
+  Saving HELLO.2 test-case Success version 2 (exact) (overwriting succeeded files also)

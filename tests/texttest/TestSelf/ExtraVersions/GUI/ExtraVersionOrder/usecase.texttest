@@ -1,0 +1,5 @@
+wait for all tests to be read
+select indicated tests
+run selected tests
+wait for dynamic GUI to be closed
+quit

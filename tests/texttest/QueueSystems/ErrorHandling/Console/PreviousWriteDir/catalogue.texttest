@@ -1,0 +1,16 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------console.startdigit.16Jan171233.27812
+------------batchreport.sleep.startdigit
+------------slavelogs
+------------sleep.startdigit
+----------------123Test
+--------------------framework_tmp
+------------------------teststate
+
+The following existing files/directories were deleted:
+<Test Directory>
+----texttesttmp
+--------console.startdigit.14Apr2007.273
+------------sleep.startdigit

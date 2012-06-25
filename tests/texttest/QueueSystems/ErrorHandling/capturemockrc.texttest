@@ -1,0 +1,4 @@
+[python]
+intercepts = time.sleep
+ignore_callers = sleep,engine,storytext
+

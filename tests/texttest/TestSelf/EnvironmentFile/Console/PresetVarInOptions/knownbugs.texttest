@@ -1,0 +1,12 @@
+[Migrated section 1]
+search_string:strange_preset
+search_file:output
+bug_system:bugzilla
+bug_id:3437
+
+[Migrated section 2]
+search_string:wrong_value
+search_file:output
+bug_system:bugzilla
+bug_id:3706
+

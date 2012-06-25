@@ -1,0 +1,13 @@
+Using Application HELLO, checkout /carm/proj/texttest-tmp/geoff/texttest.30Mar153906.11545/texttest/TestSelf/Checkouts/Console/MultipleOptions/TargetApp/checkout2/source
+Running HELLO test-suite TargetApp
+  Running HELLO test-case Test
+Comparing differences for HELLO test-suite TargetApp
+  Comparing differences for HELLO test-case Test (on output.hello)
+  HELLO test-case Test FAILED : differences in output
+  View details(v), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+1c1
+< Hello
+---
+> Hello from checkout2!
+  Save(s) or continue(any other key)?

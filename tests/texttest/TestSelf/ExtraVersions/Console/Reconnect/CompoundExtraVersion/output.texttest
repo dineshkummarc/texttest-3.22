@@ -1,0 +1,7 @@
+Rejected Application HELLO - Could not find an application directory matching Application HELLO for the run directory found at /carm/proj/texttest-tmp/geoff/texttest.27Jul101534.6555/texttest/TestSelf/ExtraVersions/Console/Reconnect/CompoundExtraVersion/texttesttmp/console.18Jul111758.14417
+Rejected Application HELLO, version extra1 - Could not find an application directory matching Application HELLO, version extra1 for the run directory found at /carm/proj/texttest-tmp/geoff/texttest.27Jul101534.6555/texttest/TestSelf/ExtraVersions/Console/Reconnect/CompoundExtraVersion/texttesttmp/console.18Jul111758.14417
+Rejected Application HELLO, version extra2 - Could not find an application directory matching Application HELLO, version extra2 for the run directory found at /carm/proj/texttest-tmp/geoff/texttest.27Jul101534.6555/texttest/TestSelf/ExtraVersions/Console/Reconnect/CompoundExtraVersion/texttesttmp/console.18Jul111758.14417
+Using Application HELLO, version extra1.subextra
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.27Jul101534.6555/texttest/TestSelf/ExtraVersions/Console/Reconnect/CompoundExtraVersion/texttesttmp/console.18Jul111758.14417/hello.extra1.subextra
+Reconnecting to HELLO.extra1.subextra test-suite TargetApp
+  Reconnecting to HELLO.extra1.subextra test-case Common (state success)

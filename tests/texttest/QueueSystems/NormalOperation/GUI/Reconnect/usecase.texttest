@@ -1,0 +1,8 @@
+wait for all tests to be read
+select indicated tests
+show actions menu
+reconnect to previously run tests
+choose to reconnect via grid
+press reconnect
+wait for reconnect GUI to be closed
+quit

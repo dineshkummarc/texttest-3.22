@@ -1,0 +1,16 @@
+Using Application CORE
+Running CORE test-suite TargetApp
+  Running CORE test-case DumpCore
+Comparing differences for CORE test-suite TargetApp
+  Comparing differences for CORE test-case DumpCore (on errors.core,output.core,stacktrace.core)
+  CORE test-case DumpCore CRASHED (Segmentation fault in ___newselect_nocancel) :
+  View details(v), Save(s) or continue(any other key)?
+(core file at carm/proj/texttest-tmp/geoff/texttest.11Dec180717/texttest/TestSelf/CollateFiles/UnixOnly/Console/InteractiveCrash/texttesttmp/console.11Dec180740/core/DumpCore/core)
+(created by binary /bin/grep)
+Program terminated with signal 11, Segmentation fault.
+Stack trace from gdb :
+___newselect_nocancel 
+inittime_the_fake_version 
+?? 
+?? 
+  Save(s) or continue(any other key)?

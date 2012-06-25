@@ -1,0 +1,178 @@
+
+---------- Window 'HELLO test management - TextTest static GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_Edit' (+) , '_View' (+) , '_Actions' (+) , '_Bazaar' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+    ----
+  _Select (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+  Refresh (Stock image 'gtk-refresh', accelerator 'F5', tooltip 'Refresh the whole test suite so that it reflects file changes')
+  _Run (Stock image 'gtk-execute', greyed out, accelerator 'Ctrl+R', tooltip 'Run selected tests')
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Selection , Config
+Viewing page 'Selection'
+Viewing table with 7 rows and 2 columns.
+'Tests for version  ' (tooltip 'Select tests for a specific version.') | Text entry (drop-down list containing ['', '<default>'])
+'Test names containing  ' (tooltip 'Select tests for which the name contains the entered text. The text can be a regular expression.') | Text entry
+'Test paths containing  ' (tooltip 'Select tests for which the full path to the test (e.g. suite1/subsuite/testname) contains the entered text. The text can be a regular expression. You can select tests by suite name this way.') | Text entry
+'Tests listed in file  ' | Text entry , Button '...'
+'Descriptions containing  ' (tooltip 'Select tests for which the description (comment) matches the entered text. The text can be a regular expression.') | Text entry
+'Test-files containing  ' (tooltip 'Select tests which have a file containing the entered text. The text can be a regular expression : e.g. enter '.*' to only look for the file without checking the contents.') | Text entry
+'Test-file to search  ' (tooltip 'When the 'test-files containing' field is non-empty, apply the search in files with the given stem. Unix-style file expansion (note not regular expressions) may be used. For example '*' will look in any file.') | Text entry (drop-down list containing [''])
+.....'Selection'......
+Check button 'Select in collapsed suites' (tooltip 'Select in currently collapsed suites as well?')
+Radio button 'Discard' (checked) (tooltip 'Unselect all currently selected tests before applying the new selection criteria.') , Radio button 'Refine' (tooltip 'Apply the new selection criteria only to the currently selected tests, to obtain a subselection.') , Radio button 'Extend' (tooltip 'Keep the currently selected tests even if they do not match the new criteria, and extend the selection with all other tests which meet the new criteria.') , Radio button 'Exclude' (tooltip 'After applying the new selection criteria to all tests, unselect the currently selected tests, to exclude them from the new selection.')
+Button '_Select' (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+.....'Filtering'......
+Radio button 'Discard' (checked) (tooltip 'Show all tests which match the criteria, and hide all those that do not.') , Radio button 'Refine' (tooltip 'Hide all tests which do not match the criteria. Do not show any tests that aren't already shown.') , Radio button 'Extend' (tooltip 'Show all tests which match the criteria. Do not hide any tests that are currently shown.')
+Button 'Filter' (Stock image 'gtk-find', accelerator 'Ctrl+F', tooltip 'filter tests to show only those indicated')
+Button 'Reset Tab' (tooltip 'Reset all the settings in the current tab to their default values')
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Jun14:04:14.' , Image 'throbber_inactive.png'
+--------------------------------------------------------------------------
+
+Changing GUI status to: 'Reading tests ...'
+
+Column titles changed in Test Tree with columns: Tests: 0/1 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/2 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/3 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/4 selected
+
+Updated : Test Tree with columns: Tests: 0/4 selected
+-> TargetApp (hello) (black/grey90,bold)
+->   Test1 (black/grey90)
+->   Test2 (black/grey90)
+->   Suite (black/grey90,bold)
+->     Subsuite (black/grey90,bold)
+->       Test3 (black/grey90)
+->       Test4 (black/grey90)
+Updated drop-down list in 'Test-file to search' Text entry (set to 'errors') (drop-down list containing ['errors', 'output'])
+
+Changing GUI status to: 'Reading tests completed at 09Jun14:04:14.'
+
+Expected application event 'all tests to be read' occurred, proceeding.
+
+'set test selection to' event created with arguments 'Test1'
+
+No longer greyed out : _Run
+
+Changed selection in Test Tree with columns: Tests: 1/4 selected
+-> TargetApp (hello) (black/grey90,bold)
+->   Test1 (black/grey90)   ***
+->   Test2 (black/grey90)
+->   Suite (black/grey90,bold)
+->     Subsuite (black/grey90,bold)
+->       Test3 (black/grey90)
+->       Test4 (black/grey90)
+
+Current page changed in Notebook with tabs: Test , Selection , Running , Config
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: Test1
+-> Standard Files (white,bold)
+->   errors.hello (grey90)
+->   output.hello (grey90)
+->   output.hello.version (grey90)
+-> Definition Files (white)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+
+Description:
+<No description provided>
+
+Full path:
+Test1
+===============================
+
+'version control log for the selected files' event created with arguments ''
+
+Changing GUI status to: 'Analyzing logs for errors.hello in test Test1'
+
+Changing GUI status to: 'Analyzing logs for output.hello in test Test1'
+
+Changing GUI status to: 'Analyzing logs for output.hello.version in test Test1'
+
+Changing GUI status to: 'Performed version control log for the selected files.'
+
+---------- Dialog 'Bazaar Log for the selected files' ----------
+Default widget is 'gtk-close'
+Stock image 'gtk-dialog-warning' , 'Bazaar logs shown below.
+Some files/directories were not under Bazaar control.
+Bazaar command used: bzr log
+Subdirectories were ignored, use Bazaar Log Recursive to get the logs for all subdirectories.'
+
+Showing VCS log info tree with columns: File , Last revision committed (UTC)
+-> <span weight='bold'>TargetApp</span>
+->   <span weight='bold'>Test1</span>
+->     errors.hello | <span weight='bold'>2 days ago</span>   ***
+->     output.hello | Thu Feb 19 19:26:26 2009
+->     output.hello.version | Not in Bazaar
+
+------------------------------ (vertical VCS dialog separator)
+
+========== VCS Output View ==========
+------------------------------------------------------------
+revno: 4
+committer: geoff
+branch nick: HEAD
+timestamp: Tue 2009-02-24 20:21:36 +0000
+message:
+  Adding a line for to get a file that isn't up-to-date
+------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+=====================================
+Button '_Status' , Button '_Annotate' , Button '_Differences' , ' between revisions ' , Text entry (set to '-1') , ' and ' , Text entry
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+----------------------------------------------------------------
+
+'show version control status' event created with arguments ''
+
+---------- Dialog 'Bazaar Status for the selected files' ----------
+Default widget is 'gtk-close'
+Stock image 'gtk-dialog-info' , 'Bazaar status shown below.
+Bazaar command used: bzr status
+Subdirectories were ignored, use Bazaar Status Recursive to get the status for all subdirectories.'
+
+Showing VCS status info tree with columns: File , Information
+-> <span weight='bold'>TargetApp</span>
+->   <span weight='bold'>Test1</span>
+->     errors.hello | <span weight='bold'>Modified</span>   ***
+
+------------------------------ (vertical VCS dialog separator)
+
+========== VCS Output View ==========
+modified:
+  TargetApp/Test1/errors.hello
+=====================================
+Button '_Log' , Button '_Annotate' , Button '_Differences' , ' between revisions ' , Text entry (set to '-1') , ' and ' , Text entry
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+-------------------------------------------------------------------
+
+'close status window' event created with arguments ''
+
+'close log window' event created with arguments ''
+
+'quit' event created with arguments ''

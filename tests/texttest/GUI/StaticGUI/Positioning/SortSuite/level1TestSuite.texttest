@@ -1,0 +1,19 @@
+S05
+S04
+S03
+S02
+
+# S01.99's comment
+S01.99
+A05
+A04
+
+# Extra comment without a test , to make sure it doesn't 
+# get thrown away. See also bugzilla 13073.
+
+# A03 description
+A03
+
+# Comment for A02
+A02
+A01

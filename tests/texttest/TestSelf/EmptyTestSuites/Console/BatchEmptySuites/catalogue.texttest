@@ -1,0 +1,18 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------SuiteWithVersionFile
+------------testsuite.hello
+----texttesttmp
+--------local.24Jun164134.28878
+------------hello
+----------------SuiteWithTest
+--------------------Test
+------------------------errors.hello
+------------------------output.hello
+------------------------framework_tmp
+----------------------------errors.hellocmp
+----------------------------errors.helloorigcmp
+----------------------------output.hellocmp
+----------------------------output.helloorigcmp
+----------------------------teststate

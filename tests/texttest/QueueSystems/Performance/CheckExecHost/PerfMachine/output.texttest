@@ -1,0 +1,5 @@
+Using Application PERF, version machine
+Running PERF.machine test-suite TargetApp
+  Running PERF.machine test-case Failures
+Comparing differences for PERF.machine test-suite TargetApp
+  Comparing differences for PERF.machine test-case Failures (on errors.perf,logperf.perf,output.perf)

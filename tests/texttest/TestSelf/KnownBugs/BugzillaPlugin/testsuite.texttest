@@ -1,0 +1,5 @@
+# The original plugin that assumes bugcli
+Version2
+
+# New interface that uses the webservice. Less features than bugcli but more supported. It will catch up!
+Version3

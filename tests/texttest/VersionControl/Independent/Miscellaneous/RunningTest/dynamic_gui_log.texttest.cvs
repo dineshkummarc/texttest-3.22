@@ -1,0 +1,199 @@
+
+---------- Window 'HELLO tests (started at 09Jun14:04:07) - TextTest dynamic GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_View' (+) , '_Actions' (+) , '_CVS' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+  _Kill (Stock image 'gtk-stop', greyed out, accelerator 'Ctrl+Delete', tooltip 'Kill selected tests')
+  _Save (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S', tooltip 'Save results for selected tests')
+  Progress bar set to fraction 0.0, text 'All 0 tests completed at 09Jun14:04:11'
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected , Details
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Jun14:04:11.' , Image 'throbber_inactive.png'
+--------------------------------------------------------------------------------------------
+
+Progress bar set to fraction 0.0, text '0 of 1 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Expected application event 'all tests to be read' occurred, proceeding.
+Expected application event 'test Test1 to start' occurred, proceeding.
+
+'set test selection to' event created with arguments 'Test1'
+
+No longer greyed out : _Kill
+
+Changed selection in Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/LightGoldenrod1) | (LightGoldenrod1)   ***
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: Test1 , Details
+-> Temporary Files (bold)
+->   errors.hello (LightGoldenrod1) | (LightGoldenrod1)
+->   output.hello (LightGoldenrod1) | (LightGoldenrod1)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+Running on kilimanjaro
+
+To obtain the latest progress information and an up-to-date comparison of the files above, perform 'recompute status' (press 'F5')
+===============================
+
+'version control status for the selected files' event created with arguments ''
+
+---------- Dialog 'TextTest Error' ----------
+Default widget is 'gtk-ok'
+Stock image 'gtk-dialog-error' , ========== GtkTextView ==========
+Cannot establish which files should be compared as no comparison information exists.
+To create this information, perform 'recompute status' (press 'F5') and try again.
+=================================
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
+---------------------------------------------
+
+'agree to texttest message' event created with arguments ''
+
+'recompute test status, including progress information if appropriate' event created with arguments ''
+
+Changing GUI status to: 'Recomputing status of HELLO test-case Test1 ...'
+
+Updated : Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/LightGoldenrod1) | (LightGoldenrod1)   ***
+
+Updated : File Tree with columns: Test1 , Details
+-> Comparison Files (bold)
+->   errors.hello (LightGoldenrod1) | (LightGoldenrod1)
+->   output.hello (LightGoldenrod1) | (LightGoldenrod1)
+
+========== Text Info ==========
+Running on kilimanjaro
+Reckoned to be 0% complete by comparing total file sizes at 09Jun14:04:12.
+
+To obtain the latest progress information and an up-to-date comparison of the files above, perform 'recompute status' (press 'F5')
+===============================
+
+Changing GUI status to: 'Recomputed status of 1 test.'
+
+'version control status for the selected files' event created with arguments ''
+
+Changing GUI status to: 'Analyzing status for errors.hello in test Test1'
+
+Changing GUI status to: 'Analyzing status for output.hello in test Test1'
+
+Changing GUI status to: 'Performed version control status for the selected files.'
+
+---------- Dialog 'CVS Status for the selected files' ----------
+Default widget is 'gtk-close'
+Stock image 'gtk-dialog-warning' , 'CVS status shown below.
+CVS status found files which are not up-to-date or which have conflicts
+CVS command used: cvs status
+Subdirectories were ignored, use CVS Status Recursive to get the status for all subdirectories.'
+
+Showing VCS status info tree with columns: File , Information
+-> <span weight='bold'>TargetApp</span>
+->   <span weight='bold'>Test1</span>
+->     errors.hello | <span weight='bold' foreground='red'>Needs Patch</span>   ***
+->     output.hello | Up-to-date
+
+------------------------------ (vertical VCS dialog separator)
+
+========== VCS Output View ==========
+===================================================================
+File: errors.hello     	Status: Needs Patch
+
+   Working revision:	1.1.1.1	Mon Feb 23 01:01:26 2009
+   Repository revision:	1.2	/carm/proj/texttest-tmp/geoff/texttest.07May104822.11415/texttest.cvs/VersionControl/Independent/Miscellaneous/RunningTest/cvsroot/TargetApp/Test1/errors.hello,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+=====================================
+Button '_Log' , Button '_Annotate' , Button '_Differences' , ' between revisions ' , Text entry (set to 'HEAD') , ' and ' , Text entry
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+----------------------------------------------------------------
+
+'close status window' event created with arguments ''
+
+'quit' event created with arguments ''
+Killing running test (process id 2472)
+
+Changing GUI status to: 'Waiting for all tests to terminate ...'
+
+Updated : Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/LightGoldenrod1) | (LightGoldenrod1)   ***
+
+Updated : File Tree with columns: Test1 , Details
+-> Temporary Files (bold)
+->   errors.hello (LightGoldenrod1) | (LightGoldenrod1)
+->   output.hello (LightGoldenrod1) | (LightGoldenrod1)
+
+========== Text Info ==========
+Filtering and comparing newly generated result files on kilimanjaro
+
+To obtain the latest progress information and an up-to-date comparison of the files above, perform 'recompute status' (press 'F5')
+===============================
+
+Greyed out : _Kill
+No longer greyed out : _Save
+
+Progress bar set to fraction 1.0, text 'All 1 tests completed at 09Jun14:04:14'
+
+Updated : Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/salmon) | KILLED (salmon)   ***
+
+Updated : File Tree with columns: Test1 , Details
+-> Comparison Files (bold)
+->   errors.hello (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.hello (salmon) | (salmon)
+
+========== Text Info ==========
+Test were terminated before completion (KILLED) :
+Test killed explicitly at 14:04
+---------- Differences in output ----------
+1d0
+< Hello
+===============================

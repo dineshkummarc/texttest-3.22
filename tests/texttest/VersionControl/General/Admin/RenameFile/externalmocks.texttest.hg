@@ -1,0 +1,7 @@
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameFile/TargetApp/Test1/output.hello
+->OUT:C TargetApp/Test1/output.hello
+<-CMD:hg mv /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameFile/TargetApp/Test1/output.hello /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameFile/TargetApp/Test1/output_renamed.hello
+->FIL:output_renamed.hello
+->FIL:output.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameFile/TargetApp/Test1/output.hello.version
+->OUT:? TargetApp/Test1/output.hello.version

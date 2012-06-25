@@ -1,0 +1,3 @@
+use_case_record_mode:GUI
+
+executable:${TEXTTEST_HOME}/writedisplay.py

@@ -1,0 +1,5 @@
+Using Application HELLO, version seed.laterref
+Running HELLO.seed.laterref test-suite TargetApp
+  Running HELLO.seed.laterref test-case Test
+Comparing differences for HELLO.seed.laterref test-suite TargetApp
+  Comparing differences for HELLO.seed.laterref test-case Test - SUCCESS! (on errors.hello,output.hello)

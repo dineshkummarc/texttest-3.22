@@ -1,0 +1,11 @@
+wait for all tests to be read
+set test selection to Test4
+version control status for the selected files
+show version control log
+close log window
+show version control annotations
+close annotate window
+show version control differences
+close difference window
+close status window
+quit

@@ -1,0 +1,245 @@
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Test1/errors.hello
+->OUT:changeset:   8:c57d2c6473b1
+tag:         tip
+user:        geoff@gewoia.jeppesensystems.com
+date:        Thu Apr 02 15:05:09 2009 +0200
+summary:     Moving under TargetApp
+
+changeset:   4:480ebf49e6ab
+user:        geoff
+date:        Tue Feb 24 22:21:36 2009 +0100
+summary:     Adding a line for to get a file that isn't up-to-date
+
+changeset:   0:44876aa2023b
+user:        geoff
+date:        Thu Feb 19 21:26:26 2009 +0100
+summary:     Initial revision
+
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Test1/output.hello
+->OUT:changeset:   8:c57d2c6473b1
+tag:         tip
+user:        geoff@gewoia.jeppesensystems.com
+date:        Thu Apr 02 15:05:09 2009 +0200
+summary:     Moving under TargetApp
+
+changeset:   0:44876aa2023b
+user:        geoff
+date:        Thu Feb 19 21:26:26 2009 +0100
+summary:     Initial revision
+
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Test1/output.hello.version
+->ERR:abort: cannot follow nonexistent file: "TargetApp/Test1/output.hello.version"
+->EXC:255
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Test1/errors.hello
+->OUT:changeset:   8:c57d2c6473b1
+tag:         tip
+user:        geoff@gewoia.jeppesensystems.com
+date:        Thu Apr 02 15:05:09 2009 +0200
+summary:     Moving under TargetApp
+
+changeset:   4:480ebf49e6ab
+user:        geoff
+date:        Tue Feb 24 22:21:36 2009 +0100
+summary:     Adding a line for to get a file that isn't up-to-date
+
+changeset:   0:44876aa2023b
+user:        geoff
+date:        Thu Feb 19 21:26:26 2009 +0100
+summary:     Initial revision
+
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Test1/output.hello
+->OUT:changeset:   8:c57d2c6473b1
+tag:         tip
+user:        geoff@gewoia.jeppesensystems.com
+date:        Thu Apr 02 15:05:09 2009 +0200
+summary:     Moving under TargetApp
+
+changeset:   0:44876aa2023b
+user:        geoff
+date:        Thu Feb 19 21:26:26 2009 +0100
+summary:     Initial revision
+
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Test1/output.hello.version
+->ERR:abort: cannot follow nonexistent file: "TargetApp/Test1/output.hello.version"
+->EXC:255
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Test2/errors.hello
+->OUT:changeset:   8:c57d2c6473b1
+tag:         tip
+user:        geoff@gewoia.jeppesensystems.com
+date:        Thu Apr 02 15:05:09 2009 +0200
+summary:     Moving under TargetApp
+
+changeset:   0:44876aa2023b
+user:        geoff
+date:        Thu Feb 19 21:26:26 2009 +0100
+summary:     Initial revision
+
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Test2/output.hello
+->OUT:changeset:   8:c57d2c6473b1
+tag:         tip
+user:        geoff@gewoia.jeppesensystems.com
+date:        Thu Apr 02 15:05:09 2009 +0200
+summary:     Moving under TargetApp
+
+changeset:   3:955b372ebf9f
+user:        geoff
+date:        Sun Feb 22 21:10:04 2009 +0100
+summary:     We made a change!
+
+changeset:   0:44876aa2023b
+user:        geoff
+date:        Thu Feb 19 21:26:26 2009 +0100
+summary:     Initial revision
+
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/testsuite.hello
+->OUT:changeset:   8:c57d2c6473b1
+tag:         tip
+user:        geoff@gewoia.jeppesensystems.com
+date:        Thu Apr 02 15:05:09 2009 +0200
+summary:     Moving under TargetApp
+
+changeset:   0:44876aa2023b
+user:        geoff
+date:        Thu Feb 19 21:26:26 2009 +0100
+summary:     Initial revision
+
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Suite/Subsuite/Test3/errors.hello
+->OUT:changeset:   8:c57d2c6473b1
+tag:         tip
+user:        geoff@gewoia.jeppesensystems.com
+date:        Thu Apr 02 15:05:09 2009 +0200
+summary:     Moving under TargetApp
+
+changeset:   0:44876aa2023b
+user:        geoff
+date:        Thu Feb 19 21:26:26 2009 +0100
+summary:     Initial revision
+
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Suite/Subsuite/Test3/output.hello
+->OUT:changeset:   8:c57d2c6473b1
+tag:         tip
+user:        geoff@gewoia.jeppesensystems.com
+date:        Thu Apr 02 15:05:09 2009 +0200
+summary:     Moving under TargetApp
+
+changeset:   5:fbb30cbf437c
+user:        geoff
+date:        Wed Feb 25 16:51:06 2009 +0100
+summary:     Induce a failure and a conflict!
+
+changeset:   0:44876aa2023b
+user:        geoff
+date:        Thu Feb 19 21:26:26 2009 +0100
+summary:     Initial revision
+
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Suite/Subsuite/Test4/errors.hello
+->ERR:abort: cannot follow nonexistent file: "TargetApp/Suite/Subsuite/Test4/errors.hello"
+->EXC:255
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Suite/Subsuite/Test4/errors.hello.ignored_by_vcs
+->ERR:abort: cannot follow nonexistent file: "TargetApp/Suite/Subsuite/Test4/errors.hello.ignored_by_vcs"
+->EXC:255
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Suite/Subsuite/Test4/output.hello
+->ERR:abort: cannot follow nonexistent file: "TargetApp/Suite/Subsuite/Test4/output.hello"
+->EXC:255
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Suite/Subsuite/testsuite.hello
+->OUT:changeset:   8:c57d2c6473b1
+tag:         tip
+user:        geoff@gewoia.jeppesensystems.com
+date:        Thu Apr 02 15:05:09 2009 +0200
+summary:     Moving under TargetApp
+
+changeset:   6:0dd2811c0874
+user:        geoff
+date:        Thu Feb 26 08:31:01 2009 +0100
+summary:     Extra comment
+
+changeset:   0:44876aa2023b
+user:        geoff
+date:        Thu Feb 19 21:26:26 2009 +0100
+summary:     Initial revision
+
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Suite/testsuite.hello
+->OUT:changeset:   8:c57d2c6473b1
+tag:         tip
+user:        geoff@gewoia.jeppesensystems.com
+date:        Thu Apr 02 15:05:09 2009 +0200
+summary:     Moving under TargetApp
+
+changeset:   0:44876aa2023b
+user:        geoff
+date:        Thu Feb 19 21:26:26 2009 +0100
+summary:     Initial revision
+
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Test1/output.hello
+->OUT:changeset:   8:c57d2c6473b1
+tag:         tip
+user:        geoff@gewoia.jeppesensystems.com
+date:        Thu Apr 02 15:05:09 2009 +0200
+summary:     Moving under TargetApp
+
+changeset:   0:44876aa2023b
+user:        geoff
+date:        Thu Feb 19 21:26:26 2009 +0100
+summary:     Initial revision
+
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Test1/errors.hello
+->OUT:changeset:   8:c57d2c6473b1
+tag:         tip
+user:        geoff@gewoia.jeppesensystems.com
+date:        Thu Apr 02 15:05:09 2009 +0200
+summary:     Moving under TargetApp
+
+changeset:   4:480ebf49e6ab
+user:        geoff
+date:        Tue Feb 24 22:21:36 2009 +0100
+summary:     Adding a line for to get a file that isn't up-to-date
+
+changeset:   0:44876aa2023b
+user:        geoff
+date:        Thu Feb 19 21:26:26 2009 +0100
+summary:     Initial revision
+
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Test1/output.hello
+->OUT:changeset:   8:c57d2c6473b1
+tag:         tip
+user:        geoff@gewoia.jeppesensystems.com
+date:        Thu Apr 02 15:05:09 2009 +0200
+summary:     Moving under TargetApp
+
+changeset:   0:44876aa2023b
+user:        geoff
+date:        Thu Feb 19 21:26:26 2009 +0100
+summary:     Initial revision
+
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Test1/output.hello.version
+->ERR:abort: cannot follow nonexistent file: "TargetApp/Test1/output.hello.version"
+->EXC:255
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Test2/errors.hello
+->OUT:changeset:   8:c57d2c6473b1
+tag:         tip
+user:        geoff@gewoia.jeppesensystems.com
+date:        Thu Apr 02 15:05:09 2009 +0200
+summary:     Moving under TargetApp
+
+changeset:   0:44876aa2023b
+user:        geoff
+date:        Thu Feb 19 21:26:26 2009 +0100
+summary:     Initial revision
+
+<-CMD:hg log -f /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.hg/VersionControl/General/Log/ShowLog/TargetApp/Test2/output.hello
+->OUT:changeset:   8:c57d2c6473b1
+tag:         tip
+user:        geoff@gewoia.jeppesensystems.com
+date:        Thu Apr 02 15:05:09 2009 +0200
+summary:     Moving under TargetApp
+
+changeset:   3:955b372ebf9f
+user:        geoff
+date:        Sun Feb 22 21:10:04 2009 +0100
+summary:     We made a change!
+
+changeset:   0:44876aa2023b
+user:        geoff
+date:        Thu Feb 19 21:26:26 2009 +0100
+summary:     Initial revision
+

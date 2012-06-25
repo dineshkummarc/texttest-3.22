@@ -1,0 +1,5 @@
+[performance_descriptor_increase]
+cputime:lazier, lazy, were lazier
+
+[performance_descriptor_decrease]
+cputime:zippier, zippy, were zippier

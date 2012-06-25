@@ -1,0 +1,75 @@
+# Test that batch runs and produces a correct report
+BatchReport
+
+# Test the functionality for producing coloured console output
+ColouredOutput
+
+# Test that batch runs OK without email being set up
+NoEmail
+
+# Copy of BatchReport, but with collection
+UseCollection
+
+# Check we can authenticate with the server
+ServerAuthentication
+
+# Check we can provide a command-line run-name to replace the "batch date"
+NamedRun
+
+# If it's named today's date, don't repeat this info in the file name
+NameIsDate
+
+# Make sure extra versions put their results in sensible subdirectories
+ExtraVersions
+
+# Check how tests that couldn't be run are reported in batch reports. Uses reconnection to non-existent directories
+UnrunnableTests
+
+# Check we can link batch runs to particular filter files
+BatchFilterFile
+
+# Check we can select the tests for a particular batch run without actually running in batch mode
+SelectBatchTests
+
+# Should reject as the batch session is undefined and a version is provided
+BatchRejectVersion
+
+# If we select batch tests and run copies, don't reject the copied versions
+DontRejectCopyVersions
+
+# Should reject as the batch session is undefined and a version is provided, also when selecting
+BatchSelectRejectVersion
+
+# If batch version filtering enabled and all versions match, shouldn't reject
+BatchVersionsMatch
+
+# Check we can disable sending mail when no tests fail
+MailOnFailureOnly
+
+# Even if we do mail on failure only, make sure we send mail when some tests fail
+SendMailOnFailure
+
+# See that we don't get batch reports when an application has no tests
+OneAppNoTests
+
+# Copy of BatchReport, but put some old directories in
+RemovePreviousDirs
+
+# Don't delete things with -keeptmp
+KeeptmpPreviousDirs
+
+# We might not be able to clean up previous dirs if they were run by someone else
+PreviousDirNoPermission
+
+# Check the config module can change the batch session
+# 
+ConfigModuleSession
+
+# Make sure that counting the tests with a batch flag enabled doesn't send mails
+CountTests
+
+# Tests for the junit format report
+JunitReport
+
+# Various error conditions
+ErrorHandling

@@ -1,0 +1,3 @@
+# How much memory (in MB) must be used before we consider it worthwhile to check memory?
+[performance_test_minimum]
+memory:50

@@ -1,0 +1,5 @@
+Using Application TDAT, version env.queuesystem
+Running TDAT.env.queuesystem test-suite TargetApp
+  Running TDAT.env.queuesystem test-case Test2
+Comparing differences for TDAT.env.queuesystem test-suite TargetApp
+  Comparing differences for TDAT.env.queuesystem test-case Test2 (on catalogue.tdat,errors.tdat,output.tdat)

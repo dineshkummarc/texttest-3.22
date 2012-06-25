@@ -1,0 +1,13 @@
+Using Application HELLO, version gui, checkout /carm/proj/texttest-tmp/geoff/texttest.31Jul112656.28265/texttest.sge/QueueSystems/SlaveReuse/Slave/VirtualDisplay/AddTestXvfbCrash/TargetApp/
+Tests will run with DISPLAY variable set to :3979.0
+Running HELLO.gui test-suite TargetApp
+  Running HELLO.gui test-case Test
+Comparing differences for HELLO.gui test-suite TargetApp
+  Comparing differences for HELLO.gui test-case Test (on errors.hello,output.hello)
+Tests will run with DISPLAY variable set to :3979.0
+  Running HELLO.gui test-suite Suite
+    Running HELLO.gui test-case Test
+  Comparing differences for HELLO.gui test-suite Suite
+    Comparing differences for HELLO.gui test-case Test - SUCCESS! (on errors.hello,output.hello.gui)
+Tests will run with DISPLAY variable set to :3979.0
+Killing Xvfb process 28297

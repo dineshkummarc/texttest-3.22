@@ -1,0 +1,8 @@
+# Explicitly given the localhost's name to run on
+Basic
+
+# Give a user name that's right
+UserMatches
+
+# Give a different user name
+UserDoesntMatch

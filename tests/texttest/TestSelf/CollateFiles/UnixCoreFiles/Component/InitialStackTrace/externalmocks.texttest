@@ -1,0 +1,17 @@
+<-CMD:gdb -q -batch -x /tmp/354778.1.short/tmphbA9-5coreCommands.gdb /bin/grep fakecore
+->OUT:#0  0x0000000000000000 in ?? ()
+#0  0x0000000000000000 in ?? ()
+->ERR:"/nfs/vm/matador/carmusrs/carmen_8.0_deliver/RD_ib_cas_v8_user/crc_cas/source/Matador_CO": not in executable format: File format not recognized
+
+warning: Couldn't find general-purpose registers in core file.
+
+
+warning: Wrong size fpregset in core file.
+
+warning: Couldn't find general-purpose registers in core file.
+
+
+warning: Wrong size fpregset in core file.
+<-CMD:dbx -f -q -c "where; quit" /bin/grep fakecore
+->ERR:File format not recognised
+

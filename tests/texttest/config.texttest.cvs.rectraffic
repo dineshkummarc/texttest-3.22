@@ -1,0 +1,6 @@
+
+link_test_path:{CLEAR cvsroot}
+
+copy_test_path:cvsroot
+
+test_data_ignore:cvsroot

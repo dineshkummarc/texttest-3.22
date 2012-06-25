@@ -1,0 +1,5 @@
+executable:$TEXTTEST_HOME/hello.py
+
+config_module:queuesystem
+
+default_interface:dynamic_gui

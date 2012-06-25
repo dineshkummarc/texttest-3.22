@@ -1,0 +1,20 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------hello.01Sep170814.8689
+------------hello
+----------------Suite1
+--------------------One1
+------------------------errors.hello
+------------------------output.hello
+------------------------framework_tmp
+----------------------------errors.hellocmp
+----------------------------errors.helloorigcmp
+----------------------------output.hellocmp
+----------------------------output.helloorigcmp
+----------------------------teststate
+--------static_gui.01Sep170813.8668
+------------dynamic_run1
+----------------errors.log
+----------------gui_select
+----------------output.log

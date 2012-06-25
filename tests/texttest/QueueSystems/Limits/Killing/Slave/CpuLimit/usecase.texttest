@@ -1,0 +1,2 @@
+wait for all tests to be read, test Basic to start
+receive signal SIGXCPU

@@ -1,0 +1,7 @@
+wait for all tests to be read
+enter file extension to use for texttest files associated with this application = hello
+press define
+view options for Config
+select application file config.hello
+wait for file editing operations to complete
+quit

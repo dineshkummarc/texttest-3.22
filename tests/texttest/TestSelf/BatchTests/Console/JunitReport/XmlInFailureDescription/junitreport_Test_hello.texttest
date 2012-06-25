@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HELLO.Test" failures="1" tests="1" time="0" errors="0">
+  <properties/>
+  <testcase name="Test" time="0" classname="HELLO">
+    <failure type="differences" message="output different">
+    <![CDATA[
+---------- Differences in output ----------
+1c1
+< Hello
+---
+> Hello World END_MARKER!
+
+]]>
+    </failure>
+  </testcase>
+</testsuite>

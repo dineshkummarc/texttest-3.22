@@ -1,0 +1,8 @@
+binary:$TEXTTEST_HOME/printenv.py
+
+log_file:none
+
+default_interface:console
+
+home_operating_system:posix
+

@@ -1,0 +1,6 @@
+Using SGE queues for Application HELLO, checkout /carm/proj/texttest-tmp/geoff/texttest.sge.19May160111.857/texttest.sge/QueueSystems/SlaveReuse/Master/ForceReuse/Console/SlowReadBeyondCapacity/TargetApp/
+Q: Submitting HELLO test-case Test to default SGE queue
+S: HELLO test-case Test FAILED on centreville.carmen.se : differences in output
+View details(v), Save(s) or continue(any other key)?
+Q: Submitting HELLO test-case Test to default SGE queue
+S: HELLO test-case Test succeeded on centreville.carmen.se

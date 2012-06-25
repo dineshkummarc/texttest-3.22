@@ -1,0 +1,53 @@
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.07May104423.11266/texttest.cvs/VersionControl/General/Miscellaneous/ShowStatus/TargetApp/Test1/errors.hello
+->OUT:===================================================================
+File: errors.hello     	Status: Needs Patch
+
+   Working revision:	1.1.1.1	Mon Feb 23 01:01:26 2009
+   Repository revision:	1.2	/carm/proj/texttest-tmp/geoff/texttest.25Feb165952.5618/texttest/GUI/StaticGUI/CVSPlugin/CVSStatus/cvsroot/TargetApp/Test1/errors.hello,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.07May104423.11266/texttest.cvs/VersionControl/General/Miscellaneous/ShowStatus/TargetApp/Test1/output.hello
+->OUT:===================================================================
+File: output.hello     	Status: Up-to-date
+
+   Working revision:	1.1.1.1	Mon Feb 23 01:01:26 2009
+   Repository revision:	1.1.1.1	/carm/proj/texttest-tmp/geoff/texttest.25Feb165952.5618/texttest/GUI/StaticGUI/CVSPlugin/CVSStatus/cvsroot/TargetApp/Test1/output.hello,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.07May104423.11266/texttest.cvs/VersionControl/General/Miscellaneous/ShowStatus/TargetApp/Test1/output.hello.version
+->OUT:===================================================================
+File: output.hello.version	Status: Unknown
+
+   Working revision:	No entry for output.hello.version
+   Repository revision:	No revision control file
+
+->ERR:cvs status: use `cvs add' to create an entry for /carm/proj/texttest-tmp/geoff/texttest.25Feb165952.5618/texttest/GUI/StaticGUI/CVSPlugin/CVSStatus/TargetApp/Test1/output.hello.version
+<-CMD:cvs annotate /carm/proj/texttest-tmp/geoff/texttest.07May104423.11266/texttest.cvs/VersionControl/General/Miscellaneous/ShowStatus/TargetApp/Test1/errors.hello
+->OUT:1.2          (geoff    24-Feb-09): Added an extra line
+->ERR:
+Annotations for /carm/proj/texttest-tmp/geoff/texttest.25Feb165952.5618/texttest/GUI/StaticGUI/CVSPlugin/CVSStatus/TargetApp/Test1/errors.hello
+***************
+<-CMD:cvs diff -N -r HEAD /carm/proj/texttest-tmp/geoff/texttest.07May104423.11266/texttest.cvs/VersionControl/General/Miscellaneous/ShowStatus/TargetApp/Test1/errors.hello
+->OUT:Index: /carm/proj/texttest-tmp/geoff/texttest.25Feb165952.5618/texttest/GUI/StaticGUI/CVSPlugin/CVSStatus/TargetApp/Test1/errors.hello
+===================================================================
+RCS file: /carm/proj/texttest-tmp/geoff/texttest.25Feb165952.5618/texttest/GUI/StaticGUI/CVSPlugin/CVSStatus/cvsroot/TargetApp/Test1/errors.hello,v
+retrieving revision 1.2
+retrieving revision 1.1.1.1
+diff -r1.2 -r1.1.1.1
+1d0
+< Added an extra line
+->EXC:1
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.07May104423.11266/texttest.cvs/VersionControl/General/Miscellaneous/ShowStatus/TargetApp/Test2/output.hello
+->OUT:===================================================================
+File: output.hello     	Status: Locally Modified
+
+   Working revision:	1.2	Sun Feb 22 20:09:35 2009
+   Repository revision:	1.2	/carm/proj/texttest-tmp/geoff/texttest.25Feb165952.5618/texttest/GUI/StaticGUI/CVSPlugin/CVSStatus/cvsroot/TargetApp/Test2/output.hello,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+

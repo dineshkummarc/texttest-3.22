@@ -1,0 +1,7 @@
+import_config_file:$STANDARD
+
+extra_version:extra
+
+default_interface:dynamic_gui
+
+unsaveable_version:extra

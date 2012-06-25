@@ -1,0 +1,8 @@
+<-CMD:hg diff -g /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/NoDiffTool/TargetApp/Test2/errors.hello
+<-CMD:hg diff -g /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/NoDiffTool/TargetApp/Test2/output.hello
+->OUT:diff --git a/TargetApp/Test2/output.hello b/TargetApp/Test2/output.hello
+--- a/TargetApp/Test2/output.hello
++++ b/TargetApp/Test2/output.hello
+@@ -1,1 +1,1 @@
+-Hello current version!
++Hello uncommitted update!

@@ -1,0 +1,20 @@
+# Make sure we can combine options correctly from test suites and test cases
+OptionsInTestSuites
+
+# Make sure we can clear out previously defined options
+ClearAllOptions
+
+# If we only have positional arguments, insert non positional ones at the start
+OptionsAtStart
+
+# Make sure the arguments end up in the right places with a simple combination
+CombineWithArguments
+
+# If named arguments follow positional ones, keep that ordering intact
+ArgsAfterPositional
+
+# Check we can spot arguments like -a ''
+EmptyArgument
+
+# Check we can spot arguments like -a ''
+MultilineOptions

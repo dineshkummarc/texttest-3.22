@@ -1,0 +1,5 @@
+wait for all tests to be read, test Generate to start
+set test selection to Generate
+kill selected tests
+wait for completion of test actions
+quit

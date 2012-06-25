@@ -1,0 +1,11 @@
+# Check we can view a test with edited files, and view the files themselves
+ViewEditedFiles
+
+# Make sure we handle versioning the file_edits directory
+RecordAndSaveVersion
+
+# Check these operations don't lose the edited files
+CopyAndRename
+
+# Check edited files get created in the right place
+CreateEditedFile

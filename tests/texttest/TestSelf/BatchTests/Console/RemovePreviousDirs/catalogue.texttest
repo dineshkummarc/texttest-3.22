@@ -1,0 +1,25 @@
+The following new files/directories were created:
+<Test Directory>
+----repository
+--------hello
+------------batch
+----------------BothDiff
+--------------------teststate_16Jan2009
+----texttesttmp
+--------hello.batch.16Jan171204.11477
+------------hello.batch
+----------------BothDiff
+--------------------errors.hello
+--------------------output.hello
+--------------------framework_tmp
+------------------------errors.hellocmp
+------------------------errors.helloorigcmp
+------------------------output.hellocmp
+------------------------output.helloorigcmp
+------------------------teststate
+
+The following existing files/directories were deleted:
+<Test Directory>
+----texttesttmp
+--------hello.batch.27Sep093012.872
+--------hello.batch.28Sep093112.276

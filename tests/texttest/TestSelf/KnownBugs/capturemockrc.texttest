@@ -1,0 +1,2 @@
+[python]
+intercepts = urllib2,urllib,xmlrpclib

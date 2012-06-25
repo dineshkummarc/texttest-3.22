@@ -1,0 +1,178 @@
+
+---------- Window 'HELLO test management - TextTest static GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_Edit' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+    ----
+  _Select (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+  Refresh (Stock image 'gtk-refresh', accelerator 'F5', tooltip 'Refresh the whole test suite so that it reflects file changes')
+  _Run (Stock image 'gtk-execute', greyed out, accelerator 'Ctrl+R', tooltip 'Run selected tests')
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Selection , Config
+Viewing page 'Selection'
+Viewing table with 7 rows and 2 columns.
+'Tests for version  ' (tooltip 'Select tests for a specific version.') | Text entry (drop-down list containing ['', '<default>', 'extra1', 'extra2'])
+'Test names containing  ' (tooltip 'Select tests for which the name contains the entered text. The text can be a regular expression.') | Text entry
+'Test paths containing  ' (tooltip 'Select tests for which the full path to the test (e.g. suite1/subsuite/testname) contains the entered text. The text can be a regular expression. You can select tests by suite name this way.') | Text entry
+'Tests listed in file  ' | Text entry , Button '...'
+'Descriptions containing  ' (tooltip 'Select tests for which the description (comment) matches the entered text. The text can be a regular expression.') | Text entry
+'Test-files containing  ' (tooltip 'Select tests which have a file containing the entered text. The text can be a regular expression : e.g. enter '.*' to only look for the file without checking the contents.') | Text entry
+'Test-file to search  ' (tooltip 'When the 'test-files containing' field is non-empty, apply the search in files with the given stem. Unix-style file expansion (note not regular expressions) may be used. For example '*' will look in any file.') | Text entry (drop-down list containing [''])
+.....'Selection'......
+Check button 'Select in collapsed suites' (tooltip 'Select in currently collapsed suites as well?')
+Radio button 'Discard' (checked) (tooltip 'Unselect all currently selected tests before applying the new selection criteria.') , Radio button 'Refine' (tooltip 'Apply the new selection criteria only to the currently selected tests, to obtain a subselection.') , Radio button 'Extend' (tooltip 'Keep the currently selected tests even if they do not match the new criteria, and extend the selection with all other tests which meet the new criteria.') , Radio button 'Exclude' (tooltip 'After applying the new selection criteria to all tests, unselect the currently selected tests, to exclude them from the new selection.')
+Button '_Select' (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+.....'Filtering'......
+Radio button 'Discard' (checked) (tooltip 'Show all tests which match the criteria, and hide all those that do not.') , Radio button 'Refine' (tooltip 'Hide all tests which do not match the criteria. Do not show any tests that aren't already shown.') , Radio button 'Extend' (tooltip 'Show all tests which match the criteria. Do not hide any tests that are currently shown.')
+Button 'Filter' (Stock image 'gtk-find', accelerator 'Ctrl+F', tooltip 'filter tests to show only those indicated')
+Button 'Reset Tab' (tooltip 'Reset all the settings in the current tab to their default values')
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Jun14:03:37.' , Image 'throbber_inactive.png'
+--------------------------------------------------------------------------
+
+Changing GUI status to: 'Reading tests ...'
+
+Column titles changed in Test Tree with columns: Tests: 0/1 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/2 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/3 selected, 0/2 distinct
+
+Column titles changed in Test Tree with columns: Tests: 0/4 selected, 0/3 distinct
+
+Column titles changed in Test Tree with columns: Tests: 0/5 selected, 0/3 distinct
+
+Column titles changed in Test Tree with columns: Tests: 0/6 selected, 0/4 distinct
+
+Updated : Test Tree with columns: Tests: 0/6 selected, 0/4 distinct
+-> TargetApp (hello) (black/grey90,bold)
+->   Common (black/grey90)
+->   Base (black/grey90)
+->   Extra1 (black/grey90)
+->   Extra2 (black/grey90)
+Updated drop-down list in 'Test-file to search' Text entry (set to 'errors') (drop-down list containing ['errors', 'output'])
+
+Changing GUI status to: 'Reading tests completed at 09Jun14:03:37.'
+
+Expected application event 'all tests to be read' occurred, proceeding.
+
+'set test selection to' event created with arguments 'TargetApp (hello)'
+
+No longer greyed out : _Run
+
+Changed selection in Test Tree with columns: Tests: 3 suites selected, versions <default>,extra1,extra2
+-> TargetApp (hello) (black/grey90,bold)   ***
+->   Common (black/grey90)
+->   Base (black/grey90)
+->   Extra1 (black/grey90)
+->   Extra2 (black/grey90)
+
+Current page changed in Notebook with tabs: Test , Selection , Running , Config
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: TargetApp
+-> Definition Files (white,bold)
+->   config.hello (grey90)
+->   config.hello.badbinary (grey90)
+->   config.hello.badbinextra (grey90)
+->   config.hello.block1extra (grey90)
+->   config.hello.blockextra (grey90)
+->   config.hello.extra3 (grey90)
+->   config.hello.otherexec (grey90)
+->   testsuite.hello (grey90)
+->   testsuite.hello.extra1 (grey90)
+->   testsuite.hello.extra2 (grey90)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+
+Description:
+Root test suite
+===============================
+
+'view actions for test' event created with arguments 'TargetApp (hello)'
+
+---------- Popup Window ----------
+'Add Test' (Stock image 'gtk-add', accelerator 'Ctrl+N')
+'Add Suite' (Stock image 'gtk-add')
+  ----
+'_Cut' (Stock image 'gtk-cut', greyed out, accelerator 'Ctrl+X')
+'_Copy' (Stock image 'gtk-copy', greyed out, accelerator 'Ctrl+C')
+'_Paste' (Stock image 'gtk-paste', greyed out, accelerator 'Ctrl+V')
+'_Rename...' (Stock image 'gtk-italic', greyed out, accelerator 'Ctrl+M')
+'Remove...' (Stock image 'gtk-delete', greyed out)
+  ----
+'Enter Failure Information' (Stock image 'gtk-info', accelerator 'Ctrl+I')
+  ----
+'Show only selected'
+'Hide selected'
+  ----
+'_Run' (Stock image 'gtk-execute', accelerator 'Ctrl+R')
+'Record _Use-Case' (Stock image 'gtk-media-record', greyed out, accelerator 'F9')
+  ----
+'_Reorder' (+)
+----------------------------------
+
+'add test' event created with arguments ''
+
+---------- Dialog 'Add Test' ----------
+Default widget is 'gtk-ok'
+'Test Name:'
+Text entry
+'Test Description:' (tooltip 'Enter a description of the new test which will be inserted as a comment in the testsuite file.')
+...........
+
+========== Test Description ==========
+
+======================================
+'
+Place Test:' (tooltip 'Where in the test suite should the test be placed?')
+Text entry (set to 'last in suite') (drop-down list containing ['first in suite', 'after Common', 'after Base', 'last in suite'])
+'Command line options:'
+Text entry
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+---------------------------------------
+
+'enter test name =' event created with arguments 'NewCommon'
+Edited 'Test Name' Text entry (set to 'NewCommon')
+
+'press ok' event created with arguments ''
+
+Updated : Test Tree with columns: Tests: 3/9 selected, versions <default>,extra1,extra2
+-> TargetApp (hello) (black/grey90,bold)
+->   Common (black/grey90)
+->   Base (black/grey90)
+->   Extra1 (black/grey90)
+->   Extra2 (black/grey90)
+->   NewCommon (black/grey90)   ***
+
+Updated : File Tree with columns: NewCommon
+-> Standard Files (white)
+-> Definition Files (white)
+
+========== Text Info ==========
+
+Description:
+<No description provided>
+
+Full path:
+NewCommon
+===============================
+
+Changing GUI status to: 'Added new HELLO test-case NewCommon, HELLO.extra1 test-case NewCommon, HELLO.extra2 test-case NewCommon'
+
+'quit' event created with arguments ''

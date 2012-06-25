@@ -1,0 +1,3 @@
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.15Nov170737.31294/texttest/TestSelf/RunRemotely/SharedFilesystem/RecogniseLocalhost/UserDoesntMatch/texttesttmp/console.15Nov170759.18023/hello/Test; rsh baduser@my_host_name '/carm/proj/texttest-tmp/geoff/texttest.15Nov170737.31294/texttest/TestSelf/RunRemotely/SharedFilesystem/RecogniseLocalhost/UserDoesntMatch/texttesttmp/console.15Nov170759.18023/hello/Test/run_test.sh'
+->ERR:baduser@my_host_name: Unknown host
+->EXC:1

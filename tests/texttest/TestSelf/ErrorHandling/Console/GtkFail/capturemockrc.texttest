@@ -1,0 +1,3 @@
+[python]
+intercepts = gtk,gobject
+

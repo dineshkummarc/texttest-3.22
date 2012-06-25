@@ -1,0 +1,5 @@
+<-PYT:import xmlrpclib
+<-PYT:xmlrpclib.ServerProxy('http://www.myjirasite.com/rpc/xmlrpc')
+->RET:Instance('ServerProxy', 'serverproxy1')
+<-PYT:serverproxy1.jira1.login('texttest', 'password')
+->RET:raise socket.gaierror('[Errno -2] Name or service not known')

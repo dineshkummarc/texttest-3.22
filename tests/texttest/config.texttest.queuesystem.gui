@@ -1,0 +1,2 @@
+# We run with command-line PyUseCase (no instrumentation assumed)
+interpreter:storytext -l config -i gtk

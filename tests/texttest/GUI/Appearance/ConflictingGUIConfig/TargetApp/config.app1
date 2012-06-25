@@ -1,0 +1,6 @@
+executable:${TEXTTEST_HOME}/hello.py
+
+[gui_entry_options]
+tests_for_version:1
+tests_for_version:3
+

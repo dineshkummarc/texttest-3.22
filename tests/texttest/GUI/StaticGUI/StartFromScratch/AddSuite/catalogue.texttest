@@ -1,0 +1,10 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------FirstSuite
+------------testsuite.hello
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------testsuite.hello

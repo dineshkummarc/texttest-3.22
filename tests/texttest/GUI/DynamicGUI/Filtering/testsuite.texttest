@@ -1,0 +1,71 @@
+# Save failures to a file
+SaveFailedSelection
+DontShowSuccessful
+
+# Test for selecting rows in the status tab after unchecking visibility.
+SelectionAfterUncheckCheckBoxes
+
+# Copy of DontShowSuccessful
+ComplexFilteringDuringExecution
+DontShowNonStarted
+
+# Check blocking the non-started tests works from the static GUI
+HideNonStartedFromStatic
+
+# Check we can hide not just the top categories, and give the names as present
+HideByNames
+
+# Hide a very specific subcategory
+HideSubCategory
+
+# Copy a test in a subsuite and see what happens if we run with non-started
+HideNonStartedSubSuite
+
+# Various config options hiding categories by default
+DontShowInConfig
+
+# Make sure hiding successful tests doesn't interfere with the collapsing mechanism
+HideAllInConfig
+SelectFailedSave
+
+# Don't show empty suites - also don't show pending or running tests. This causes the treeview to disappear and come back, which is somewhat critical, code-wise.
+DontShowEmptySuites
+
+# Progress tab with multiple differences: tests visible when all files visible
+HideAllFiles
+
+# Progress tab: hide a test only when all files are hidden
+MultipleDiffsDontHide
+
+# Make sure Text Info is updated properly if we hide the running state only for a single test
+OneTestHideRunning
+
+# Make sure we don't "select" the test invisibly if it's supposed to be hidden at the start
+OneTestHideNonStarted
+
+# Check we can hide unrunnable tests without weird effects
+HideUnrunnable
+
+# Check what happens if we hide a category of tests while some are still being read
+HideTestsDuringRead
+
+# Make sure the selection count is right if we select the same test via multiple categories
+SelectMultipleCategories
+
+# Test for Bugzilla 40185 where tests were incorrectly thought to be collapsed due to looking at the wrong row
+CollapsedRowBug
+
+# Check we can hide selected tests, and show all tests, and that it doesn't interfere with the settings in the status tab
+HideSelected
+
+# Test marking tests in various ways
+MarkTest
+
+# Test marking and unmarking tests in various ways
+UnmarkTest
+
+# Test marking and unmarking tests in various ways
+UnmarkTestComplex
+
+# This caused a crash, make sure we think of something
+MarkAsMarked

@@ -1,0 +1,2 @@
+TEXTTEST_XVFB_WAIT:5
+DISPLAY:realdisplay_machine:1234.0

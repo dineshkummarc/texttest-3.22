@@ -1,0 +1,3 @@
+[python]
+intercepts = time.sleep,socket
+ignore_callers = sleep,engine,coverage

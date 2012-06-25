@@ -1,0 +1,20 @@
+Using Application HELLO, version v1
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.gui.gui.10Sep140631.18467/texttest.gui/TestSelf/ReconnectTests/GUI/SubVersions/texttesttmp/dynamic_gui.v1.13Apr105512.5743/hello.v1
+Using Application HELLO, version v1.12Apr152326
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.gui.gui.10Sep140631.18467/texttest.gui/TestSelf/ReconnectTests/GUI/SubVersions/texttesttmp/dynamic_gui.v1.12Apr152326.93532/hello.v1
+Using Application HELLO, version v1.v2.13Apr104321
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.gui.gui.10Sep140631.18467/texttest.gui/TestSelf/ReconnectTests/GUI/SubVersions/texttesttmp/hello.v1.v2.13Apr104321.3824/hello.v1.v2
+Using Application HELLO, version v1.v2.14Jul104621
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.gui.gui.10Sep140631.18467/texttest.gui/TestSelf/ReconnectTests/GUI/SubVersions/texttesttmp/hello.v1.v2.14Jul104621.3824/hello.v1.v2
+Using Application HELLO, version v1.v3
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.gui.gui.10Sep140631.18467/texttest.gui/TestSelf/ReconnectTests/GUI/SubVersions/texttesttmp/hello.v1.v3.13Apr104321.3824/hello.v1.v3
+Reconnecting to HELLO.v1 test-suite TargetApp
+  Reconnecting to HELLO.v1 test-case Test (state success)
+Reconnecting to HELLO.v1.12Apr152326 test-suite TargetApp
+  Reconnecting to HELLO.v1.12Apr152326 test-case Test (state success)
+Reconnecting to HELLO.v1.v2.13Apr104321 test-suite TargetApp
+  Reconnecting to HELLO.v1.v2.13Apr104321 test-case Test (state success)
+Reconnecting to HELLO.v1.v2.14Jul104621 test-suite TargetApp
+  Reconnecting to HELLO.v1.v2.14Jul104621 test-case Test (state failure)
+Reconnecting to HELLO.v1.v3 test-suite TargetApp
+  Reconnecting to HELLO.v1.v3 test-case Test (state success)

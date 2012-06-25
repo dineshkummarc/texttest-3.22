@@ -1,0 +1,4 @@
+# All of this stuff should be ignored when reconnecting
+queue_system_resource:blah
+queue_system_processes:2
+queue_system_submit_args:-extraarg

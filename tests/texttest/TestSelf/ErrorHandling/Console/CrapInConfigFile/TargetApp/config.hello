@@ -1,0 +1,27 @@
+
+crap
+import_config_file:$STANDARD
+
+no_such_entry:crap
+
+[no_such_section]
+crap:crap
+[end]
+
+default_interface:console
+
+# This is meant to be a section
+collate_file:something
+
+# This should warn too...
+[full_name]
+
+[version_priority]
+# This should be an integer...
+my_version:not_a_number
+
+[run_dependent_text]
+output:blah
+
+# We hope to get a warning here, all being well...
+executable:something_else

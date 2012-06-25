@@ -1,0 +1,26 @@
+known bugs=1
+12Oct2010
+HELLO : 1 tests : 1 known bugs
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests had known bugs : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Test : bug FAK-42 (BAD SCRIPT)
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that had known bugs follows...
+--------------------------------------------------------
+TEST had known bugs (bug FAK-42 (BAD SCRIPT)) on gewoia : HELLO test-case Test (under Test)
+Failed to communicate with 'http://www.myjirasite.com/rpc/xmlrpc': [Errno -2] Name or service not known.
+
+Please make sure that the configuration entry 'bug_system_location' points to a correct location of a Jira version 3.x installation. The current value is 'http://www.myjirasite.com'.
+---------- Differences in output ----------
+1c1
+< Hello world
+---
+> Hello after 5 seconds
+

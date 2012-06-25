@@ -1,0 +1,6 @@
+wait for completion of test actions
+select tests in category Failed
+save selected tests in file
+enter filter-file name = failures_from_dynamic
+press save
+quit

@@ -1,0 +1,41 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------Test1
+------------writeabledirs
+----------------catalogue.tdat
+----------------environment.tdat.env
+----------------errors.tdat
+----------------options.tdat
+----------------output.tdat
+----------------somedir
+--------------------readonlyfile2
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------Test1
+
+The following existing files/directories were deleted:
+<Test Directory>
+----TargetApp
+--------Test1
+------------writeabledirs
+----------------otherreadfile
+----------------readfile
+----------------toRemove
+----------------otherdir
+--------------------toRemove
+--------------------writehere
+------------------------readfile
+----------------readdir
+--------------------otherdir
+------------------------readfile
+--------------------somedir
+------------------------readfile
+----------------somedir
+--------------------toEdit
+----------------writehere
+--------------------readfile
+--------------------writeandremovehere
+------------------------readfile

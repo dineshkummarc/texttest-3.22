@@ -1,0 +1,39 @@
+<-CMD:cvs annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/Annotate/TargetApp/Test1/errors.hello
+->OUT:1.2          (geoff    24-Feb-09): Added an extra line
+->ERR:
+Annotations for /carm/proj/texttest-tmp/geoff/texttest.26Feb083540.12919/texttest/GUI/StaticGUI/CVSPlugin/CVSAnnotate/TargetApp/Test1/errors.hello
+***************
+<-CMD:cvs annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/Annotate/TargetApp/Test1/output.hello
+->OUT:1.1          (geoff    19-Feb-09): Hello
+->ERR:
+Annotations for /carm/proj/texttest-tmp/geoff/texttest.26Feb083540.12919/texttest/GUI/StaticGUI/CVSPlugin/CVSAnnotate/TargetApp/Test1/output.hello
+***************
+<-CMD:cvs annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/Annotate/TargetApp/Test1/output.hello.version
+->EXC:1
+<-CMD:cvs annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/Test3/errors.hello
+->ERR:
+Annotations for /carm/proj/texttest-tmp/geoff/texttest.26Feb083540.12919/texttest/GUI/StaticGUI/CVSPlugin/CVSAnnotate/TargetApp/Suite/Subsuite/Test3/errors.hello
+***************
+<-CMD:cvs annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/Test3/output.hello
+->OUT:1.2          (geoff    25-Feb-09): Failure checked in!
+1.2          (geoff    25-Feb-09): 
+->ERR:
+Annotations for /carm/proj/texttest-tmp/geoff/texttest.26Feb083540.12919/texttest/GUI/StaticGUI/CVSPlugin/CVSAnnotate/TargetApp/Suite/Subsuite/Test3/output.hello
+***************
+<-CMD:cvs annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/Test4/errors.hello
+->ERR:cvs annotate: cannot open CVS/Entries for reading: No such file or directory
+->EXC:1
+<-CMD:cvs annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/Test4/output.hello
+->ERR:cvs annotate: cannot open CVS/Entries for reading: No such file or directory
+->EXC:1
+<-CMD:cvs annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/testsuite.hello
+->OUT:1.2          (geoff    26-Feb-09): # In a subsuite - other tests not added in CVS
+1.1          (geoff    19-Feb-09): Test3
+->ERR:
+Annotations for /carm/proj/texttest-tmp/geoff/texttest.26Feb083540.12919/texttest/GUI/StaticGUI/CVSPlugin/CVSAnnotate/TargetApp/Suite/Subsuite/testsuite.hello
+***************
+<-CMD:cvs annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/testsuite.hello
+->OUT:1.1          (geoff    19-Feb-09): Subsuite
+->ERR:
+Annotations for /carm/proj/texttest-tmp/geoff/texttest.26Feb083540.12919/texttest/GUI/StaticGUI/CVSPlugin/CVSAnnotate/TargetApp/Suite/testsuite.hello
+***************

@@ -1,0 +1,5 @@
+<-PYT:import gtk
+<-PYT:gtk.pygtk_version
+->RET:(2, 16, 0)
+<-PYT:import gobject
+->RET:raise exceptions.ImportError('No module named gobject')

@@ -1,0 +1,20 @@
+
+Sometimes we remove line number 2...
+
+Sometimes we remove today's date, 2003-12-01T23:24
+
+We need to be able to match on trailing spaces 
+ and also on leading spaces
+
+Or even several lines at once, like in this table:
+   Here     are     some     columns
+   That    have    spacing   between
+Repeating     3     3     3     3
+
+Sometimes between markers, starting section
+Rant
+Rave Horribly
+Gibber Horribly
+End Section Here
+
+This should always go: "<test write directory>"

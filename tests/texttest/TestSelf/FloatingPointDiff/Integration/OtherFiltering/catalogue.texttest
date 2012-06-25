@@ -1,0 +1,15 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------console.01Sep104546.1032
+------------fpdiff
+----------------Test
+--------------------errors.fpdiff
+--------------------output.fpdiff
+--------------------framework_tmp
+------------------------errors.fpdiffcmp
+------------------------errors.fpdifforigcmp
+------------------------output.fpdiffcmp
+------------------------output.fpdiffcmp.normal
+------------------------output.fpdifforigcmp
+------------------------teststate

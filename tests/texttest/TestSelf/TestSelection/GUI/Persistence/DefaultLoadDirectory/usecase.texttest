@@ -1,0 +1,8 @@
+wait for all tests to be read
+load test selection from file
+look in folder strange_filter_files
+select filter-file word_document.doc
+press load
+load test selection from file
+press load
+quit

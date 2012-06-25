@@ -1,0 +1,7 @@
+Using Application Env Variables
+Running Env Variables test-suite TargetApp
+  Running Env Variables test-suite Suite1
+    Running Env Variables test-case Test1
+Comparing differences for Env Variables test-suite TargetApp
+  Comparing differences for Env Variables test-suite Suite1
+    Comparing differences for Env Variables test-case Test1 (on output.env)

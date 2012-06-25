@@ -1,0 +1,12 @@
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 mkdir -p ${HOME}'/.texttest/tmp/dynamic_gui.29Aug120227.22066/system_under_test'
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 test -e /carm/proj/texttest-tmp/geoff/texttest.gui.29Aug120222.22063/texttest.gui/TestSelf/RunRemotely/DifferentFilesystems/RetrieveFiles/GUI/ViewFilesRemotely/TargetApp/hello.py
+->EXC:1
+<-CMD:scp -Crp -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 /carm/proj/texttest-tmp/geoff/texttest.gui.29Aug120222.22063/texttest.gui/TestSelf/RunRemotely/DifferentFilesystems/RetrieveFiles/GUI/ViewFilesRemotely/TargetApp/hello.py testnet-s16:${HOME}'/.texttest/tmp/dynamic_gui.29Aug120227.22066/system_under_test/hello.py'
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 mkdir -p ${HOME}'/.texttest/tmp/dynamic_gui.29Aug120227.22066/hello/Test'
+<-CMD:scp -Crp -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 /carm/proj/texttest-tmp/geoff/texttest.gui.29Aug120222.22063/texttest.gui/TestSelf/RunRemotely/DifferentFilesystems/RetrieveFiles/GUI/ViewFilesRemotely/texttesttmp/dynamic_gui.29Aug120227.22066/hello/Test/run_test.sh testnet-s16:${HOME}'/.texttest/tmp/dynamic_gui.29Aug120227.22066/hello/Test'
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.gui.29Aug120222.22063/texttest.gui/TestSelf/RunRemotely/DifferentFilesystems/RetrieveFiles/GUI/ViewFilesRemotely/texttesttmp/dynamic_gui.29Aug120227.22066/hello/Test; ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 ${HOME}'/.texttest/tmp/dynamic_gui.29Aug120227.22066/hello/Test/run_test.sh'
+->OUT:Hello World!
+<-CMD:scp -Crp -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16:${HOME}'/.texttest/tmp/dynamic_gui.29Aug120227.22066/hello/Test'/* /carm/proj/texttest-tmp/geoff/texttest.gui.29Aug120222.22063/texttest.gui/TestSelf/RunRemotely/DifferentFilesystems/RetrieveFiles/GUI/ViewFilesRemotely/texttesttmp/dynamic_gui.29Aug120227.22066/hello/Test
+->FIL:Test
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 -Y testnet-s16 emacs ${HOME}/.texttest/tmp/dynamic_gui.29Aug120227.22066/hello/Test/extra.hello
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 rm -rf ${HOME}/.texttest/tmp/dynamic_gui.29Aug120227.22066

@@ -1,0 +1,5 @@
+Using SGE queues for Application HELLO, version resource
+Q: Submitting HELLO.resource test-case Test to default SGE queue
+S: HELLO.resource test-case Test FAILED on kisaumi : missing results for errors,output
+View details(v), Save Version resource(1), Save(s) or continue(any other key)?
+S: HELLO.resource test-case Test not compared:  No file found to load results from under /carm/proj/texttest-tmp/geoff/texttest.sge.28Jul123058.1582/texttest.sge/QueueSystems/SlaveReuse/Master/ForceReuse/Console/ReconnectIgnoreResources/texttesttmp/console.28Jul104553.22544/hello.resource/Suite/Test

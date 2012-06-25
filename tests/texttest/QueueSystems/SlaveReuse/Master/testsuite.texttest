@@ -1,0 +1,5 @@
+# Tests that slow down the queue submission thread to allow reuse anyway, in principle
+AllowRacing
+
+# Tests that use a max capacity of one to force reuse to occur
+ForceReuse

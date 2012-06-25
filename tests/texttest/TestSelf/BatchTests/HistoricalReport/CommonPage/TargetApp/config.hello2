@@ -1,0 +1,27 @@
+executable:${TEXTTEST_HOME}/hello.py
+
+default_interface:console
+
+home_operating_system:posix
+
+batch_recipients:tom,dick,harry
+
+# Add a recognised section with no end marker last, to catch config file bug...
+[gui_entry_overrides]
+add_environment_file:0
+
+# Create a "historical repository" to test that functionality...
+[batch_result_repository]
+self_test:repository
+[end]
+
+[historical_report_location]
+self_test:report
+[end]
+
+[historical_report_page_name]
+self_test:All Known Hello World Programs
+[end]
+
+[historical_report_subpages]
+self_test:Extra Subpage

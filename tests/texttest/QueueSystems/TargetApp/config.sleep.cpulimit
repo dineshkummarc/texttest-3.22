@@ -1,0 +1,2 @@
+# Path to the executable
+executable:${TEXTTEST_HOME}/busywait.py

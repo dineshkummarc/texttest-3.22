@@ -1,0 +1,19 @@
+import_config_file:$STANDARD
+
+# Path to the executable
+executable:${TEXTTEST_HOME}/dumpcore.py
+
+default_interface:console
+
+[collate_file]
+stacktrace:core*
+
+# At the moment the script is actually called interpretcore.py
+# But we fake it anyway and this means the tests will work on Windows...
+[collate_script]
+stacktrace:{CLEAR LIST}
+stacktrace:interpretcore
+
+# Make sure batch files are collectable...
+[batch_use_collection]
+self_test:true

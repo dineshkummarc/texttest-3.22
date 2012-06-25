@@ -1,0 +1,2 @@
+# If tests are hanging, make sure we terminate the virtual display correctly
+KillTest

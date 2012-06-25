@@ -1,0 +1,8 @@
+# Tests that need to be run on every VCS belong here
+General
+
+# Tests that are independent of version control system live here. Only run on CVS right now
+Independent
+
+# Any functionality which only exists in CVS or the CVS plugin
+CvsSpecific

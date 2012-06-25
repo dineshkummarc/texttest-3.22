@@ -1,0 +1,15 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------Test1
+------------input.tdat
+------------somedir
+----------------readonlyfile2
+--------Test2
+------------readonlyfile.v1
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------Test1
+------------readonlyfile

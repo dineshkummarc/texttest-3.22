@@ -1,0 +1,5 @@
+Using Application SLEEP, version startdigit
+Running SLEEP.startdigit test-suite TargetApp
+  Running SLEEP.startdigit test-case 123Test
+Comparing differences for SLEEP.startdigit test-suite TargetApp
+  Comparing differences for SLEEP.startdigit test-case 123Test - SUCCESS! (on errors.sleep,output.sleep)

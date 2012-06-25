@@ -1,0 +1,19 @@
+abandoned=1
+01Oct2007
+SLEEP killing : 1 tests : 1 abandoned
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests were abandoned : 
+In SLEEP.killing test-suite TargetApp:
+  - SLEEP.killing test-case Basic : job deletion failed
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that were abandoned follows...
+--------------------------------------------------------
+TEST were abandoned : SLEEP.killing test-case Basic (under Basic)
+Could not delete test in LSF (job 1): have abandoned it
+

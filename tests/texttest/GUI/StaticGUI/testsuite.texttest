@@ -1,0 +1,32 @@
+# Tests for adding new tests and suites
+AddingNew
+
+# Tests for copy-paste and moving tests and suites
+CopyPaste
+
+# Tests for renaming and changing description of tests and suites
+Renaming
+
+# Tests for removing tests and files
+Removing
+
+# Tests for sorting and repositioning the tests
+Positioning
+
+# Tests to do with the reset button
+Resetting
+
+# Tests for adding new applications via the GUI
+AddingApps
+
+# Tests for checking file properties
+FileProperties
+
+# And the rest
+Miscellaneous
+
+# Tests for starting with no tests (different data)
+StartFromScratch
+
+# Various things for testing refreshing the GUI after loading it. Cheat by overwriting the test suite structure when running a test!
+Refresh

@@ -1,0 +1,26 @@
+# Should just get a textual diff for all files except the one indicated by log_file
+TextDiff
+
+# Fire up a graphical viewer for log_file
+LogFileGraphicalDiff
+
+# Check we can get a sensible viewer up when log_file is new
+NewFileGraphicalViewer
+
+# Don't start graphical tools if files are missing
+MissingFileNoViewer
+
+# Make sure we can send flags to view programs
+FlagsToDiff
+
+# Make sure we can wrap the textual output
+WrapLines
+
+# Make sure we can wrap more than STACKLIMIT times...
+WrapLinesRecursionBug
+
+# Make sure we can handle tools that don't exist
+BadViewers
+
+# Test the file size limit for the usage of text_diff_program
+MaxDiffViewerFileSize

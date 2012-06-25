@@ -1,0 +1,17 @@
+Using Application Env Variables, version clearext
+Running Env Variables.clearext test-suite TargetApp
+  Running Env Variables.clearext test-suite Suite1
+    Running Env Variables.clearext test-case Test1
+Comparing differences for Env Variables.clearext test-suite TargetApp
+  Comparing differences for Env Variables.clearext test-suite Suite1
+    Comparing differences for Env Variables.clearext test-case Test1 - SUCCESS! (on output.env)
+  Running Env Variables.clearext test-case Test2
+  Comparing differences for Env Variables.clearext test-case Test2 (on output.env)
+  Env Variables.clearext test-case Test2 FAILED : differences in output
+  View details(v), Save Version clearext(1), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+3c3
+< EXTERNAL1  NOT DEFINED
+---
+> EXTERNAL1 = value from outside
+  Save Version clearext(1), Save(s) or continue(any other key)?

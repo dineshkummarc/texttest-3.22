@@ -1,0 +1,240 @@
+
+---------- Window 'HELLO.v1 tests (started at 10May13:52:47) - TextTest dynamic GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+  _Kill (Stock image 'gtk-stop', greyed out, accelerator 'Ctrl+Delete', tooltip 'Kill selected tests')
+  _Save (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S', tooltip 'Save results for selected tests')
+  Progress bar set to fraction 0.0, text 'All 0 tests completed at 10May13:52:47'
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected , Details
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 10May13:52:47.' , Image 'throbber_inactive.png'
+-----------------------------------------------------------------------------------------------
+
+Progress bar set to fraction 0.0, text '0 of 1 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (hello.v1) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+
+Progress bar set to fraction 0.0, text '0 of 2 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/2 selected, none hidden , Details
+-> TargetApp (hello.v1) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+-> TargetApp (hello.v1.12Apr152326) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+
+Progress bar set to fraction 0.0, text '0 of 3 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/3 selected, none hidden , Details
+-> TargetApp (hello.v1) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+-> TargetApp (hello.v1.12Apr152326) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+-> TargetApp (hello.v1.v2.13Apr104321) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+
+Progress bar set to fraction 0.0, text '0 of 4 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello.v1) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+-> TargetApp (hello.v1.12Apr152326) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+-> TargetApp (hello.v1.v2.13Apr104321) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+-> TargetApp (hello.v1.v2.14Jul104621) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 4 (white,bold) | Check box (checked)
+
+Progress bar set to fraction 0.0, text '0 of 5 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/5 selected, none hidden , Details
+-> TargetApp (hello.v1) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+-> TargetApp (hello.v1.12Apr152326) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+-> TargetApp (hello.v1.v2.13Apr104321) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+-> TargetApp (hello.v1.v2.14Jul104621) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+-> TargetApp (hello.v1.v3) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 5 (white,bold) | Check box (checked)
+
+Progress bar set to fraction 0.2, text '1 of 5 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/5 selected, none hidden , Details
+-> TargetApp (hello.v1) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.v1.12Apr152326) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+-> TargetApp (hello.v1.v2.13Apr104321) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+-> TargetApp (hello.v1.v2.14Jul104621) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+-> TargetApp (hello.v1.v3) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 4 (white,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Progress bar set to fraction 0.4, text '2 of 5 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/5 selected, none hidden , Details
+-> TargetApp (hello.v1) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.v1.12Apr152326) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.v1.v2.13Apr104321) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+-> TargetApp (hello.v1.v2.14Jul104621) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+-> TargetApp (hello.v1.v3) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 2 (DarkSeaGreen2,bold) | Check box (checked)
+
+Progress bar set to fraction 0.6, text '3 of 5 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/5 selected, none hidden , Details
+-> TargetApp (hello.v1) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.v1.12Apr152326) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.v1.v2.13Apr104321) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.v1.v2.14Jul104621) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+-> TargetApp (hello.v1.v3) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 3 (DarkSeaGreen2,bold) | Check box (checked)
+
+Progress bar set to fraction 0.8, text '4 of 5 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/5 selected, none hidden , Details
+-> TargetApp (hello.v1) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.v1.12Apr152326) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.v1.v2.13Apr104321) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.v1.v2.14Jul104621) (black/white,bold) | (white)
+->   Test (black/salmon) | output different (salmon)
+-> TargetApp (hello.v1.v3) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 3 (DarkSeaGreen2,bold) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+Progress bar set to fraction 1.0, text 'All 5 tests completed at 10May13:52:47'
+
+Updated : Test Tree with columns: Tests: 0/5 selected, none hidden , Details
+-> TargetApp (hello.v1) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.v1.12Apr152326) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.v1.v2.13Apr104321) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.v1.v2.14Jul104621) (black/white,bold) | (white)
+->   Test (black/salmon) | output different (salmon)
+-> TargetApp (hello.v1.v3) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 4 (DarkSeaGreen2,bold) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+Expected application event 'completion of test actions' occurred, proceeding.
+
+'view actions for test' event created with arguments 'Test under TargetApp (hello.v1.v2.14Jul104621)'
+
+No longer greyed out : _Save
+
+Changed selection in Test Tree with columns: Tests: 1/5 selected, none hidden , Details
+-> TargetApp (hello.v1) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.v1.12Apr152326) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.v1.v2.13Apr104321) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.v1.v2.14Jul104621) (black/white,bold) | (white)
+->   Test (black/salmon) | output different (salmon)   ***
+-> TargetApp (hello.v1.v3) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: Test , Details
+-> Comparison Files (bold)
+->   errors.hello (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.hello (salmon) | (salmon)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+Test FAILED :
+---------- Differences in output ----------
+1c1
+< Hello
+---
+> Hello World!
+===============================
+
+---------- Popup Window ----------
+'_Save' (Stock image 'gtk-save', accelerator 'Ctrl+S')
+'Save _As...' (Stock image 'gtk-save', accelerator 'Ctrl+Alt+S')
+  ----
+'_Kill' (Stock image 'gtk-stop', greyed out, accelerator 'Ctrl+Delete')
+'_Mark' (accelerator 'Shift+Ctrl+M')
+'_Unmark' (greyed out, accelerator 'Shift+Ctrl+U')
+  ----
+'_Rerun' (Stock image 'gtk-execute', accelerator 'Ctrl+R')
+'Recompute Status' (Stock image 'gtk-refresh', accelerator 'F5')
+----------------------------------
+
+'save results with non-default settings' event created with arguments ''
+
+---------- Dialog 'Saving 1 tests' ----------
+Default widget is 'gtk-save'
+'Version to save:'
+Text entry (set to '<existing version>') (drop-down list containing ['<existing version>', '<full version>', 'v1.v2', 'v1', 'v2', ''])
+'Version(s) to save previous results as:'
+Text entry
+Check button 'Replace successfully compared files also'
+---------------
+Button 'gtk-save' (Stock image 'gtk-save') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+---------------------------------------------
+
+'press cancel' event created with arguments ''
+
+Changing GUI status to: 'Action cancelled.'
+
+'quit' event created with arguments ''

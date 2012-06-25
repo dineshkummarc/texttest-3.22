@@ -1,0 +1,42 @@
+<-SRV:TextTest slave server started on 10.67.7.13:51971
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.lsf/QueueSystems/ErrorHandling/Console/Killing/JobDisappearsAfterStart/texttesttmp/sleep.killing.19Aug112833.14947/slavelogs; env --unset=USECASE_RECORD_SCRIPT --unset=USECASE_REPLAY_SCRIPT bsub -J Test-Basic-SLEEP.killing -u nobody -o Test-Basic-SLEEP.killing.log -e Test-Basic-SLEEP.killing.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.lsf/QueueSystems/ErrorHandling/Console/Killing/JobDisappearsAfterStart/TargetApp -a sleep.killing -l -tp 'Basic' -slave /carm/proj/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.lsf/QueueSystems/ErrorHandling/Console/Killing/JobDisappearsAfterStart/texttesttmp/sleep.killing.19Aug112833.14947 -servaddr 10.67.7.13:56884 -b short_local""
+->OUT:Job <1> is submitted to queue <fake_machine_queue>.
+<-SRV:Completed submission of all tests
+->CLI:25852
+sleep.killing:Basic
+(idefault
+Running
+p1
+(dp2
+S'category'
+p3
+S'running'
+p4
+sS'freeText'
+p5
+S'Running on fake_machine1'
+p6
+sS'started'
+p7
+I1
+sS'completed'
+p8
+I0
+sS'briefText'
+p9
+S'RUN (fake_machine1)'
+p10
+sS'executionHosts'
+p11
+(lp12
+S'fake_machine1'
+p13
+asS'lifecycleChange'
+p14
+S'start'
+p15
+sb.
+<-CMD:bkill -s USR1 1
+->ERR:No jobs can be deleted today!
+<-CMD:bjobs -a -l 1
+->OUT:Seriously nasty things happened while this test was running!

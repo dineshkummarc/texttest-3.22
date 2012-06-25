@@ -1,0 +1,11 @@
+Using LSF queues for Application SLEEP, version killing2
+Q: Submitting SLEEP.killing2 test-case Basic to default LSF queue
+
+Expected application event 'all tests to be read' occurred, proceeding.
+Expected application event 'test Basic to start' occurred, proceeding.
+
+Generating signal SIGINT
+Terminating testing due to external interruption
+T: Cancelling SLEEP.killing2 test-case Basic in LSF (job 474624)
+S: SLEEP.killing2 test-case Basic were terminated before completion (KILLED) on forestville : differences in output
+View details(v), Save Version killing2(1), Save(s) or continue(any other key)?

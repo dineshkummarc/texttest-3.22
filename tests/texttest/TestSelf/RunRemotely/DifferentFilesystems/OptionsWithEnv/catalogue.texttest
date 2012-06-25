@@ -1,0 +1,17 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------console.08Sep151917.14455
+------------hello
+----------------Test
+--------------------errors.hello
+--------------------kill_test.sh
+--------------------output.hello
+--------------------run_test.sh
+--------------------testdata
+--------------------framework_tmp
+------------------------errors.hellocmp
+------------------------errors.helloorigcmp
+------------------------output.hellocmp
+------------------------output.helloorigcmp
+------------------------teststate

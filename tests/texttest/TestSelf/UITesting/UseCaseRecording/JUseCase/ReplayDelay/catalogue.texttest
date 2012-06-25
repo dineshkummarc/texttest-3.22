@@ -1,0 +1,16 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------console.22Mar104100.28747
+------------gui
+----------------AddMovie
+--------------------errors.gui
+--------------------jusecase.properties
+--------------------output.gui
+--------------------framework_tmp
+------------------------errors.guicmp
+------------------------errors.guiorigcmp
+------------------------output.guicmp
+------------------------output.guiorigcmp
+------------------------teststate
+------------------------usecase.guiorigcmp

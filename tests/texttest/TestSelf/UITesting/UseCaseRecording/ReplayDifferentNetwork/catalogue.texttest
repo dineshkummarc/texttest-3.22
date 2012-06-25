@@ -1,0 +1,21 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------dynamic_gui.29Aug120946.28880
+------------gui
+----------------suite
+--------------------AddMovie
+------------------------errors.gui
+------------------------exitcode.gui
+------------------------kill_test.sh
+------------------------output.gui
+------------------------replay_usecase
+------------------------run_test.sh
+------------------------framework_tmp
+----------------------------errors.guicmp
+----------------------------errors.guiorigcmp
+----------------------------exitcode.guicmp
+----------------------------output.guicmp
+----------------------------output.guiorigcmp
+----------------------------teststate
+----------------------------usecase.guiorigcmp

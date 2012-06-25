@@ -1,0 +1,4 @@
+Using SGE queues for Application HELLO
+Q: Submitting HELLO test-case Test to default SGE queue
+S: HELLO test-case Test FAILED on watsonville : differences in output
+View details(v), Save(s) or continue(any other key)?

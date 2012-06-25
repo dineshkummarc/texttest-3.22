@@ -1,0 +1,4 @@
+<-PYT:import pwd
+<-PYT:import grp
+<-PYT:os.lstat('/carm/proj/texttest-tmp/geoff/texttest.gui.04Nov110231.8382/texttest.gui/GUI/StaticGUI/FileProperties/RemovedFiles/TargetApp/Test/output.hello')
+->RET:raise exceptions.OSError("[Errno 2] No such file or directory: '/carm/proj/texttest-tmp/geoff/texttest.gui.04Nov110231.8382/texttest.gui/GUI/StaticGUI/FileProperties/RemovedFiles/TargetApp/Test/output.hello'")

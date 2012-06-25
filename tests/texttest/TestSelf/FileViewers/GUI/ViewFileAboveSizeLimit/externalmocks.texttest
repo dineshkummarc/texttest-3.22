@@ -1,0 +1,2 @@
+<-CMD:tkdiff /carm/proj/texttest-tmp/geoff/texttest.03Nov104347.4912/texttest/TestSelf/FileViewers/GUI/ViewFileAboveSizeLimit/texttesttmp/dynamic_gui.03Nov104354.4922/hello/Test/framework_tmp/output.helloorigcmp /carm/proj/texttest-tmp/geoff/texttest.03Nov104347.4912/texttest/TestSelf/FileViewers/GUI/ViewFileAboveSizeLimit/texttesttmp/dynamic_gui.03Nov104354.4922/hello/Test/framework_tmp/output.hellocmp
+->EXC:1

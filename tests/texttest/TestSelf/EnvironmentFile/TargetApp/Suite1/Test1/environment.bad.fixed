@@ -1,0 +1,3 @@
+# Dictionary of environment to variables to set in test suite
+VAR1:value1
+VAR2:value2

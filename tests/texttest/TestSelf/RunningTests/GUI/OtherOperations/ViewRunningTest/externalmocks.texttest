@@ -1,0 +1,3 @@
+<-CMD:emacs /carm/proj/texttest-tmp/geoff/dynamic_gui.02Aug155909.24591/texttest.gui/TestSelf/RunningTests/GUI/OtherOperations/ViewRunningTest/texttesttmp/console.02Aug160100.30858/hello/Suite1/Basic/output.hello
+<-CMD:xterm -bg black -fg white -T "File output.hello from test Basic" -e tail -f /carm/proj/texttest-tmp/geoff/dynamic_gui.02Aug155909.24591/texttest.gui/TestSelf/RunningTests/GUI/OtherOperations/ViewRunningTest/texttesttmp/console.02Aug160100.30858/hello/Suite1/Basic/output.hello
+->EXC:-2

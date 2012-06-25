@@ -1,0 +1,3 @@
+Using SGE queues for Application DISP, version sge
+Q: Submitting DISP.sge test-case Test to default SGE queue
+S: DISP.sge test-case Test succeeded on pennsville

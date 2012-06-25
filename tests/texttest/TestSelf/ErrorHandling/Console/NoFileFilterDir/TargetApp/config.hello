@@ -1,0 +1,3 @@
+executable:$STANDARD
+
+default_interface:console

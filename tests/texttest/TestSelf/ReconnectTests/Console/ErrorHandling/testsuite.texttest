@@ -1,0 +1,17 @@
+# Ordered list of tests in test suite. Add as appropriate
+
+
+# What happens if we give a directory that isn't there
+BadDirectory
+
+# What happens if we give a directory that isn't there, but whose name is of the correct form?
+BadDirectoryRightFormat
+
+# Check we can give and expand user names
+BadUserName
+
+# Check what happens when we ask for a version that isn't there
+BadVersion
+
+# Check we respond sensibly if the teststate file is empty
+EmptyStateFile

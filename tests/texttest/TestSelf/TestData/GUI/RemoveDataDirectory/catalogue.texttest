@@ -1,0 +1,24 @@
+
+The following existing files/directories were deleted:
+<Test Directory>
+----TargetApp
+--------Test1
+------------writeabledirs
+----------------otherreadfile
+----------------readfile
+----------------toRemove
+----------------otherdir
+--------------------toRemove
+--------------------writehere
+------------------------readfile
+----------------readdir
+--------------------otherdir
+------------------------readfile
+--------------------somedir
+------------------------readfile
+----------------somedir
+--------------------toEdit
+----------------writehere
+--------------------readfile
+--------------------writeandremovehere
+------------------------readfile

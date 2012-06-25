@@ -1,0 +1,16 @@
+Using SGE queues for Application SLEEP, version killing
+Q: Submitting SLEEP.killing test-case Basic to default SGE queue
+
+Expected application event 'all tests to be read' occurred, proceeding.
+Expected application event 'test Basic to become pending' occurred, proceeding.
+
+Generating signal SIGUSR2
+Terminating testing due to external interruption (RUNLIMIT2)
+T: Cancelling SLEEP.killing test-case Basic in SGE (job 1)
+S: SLEEP.killing test-case Basic not compared:
+SGE job exited
+---------- Full accounting info from SGE ----------
+This job ran several days ago!
+
+Creating batch report for application SLEEP ...
+File written.

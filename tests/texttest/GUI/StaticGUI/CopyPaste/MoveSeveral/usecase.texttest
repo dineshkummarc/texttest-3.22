@@ -1,0 +1,7 @@
+wait for all tests to be read
+set test selection to S02,S03,S05
+cut selected tests
+set test selection to S05
+set test selection to S01
+paste tests from clipboard
+quit

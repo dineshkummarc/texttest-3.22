@@ -1,0 +1,8 @@
+
+[Reported by geoff at 16Aug10:12:13]
+search_string:Harald
+search_file:output
+ignore_other_errors:1
+bug_system:bugzilla
+bug_id:1831
+rerun_count:1

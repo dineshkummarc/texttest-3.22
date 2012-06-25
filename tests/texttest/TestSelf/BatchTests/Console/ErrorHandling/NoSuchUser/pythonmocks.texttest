@@ -1,0 +1,9 @@
+<-PYT:import smtplib
+<-PYT:smtplib.SMTP()
+->RET:Instance('SMTP', 'smtp1')
+<-PYT:smtp1.connect('gotmail1.jeppesensystems.com')
+->RET:(220, 'GOTMAIL1.jeppesensystems.com Microsoft ESMTP MAIL Service, Version: 6.0.3790.3959 ready at  Tue, 12 Oct 2010 15:21:09 +0200')
+<-PYT:smtp1.login('the_user', 'wrong_password')
+->RET:raise Instance('SMTPAuthenticationError(SMTPResponseException, SMTPException, exceptions.Exception)', 'smtpauthenticationerror1')
+<-PYT:smtpauthenticationerror1.__str__()
+->RET:"(535, '5.7.3 Authentication unsuccessful.')"

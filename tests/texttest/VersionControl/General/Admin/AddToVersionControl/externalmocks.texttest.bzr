@@ -1,0 +1,15 @@
+<-CMD:bzr add /nfs/vm/texttest-tmp/geoff/texttest.07May101854.10297/texttest.bzr/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/testsuite.hello
+<-CMD:bzr add /nfs/vm/texttest-tmp/geoff/texttest.07May101854.10297/texttest.bzr/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite
+->OUT:added TargetApp/Suite/Subsuite/Test4
+added TargetApp/Suite/Subsuite/Test4/errors.hello
+added TargetApp/Suite/Subsuite/Test4/output.hello
+ignored 1 file(s).
+If you wish to add some of these files, please add them by name.
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.07May101854.10297/texttest.bzr/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/testsuite.hello
+->OUT:modified:
+  TargetApp/Suite/Subsuite/testsuite.hello
+<-CMD:bzr add /nfs/vm/texttest-tmp/geoff/texttest.07May101854.10297/texttest.bzr/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test2
+<-CMD:bzr add /nfs/vm/texttest-tmp/geoff/texttest.07May101854.10297/texttest.bzr/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test1/errors.hello
+<-CMD:bzr add /nfs/vm/texttest-tmp/geoff/texttest.07May101854.10297/texttest.bzr/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test1/output.hello
+<-CMD:bzr add /nfs/vm/texttest-tmp/geoff/texttest.07May101854.10297/texttest.bzr/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test1/output.hello.version
+->OUT:added TargetApp/Test1/output.hello.version

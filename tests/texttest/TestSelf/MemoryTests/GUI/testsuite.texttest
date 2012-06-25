@@ -1,0 +1,27 @@
+# Do the saves from the GUI instead
+SaveExact
+SaveAverage
+
+# Check test reported correctly in GUI when a new memory file is created
+NewMemoryFile
+
+# Check that a new file of priority 1 causes a failure, when a memory file difference is also present
+NewFileFailure
+
+# Check we can view and save a memory file separately
+SavePartial
+
+# Make sure memory information gets into the run info
+RunInfo
+
+# Due to a bug in GTK2.10 this produced GTK warnings at some point
+InlineEntryCompletion
+
+# See what effect setting a colour for performance differences has
+PerformanceDiffColour
+
+# Make sure performance-like comparisons recompute correctly
+RecomputeMemory
+
+# Test that the category naming is consistent after a reconnect
+ReconnectFailures

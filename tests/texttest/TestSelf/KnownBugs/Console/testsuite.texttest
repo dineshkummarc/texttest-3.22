@@ -1,0 +1,76 @@
+# Check we can describe problems briefly without bugzilla
+BatchReportTextBug
+
+# Check that bugs aren't reported if test succeeds
+BatchSuccessNoBug
+
+# Make sure known bugs are only triggered if the indicated file is different
+OtherFileDiffNoBug
+
+# Check we don't die with nonsense bugs
+BadKnownBugsFile
+
+# Check we don't crash if we get a section we don't understand...
+BadFileNameSection
+
+# Warn if we get two versions of the same section
+DuplicateSection
+
+# Provide an additional known bugs file that takes out the original one
+OverrideBug
+
+# Test that unparseable regular expressions are handled as normal strings
+BadRegularExpression
+
+# Check we can trigger on missing text
+MissingText
+
+# Check that we succeed when the triggering missing text is found
+MissingTextFound
+
+# Check that missing text bugs trigger when the whole file is missing
+MissingTextFileMissing
+
+# Check we don't report bugs if there are other diffs
+MultipleDiffs
+
+# When the appropriate flag is set we should still report even when other diffs are present
+MultipleDiffsIgnore
+
+# When the internal_error flag is set we should still report even when other diffs are present. This is now here to check back-compatibility as there is a separate flag for this now.
+MultipleDiffsIgnoreError
+
+# Make sure we ignore performance differences when deciding whether to trigger a bug
+MultipleDiffsPerformance
+
+# Check we can look at brief_text as well as free_text
+SearchBriefText
+
+# Make sure we can trigger a bug even when the test is successful
+TriggerOnSuccess
+
+# Several bugs where only one marked trigger on success
+SuccessTriggerVaries
+
+# Make sure versioned knownbugs files don't override each other but all apply
+AccumulateVersions
+
+# Make sure we can share knownbugs files between directories
+SharedFile
+
+# Make sure that bugs only apply to tests under the point where they're reported
+ApplyToRightTests
+MigrateFrom3.7
+
+# If several bugs trigger, report the most specific first
+MostSpecificFirst
+
+# If several bugs trigger, report any that are marked as internal errors in preference
+InternalErrorFirst
+
+# Make sure we can cancel an internal error and replace it with a known bug
+ChangePriorities
+
+# Check we can rerun tests if they run into known bugs
+RerunAutomatically
+Reconnect

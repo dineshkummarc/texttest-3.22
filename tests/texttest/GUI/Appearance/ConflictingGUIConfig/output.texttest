@@ -1,0 +1,6 @@
+WARNING: GUI configuration 'auto_sort_test_suites' differs between applications, ignoring that from APP2
+Value was 1, change from 0
+WARNING: GUI configuration 'auto_sort_test_suites' differs between applications, ignoring that from APP2
+Value was 1, change from 0
+WARNING: GUI configuration 'gui_entry_overrides::test_paths_containing' differs between applications, ignoring that from APP2
+Value was 'blah', change from '<not set>'

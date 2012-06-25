@@ -1,0 +1,4 @@
+# Also test comments and blank lines
+
+# This should wipe the options from the parent and start again
+{CLEAR} -testarg1 -testarg2 value

@@ -1,0 +1,11 @@
+Segmentation fault in ___newselect_nocancel
+-------------------------------------------
+(Core file at fakecore)
+(Created by binary /bin/grep)
+Program terminated with signal 11, Segmentation fault.
+Stack trace from GDB :
+___newselect_nocancel () from /lib/tls/libc.so.6
+inittime_the_fake_version () from /usr/lib/python2.2/lib-dynload/timemodule.so
+?? () from /usr/lib/python2.2/lib-dynload/timemodule.so
+?? ()
+(no debugging symbols found)

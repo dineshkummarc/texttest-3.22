@@ -1,0 +1,4 @@
+Using SGE queues for Application SLEEP, version startdigit
+Q: Submitting SLEEP.startdigit test-case 123Test to default SGE queue
+Unexpected output from qsub : Today SGE is feeling talkative
+S: SLEEP.startdigit test-case 123Test succeeded on shelbyville

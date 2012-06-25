@@ -1,0 +1,7 @@
+<-SRV:TextTest slave server started on 10.67.7.13:52705
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.sge/QueueSystems/SlaveReuse/Master/ForceReuse/Signals/CancelBeyondCapacity/texttesttmp/self_test.01Mar141718.11344/slavelogs; env --unset=USECASE_RECORD_SCRIPT --unset=USECASE_REPLAY_SCRIPT qsub -N Test-Test-HELLO -w e -notify -m n -cwd -b y -V -o Test-Test-HELLO.log -e Test-Test-HELLO.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.sge/QueueSystems/SlaveReuse/Master/ForceReuse/Signals/CancelBeyondCapacity/TargetApp -a hello -l -tp 'Test' -slave /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.sge/QueueSystems/SlaveReuse/Master/ForceReuse/Signals/CancelBeyondCapacity/texttesttmp/self_test.01Mar141718.11344 -servaddr 10.67.7.13:54356 -b self_test""
+->OUT:Your job 121427 ("Test-Test-HELLO") has been submitted
+<-SRV:Completed submission of tests up to capacity
+<-CMD:qdel 121427
+->OUT:geoff has deleted job 121427
+<-SRV:Completed submission of all tests

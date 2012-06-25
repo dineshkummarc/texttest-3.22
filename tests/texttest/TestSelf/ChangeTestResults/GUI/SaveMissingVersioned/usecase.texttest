@@ -1,0 +1,14 @@
+wait for all tests to be read
+set test selection to BothDiff
+view options for Running
+enter run this version = 2
+view sub-options for running : Advanced
+check keep temporary write-directories
+run selected tests
+wait for dynamic GUI to be closed
+reconnect to previously run tests
+enter version to reconnect to = 2
+choose use raw data from the original run, but recompute run-dependent text, known bug information etc. for recomputation
+press reconnect
+wait for reconnect GUI to be closed
+quit

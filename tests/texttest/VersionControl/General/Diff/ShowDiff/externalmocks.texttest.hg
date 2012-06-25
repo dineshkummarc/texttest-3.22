@@ -1,0 +1,61 @@
+<-CMD:hg diff -g /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/ShowDiff/TargetApp/Test1/errors.hello
+->OUT:diff --git a/TargetApp/Test1/errors.hello b/TargetApp/Test1/errors.hello
+--- a/TargetApp/Test1/errors.hello
++++ b/TargetApp/Test1/errors.hello
+@@ -1,1 +0,0 @@
+-Added an extra line
+<-CMD:hg diff -g /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/ShowDiff/TargetApp/Test1/output.hello
+<-CMD:hg diff -g /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/ShowDiff/TargetApp/Test1/output.hello.version
+<-CMD:hg diff -g /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/ShowDiff/TargetApp/Test1/output.hello
+<-CMD:hg diff -g /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/ShowDiff/TargetApp/Test1/errors.hello
+->OUT:diff --git a/TargetApp/Test1/errors.hello b/TargetApp/Test1/errors.hello
+--- a/TargetApp/Test1/errors.hello
++++ b/TargetApp/Test1/errors.hello
+@@ -1,1 +0,0 @@
+-Added an extra line
+<-CMD:hg diff -g /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/ShowDiff/TargetApp/Test1/output.hello
+<-CMD:hg diff -g /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/ShowDiff/TargetApp/Test1/output.hello.version
+<-CMD:hg diff -g /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/ShowDiff/TargetApp/Test2/errors.hello
+<-CMD:hg diff -g /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/ShowDiff/TargetApp/Test2/output.hello
+->OUT:diff --git a/TargetApp/Test2/output.hello b/TargetApp/Test2/output.hello
+--- a/TargetApp/Test2/output.hello
++++ b/TargetApp/Test2/output.hello
+@@ -1,1 +1,1 @@
+-Hello current version!
++Hello uncommitted update!
+<-CMD:hg diff -g /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/ShowDiff/TargetApp/Suite/Subsuite/Test3/errors.hello
+<-CMD:hg diff -g /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/ShowDiff/TargetApp/Suite/Subsuite/Test3/output.hello
+->OUT:diff --git a/TargetApp/Suite/Subsuite/Test3/output.hello b/TargetApp/Suite/Subsuite/Test3/output.hello
+--- a/TargetApp/Suite/Subsuite/Test3/output.hello
++++ b/TargetApp/Suite/Subsuite/Test3/output.hello
+@@ -1,2 +1,1 @@
+-Failure checked in!
+-
++Failure created locally!
+<-CMD:tkdiff --help
+->OUT:
+    TkDiff may be started in any of the following ways:
+
+    Interactive selection of files to compare:
+     	tkdiff
+
+    Plain files:
+     	tkdiff FILE1 FILE2
+
+    Plain file with conflict markers:
+     	tkdiff -conflict FILE
+
+    Source control (AccuRev, BitKeeper, CVS, Subversion, Perforce, PVCS,
+      RCS, SCCS, ClearCase)
+     	tkdiff FILE
+	tkdiff -rREV FILE
+	tkdiff -rREV1 -rREV2 FILE
+        tkdiff OLD-URL[@OLDREV] NEW-URL[@NEWREV] (Subversion)
+
+    Additional optional parameters:
+	-a ANCESTORFILE 
+	-o MERGEOUTPUTFILE 
+	-L LEFT_FILE_LABEL [-L RIGHT_FILE_LABEL]
+    
+<-CMD:hg extdiff -p tkdiff /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Diff/ShowDiff/TargetApp/Test2/output.hello
+->EXC:1

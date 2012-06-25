@@ -1,0 +1,5 @@
+wait for all tests to be read, test Test under TargetApp to become pending
+set test selection to Test under TargetApp (hello)
+kill selected tests
+wait for test Test under Suite to become pending, test Test under TargetApp to complete
+quit

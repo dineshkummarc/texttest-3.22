@@ -1,0 +1,27 @@
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameBackAndForth/TargetApp/Test1/errors.hello
+->OUT:M TargetApp/Test1/errors.hello
+<-CMD:hg mv /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameBackAndForth/TargetApp/Test1 /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameBackAndForth/TargetApp/blah
+->FIL:blah
+->FIL:Test1
+->OUT:moving TargetApp/Test1/errors.hello to TargetApp/blah/errors.hello
+moving TargetApp/Test1/output.hello to TargetApp/blah/output.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameBackAndForth/TargetApp/blah/errors.hello
+->OUT:A TargetApp/blah/errors.hello
+<-CMD:hg mv /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameBackAndForth/TargetApp/blah /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameBackAndForth/TargetApp/Test1
+->FIL:Test1.edit_2
+->FIL:blah.edit_2
+->OUT:moving TargetApp/blah/errors.hello to TargetApp/Test1/errors.hello
+moving TargetApp/blah/output.hello to TargetApp/Test1/output.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameBackAndForth/TargetApp/Test1/errors.hello
+->OUT:M TargetApp/Test1/errors.hello
+<-CMD:hg mv /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameBackAndForth/TargetApp/Test1 /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameBackAndForth/TargetApp/blah
+->FIL:blah.edit_3
+->FIL:Test1.edit_3
+->OUT:moving TargetApp/Test1/errors.hello to TargetApp/blah/errors.hello
+moving TargetApp/Test1/output.hello to TargetApp/blah/output.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameBackAndForth/TargetApp/blah/errors.hello
+->OUT:A TargetApp/blah/errors.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameBackAndForth/TargetApp/blah/output.hello
+->OUT:A TargetApp/blah/output.hello
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RenameBackAndForth/TargetApp/blah/output.hello.version
+->OUT:? TargetApp/blah/output.hello.version

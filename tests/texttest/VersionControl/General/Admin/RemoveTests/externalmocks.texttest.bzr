@@ -1,0 +1,14 @@
+<-CMD:bzr rm --force /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RemoveTests/TargetApp/Test1
+->FIL:Test1
+->ERR:deleted TargetApp/Test1/output.hello
+deleted TargetApp/Test1/errors.hello
+removed TargetApp/Test1
+<-CMD:bzr rm --force /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RemoveTests/TargetApp/Suite/Subsuite/Test3
+->FIL:Test3
+->ERR:deleted TargetApp/Suite/Subsuite/Test3/output.hello
+deleted TargetApp/Suite/Subsuite/Test3/errors.hello
+deleted TargetApp/Suite/Subsuite/Test3
+<-CMD:bzr rm --force /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RemoveTests/TargetApp/Suite/Subsuite/Test4
+->FIL:Test4
+->ERR:deleted TargetApp/Suite/Subsuite/Test4/errors.hello.ignored_by_vcs
+TargetApp/Suite/Subsuite/Test4 is not versioned.

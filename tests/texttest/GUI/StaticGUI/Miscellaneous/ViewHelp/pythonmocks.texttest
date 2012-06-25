@@ -1,0 +1,38 @@
+<-PYT:sys.version_info
+->RET:(2, 6, 5, 'final', 0)
+<-PYT:gtk.pygtk_version
+->RET:(2, 16, 0)
+<-PYT:gtk.gtk_version
+->RET:(2, 18, 9)
+<-PYT:gobject.pygobject_version
+->RET:(2, 20, 0)
+<-PYT:gobject.glib_version
+->RET:(2, 22, 5)
+<-PYT:locale.getdefaultlocale()
+->RET:('en_US', 'UTF8')
+<-PYT:sys.version_info
+->RET:(2, 6, 5, 'final', 0)
+<-PYT:gtk.pygtk_version
+->RET:(2, 16, 0)
+<-PYT:gtk.gtk_version
+->RET:(2, 18, 9)
+<-PYT:gobject.pygobject_version
+->RET:(2, 20, 0)
+<-PYT:gobject.glib_version
+->RET:(2, 22, 5)
+<-PYT:locale.getdefaultlocale()
+->RET:('en_US', 'UTF8')
+<-PYT:locale.getdefaultlocale()
+->RET:('en_US', 'UTF8')
+<-PYT:locale.getdefaultlocale()
+->RET:('en_US', 'UTF8')
+<-PYT:locale.getdefaultlocale()
+->RET:('en_US', 'UTF8')
+<-PYT:locale.getdefaultlocale()
+->RET:('en_US', 'UTF8')
+<-PYT:locale.getdefaultlocale()
+->RET:('en_US', 'UTF8')
+<-PYT:locale.getdefaultlocale()
+->RET:('en_US', 'UTF8')
+<-PYT:locale.getdefaultlocale()
+->RET:('en_US', 'UTF8')

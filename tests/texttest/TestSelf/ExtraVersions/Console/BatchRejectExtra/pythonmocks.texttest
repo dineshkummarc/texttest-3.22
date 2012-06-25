@@ -1,0 +1,33 @@
+<-PYT:import smtplib
+<-PYT:smtplib.SMTP()
+->RET:Instance('SMTP', 'smtp1')
+<-PYT:smtp1.connect('localhost')
+->RET:(220, 'hendersonville.carmen.se ESMTP Sendmail 8.13.8/8.13.8; Tue, 9 Feb 2010 15:20:28 +0100')
+<-PYT:smtp1.sendmail('geoff@localhost', ['santa.claus@northpole.com'], '''From: geoff@localhost
+To: santa.claus@northpole.com
+Subject: 09Feb2010 HELLO batch : 4 tests, all successful
+
+HELLO batch : 2 tests, all successful
+HELLO batch.extra1 : 2 tests, all successful
+
+Summary of all Successful tests follows...
+---------------------------------------------------------------------------------
+HELLO batch : 2 tests, all successful
+
+The following tests succeeded : 
+In HELLO.batch test-suite TargetApp:
+  - HELLO.batch test-case Common
+  - HELLO.batch test-case Base
+
+
+HELLO batch.extra1 : 2 tests, all successful
+
+The following tests succeeded : 
+In HELLO.batch.extra1 test-suite TargetApp:
+  - HELLO.batch.extra1 test-case Common
+  - HELLO.batch.extra1 test-case Extra1
+
+
+''')
+->RET:{}
+<-PYT:smtp1.quit()

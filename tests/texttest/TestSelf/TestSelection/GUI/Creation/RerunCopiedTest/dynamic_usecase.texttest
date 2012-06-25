@@ -1,0 +1,7 @@
+wait for completion of test actions
+set test selection to Two under TargetApp (hello.copy_1)
+view actions for test Two under TargetApp (hello.copy_1)
+rerun selected tests
+perform rerun
+wait for rerun GUI to be closed
+quit

@@ -1,0 +1,7 @@
+Using Application MEM
+Running MEM test-suite TargetApp
+  Running MEM test-suite Suite
+    Running MEM test-case Failures
+Comparing differences for MEM test-suite TargetApp
+  Comparing differences for MEM test-suite Suite
+    Comparing differences for MEM test-case Failures (on memory.mem,output.mem)

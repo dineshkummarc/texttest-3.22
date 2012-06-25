@@ -1,0 +1,5 @@
+Using Application SUBDIR
+Running SUBDIR test-suite TargetApp
+  Running SUBDIR test-case Test
+Comparing differences for SUBDIR test-suite TargetApp
+  Comparing differences for SUBDIR test-case Test - SUCCESS! (on catalogue.subdir,errors.subdir,output.subdir,writefile1.subdir,writefile2.subdir,writefile3.subdir)

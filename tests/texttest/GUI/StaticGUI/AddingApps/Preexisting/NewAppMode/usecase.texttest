@@ -1,0 +1,6 @@
+wait for all tests to be read
+enter full name of application = New Hello World
+enter file extension to use for texttest files associated with this application = hellonew
+select executable program to test hello.py
+press define
+quit

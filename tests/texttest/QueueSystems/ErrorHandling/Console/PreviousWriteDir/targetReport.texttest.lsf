@@ -1,0 +1,11 @@
+succeeded=1
+07Feb2008
+SLEEP startdigit : 1 tests, all successful
+
+Summary of all Successful tests follows...
+---------------------------------------------------------------------------------
+The following tests succeeded : 
+In SLEEP.startdigit test-suite TargetApp:
+  - SLEEP.startdigit test-case 123Test
+
+

@@ -1,0 +1,4 @@
+wait for completion of test actions
+set file selection to errors.hello
+save results for selected tests
+quit

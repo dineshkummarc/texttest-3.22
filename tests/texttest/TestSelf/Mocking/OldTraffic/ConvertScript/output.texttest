@@ -1,0 +1,10 @@
+Using Application HELLO
+Converting HELLO
+Wrote file at /home/geoff/.texttest/tmp/texttest.21Jan220556.5397/texttest/TestSelf/Mocking/OldTraffic/ConvertScript/TargetApp/capturemockrc.hello
+Using Application HELLO, version version
+Converting HELLO.version
+Wrote file at /home/geoff/.texttest/tmp/texttest.21Jan220556.5397/texttest/TestSelf/Mocking/OldTraffic/ConvertScript/TargetApp/capturemockrc.hello.version
+Converting HELLO test-case Test
+Wrote file at /home/geoff/.texttest/tmp/texttest.21Jan220556.5397/texttest/TestSelf/Mocking/OldTraffic/ConvertScript/TargetApp/Test/capturemockrc.hello
+Converting HELLO.version test-case Test
+Wrote file at /home/geoff/.texttest/tmp/texttest.21Jan220556.5397/texttest/TestSelf/Mocking/OldTraffic/ConvertScript/TargetApp/Test/capturemockrc.hello.version

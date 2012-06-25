@@ -1,0 +1,13 @@
+#!/bin/sh
+
+cd ${HOME}'/.texttest/tmp/dynamic_gui.10Nov214820.28694/gui/suite/AddMovie'
+PATH=${HOME}'/.texttest/tmp/dynamic_gui.10Nov214820.28694/gui/suite/AddMovie:'${PATH}
+export PATH
+STORYTEXT_HOME=${HOME}'/.texttest/tmp/dynamic_gui.10Nov214820.28694/storytext_files'
+export STORYTEXT_HOME
+USECASE_RECORD_SCRIPT=${HOME}'/.texttest/tmp/dynamic_gui.10Nov214820.28694/gui/suite/AddMovie/usecase.gui'
+export USECASE_RECORD_SCRIPT
+USECASE_REPLAY_SCRIPT=${HOME}'/.texttest/tmp/dynamic_gui.10Nov214820.28694/gui/suite/AddMovie/replay_usecase'
+export USECASE_REPLAY_SCRIPT
+echo "kill $$" > kill_test.sh
+exec storytext ${HOME}/.texttest/tmp/dynamic_gui.10Nov214820.28694/system_under_test/source_with_pyc/videostore.py

@@ -1,0 +1,22 @@
+Using SGE queues for Application HELLO
+Using SGE queues for Application HELLO2
+Q: Submitting HELLO test-case Test to default SGE queue
+S: HELLO test-case Test not compared:
+Failed to submit to SGE (Unable to run job: unknown resource "no_such_resource".)
+Submission command was 'qsub -N Test-Test-HELLO -l no_such_resource -w e -notify -m n -cwd -b y -V -o Test-Test-HELLO.log -e Test-Test-HELLO.errors ... '
+
+Q: Submitting HELLO2 test-case Test to default SGE queue
+S: HELLO2 test-case Test not compared:
+Failed to submit to SGE (Unable to run job: unknown resource "no_such_resource".)
+Submission command was 'qsub -N Test-Test-HELLO2 -l no_such_resource -w e -notify -m n -cwd -b y -V -o Test-Test-HELLO2.log -e Test-Test-HELLO2.errors ... '
+
+Q: Submitting HELLO2 test-case Test_copy to default SGE queue
+S: HELLO2 test-case Test_copy not compared:
+Failed to submit to SGE (Unable to run job: unknown resource "no_such_resource".)
+Submission command was 'qsub -N Test-Test_copy-HELLO2 -l no_such_resource -w e -notify -m n -cwd -b y -V -o Test-Test_copy-HELLO2.log -e Test-Test_copy-HELLO2.errors ... '
+
+Q: Submitting HELLO test-case Test_copy to default SGE queue
+S: HELLO test-case Test_copy not compared:
+Failed to submit to SGE (Unable to run job: unknown resource "no_such_resource".)
+Submission command was 'qsub -N Test-Test_copy-HELLO -l no_such_resource -w e -notify -m n -cwd -b y -V -o Test-Test_copy-HELLO.log -e Test-Test_copy-HELLO.errors ... '
+

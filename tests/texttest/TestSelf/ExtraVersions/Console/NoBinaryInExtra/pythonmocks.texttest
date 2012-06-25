@@ -1,0 +1,20 @@
+<-PYT:import smtplib
+<-PYT:smtplib.SMTP()
+->RET:Instance('SMTP', 'smtp1')
+<-PYT:smtp1.connect('localhost')
+->RET:(220, 'batesville.carmen.se ESMTP Sendmail 8.13.8/8.13.8; Tue, 9 Feb 2010 15:20:27 +0100')
+<-PYT:smtp1.sendmail('geoff@localhost', ['santa.claus@northpole.com'], '''From: geoff@localhost
+To: santa.claus@northpole.com
+Subject: 09Feb2010 HELLO badbinextra : 2 tests, all successful
+
+Summary of all Successful tests follows...
+---------------------------------------------------------------------------------
+The following tests succeeded : 
+In HELLO.badbinextra test-suite TargetApp:
+  - HELLO.badbinextra test-case Common
+  - HELLO.badbinextra test-case Base
+
+
+''')
+->RET:{}
+<-PYT:smtp1.quit()

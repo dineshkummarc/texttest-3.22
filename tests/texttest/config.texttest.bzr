@@ -1,0 +1,8 @@
+base_version:vcs
+
+link_test_path:.bzr
+link_test_path:.bzrignore
+
+[run_dependent_text]
+# Because of the softlink workaround...
+externalmocks:bzr add .*/TargetApp{REPLACE bzr add <test write dir>/TargetApp}

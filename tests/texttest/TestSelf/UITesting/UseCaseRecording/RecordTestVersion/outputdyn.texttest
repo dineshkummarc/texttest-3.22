@@ -1,0 +1,5 @@
+Using Application VideoStore, version version, checkout /carm/proj/texttest-tmp/geoff/texttest.02Jun134524.952/texttest/TestSelf/UITesting/UseCaseRecording/RecordTestVersion/TargetApp/source_with_pyc
+Running VideoStore.version test-suite TargetApp
+  Running VideoStore.version test-case t1
+Comparing differences for VideoStore.version test-suite TargetApp
+  Comparing differences for VideoStore.version test-case t1 (on errors.gui,output.gui,usecase.gui)

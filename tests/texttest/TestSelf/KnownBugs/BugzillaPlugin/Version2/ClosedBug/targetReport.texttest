@@ -1,0 +1,33 @@
+internal errors=1
+05Feb2010
+HELLO : 1 tests : 1 internal errors
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests had internal errors : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Test : bug 42 (CLOSED)
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that had internal errors follows...
+--------------------------------------------------------
+TEST had internal errors (bug 42 (CLOSED)) on gewoia : HELLO test-case Test (under Test)
+******************************************************
+BugId: 42          Assigned: 265
+Severity: enhancement  Status: CLOSED
+Priority: 4     Created: 2003-04-14 11:54:32
+Component: hello
+Summary: Not greeting the world properly
+Description:
+
+It's meant to be a hello world program!
+******************************************************
+---------- Differences in output ----------
+1c1
+< Hello world
+---
+> Hello after 5 seconds
+

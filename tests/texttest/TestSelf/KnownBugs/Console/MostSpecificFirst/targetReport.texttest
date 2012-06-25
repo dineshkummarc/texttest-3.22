@@ -1,0 +1,24 @@
+known bugs=1
+22Jan2010
+HELLO textinfile : 1 tests : 1 known bugs
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests had known bugs : 
+In HELLO.textinfile test-suite TargetApp:
+  - HELLO.textinfile test-case Test : Delay bug
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that had known bugs follows...
+--------------------------------------------------------
+TEST had known bugs (Delay bug) on painesville : HELLO.textinfile test-case Test (under Test)
+Known problem with delay
+---------- Differences in output ----------
+1c1
+< Hello world
+---
+> Hello after 5 seconds
+

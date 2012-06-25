@@ -1,0 +1,32 @@
+# Test for collecting batch files
+CollectAll
+
+# Don't refuse to collect things if the binary can't be found!
+CollectAllNoBinary
+
+# Just collect tests for a single application
+SingleApp
+
+# Just collect tests for a single version of a single application
+SingleAppOneVersion
+
+# Don't collect tests for other sessions than the one specified
+WrongSession
+
+# Make sure that when there isn't anything to collect, we don't send spurious stuff
+CollectNothing
+
+# Check this feature works with collection
+MailOnFailureOnly
+
+# Check we send mail if some tests fail
+SendMailOnFailure
+
+# We don't want to include runs older than batch_collect_max_age_days
+IgnoreOldRuns
+
+# Check we can tell the collection to know what to expect
+CompulsoryVersions
+
+# Check that compulsory versions that also appear in the command line don't cause erroneous missing reports
+CompulsoryVersionsInCmdLine

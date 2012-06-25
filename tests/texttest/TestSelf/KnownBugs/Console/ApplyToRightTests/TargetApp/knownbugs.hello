@@ -1,0 +1,7 @@
+
+[Reported by geoff at 21Aug16:02:19]
+search_string:Baby
+search_file:output
+full_description:Supposed to say Baby!
+brief_description:Baby!
+trigger_on_absence:1

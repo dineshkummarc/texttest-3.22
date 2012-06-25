@@ -1,0 +1,24 @@
+known bugs=1
+22Jan2010
+HELLO : 1 tests : 1 known bugs
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests had known bugs : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Test : bug FAK-42 (LOGIN FAILED)
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that had known bugs follows...
+--------------------------------------------------------
+TEST had known bugs (bug FAK-42 (LOGIN FAILED)) on batesville : HELLO test-case Test (under Test)
+java.lang.Exception: com.atlassian.jira.rpc.exception.RemoteAuthenticationException: Invalid username or password.
+---------- Differences in output ----------
+1c1
+< Hello world
+---
+> Hello after 5 seconds
+

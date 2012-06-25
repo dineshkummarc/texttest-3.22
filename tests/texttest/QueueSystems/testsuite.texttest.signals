@@ -1,0 +1,8 @@
+# Tests for handling the various limits queue systems tend to impose
+Limits
+
+# Tests for reusing the slaves for several tests
+SlaveReuse
+
+# Various error conditions
+ErrorHandling

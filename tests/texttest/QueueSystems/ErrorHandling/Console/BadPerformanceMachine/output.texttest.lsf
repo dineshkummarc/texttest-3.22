@@ -1,0 +1,11 @@
+Using LSF queues for Application SLEEP, version badperfmachine
+Q: Submitting SLEEP.badperfmachine test-case Basic to default LSF queue
+S: SLEEP.badperfmachine test-case Basic not compared:
+Failed to submit to LSF (no_such_machine: Bad host name, host group name or cluster name. Job not submitted.)
+Submission command was 'bsub -J Test-Basic-SLEEP.badperfmachine -m no_such_machine no_such_machine2 -u nobody -o Test-Basic-SLEEP.badperfmachine.log -e Test-Basic-SLEEP.badperfmachine.errors ... '
+
+Q: Submitting SLEEP.badperfmachine test-case Basic2 to default LSF queue
+S: SLEEP.badperfmachine test-case Basic2 not compared:
+Failed to submit to LSF (no_such_machine: Bad host name, host group name or cluster name. Job not submitted.)
+Submission command was 'bsub -J Test-Basic2-SLEEP.badperfmachine -m no_such_machine no_such_machine2 -u nobody -o Test-Basic2-SLEEP.badperfmachine.log -e Test-Basic2-SLEEP.badperfmachine.errors ... '
+

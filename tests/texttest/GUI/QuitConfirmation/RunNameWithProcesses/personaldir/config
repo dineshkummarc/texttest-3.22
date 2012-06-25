@@ -1,0 +1,3 @@
+[query_kill_processes]
+dynamic:.*
+[end]

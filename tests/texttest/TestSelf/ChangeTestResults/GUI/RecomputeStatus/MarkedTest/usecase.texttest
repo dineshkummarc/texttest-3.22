@@ -1,0 +1,12 @@
+wait for completion of test actions
+view actions for test OutDiff under TargetApp (hello.4)
+mark the selected tests
+press ok
+view actions for test OutDiff under TargetApp (hello.2)
+save results with non-default settings
+enter version to save = 
+press ok
+view actions for test OutDiff under TargetApp (hello.4)
+recompute test status, including progress information if appropriate
+unmark the selected tests
+quit

@@ -1,0 +1,9 @@
+Using Application HELLO, version arrows
+Running HELLO.arrows test-suite TargetApp
+  Running HELLO.arrows test-case Test1
+Comparing differences for HELLO.arrows test-suite TargetApp
+  Comparing differences for HELLO.arrows test-case Test1 (on errors.hello,output.hello)
+  Running HELLO.arrows test-case Test1_copy
+  Comparing differences for HELLO.arrows test-case Test1_copy (on errors.hello,output.hello.arrows)
+  Running HELLO.arrows test-case Test2
+  Comparing differences for HELLO.arrows test-case Test2 (on errors.hello,output.hello)

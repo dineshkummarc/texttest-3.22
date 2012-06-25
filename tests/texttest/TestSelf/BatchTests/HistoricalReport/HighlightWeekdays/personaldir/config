@@ -1,0 +1,11 @@
+historical_report_subpages:Weekend
+
+[historical_report_subpage_weekdays]
+Weekend:friday
+Weekend:saturday
+Weekend:sunday
+
+[historical_report_colours]
+run_friday_fg:red
+run_saturday_fg:red
+run_sunday_fg:red

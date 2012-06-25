@@ -1,0 +1,15 @@
+wait for all tests to be read
+load test selection from file
+select filter-file failures.hello
+press load
+hide test suite TargetApp (hello)
+load test selection from file
+select filter-file metafail.hello
+press load
+enter tests listed in file = this_should_remain
+check select in collapsed suites
+hide test suite TargetApp (hello)
+load test selection from file
+select filter-file failures.hello
+press load
+quit

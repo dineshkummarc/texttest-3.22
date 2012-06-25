@@ -1,0 +1,5 @@
+Using Application HELLO, version unsaveable
+Running HELLO.unsaveable test-suite TargetApp
+  Running HELLO.unsaveable test-case OutDiff
+Comparing differences for HELLO.unsaveable test-suite TargetApp
+  Comparing differences for HELLO.unsaveable test-case OutDiff (on errors.hello,output.hello)

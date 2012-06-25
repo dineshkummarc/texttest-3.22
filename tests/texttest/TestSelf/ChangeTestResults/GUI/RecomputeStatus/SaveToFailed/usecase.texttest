@@ -1,0 +1,10 @@
+wait for completion of test actions
+set test selection to Test under TargetApp (hello)
+save results for selected tests
+set test selection to Test under TargetApp (hello.extra)
+save results for selected tests
+show test suite TargetApp (hello)
+set test selection to Test under TargetApp (hello)
+show actions menu
+recompute test status, including progress information if appropriate
+quit

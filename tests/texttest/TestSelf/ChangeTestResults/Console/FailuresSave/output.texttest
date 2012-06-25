@@ -1,0 +1,27 @@
+Using Application HELLO
+Running HELLO test-suite TargetApp
+  Running HELLO test-case OutDiff
+Comparing differences for HELLO test-suite TargetApp
+  Comparing differences for HELLO test-case OutDiff (on errors.hello,output.hello)
+  HELLO test-case OutDiff FAILED : differences in output
+  View details(v), Save(s) or continue(any other key)?
+  Saving HELLO test-case OutDiff 
+  Running HELLO test-case Success
+  Comparing differences for HELLO test-case Success - SUCCESS! (on errors.hello,output.hello)
+  Running HELLO test-case BothDiff
+  Comparing differences for HELLO test-case BothDiff (on errors.hello,output.hello)
+  HELLO test-case BothDiff FAILED : differences in errors,output
+  View details(v), Save(s) or continue(any other key)?
+---------- Differences in errors ----------
+0a1
+> Error text
+---------- Differences in output ----------
+0a1
+> Hello World!
+  Save(s) or continue(any other key)?
+  Saving HELLO test-case BothDiff 
+  Running HELLO test-case ErrDiff
+  Comparing differences for HELLO test-case ErrDiff (on errors.hello,output.hello)
+  HELLO test-case ErrDiff FAILED : differences in errors
+  View details(v), Save(s) or continue(any other key)?
+  Saving HELLO test-case ErrDiff 

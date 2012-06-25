@@ -1,0 +1,22 @@
+Parse failure from both GDB and DBX
+-----------------------------------
+(Core file at fakecore)
+(Created by binary /bin/grep)
+GDB backtrace command failed : Stack trace not produced for crash
+Errors from GDB:
+"/nfs/vm/matador/carmusrs/carmen_8.0_deliver/RD_ib_cas_v8_user/crc_cas/source/Matador_CO": not in executable format: File format not recognized
+
+warning: Couldn't find general-purpose registers in core file.
+
+
+warning: Wrong size fpregset in core file.
+
+warning: Couldn't find general-purpose registers in core file.
+
+
+warning: Wrong size fpregset in core file.
+DBX backtrace command failed : Stack trace not produced for crash
+Errors from DBX:
+File format not recognised
+
+

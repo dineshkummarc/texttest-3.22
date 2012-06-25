@@ -1,0 +1,45 @@
+internal errors=1
+09Feb2010
+HELLO : 1 tests : 1 internal errors
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests had internal errors : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Test : bug 42 (CLOSED)
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that had internal errors follows...
+--------------------------------------------------------
+TEST had internal errors (bug 42 (CLOSED)) on juliaca : HELLO test-case Test (under Test)
+******************************
+Summary: Regression test of the contents of the patch tar-files needed
+Bug Status: CLOSED
+
+Assigned to: 9
+Bug severity: normal
+Component: buildenv
+Component id: 1
+Creation ts: 2002.10.14 15:23
+Delta ts: 2002-10-21 11:27:38
+Dup id: 33
+Everconfirmed: 1
+Priority: 3
+Product: SACM
+Product id: 4
+Reporter id: 6
+Resolution: DUPLICATE
+Status: {'is_open': 0, 'value': 'CLOSED', 'sortkey': 500, 'id': 5}
+******************************
+
+View bug 42 using bugzilla URL=http://bugzilla.mysite.com/show_bug.cgi?id=42
+
+---------- Differences in output ----------
+1c1
+< Hello world
+---
+> Hello after 5 seconds
+

@@ -1,0 +1,7 @@
+Using Application HELLO, version version
+Running HELLO.version test-suite TargetApp
+  Running HELLO.version test-case Test
+Comparing differences for HELLO.version test-suite TargetApp
+  Comparing differences for HELLO.version test-case Test (on errors.hello,output.hello)
+  HELLO.version test-case Test FAILED : differences in output
+  View details(v), Save Version version(1), Save(s) or continue(any other key)?

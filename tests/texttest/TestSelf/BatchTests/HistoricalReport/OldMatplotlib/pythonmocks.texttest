@@ -1,0 +1,3 @@
+<-PYT:import matplotlib
+<-PYT:matplotlib.__version__
+->RET:'0.87.6'

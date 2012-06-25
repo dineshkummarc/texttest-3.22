@@ -1,0 +1,2 @@
+wait for all tests to be read, test Test under TargetApp to become pending
+receive signal SIGUSR2

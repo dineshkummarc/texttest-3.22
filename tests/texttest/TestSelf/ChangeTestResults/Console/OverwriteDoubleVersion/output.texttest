@@ -1,0 +1,20 @@
+Using Application HELLO, version 2
+Using Application HELLO, version 3
+Running HELLO.2 test-suite TargetApp
+  Running HELLO.2 test-case OutDiff
+Comparing differences for HELLO.2 test-suite TargetApp
+  Comparing differences for HELLO.2 test-case OutDiff (on errors.hello,output.hello)
+  HELLO.2 test-case OutDiff FAILED : differences in output
+---------- Differences in output ----------
+0a1
+> Hello World!
+  Saving HELLO.2 test-case OutDiff version 2 (exact) 
+Running HELLO.3 test-suite TargetApp
+  Running HELLO.3 test-case OutDiff
+Comparing differences for HELLO.3 test-suite TargetApp
+  Comparing differences for HELLO.3 test-case OutDiff (on errors.hello,output.hello)
+  HELLO.3 test-case OutDiff FAILED : differences in output
+---------- Differences in output ----------
+0a1
+> Hello World!
+  Saving HELLO.3 test-case OutDiff version 3 (exact) 

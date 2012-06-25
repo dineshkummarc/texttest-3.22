@@ -1,0 +1,2 @@
+# Test needs to take long enough that Xvfb has time to crash :)
+SLEEP_TIME:1

@@ -1,0 +1,8 @@
+# Make sure we reuse the slave correctly
+BasicReuse
+
+# Make sure we don't reuse a slave that required different resources
+RespectResources
+
+# Make sure we don't reuse a slave that required different parallel settings
+RespectParallel

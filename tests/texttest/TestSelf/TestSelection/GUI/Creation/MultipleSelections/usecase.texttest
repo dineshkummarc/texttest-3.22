@@ -1,0 +1,13 @@
+wait for all tests to be read
+enter test names containing = e
+select indicated tests
+choose refine for current selection
+enter test names containing = n
+select indicated tests
+choose extend for current selection
+enter test names containing = o
+select indicated tests
+choose exclude for current selection
+enter test names containing = e
+select indicated tests
+quit

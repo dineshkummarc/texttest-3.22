@@ -1,0 +1,35 @@
+# Check for nice second column appearing here too...
+RegisterFailure
+
+# Check we can disable TextTest's normalisation of percentages...
+PercentagesNotNormalised
+
+# Check we get sensible units in the static GUI for performance data
+ViewPerformanceData
+
+# Make sure we can reconnect sensibly to performance failures
+ReconnectFailure
+
+# Test the '-r' flag: i.e. make sure we can select based on performance
+SelectOnPerformance
+
+# Copy of SelectOnPerformance
+SelectOnPerformance2
+
+# More ways to select performance...
+SelectOnPerformance3
+
+# Also make sure we can e.g. check the fastest and slowest tests
+SelectFastestAndSlowest
+
+# If there aren't any performance files, select just ones where there are
+SelectFastestPerfMissing
+
+# Check that having performance tolerance set to 0 doesn't cause recursion in the status view!
+ZeroTolerance
+
+# Set a colour for "slower"
+ChangeColour
+
+# Check we can handle this in the GUI also
+BadPerformanceFilter

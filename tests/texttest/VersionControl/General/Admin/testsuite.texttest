@@ -1,0 +1,29 @@
+# Check that renaming handles version control appropriately
+RenameTest
+
+# Check that renaming files affects version control correctly
+RenameFile
+
+# Check we can change a name back to the previous one
+RenameBackAndForth
+
+# Check that moving to different suites handles version control appropriately
+MoveTest
+
+# Moving a whole suite has been known to interact badly with version control
+MoveSuite
+
+# It's fairly common to create a new suite and move existing suites to it. Would be nice if TextTest understood that it needed to add the parent suite for this to work. Mercurial does this automatically, but not the others.
+MoveToUnversionedSuite
+
+# Make sure copying a test works and doesn't copy control dirs
+CopyTest
+
+# Make sure removing goes via the VCS
+RemoveTests
+
+# Make sure removing goes via the VCS
+RemoveFiles
+
+# Check we can add a test to version control as appropriate
+AddToVersionControl

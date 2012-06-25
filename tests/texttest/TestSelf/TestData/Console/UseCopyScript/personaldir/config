@@ -1,0 +1,2 @@
+[copy_test_path_script]
+writeabledirs:python ${TEXTTEST_PERSONAL_CONFIG}/copy_strangely.py

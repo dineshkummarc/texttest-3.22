@@ -1,0 +1,19 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------self_test.01Jun095451.16804
+------------batchreport.core
+------------core
+----------------DumpCore
+--------------------core
+--------------------errors.core
+--------------------output.core
+--------------------stacktrace.core
+--------------------framework_tmp
+------------------------errors.corecmp
+------------------------errors.coreorigcmp
+------------------------output.corecmp
+------------------------output.coreorigcmp
+------------------------stacktrace.collate_errs
+------------------------stacktrace.corecmp
+------------------------teststate

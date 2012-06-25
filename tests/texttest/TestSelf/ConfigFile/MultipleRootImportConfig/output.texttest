@@ -1,0 +1,14 @@
+Using Application HELLO
+Using Application HELLO2
+Running HELLO test-suite TargetApp
+  Running HELLO test-case Test
+Comparing differences for HELLO test-suite TargetApp
+  Comparing differences for HELLO test-case Test (on errors.hello,output.hello)
+  HELLO test-case Test FAILED : differences in output
+  View details(v), Save(s) or continue(any other key)?
+Running HELLO2 test-suite texttesttmp
+  Running HELLO2 test-case Test
+Comparing differences for HELLO2 test-suite texttesttmp
+  Comparing differences for HELLO2 test-case Test (on errors.hello2,output.hello2)
+  HELLO2 test-case Test FAILED : new results in errors,output
+  View details(v), Save(s) or continue(any other key)?

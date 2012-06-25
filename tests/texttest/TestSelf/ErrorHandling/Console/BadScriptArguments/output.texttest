@@ -1,0 +1,14 @@
+Using Application HELLO
+Unrecognised option 'foo'
+Unrecognised option 'bar'
+Replacing Hello with Goodbye for HELLO test-suite TargetApp
+  Replacing Hello with Goodbye for HELLO test-case Test - file output.hello
+Comparing differences for HELLO test-suite TargetApp
+  Comparing differences for HELLO test-case Test (on output.hello)
+  HELLO test-case Test FAILED : differences in output
+---------- Differences in output ----------
+1c1
+< Hello
+---
+> Goodbye
+  Saving HELLO test-case Test (exact) 

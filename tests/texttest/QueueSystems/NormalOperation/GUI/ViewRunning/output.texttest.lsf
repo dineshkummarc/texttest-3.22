@@ -1,0 +1,3 @@
+Using LSF queues for Application SLEEP, version killing2
+Q: Submitting SLEEP.killing2 test-case Basic to default LSF queue
+T: Cancelling SLEEP.killing2 test-case Basic in LSF (job 471297)

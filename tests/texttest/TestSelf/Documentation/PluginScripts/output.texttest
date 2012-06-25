@@ -1,0 +1,11 @@
+Using Application APPIDENTIFIER
+batch.ArchiveRepository|Archive parts of the batch result repository to a history directory
+batch.CollectFiles|Collect and send all batch reports that have been written to intermediate files
+batch.GenerateGraphs|Generate standalone graphs along the lines of the ones that appear in the HTML report
+batch.GenerateSummaryPage|Generate a summary page which links all the other generated pages
+comparetest.PrintObsoleteVersions|Lists all files with version IDs that are equivalent to a non-versioned file
+default.CountTest|report on the number of tests selected, by application
+default.ExportTests|Export the selected tests to a different test suite
+default.ExtractStandardPerformance|update the standard performance files from the standard log files
+default.ReplaceText|Perform a search and replace on all files with the given stem
+performance.PerformanceStatistics|Prints a report on system resource usage per test. Can compare versions

@@ -1,0 +1,2 @@
+Could not start TextTest trunk GUI due to PyGTK GUI library problems :
+TextTest trunk GUI requires at least PyGTK 2.16.0: found version 2.12.1

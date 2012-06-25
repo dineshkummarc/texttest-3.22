@@ -1,0 +1,700 @@
+<-PYT:import socket
+<-PYT:socket.gethostname()
+->RET:'gewoia'
+<-PYT:socket.AF_INET
+->RET:2
+<-PYT:socket.SOCK_STREAM
+->RET:1
+<-PYT:socket.socket(2, 1)
+->RET:Instance('_socketobject(object)', '_socketobject1')
+<-PYT:_socketobject1.connect(('10.67.7.144', 37678))
+<-PYT:_socketobject1.sendall("""14430
+sleep.startdigit:123Test
+(idefault.rundependent
+Filtering
+p1
+(dp2
+S'category'
+p3
+S'initial_filter'
+p4
+sS'freeText'
+p5
+S'Filtering stored result files on gewoia'
+p6
+sS'started'
+p7
+I0
+sS'completed'
+p8
+I0
+sS'briefText'
+p9
+S''
+sS'executionHosts'
+p10
+(lp11
+S'gewoia'
+p12
+asS'observers'
+p13
+(lp14
+sS'passSelf'
+p15
+I00
+sS'lifecycleChange'
+p16
+S'start initial filtering'
+p17
+sb.""")
+<-PYT:socket.SHUT_WR
+->RET:1
+<-PYT:_socketobject1.shutdown(1)
+<-PYT:_socketobject1.makefile()
+->RET:Instance('_fileobject(object)', '_fileobject1')
+<-PYT:_fileobject1.read()
+->RET:''
+<-PYT:_socketobject1.close()
+<-PYT:socket.socket(2, 1)
+->RET:Instance('_socketobject(object)', '_socketobject2')
+<-PYT:_socketobject2.connect(('10.67.7.144', 37678))
+<-PYT:_socketobject2.sendall("""14430
+sleep.startdigit:123Test
+(idefault.runtest
+Running
+p1
+(dp2
+S'category'
+p3
+S'running'
+p4
+sS'freeText'
+p5
+S'Running on gewoia'
+p6
+sS'started'
+p7
+I1
+sS'completed'
+p8
+I0
+sS'briefText'
+p9
+S'RUN (gewoia)'
+p10
+sS'executionHosts'
+p11
+(lp12
+S'gewoia'
+p13
+asS'observers'
+p14
+(lp15
+sS'passSelf'
+p16
+I00
+sS'lifecycleChange'
+p17
+S'start'
+p18
+sb.""")
+->RET:raise Instance('error(exceptions.IOError)', 'error1')
+<-PYT:error1.__str__()
+->RET:'A Stupid socket error!'
+<-PYT:time.sleep(1)
+<-PYT:socket.socket(2, 1)
+->RET:Instance('_socketobject(object)', '_socketobject3')
+<-PYT:_socketobject3.connect(('10.67.7.144', 37678))
+<-PYT:_socketobject3.sendall("""14430
+sleep.startdigit:123Test
+(idefault.runtest
+Running
+p1
+(dp2
+S'category'
+p3
+S'running'
+p4
+sS'freeText'
+p5
+S'Running on gewoia'
+p6
+sS'started'
+p7
+I1
+sS'completed'
+p8
+I0
+sS'briefText'
+p9
+S'RUN (gewoia)'
+p10
+sS'executionHosts'
+p11
+(lp12
+S'gewoia'
+p13
+asS'observers'
+p14
+(lp15
+sS'passSelf'
+p16
+I00
+sS'lifecycleChange'
+p17
+S'start'
+p18
+sb.""")
+->RET:raise Instance('error(exceptions.IOError)', 'error2')
+<-PYT:error2.__str__()
+->RET:'A Stupid socket error!'
+<-PYT:time.sleep(2)
+<-PYT:socket.socket(2, 1)
+->RET:Instance('_socketobject(object)', '_socketobject4')
+<-PYT:_socketobject4.connect(('10.67.7.144', 37678))
+<-PYT:_socketobject4.sendall("""14430
+sleep.startdigit:123Test
+(idefault.runtest
+Running
+p1
+(dp2
+S'category'
+p3
+S'running'
+p4
+sS'freeText'
+p5
+S'Running on gewoia'
+p6
+sS'started'
+p7
+I1
+sS'completed'
+p8
+I0
+sS'briefText'
+p9
+S'RUN (gewoia)'
+p10
+sS'executionHosts'
+p11
+(lp12
+S'gewoia'
+p13
+asS'observers'
+p14
+(lp15
+sS'passSelf'
+p16
+I00
+sS'lifecycleChange'
+p17
+S'start'
+p18
+sb.""")
+->RET:raise Instance('error(exceptions.IOError)', 'error3')
+<-PYT:error3.__str__()
+->RET:'A Stupid socket error!'
+<-PYT:time.sleep(4)
+<-PYT:socket.socket(2, 1)
+->RET:Instance('_socketobject(object)', '_socketobject1')
+<-PYT:_socketobject1.connect(('10.67.7.144', 37678))
+<-PYT:_socketobject1.sendall("""14430
+sleep.startdigit:123Test
+(idefault.runtest
+Running
+p1
+(dp2
+S'category'
+p3
+S'running'
+p4
+sS'freeText'
+p5
+S'Running on gewoia'
+p6
+sS'started'
+p7
+I1
+sS'completed'
+p8
+I0
+sS'briefText'
+p9
+S'RUN (gewoia)'
+p10
+sS'executionHosts'
+p11
+(lp12
+S'gewoia'
+p13
+asS'observers'
+p14
+(lp15
+sS'passSelf'
+p16
+I00
+sS'lifecycleChange'
+p17
+S'start'
+p18
+sb.""")
+->RET:raise Instance('error(exceptions.IOError)', 'error4')
+<-PYT:error4.__str__()
+->RET:'A Stupid socket error!'
+<-PYT:time.sleep(8)
+<-PYT:socket.socket(2, 1)
+->RET:Instance('_socketobject(object)', '_socketobject1')
+<-PYT:_socketobject1.connect(('10.67.7.144', 37678))
+<-PYT:_socketobject1.sendall("""14430
+sleep.startdigit:123Test
+(idefault.runtest
+Running
+p1
+(dp2
+S'category'
+p3
+S'running'
+p4
+sS'freeText'
+p5
+S'Running on gewoia'
+p6
+sS'started'
+p7
+I1
+sS'completed'
+p8
+I0
+sS'briefText'
+p9
+S'RUN (gewoia)'
+p10
+sS'executionHosts'
+p11
+(lp12
+S'gewoia'
+p13
+asS'observers'
+p14
+(lp15
+sS'passSelf'
+p16
+I00
+sS'lifecycleChange'
+p17
+S'start'
+p18
+sb.""")
+->RET:raise Instance('error(exceptions.IOError)', 'error5')
+<-PYT:error5.__str__()
+->RET:'A Stupid socket error!'
+<-PYT:time.sleep(16)
+<-PYT:socket.socket(2, 1)
+->RET:Instance('_socketobject(object)', '_socketobject1')
+<-PYT:_socketobject1.connect(('10.67.7.144', 37678))
+<-PYT:_socketobject1.sendall("""14430
+sleep.startdigit:123Test
+(idefault.runtest
+Running
+p1
+(dp2
+S'category'
+p3
+S'running'
+p4
+sS'freeText'
+p5
+S'Running on gewoia'
+p6
+sS'started'
+p7
+I1
+sS'completed'
+p8
+I0
+sS'briefText'
+p9
+S'RUN (gewoia)'
+p10
+sS'executionHosts'
+p11
+(lp12
+S'gewoia'
+p13
+asS'observers'
+p14
+(lp15
+sS'passSelf'
+p16
+I00
+sS'lifecycleChange'
+p17
+S'start'
+p18
+sb.""")
+->RET:raise Instance('error(exceptions.IOError)', 'error6')
+<-PYT:error6.__str__()
+->RET:'A Stupid socket error!'
+<-PYT:time.sleep(32)
+<-PYT:socket.socket(2, 1)
+->RET:Instance('_socketobject(object)', '_socketobject1')
+<-PYT:_socketobject1.connect(('10.67.7.144', 37678))
+<-PYT:_socketobject1.sendall("""14430
+sleep.startdigit:123Test
+(idefault.runtest
+Running
+p1
+(dp2
+S'category'
+p3
+S'running'
+p4
+sS'freeText'
+p5
+S'Running on gewoia'
+p6
+sS'started'
+p7
+I1
+sS'completed'
+p8
+I0
+sS'briefText'
+p9
+S'RUN (gewoia)'
+p10
+sS'executionHosts'
+p11
+(lp12
+S'gewoia'
+p13
+asS'observers'
+p14
+(lp15
+sS'passSelf'
+p16
+I00
+sS'lifecycleChange'
+p17
+S'start'
+p18
+sb.""")
+->RET:raise Instance('error(exceptions.IOError)', 'error7')
+<-PYT:error7.__str__()
+->RET:'A Stupid socket error!'
+<-PYT:time.sleep(64)
+<-PYT:socket.socket(2, 1)
+->RET:Instance('_socketobject(object)', '_socketobject1')
+<-PYT:_socketobject1.connect(('10.67.7.144', 37678))
+<-PYT:_socketobject1.sendall("""14430
+sleep.startdigit:123Test
+(idefault.runtest
+Running
+p1
+(dp2
+S'category'
+p3
+S'running'
+p4
+sS'freeText'
+p5
+S'Running on gewoia'
+p6
+sS'started'
+p7
+I1
+sS'completed'
+p8
+I0
+sS'briefText'
+p9
+S'RUN (gewoia)'
+p10
+sS'executionHosts'
+p11
+(lp12
+S'gewoia'
+p13
+asS'observers'
+p14
+(lp15
+sS'passSelf'
+p16
+I00
+sS'lifecycleChange'
+p17
+S'start'
+p18
+sb.""")
+->RET:raise Instance('error(exceptions.IOError)', 'error8')
+<-PYT:error8.__str__()
+->RET:'A Stupid socket error!'
+<-PYT:time.sleep(128)
+<-PYT:socket.socket(2, 1)
+->RET:Instance('_socketobject(object)', '_socketobject1')
+<-PYT:_socketobject1.connect(('10.67.7.144', 37678))
+<-PYT:_socketobject1.sendall("""14430
+sleep.startdigit:123Test
+(idefault.runtest
+Running
+p1
+(dp2
+S'category'
+p3
+S'running'
+p4
+sS'freeText'
+p5
+S'Running on gewoia'
+p6
+sS'started'
+p7
+I1
+sS'completed'
+p8
+I0
+sS'briefText'
+p9
+S'RUN (gewoia)'
+p10
+sS'executionHosts'
+p11
+(lp12
+S'gewoia'
+p13
+asS'observers'
+p14
+(lp15
+sS'passSelf'
+p16
+I00
+sS'lifecycleChange'
+p17
+S'start'
+p18
+sb.""")
+->RET:raise Instance('error(exceptions.IOError)', 'error9')
+<-PYT:error9.__str__()
+->RET:'A Stupid socket error!'
+<-PYT:time.sleep(256)
+<-PYT:error9.__str__()
+->RET:'Connection reset by peer'
+<-PYT:socket.socket(2, 1)
+->RET:Instance('_socketobject(object)', '_socketobject1')
+<-PYT:_socketobject1.connect(('10.67.7.144', 37678))
+<-PYT:_socketobject1.sendall("""14430
+sleep.startdigit:123Test
+(idefault.rundependent
+Filtering
+p1
+(dp2
+S'category'
+p3
+S'final_filter'
+p4
+sS'freeText'
+p5
+S'Filtering and comparing newly generated result files on gewoia'
+p6
+sS'started'
+p7
+I1
+sS'completed'
+p8
+I0
+sS'briefText'
+p9
+S''
+sS'executionHosts'
+p10
+(lp11
+S'gewoia'
+p12
+asS'observers'
+p13
+(lp14
+sS'passSelf'
+p15
+I00
+sS'lifecycleChange'
+p16
+S'start final filtering and comparison'
+p17
+sb.""")
+<-PYT:_socketobject1.shutdown(1)
+<-PYT:_socketobject1.makefile()
+->RET:Instance('_fileobject(object)', '_fileobject1')
+<-PYT:_fileobject1.read()
+->RET:''
+<-PYT:_socketobject1.close()
+<-PYT:socket.socket(2, 1)
+->RET:Instance('_socketobject(object)', '_socketobject1')
+<-PYT:_socketobject1.connect(('10.67.7.144', 37678))
+<-PYT:_socketobject1.sendall("""14430
+sleep.startdigit:123Test
+(idefault.comparetest
+TestComparison
+p1
+(dp2
+S'category'
+p3
+S'success'
+p4
+sS'changedResults'
+p5
+(lp6
+sS'missingResults'
+p7
+(lp8
+sS'freeText'
+p9
+S''
+sS'started'
+p10
+I1
+sS'failedPrediction'
+p11
+NsS'completed'
+p12
+I1
+sS'briefText'
+p13
+S''
+sS'executionHosts'
+p14
+(lp15
+S'gewoia'
+p16
+asS'observers'
+p17
+(lp18
+sS'appAbsPath'
+p19
+S'/carm/proj/texttest-tmp/geoff/texttest.sge.04Nov120440.14415/texttest.sge/QueueSystems/ErrorHandling/SgeOnly/NetworkErrors/MasterResetsConnection/TargetApp'
+p20
+sS'allResults'
+p21
+(lp22
+(idefault.comparefile
+FileComparison
+p23
+(dp24
+S'freeTextBody'
+p25
+NsS'tmpFile'
+p26
+S'/carm/proj/texttest-tmp/geoff/texttest.sge.04Nov120440.14415/texttest.sge/QueueSystems/ErrorHandling/SgeOnly/NetworkErrors/MasterResetsConnection/texttesttmp/console.startdigit.04Nov120455.14430/sleep.startdigit/123Test/errors.sleep'
+p27
+sS'severity'
+p28
+I1
+sS'differenceCache'
+p29
+I0
+sS'stdFile'
+p30
+S'/carm/proj/texttest-tmp/geoff/texttest.sge.04Nov120440.14415/texttest.sge/QueueSystems/ErrorHandling/SgeOnly/NetworkErrors/MasterResetsConnection/TargetApp/123Test/errors.sleep'
+p31
+sS'stdCmpFile'
+p32
+S'/carm/proj/texttest-tmp/geoff/texttest.sge.04Nov120440.14415/texttest.sge/QueueSystems/ErrorHandling/SgeOnly/NetworkErrors/MasterResetsConnection/texttesttmp/console.startdigit.04Nov120455.14430/sleep.startdigit/123Test/framework_tmp/errors.sleeporigcmp'
+p33
+sS'textDiffToolMaxSize'
+p34
+F-1
+sS'previewGenerator'
+p35
+(iplugins
+PreviewGenerator
+p36
+(dp37
+S'maxWidth'
+p38
+I500
+sS'maxLength'
+p39
+I30
+sbsS'tmpCmpFile'
+p40
+S'/carm/proj/texttest-tmp/geoff/texttest.sge.04Nov120440.14415/texttest.sge/QueueSystems/ErrorHandling/SgeOnly/NetworkErrors/MasterResetsConnection/texttesttmp/console.startdigit.04Nov120455.14430/sleep.startdigit/123Test/framework_tmp/errors.sleepcmp'
+p41
+sS'textDiffTool'
+p42
+S'diff'
+p43
+sS'displayPriority'
+p44
+I99
+sS'binaryFile'
+p45
+I00
+sS'stem'
+p46
+S'errors'
+p47
+sba(idefault.comparefile
+FileComparison
+p48
+(dp49
+g25
+Nsg26
+S'/carm/proj/texttest-tmp/geoff/texttest.sge.04Nov120440.14415/texttest.sge/QueueSystems/ErrorHandling/SgeOnly/NetworkErrors/MasterResetsConnection/texttesttmp/console.startdigit.04Nov120455.14430/sleep.startdigit/123Test/output.sleep'
+p50
+sg28
+I1
+sg29
+I0
+sg30
+S'/carm/proj/texttest-tmp/geoff/texttest.sge.04Nov120440.14415/texttest.sge/QueueSystems/ErrorHandling/SgeOnly/NetworkErrors/MasterResetsConnection/TargetApp/123Test/output.sleep'
+p51
+sg32
+g51
+sg34
+F-1
+sg35
+(iplugins
+PreviewGenerator
+p52
+(dp53
+g38
+I500
+sg39
+I30
+sbsg40
+g50
+sg42
+g43
+sg44
+I99
+sg45
+I00
+sg46
+S'output'
+p54
+sbasS'passSelf'
+p55
+I00
+sS'correctResults'
+p56
+(lp57
+g23
+ag48
+asS'lifecycleChange'
+p58
+S'complete'
+p59
+sS'appWriteDir'
+p60
+S'/carm/proj/texttest-tmp/geoff/texttest.sge.04Nov120440.14415/texttest.sge/QueueSystems/ErrorHandling/SgeOnly/NetworkErrors/MasterResetsConnection/texttesttmp/console.startdigit.04Nov120455.14430'
+p61
+sS'newResults'
+p62
+(lp63
+sb.""")
+<-PYT:_socketobject1.shutdown(1)
+<-PYT:_socketobject1.makefile()
+->RET:Instance('_fileobject(object)', '_fileobject1')
+<-PYT:_fileobject1.read()
+->RET:''
+<-PYT:_socketobject1.close()

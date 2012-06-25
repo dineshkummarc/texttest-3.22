@@ -1,0 +1,15 @@
+import_config_file:$STANDARD
+
+executable:$TEXTTEST_HOME/describedir.py
+
+default_interface:console
+
+remote_shell_program:ssh
+
+remote_copy_program:rsync -e /usr/bin/ssh
+
+# Shouldn't try and copy this remotely!
+copy_test_path:foobar
+copy_test_path_merge:datadir
+
+default_machine:testnet-s16

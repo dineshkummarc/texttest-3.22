@@ -1,0 +1,6 @@
+wait for all tests to be read
+set test selection to Test
+view actions for file output.rdt
+test the run-dependent text filtering
+close file-viewing window
+quit

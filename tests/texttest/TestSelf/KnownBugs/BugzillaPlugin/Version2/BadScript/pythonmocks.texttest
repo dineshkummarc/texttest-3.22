@@ -1,0 +1,5 @@
+<-PYT:import urllib2
+<-PYT:urllib2.urlopen('http://bugzilla.myveryoldsite.com/cli.cgi?bug=42')
+->RET:raise Instance('URLError(exceptions.IOError)', 'urlerror1')
+<-PYT:urlerror1.__str__()
+->RET:'<urlopen error [Errno -2] Name or service not known>'

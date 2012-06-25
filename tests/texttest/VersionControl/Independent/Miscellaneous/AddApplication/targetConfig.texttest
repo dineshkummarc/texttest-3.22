@@ -1,0 +1,6 @@
+# Full path to the System Under Test
+executable:/carm/proj/texttest-tmp/geoff/texttest.31May154843.11117/texttest.cvs/VersionControl/Independent/Miscellaneous/AddApplication/TargetApp/hello.py
+
+# Naming scheme to use for files for stdin,stdout and stderr
+filename_convention_scheme:standard
+

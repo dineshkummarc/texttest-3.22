@@ -1,0 +1,16 @@
+Using Application TDAT
+Running TDAT test-suite TargetApp
+  Running TDAT test-suite Suite
+    Running TDAT test-case Test
+Comparing differences for TDAT test-suite TargetApp
+  Comparing differences for TDAT test-suite Suite
+    Comparing differences for TDAT test-case Test (on errors.tdat,output.tdat)
+    TDAT test-case Test FAILED : differences in output
+    View details(v), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+0a1
+> somedir/basedummy : In suite
+1a3,4
+> somedir/rootfile : basic file
+> somedir/subdir/rootfile : root file
+    Save(s) or continue(any other key)?

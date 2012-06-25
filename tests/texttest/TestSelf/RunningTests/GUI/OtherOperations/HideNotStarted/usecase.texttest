@@ -1,0 +1,6 @@
+wait for all tests to be read, test Basic to start
+hide tests in category Not started
+show tests in category Not started
+select tests in category Not started
+wait for completion of test actions
+quit

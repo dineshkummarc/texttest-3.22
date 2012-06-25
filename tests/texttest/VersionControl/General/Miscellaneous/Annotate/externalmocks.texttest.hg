@@ -1,0 +1,21 @@
+<-CMD:hg annotate -f -n /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Miscellaneous/Annotate/TargetApp/Test1/errors.hello
+->OUT:4 Test1/errors.hello: Added an extra line
+<-CMD:hg annotate -f -n /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Miscellaneous/Annotate/TargetApp/Test1/output.hello
+->OUT:0 Test1/output.hello: Hello
+<-CMD:hg annotate -f -n /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Miscellaneous/Annotate/TargetApp/Test1/output.hello.version
+->ERR:TargetApp/Test1/output.hello.version: No such file in rev c57d2c6473b1
+<-CMD:hg annotate -f -n /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/Test3/errors.hello
+<-CMD:hg annotate -f -n /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/Test3/output.hello
+->OUT:5 Suite/Subsuite/Test3/output.hello: Failure checked in!
+5 Suite/Subsuite/Test3/output.hello: 
+<-CMD:hg annotate -f -n /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/Test4/errors.hello
+->ERR:TargetApp/Suite/Subsuite/Test4/errors.hello: No such file in rev c57d2c6473b1
+<-CMD:hg annotate -f -n /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/Test4/errors.hello.ignored_by_vcs
+->ERR:TargetApp/Suite/Subsuite/Test4/errors.hello.ignored_by_vcs: No such file in rev c57d2c6473b1
+<-CMD:hg annotate -f -n /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/Test4/output.hello
+->ERR:TargetApp/Suite/Subsuite/Test4/output.hello: No such file in rev c57d2c6473b1
+<-CMD:hg annotate -f -n /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/testsuite.hello
+->OUT:6 Suite/Subsuite/testsuite.hello: # In a subsuite - other tests not added in CVS
+0 Suite/Subsuite/testsuite.hello: Test3
+<-CMD:hg annotate -f -n /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/testsuite.hello
+->OUT:0 Suite/testsuite.hello: Subsuite

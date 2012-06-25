@@ -1,0 +1,5 @@
+# Check that ^C kills LSF jobs
+KillTest
+
+# Check for correct behaviour on receiving SIGUSR2
+NightjobTerminate

@@ -1,0 +1,11 @@
+Using Application PERF
+Running PERF test-suite TargetApp
+  Running PERF test-case FailuresCurrBelowLimit
+Comparing differences for PERF test-suite TargetApp
+  Comparing differences for PERF test-case FailuresCurrBelowLimit (on errors.perf,output.perf,performance.perf)
+  PERF test-case FailuresCurrBelowLimit ran slower on gewoia : differences in performance(slower)
+  Running PERF test-case FailuresZeroTime
+  Comparing differences for PERF test-case FailuresZeroTime (on errors.perf,output.perf,performance.perf)
+  PERF test-case FailuresZeroTime ran slower on gewoia : differences in performance(slower)
+Creating batch report for application PERF ...
+File written.

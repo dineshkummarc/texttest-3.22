@@ -1,0 +1,6 @@
+wait for all tests to be read
+set test selection to TargetApp (hello)
+select file testsuite.hello.extra1
+wait for file editing operations to complete
+set test selection to Common
+quit

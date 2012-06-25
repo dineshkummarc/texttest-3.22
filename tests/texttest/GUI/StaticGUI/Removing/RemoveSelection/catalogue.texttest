@@ -1,0 +1,23 @@
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------testsuite.dip
+--------Game9952
+------------testsuite.dip
+------------testsuite.dip.small
+
+The following existing files/directories were deleted:
+<Test Directory>
+----TargetApp
+--------Game9952
+------------S02
+----------------output.dip
+------------S04
+----------------output.dip
+--------npstIII
+------------testsuite.dip
+------------Game47
+----------------testsuite.dip
+----------------S01
+--------------------output.dip

@@ -1,0 +1,4 @@
+[python]
+intercepts = os.lstat,pwd,grp,time.time
+# For windows, because datetime is a builtin module and hence it doesn't handle indirect usage via 'datetime' properly
+ignore_callers = plugins,textinfo

@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+
+import os, signal, sys
+
+sys.stdout.write("Running with arguments " + repr(sys.argv[1:]) + "\n")
+sys.stdout.flush()
+os.kill(os.getppid(), signal.SIGUSR1)
+signal.pause()

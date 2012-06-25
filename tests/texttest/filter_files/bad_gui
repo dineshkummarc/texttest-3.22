@@ -1,0 +1,15 @@
+-tp appdata=texttest
+TestSelf/ErrorHandling/GUI/BadArguments
+TestSelf/ErrorHandling/GUI/StartNoApps
+TestSelf/ErrorHandling/GUI/NoGtk
+TestSelf/ErrorHandling/GUI/GtkTooOld
+TestSelf/ErrorHandling/GUI/CreateAppDynamicGUI
+appdata=texttest.rundep
+appdata=texttest.fpdiff
+appdata=texttest.cvs
+appdata=texttest.bzr
+appdata=texttest.hg
+appdata=texttest.sge
+appdata=texttest.lsf
+appdata=texttest.siteconfmods
+appdata=texttest.datereplacer

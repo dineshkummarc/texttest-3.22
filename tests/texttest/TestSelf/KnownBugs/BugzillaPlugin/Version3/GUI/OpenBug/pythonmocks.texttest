@@ -1,0 +1,5 @@
+<-PYT:import xmlrpclib
+<-PYT:xmlrpclib.ServerProxy('http://bugzilla.mysite.com/xmlrpc.cgi')
+->RET:Instance('ServerProxy', 'serverproxy1')
+<-PYT:serverproxy1.Bug.get_bugs({'ids': ['42']})
+->RET:{'faults': [], 'bugs': [{'status': 'NEW', 'product': 'SACM', 'severity': 'normal', 'creation_time': Instance('DateTime', 'datetime1'), 'internals': {'status_whiteboard': '', 'reporter_accessible': 1, 'bug_file_loc': '', 'rep_platform': 'all', 'reporter_id': 92, 'cclist_accessible': 1, 'bug_status': 'NEW', 'short_desc': 'Not greeting the world properly', 'priority': 3, 'version': 'unspecified', 'status': {'is_open': 1, 'sortkey': 100, 'value': 'NEW', 'id': 1}, 'product': 'SACM', 'component': 'system', 'bug_severity': 'normal', 'bug_id': 42, 'delta_ts': '2006-04-12 10:28:25', 'creation_ts': '2006.04.12 10:28', 'target_milestone': '---', 'everconfirmed': 1, 'cf_site': '---', 'component_id': 2, 'product_id': 4, 'assigned_to': 92, 'resolution': '', 'op_sys': 'All'}, 'component': 'system', 'summary': 'Not greeting the world properly', 'priority': '3', 'is_open': True, 'last_change_time': Instance('DateTime', 'datetime2'), 'assigned_to': 'geoff', 'resolution': '', 'id': 42}]}

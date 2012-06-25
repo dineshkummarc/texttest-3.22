@@ -1,0 +1,1 @@
+-o -s "default.ReplaceText file=output old=([a-z])$ new=\1 World" 

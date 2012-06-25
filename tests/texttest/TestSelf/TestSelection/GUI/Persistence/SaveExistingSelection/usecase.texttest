@@ -1,0 +1,10 @@
+wait for all tests to be read
+set test selection to One1,Three
+show file menu
+save selected tests in file
+enter filter-file name = failures.hello
+press save
+answer no to texttest query
+enter filter-file name = newfile
+press save
+quit

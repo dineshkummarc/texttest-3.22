@@ -1,0 +1,16 @@
+Using Application HELLO
+Running HELLO test-suite TargetApp
+  Running HELLO test-case OutDiff
+Comparing differences for HELLO test-suite TargetApp
+  Comparing differences for HELLO test-case OutDiff (on errors.hello,output.hello)
+  HELLO test-case OutDiff FAILED on gewoia : differences in output
+  Running HELLO test-case Success
+  Comparing differences for HELLO test-case Success - SUCCESS! (on errors.hello,output.hello)
+  Running HELLO test-case BothDiff
+  Comparing differences for HELLO test-case BothDiff (on errors.hello,output.hello)
+  HELLO test-case BothDiff FAILED on gewoia : differences in errors,output
+  Running HELLO test-suite suite
+    Running HELLO test-case OutDiff2
+  Comparing differences for HELLO test-suite suite
+    Comparing differences for HELLO test-case OutDiff2 (on errors.hello,output.hello)
+    HELLO test-case OutDiff2 FAILED on gewoia : differences in output

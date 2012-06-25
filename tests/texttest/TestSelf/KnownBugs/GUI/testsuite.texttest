@@ -1,0 +1,42 @@
+# Test for GUI
+ReportBug
+
+# Make sure we can change the bug colour by changing the "failure" entry
+ChangeBugColour
+
+# Check bugzilla files appear correctly
+ViewInStaticGUI
+
+# Check that trying to save a test with a known bug generates a warning, but lets us do it if we persist.
+SaveKnownBug
+
+# If we save some files this can cause the number of differing files to drop to 1. We should handle this 
+# and trigger bugs if appropriate.
+PartialSaveTriggersBug
+
+# Make sure we can correctly report bugs from the GUI
+CreateNewReport
+
+# Set a default value in the bug reporting tab
+FailureInformationOverride
+
+# Check we can also create in tests for unreported bugs. Also check we preserve values for the next submission.
+CreateNewDescription
+
+# Check we can report bugs and have them check the free text
+FreeTextReport
+
+# Check for various error responses
+ReportingErrors
+
+# Check the GUI responds correctly to tests succeeding and then going known-bug...
+TriggerOnSuccess
+
+# Make sure destroying the dialog doesn't cause new attempts to use it to fail
+DestroyDialog
+
+# Check we can rerun tests if they run into known bugs, and that they are reported nicely if they subseuqently work
+SucceedAfterRerun
+
+# Tests that reconnect
+Reconnect

@@ -1,0 +1,9 @@
+wait for all tests to be read
+set test selection to Test
+set file selection to Externally Edited Files
+create a new file or directory, possibly by copying it
+enter type of file/directory to create = foobar
+choose create a new file
+press create
+wait for file editing operations to complete
+quit

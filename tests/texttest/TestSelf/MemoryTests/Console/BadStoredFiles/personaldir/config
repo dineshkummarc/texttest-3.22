@@ -1,0 +1,5 @@
+
+log_file:none
+
+[performance_logfile]
+memory:output

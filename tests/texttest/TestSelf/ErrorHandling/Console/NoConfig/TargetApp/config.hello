@@ -1,0 +1,4 @@
+# this file has windows line endings. The one at the end
+# caused a bug at some stage...
+
+config_module:no_such_module

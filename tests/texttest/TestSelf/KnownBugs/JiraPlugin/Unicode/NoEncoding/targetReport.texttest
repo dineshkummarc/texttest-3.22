@@ -1,0 +1,54 @@
+known bugs=1
+30Jul2010
+HELLO : 1 tests : 1 known bugs
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests had known bugs : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Test : bug FAK-42 (Open)
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that had known bugs follows...
+--------------------------------------------------------
+TEST had known bugs (bug FAK-42 (Open)) on gewoia : HELLO test-case Test (under Test)
+**************************************************
+Key: TTT-1905
+Summary: Texttest doesn't handle test suites using two VCS (e.g. CVS+Bazaar) properly
+Status: Open
+Assignee: texttest
+
+Components: Framework
+Created: 2010-01-22 16:45:33.0
+Customfieldvalues: None, None
+Priority: 5
+Reporter: orjan
+Updated: 2010-01-22 16:45:33.0
+**************************************************
+
+View bug TTT-1905 using Jira URL=http://www.myjirasite.com/browse/TTT-1905
+
+If you in TEXTTEST_HOME have applications using more than one CVS, e.g. texttest that uses Bazaar and st_mr that uses CVS, you will get error messages like the following when starting texttest without any parameters:
+
+kremenchug 34: texttest
+/usr/local/share/texttest/lib/default/gtkgui/actionholders.py:65: GtkWarning: CVSmenu: missing action CVSmenu
+  self.uiManager.ensure_update()
+/usr/local/share/texttest/lib/default/gtkgui/actionholders.py:65: GtkWarning: gtk_menu_item_get_submenu: assertion `GTK_IS_MENU_ITEM (menu_item)' failed
+  self.uiManager.ensure_update()
+/usr/local/share/texttest/lib/default/gtkgui/actionholders.py:65: GtkWarning: gtk_container_foreach: assertion `GTK_IS_CONTAINER (container)' failed
+  self.uiManager.ensure_update()
+/usr/local/share/texttest/lib/default/gtkgui/actionholders.py:65: GtkWarning: gtk_menu_shell_insert: assertion `GTK_IS_MENU_SHELL (menu_shell)' failed
+  self.uiManager.ensure_update()
+
+Texttest should handle this in a better way...
+
+Örjan
+---------- Differences in output ----------
+1c1
+< Hello world
+---
+> Hello after 5 seconds
+

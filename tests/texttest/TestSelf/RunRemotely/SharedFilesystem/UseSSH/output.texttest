@@ -1,0 +1,13 @@
+Using Application HELLO
+Running HELLO test-suite TargetApp
+  Running HELLO test-case Test
+Comparing differences for HELLO test-suite TargetApp
+  Comparing differences for HELLO test-case Test (on errors.hello,output.hello)
+  HELLO test-case Test FAILED on placerville : differences in output
+  View details(v), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+1c1
+< Hello
+---
+> Hello /nfs/vm/texttest-tmp/geoff/texttest.27Apr162250.32763/texttest/TestSelf/RunRemotely/SharedFilesystem/UseSSH/texttesttmp/console.27Apr162251.32766/hello/Test
+  Save(s) or continue(any other key)?

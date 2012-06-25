@@ -1,0 +1,2 @@
+# Test clearing things that don't exist, also
+{CLEAR nosuchoption} -testarg1 -testarg2 value

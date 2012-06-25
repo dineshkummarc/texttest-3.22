@@ -1,0 +1,5 @@
+wait for all tests to be read, test Test to start
+set test selection to Test
+kill selected tests
+wait for completion of test actions
+quit

@@ -1,0 +1,4 @@
+Using Application APPIDENTIFIER
+The following variables may be set by the user :
+TEXTTEST_HOME|.|Alias for TEXTTEST_PATH
+The following variables are set by TextTest :

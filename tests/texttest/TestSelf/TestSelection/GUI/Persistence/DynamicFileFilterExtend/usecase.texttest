@@ -1,0 +1,15 @@
+wait for all tests to be read
+select indicated tests
+view options for Running
+run selected tests
+wait for dynamic GUI to be closed
+view options for Selection
+search for files for 'tests listed in file'
+open selected file
+select indicated tests
+choose extend for current selection
+search for files for 'tests listed in file'
+choose filter file filter2
+open selected file
+select indicated tests
+quit

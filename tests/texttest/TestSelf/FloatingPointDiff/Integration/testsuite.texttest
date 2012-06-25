@@ -1,0 +1,8 @@
+# Check floating point diff works end-to-end
+FloatingPoint
+
+# Check relative floating point diff works end-to-end
+RelativeFloat
+
+# Check we can combine sensibly with normal run-dependent text
+OtherFiltering

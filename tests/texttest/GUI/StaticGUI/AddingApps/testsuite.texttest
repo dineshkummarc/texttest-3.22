@@ -1,0 +1,5 @@
+# Tests that start with no TextTest files at all
+FromScratch
+
+# Adding applications where some already existed
+Preexisting

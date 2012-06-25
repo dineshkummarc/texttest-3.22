@@ -1,0 +1,2 @@
+MY_ENV_VAR_SUITE:defined_in_suite_environment_file
+MY_ENV_VAR:defined_in_suite_environment_file

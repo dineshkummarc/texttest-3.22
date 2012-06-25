@@ -1,0 +1,188 @@
+
+---------- Window 'HELLO test management - TextTest static GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_Edit' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+    ----
+  _Select (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+  Refresh (Stock image 'gtk-refresh', accelerator 'F5', tooltip 'Refresh the whole test suite so that it reflects file changes')
+  _Run (Stock image 'gtk-execute', greyed out, accelerator 'Ctrl+R', tooltip 'Run selected tests')
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Selection , Config
+Viewing page 'Selection'
+Viewing table with 7 rows and 2 columns.
+'Tests for version  ' (tooltip 'Select tests for a specific version.') | Text entry (drop-down list containing ['', '<default>'])
+'Test names containing  ' (tooltip 'Select tests for which the name contains the entered text. The text can be a regular expression.') | Text entry
+'Test paths containing  ' (tooltip 'Select tests for which the full path to the test (e.g. suite1/subsuite/testname) contains the entered text. The text can be a regular expression. You can select tests by suite name this way.') | Text entry
+'Tests listed in file  ' | Text entry , Button '...'
+'Descriptions containing  ' (tooltip 'Select tests for which the description (comment) matches the entered text. The text can be a regular expression.') | Text entry
+'Test-files containing  ' (tooltip 'Select tests which have a file containing the entered text. The text can be a regular expression : e.g. enter '.*' to only look for the file without checking the contents.') | Text entry
+'Test-file to search  ' (tooltip 'When the 'test-files containing' field is non-empty, apply the search in files with the given stem. Unix-style file expansion (note not regular expressions) may be used. For example '*' will look in any file.') | Text entry (drop-down list containing [''])
+.....'Selection'......
+Check button 'Select in collapsed suites' (tooltip 'Select in currently collapsed suites as well?')
+Radio button 'Discard' (checked) (tooltip 'Unselect all currently selected tests before applying the new selection criteria.') , Radio button 'Refine' (tooltip 'Apply the new selection criteria only to the currently selected tests, to obtain a subselection.') , Radio button 'Extend' (tooltip 'Keep the currently selected tests even if they do not match the new criteria, and extend the selection with all other tests which meet the new criteria.') , Radio button 'Exclude' (tooltip 'After applying the new selection criteria to all tests, unselect the currently selected tests, to exclude them from the new selection.')
+Button '_Select' (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+.....'Filtering'......
+Radio button 'Discard' (checked) (tooltip 'Show all tests which match the criteria, and hide all those that do not.') , Radio button 'Refine' (tooltip 'Hide all tests which do not match the criteria. Do not show any tests that aren't already shown.') , Radio button 'Extend' (tooltip 'Show all tests which match the criteria. Do not hide any tests that are currently shown.')
+Button 'Filter' (Stock image 'gtk-find', accelerator 'Ctrl+F', tooltip 'filter tests to show only those indicated')
+Button 'Reset Tab' (tooltip 'Reset all the settings in the current tab to their default values')
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 02Aug14:19:21.' , Image 'throbber_inactive.png'
+--------------------------------------------------------------------------
+
+Changing GUI status to: 'Reading tests ...'
+
+Column titles changed in Test Tree with columns: Tests: 0/1 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/2 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/3 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/4 selected
+
+Updated : Test Tree with columns: Tests: 0/4 selected
+-> TargetApp (hello) (black/grey90,bold)
+->   OutDiff (black/grey90)
+->   Success (black/grey90)
+->   BothDiff (black/grey90)
+->   ErrDiff (black/grey90)
+Updated drop-down list in 'Test-file to search' Text entry (set to 'errors') (drop-down list containing ['errors', 'output'])
+
+Changing GUI status to: 'Reading tests completed at 02Aug14:19:21.'
+
+Expected application event 'all tests to be read' occurred, proceeding.
+
+'set test selection to' event created with arguments 'BothDiff'
+
+No longer greyed out : _Run
+
+Changed selection in Test Tree with columns: Tests: 1/4 selected
+-> TargetApp (hello) (black/grey90,bold)
+->   OutDiff (black/grey90)
+->   Success (black/grey90)
+->   BothDiff (black/grey90)   ***
+->   ErrDiff (black/grey90)
+
+Current page changed in Notebook with tabs: Test , Selection , Running , Config
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: BothDiff
+-> Standard Files (white,bold)
+->   errors.hello (grey90)
+->   output.hello (grey90)
+-> Definition Files (white)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+
+Description:
+<No description provided>
+
+Full path:
+BothDiff
+===============================
+
+'view options for' event created with arguments 'Running'
+
+Current page changed in Notebook with tabs: Test , Selection , Running , Config
+Viewing page 'Running'
+
+Showing Notebook with tabs: Basic , Advanced
+Viewing page 'Basic'
+Viewing table with 4 rows and 2 columns.
+'Run this version  ' | Text entry
+'Use checkout  ' | Text entry
+'Run on machine  ' | Text entry (set to 'localhost')
+'Times to run  ' (tooltip 'Set this to some number larger than 1 to run the same test multiple times, for example to try to catch indeterminism in the system under test') | Spin button entry (set to '1') (min=1.0, max=1000.0, step=1.0)
+Check button 'Stop after first failure'
+Button '_Run' (Stock image 'gtk-execute', accelerator 'Ctrl+R', tooltip 'Run selected tests')
+Button 'Reset Tab' (tooltip 'Reset all the settings in the current tab to their default values')
+
+'enter run this version =' event created with arguments '2'
+Edited 'Run this version' Text entry (set to '2')
+
+'view sub-options for running :' event created with arguments 'Advanced'
+
+Current page changed in Notebook with tabs: Basic , Advanced
+Viewing page 'Advanced'
+.....'Self-diagnostics (internal logging)'......
+Viewing table with 2 rows and 2 columns.
+'Configure self-diagnostics from  ' | Text entry (set to '/carm/proj/texttest-tmp/geoff/dynamic_gui.02Aug141900.25522/texttest.gui/TestSelf/ChangeTestResults/GUI/SaveMissingVersioned/log/logging.debug') (drop-down list containing ['/carm/proj/texttest-tmp/geoff/dynamic_gui.02Aug141900.25522/texttest.gui/TestSelf/ChangeTestResults/GUI/SaveMissingVersioned/log/logging.debug', '/nfs/vm/texttest/geoff/Testing/TextTest/log/logging.debug']) (greyed out)
+'Write self-diagnostics to  ' | Text entry (set to '/carm/proj/texttest-tmp/geoff/dynamic_gui.02Aug141900.25522/texttest.gui/TestSelf/ChangeTestResults/GUI/SaveMissingVersioned/log') (greyed out)
+Check button 'Enable self-diagnostics'
+.....'Miscellaneous'......
+Viewing table with 3 rows and 2 columns.
+'Run batch mode session  ' | Text entry
+'Name this run  ' | Text entry
+'Ignore configuration files  ' | Text entry (set to 'site') (drop-down list containing ['', 'site', 'personal', 'all'])
+Check button 'Keep temporary write-directories'
+Check button 'Ignore all run-dependent text filtering'
+.....'Temporary Settings'......
+Viewing table with 2 rows and 2 columns.
+'File Type  ' | Text entry (set to 'environment') (drop-down list containing ['config', 'environment', 'options', 'interpreter_options'])
+'Contents  ' | ...........
+
+========== Contents ==========
+
+==============================
+Button '_Run' (Stock image 'gtk-execute', accelerator 'Ctrl+R', tooltip 'Run selected tests')
+Button 'Reset Tab' (tooltip 'Reset all the settings in the current tab to their default values')
+
+'check keep temporary write-directories' event created with arguments ''
+Toggled Check button 'Keep temporary write-directories' (checked)
+
+'run selected tests' event created with arguments ''
+
+Waiting for application event 'dynamic GUI to be closed' to occur.
+
+Changing GUI status to: 'Started test BothDiff at 02Aug14:19:21.'
+
+Expected application event 'dynamic GUI to be closed' occurred, proceeding.
+
+'reconnect to previously run tests' event created with arguments ''
+
+---------- Dialog 'Reconnect to previously run tests' ----------
+Default widget is 'gtk-ok'
+'Version to reconnect to:'
+Text entry
+.....'Temporary result directory:' (tooltip 'Specify a directory containing temporary texttest results. The reconnection will use a random subdirectory matching the version used.')......
+
+Showing File Chooser for 'Reconnect to previously run tests' (selected '/carm/proj/texttest-tmp/geoff/dynamic_gui.02Aug141900.25522/texttest.gui/TestSelf/ChangeTestResults/GUI/SaveMissingVersioned/texttesttmp')
+Shortcut folders (1) :
+- /carm/proj/texttest-tmp/geoff/dynamic_gui.02Aug141900.25522/texttest.gui/TestSelf/ChangeTestResults/GUI/SaveMissingVersioned/texttesttmp
+.....'Recomputation'......
+Radio button 'Display results exactly as they were in the original run' (checked)
+Radio button 'Use raw data from the original run, but recompute run-dependent text, known bug information etc.'
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+----------------------------------------------------------------
+
+'enter version to reconnect to =' event created with arguments '2'
+Edited 'Version to reconnect to' Text entry (set to '2') (completions ['2'])
+
+'choose use raw data from the original run, but recompute run-dependent text, known bug information etc. for recomputation' event created with arguments ''
+Toggled Radio button 'Display results exactly as they were in the original run'
+Toggled Radio button 'Use raw data from the original run, but recompute run-dependent text, known bug information etc.' (checked)
+
+'press reconnect' event created with arguments ''
+
+Waiting for application event 'reconnect GUI to be closed' to occur.
+
+Changing GUI status to: 'Reconnected to test BothDiff at 02Aug14:19:26.'
+
+Expected application event 'reconnect GUI to be closed' occurred, proceeding.
+
+'quit' event created with arguments ''

@@ -1,0 +1,10 @@
+<-SRV:TextTest slave server started on 10.67.7.95:36810
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.15Nov170737.31294/texttest.sge/QueueSystems/ErrorHandling/Console/BadPerformanceMachine/texttesttmp/console.badperfmachine.15Nov170844.6313/slavelogs; qsub -N Test-Basic-SLEEP.badperfmachine -l hostname=no_such_machine|no_such_machine2 -w e -notify -m n -cwd -b y -V -o Test-Basic-SLEEP.badperfmachine.log -e Test-Basic-SLEEP.badperfmachine.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.15Nov170737.31294/texttest.sge/QueueSystems/ErrorHandling/Console/BadPerformanceMachine/TargetApp -a sleep.badperfmachine -l -tp 'Basic' -slave /carm/proj/texttest-tmp/geoff/texttest.15Nov170737.31294/texttest.sge/QueueSystems/ErrorHandling/Console/BadPerformanceMachine/texttesttmp/console.badperfmachine.15Nov170844.6313 -servaddr 10.67.7.95:33368""
+->ERR:Unable to run job: can't resolve hostname "no_such_machine|no_such_machine2".
+Exiting.
+->EXC:1
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.15Nov170737.31294/texttest.sge/QueueSystems/ErrorHandling/Console/BadPerformanceMachine/texttesttmp/console.badperfmachine.15Nov170844.6313/slavelogs; qsub -N Test-Basic2-SLEEP.badperfmachine -l hostname=no_such_machine|no_such_machine2 -w e -notify -m n -cwd -b y -V -o Test-Basic2-SLEEP.badperfmachine.log -e Test-Basic2-SLEEP.badperfmachine.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.15Nov170737.31294/texttest.sge/QueueSystems/ErrorHandling/Console/BadPerformanceMachine/TargetApp -a sleep.badperfmachine -l -tp 'Basic2' -slave /carm/proj/texttest-tmp/geoff/texttest.15Nov170737.31294/texttest.sge/QueueSystems/ErrorHandling/Console/BadPerformanceMachine/texttesttmp/console.badperfmachine.15Nov170844.6313 -servaddr 10.67.7.95:33368""
+->ERR:Unable to run job: can't resolve hostname "no_such_machine|no_such_machine2".
+Exiting.
+->EXC:1
+<-SRV:Completed submission of all tests

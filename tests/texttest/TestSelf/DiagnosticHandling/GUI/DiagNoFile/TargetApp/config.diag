@@ -1,0 +1,12 @@
+# Path to the executable
+executable:${TEXTTEST_HOME}/source/writediags.py
+
+default_interface:dynamic_gui
+
+# Force regeneration of files
+home_operating_system:posix
+
+link_test_path:logging
+
+[test_data_environment]
+logging:TESTDIAG_READFILE

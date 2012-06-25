@@ -1,0 +1,27 @@
+unrunnable=1
+27Apr2011
+SLEEP killing : 1 tests : 1 unrunnable
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests could not be run : 
+In SLEEP.killing test-suite TargetApp:
+  - SLEEP.killing test-case Basic : SGE job exited
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that could not be run follows...
+--------------------------------------------------------
+TEST could not be run : SLEEP.killing test-case Basic (under Basic)
+SGE job exited
+---------- Error messages written by SGE job ----------
+Some Beautiful Error Message...
+With Extra Nonsense
+---------- Full accounting info from SGE ----------
+Could not find info about job: 1
+qacct error was as follows:
+SGE has died and gone to heaven
+error: job id 1 not found
+

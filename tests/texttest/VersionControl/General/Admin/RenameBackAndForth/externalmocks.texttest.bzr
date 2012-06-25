@@ -1,0 +1,36 @@
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RenameBackAndForth/TargetApp/Test1
+->OUT:modified:
+  TargetApp/Test1/errors.hello
+unknown:
+  TargetApp/Test1/output.hello.version
+<-CMD:bzr mv /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RenameBackAndForth/TargetApp/Test1 /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RenameBackAndForth/TargetApp/blah
+->FIL:blah
+->FIL:Test1
+->OUT:TargetApp/Test1 => TargetApp/blah
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RenameBackAndForth/TargetApp/blah
+->OUT:renamed:
+  TargetApp/Test1 => TargetApp/blah
+modified:
+  TargetApp/blah/errors.hello
+unknown:
+  TargetApp/blah/output.hello.version
+<-CMD:bzr mv /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RenameBackAndForth/TargetApp/blah /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RenameBackAndForth/TargetApp/Test1
+->FIL:Test1.edit_2
+->FIL:blah.edit_2
+->OUT:TargetApp/blah => TargetApp/Test1
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RenameBackAndForth/TargetApp/Test1
+->OUT:modified:
+  TargetApp/Test1/errors.hello
+unknown:
+  TargetApp/Test1/output.hello.version
+<-CMD:bzr mv /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RenameBackAndForth/TargetApp/Test1 /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RenameBackAndForth/TargetApp/blah
+->FIL:blah.edit_3
+->FIL:Test1.edit_3
+->OUT:TargetApp/Test1 => TargetApp/blah
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RenameBackAndForth/TargetApp/blah/errors.hello
+->OUT:modified:
+  TargetApp/blah/errors.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RenameBackAndForth/TargetApp/blah/output.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/RenameBackAndForth/TargetApp/blah/output.hello.version
+->OUT:unknown:
+  TargetApp/blah/output.hello.version

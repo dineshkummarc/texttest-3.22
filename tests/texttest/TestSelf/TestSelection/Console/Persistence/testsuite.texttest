@@ -1,0 +1,41 @@
+# Test for filename filter
+FilterFile
+
+# Check we can set a default filter to be used, almost always for some version
+FilterFileInConfig
+
+# Make sure other filters can be put in test case filter files
+MetaFilter
+
+# If we explicitly provide a version among many, we should only get that one
+SelectVersionFromFilter
+
+# Make sure we can handle a single filter referring to multiple apps/versions, even if we haven't got them loaded
+MultiAppSingleFilter
+
+# Don't stacktrace if we try to load a filter file that doesn't refer to our app
+OtherAppFilter
+
+# Make sure different apps pick up different filters
+MultiAppMultiFilters
+
+# Make sure we can match up our versions with those in a filter file
+VersionMatching
+
+# Check if we can have multiple test_list_files_directory dirs, and find a filter in the last one
+MultipleFilterDirs
+
+# If we get file filters via different means, combine them
+CombineFilters
+
+# Make sure we can create a file filter which is a logical AND of two others
+LogicalAnd
+
+# Make sure we can create a file filter which is a logical OR of two others
+LogicalOr
+
+# Make sure we can create a file filter which is a logical inverse of another
+LogicalNot
+
+# See what happens if we define several selections via the versioned config files
+CombineSeveralConfig

@@ -1,0 +1,5 @@
+# Check we can view a running test, including pressing Progress
+ViewRunning
+
+# Make sure we can kill tests from the GUI
+KillTests

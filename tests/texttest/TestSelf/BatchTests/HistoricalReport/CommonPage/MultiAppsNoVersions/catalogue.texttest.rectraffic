@@ -1,0 +1,20 @@
+The following new files/directories were created:
+<Test Directory>
+----report
+--------test_default.html
+--------test_default_21Jan2006.html
+--------test_default_23Jan2006.html
+--------test_default_24Jan2006.html
+--------test_default_25Jan2006.html
+--------test_default_all_Jan2006.html
+--------test_default_extra subpage.html
+--------images
+------------test_default.HELLO.png
+------------test_default.HELLO2.png
+------------test_default_all_Jan2006.HELLO.png
+------------test_default_all_Jan2006.HELLO2.png
+------------test_default_extra subpage.HELLO.png
+------------test_default_extra subpage.HELLO2.png
+--------javascript
+------------filter.js
+------------jquery.js

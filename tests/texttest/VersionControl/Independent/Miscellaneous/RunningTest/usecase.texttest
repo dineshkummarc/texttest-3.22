@@ -1,0 +1,8 @@
+wait for all tests to be read, test Test1 to start
+set test selection to Test1
+version control status for the selected files
+agree to texttest message
+recompute test status, including progress information if appropriate
+version control status for the selected files
+close status window
+quit

@@ -1,0 +1,14 @@
+# Check we can vary what colours are shown for memory consumption differences
+ShowMemoryChanges
+
+# Generate a memory-only view of the information
+MemoryInfoInCells
+
+# Make sure we can get both kinds of table from one command line
+FailureAndMemoryInfo
+
+# Check we can build a resource page with multiple files as sources
+MultipleMemoryTables
+
+# Check the summary category order is constant and not dependent on the test ordering
+SummaryCategoryOrder

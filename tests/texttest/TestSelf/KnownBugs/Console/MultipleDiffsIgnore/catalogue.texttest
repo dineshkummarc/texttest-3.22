@@ -1,0 +1,11 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------local.baderr.missing.30Apr164156.12168
+------------batchreport.hello.baderr.missing
+------------hello.baderr.missing
+----------------Test
+--------------------errors.hello
+--------------------output.hello
+--------------------framework_tmp
+------------------------teststate

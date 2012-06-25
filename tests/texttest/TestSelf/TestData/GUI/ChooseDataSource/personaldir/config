@@ -1,0 +1,2 @@
+[gui_entry_options]
+source_to_copy_from_(leave_unchanged_to_use_file_from_parent_suite):$TEXTTEST_PERSONAL_CONFIG

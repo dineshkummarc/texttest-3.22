@@ -1,0 +1,1 @@
+-t t -s "default.ExportTests dest=$TEXTTEST_HOME/dest"

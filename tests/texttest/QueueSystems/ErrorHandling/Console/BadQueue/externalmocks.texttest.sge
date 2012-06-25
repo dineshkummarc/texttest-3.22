@@ -1,0 +1,11 @@
+<-SRV:TextTest slave server started on 10.67.7.96:48530
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/Console/BadQueue/texttesttmp/console.badqueue.01Mar115327.8140/slavelogs; qsub -N Test-Basic-SLEEP.badqueue -q non_existent -w e -notify -m n -cwd -b y -V -o Test-Basic-SLEEP.badqueue.log -e Test-Basic-SLEEP.badqueue.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/Console/BadQueue/TargetApp -a sleep.badqueue -l -tp 'Basic' -slave /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/Console/BadQueue/texttesttmp/console.badqueue.01Mar115327.8140 -servaddr 10.67.7.96:37168""
+->ERR:
+Unable to run job: Job was rejected because job requests unknown queue "non_existent".
+Exiting.
+->EXC:1
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/Console/BadQueue/texttesttmp/console.badqueue.01Mar115327.8140/slavelogs; qsub -N Test-Basic2-SLEEP.badqueue -q non_existent -w e -notify -m n -cwd -b y -V -o Test-Basic2-SLEEP.badqueue.log -e Test-Basic2-SLEEP.badqueue.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/Console/BadQueue/TargetApp -a sleep.badqueue -l -tp 'Basic2' -slave /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/Console/BadQueue/texttesttmp/console.badqueue.01Mar115327.8140 -servaddr 10.67.7.96:37168""
+->ERR:Unable to run job: Job was rejected because job requests unknown queue "non_existent".
+Exiting.
+->EXC:1
+<-SRV:Completed submission of all tests

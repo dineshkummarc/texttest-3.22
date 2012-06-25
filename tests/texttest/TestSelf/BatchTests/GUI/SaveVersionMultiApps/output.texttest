@@ -1,0 +1,12 @@
+Using Application HELLO, version batch.1
+Using Application HELLO, version batch.2
+Running HELLO.batch.1 test-suite TargetApp
+  Running HELLO.batch.1 test-case BothDiff
+Comparing differences for HELLO.batch.1 test-suite TargetApp
+  Comparing differences for HELLO.batch.1 test-case BothDiff (on errors.hello,output.hello)
+Running HELLO.batch.2 test-suite TargetApp
+  Running HELLO.batch.2 test-case BothDiff
+Comparing differences for HELLO.batch.2 test-suite TargetApp
+  Comparing differences for HELLO.batch.2 test-case BothDiff (on errors.hello,output.hello)
+Creating batch report for application HELLO ...
+done.

@@ -1,0 +1,5 @@
+wait for completion of test actions
+set file selection to output.hello
+set file selection to binary_output.hello
+set file selection to errors.hello
+quit

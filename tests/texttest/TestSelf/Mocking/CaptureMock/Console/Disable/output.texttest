@@ -1,0 +1,5 @@
+Using Application EDIT, version version
+Running EDIT.version test-suite TargetApp
+  Running EDIT.version test-case Test
+Comparing differences for EDIT.version test-suite TargetApp
+  Comparing differences for EDIT.version test-case Test - SUCCESS! (on catalogue.edit,editedfile.edit,editedfile2.edit,editedfile3.edit,errors.edit,output.edit)

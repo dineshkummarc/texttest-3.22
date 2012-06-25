@@ -1,0 +1,22 @@
+Using Application HELLO, version one
+Using Application HELLO, version two
+Running HELLO.one test-suite TargetApp
+  Running HELLO.one test-suite Suite1
+    Running HELLO.one test-case One1
+Comparing differences for HELLO.one test-suite TargetApp
+  Comparing differences for HELLO.one test-suite Suite1
+    Comparing differences for HELLO.one test-case One1 - SUCCESS! (on errors.hello,output.hello)
+  Running HELLO.one test-suite Super
+    Running HELLO.one test-suite Suite2
+      Running HELLO.one test-case One
+  Comparing differences for HELLO.one test-suite Super
+    Comparing differences for HELLO.one test-suite Suite2
+      Comparing differences for HELLO.one test-case One - SUCCESS! (on errors.hello,output.hello)
+Running HELLO.two test-suite TargetApp
+  Running HELLO.two test-suite Suite1
+    Running HELLO.two test-case Two
+Comparing differences for HELLO.two test-suite TargetApp
+  Comparing differences for HELLO.two test-suite Suite1
+    Comparing differences for HELLO.two test-case Two (on errors.hello,output.hello)
+    HELLO.two test-case Two FAILED : differences in output
+    View details(v), Save Version two(1), Save(s) or continue(any other key)?

@@ -1,0 +1,13 @@
+<-CMD:hg add /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/testsuite.hello
+->ERR:TargetApp/Suite/Subsuite/testsuite.hello already tracked!
+<-CMD:hg add /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite
+->OUT:adding TargetApp/Suite/Subsuite/Test4/errors.hello
+adding TargetApp/Suite/Subsuite/Test4/output.hello
+<-CMD:hg status -A /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/AddToVersionControl/TargetApp/Suite/Subsuite/testsuite.hello
+->OUT:M TargetApp/Suite/Subsuite/testsuite.hello
+<-CMD:hg add /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test2
+<-CMD:hg add /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test1/errors.hello
+->ERR:TargetApp/Test1/errors.hello already tracked!
+<-CMD:hg add /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test1/output.hello
+->ERR:TargetApp/Test1/output.hello already tracked!
+<-CMD:hg add /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/AddToVersionControl/TargetApp/Test1/output.hello.version

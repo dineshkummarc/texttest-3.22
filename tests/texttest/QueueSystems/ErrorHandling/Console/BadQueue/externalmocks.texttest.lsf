@@ -1,0 +1,8 @@
+<-SRV:TextTest slave server started on 10.67.7.87:45986
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.lsf/QueueSystems/ErrorHandling/Console/BadQueue/texttesttmp/console.badqueue.01Mar115147.28633/slavelogs; bsub -J Test-Basic-SLEEP.badqueue -q non_existent -u nobody -o Test-Basic-SLEEP.badqueue.log -e Test-Basic-SLEEP.badqueue.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.lsf/QueueSystems/ErrorHandling/Console/BadQueue/TargetApp -a sleep.badqueue -l -tp 'Basic' -slave /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.lsf/QueueSystems/ErrorHandling/Console/BadQueue/texttesttmp/console.badqueue.01Mar115147.28633 -servaddr 10.67.7.87:60579""
+->ERR:non_existent: No such queue. Job not submitted.
+->EXC:255
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.lsf/QueueSystems/ErrorHandling/Console/BadQueue/texttesttmp/console.badqueue.01Mar115147.28633/slavelogs; bsub -J Test-Basic2-SLEEP.badqueue -q non_existent -u nobody -o Test-Basic2-SLEEP.badqueue.log -e Test-Basic2-SLEEP.badqueue.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.lsf/QueueSystems/ErrorHandling/Console/BadQueue/TargetApp -a sleep.badqueue -l -tp 'Basic2' -slave /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.lsf/QueueSystems/ErrorHandling/Console/BadQueue/texttesttmp/console.badqueue.01Mar115147.28633 -servaddr 10.67.7.87:60579""
+->ERR:non_existent: No such queue. Job not submitted.
+->EXC:255
+<-SRV:Completed submission of all tests

@@ -1,0 +1,26 @@
+Using Application VideoStore, version cpmock, checkout /home/geoff/.texttest/tmp/texttest.gui.10Dec205555.12002/texttest.gui/TestSelf/UITesting/UseCaseRecording/RerecordTestAndTraffic/TargetApp/source_with_pyc
+Running VideoStore.cpmock test-suite TargetApp
+  Running VideoStore.cpmock test-case AddMovie
+Comparing differences for VideoStore.cpmock test-suite TargetApp
+  Comparing differences for VideoStore.cpmock test-case AddMovie (on errors.gui,output.gui,usecase.gui)
+  VideoStore.cpmock test-case AddMovie FAILED : differences in output
+---------- Differences in output ----------
+1c1
+< Started the video store. The process ID is 20480
+---
+> Started the video store. The process ID is 12017
+10,11c10,11
+< 'set new movie name to' event created with arguments 'Star Wars'
+< Edited 'GtkEntry' Text entry (set to 'Star Wars')
+---
+> 'set new movie name to' event created with arguments 'Chariots of Fire'
+> Edited 'GtkEntry' Text entry (set to 'Chariots of Fire')
+14c14
+< Adding movie 'Star Wars'. There are now 1 movies.
+---
+> Adding movie 'Chariots of Fire'. There are now 1 movies.
+17c17
+< -> Star Wars
+---
+> -> Chariots of Fire
+  Saving VideoStore.cpmock test-case AddMovie (exact) 

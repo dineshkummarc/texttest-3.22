@@ -1,0 +1,35 @@
+# Check that we can measure memory and register when outside bounds
+RegisterFailure
+
+# Check that we can raise the minimum and no longer register
+HighMinimum
+
+# Check we can raise the variation and no longer register
+HighVariation
+
+# Save the failure exactly
+SaveExact
+
+# Save a compromised version
+SaveAverage
+
+# When introducing memory checking to old tests, provide easy means to create files
+ExtractStandardPerformance
+
+# Generate a report on memory usage
+MemoryStats
+
+# Make sure we don't stacktrace if the extractor is empty
+EmptyExtractor
+
+# We prefer "Megabytes" to "MB"
+ChangeUnitName
+
+# Check that files containing "mem" pick up memory settings
+MemoryDerivatives
+
+# Check we remove the stored file if it doesn't contain anything we understand, and behave as though it didn't exist
+BadStoredFiles
+
+# See what the performance report does with bad files
+StatsWithBadFiles

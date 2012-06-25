@@ -1,0 +1,4 @@
+# Ordered list of tests in test suite. Add as appropriate
+
+# Check we can see sitecustomize.py files, and that we can import them as new files
+ViewAndImport

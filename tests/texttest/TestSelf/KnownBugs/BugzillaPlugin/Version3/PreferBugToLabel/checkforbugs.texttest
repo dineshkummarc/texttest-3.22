@@ -1,0 +1,6 @@
+Reading bugs from file /carm/proj/texttest-tmp/geoff/texttest.31Mar112114.23236/texttest/TestSelf/KnownBugs/BugzillaPlugin/Version3/PreferBugToLabel/personaldir/knownbugs.hello
+Looking for bugs in file output
+Looking for bugs in /carm/proj/texttest-tmp/geoff/texttest.31Mar112114.23236/texttest/TestSelf/KnownBugs/BugzillaPlugin/Version3/PreferBugToLabel/texttesttmp/local.31Mar112333.19235/hello/Test/output.hello
+Checking for existence of after [0-9]* seconds
+Checking for existence of after .* seconds
+Changing to bug with text bug 42 (NEW)

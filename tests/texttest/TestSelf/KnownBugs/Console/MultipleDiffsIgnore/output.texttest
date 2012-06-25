@@ -1,0 +1,8 @@
+Using Application HELLO, version baderr.missing
+Running HELLO.baderr.missing test-suite TargetApp
+  Running HELLO.baderr.missing test-case Test
+Comparing differences for HELLO.baderr.missing test-suite TargetApp
+  Comparing differences for HELLO.baderr.missing test-case Test (on errors.hello.baderr,output.hello)
+  HELLO.baderr.missing test-case Test had known bugs (No World!) on batesville : differences in errors,output
+Creating batch report for application HELLO ...
+File written.

@@ -1,0 +1,26 @@
+known bugs=1
+12Oct2010
+HELLO : 1 tests : 1 known bugs
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests had known bugs : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Test : bug 42 (BAD SCRIPT)
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that had known bugs follows...
+--------------------------------------------------------
+TEST had known bugs (bug 42 (BAD SCRIPT)) on gewoia : HELLO test-case Test (under Test)
+Failed to open URL 'http://bugzilla.myveryoldsite.com/cli.cgi?bug=42': <urlopen error [Errno -2] Name or service not known>.
+
+Please make sure that the configuration entry 'bug_system_location' points to the correct script to run to extract bugzilla information. The current value is 'http://bugzilla.myveryoldsite.com'.
+---------- Differences in output ----------
+1c1
+< Hello world
+---
+> Hello after 5 seconds
+

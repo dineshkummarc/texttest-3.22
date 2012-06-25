@@ -1,0 +1,4 @@
+# A ridiculously low limit just to try
+[max_file_size]
+emacs:0.002kb
+tkdiff:0.008kb

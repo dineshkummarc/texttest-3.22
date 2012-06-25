@@ -1,0 +1,27 @@
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/Independent/Miscellaneous/DynamicVersions/TargetApp/Test1/errors.hello
+->OUT:===================================================================
+File: errors.hello     	Status: Needs Patch
+
+   Working revision:	1.1.1.1	2009-02-23 02:01:26 +0100
+   Repository revision:	1.2	/home/geoff/texttesttmp/texttest.25Feb222002.11638/texttest/GUI/StaticGUI/CVSPlugin/DynamicVersions/cvsroot/TargetApp/Test1/errors.hello,v
+   Commit Identifier:	N8xcISlYrXbctJDt
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/Independent/Miscellaneous/DynamicVersions/TargetApp/Test1/output.hello.version
+->OUT:===================================================================
+File: output.hello.version	Status: Unknown
+
+   Working revision:	No entry for output.hello.version
+   Repository revision:	No revision control file
+
+->ERR:cvs status: use `cvs add' to create an entry for `/home/geoff/texttesttmp/texttest.25Feb222002.11638/texttest/GUI/StaticGUI/CVSPlugin/DynamicVersions/TargetApp/Test1/output.hello.version'
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/Independent/Miscellaneous/DynamicVersions/TargetApp/Test1/output.hello.version
+->OUT:===================================================================
+File: output.hello.version	Status: Unknown
+
+   Working revision:	No entry for output.hello.version
+   Repository revision:	No revision control file
+
+->ERR:cvs status: use `cvs add' to create an entry for `/home/geoff/texttesttmp/texttest.25Feb222002.11638/texttest/GUI/StaticGUI/CVSPlugin/DynamicVersions/TargetApp/Test1/output.hello.version'

@@ -1,0 +1,5 @@
+Using SGE queues for Application HELLO, version multiresource, checkout /carm/proj/texttest-tmp/geoff/texttest.sge.01Oct093105.24845/texttest.sge/QueueSystems/SlaveReuse/Master/ForceReuse/Console/ResourceOrderChanges/TargetApp/
+Q: Submitting HELLO.multiresource test-case Test to default SGE queue
+S: HELLO.multiresource test-case Test FAILED on centreville.carmen.se : differences in output
+View details(v), Save Version multiresource(1), Save(s) or continue(any other key)?
+S: HELLO.multiresource test-case Test succeeded on centreville.carmen.se

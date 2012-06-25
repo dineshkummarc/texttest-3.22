@@ -1,0 +1,13 @@
+Using Application TIMESTR
+Running TIMESTR test-suite TargetApp
+  Running TIMESTR test-case Test
+Comparing differences for TIMESTR test-suite TargetApp
+  Comparing differences for TIMESTR test-case Test (on errors.timestr,output.timestr,time.timestr)
+  TIMESTR test-case Test faster(time) : differences in time(faster(time))
+  View details(v), Save(s) or continue(any other key)?
+---------- Differences in time(faster(time)) ----------
+1c1
+< Total Time  :      8000.0 seconds
+---
+> Total Time  :      4000.0 seconds on juliaca
+  Save(s) or continue(any other key)?

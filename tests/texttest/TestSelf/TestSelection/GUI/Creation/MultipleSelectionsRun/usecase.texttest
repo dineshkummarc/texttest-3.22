@@ -1,0 +1,9 @@
+wait for all tests to be read
+enter test names containing = n
+select indicated tests
+choose extend for current selection
+enter test names containing = o
+select indicated tests
+run selected tests
+wait for dynamic GUI to be closed
+quit

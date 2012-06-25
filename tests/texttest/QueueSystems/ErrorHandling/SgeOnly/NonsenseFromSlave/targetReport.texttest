@@ -1,0 +1,29 @@
+FAILED=1,succeeded=1
+01Oct2007
+SLEEP : 2 tests : 1 FAILED
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests FAILED : 
+In SLEEP test-suite TargetApp:
+  - SLEEP test-case Basic2 : errors new(+)
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that FAILED follows...
+--------------------------------------------------------
+TEST FAILED on connellsville : SLEEP test-case Basic2 (under Basic2)
+---------- New result in errors ----------
+---------- New result in output ----------
+Sleeping for 5 seconds...
+Done
+
+Summary of all Successful tests follows...
+---------------------------------------------------------------------------------
+The following tests succeeded : 
+In SLEEP test-suite TargetApp:
+  - SLEEP test-case Basic
+
+

@@ -1,0 +1,202 @@
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Test1/errors.hello
+->OUT:------------------------------------------------------------
+revno: 4
+committer: geoff
+branch nick: HEAD
+timestamp: Tue 2009-02-24 20:21:36 +0000
+message:
+  Adding a line for to get a file that isn't up-to-date
+------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Test1/output.hello
+->OUT:------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Test1/output.hello.version
+->ERR:bzr: ERROR: Path does not have any revision history: /carm/proj/texttest-tmp/geoff/texttest.30Apr104351.23910/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Test1/output.hello.version
+->EXC:3
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Test1/errors.hello
+->OUT:------------------------------------------------------------
+revno: 4
+committer: geoff
+branch nick: HEAD
+timestamp: Tue 2009-02-24 20:21:36 +0000
+message:
+  Adding a line for to get a file that isn't up-to-date
+------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Test1/output.hello
+->OUT:------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Test1/output.hello.version
+->ERR:bzr: ERROR: Path does not have any revision history: /carm/proj/texttest-tmp/geoff/texttest.30Apr104351.23910/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Test1/output.hello.version
+->EXC:3
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Test2/errors.hello
+->OUT:------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Test2/output.hello
+->OUT:------------------------------------------------------------
+revno: 3
+committer: geoff
+branch nick: HEAD
+timestamp: Sun 2009-02-22 19:10:04 +0000
+message:
+  We made a change!
+------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/testsuite.hello
+->OUT:------------------------------------------------------------
+revno: 7
+committer: Geoff Bache <geoff.bache@jeppesen.com>
+branch nick: cleanbranch
+timestamp: Thu 2009-02-26 20:14:06 +0100
+message:
+  Moving under TargetApp
+------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Suite/Subsuite/Test3/errors.hello
+->OUT:------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Suite/Subsuite/Test3/output.hello
+->OUT:------------------------------------------------------------
+revno: 5
+committer: geoff
+branch nick: HEAD
+timestamp: Wed 2009-02-25 14:51:06 +0000
+message:
+  Induce a failure and a conflict!
+------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Suite/Subsuite/Test4/errors.hello
+->ERR:bzr: ERROR: Path does not have any revision history: /carm/proj/texttest-tmp/geoff/texttest.30Apr104351.23910/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Suite/Subsuite/Test4/errors.hello
+->EXC:3
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Suite/Subsuite/Test4/errors.hello.ignored_by_vcs
+->ERR:bzr: ERROR: Path does not have any revision history: /carm/proj/texttest-tmp/geoff/texttest.30Apr104351.23910/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Suite/Subsuite/Test4/errors.hello.ignored_by_vcs
+->EXC:3
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Suite/Subsuite/Test4/output.hello
+->ERR:bzr: ERROR: Path does not have any revision history: /carm/proj/texttest-tmp/geoff/texttest.30Apr104351.23910/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Suite/Subsuite/Test4/output.hello
+->EXC:3
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Suite/Subsuite/testsuite.hello
+->OUT:------------------------------------------------------------
+revno: 6
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-26 06:31:01 +0000
+message:
+  Extra comment
+------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Suite/testsuite.hello
+->OUT:------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Test1/output.hello
+->OUT:------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Test1/errors.hello
+->OUT:------------------------------------------------------------
+revno: 4
+committer: geoff
+branch nick: HEAD
+timestamp: Tue 2009-02-24 20:21:36 +0000
+message:
+  Adding a line for to get a file that isn't up-to-date
+------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Test1/output.hello
+->OUT:------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Test1/output.hello.version
+->ERR:bzr: ERROR: Path does not have any revision history: /carm/proj/texttest-tmp/geoff/texttest.30Apr104351.23910/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Test1/output.hello.version
+->EXC:3
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Test2/errors.hello
+->OUT:------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/dynamic_gui.01Mar141646.11607/texttest.bzr/VersionControl/General/Log/ShowLog/TargetApp/Test2/output.hello
+->OUT:------------------------------------------------------------
+revno: 3
+committer: geoff
+branch nick: HEAD
+timestamp: Sun 2009-02-22 19:10:04 +0000
+message:
+  We made a change!
+------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision

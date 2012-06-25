@@ -1,0 +1,46 @@
+Using Application HELLO
+Migrating knownbugs file in HELLO test-suite TargetApp - knownbugs.hello.version
+Old File:
+[output]
+output message:3180
+
+[errors]
+some message:there was a message
+
+New File:
+[Migrated section 1]
+search_string:output message
+search_file:output
+bug_system:bugzilla
+bug_id:3180
+
+[Migrated section 2]
+search_string:some message
+search_file:errors
+full_description:there was a message
+brief_description:unreported bug
+internal_error:0
+
+
+  Migrating knownbugs file in HELLO test-case Test - knownbugs.hello
+Old File:
+[output]
+bug message:3180
+no bug message:there was no bug message
+
+New File:
+[Migrated section 1]
+search_string:bug message
+search_file:output
+bug_system:bugzilla
+bug_id:3180
+
+[Migrated section 2]
+search_string:no bug message
+search_file:output
+full_description:there was no bug message
+brief_description:unreported bug
+internal_error:0
+
+
+  Migrating knownbugs file in HELLO test-case Test (already migrated)

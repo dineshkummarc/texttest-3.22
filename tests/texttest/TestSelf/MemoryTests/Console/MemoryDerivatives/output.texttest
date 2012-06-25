@@ -1,0 +1,20 @@
+Using Application MEM, version version
+Running MEM.version test-suite TargetApp
+  Running MEM.version test-suite Suite
+    Running MEM.version test-case Failures
+Comparing differences for MEM.version test-suite TargetApp
+  Comparing differences for MEM.version test-suite Suite
+    Comparing differences for MEM.version test-case Failures (on memory.mem,othermemvalue.mem.version,output.mem)
+    MEM.version test-case Failures used more memory : differences in memory(larger),othermemvalue(larger(othermemvalue))
+    View details(v), Save Version version(1), Save(s) or continue(any other key)?
+---------- Differences in memory(larger) ----------
+1c1
+< Max Memory  :      42.3 MB
+---
+> Max Memory  :      47.8 MB
+---------- Differences in othermemvalue(larger(othermemvalue)) ----------
+1c1
+< Max Memory  :      42.3 MB
+---
+> Max Othermemvalue  :      47.8 MB
+    Save Version version(1), Save(s) or continue(any other key)?

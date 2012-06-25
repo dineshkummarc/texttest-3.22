@@ -1,0 +1,6 @@
+Removing previous write directory /carm/proj/texttest-tmp/geoff/texttest.02Jun170508.5340/texttest.sge/QueueSystems/ErrorHandling/Console/PreviousWriteDir/texttesttmp/console.startdigit.14Apr2007.273
+Using SGE queues for Application SLEEP, version startdigit
+Q: Submitting SLEEP.startdigit test-case 123Test to default SGE queue
+S: SLEEP.startdigit test-case 123Test FAILED on abbeville : new results in errors,output
+Creating batch report for application SLEEP ...
+File written.

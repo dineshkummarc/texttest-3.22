@@ -1,0 +1,7 @@
+wait for completion of test actions
+set test selection to OutDiff under TargetApp (hello.2),OutDiff under TargetApp (hello.4)
+view actions for test OutDiff under TargetApp (hello.4)
+save results with non-default settings
+press ok
+set test selection to OutDiff under TargetApp (hello.4)
+quit

@@ -1,0 +1,4 @@
+import_config_file:$STANDARD
+
+copy_test_path:testsuite.data
+copy_test_path:options.data

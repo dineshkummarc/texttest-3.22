@@ -1,0 +1,2 @@
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.15Nov170737.31294/texttest/TestSelf/RunRemotely/SharedFilesystem/EnvironmentVariables/texttesttmp/console.15Nov170915.20823/hello/Test; rsh placerville '/carm/proj/texttest-tmp/geoff/texttest.15Nov170737.31294/texttest/TestSelf/RunRemotely/SharedFilesystem/EnvironmentVariables/texttesttmp/console.15Nov170915.20823/hello/Test/run_test.sh'
+->OUT:Hello test data and test $(BAD_VARIABLE)

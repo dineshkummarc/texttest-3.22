@@ -1,0 +1,2 @@
+remote_copy_program:scp
+remote_shell_program:ssh

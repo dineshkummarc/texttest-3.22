@@ -1,0 +1,2 @@
+queue_system_max_capacity:1
+queue_system_proxy_executable:$TEXTTEST_ROOT/hello.py

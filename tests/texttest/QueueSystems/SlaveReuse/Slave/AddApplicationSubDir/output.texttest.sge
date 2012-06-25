@@ -1,0 +1,12 @@
+Using Application HELLO, version 1
+Running HELLO.1 test-suite subdir
+  Running HELLO.1 test-case Test
+Comparing differences for HELLO.1 test-suite subdir
+  Comparing differences for HELLO.1 test-case Test (on errors.hello,output.hello)
+Using Application HELLO, version 2
+Running HELLO.2 test-suite subdir
+  Running HELLO.2 test-suite Suite
+    Running HELLO.2 test-case Test
+Comparing differences for HELLO.2 test-suite subdir
+  Comparing differences for HELLO.2 test-suite Suite
+    Comparing differences for HELLO.2 test-case Test - SUCCESS! (on errors.hello,output.hello)

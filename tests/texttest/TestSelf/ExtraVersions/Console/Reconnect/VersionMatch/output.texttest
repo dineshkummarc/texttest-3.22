@@ -1,0 +1,13 @@
+Rejected Application HELLO, version extra2 - Could not find an application directory matching Application HELLO, version extra2 for the run directory found at /carm/proj/texttest-tmp/geoff/texttest.18Aug145311.19183/texttest/TestSelf/ExtraVersions/Console/Reconnect/VersionMatch/texttesttmp/console.18Jul111758.14417
+Using Application HELLO
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.18Aug145311.19183/texttest/TestSelf/ExtraVersions/Console/Reconnect/VersionMatch/texttesttmp/console.18Jul111758.14417/hello
+Using Application HELLO, version extra1
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.18Aug145311.19183/texttest/TestSelf/ExtraVersions/Console/Reconnect/VersionMatch/texttesttmp/console.18Jul111758.14417/hello.extra1
+Reconnecting to HELLO test-suite TargetApp
+  Reconnecting to HELLO test-case Common (state success)
+  Reconnecting to HELLO test-case Base (state unrunnable)
+  HELLO test-case Base not compared:  No file found to load results from under /carm/proj/texttest-tmp/geoff/texttest.18Aug145311.19183/texttest/TestSelf/ExtraVersions/Console/Reconnect/VersionMatch/texttesttmp/console.18Jul111758.14417/hello/Base
+Reconnecting to HELLO.extra1 test-suite TargetApp
+  Reconnecting to HELLO.extra1 test-case Common (state success)
+  Reconnecting to HELLO.extra1 test-case Extra1 (state unrunnable)
+  HELLO.extra1 test-case Extra1 not compared:  No file found to load results from under /carm/proj/texttest-tmp/geoff/texttest.18Aug145311.19183/texttest/TestSelf/ExtraVersions/Console/Reconnect/VersionMatch/texttesttmp/console.18Jul111758.14417/hello.extra1/Extra1

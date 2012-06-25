@@ -1,0 +1,132 @@
+
+---------- Window 'SLEEP tests (started at 09Jun14:04:18) - TextTest dynamic GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+  _Kill (Stock image 'gtk-stop', greyed out, accelerator 'Ctrl+Delete', tooltip 'Kill selected tests')
+  _Save (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S', tooltip 'Save results for selected tests')
+  Progress bar set to fraction 0.0, text 'All 0 tests completed at 09Jun14:04:22'
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected , Details
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Jun14:04:22.' , Image 'throbber_inactive.png'
+--------------------------------------------------------------------------------------------
+
+Progress bar set to fraction 0.0, text '0 of 1 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | (white)
+->   Basic (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | (white)
+->   Basic (black/grey80) | PEND (grey80)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Pending (grey80,bold) | 1 (grey80,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | (white)
+->   Basic (black/LightGoldenrod1) | RUN (wakeman) (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Pending (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Progress bar set to fraction 1.0, text 'All 1 tests completed at 09Jun14:04:22'
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Pending (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Expected application event 'completion of test actions' occurred, proceeding.
+
+'show test suite' event created with arguments 'TargetApp (sleep)'
+
+Expanded row in Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+->   Basic (black/DarkSeaGreen2) | (DarkSeaGreen2)
+
+'set test selection to' event created with arguments 'Basic'
+
+Changed selection in Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (sleep) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+->   Basic (black/DarkSeaGreen2) | (DarkSeaGreen2)   ***
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: Basic , Details
+-> Comparison Files (bold)
+->   errors.sleep (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.sleep (DarkSeaGreen2) | (DarkSeaGreen2)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+Test succeeded on wakeman
+===============================
+
+'select file' event created with arguments 'output.sleep'
+
+---------- Dialog 'TextTest Error' ----------
+Default widget is 'gtk-ok'
+Stock image 'gtk-dialog-error' , ========== GtkTextView ==========
+File 'output.sleep' cannot be viewed as it has been removed in the file system.
+Try re-running the test, and either use local mode, or check the box for keeping
+successful test files under the Running/Advanced tab in the static GUI
+=================================
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
+---------------------------------------------
+
+'agree to texttest message' event created with arguments ''
+
+'set file selection to' event created with arguments 'output.sleep'
+
+Changed selection in File Tree with columns: Basic , Details
+-> Comparison Files (bold)
+->   errors.sleep (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.sleep (DarkSeaGreen2) | (DarkSeaGreen2)   ***
+
+'view raw differences' event created with arguments ''
+
+---------- Dialog 'TextTest Error' ----------
+Default widget is 'gtk-ok'
+Stock image 'gtk-dialog-error' , ========== GtkTextView ==========
+File 'output.sleep' cannot be viewed as it has been removed in the file system.
+Try re-running the test, and either use local mode, or check the box for keeping
+successful test files under the Running/Advanced tab in the static GUI
+=================================
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
+---------------------------------------------
+
+'agree to texttest message' event created with arguments ''
+
+'quit' event created with arguments ''

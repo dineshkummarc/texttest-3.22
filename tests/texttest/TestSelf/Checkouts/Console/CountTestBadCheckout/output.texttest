@@ -1,0 +1,11 @@
+WARNING: The checkout '/no/such/checkout' does not exist.
+WARNING: The checkout '/no/such/checkout' does not exist.
+Using Application HELLO, checkout /no/such/checkout
+Using Application NOCHECKOUT, checkout /no/such/checkout
+Counting HELLO test-suite TargetApp
+  Counting HELLO test-case Test
+Counting NOCHECKOUT test-suite TargetApp
+  Counting NOCHECKOUT test-case Test
+Application HELLO has 1 tests
+Application NOCHECKOUT has 1 tests
+There are 2 tests in total.

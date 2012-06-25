@@ -1,0 +1,7 @@
+wait for completion of test actions
+select file output.hello
+agree to texttest message
+view actions for file output.hello
+view file
+agree to texttest message
+quit

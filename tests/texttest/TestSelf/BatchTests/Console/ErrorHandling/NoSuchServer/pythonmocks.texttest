@@ -1,0 +1,5 @@
+<-PYT:import smtplib
+<-PYT:smtplib.SMTP()
+->RET:Instance('SMTP', 'smtp1')
+<-PYT:smtp1.connect('no_such_server@nowhere')
+->RET:raise socket.gaierror("(-2, 'Name or service not known')")

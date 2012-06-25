@@ -1,0 +1,10 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------npstIII
+------------environment.dip
+------------Game47
+----------------environment.dip.ver
+----------------S01
+--------------------options.dip.ver
+--------------------output.dip.ver

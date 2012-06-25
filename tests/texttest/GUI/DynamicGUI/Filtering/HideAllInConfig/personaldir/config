@@ -1,0 +1,5 @@
+hide_test_category:not_started
+hide_test_category:initial_filter
+hide_test_category:running
+hide_test_category:final_filter
+hide_test_category:success

@@ -1,0 +1,596 @@
+
+---------- Window 'HELLO tests (started at 09Jun14:04:15) - TextTest dynamic GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_View' (+) , '_Actions' (+) , '_Bazaar' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+  _Kill (Stock image 'gtk-stop', greyed out, accelerator 'Ctrl+Delete', tooltip 'Kill selected tests')
+  _Save (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S', tooltip 'Save results for selected tests')
+  Progress bar set to fraction 0.0, text '0 of 4 tests completed'
+...........
+
+Showing Test Tree with columns: Tests: 0/4 selected, all hidden , Details
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 4 (white,bold) | Check box (checked)
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Jun14:04:21.' , Image 'throbber_inactive.png'
+--------------------------------------------------------------------------------------------
+
+Updated : Test Tree with columns: Tests: 0/4 selected, 3 hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/white) | (white)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, 2 hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/white) | (white)
+->   Test2 (black/white) | (white)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, 1 hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/white) | (white)
+->   Test2 (black/white) | (white)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/white) | (white)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/white) | (white)
+->   Test2 (black/white) | (white)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/white) | (white)
+->       Test4 (black/white) | (white)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Test2 (black/white) | (white)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/white) | (white)
+->       Test4 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Test2 (black/white) | (white)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/white) | (white)
+->       Test4 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Test2 (black/white) | (white)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/white) | (white)
+->       Test4 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Progress bar set to fraction 0.25, text '1 of 4 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/salmon) | output different (salmon)
+->   Test2 (black/white) | (white)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/white) | (white)
+->       Test4 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/salmon) | output different (salmon)
+->   Test2 (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/white) | (white)
+->       Test4 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/salmon) | output different (salmon)
+->   Test2 (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/white) | (white)
+->       Test4 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/salmon) | output different (salmon)
+->   Test2 (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/white) | (white)
+->       Test4 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+Progress bar set to fraction 0.5, text '2 of 4 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/salmon) | output different (salmon)
+->   Test2 (black/salmon) | output different (salmon)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/white) | (white)
+->       Test4 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/salmon) | output different (salmon)
+->   Test2 (black/salmon) | output different (salmon)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/LightGoldenrod1) | (LightGoldenrod1)
+->       Test4 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/salmon) | output different (salmon)
+->   Test2 (black/salmon) | output different (salmon)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/LightGoldenrod1) | (LightGoldenrod1)
+->       Test4 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/salmon) | output different (salmon)
+->   Test2 (black/salmon) | output different (salmon)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/LightGoldenrod1) | (LightGoldenrod1)
+->       Test4 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Failed (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+
+Progress bar set to fraction 0.75, text '3 of 4 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/salmon) | output different (salmon)
+->   Test2 (black/salmon) | output different (salmon)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/salmon) | output different (salmon)
+->       Test4 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/salmon) | output different (salmon)
+->   Test2 (black/salmon) | output different (salmon)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/salmon) | output different (salmon)
+->       Test4 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/salmon) | output different (salmon)
+->   Test2 (black/salmon) | output different (salmon)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/salmon) | output different (salmon)
+->       Test4 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/salmon) | output different (salmon)
+->   Test2 (black/salmon) | output different (salmon)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/salmon) | output different (salmon)
+->       Test4 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Failed (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+
+Progress bar set to fraction 1.0, text 'All 4 tests completed at 09Jun14:04:22'
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/salmon) | output different (salmon)
+->   Test2 (black/salmon) | output different (salmon)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/salmon) | output different (salmon)
+->       Test4 (black/DarkSeaGreen2) | (DarkSeaGreen2)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Expected application event 'completion of test actions' occurred, proceeding.
+
+'set test selection to' event created with arguments 'Test1'
+
+No longer greyed out : _Save
+
+Changed selection in Test Tree with columns: Tests: 1/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/salmon) | output different (salmon)   ***
+->   Test2 (black/salmon) | output different (salmon)
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/salmon) | output different (salmon)
+->       Test4 (black/DarkSeaGreen2) | (DarkSeaGreen2)
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: Test1 , Details
+-> Comparison Files (bold)
+->   errors.hello (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.hello (salmon) | (salmon)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+Test FAILED :
+---------- Differences in output ----------
+1c1
+< Hello
+---
+> Hello World!
+===============================
+
+'version control log for the selected files' event created with arguments ''
+
+Changing GUI status to: 'Analyzing logs for errors.hello in test Test1'
+
+Changing GUI status to: 'Analyzing logs for output.hello in test Test1'
+
+Changing GUI status to: 'Performed version control log for the selected files.'
+
+---------- Dialog 'Bazaar Log for the selected files' ----------
+Default widget is 'gtk-close'
+Stock image 'gtk-dialog-info' , 'Bazaar logs shown below.
+Bazaar command used: bzr log
+Subdirectories were ignored, use Bazaar Log Recursive to get the logs for all subdirectories.'
+
+Showing VCS log info tree with columns: File , Last revision committed (UTC)
+-> <span weight='bold'>TargetApp</span>
+->   <span weight='bold'>Test1</span>
+->     errors.hello | <span weight='bold'>2 days ago</span>   ***
+->     output.hello | Thu Feb 19 19:26:26 2009
+
+------------------------------ (vertical VCS dialog separator)
+
+========== VCS Output View ==========
+------------------------------------------------------------
+revno: 4
+committer: geoff
+branch nick: HEAD
+timestamp: Tue 2009-02-24 20:21:36 +0000
+message:
+  Adding a line for to get a file that isn't up-to-date
+------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+=====================================
+Button '_Status' , Button '_Annotate' , Button '_Differences' , ' between revisions ' , Text entry (set to '-1') , ' and ' , Text entry
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+----------------------------------------------------------------
+
+'close log window' event created with arguments ''
+
+'set file selection to' event created with arguments 'output.hello'
+
+Changed selection in File Tree with columns: Test1 , Details
+-> Comparison Files (bold)
+->   errors.hello (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.hello (salmon) | (salmon)   ***
+
+'version control log for the selected files' event created with arguments ''
+
+Changing GUI status to: 'Analyzing logs for output.hello in test Test1'
+
+Changing GUI status to: 'Performed version control log for the selected files.'
+
+---------- Dialog 'Bazaar Log for the selected files' ----------
+Default widget is 'gtk-close'
+Stock image 'gtk-dialog-info' , 'Bazaar logs shown below.
+Bazaar command used: bzr log
+Subdirectories were ignored, use Bazaar Log Recursive to get the logs for all subdirectories.'
+
+Showing VCS log info tree with columns: File , Last revision committed (UTC)
+-> <span weight='bold'>TargetApp</span>
+->   <span weight='bold'>Test1</span>
+->     output.hello | Thu Feb 19 19:26:26 2009   ***
+
+------------------------------ (vertical VCS dialog separator)
+
+========== VCS Output View ==========
+------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+=====================================
+Button '_Status' , Button '_Annotate' , Button '_Differences' , ' between revisions ' , Text entry (set to '-1') , ' and ' , Text entry
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+----------------------------------------------------------------
+
+'close log window' event created with arguments ''
+
+'set test selection to' event created with arguments 'Test2,Test1'
+
+Changed selection in Test Tree with columns: Tests: 2/4 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test1 (black/salmon) | output different (salmon)   ***
+->   Test2 (black/salmon) | output different (salmon)   ***
+->   Suite (black/white,bold) | (white)
+->     Subsuite (black/white,bold) | (white)
+->       Test3 (black/salmon) | output different (salmon)
+->       Test4 (black/DarkSeaGreen2) | (DarkSeaGreen2)
+
+Updated : File Tree with columns: Sample from 2 tests , Details
+-> Comparison Files (bold)
+->   errors.hello (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.hello (salmon) | (salmon)   ***
+
+========== Text Info ==========
+Test FAILED :
+---------- Differences in output ----------
+1c1
+< Hello uncommitted update!
+---
+> Hello World!
+===============================
+
+'set file selection to' event created with arguments ''
+
+Changed selection in File Tree with columns: Sample from 2 tests , Details
+-> Comparison Files (bold)
+->   errors.hello (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.hello (salmon) | (salmon)
+
+'version control log for the selected files' event created with arguments ''
+
+Changing GUI status to: 'Analyzing logs for errors.hello in test Test1'
+
+Changing GUI status to: 'Analyzing logs for output.hello in test Test1'
+
+Changing GUI status to: 'Analyzing logs for errors.hello in test Test2'
+
+Changing GUI status to: 'Analyzing logs for output.hello in test Test2'
+
+Changing GUI status to: 'Performed version control log for the selected files.'
+
+---------- Dialog 'Bazaar Log for the selected files' ----------
+Default widget is 'gtk-close'
+Stock image 'gtk-dialog-info' , 'Bazaar logs shown below.
+Bazaar command used: bzr log
+Subdirectories were ignored, use Bazaar Log Recursive to get the logs for all subdirectories.'
+
+Showing VCS log info tree with columns: File , Last revision committed (UTC)
+-> <span weight='bold'>TargetApp</span>
+->   <span weight='bold'>Test1</span>
+->     errors.hello | <span weight='bold'>2 days ago</span>   ***
+->     output.hello | Thu Feb 19 19:26:26 2009
+->   <span weight='bold'>Test2</span>
+->     errors.hello | Thu Feb 19 19:26:26 2009
+->     output.hello | 4 days ago
+
+------------------------------ (vertical VCS dialog separator)
+
+========== VCS Output View ==========
+------------------------------------------------------------
+revno: 4
+committer: geoff
+branch nick: HEAD
+timestamp: Tue 2009-02-24 20:21:36 +0000
+message:
+  Adding a line for to get a file that isn't up-to-date
+------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+=====================================
+Button '_Status' , Button '_Annotate' , Button '_Differences' , ' between revisions ' , Text entry (set to '-1') , ' and ' , Text entry
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+----------------------------------------------------------------
+
+'close log window' event created with arguments ''
+
+'set file selection to' event created with arguments 'output.hello'
+
+Changed selection in File Tree with columns: Sample from 2 tests , Details
+-> Comparison Files (bold)
+->   errors.hello (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.hello (salmon) | (salmon)   ***
+
+'version control log for the selected files' event created with arguments ''
+
+Changing GUI status to: 'Analyzing logs for output.hello in test Test2'
+
+Changing GUI status to: 'Performed version control log for the selected files.'
+
+---------- Dialog 'Bazaar Log for the selected files' ----------
+Default widget is 'gtk-close'
+Stock image 'gtk-dialog-info' , 'Bazaar logs shown below.
+Bazaar command used: bzr log
+Subdirectories were ignored, use Bazaar Log Recursive to get the logs for all subdirectories.'
+
+Showing VCS log info tree with columns: File , Last revision committed (UTC)
+-> <span weight='bold'>TargetApp</span>
+->   <span weight='bold'>Test2</span>
+->     output.hello | 4 days ago   ***
+
+------------------------------ (vertical VCS dialog separator)
+
+========== VCS Output View ==========
+------------------------------------------------------------
+revno: 3
+committer: geoff
+branch nick: HEAD
+timestamp: Sun 2009-02-22 19:10:04 +0000
+message:
+  We made a change!
+------------------------------------------------------------
+revno: 1
+committer: geoff
+branch nick: HEAD
+timestamp: Thu 2009-02-19 19:26:26 +0000
+message:
+  Initial revision
+=====================================
+Button '_Status' , Button '_Annotate' , Button '_Differences' , ' between revisions ' , Text entry (set to '-1') , ' and ' , Text entry
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+----------------------------------------------------------------
+
+'close log window' event created with arguments ''
+
+'quit' event created with arguments ''

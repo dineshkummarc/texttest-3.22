@@ -1,0 +1,13 @@
+wait for all tests to be read
+set test selection to Test
+reconnect to previously run tests
+enter version to reconnect to = version_I_set_by_hand
+select temporary result directory = TargetApp
+press reconnect
+wait for reconnect GUI to be closed
+agree to texttest message
+reconnect to previously run tests
+press reconnect
+wait for reconnect GUI to be closed
+agree to texttest message
+quit

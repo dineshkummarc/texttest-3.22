@@ -1,0 +1,20 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------console.03Jul120209.14940
+------------tdat
+----------------Test2
+--------------------catalogue.tdat
+--------------------errors.tdat
+--------------------output.tdat
+--------------------readonlyfile
+--------------------somedir
+--------------------framework_tmp
+------------------------catalogue.tdatcmp
+------------------------catalogue.tdatorigcmp
+------------------------errors.tdatcmp
+------------------------errors.tdatorigcmp
+------------------------options.tdatorigcmp
+------------------------output.tdatcmp
+------------------------output.tdatorigcmp
+------------------------teststate

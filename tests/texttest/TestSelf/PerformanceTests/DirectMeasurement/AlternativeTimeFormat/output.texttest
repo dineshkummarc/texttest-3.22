@@ -1,0 +1,15 @@
+Using Application CPU
+Running CPU test-suite TargetApp
+  Running CPU test-case Test
+Comparing differences for CPU test-suite TargetApp
+  Comparing differences for CPU test-case Test (on errors.cpu,output.cpu,performance.cpu)
+  CPU test-case Test ran faster : differences in performance(faster)
+  View details(v), Save(s) or continue(any other key)?
+---------- Differences in performance(faster) ----------
+1,2c1,2
+< CPU time   :       10.0 sec. on sedom
+< Real time  :       18.2 sec.
+---
+> CPU time   :       3.5 sec. on titusville
+> Real time  :       6.0 sec.
+  Save(s) or continue(any other key)?

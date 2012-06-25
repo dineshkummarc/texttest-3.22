@@ -1,0 +1,4 @@
+# Bug in GTK2.10, ignore
+suppress_stderr_text:IA__g_object_remove_toggle_ref: couldn't find toggle ref{LINES 2}
+suppress_stderr_text:^$
+suppress_stderr_text:DeprecationWarning{LINES 2}

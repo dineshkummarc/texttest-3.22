@@ -1,0 +1,32 @@
+<-PYT:import smtplib
+<-PYT:smtplib.SMTP()
+->RET:Instance('SMTP', 'smtp1')
+<-PYT:smtp1.connect('localhost')
+->RET:(220, 'painesville.carmen.se ESMTP Sendmail 8.13.8/8.13.8; Tue, 9 Feb 2010 15:20:28 +0100')
+<-PYT:smtp1.sendmail('geoff@localhost', ['tom', 'dick', 'harry'], '''From: geoff@localhost
+To: tom,dick,harry
+Subject: 01Mar2011 HELLO : 2 tests : 2 cancelled
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests were cancelled before starting : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Test  : cancelled pending job at 14:17
+  In HELLO test-suite Suite:
+    - HELLO test-case Test : cancelled
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that were cancelled before starting follows...
+--------------------------------------------------------
+TEST were cancelled before starting : HELLO test-case Test (under Test)
+Test job 121427 was cancelled (while still pending in SGE) at 14:17
+--------------------------------------------------------
+TEST were cancelled before starting : HELLO test-case Test (under Suite/Test)
+Test run was cancelled before it had started
+
+''')
+->RET:{}
+<-PYT:smtp1.quit()

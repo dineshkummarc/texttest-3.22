@@ -1,0 +1,6 @@
+wait for all tests to be read
+enter tests for version = <default>
+select indicated tests
+run selected tests
+wait for dynamic GUI to be closed
+quit

@@ -1,0 +1,17 @@
+# A base_version should never be picked in preference to an explicit version
+PreferExplicit
+
+# Make sure we don't choose an implicit version from the base_version setting instead of an explicit one
+ReconnectPreferExplicit
+
+# version priority should win over the usual considerations about base versions last etc.
+VersionPriority
+
+# Whatever happens, we need to make sure that an exact version match always beats everything else
+ExactAlwaysWins
+
+# Check that we get our own os-name as a base version if it doesn't match the given one
+OSDependentVersions
+
+# Check that we can pick up base versions of base versions and prioritise appropriately
+MultipleLevels

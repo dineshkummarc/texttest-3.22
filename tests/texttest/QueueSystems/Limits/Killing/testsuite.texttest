@@ -1,0 +1,4 @@
+# Divided into generic (trafficked) tests for both master and slave,
+# and slave-only tests for testing that process alone
+Master
+Slave

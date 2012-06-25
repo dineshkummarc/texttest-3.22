@@ -1,0 +1,5 @@
+[collate_file]
+converted_cpmock:TargetApp/capturemockrc.hello
+converted_cpmock_version:TargetApp/capturemockrc.hello.*
+converted_cpmock_test:TargetApp/*/capturemockrc.hello
+converted_cpmock_test_version:TargetApp/*/capturemockrc.hello.*

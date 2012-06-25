@@ -1,0 +1,32 @@
+# Once we've hit the supposed capacity of the grid, don't submit any more tests, but wait for reuse to occur
+ReuseOnlyBeyondCapacity
+
+# Don't refuse to reuse just because the order of the same resources is different
+ResourceOrderChanges
+
+# We should fulfil resource requirements before respecting capacity...
+ResourcesOverReuse
+
+# If we have different virtual display args, don't reuse
+VirtualDisplayArgs
+
+# For now, reuse is disabled when using the proxy functionality
+NoReuseWithProxy
+
+# The resources aren't important when reconnecting, so we should reuse where we can
+ReconnectIgnoreResources
+
+# Make sure we don't submit slaves so they can't clear their environment, otherwise reuse suffers
+ClearEnvironment
+
+# Make sure we can handle reusing a job even when the implied checkout changes
+CheckoutChange
+
+# If we hit the capacity of the grid and are still reading tests, make sure that we continue!
+SlowReadBeyondCapacity
+
+# If the slave tells us to rerun a test, we should do so
+RerunTest
+
+# If the slave tells us to rerun a test, and we can't reuse somewhere, we should resubmit the job
+ResubmitTest

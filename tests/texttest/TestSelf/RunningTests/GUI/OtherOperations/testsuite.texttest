@@ -1,0 +1,32 @@
+# Make sure we can click on a test while it's yellow
+ViewRunningTest
+
+# Set the config file setting so we follow the file on double-clicks
+FollowFileByDefault
+
+# Make sure we can collapse suites while they're running
+CollapseWhileRunning
+
+# Make sure we can request a comparison so far of the test
+CompareWhileRunning
+
+# Make sure we can request a comparison so far of the test with another test, even when not complete
+ComparePairwise
+
+# Make sure we can't mark running tests
+MarkWhileRunning
+
+# Check we can hide the not-started tests from the GUI
+HideNotStarted
+
+# We hide a parent category during the run and see what happens to new children of it
+HideParentWhileRunning
+
+# We show only tests in one category, see what happens to finishing tests
+ShowOnlySelected
+
+# File selections shouldn't be affected by test completion
+FileSelection
+
+# File selections shouldn't be affected by test completion, even when that implies hidden tests becoming visible
+FileSelectHideNonStarted

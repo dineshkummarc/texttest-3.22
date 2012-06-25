@@ -1,0 +1,6 @@
+wait for all tests to be read, test TestAlwaysDiag version nodiag to complete, test TestAlwaysDiag version withdiag to start
+set test selection to TestAlwaysDiag under TargetApp (diag.nodiag)
+save results for selected tests
+wait for completion of test actions
+set test selection to TestAlwaysDiag under TargetApp (diag.withdiag)
+quit

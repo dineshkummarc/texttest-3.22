@@ -1,0 +1,6 @@
+Using LSF queues for Application SLEEP, version badresusage
+Q: Submitting SLEEP.badresusage test-case Basic to default LSF queue
+S: SLEEP.badresusage test-case Basic not compared:
+Failed to submit to LSF (Bad resource requirement syntax. Job not submitted.)
+Submission command was 'bsub -J Test-Basic-SLEEP.badresusage -R rusage[no_such_resource=0] -u nobody -o Test-Basic-SLEEP.badresusage.log -e Test-Basic-SLEEP.badresusage.errors ... '
+

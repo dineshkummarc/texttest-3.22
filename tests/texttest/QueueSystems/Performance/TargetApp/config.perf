@@ -1,0 +1,17 @@
+# Path to the executable
+executable:${TEXTTEST_HOME}/writeperfnumbers.py
+
+config_module:queuesystem
+
+default_interface:console
+
+[run_dependent_text]
+output:cpu time
+errors:cpu time
+
+[performance_logfile]
+logperf:output
+logperf:erro*
+
+[performance_logfile_extractor]
+logperf:cpu time:

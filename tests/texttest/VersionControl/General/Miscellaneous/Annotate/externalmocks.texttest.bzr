@@ -1,0 +1,25 @@
+<-CMD:bzr annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/Annotate/TargetApp/Test1/errors.hello
+->OUT:4   geoff   | Added an extra line
+<-CMD:bzr annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/Annotate/TargetApp/Test1/output.hello
+->OUT:1   geoff   | Hello
+<-CMD:bzr annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/Annotate/TargetApp/Test1/output.hello.version
+->ERR:bzr: ERROR: /carm/proj/texttest-tmp/geoff/texttest.30Apr101332.21579/texttest.bzr/VersionControl/General/Miscellaneous/Annotate/TargetApp/Test1/output.hello.version is not versioned.
+->EXC:3
+<-CMD:bzr annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/Test3/errors.hello
+<-CMD:bzr annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/Test3/output.hello
+->OUT:5   geoff   | Failure checked in!
+            | 
+<-CMD:bzr annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/Test4/errors.hello
+->ERR:bzr: ERROR: /carm/proj/texttest-tmp/geoff/texttest.30Apr101332.21579/texttest.bzr/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/Test4/errors.hello is not versioned.
+->EXC:3
+<-CMD:bzr annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/Test4/errors.hello.ignored_by_vcs
+->ERR:bzr: ERROR: /carm/proj/texttest-tmp/geoff/texttest.30Apr101332.21579/texttest.bzr/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/Test4/errors.hello.ignored_by_vcs is not versioned.
+->EXC:3
+<-CMD:bzr annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/Test4/output.hello
+->ERR:bzr: ERROR: /carm/proj/texttest-tmp/geoff/texttest.30Apr101332.21579/texttest.bzr/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/Test4/output.hello is not versioned.
+->EXC:3
+<-CMD:bzr annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/Subsuite/testsuite.hello
+->OUT:6   geoff   | # In a subsuite - other tests not added in CVS
+1   geoff   | Test3
+<-CMD:bzr annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/Annotate/TargetApp/Suite/testsuite.hello
+->OUT:1   geoff   | Subsuite

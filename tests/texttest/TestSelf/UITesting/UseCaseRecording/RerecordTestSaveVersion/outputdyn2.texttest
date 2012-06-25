@@ -1,0 +1,26 @@
+Using Application VideoStore, version version, checkout /carm/proj/texttest-tmp/geoff/dynamic_gui.23Feb153915.26891/texttest.gui/TestSelf/UITesting/UseCaseRecording/RerecordTestSaveVersion/TargetApp/source_with_pyc
+Running VideoStore.version test-suite TargetApp
+  Running VideoStore.version test-case AddMovie
+Comparing differences for VideoStore.version test-suite TargetApp
+  Comparing differences for VideoStore.version test-case AddMovie (on errors.gui,output.gui,usecase.gui)
+  VideoStore.version test-case AddMovie FAILED : differences in output
+---------- Differences in output ----------
+1c1
+< Started the video store. The process ID is 20480
+---
+> Started the video store. The process ID is 5140
+10,11c10,11
+< 'set new movie name to' event created with arguments 'Star Wars'
+< Edited 'GtkEntry' Text entry (set to 'Star Wars')
+---
+> 'set new movie name to' event created with arguments 'Chariots of Fire'
+> Edited 'GtkEntry' Text entry (set to 'Chariots of Fire')
+14c14
+< Adding movie 'Star Wars'. There are now 1 movies.
+---
+> Adding movie 'Chariots of Fire'. There are now 1 movies.
+17c17
+< -> Star Wars
+---
+> -> Chariots of Fire
+  Saving VideoStore.version test-case AddMovie (exact) 

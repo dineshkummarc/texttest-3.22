@@ -1,0 +1,154 @@
+
+---------- Window 'MEM.nomemfile tests (started at 09Jun14:03:25) - TextTest dynamic GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+  _Kill (Stock image 'gtk-stop', greyed out, accelerator 'Ctrl+Delete', tooltip 'Kill selected tests')
+  _Save (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S', tooltip 'Save results for selected tests')
+  Progress bar set to fraction 0.0, text 'All 0 tests completed at 09Jun14:03:28'
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected , Details
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Jun14:03:28.' , Image 'throbber_inactive.png'
+----------------------------------------------------------------------------------------------------
+
+Progress bar set to fraction 0.0, text '0 of 1 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (mem.nomemfile) (black/white,bold) | (white)
+->   NoOutputFile (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (mem.nomemfile) (black/white,bold) | (white)
+->   NoOutputFile (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (mem.nomemfile) (black/white,bold) | (white)
+->   NoOutputFile (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (mem.nomemfile) (black/white,bold) | (white)
+->   NoOutputFile (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Progress bar set to fraction 1.0, text 'All 1 tests completed at 09Jun14:03:29'
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (mem.nomemfile) (black/white,bold) | (white)
+->   NoOutputFile (black/salmon) | output new(+) (salmon)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   New (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output new (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Performance differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     Memory+ (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+No longer greyed out : _Save
+
+Changed selection in Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (mem.nomemfile) (black/white,bold) | (white)
+->   NoOutputFile (black/salmon) | output new(+) (salmon)   ***
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: NoOutputFile , Details
+-> Comparison Files (bold)
+->   memory.mem (salmon) | 13% larger (salmon)
+-> New Files (bold)
+->   output.mem (salmon) | (salmon)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+Test FAILED :
+---------- Differences in memory(larger) ----------
+1c1
+< Max Memory  :      42.3 MB
+---
+> Max Memory  :      47.8 MB
+---------- New result in output ----------
+Running Fake Memory Program...
+Improving memory usage now!
+===============================
+
+Expected application event 'completion of test actions' occurred, proceeding.
+
+'set file selection to' event created with arguments 'memory.mem'
+
+Changed selection in File Tree with columns: NoOutputFile , Details
+-> Comparison Files (bold)
+->   memory.mem (salmon) | 13% larger (salmon)   ***
+-> New Files (bold)
+->   output.mem (salmon) | (salmon)
+
+========== Text Info ==========
+Test FAILED :
+---------- Differences in memory(larger) ----------
+1c1
+< Max Memory  :      42.3 MB
+---
+> Max Memory  :      47.8 MB
+===============================
+
+'save results for selected tests' event created with arguments ''
+
+Changing GUI status to: 'Saving MEM.nomemfile test-case NoOutputFile : memory(larger), existing version'
+
+Updated : Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (mem.nomemfile) (black/white,bold) | (white)
+->   NoOutputFile (black/salmon) | output new (salmon)   ***
+
+Updated : File Tree with columns: NoOutputFile , Details
+-> Comparison Files (bold)
+->   memory.mem (DarkSeaGreen2) | (DarkSeaGreen2)
+-> New Files (bold)
+->   output.mem (salmon) | (salmon)
+
+========== Text Info ==========
+Test FAILED :
+---------- New result in output ----------
+Running Fake Memory Program...
+Improving memory usage now!
+===============================
+
+Changing GUI status to: 'Saved 1 tests.'
+
+'quit' event created with arguments ''

@@ -1,0 +1,6 @@
+wait for all tests to be read
+define a new tested application
+enter file extension to use for texttest files associated with this application = newhello
+press define
+agree to texttest message
+quit

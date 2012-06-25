@@ -1,0 +1,44 @@
+# Check we can copy a writeable directory structure. Also run queuesystem slave in that configuration, to check data file handling on termination.
+CopyTestPath
+
+# Make sure we can copy a lone test file, edit it, and notice the edit
+EditTestFile
+
+# Check we can refer to test data via environment variables
+CopyEnvironmentPath
+
+# Check we don't crash if referred variables aren't set
+CopyBadEnvironmentPath
+
+# Make sure we can get data from absolute paths, and that we don't destroy it with SGE
+AbsolutePathData
+
+# Check we set the environment variables correctly even when the path is missing
+MissingEnvironmentPath
+
+# Check that we pick up references to environment variables set in the test data
+DataEnvReference
+
+# Check we link correctly when the test path iindicates a subdirectory of the test structure
+TestPathInSubDir
+
+# Check we can ignore certain changes in the data
+IgnoreDataChanges
+
+# Check we pick up the right versions of the test data when appropriate
+VersionedData
+
+# If we add the executable as test data, it should work to use a relative path
+ExecutableAsData
+
+# Check we can refer to environment variables when collating
+CollateFromEnvironment
+
+# Check we can plugin in an arbitrary script to customize copying of a structure
+UseCopyScript
+
+# Tests for different ways of handling directories
+DataDirectories
+
+# Tests for the test_data_searchpath functionality
+SearchPath

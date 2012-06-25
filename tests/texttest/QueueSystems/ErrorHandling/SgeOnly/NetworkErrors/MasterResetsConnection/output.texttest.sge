@@ -1,0 +1,24 @@
+Using Application SLEEP, version startdigit
+Running SLEEP.startdigit test-suite TargetApp
+  Running SLEEP.startdigit test-case 123Test
+Failed to communicate with master process - waiting 1 seconds and then trying again.
+Error received was A Stupid socket error!
+Failed to communicate with master process - waiting 2 seconds and then trying again.
+Error received was A Stupid socket error!
+Failed to communicate with master process - waiting 4 seconds and then trying again.
+Error received was A Stupid socket error!
+Failed to communicate with master process - waiting 8 seconds and then trying again.
+Error received was A Stupid socket error!
+Failed to communicate with master process - waiting 16 seconds and then trying again.
+Error received was A Stupid socket error!
+Failed to communicate with master process - waiting 32 seconds and then trying again.
+Error received was A Stupid socket error!
+Failed to communicate with master process - waiting 64 seconds and then trying again.
+Error received was A Stupid socket error!
+Failed to communicate with master process - waiting 128 seconds and then trying again.
+Error received was A Stupid socket error!
+Failed to communicate with master process - waiting 256 seconds and then trying again.
+Error received was A Stupid socket error!
+Terminating as failed to communicate with master process : error: Connection reset by peer
+Comparing differences for SLEEP.startdigit test-suite TargetApp
+  Comparing differences for SLEEP.startdigit test-case 123Test - SUCCESS! (on errors.sleep,output.sleep)

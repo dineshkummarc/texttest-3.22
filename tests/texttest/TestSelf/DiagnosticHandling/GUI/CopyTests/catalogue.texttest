@@ -1,0 +1,27 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------TestAlwaysDiag_copy
+------------errors.diag
+------------first.diag
+------------first.diag.dummy
+------------logging.diag
+------------logging.diag.nodiag
+------------logging.diag.tmp
+------------options.diag
+------------output.diag
+------------second.diag
+------------third.diag
+--------TestWithDiag_copy
+------------errors.diag
+------------first.diag.tmp
+------------first.diag.tmp.dummy
+------------logging.diag.tmp
+------------options.diag
+------------output.diag
+------------second.diag.tmp
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------testsuite.diag

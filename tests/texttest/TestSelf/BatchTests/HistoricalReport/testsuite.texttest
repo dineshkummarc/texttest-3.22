@@ -1,0 +1,68 @@
+# Check we can generate the basic pages using the new month-by-month format
+GenerateWebPages
+
+# Check we can generate the basic pages, with the old format All page
+GenerateWebPagesAllPage
+
+# Check we can highlight particular weekdays in the report
+HighlightWeekdays
+
+# Don't generate the web page if we reject the batch version
+RejectVersion
+
+# Don't build the summary page if all versions are rejected
+RejectAllVersions
+
+# Check we create the page as normal without graphs if matplotlib isn't installed
+NoMatplotlib
+
+# Check matplotlib version before trying to build graphs
+OldMatplotlib
+
+# Don't refer to the application directory but to the actual root directory
+GenerateAppInSubDir
+
+# Same only use extra versions...
+ExtraVersions
+
+# Make sure historical_report_page_name is respected in extra versions
+ExtraVersionDifferentPage
+
+# Make sure we can still generate the page if only an extra version is allowed through
+ExtraVersionOnly
+
+# Still generate even if there is no info for the basic version
+OnlyExtraVersionHasInfo
+
+# Check we can archive some parts of the repository away
+ArchiveRepository
+
+# Check that sorting is by name if dates are the same using the new month-by-month format
+SortNamedRuns
+
+# Check we can get different colours for things if we want to...
+ChangeColours
+
+# Make sure providing "default" doesn't cause two copies to be made...
+BatchSessionDefault
+
+# Check we can locate our repository in the checkout if we want to
+RepositoryInCheckout
+
+# Make sure we only regenerate pages for the current month
+RegenerateSingleMonth
+
+# If a version has the most recent results in an older month, don't regenerate it
+VersionHasOlderMonth
+
+# If a version has the most recent results in an older month, don't regenerate it
+MultiVersionsWithGraphs
+
+# Tests for different applications writing to the same page
+CommonPage
+
+# Tests for generating summary pages (-s batch.GenerateSummaryPage)
+GenerateSummaryPage
+
+# Tests for pure graph generation using the graph script
+GenerateGraphs

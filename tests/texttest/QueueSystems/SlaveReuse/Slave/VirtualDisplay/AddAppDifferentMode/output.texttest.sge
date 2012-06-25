@@ -1,0 +1,14 @@
+Using Application HELLO, version 1, checkout /carm/proj/texttest-tmp/geoff/texttest.sge.01Jul174029.30293/texttest.sge/QueueSystems/SlaveReuse/Slave/VirtualDisplay/AddAppDifferentMode/TargetApp/
+Running HELLO.1 test-suite TargetApp
+  Running HELLO.1 test-case Test
+Comparing differences for HELLO.1 test-suite TargetApp
+  Comparing differences for HELLO.1 test-case Test (on errors.hello,output.hello)
+Using Application HELLO, version gui, checkout /carm/proj/texttest-tmp/geoff/texttest.sge.01Jul174029.30293/texttest.sge/QueueSystems/SlaveReuse/Slave/VirtualDisplay/AddAppDifferentMode/TargetApp/
+Tests will run with DISPLAY variable set to :3979.0
+Running HELLO.gui test-suite TargetApp
+  Running HELLO.gui test-suite Suite
+    Running HELLO.gui test-case Test
+Comparing differences for HELLO.gui test-suite TargetApp
+  Comparing differences for HELLO.gui test-suite Suite
+    Comparing differences for HELLO.gui test-case Test - SUCCESS! (on errors.hello,output.hello.gui)
+Killing Xvfb process 3356

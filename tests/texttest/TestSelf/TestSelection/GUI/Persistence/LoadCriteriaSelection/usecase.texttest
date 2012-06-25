@@ -1,0 +1,14 @@
+wait for all tests to be read
+enter test names containing = e
+select indicated tests
+save selected tests in file
+choose criteria entered in the selection tab for save
+enter filter-file name = etests
+press save
+reset running options
+set test selection to One
+set test selection to TargetApp (hello)
+load test selection from file
+select filter-file etests
+press load
+quit

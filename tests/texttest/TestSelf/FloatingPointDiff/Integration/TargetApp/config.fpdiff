@@ -1,0 +1,13 @@
+import_config_file:$STANDARD
+
+# Path to the executable
+executable:${TEXTTEST_HOME}/writeessay.py
+
+default_interface:console
+
+# View everything
+lines_of_text_difference:40
+
+[floating_point_tolerance]
+output:0.0101
+errors:0.101

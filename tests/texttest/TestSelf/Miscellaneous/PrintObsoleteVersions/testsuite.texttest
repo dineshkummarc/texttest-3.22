@@ -1,0 +1,7 @@
+Filtering
+
+# Make sure version priorities get respected when selecting the files
+VersionPriorities
+
+# Copy of Filtering, but with the priorities reversed
+ReversePriorities

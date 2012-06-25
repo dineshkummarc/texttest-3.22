@@ -1,0 +1,4 @@
+wait for all tests to be read
+set number of fastest tests to select = 2
+select indicated tests
+quit

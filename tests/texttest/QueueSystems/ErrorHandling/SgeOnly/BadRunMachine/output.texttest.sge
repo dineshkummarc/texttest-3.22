@@ -1,0 +1,11 @@
+Using SGE queues for Application SLEEP
+Q: Submitting SLEEP test-case Basic to default SGE queue
+S: SLEEP test-case Basic not compared:
+Failed to submit to SGE (Unable to run job: can't resolve hostname "no_such_machine".)
+Submission command was 'qsub -N Test-Basic-SLEEP -l hostname=no_such_machine -w e -notify -m n -cwd -b y -V -o Test-Basic-SLEEP.log -e Test-Basic-SLEEP.errors ... '
+
+Q: Submitting SLEEP test-case Basic2 to default SGE queue
+S: SLEEP test-case Basic2 not compared:
+Failed to submit to SGE (Unable to run job: can't resolve hostname "no_such_machine".)
+Submission command was 'qsub -N Test-Basic2-SLEEP -l hostname=no_such_machine -w e -notify -m n -cwd -b y -V -o Test-Basic2-SLEEP.log -e Test-Basic2-SLEEP.errors ... '
+

@@ -1,0 +1,23 @@
+FAILED=1
+18Jul2008
+HELLO : 1 tests : 1 FAILED
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests FAILED : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Test : output different
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that FAILED follows...
+--------------------------------------------------------
+TEST FAILED on fake_machine1 : HELLO test-case Test (under Test)
+---------- Differences in output ----------
+1c1
+< Hello world
+---
+> Hello after 10 seconds
+

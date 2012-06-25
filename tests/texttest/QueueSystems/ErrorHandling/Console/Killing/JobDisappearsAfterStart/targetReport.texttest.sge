@@ -1,0 +1,21 @@
+killed=1
+10Apr2008
+SLEEP killing : 1 tests : 1 killed
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests were terminated before completion : 
+In SLEEP.killing test-suite TargetApp:
+  - SLEEP.killing test-case Basic : no report, possibly killed with SIGKILL
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that were terminated before completion follows...
+--------------------------------------------------------
+TEST were terminated before completion : SLEEP.killing test-case Basic (under Basic)
+no report, possibly killed with SIGKILL
+---------- Full accounting info from SGE ----------
+Seriously nasty things happened while this test was running!
+

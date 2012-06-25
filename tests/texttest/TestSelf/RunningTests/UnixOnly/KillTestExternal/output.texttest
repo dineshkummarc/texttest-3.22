@@ -1,0 +1,14 @@
+Using Application SLEEP
+Running SLEEP test-suite TargetApp
+  Running SLEEP test-case Basic
+
+Expected application event 'all tests to be read' occurred, proceeding.
+Expected application event 'test Basic to start' occurred, proceeding.
+
+Generating signal SIGINT
+Terminating testing due to external interruption
+Killing running test (process id 1720)
+Comparing differences for SLEEP test-suite TargetApp
+  Comparing differences for SLEEP test-case Basic (on errors.sleep,output.sleep)
+  SLEEP test-case Basic were terminated before completion (INTERRUPT) : differences in output
+  View details(v), Save(s) or continue(any other key)?

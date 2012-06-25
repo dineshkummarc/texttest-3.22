@@ -1,0 +1,1 @@
+python /users/geoff/work/master/Testing/Automatic/texttest/TestSelf/KnownBugs/TargetApp/grep.py hello < /users/geoff/work/master/Testing/Automatic/texttest/TestSelf/KnownBugs/TargetApp/GrepTest/input.grep > /users/geoff/texttesttmp/grepgeoff13Sep092101/GrepTest/output.grep 2> /users/geoff/texttesttmp/grepgeoff13Sep092101/GrepTest/errors.grep

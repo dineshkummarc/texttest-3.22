@@ -1,0 +1,16 @@
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/NoVersionControl/TargetApp/Suite/Subsuite/Test4/errors.hello
+->OUT:unknown:
+  TargetApp/Suite/Subsuite/Test4/errors.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/NoVersionControl/TargetApp/Suite/Subsuite/Test4/errors.hello.ignored_by_vcs
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/NoVersionControl/TargetApp/Suite/Subsuite/Test4/output.hello
+->OUT:unknown:
+  TargetApp/Suite/Subsuite/Test4/output.hello
+<-CMD:bzr log /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/NoVersionControl/TargetApp/Suite/Subsuite/Test4/errors.hello
+->ERR:bzr: ERROR: Path does not have any revision history: /carm/proj/texttest-tmp/geoff/texttest.30Apr101332.21579/texttest.bzr/VersionControl/General/Miscellaneous/NoVersionControl/TargetApp/Suite/Subsuite/Test4/errors.hello
+->EXC:3
+<-CMD:bzr annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/NoVersionControl/TargetApp/Suite/Subsuite/Test4/errors.hello
+->ERR:bzr: ERROR: /carm/proj/texttest-tmp/geoff/texttest.30Apr101332.21579/texttest.bzr/VersionControl/General/Miscellaneous/NoVersionControl/TargetApp/Suite/Subsuite/Test4/errors.hello is not versioned.
+->EXC:3
+<-CMD:bzr diff -r -1 /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/NoVersionControl/TargetApp/Suite/Subsuite/Test4/errors.hello
+->ERR:bzr: ERROR: Path(s) are not versioned: TargetApp/Suite/Subsuite/Test4/errors.hello
+->EXC:3

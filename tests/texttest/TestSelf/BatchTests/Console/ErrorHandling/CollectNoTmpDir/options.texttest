@@ -1,0 +1,1 @@
+-s "batch.CollectFiles tmp=/no/such/dir"

@@ -1,0 +1,9 @@
+wait for all tests to be read
+set test selection to S01.99,S03,A04
+show actions menu
+replace text in multiple test files
+enter text or regular expression to search for = Hello
+enter text to replace it with (may contain regexp back references) = Goodbye
+press ok
+wait for script GUI to be closed
+quit

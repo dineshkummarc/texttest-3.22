@@ -1,0 +1,5 @@
+Using LSF queues for Application SLEEP
+Q: Submitting SLEEP test-case Basic to default LSF queue
+Q: Submitting SLEEP test-case Basic2 to default LSF queue
+T: Cancelling SLEEP test-case Basic2 in LSF (job 7481)
+T: Cancelling SLEEP test-case Basic in LSF (job 7480)

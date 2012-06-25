@@ -1,0 +1,194 @@
+
+---------- Window 'HELLO test management - TextTest static GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_Edit' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+    ----
+  _Select (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+  Refresh (Stock image 'gtk-refresh', accelerator 'F5', tooltip 'Refresh the whole test suite so that it reflects file changes')
+  _Run (Stock image 'gtk-execute', greyed out, accelerator 'Ctrl+R', tooltip 'Run selected tests')
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Selection , Config
+Viewing page 'Selection'
+Viewing table with 7 rows and 2 columns.
+'Tests for version  ' (tooltip 'Select tests for a specific version.') | Text entry (drop-down list containing ['', '<default>'])
+'Test names containing  ' (tooltip 'Select tests for which the name contains the entered text. The text can be a regular expression.') | Text entry
+'Test paths containing  ' (tooltip 'Select tests for which the full path to the test (e.g. suite1/subsuite/testname) contains the entered text. The text can be a regular expression. You can select tests by suite name this way.') | Text entry
+'Tests listed in file  ' | Text entry , Button '...'
+'Descriptions containing  ' (tooltip 'Select tests for which the description (comment) matches the entered text. The text can be a regular expression.') | Text entry
+'Test-files containing  ' (tooltip 'Select tests which have a file containing the entered text. The text can be a regular expression : e.g. enter '.*' to only look for the file without checking the contents.') | Text entry
+'Test-file to search  ' (tooltip 'When the 'test-files containing' field is non-empty, apply the search in files with the given stem. Unix-style file expansion (note not regular expressions) may be used. For example '*' will look in any file.') | Text entry (drop-down list containing [''])
+.....'Selection'......
+Check button 'Select in collapsed suites' (tooltip 'Select in currently collapsed suites as well?')
+Radio button 'Discard' (checked) (tooltip 'Unselect all currently selected tests before applying the new selection criteria.') , Radio button 'Refine' (tooltip 'Apply the new selection criteria only to the currently selected tests, to obtain a subselection.') , Radio button 'Extend' (tooltip 'Keep the currently selected tests even if they do not match the new criteria, and extend the selection with all other tests which meet the new criteria.') , Radio button 'Exclude' (tooltip 'After applying the new selection criteria to all tests, unselect the currently selected tests, to exclude them from the new selection.')
+Button '_Select' (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+.....'Filtering'......
+Radio button 'Discard' (checked) (tooltip 'Show all tests which match the criteria, and hide all those that do not.') , Radio button 'Refine' (tooltip 'Hide all tests which do not match the criteria. Do not show any tests that aren't already shown.') , Radio button 'Extend' (tooltip 'Show all tests which match the criteria. Do not hide any tests that are currently shown.')
+Button 'Filter' (Stock image 'gtk-find', accelerator 'Ctrl+F', tooltip 'filter tests to show only those indicated')
+Button 'Reset Tab' (tooltip 'Reset all the settings in the current tab to their default values')
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Jun14:03:33.' , Image 'throbber_inactive.png'
+--------------------------------------------------------------------------
+
+Changing GUI status to: 'Reading tests ...'
+
+Column titles changed in Test Tree with columns: Tests: 0/1 selected
+
+Updated : Test Tree with columns: Tests: 0/1 selected
+-> TargetApp (hello) (black/grey90,bold)
+->   Test (black/grey90)
+Updated drop-down list in 'Test-file to search' Text entry (set to 'knownbugs') (drop-down list containing ['knownbugs', '----------', 'errors', 'output'])
+
+Changing GUI status to: 'Reading tests completed at 09Jun14:03:33.'
+
+Expected application event 'all tests to be read' occurred, proceeding.
+
+'set test selection to' event created with arguments 'Test'
+
+No longer greyed out : _Run
+
+Changed selection in Test Tree with columns: Tests: All 1 selected
+-> TargetApp (hello) (black/grey90,bold)
+->   Test (black/grey90)   ***
+
+Current page changed in Notebook with tabs: Test , Selection , Running , Config
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: Test
+-> Standard Files (white,bold)
+->   errors.hello (grey90)
+->   errors.hello.baderr (grey90)
+->   output.hello (grey90)
+->   output.hello.success (grey90)
+-> Definition Files (white,bold)
+->   knownbugs.hello.missing (grey90)
+->   knownbugs.hello.missinginterr (grey90)
+->   knownbugs.hello.textinfile (grey90)
+->   knownbugs.hello.textinfile.version (grey90)
+->   knownbugs.hello.unchanged (grey90)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+
+Description:
+<No description provided>
+
+Full path:
+Test
+===============================
+
+'view actions for test' event created with arguments 'Test'
+
+---------- Popup Window ----------
+'Add Test' (Stock image 'gtk-add', greyed out, accelerator 'Ctrl+N')
+'Add Suite' (Stock image 'gtk-add', greyed out)
+  ----
+'_Cut' (Stock image 'gtk-cut', accelerator 'Ctrl+X')
+'_Copy' (Stock image 'gtk-copy', accelerator 'Ctrl+C')
+'_Paste' (Stock image 'gtk-paste', greyed out, accelerator 'Ctrl+V')
+'_Rename...' (Stock image 'gtk-italic', accelerator 'Ctrl+M')
+'Remove...' (Stock image 'gtk-delete')
+  ----
+'Enter Failure Information' (Stock image 'gtk-info', accelerator 'Ctrl+I')
+  ----
+'Show only selected'
+'Hide selected'
+  ----
+'_Run' (Stock image 'gtk-execute', accelerator 'Ctrl+R')
+'Record _Use-Case' (Stock image 'gtk-media-record', greyed out, accelerator 'F9')
+  ----
+'_Reorder' (+)
+----------------------------------
+
+'enter failure information' event created with arguments ''
+
+---------- Dialog 'Enter information for automatic interpretation of test failures' ----------
+Default widget is 'gtk-ok'
+.....'Search for'......
+'Text or regexp to match:'
+Text entry
+Check button 'Trigger if given text is NOT present'
+.....'Search in'......
+Radio button 'Specific file' (checked) (tooltip 'Search in a newly generated file (not its diff)') , Radio button 'Brief text/details' (tooltip 'Search in the brief text describing the test result as it appears in the Details column in the dynamic GUI test view') , Radio button 'Full difference report' (tooltip 'Search in the whole difference report as it appears in the lower right window in the dynamic GUI')
+'File to search in:'
+Text entry (set to 'none') (drop-down list containing ['none', 'errors', 'output'])
+Check button 'Trigger even if other files differ' (tooltip 'By default, this bug is only enabled if only the provided file is different. Check this box to enable it irrespective of what other difference exist. Note this increases the chances of it being reported erroneously and should be used carefully.')
+Check button 'Trigger even if file to search would otherwise compare as equal' (tooltip 'By default, this bug is only enabled if a difference is detected in the provided file to search. Check this box to search for it even if the file compares as equal.')
+Expander: 'Additional options to only apply to certain runs'
+-> '
+Version to report for:'
+Text entry
+'Trigger only when run on machine(s):'
+Text entry
+---------------
+'<u>Fill in exactly <i>one</i> of the sections below</u>
+'
+.....'Link failure to a reported bug'......
+'
+Extract info from bug system:'
+Text entry (set to '<none>') (drop-down list containing ['<none>', 'bugzilla'])
+'Bug ID:'
+Text entry
+.....'Link failure to a textual description'......
+'
+Full description:'
+Text entry
+'Few-word summary:'
+Text entry
+Check button 'Report as 'internal error' rather than 'known bug''
+'Number of times to try to rerun the test if the issue is triggered:'
+Spin button entry (set to '0') (min=0.0, max=1000.0, step=1.0)
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+----------------------------------------------------------------------------------------------
+
+'enter text or regexp to match =' event created with arguments 'foobar'
+Edited 'Text or regexp to match' Text entry (set to 'foobar')
+
+'enable option for checking equal files' event created with arguments ''
+Toggled Check button 'Trigger even if file to search would otherwise compare as equal' (checked) (tooltip 'By default, this bug is only enabled if a difference is detected in the provided file to search. Check this box to search for it even if the file compares as equal.')
+
+'search in the full difference report' event created with arguments ''
+
+Greyed out : File to search in (Combo Box), Trigger even if file to search would otherwise compare as equal, Trigger even if other files differ
+Toggled Radio button 'Specific file' (tooltip 'Search in a newly generated file (not its diff)')
+Toggled Radio button 'Full difference report' (checked) (tooltip 'Search in the whole difference report as it appears in the lower right window in the dynamic GUI')
+
+'enter full description =' event created with arguments 'A long description'
+Edited 'Full description' Text entry (set to 'A long description')
+
+'enter few-word summary =' event created with arguments 'Short stuff'
+Edited 'Few-word summary' Text entry (set to 'Short stuff')
+
+'press ok' event created with arguments ''
+
+Updated : File Tree with columns: Test
+-> Standard Files (white,bold)
+->   errors.hello (grey90)
+->   errors.hello.baderr (grey90)
+->   output.hello (grey90)
+->   output.hello.success (grey90)
+-> Definition Files (white,bold)
+->   knownbugs.hello (grey90)
+->   knownbugs.hello.missing (grey90)
+->   knownbugs.hello.missinginterr (grey90)
+->   knownbugs.hello.textinfile (grey90)
+->   knownbugs.hello.textinfile.version (grey90)
+->   knownbugs.hello.unchanged (grey90)
+
+Changing GUI status to: 'Performed 'Enter Failure Information' on test Test.'
+
+'quit' event created with arguments ''

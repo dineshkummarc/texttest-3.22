@@ -1,0 +1,124 @@
+Using Application APPIDENTIFIER
+auto_sort_test_suites|0|Automatically sort test suites in alphabetical order. 1 means sort in ascending order, -1 means sort in descending order.
+base_version|{'default': []}|Versions to inherit settings from
+batch_collect_compulsory_version|{'default': []}|When collecting multiple messages, which versions should be expected and give an error if not present?
+batch_collect_max_age_days|{'default': 100000}|When collecting multiple messages, what is the maximum age of run that we should accept?
+batch_extra_version|{'default': []}|Versions to be run in addition to the one specified, for particular batch sessions
+batch_filter_file|{'default': []}|Generic filter for batch session, more flexible than timelimit
+batch_junit_folder|{'default': ''}|Which folder to write test results in junit format in batch mode. Only useful together with batch_junit_format
+batch_junit_format|{'default': 'false'}|Do we write out results in junit format in batch mode
+batch_mail_on_failure_only|{'default': 'false'}|Send mails only if at least one test fails
+batch_recipients|{'default': ''}|Comma-separated addresses to send mail to in batch mode
+batch_result_repository|{'default': ''}|Directory to store historical batch results under
+batch_sender|{'default': 'geoff@localhost'}|Sender address to use sending mail in batch mode
+batch_timelimit|{'default': ''}|Maximum length of test to include in batch mode runs
+batch_use_collection|{'default': 'false'}|Do we collect multiple mails into one in batch mode
+batch_use_version_filtering|{'default': 'false'}|Which batch sessions use the version filtering mechanism
+batch_version|{'default': []}|List of versions to allow if batch_use_version_filtering enabled
+binary|None|Alias. See entry for 'executable'
+binary_file|[]|Which output files are known to be binary, and hence should not be shown/diffed?
+bug_system_location|{}|The location of the bug system we wish to extract failure information from.
+bug_system_password|{}|Password to use when logging in to bug systems defined in bug_system_location
+bug_system_username|{}|Username to use when logging in to bug systems defined in bug_system_location
+catalogue_process_string||String for catalogue functionality to identify processes created
+checkout_location|{'default': []}|Absolute paths to look for checkouts under
+collate_file|{'stacktrace': ['core*']}|Mapping of result file names to paths to collect them from
+collate_script|{'default': [], 'stacktrace': ['interpretcore.py']}|Mapping of result file names to scripts which turn them into suitable text
+collect_traffic|{'default': [], 'asynchronous': []}|Deprecated. Use CaptureMock.
+collect_traffic_client_server|false|Deprecated. Use CaptureMock.
+collect_traffic_environment|{'default': []}|Deprecated. Use CaptureMock.
+collect_traffic_py_module|[]|Alias. See entry for 'collect_traffic_python'
+collect_traffic_python|[]|Deprecated. Use CaptureMock.
+collect_traffic_python_ignore_callers|[]|Deprecated. Use CaptureMock.
+collect_traffic_use_threads|true|Deprecated. Use CaptureMock.
+config_module|default|Configuration module to use
+copy_test_path|[]|Paths to be copied to the sandbox when running tests
+copy_test_path_merge|[]|Directories to be copied to the sandbox, and merged together
+copy_test_path_script|{'default': ''}|Script to use when copying data files, instead of straight copy
+cputime_include_system_time|0|Include system time when measuring CPU time?
+create_catalogues|false|Do we create a listing of files created/removed by tests
+default_checkout||Default checkout, relative to the checkout location
+default_filter_file|[]|Filter file to use by default, generally only useful for versions
+default_interface|static_gui|Which interface to start if none of -con, -g and -gx are provided
+default_machine|localhost|Default machine to run tests on
+default_texttest_tmp|$TEXTTEST_PERSONAL_CONFIG/tmp|Default value for $TEXTTEST_TMP, if it is not set
+definition_file_stems|{'default': [], 'regenerate': ['usecase'], 'builtin': ['config', 'environment', 'testsuite', 'options', 'interpreter_options', 'input', 'knownbugs']}|files to be shown as definition files by the static GUI
+diff_program|{'default': 'tkdiff'}|External program to use for graphical file comparison
+discard_file|[]|List of generated result files which should not be compared
+executable|None|Full path to the System Under Test
+extra_config_directory|{'default': []}|Alias. See entry for 'extra_search_directory'
+extra_search_directory|{'default': []}|Additional directories to search for TextTest files
+extra_version|[]|Versions to be run in addition to the one specified
+failure_display_priority|{'default': 99}|Mapping of result files to which order they should be shown in the text info window.
+failure_severity|{'errors': 1, 'stdout': 1, 'default': 99, 'catalogue': 2, 'usecase': 1, 'stderr': 1, 'output': 1, 'performance': 2}|Mapping of result files to how serious diffs in them are
+filename_convention_scheme|classic|Naming scheme to use for files for stdin,stdout and stderr
+filter_file_directory|['filter_files']|Default directories for test filter files, relative to an application directory.
+floating_point_tolerance|{'default': 0.0}|Which tolerance to apply when comparing floating point values in output
+follow_file_by_default|0|When double-clicking running files, should we follow progress or just view them?
+follow_program|{'default': 'xterm -bg white -T $TEXTTEST_FOLLOW_FILE_TITLE -e tail -f'}|External program to use for following progress of a file
+full_name|APPIDENTIFIER|Expanded name to use for application
+gui_entry_options|{'default': []}|Default drop-down box options for GUI entries
+gui_entry_overrides|{'default': '<not set>'}|Default settings for entries in the GUI
+historical_report_colours|{'run_tuesday_fg': 'black', 'performance_bg': '#FFC6A5', 'row_header_bg': '#FFFFCC', 'run_wednesday_fg': 'black', 'test_default_fg': 'black', 'incomplete_bg': '#8B1A1A', 'column_header_bg': 'gray1', 'no_results_bg': 'gray2', 'success_bg': '#CEEFBD', 'failure_bg': '#FF3118', 'run_monday_fg': 'black', 'knownbug_bg': '#FF9900', 'run_sunday_fg': 'black', 'run_saturday_fg': 'black', 'run_thursday_fg': 'black', 'run_friday_fg': 'black', 'memory_bg': 'pink', 'performance_fg': 'red6'}|Colours to use for historical batch HTML reports
+historical_report_location|{'default': ''}|Directory to create reports on historical batch data under
+historical_report_page_name|{'default': 'APPIDENTIFIER'}|Header for page on which this application should appear
+historical_report_piechart_summary|{'default': 'false'}|Generate pie chart summary page rather than default HTML tables.
+historical_report_resource_page_tables|{'default': []}|Resource names to generate the tables for the relevant performance/memory pages
+historical_report_resource_pages|{'default': ['']}|Which performance/memory pages should be generated by default on running -coll
+historical_report_subpage_cutoff|{'default': 100000, 'Last six runs': 6}|How many runs should the subpage show, starting from the most recent?
+historical_report_subpage_weekdays|{'default': []}|Which weekdays should the subpage apply to (empty implies all)?
+historical_report_subpages|{'default': ['Last six runs']}|Names of subselection pages to generate as part of historical report
+home_operating_system|any|Which OS the test results were originally collected on
+import_config_file|[]|Extra config files to use
+interactive_action_module|default_gui|Module to search for InteractiveActions for the GUI
+interpreter||Program to use as interpreter for the SUT
+kill_command|taskkill /F /T /PID|Kill command to use on non-posix machines
+kill_timeout|0.0|Number of (wall clock) seconds to wait before killing the test
+lines_of_text_difference|30|How many lines to present in textual previews of file diffs
+link_test_path|[]|Paths to be linked from the temp. directory when running tests
+log_file|output|Result file to search, by default
+max_file_size|{'default': '-1'}|The maximum file size to load into external programs, in bytes. -1 means no limit.
+max_width_text_difference|500|How wide lines can be in textual previews of file diffs
+partial_copy_test_path|[]|Paths to be part-copied, part-linked to the sandbox
+performance_descriptor_decrease|{'default': '', 'cputime': 'faster, faster, ran faster', 'memory': 'smaller, memory-, used less memory'}|Descriptions to be used when the numbers decrease in a performance file
+performance_descriptor_increase|{'default': '', 'cputime': 'slower, slower, ran slower', 'memory': 'larger, memory+, used more memory'}|Descriptions to be used when the numbers increase in a performance file
+performance_ignore_improvements|{'default': 'false'}|Should we ignore all improvements in performance?
+performance_logfile|{'default': []}|Which result file to collect performance data from
+performance_logfile_extractor|{}|What string to look for when collecting performance data
+performance_test_machine|{'default': [], '*mem*': ['any']}|List of machines where performance can be collected
+performance_test_minimum|{'default': 0.0}|Minimum time/memory to be consumed before data is collected
+performance_unit|{'default': 'seconds', '*mem*': 'MB'}|Name to be used to identify the units in a performance file
+performance_use_normalised_%|{'default': 'true'}|Alias. See entry for 'use_normalised_percentage_change'
+performance_variation_%|{'default': 10.0}|How much variation in performance is allowed
+performance_variation_serious_%|{'default': 0.0}|Additional cutoff to performance_variation_% for extra highlighting
+relative_float_tolerance|{'default': 0.0}|Which relative tolerance to apply when comparing floating point values
+remote_copy_program||(UNIX) Program to use for copying files remotely, in case of non-shared file systems
+remote_program_options|{'default': '', 'rsync': '-azLp', 'ssh': '-o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10', 'scp': '-Crp -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10'}|Default options to use for particular remote shell programs
+remote_shell_program|rsh|Program to use for running commands remotely
+run_dependent_text|{'default': []}|Mapping of patterns to remove from result files
+save_filtered_file_stems|[]|Files where the filtered version should be saved rather than the SUT output
+slow_motion_replay_speed|3.0|How long in seconds to wait between each GUI action
+smtp_server|localhost|Server to use for sending mail in batch mode
+smtp_server_password||Password for SMTP authentication when sending mail in batch mode
+smtp_server_username||Username for SMTP authentication when sending mail in batch mode
+suppress_stderr_popup|[]|Alias. See entry for 'suppress_stderr_text'
+suppress_stderr_text|[]|List of patterns which, if written on TextTest's own stderr, should not be propagated to popups and further logfiles
+test_data_environment|{}|Environment variables to be redirected for linked/copied test data
+test_data_ignore|{'default': []}|Elements under test data structures which should not be viewed or change-monitored
+test_data_searchpath|{'default': []}|Alias. See entry for 'extra_search_directory'
+test_list_files_directory|['filter_files']|Alias. See entry for 'filter_file_directory'
+testoverview_colours|{'run_tuesday_fg': 'black', 'performance_bg': '#FFC6A5', 'row_header_bg': '#FFFFCC', 'run_wednesday_fg': 'black', 'test_default_fg': 'black', 'incomplete_bg': '#8B1A1A', 'column_header_bg': 'gray1', 'no_results_bg': 'gray2', 'success_bg': '#CEEFBD', 'failure_bg': '#FF3118', 'run_monday_fg': 'black', 'knownbug_bg': '#FF9900', 'run_sunday_fg': 'black', 'run_saturday_fg': 'black', 'run_thursday_fg': 'black', 'run_friday_fg': 'black', 'memory_bg': 'pink', 'performance_fg': 'red6'}|Alias. See entry for 'historical_report_colours'
+text_diff_program|diff|External program to use for textual comparison of files
+text_diff_program_filters|{'default': [], 'diff': ['^<', '^>']}|Filters that should be applied for particular diff tools to aid with grouping in dynamic GUI
+text_diff_program_max_file_size|{'default': '-1'}|Alias. See entry for 'max_file_size'
+unordered_text|{'default': []}|Mapping of patterns to extract and sort from result files
+unsaveable_version|[]|Versions which should not have results saved for them
+use_case_record_mode|disabled|Mode for Use-case recording (GUI, console or disabled)
+use_case_recorder||Which Use-case recorder is being used
+use_normalised_percentage_change|{'default': 'true'}|Do we interpret performance percentage changes as normalised (symmetric) values?
+version_priority|{'default': 99}|Mapping of version names to a priority order in case of conflict.
+view_file_on_remote_machine|{'default': 0}|Do we try to start viewing programs on the test execution machine?
+view_program|{'default': 'emacs'}|External program(s) to use for viewing and editing text files
+virtual_display_extra_args||(UNIX) Extra arguments (e.g. bitdepth) to supply to virtual display server (Xvfb)
+virtual_display_hide_windows|true|(Windows) Whether to emulate the virtual display handling on Windows by hiding the SUT's windows
+virtual_display_machine|['localhost']|(UNIX) List of machines to run virtual display server (Xvfb) on

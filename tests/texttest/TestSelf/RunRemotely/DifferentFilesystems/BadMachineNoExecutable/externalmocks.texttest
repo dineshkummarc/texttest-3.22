@@ -1,0 +1,6 @@
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 test -e /no/such/file
+->ERR:Permission denied (publickey,gssapi-with-mic,password).
+->EXC:255
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 echo hello
+->ERR:Permission denied (publickey,gssapi-with-mic,password).
+->EXC:255

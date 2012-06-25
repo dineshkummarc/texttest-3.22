@@ -1,0 +1,2 @@
+<-PYT:import gtk
+->RET:raise exceptions.ImportError('No module named gtk')

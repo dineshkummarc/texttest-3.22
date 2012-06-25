@@ -1,0 +1,26 @@
+
+import_config_file:$STANDARD
+
+# Path to the executable.
+executable:$TEXTTEST_CHECKOUT/videostore.py
+
+checkout_location:$TEXTTEST_HOME
+default_checkout:source_with_pyc
+
+# Might as well have nice printouts
+full_name:VideoStore
+
+use_case_record_mode:GUI
+
+use_case_recorder:storytext
+
+unsaveable_version:cpmock
+
+interpreter:storytext
+
+# No need to involve this functionality 
+# It doesn't work on Windows and the outer
+# layer will fix things for us anyway
+virtual_display_machine:{CLEAR LIST}
+
+definition_file_stems:fake_usecase_file

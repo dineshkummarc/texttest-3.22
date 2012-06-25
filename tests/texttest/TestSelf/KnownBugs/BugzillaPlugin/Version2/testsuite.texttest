@@ -1,0 +1,14 @@
+# Should report as known bug when the bug is open in bugzilla
+OpenBug
+
+# Should report internal error if the bug is reckoned to be closed
+ClosedBug
+
+# Make sure bug numbers that don't exist don't fool us
+UnknownBug
+
+# Make sure we don't stack trace if we can't parse what is returned by the bugzilla cli script
+IncompatibleVersion
+
+# Make sure we get a sensible message when the bug_system_script is incorrectly set.
+BadScript

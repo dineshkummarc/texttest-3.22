@@ -1,0 +1,16 @@
+Using Application DIAG, version tmp.dummy
+Running DIAG.tmp.dummy test-suite TargetApp
+  Running DIAG.tmp.dummy test-case TestWithDiag
+Comparing differences for DIAG.tmp.dummy test-suite TargetApp
+  Comparing differences for DIAG.tmp.dummy test-case TestWithDiag (on errors.diag,first.diag.tmp.dummy,output.diag,second.diag.tmp,third.diag)
+  DIAG.tmp.dummy test-case TestWithDiag FAILED : new results in third, differences in first
+  View details(v), Save Version tmp.dummy(1), Save Version tmp(2), Save Version dummy(3), Save(s) or continue(any other key)?
+---------- Differences in first ----------
+1c1,2
+< Dummy file
+---
+> [ firstdiag ] INFO: Some information
+> [ firstdiag ] DEBUG: Some debug stuff
+---------- New result in third ----------
+[ thirddiag ] INFO: Some information
+  Save Version tmp.dummy(1), Save Version tmp(2), Save Version dummy(3), Save(s) or continue(any other key)?

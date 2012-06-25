@@ -1,0 +1,22 @@
+FAILED=1
+07Feb2008
+SLEEP startdigit : 1 tests : 1 FAILED
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests FAILED : 
+In SLEEP.startdigit test-suite TargetApp:
+  - SLEEP.startdigit test-case 123Test : errors new(+)
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that FAILED follows...
+--------------------------------------------------------
+TEST FAILED on abbeville : SLEEP.startdigit test-case 123Test (under 123Test)
+---------- New result in errors ----------
+---------- New result in output ----------
+Sleeping for 1 seconds...
+Done
+

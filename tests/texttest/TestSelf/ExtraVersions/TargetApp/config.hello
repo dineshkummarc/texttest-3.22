@@ -1,0 +1,11 @@
+import_config_file:$STANDARD
+
+batch_recipients:santa.claus@northpole.com
+
+extra_version:extra1
+extra_version:extra2
+
+[batch_extra_version]
+batch_session_extra:batch_extra1
+batch_session_extra:extra2
+batch_session_extra:batch_extra2

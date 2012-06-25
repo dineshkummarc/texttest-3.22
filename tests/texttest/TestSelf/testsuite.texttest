@@ -1,0 +1,77 @@
+# Tests to check the various ways of selecting tests
+TestSelection
+
+# Tests to check the various ways of changing the test standard results
+ChangeTestResults
+
+# Tests for the various ways we can view files produced by the SUT in texttest
+FileViewers
+
+# Tests that the config file syntax is interpreted correctly, particularly around importing other files
+ConfigFile
+
+# Tests that the environment is correctly read from its files
+EnvironmentFile
+
+# A collection of tests for removing run-dependent text in various bizarre forms
+RunDependentText
+
+# A collection of tests for filtering floating point data in various bizarre forms
+FloatingPointDiff
+
+# Suite of tests checking we can provide test data readable and writeable in the correct ways
+TestData
+
+# Suite for testing the checkout functionality
+Checkouts
+
+# Tests for batch mode
+BatchTests
+
+# Test that we can reconnect to existing results, for example after a batch run
+ReconnectTests
+
+# A collection of tests for enabling extra logging for debugging ("diagnostics")
+DiagnosticHandling
+
+# A collection of tests for the memory checking
+MemoryTests
+
+# And for performance-checking, both system-inferred and log file extracted variants
+PerformanceTests
+
+# Running tests on different machines
+RunRemotely
+
+# Suite for tests that do things with tests that are still running
+RunningTests
+
+# Tests for collating files
+CollateFiles
+
+# Tests for marking bugs as known bugs, both in situ and referring to Bugzilla
+KnownBugs
+
+# Tests for everything to do with testing UIs using TextTest
+UITesting
+
+# Tests for what to do with empty test suites - a few different variants...
+EmptyTestSuites
+
+# Functionality that allows other versions than the default to be run
+ExtraVersions
+
+# Tests for "version inheritance mechanism"
+BaseVersions
+
+# Suite for mocking techniques with TextTest
+Mocking
+
+# Tests to check that error conditions are handled properly
+ErrorHandling
+
+# A collection of other tests for less popular functionality...
+Miscellaneous
+
+# Tests for the various ways of extracting documentation automatically from TextTest
+Documentation

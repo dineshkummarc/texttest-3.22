@@ -1,0 +1,26 @@
+# Reposition test
+RepositionTest
+
+# Sort test suite
+SortSuite
+
+# Sort test suite, set sort_test_suites_recursively to 0
+SortSuiteNonRecursive
+
+# Make sure ordering is kept when we copy, add, and rename tests with auto_sort_test_suites set
+AutoSortAddCopyRename
+
+# Make sure that the mechanism to toggle the sorting order works
+ToggleSortOrdering
+
+# Bugzilla 15228 - Make sure we don't produce a stack trace when sorting an empty test suite
+SortEmptySuite
+
+# Make sure correct refreshes take place on editing testsuite files
+RefreshTestSuite
+
+# Check we don't auto-collapse sub-test-suites when refreshing the order
+RefreshRootSuite
+
+# Check what happens if we can't modify the testsuite file
+ReadonlySuite

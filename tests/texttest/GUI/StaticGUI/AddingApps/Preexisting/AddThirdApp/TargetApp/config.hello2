@@ -1,0 +1,3 @@
+# Full path to the System Under Test
+executable:$TEXTTEST_HOME/hello.py
+

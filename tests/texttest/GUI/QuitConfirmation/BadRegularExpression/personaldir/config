@@ -1,0 +1,4 @@
+# Will fail if only regexps are used
+[query_kill_processes]
+static:emacs output.hello (from test Test
+[end]

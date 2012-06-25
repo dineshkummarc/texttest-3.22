@@ -1,0 +1,10 @@
+<-SRV:TextTest slave server started on 10.67.7.146:38207
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.sge.gui/QueueSystems/NormalOperation/GUI/QuitWithPending/texttesttmp/dynamic_gui.19Aug112827.14461/slavelogs; env --unset=USECASE_RECORD_SCRIPT --unset=USECASE_REPLAY_SCRIPT qsub -N Test-Basic-SLEEP -w e -notify -m n -cwd -b y -V -o Test-Basic-SLEEP.log -e Test-Basic-SLEEP.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.sge.gui/QueueSystems/NormalOperation/GUI/QuitWithPending/TargetApp -a sleep -l -tp 'Basic' -slave /carm/proj/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.sge.gui/QueueSystems/NormalOperation/GUI/QuitWithPending/texttesttmp/dynamic_gui.19Aug112827.14461 -servaddr 10.67.7.146:34355""
+->OUT:Your job 7480 ("Test-Basic-SLEEP") has been submitted
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.sge.gui/QueueSystems/NormalOperation/GUI/QuitWithPending/texttesttmp/dynamic_gui.19Aug112827.14461/slavelogs; env --unset=USECASE_RECORD_SCRIPT --unset=USECASE_REPLAY_SCRIPT qsub -N Test-Basic2-SLEEP -w e -notify -m n -cwd -b y -V -o Test-Basic2-SLEEP.log -e Test-Basic2-SLEEP.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.sge.gui/QueueSystems/NormalOperation/GUI/QuitWithPending/TargetApp -a sleep -l -tp 'Basic2' -slave /carm/proj/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.sge.gui/QueueSystems/NormalOperation/GUI/QuitWithPending/texttesttmp/dynamic_gui.19Aug112827.14461 -servaddr 10.67.7.146:34355""
+->OUT:Your job 7481 ("Test-Basic2-SLEEP") has been submitted
+<-SRV:Completed submission of all tests
+<-CMD:qdel 7480
+->OUT:geoff has registered the job 7480 for deletion
+<-CMD:qdel 7481
+->OUT:geoff has registered the job 7481 for deletion

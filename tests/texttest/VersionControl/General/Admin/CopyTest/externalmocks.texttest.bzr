@@ -1,0 +1,16 @@
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/CopyTest/TargetApp/Test1/errors.hello
+->OUT:modified:
+  TargetApp/Test1/errors.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/CopyTest/TargetApp/Test1/output.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/CopyTest/TargetApp/Test1/output.hello.version
+->OUT:unknown:
+  TargetApp/Test1/output.hello.version
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/CopyTest/TargetApp/Test1_copy/errors.hello
+->OUT:unknown:
+  TargetApp/Test1_copy/errors.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/CopyTest/TargetApp/Test1_copy/output.hello
+->OUT:unknown:
+  TargetApp/Test1_copy/output.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Admin/CopyTest/TargetApp/Test1_copy/output.hello.version
+->OUT:unknown:
+  TargetApp/Test1_copy/output.hello.version

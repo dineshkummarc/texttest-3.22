@@ -1,0 +1,197 @@
+
+---------- Window 'HELLO test management - TextTest static GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_Edit' (+) , '_View' (+) , '_Actions' (+) , '_CVS' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+    ----
+  _Select (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+  Refresh (Stock image 'gtk-refresh', accelerator 'F5', tooltip 'Refresh the whole test suite so that it reflects file changes')
+  _Run (Stock image 'gtk-execute', greyed out, accelerator 'Ctrl+R', tooltip 'Run selected tests')
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Selection , Config
+Viewing page 'Selection'
+Viewing table with 7 rows and 2 columns.
+'Tests for version  ' (tooltip 'Select tests for a specific version.') | Text entry (drop-down list containing ['', '<default>'])
+'Test names containing  ' (tooltip 'Select tests for which the name contains the entered text. The text can be a regular expression.') | Text entry
+'Test paths containing  ' (tooltip 'Select tests for which the full path to the test (e.g. suite1/subsuite/testname) contains the entered text. The text can be a regular expression. You can select tests by suite name this way.') | Text entry
+'Tests listed in file  ' | Text entry , Button '...'
+'Descriptions containing  ' (tooltip 'Select tests for which the description (comment) matches the entered text. The text can be a regular expression.') | Text entry
+'Test-files containing  ' (tooltip 'Select tests which have a file containing the entered text. The text can be a regular expression : e.g. enter '.*' to only look for the file without checking the contents.') | Text entry
+'Test-file to search  ' (tooltip 'When the 'test-files containing' field is non-empty, apply the search in files with the given stem. Unix-style file expansion (note not regular expressions) may be used. For example '*' will look in any file.') | Text entry (drop-down list containing [''])
+.....'Selection'......
+Check button 'Select in collapsed suites' (tooltip 'Select in currently collapsed suites as well?')
+Radio button 'Discard' (checked) (tooltip 'Unselect all currently selected tests before applying the new selection criteria.') , Radio button 'Refine' (tooltip 'Apply the new selection criteria only to the currently selected tests, to obtain a subselection.') , Radio button 'Extend' (tooltip 'Keep the currently selected tests even if they do not match the new criteria, and extend the selection with all other tests which meet the new criteria.') , Radio button 'Exclude' (tooltip 'After applying the new selection criteria to all tests, unselect the currently selected tests, to exclude them from the new selection.')
+Button '_Select' (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+.....'Filtering'......
+Radio button 'Discard' (checked) (tooltip 'Show all tests which match the criteria, and hide all those that do not.') , Radio button 'Refine' (tooltip 'Hide all tests which do not match the criteria. Do not show any tests that aren't already shown.') , Radio button 'Extend' (tooltip 'Show all tests which match the criteria. Do not hide any tests that are currently shown.')
+Button 'Filter' (Stock image 'gtk-find', accelerator 'Ctrl+F', tooltip 'filter tests to show only those indicated')
+Button 'Reset Tab' (tooltip 'Reset all the settings in the current tab to their default values')
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Jun14:04:11.' , Image 'throbber_inactive.png'
+--------------------------------------------------------------------------
+
+Changing GUI status to: 'Reading tests ...'
+
+Column titles changed in Test Tree with columns: Tests: 0/1 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/2 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/3 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/4 selected
+
+Updated : Test Tree with columns: Tests: 0/4 selected
+-> TargetApp (hello) (black/grey90,bold)
+->   Test1 (black/grey90)
+->   Test2 (black/grey90)
+->   Suite (black/grey90,bold)
+->     Subsuite (black/grey90,bold)
+->       Test3 (black/grey90)
+->       Test4 (black/grey90)
+Updated drop-down list in 'Test-file to search' Text entry (set to 'errors') (drop-down list containing ['errors', 'output'])
+
+Changing GUI status to: 'Reading tests completed at 09Jun14:04:11.'
+
+Expected application event 'all tests to be read' occurred, proceeding.
+
+'set test selection to' event created with arguments 'Subsuite'
+
+No longer greyed out : _Run
+
+Changed selection in Test Tree with columns: Tests: 1 suite selected
+-> TargetApp (hello) (black/grey90,bold)
+->   Test1 (black/grey90)
+->   Test2 (black/grey90)
+->   Suite (black/grey90,bold)
+->     Subsuite (black/grey90,bold)   ***
+->       Test3 (black/grey90)
+->       Test4 (black/grey90)
+
+Current page changed in Notebook with tabs: Test , Selection , Running , Config
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: Subsuite
+-> Definition Files (white,bold)
+->   testsuite.hello (grey90)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+
+Description:
+<No description provided>
+
+Full path:
+Suite/Subsuite
+===============================
+
+'recursive version control log for the selected files' event created with arguments ''
+
+Changing GUI status to: 'Analyzing logs for errors.hello in test Test3'
+
+Changing GUI status to: 'Analyzing logs for output.hello in test Test3'
+
+Changing GUI status to: 'Analyzing logs for errors.hello in test Test4'
+
+Changing GUI status to: 'Analyzing logs for output.hello in test Test4'
+
+Changing GUI status to: 'Analyzing logs for testsuite.hello in test Subsuite'
+
+Changing GUI status to: 'Performed recursive version control log for the selected files.'
+
+---------- Dialog 'Recursive CVS Log for the selected files' ----------
+Default widget is 'gtk-close'
+Stock image 'gtk-dialog-warning' , 'CVS logs shown below.
+Some files/directories were not under CVS control.
+CVS command used: cvs log -N'
+
+Showing VCS log info tree with columns: File , Last revision committed (UTC)
+-> <span weight='bold'>TargetApp</span>
+->   <span weight='bold'>Suite</span>
+->     <span weight='bold'>Subsuite</span>
+->       <span weight='bold'>Test3</span>
+->         errors.hello | Thu Feb 19 20:26:26 2009   ***
+->         output.hello | <span weight='bold'>Yesterday at 15:51:06</span>
+->       <span weight='bold'>Test4</span>
+->         errors.hello | Not in CVS
+->         output.hello | Not in CVS
+->       testsuite.hello | <span weight='bold' foreground='red'>Today at 07:31:01</span>
+
+------------------------------ (vertical VCS dialog separator)
+
+========== VCS Output View ==========
+
+RCS file: /carm/proj/texttest-tmp/geoff/texttest.17Mar145400.24900/texttest.cvs/VersionControl/Independent/Log/StatusFromRecursiveLog/cvsroot/TargetApp/Suite/Subsuite/Test3/errors.hello,v
+Working file: /carm/proj/texttest-tmp/geoff/texttest.17Mar145400.24900/texttest.cvs/VersionControl/Independent/Log/StatusFromRecursiveLog/TargetApp/Suite/Subsuite/Test3/errors.hello
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2009/02/19 20:26:26;  author: geoff;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2009/02/19 20:26:26;  author: geoff;  state: Exp;  lines: +0 -0
+Initial import
+=============================================================================
+=====================================
+Button '_Status' , Button '_Annotate' , Button '_Differences' , ' between revisions ' , Text entry (set to 'HEAD') , ' and ' , Text entry
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+-----------------------------------------------------------------------
+
+'show version control status' event created with arguments ''
+
+---------- Dialog 'CVS Status for the selected files' ----------
+Default widget is 'gtk-close'
+Stock image 'gtk-dialog-info' , 'CVS status shown below.
+CVS command used: cvs status
+Subdirectories were ignored, use CVS Status Recursive to get the status for all subdirectories.'
+
+Showing VCS status info tree with columns: File , Information
+-> <span weight='bold'>TargetApp</span>
+->   <span weight='bold'>Suite</span>
+->     <span weight='bold'>Subsuite</span>
+->       <span weight='bold'>Test3</span>
+->         errors.hello | Up-to-date   ***
+
+------------------------------ (vertical VCS dialog separator)
+
+========== VCS Output View ==========
+===================================================================
+File: errors.hello     	Status: Up-to-date
+
+   Working revision:	1.1.1.1	Mon Feb 23 01:01:26 2009
+   Repository revision:	1.1.1.1	/carm/proj/texttest-tmp/geoff/texttest.17Mar145400.24900/texttest.cvs/VersionControl/Independent/Log/StatusFromRecursiveLog/cvsroot/TargetApp/Suite/Subsuite/Test3/errors.hello,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+=====================================
+Button '_Log' , Button '_Annotate' , Button '_Differences' , ' between revisions ' , Text entry (set to 'HEAD') , ' and ' , Text entry
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+----------------------------------------------------------------
+
+'close status window' event created with arguments ''
+
+'close log window' event created with arguments ''
+
+'quit' event created with arguments ''

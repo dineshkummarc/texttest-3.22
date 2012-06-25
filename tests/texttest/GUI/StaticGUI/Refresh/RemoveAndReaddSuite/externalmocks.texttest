@@ -1,0 +1,4 @@
+<-CMD:emacs /carm/proj/texttest-tmp/geoff/texttest.01Jul150610.29197/texttest/GUI/StaticGUI/Refresh/RemoveAndReaddSuite/TargetApp/orig/testsuite.hello
+->FIL:testsuite.hello
+<-CMD:emacs /carm/proj/texttest-tmp/geoff/texttest.01Jul150610.29197/texttest/GUI/StaticGUI/Refresh/RemoveAndReaddSuite/TargetApp/orig/testsuite.hello
+->FIL:testsuite.hello.edit_2

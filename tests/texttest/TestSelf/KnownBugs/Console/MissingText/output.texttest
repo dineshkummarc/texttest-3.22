@@ -1,0 +1,14 @@
+Using Application HELLO, version missing
+Running HELLO.missing test-suite TargetApp
+  Running HELLO.missing test-case Test
+Comparing differences for HELLO.missing test-suite TargetApp
+  Comparing differences for HELLO.missing test-case Test (on errors.hello,output.hello)
+  HELLO.missing test-case Test had known bugs (No World!) : differences in output
+  View details(v), Save Version missing(1), Save(s) or continue(any other key)?
+We're supposed to be saying hello to the world!
+---------- Differences in output ----------
+1c1
+< Hello world
+---
+> Hello after 5 seconds
+  Save Version missing(1), Save(s) or continue(any other key)?

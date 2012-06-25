@@ -1,0 +1,8 @@
+Using Application HELLO, version success.unchanged
+Running HELLO.success.unchanged test-suite TargetApp
+  Running HELLO.success.unchanged test-case Test
+Comparing differences for HELLO.success.unchanged test-suite TargetApp
+  Comparing differences for HELLO.success.unchanged test-case Test - SUCCESS! (on errors.hello,output.hello.success)
+  HELLO.success.unchanged test-case Test had known bugs (Delay bug) on batesville :
+Creating batch report for application HELLO ...
+File written.

@@ -1,0 +1,5 @@
+# Tests for the data in the summary page tests
+SummaryPageData
+
+# If we have 1000 tests of which almost all succeed, don't show the graph from 0
+ManyTestsMostSucceed

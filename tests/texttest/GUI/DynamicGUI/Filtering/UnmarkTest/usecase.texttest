@@ -1,0 +1,12 @@
+wait for completion of test actions
+set test selection to simple_fail2,complex_fail1,complex_fail2
+show actions menu
+mark the selected tests
+press ok
+set test selection to complex_fail2
+unmark the selected tests
+view options for Status
+set test selection to simple_fail2,complex_fail1
+unmark the selected tests
+view options for Status
+quit

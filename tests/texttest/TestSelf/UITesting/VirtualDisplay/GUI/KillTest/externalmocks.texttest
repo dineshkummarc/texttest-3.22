@@ -1,0 +1,2 @@
+<-CMD:which Xvfb
+->OUT:/carm/proj/texttest-tmp/geoff/texttest.07Aug095501.5822/texttest/TestSelf/UITesting/VirtualDisplay/GUI/KillTest/Xvfb

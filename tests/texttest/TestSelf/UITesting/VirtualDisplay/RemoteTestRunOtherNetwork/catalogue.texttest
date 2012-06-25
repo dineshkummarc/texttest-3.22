@@ -1,0 +1,11 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------console.08Apr145433.26766
+------------disp
+----------------Test
+--------------------errors.disp
+--------------------output.disp
+--------------------run_test.sh
+--------------------framework_tmp
+------------------------teststate

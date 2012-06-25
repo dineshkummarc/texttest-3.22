@@ -1,0 +1,8 @@
+TextTest will write diagnostics in /carm/proj/texttest-tmp/geoff/texttest.02Jun134524.952/texttest/TestSelf/Miscellaneous/SelfDiagnostics/log based on file at /carm/proj/texttest-tmp/geoff/texttest.02Jun134524.952/texttest/TestSelf/Miscellaneous/SelfDiagnostics/log/logging.debug
+standard log INFO - Using Application HELLO
+standard log INFO - Running HELLO test-suite TargetApp
+standard log INFO -   Running HELLO test-case Test
+standard log INFO - Comparing differences for HELLO test-suite TargetApp
+standard log INFO -   Comparing differences for HELLO test-case Test (on errors.hello,output.hello)
+standard log INFO -   HELLO test-case Test FAILED : differences in output
+standard log INFO -   View details(v), Save(s) or continue(any other key)?

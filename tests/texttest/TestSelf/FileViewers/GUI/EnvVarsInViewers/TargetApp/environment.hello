@@ -1,0 +1,2 @@
+MY_DIFF_PROGRAM:tkdiff
+MY_VIEWER:$TEXTTEST_HOME/stupid_viewer.py

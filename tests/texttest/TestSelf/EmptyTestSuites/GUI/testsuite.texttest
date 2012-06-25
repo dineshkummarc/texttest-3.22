@@ -1,0 +1,32 @@
+# Ordered list of tests in test suite. Add as appropriate
+
+
+# Test that we can exclude empty test suites
+ExcludeEmpty
+
+# Test that we can exclude empty test suites via the selection tab
+FilterEmptyAway
+
+# Ordered list of tests in test suite. Add as appropriate
+
+
+# Check that -t excludes empty suites also
+TestFilter
+
+# If a suite has only bad tests, it should still appear as empty
+ViewSuiteBadTests
+
+# Make sure we can select tests corresponding to the default version
+SelectDefaultVersion
+
+# See what happens when we specify an application name
+AppNameGiven
+
+# If the dynamic GUI is run from the command line, it shouldn't display empty suites
+CmdLineDynamicGUI
+
+# Refreshing the tests in the static GUI should not produce output on stdout, which may not be available
+RefreshNoOutput
+
+# Make sure copies appear in the expected places...
+CopyInSuiteWithBadTests

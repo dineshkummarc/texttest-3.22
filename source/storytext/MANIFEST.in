@@ -1,0 +1,6 @@
+include README.txt
+include lib/ConfigParser26.py
+recursive-include doc *
+recursive-include log *
+recursive-include examples *
+recursive-include bin *

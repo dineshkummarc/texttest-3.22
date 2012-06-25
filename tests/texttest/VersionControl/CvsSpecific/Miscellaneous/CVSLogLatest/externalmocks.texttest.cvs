@@ -1,0 +1,158 @@
+<-CMD:cvs log -N -rHEAD /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/CvsSpecific/Miscellaneous/CVSLogLatest/TargetApp/Test1/errors.hello
+->OUT:
+RCS file: /carm/proj/texttest-tmp/geoff/texttest.26Feb153158.18504/texttest/GUI/StaticGUI/CVSPlugin/CVSLogLatest/cvsroot/TargetApp/Test1/errors.hello,v
+Working file: /carm/proj/texttest-tmp/geoff/texttest.26Feb153158.18504/texttest/GUI/StaticGUI/CVSPlugin/CVSLogLatest/TargetApp/Test1/errors.hello
+head: 1.2
+branch:
+locks: strict
+access list:
+keyword substitution: kv
+total revisions: 3;	selected revisions: 1
+description:
+----------------------------
+revision 1.2
+date: 2009/02/24 21:21:36;  author: geoff;  state: Exp;  lines: +1 -0
+Adding a line for to get a file that isn't up-to-date
+=============================================================================
+<-CMD:cvs log -N -rHEAD /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/CvsSpecific/Miscellaneous/CVSLogLatest/TargetApp/Test1/output.hello
+->OUT:
+RCS file: /carm/proj/texttest-tmp/geoff/texttest.26Feb153158.18504/texttest/GUI/StaticGUI/CVSPlugin/CVSLogLatest/cvsroot/TargetApp/Test1/output.hello,v
+Working file: /carm/proj/texttest-tmp/geoff/texttest.26Feb153158.18504/texttest/GUI/StaticGUI/CVSPlugin/CVSLogLatest/TargetApp/Test1/output.hello
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 1
+description:
+----------------------------
+revision 1.1.1.1
+date: 2009/02/19 20:26:26;  author: geoff;  state: Exp;  lines: +0 -0
+Initial import
+=============================================================================
+<-CMD:cvs log -N -rHEAD /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/CvsSpecific/Miscellaneous/CVSLogLatest/TargetApp/Test1/output.hello.version
+->ERR:cvs log: nothing known about output.hello.version
+->EXC:1
+<-CMD:cvs log -N -rHEAD /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/CvsSpecific/Miscellaneous/CVSLogLatest/TargetApp/Test1/errors.hello
+->OUT:
+RCS file: /carm/proj/texttest-tmp/geoff/texttest.26Feb153158.18504/texttest/GUI/StaticGUI/CVSPlugin/CVSLogLatest/cvsroot/TargetApp/Test1/errors.hello,v
+Working file: /carm/proj/texttest-tmp/geoff/texttest.26Feb153158.18504/texttest/GUI/StaticGUI/CVSPlugin/CVSLogLatest/TargetApp/Test1/errors.hello
+head: 1.2
+branch:
+locks: strict
+access list:
+keyword substitution: kv
+total revisions: 3;	selected revisions: 1
+description:
+----------------------------
+revision 1.2
+date: 2009/02/24 21:21:36;  author: geoff;  state: Exp;  lines: +1 -0
+Adding a line for to get a file that isn't up-to-date
+=============================================================================
+<-CMD:cvs log -N -rHEAD /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/CvsSpecific/Miscellaneous/CVSLogLatest/TargetApp/Test1/output.hello
+->OUT:
+RCS file: /carm/proj/texttest-tmp/geoff/texttest.26Feb153158.18504/texttest/GUI/StaticGUI/CVSPlugin/CVSLogLatest/cvsroot/TargetApp/Test1/output.hello,v
+Working file: /carm/proj/texttest-tmp/geoff/texttest.26Feb153158.18504/texttest/GUI/StaticGUI/CVSPlugin/CVSLogLatest/TargetApp/Test1/output.hello
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 1
+description:
+----------------------------
+revision 1.1.1.1
+date: 2009/02/19 20:26:26;  author: geoff;  state: Exp;  lines: +0 -0
+Initial import
+=============================================================================
+<-CMD:cvs log -N -rHEAD /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/CvsSpecific/Miscellaneous/CVSLogLatest/TargetApp/Test1/output.hello.version
+->ERR:cvs log: nothing known about output.hello.version
+->EXC:1
+<-CMD:cvs log -N -rHEAD /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/CvsSpecific/Miscellaneous/CVSLogLatest/TargetApp/Test2/errors.hello
+->OUT:
+RCS file: /carm/proj/texttest-tmp/geoff/texttest.26Feb153158.18504/texttest/GUI/StaticGUI/CVSPlugin/CVSLogLatest/cvsroot/TargetApp/Test2/errors.hello,v
+Working file: /carm/proj/texttest-tmp/geoff/texttest.26Feb153158.18504/texttest/GUI/StaticGUI/CVSPlugin/CVSLogLatest/TargetApp/Test2/errors.hello
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 1
+description:
+----------------------------
+revision 1.1.1.1
+date: 2009/02/19 20:26:26;  author: geoff;  state: Exp;  lines: +0 -0
+Initial import
+=============================================================================
+<-CMD:cvs log -N -rHEAD /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/CvsSpecific/Miscellaneous/CVSLogLatest/TargetApp/Test2/output.hello
+->OUT:
+RCS file: /carm/proj/texttest-tmp/geoff/texttest.26Feb153158.18504/texttest/GUI/StaticGUI/CVSPlugin/CVSLogLatest/cvsroot/TargetApp/Test2/output.hello,v
+Working file: /carm/proj/texttest-tmp/geoff/texttest.26Feb153158.18504/texttest/GUI/StaticGUI/CVSPlugin/CVSLogLatest/TargetApp/Test2/output.hello
+head: 1.2
+branch:
+locks: strict
+access list:
+keyword substitution: kv
+total revisions: 3;	selected revisions: 1
+description:
+----------------------------
+revision 1.2
+date: 2009/02/22 20:10:04;  author: geoff;  state: Exp;  lines: +1 -1
+We made a change!
+=============================================================================
+<-CMD:cvs log -N -rHEAD /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/CvsSpecific/Miscellaneous/CVSLogLatest/TargetApp/Suite/Subsuite/Test3/errors.hello
+->OUT:
+RCS file: /carm/proj/texttest-tmp/geoff/texttest.26Feb153158.18504/texttest/GUI/StaticGUI/CVSPlugin/CVSLogLatest/cvsroot/TargetApp/Suite/Subsuite/Test3/errors.hello,v
+Working file: /carm/proj/texttest-tmp/geoff/texttest.26Feb153158.18504/texttest/GUI/StaticGUI/CVSPlugin/CVSLogLatest/TargetApp/Suite/Subsuite/Test3/errors.hello
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 1
+description:
+----------------------------
+revision 1.1.1.1
+date: 2009/02/19 20:26:26;  author: geoff;  state: Exp;  lines: +0 -0
+Initial import
+=============================================================================
+<-CMD:cvs log -N -rHEAD /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/CvsSpecific/Miscellaneous/CVSLogLatest/TargetApp/Suite/Subsuite/Test3/output.hello
+->OUT:
+RCS file: /carm/proj/texttest-tmp/geoff/texttest.26Feb153158.18504/texttest/GUI/StaticGUI/CVSPlugin/CVSLogLatest/cvsroot/TargetApp/Suite/Subsuite/Test3/output.hello,v
+Working file: /carm/proj/texttest-tmp/geoff/texttest.26Feb153158.18504/texttest/GUI/StaticGUI/CVSPlugin/CVSLogLatest/TargetApp/Suite/Subsuite/Test3/output.hello
+head: 1.2
+branch:
+locks: strict
+access list:
+keyword substitution: kv
+total revisions: 3;	selected revisions: 1
+description:
+----------------------------
+revision 1.2
+date: 2009/02/25 15:51:06;  author: geoff;  state: Exp;  lines: +2 -1
+Induce a failure and a conflict!
+=============================================================================
+<-CMD:cvs log -N -rHEAD /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/CvsSpecific/Miscellaneous/CVSLogLatest/TargetApp/Suite/Subsuite/Test4/errors.hello
+->ERR:cvs log: cannot open CVS/Entries for reading: No such file or directory
+cvs log: nothing known about errors.hello
+->EXC:1
+<-CMD:cvs log -N -rHEAD /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/CvsSpecific/Miscellaneous/CVSLogLatest/TargetApp/Suite/Subsuite/Test4/output.hello
+->ERR:cvs log: cannot open CVS/Entries for reading: No such file or directory
+cvs log: nothing known about output.hello
+->EXC:1
+<-CMD:cvs log -N -rHEAD /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/CvsSpecific/Miscellaneous/CVSLogLatest/TargetApp/Suite/testsuite.hello
+->OUT:
+RCS file: /carm/proj/texttest-tmp/geoff/texttest.26Feb153158.18504/texttest/GUI/StaticGUI/CVSPlugin/CVSLogLatest/cvsroot/TargetApp/Suite/testsuite.hello,v
+Working file: /carm/proj/texttest-tmp/geoff/texttest.26Feb153158.18504/texttest/GUI/StaticGUI/CVSPlugin/CVSLogLatest/TargetApp/Suite/testsuite.hello
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 1
+description:
+----------------------------
+revision 1.1.1.1
+date: 2009/02/19 20:26:26;  author: geoff;  state: Exp;  lines: +0 -0
+Initial import
+=============================================================================

@@ -1,0 +1,7 @@
+Using Application VER, version explicit.other
+Running VER.explicit.other test-suite TargetApp
+  Running VER.explicit.other test-case Test
+Comparing differences for VER.explicit.other test-suite TargetApp
+  Comparing differences for VER.explicit.other test-case Test (on errors.ver,output.ver.implicit)
+  VER.explicit.other test-case Test FAILED : differences in output
+  View details(v), Save Version explicit.other.implicit(1), Save Version explicit.other(2), Save Version explicit.implicit(3), Save Version explicit(4), Save Version other.implicit(5), Save Version other(6), Save Version implicit(7), Save(s) or continue(any other key)?

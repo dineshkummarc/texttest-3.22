@@ -1,0 +1,29 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------console.version.06Mar004818.5852
+------------tdat.version
+----------------Test1
+--------------------catalogue.tdat
+--------------------errors.tdat
+--------------------output.tdat
+--------------------readonlyfile
+--------------------framework_tmp
+------------------------teststate
+--------------------writeabledirs
+------------------------otherreadfile
+------------------------readfile
+------------------------otherdir
+----------------------------writehere
+--------------------------------newfile
+--------------------------------readfile
+------------------------readdir
+----------------------------otherdir
+--------------------------------readfile
+----------------------------somedir
+--------------------------------readfile
+------------------------writehere
+----------------------------newfile
+----------------------------readfile
+----------------------------writeandremovehere
+--------------------------------readfile

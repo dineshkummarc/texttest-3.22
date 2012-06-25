@@ -1,0 +1,14 @@
+<-PYT:import pwd
+<-PYT:import grp
+<-PYT:os.lstat('/carm/proj/texttest-tmp/geoff/texttest.gui.15Feb082625.4164/texttest.gui/GUI/StaticGUI/FileProperties/NewFiles/texttesttmp/dynamic_gui.15Feb082630.4170/hello/Test/newout.hello')
+->RET:os.stat_result((33204, 25166586, 40L, 1, 364, 13, 13, 1288865225, 1288865225, 1288865225))
+<-PYT:time.time()
+->RET:1297754794.778671
+<-PYT:pwd.getpwuid(364)
+->RET:Instance('struct_passwd(object)', 'struct_passwd1')
+<-PYT:struct_passwd1.__getitem__(0)
+->RET:'geoff'
+<-PYT:grp.getgrgid(13)
+->RET:Instance('struct_group(object)', 'struct_group1')
+<-PYT:struct_group1.__getitem__(0)
+->RET:'carm'

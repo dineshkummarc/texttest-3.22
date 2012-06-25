@@ -1,0 +1,16 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------Common_copy
+------------errors.hello
+------------output.hello
+--------Extra1_copy
+------------errors.hello
+------------output.hello.extra1
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------testsuite.hello
+--------testsuite.hello.extra1
+--------testsuite.hello.extra2

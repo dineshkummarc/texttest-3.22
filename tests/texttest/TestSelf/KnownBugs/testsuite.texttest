@@ -1,0 +1,8 @@
+Console
+BugzillaPlugin
+
+# Bug functionality plugged in to Jira
+JiraPlugin
+
+# Plugin for trac
+TracPlugin

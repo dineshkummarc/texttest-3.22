@@ -1,0 +1,9 @@
+<-CMD:hg rm --force /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RemoveTests/TargetApp/Test1
+->FIL:Test1
+->OUT:removing TargetApp/Test1/errors.hello
+removing TargetApp/Test1/output.hello
+<-CMD:hg rm --force /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RemoveTests/TargetApp/Suite/Subsuite/Test3
+->FIL:Test3
+->OUT:removing TargetApp/Suite/Subsuite/Test3/errors.hello
+removing TargetApp/Suite/Subsuite/Test3/output.hello
+<-CMD:hg rm --force /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/RemoveTests/TargetApp/Suite/Subsuite/Test4

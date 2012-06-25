@@ -1,0 +1,20 @@
+wait for all tests to be read
+set test selection to One
+view options for Selection
+save selected tests in file
+enter filter-file name = one
+press save
+set test selection to Two
+view options for Selection
+save selected tests in file
+enter filter-file name = two
+press save
+load test selection from file
+select filter-file one
+press load
+choose extend for current selection
+search for files for 'tests listed in file'
+choose filter file two
+open selected file
+select indicated tests
+quit

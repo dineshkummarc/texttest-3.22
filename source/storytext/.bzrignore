@@ -1,0 +1,7 @@
+build
+MANIFEST
+dist
+*.class
+.project
+.pydevproject
+StoryText.egg-info

@@ -1,0 +1,47 @@
+# Test for reconnect functionality
+SuccessTest
+
+# Check we can reconnect and recalculate the temporary files. Check that run dependent text is included!
+RecomputeFileFilters
+
+# Check that we match version files that have appeared since the run was made (see bug 3113)
+RecomputeVersionFile
+
+# We should automatically recompute if we can't find a state file
+NoStateFile
+
+# Check we can handle linking to new files
+NewFiles
+
+# Make sure we don't get distracted by runs of other apps lying around
+IgnoreOtherApps
+
+# Pick up all the runs that match, including sub-versions
+MultipleRuns
+
+# It should still work to list them explicitly as it used to...
+MultipleVersions
+
+# Check we can reconnect when the original run was run with -v a,b
+MultipleVersionsOneRun
+
+# If the original run had extra versions we don't have (usually via batch_extra_version) we should pick them up
+InferExtraVersion
+
+# Check we can provide the actual directory name of the run
+ExplicitDirectory
+
+# Check we can provide the actual directory name of the run, and that this will be accepted even if it has a version (which is then inferred)
+ExplicitVersionedDirectory
+
+# Don't get fooled by trailing slashes...
+ExplicitDirectoryTrailingSlash
+
+# Complications arise when reconnecting with test data sometimes...
+TestData
+
+# Tests requiring a compound version
+CompoundVersion
+
+# Suite for some common errors
+ErrorHandling

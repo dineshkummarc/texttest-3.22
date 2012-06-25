@@ -1,0 +1,7 @@
+wait for all tests to be read
+set test selection to Game9952
+set file selection to testsuite.dip
+view actions for file testsuite.dip
+view file
+wait for file editing operations to complete
+quit

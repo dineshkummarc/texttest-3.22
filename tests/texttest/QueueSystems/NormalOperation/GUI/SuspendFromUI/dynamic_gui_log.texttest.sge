@@ -1,0 +1,171 @@
+
+---------- Window 'SLEEP.killing tests (started at 22Sep12:00:43) - TextTest dynamic GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+  _Kill (Stock image 'gtk-stop', greyed out, accelerator 'Ctrl+Delete', tooltip 'Kill selected tests')
+  _Save (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S', tooltip 'Save results for selected tests')
+  Progress bar set to fraction 0.0, text 'All 0 tests completed at 22Sep12:00:46'
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected , Details
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 22Sep12:00:46.' , Image 'throbber_inactive.png'
+----------------------------------------------------------------------------------------------------
+
+Progress bar set to fraction 0.0, text '0 of 1 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (sleep.killing) (black/white,bold) | (white)
+->   Basic (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (sleep.killing) (black/white,bold) | (white)
+->   Basic (black/grey80) | PEND (grey80)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Pending (grey80,bold) | 1 (grey80,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (sleep.killing) (black/white,bold) | (white)
+->   Basic (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Pending (white) | 0 (white) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (sleep.killing) (black/white,bold) | (white)
+->   Basic (black/LightGoldenrod1) | RUN (kisaumi) (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Pending (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Expected application event 'all tests to be read' occurred, proceeding.
+Expected application event 'test Basic to start' occurred, proceeding.
+
+'view actions for test' event created with arguments 'Basic'
+
+No longer greyed out : _Kill
+
+Changed selection in Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (sleep.killing) (black/white,bold) | (white)
+->   Basic (black/LightGoldenrod1) | RUN (kisaumi) (LightGoldenrod1)   ***
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: Basic , Details
+-> Temporary Files
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+Running on kisaumi
+
+To obtain the latest progress information and an up-to-date comparison of the files above, perform 'recompute status' (press 'F5')
+===============================
+
+---------- Popup Window ----------
+'_Save' (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S')
+'Save _As...' (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+Alt+S')
+  ----
+'_Kill' (Stock image 'gtk-stop', accelerator 'Ctrl+Delete')
+'Suspend'
+'Unsuspend'
+  ----
+'_Mark' (greyed out, accelerator 'Shift+Ctrl+M')
+'_Unmark' (greyed out, accelerator 'Shift+Ctrl+U')
+  ----
+'_Rerun' (Stock image 'gtk-execute', accelerator 'Ctrl+R')
+'Recompute Status' (Stock image 'gtk-refresh', accelerator 'F5')
+----------------------------------
+
+'suspend selected test' event created with arguments ''
+
+Changing GUI status to: 'Performed 'Suspend the selected tests' on test Basic.'
+
+'view actions for test' event created with arguments 'Basic'
+
+---------- Popup Window ----------
+'_Save' (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S')
+'Save _As...' (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+Alt+S')
+  ----
+'_Kill' (Stock image 'gtk-stop', accelerator 'Ctrl+Delete')
+'Suspend'
+'Unsuspend'
+  ----
+'_Mark' (greyed out, accelerator 'Shift+Ctrl+M')
+'_Unmark' (greyed out, accelerator 'Shift+Ctrl+U')
+  ----
+'_Rerun' (Stock image 'gtk-execute', accelerator 'Ctrl+R')
+'Recompute Status' (Stock image 'gtk-refresh', accelerator 'F5')
+----------------------------------
+
+'unsuspend selected test' event created with arguments ''
+
+Changing GUI status to: 'Performed 'Unsuspend the selected tests' on test Basic.'
+
+'quit' event created with arguments ''
+
+Changing GUI status to: 'Waiting for all tests to terminate ...'
+
+Updated : Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (sleep.killing) (black/white,bold) | (white)
+->   Basic (black/LightGoldenrod1) | (LightGoldenrod1)   ***
+
+Updated : File Tree with columns: Basic , Details
+-> Temporary Files
+
+========== Text Info ==========
+Filtering and comparing newly generated result files on kisaumi
+
+To obtain the latest progress information and an up-to-date comparison of the files above, perform 'recompute status' (press 'F5')
+===============================
+
+Greyed out : _Kill
+No longer greyed out : _Save
+
+Progress bar set to fraction 1.0, text 'All 1 tests completed at 22Sep12:00:49'
+
+Updated : Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (sleep.killing) (black/white,bold) | (white)
+->   Basic (black/salmon) | KILLED (salmon)   ***
+
+Updated : File Tree with columns: Basic , Details
+-> Comparison Files (bold)
+->   errors.sleep (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.sleep (salmon) | (salmon)
+
+========== Text Info ==========
+Test were terminated before completion (KILLED) on kisaumi :
+Test killed explicitly at 11:59
+---------- Differences in output ----------
+1,2c1
+< Sleeping for 5 seconds...
+< Done
+---
+> Sleeping for 1000 seconds...
+===============================

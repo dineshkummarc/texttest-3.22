@@ -1,0 +1,5 @@
+wait for completion of test actions
+select file output.hello
+wait for the graphical difference program to terminate
+save results for selected tests
+quit

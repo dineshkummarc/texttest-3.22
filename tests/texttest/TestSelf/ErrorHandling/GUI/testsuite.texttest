@@ -1,0 +1,47 @@
+# Test GUI deals OK with bad arguments
+BadArguments
+
+# Press things we aren't allowed to and check for responses
+ErrorMessages
+
+# Static GUI should run even when no tests are present
+StartNoTests
+
+# Make sure we don't stack trace if no apps are started
+StartNoApps
+
+# Make sure we can run a test that is named the same as the application
+TestHasAppName
+
+# Test for bug where path name repeat caused a stacktrace
+PathNameRepeat
+
+# Check we don't crash if the header line is clicked
+ActivateFileViewHeaders
+
+# Make sure we can display two applications which have the same full name
+DuplicateFullName
+
+# The collapse feature currently does not like it when 
+# the success color is not unique, so here we use failure 
+# colour == success colour. A bit ridiculous, but still 
+# worth remembering.
+SuccessColourNotUnique
+
+# Copying, renaming and removing a test seems to leave it lying around with the unique names somehow...
+CopyRenameRemoveBug
+
+# If a config file entry starts with {CLEAR LIST} that should be understood
+InitialClearList
+
+# This combination of options should be rejected...
+CreateAppDynamicGUI
+
+# Check we don't fall over if a VCS we don't support is present
+UnsupportedVCS
+
+# Fail gracefully if a user-defined GUI description file contains nonsense
+BadGUIDescription
+
+# If extraReadFiles throws we should ignore it and carry on
+ExtraReadFileException

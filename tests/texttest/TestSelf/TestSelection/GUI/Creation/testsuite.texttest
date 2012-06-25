@@ -1,0 +1,104 @@
+# All tests run from static GUI. Make sure they really are all run!
+NoFilters
+
+# Check we can select a test or two with the mouse
+MouseSelection
+
+# Check we can type in a test name or two
+SelectByName
+
+# Check we can select from test descriptions.
+SelectByDescription
+
+# Check we can select from application names.
+SelectByApplication
+
+# Make sure we can select and run OK with version identifiers
+SelectByVersion
+
+# Make sure the GUI can handle the case where a test
+# with a sub-name is selected (Bugzilla 1521)
+SelectSubText
+
+# Make sure we can rerun tests from the dynamic GUI
+RerunTest
+
+# If we rerun a copy it shouldn't produce copies of itself in the rerun
+RerunCopiedTest
+
+# Change the version when we rerun the test
+ChangeRerunVersion
+
+# Check we can select a test suite and run all the tests in it
+SelectSuiteAndRun
+
+# Check we can select a test suite and run all the tests in it, and that we don't end up running tests
+# that were excluded via the command line
+RunSuiteTestsExcluded
+
+# But should still find tests selected from the static GUI command line
+CmdLineSelection
+
+# After selecting it should clear again when you press select next time
+ClearTestSelection
+
+# Make sure we can handle selecting tests that the static GUI doesn't know about...
+SelectUnknownTest
+
+# If someone loads one version and tries to run another that isn't based on it,give a warning.
+WarnOnVersionReset
+
+# Deleting <default> etc shouldn't cause warnings
+ResetDefaultVersion
+
+# Check we get a correct popup if we start a test which doesn't exist for the given version
+TestAndVersionIncompatible
+
+# Make sure we can prevent the appearance of the stderr dialog, by filtering certain things
+SuppressStderrDialog
+
+# What happens if only some of the tests are incompatible as above?
+SomeTestsIncompatible
+
+# Check file view continues to be correct after disappearing due to multiple selection
+SelectSingleAfterMultiple
+
+# Check for crashes when changing a few selections
+SelectTestAfterSuites
+
+# If we run multiple versions in the static GUI, make sure the default version entry for running tests works OK
+MultipleVersions
+
+# Do multiple selections to test the different ways in which the current selection can be manipulated.
+MultipleSelections
+
+# Copy of MultipleSelections, which also runs the selected tests
+MultipleSelectionsRun
+
+# Check we can hide the tests we haven't selected, and bring them back again...
+FilterTests
+
+# Check we can hide the tests select
+HideSelected
+
+# Use the filter button to achieve the same as above
+FilterFromCriteria
+
+# When we've filtered a suite, make sure we only run the visible tests
+FilterAndRunSuite
+
+# Test we get the correct count when extending a selection with one that partially overlaps it
+ExtendOverlapping
+
+# Check we select appropriately in the dynamic GUI, i.e. that the extra radio button works as it should
+DynamicSelection
+
+# Check we can look for tests based on their free_text
+DynamicSearchFreeText
+
+# Show we want output files higher up the list
+HighlightFileForSearch
+
+# Make sure stopping on failure works in the GUI: it seems possible to write this functionality in such a way
+# that it only works in console module (Jira TTT-2033)
+StopOnFailure

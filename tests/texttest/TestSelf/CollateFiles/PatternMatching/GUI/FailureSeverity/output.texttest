@@ -1,0 +1,5 @@
+Using Application GEN
+Running GEN test-suite TargetApp
+  Running GEN test-case GenerateNewFiles
+Comparing differences for GEN test-suite TargetApp
+  Comparing differences for GEN test-case GenerateNewFiles (on catalogue.gen,created_1.gen,created_2.gen,generated_first.gen,generated_second.gen,generated_third.gen,output.gen)

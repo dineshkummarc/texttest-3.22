@@ -1,0 +1,5 @@
+# Set of tests for UNIX-path style matching for collecting files
+PatternMatching
+
+# Tests that collect core files on UNIX
+UnixCoreFiles

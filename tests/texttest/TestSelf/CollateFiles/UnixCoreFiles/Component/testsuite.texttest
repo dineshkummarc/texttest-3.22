@@ -1,0 +1,20 @@
+NormalInfo
+
+# Fall back on calling dbx if gdb bails out
+UseDbx
+
+# Check that we keep the intermittent debugging info
+DebuggingInfo
+EmptyCore
+
+# Copy of EmptyCore, where binary doesn't exist
+NoBinary
+
+# GDB bails out...
+UnreadableCore
+
+# Put the stack trace info at the beginning - has caused problems before!
+InitialStackTrace
+
+# Check we give a nice error if the file isn't there
+NoFile

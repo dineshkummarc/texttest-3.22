@@ -1,0 +1,4 @@
+executable:${TEXTTEST_ROOT}/hello2.py
+
+# Won't work, but just to check display
+interpreter:${TEXTTEST_ROOT}/testsuite.hello

@@ -1,0 +1,5 @@
+[run_dependent_text]
+pythonmocks:{CLEAR LIST}
+pythonmocks:\\\\{REPLACE /}
+pythonmocks:(hg., .status., .-A., .).*/TargetApp{REPLACE \1<test write dir>/TargetApp}
+pythonmocks:{INTERNAL writedir}{REPLACE <test write dir>}

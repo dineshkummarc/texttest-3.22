@@ -1,0 +1,7 @@
+Using Application HELLO, checkout /carm/proj/texttest-tmp/geoff/texttest.09Feb152002.2960/texttest/TestSelf/Checkouts/Console/DefaultBatchSession/TargetApp/checkout1/source
+Running HELLO test-suite TargetApp
+  Running HELLO test-case Test
+Comparing differences for HELLO test-suite TargetApp
+  Comparing differences for HELLO test-case Test - SUCCESS! (on output.hello)
+Creating batch report for application HELLO ...
+done.

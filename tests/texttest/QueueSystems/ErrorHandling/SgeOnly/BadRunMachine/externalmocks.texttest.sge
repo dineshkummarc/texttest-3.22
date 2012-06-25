@@ -1,0 +1,10 @@
+<-SRV:TextTest slave server started on 10.67.7.71:47186
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/SgeOnly/BadRunMachine/texttesttmp/console.01Mar115130.26142/slavelogs; qsub -N Test-Basic-SLEEP -l hostname=no_such_machine -w e -notify -m n -cwd -b y -V -o Test-Basic-SLEEP.log -e Test-Basic-SLEEP.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/SgeOnly/BadRunMachine/TargetApp -a sleep -l -tp 'Basic' -slave /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/SgeOnly/BadRunMachine/texttesttmp/console.01Mar115130.26142 -servaddr 10.67.7.71:38219""
+->ERR:Unable to run job: can't resolve hostname "no_such_machine".
+Exiting.
+->EXC:1
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/SgeOnly/BadRunMachine/texttesttmp/console.01Mar115130.26142/slavelogs; qsub -N Test-Basic2-SLEEP -l hostname=no_such_machine -w e -notify -m n -cwd -b y -V -o Test-Basic2-SLEEP.log -e Test-Basic2-SLEEP.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/SgeOnly/BadRunMachine/TargetApp -a sleep -l -tp 'Basic2' -slave /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/ErrorHandling/SgeOnly/BadRunMachine/texttesttmp/console.01Mar115130.26142 -servaddr 10.67.7.71:38219""
+->ERR:Unable to run job: can't resolve hostname "no_such_machine".
+Exiting.
+->EXC:1
+<-SRV:Completed submission of all tests

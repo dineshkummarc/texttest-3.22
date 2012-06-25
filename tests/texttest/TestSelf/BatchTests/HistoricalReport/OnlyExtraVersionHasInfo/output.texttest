@@ -1,0 +1,13 @@
+Using Application HELLO, version normal
+Using Application HELLO, version normal.changed
+Using Application HELLO, version normal.changed.alternative
+Generating web pages...
+Generating page for HELLO - version normal
+Writing overview pages...
+wrote: 'test_normal.html'
+wrote: 'test_normal_all_Jan2006.html'
+Writing detail pages...
+wrote: 'test_normal_26Jan2006_Rel1.2.html'
+Completed web page generation.
+No file at '/nfs/vm/texttest-tmp/geoff/texttest.23Nov142228.27911/texttest/TestSelf/BatchTests/HistoricalReport/OnlyExtraVersionHasInfo/report/summary_template.html', copying default file from installation
+wrote: '/nfs/vm/texttest-tmp/geoff/texttest.23Nov142228.27911/texttest/TestSelf/BatchTests/HistoricalReport/OnlyExtraVersionHasInfo/report/index.html'

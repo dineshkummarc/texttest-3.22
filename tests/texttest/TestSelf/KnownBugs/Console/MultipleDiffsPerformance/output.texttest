@@ -1,0 +1,7 @@
+Using Application HELLO, version textinfile
+Running HELLO.textinfile test-suite TargetApp
+  Running HELLO.textinfile test-case Test
+Comparing differences for HELLO.textinfile test-suite TargetApp
+  Comparing differences for HELLO.textinfile test-case Test (on errors.hello,output.hello,performance.hello)
+  HELLO.textinfile test-case Test had known bugs (Delay bug) : new results in performance, differences in output
+  View details(v), Save Version textinfile(1), Save(s) or continue(any other key)?

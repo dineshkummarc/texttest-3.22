@@ -1,0 +1,6 @@
+[command line]
+intercepts = which,rsh,qsub
+
+[python]
+intercepts = os.getpid
+ignore_callers = usecase,default,coverage

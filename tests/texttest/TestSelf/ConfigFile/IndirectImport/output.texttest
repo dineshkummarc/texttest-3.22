@@ -1,0 +1,2 @@
+Using Application Main Name
+run_dependent_text|{'default': ['imported1', 'imported2', 'imported3', 'imported_after', 'mainfile']}|Mapping of patterns to remove from result files

@@ -1,0 +1,2 @@
+# Check we can handle Windows paths in the binary setting without them getting mangled
+BinaryWindowsPath

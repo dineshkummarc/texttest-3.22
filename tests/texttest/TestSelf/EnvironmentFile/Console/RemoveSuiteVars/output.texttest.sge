@@ -1,0 +1,7 @@
+Using SGE queues for Application Env Variables, version sge
+Q: Submitting Env Variables.sge test-case Test1 to default SGE queue
+Q: Submitting Env Variables.sge test-case Test2 to default SGE queue
+S: Env Variables.sge test-case Test2 FAILED on hendersonville : missing results for errors
+View details(v), Save Version sge(1), Save(s) or continue(any other key)?
+S: Env Variables.sge test-case Test1 FAILED on graceville : missing results for errors
+View details(v), Save Version sge(1), Save(s) or continue(any other key)?

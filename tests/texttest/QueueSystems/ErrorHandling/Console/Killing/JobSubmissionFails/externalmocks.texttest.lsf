@@ -1,0 +1,8 @@
+<-SRV:TextTest slave server started on 10.67.7.143:45180
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.lsf/QueueSystems/ErrorHandling/Console/Killing/JobSubmissionFails/texttesttmp/sleep.killing.19Aug112831.7819/slavelogs; env --unset=USECASE_RECORD_SCRIPT --unset=USECASE_REPLAY_SCRIPT bsub -J Test-Basic-SLEEP.killing -u nobody -o Test-Basic-SLEEP.killing.log -e Test-Basic-SLEEP.killing.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.lsf/QueueSystems/ErrorHandling/Console/Killing/JobSubmissionFails/TargetApp -a sleep.killing -l -tp 'Basic' -slave /carm/proj/texttest-tmp/geoff/dynamic_gui.19Aug112801.5006/texttest.lsf/QueueSystems/ErrorHandling/Console/Killing/JobSubmissionFails/texttesttmp/sleep.killing.19Aug112831.7819 -servaddr 10.67.7.143:35238 -b short_local""
+->OUT:Job <1> is submitted to queue <bad_machine_queue>.
+<-SRV:Completed submission of all tests
+<-CMD:bkill -s USR1 1
+->ERR:Job <1>: No matching job found
+<-CMD:bjobs -a -l 1
+->OUT:Your job was sent into a large mysterious void. Bad luck.

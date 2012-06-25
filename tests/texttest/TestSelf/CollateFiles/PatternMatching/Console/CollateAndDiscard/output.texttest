@@ -1,0 +1,7 @@
+Using Application GEN
+Running GEN test-suite TargetApp
+  Running GEN test-case Generate
+Comparing differences for GEN test-suite TargetApp
+  Comparing differences for GEN test-case Generate (on catalogue.gen,created_1.gen,created_2.gen,generated_first.gen,generated_second.gen,generated_third.gen,new_output.gen,output.gen)
+  GEN test-case Generate FAILED : new results in new_output, missing results for output
+  View details(v), Save(s) or continue(any other key)?

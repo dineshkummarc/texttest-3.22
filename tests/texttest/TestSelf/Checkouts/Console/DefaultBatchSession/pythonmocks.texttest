@@ -1,0 +1,19 @@
+<-PYT:import smtplib
+<-PYT:smtplib.SMTP()
+->RET:Instance('SMTP', 'smtp1')
+<-PYT:smtp1.connect('localhost')
+->RET:(220, 'juliaca.got.jeppesensystems.com ESMTP Sendmail 8.13.8/8.13.8; Tue, 9 Feb 2010 15:20:30 +0100')
+<-PYT:smtp1.sendmail('geoff@localhost', ['fakeuser'], '''From: geoff@localhost
+To: fakeuser
+Subject: 09Feb2010 HELLO : 1 tests, all successful
+
+Summary of all Successful tests follows...
+---------------------------------------------------------------------------------
+The following tests succeeded : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Test
+
+
+''')
+->RET:{}
+<-PYT:smtp1.quit()

@@ -1,0 +1,13 @@
+# Tests for things that affect the appearance, layout and superficial
+# usage rather than functionality
+Appearance
+
+# Tests for the quit confirmation dialog when processes are still running
+QuitConfirmation
+
+# Tests for the dynamic GUI, running tests
+DynamicGUI
+
+# Tests for the static GUI
+StaticGUI
+

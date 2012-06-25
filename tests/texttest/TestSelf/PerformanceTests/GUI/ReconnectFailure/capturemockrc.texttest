@@ -1,0 +1,3 @@
+[python]
+intercepts = os.stat
+

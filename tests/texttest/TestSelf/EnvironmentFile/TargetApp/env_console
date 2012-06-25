@@ -1,0 +1,4 @@
+default_interface:console
+
+# Here to make sure you can have full names with spaces in...
+full_name:Env Variables

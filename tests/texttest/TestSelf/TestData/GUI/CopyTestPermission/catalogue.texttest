@@ -1,0 +1,13 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------PrintPermissions_copy
+------------errors.printperm
+------------fake_executable.py
+------------output.printperm
+----texttesttmp
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------testsuite.printperm

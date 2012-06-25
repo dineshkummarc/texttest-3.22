@@ -1,0 +1,6 @@
+<-CMD:gdb -q -batch -x /tmp/354777.1.short/tmpHraTBzcoreCommands.gdb /bin/grep fakecore
+->ERR:"core" is not a core dump: File format not recognized
+No stack from fake GDB!
+<-CMD:dbx -f -q -c "where; quit" /bin/grep fakecore
+->ERR:dbx: fakecore has unsupported architecture or file format
+dbx: program is not active

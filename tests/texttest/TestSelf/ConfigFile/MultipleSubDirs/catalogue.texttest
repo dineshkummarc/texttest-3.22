@@ -1,0 +1,7 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------app1
+------------testsuite.app1
+--------app2
+------------testsuite.app2

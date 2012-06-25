@@ -1,0 +1,11 @@
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 rm -rf ${HOME}/.texttest/tmp/self_test.*
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 mkdir -p ${HOME}'/.texttest/tmp/self_test.29Aug115908.21340/system_under_test'
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 test -e /carm/proj/texttest-tmp/geoff/texttest.29Aug115900.21336/texttest/TestSelf/RunRemotely/DifferentFilesystems/BatchRun/TargetApp/hello.py
+->EXC:1
+<-CMD:scp -Crp -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 /carm/proj/texttest-tmp/geoff/texttest.29Aug115900.21336/texttest/TestSelf/RunRemotely/DifferentFilesystems/BatchRun/TargetApp/hello.py testnet-s16:${HOME}'/.texttest/tmp/self_test.29Aug115908.21340/system_under_test/hello.py'
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 mkdir -p ${HOME}'/.texttest/tmp/self_test.29Aug115908.21340/hello/Test'
+<-CMD:scp -Crp -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 /carm/proj/texttest-tmp/geoff/texttest.29Aug115900.21336/texttest/TestSelf/RunRemotely/DifferentFilesystems/BatchRun/texttesttmp/self_test.29Aug115908.21340/hello/Test/run_test.sh testnet-s16:${HOME}'/.texttest/tmp/self_test.29Aug115908.21340/hello/Test'
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.29Aug115900.21336/texttest/TestSelf/RunRemotely/DifferentFilesystems/BatchRun/texttesttmp/self_test.29Aug115908.21340/hello/Test; ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16 ${HOME}'/.texttest/tmp/self_test.29Aug115908.21340/hello/Test/run_test.sh'
+->OUT:Hello World!
+<-CMD:scp -Crp -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 testnet-s16:${HOME}'/.texttest/tmp/self_test.29Aug115908.21340/hello/Test'/* /carm/proj/texttest-tmp/geoff/texttest.29Aug115900.21336/texttest/TestSelf/RunRemotely/DifferentFilesystems/BatchRun/texttesttmp/self_test.29Aug115908.21340/hello/Test
+->FIL:Test

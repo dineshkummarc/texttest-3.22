@@ -1,0 +1,5 @@
+# Suite of tests for the test suite
+TestSelf
+
+# Suite of tests for the texttest GUI
+GUI

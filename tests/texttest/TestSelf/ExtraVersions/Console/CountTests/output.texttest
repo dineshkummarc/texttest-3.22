@@ -1,0 +1,16 @@
+Using Application HELLO, version extraversion
+Using Application HELLO, version extraversion.extra1
+Using Application HELLO, version extraversion.extra2
+Counting HELLO.extraversion test-suite TargetApp
+  Counting HELLO.extraversion test-case Common
+  Counting HELLO.extraversion test-case Base
+Counting HELLO.extraversion.extra1 test-suite TargetApp
+  Counting HELLO.extraversion.extra1 test-case Common
+  Counting HELLO.extraversion.extra1 test-case Extra1
+Counting HELLO.extraversion.extra2 test-suite TargetApp
+  Counting HELLO.extraversion.extra2 test-case Common
+  Counting HELLO.extraversion.extra2 test-case Extra2
+Application HELLO, version extraversion has 2 tests
+Application HELLO, version extraversion.extra1 has 2 tests
+Application HELLO, version extraversion.extra2 has 2 tests
+There are 6 tests in total.

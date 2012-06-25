@@ -1,0 +1,15 @@
+The following new files/directories were created:
+<Test Directory>
+----repository
+--------hello
+------------batch.defined
+----------------BothDiff
+--------------------teststate_30Apr2008
+----texttesttmp
+--------self_test.batch.defined.30Apr164151.26708
+------------hello.batch.defined
+----------------BothDiff
+--------------------errors.hello
+--------------------output.hello
+--------------------framework_tmp
+------------------------teststate

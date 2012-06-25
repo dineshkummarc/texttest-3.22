@@ -1,0 +1,29 @@
+# Make sure we can simply add a test to a slave
+AddTest
+
+# Make sure we pick up environment references correctly when adding tests to slaves
+AddTestEnvRefUp
+
+# Make sure references work the other way, i.e. when the already present suite refers to variables present in the new test
+AddTestEnvRefDown
+
+# After rerunning we might get the same test back again. Handle this gracefully...
+ReaddTest
+
+# Make sure it works if we add a new application also
+AddApplication
+
+# Add a new application that lives in a subdirectory of TEXTTEST_HOME
+AddApplicationSubDir
+
+# Add a new application when reconnecting using the grid
+AddApplicationReconnect
+
+# Add a new application and then get a call for reusing it
+ReuseAddedApplication
+
+# Make sure if we need to add a test in a new suite, we don't get the whole suite
+AddSuiteMultipleTests
+
+# Issues surrounding reuse of virtual displays in slaves, or even creating them midway through
+VirtualDisplay

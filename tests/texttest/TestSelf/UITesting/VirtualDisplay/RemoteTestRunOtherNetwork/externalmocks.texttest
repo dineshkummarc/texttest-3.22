@@ -1,0 +1,17 @@
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 fake_user@fake_machine1 which Xvfb
+->OUT:/usr/bin/Xvfb
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 fake_user@fake_machine1 mkdir -p ${HOME}'/.texttest/tmp/console.29Aug134400.31210/Xvfb'
+<-CMD:scp -Crp -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 /nfs/vm/texttest/release/current/libexec/startXvfb.py fake_user@fake_machine1:${HOME}'/.texttest/tmp/console.29Aug134400.31210/startXvfb.py'
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 fake_user@fake_machine1 python -u ${HOME}/.texttest/tmp/console.29Aug134400.31210/startXvfb.py ${HOME}/.texttest/tmp/console.29Aug134400.31210/Xvfb
+->OUT:3979,11907
+->EXC:-2
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 fake_user@fake_machine1 mkdir -p ${HOME}'/.texttest/tmp/console.29Aug134400.31210/system_under_test'
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 fake_user@fake_machine1 test -e /carm/proj/texttest-tmp/geoff/texttest.29Aug134356.31207/texttest/TestSelf/UITesting/VirtualDisplay/RemoteTestRunOtherNetwork/TargetApp/display.py
+->EXC:1
+<-CMD:scp -Crp -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 /carm/proj/texttest-tmp/geoff/texttest.29Aug134356.31207/texttest/TestSelf/UITesting/VirtualDisplay/RemoteTestRunOtherNetwork/TargetApp/display.py fake_user@fake_machine1:${HOME}'/.texttest/tmp/console.29Aug134400.31210/system_under_test/display.py'
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 fake_user@fake_machine1 mkdir -p ${HOME}'/.texttest/tmp/console.29Aug134400.31210/disp/Test'
+<-CMD:scp -Crp -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 /carm/proj/texttest-tmp/geoff/texttest.29Aug134356.31207/texttest/TestSelf/UITesting/VirtualDisplay/RemoteTestRunOtherNetwork/texttesttmp/console.29Aug134400.31210/disp/Test/run_test.sh fake_user@fake_machine1:${HOME}'/.texttest/tmp/console.29Aug134400.31210/disp/Test'
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.29Aug134356.31207/texttest/TestSelf/UITesting/VirtualDisplay/RemoteTestRunOtherNetwork/texttesttmp/console.29Aug134400.31210/disp/Test; ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 fake_user@fake_machine1 ${HOME}'/.texttest/tmp/console.29Aug134400.31210/disp/Test/run_test.sh'
+->OUT:Using display fake_machine1:3979.0
+<-CMD:scp -Crp -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 fake_user@fake_machine1:${HOME}'/.texttest/tmp/console.29Aug134400.31210/disp/Test'/* /carm/proj/texttest-tmp/geoff/texttest.29Aug134356.31207/texttest/TestSelf/UITesting/VirtualDisplay/RemoteTestRunOtherNetwork/texttesttmp/console.29Aug134400.31210/disp/Test
+<-CMD:ssh -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=10 fake_user@fake_machine1 kill 11907

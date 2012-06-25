@@ -1,0 +1,17 @@
+# Only include basic stuff that we'll always want to intercept here
+[command line]
+intercepts = tkdiff,emacs,xterm,time
+
+[python]
+intercepts = smtplib,matplotlib,pylab
+ignore_callers = storytext,coverage
+alterations = posixmodule,pythonbug1820
+
+[posixmodule]
+match_pattern = ^posix\.stat_result\((.*)\)
+replacement = os.stat_result((\1))
+
+# Return values from os.stat and os.lstat aren't repr-eval friendly, see Python bug 1820
+[pythonbug1820]
+match_pattern = st_[a-z]*=
+replacement =

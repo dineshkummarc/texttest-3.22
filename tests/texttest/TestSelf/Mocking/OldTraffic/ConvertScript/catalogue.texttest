@@ -1,0 +1,8 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------capturemockrc.hello
+--------capturemockrc.hello.version
+--------Test
+------------capturemockrc.hello
+------------capturemockrc.hello.version

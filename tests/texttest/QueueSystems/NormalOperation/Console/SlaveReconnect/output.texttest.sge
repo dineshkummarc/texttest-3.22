@@ -1,0 +1,6 @@
+Using Application SLEEP
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.28Jan165022.20756/texttest.sge/QueueSystems/NormalOperation/Console/SlaveReconnect/texttesttmp/batch_run.28Jan162616.20208/sleep
+Reconnecting to SLEEP test-suite TargetApp
+  Reconnecting to SLEEP test-case Basic2 (recomputing)
+Comparing differences for SLEEP test-suite TargetApp
+  Comparing differences for SLEEP test-case Basic2 (on errors.sleep,output.sleep)

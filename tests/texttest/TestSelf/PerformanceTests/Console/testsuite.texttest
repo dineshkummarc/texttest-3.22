@@ -1,0 +1,52 @@
+# A single test to register failure (we hope the other functionality is covered by memory tests)
+RegisterFailure
+
+# Check that performance failures report correctly in batch mode
+RegisterFailureBatch
+
+# Check that performance failures report correctly in batch mode
+RegisterFailureJunitReport
+
+# Check we can set a time limit for particular batch runs
+BatchTimeLimit
+
+# Check we can ignore improvements in performance and only report slowdowns
+IgnoreImprovements
+
+# Check we can override the standard names and provide our own descriptors
+ChangeCategoryNames
+
+# The performance is above the minimum, but the stored value below it
+OrigBelowMinimum
+
+# The performance is below the minimum, but the stored value above it
+TempBelowMinimum
+
+# Make sure performance comparison works when there is no teststate file and small performance differences
+ReconnectFullNoState
+
+# Check that clearing performance_test_machine works
+DisablePerfCheck
+
+# Check we can extract and parse hh:mm:ss strings from logfiles for
+# performance comparisons
+ParseTimeString
+
+# Check that we can have tolerance less than 1%
+FractionalTolerance
+
+# If the performance log file is not collated, look for a local pattern anyway
+LogFileNotCollated
+
+# Pperformance statistics scripts
+PerformanceStats
+ComparePerfStats
+
+# Select tests specifying both a maximum and minimum performance
+SelectMaxMin
+
+# Check what happens if we provide an invalid argument to -r
+BadPerformanceFilter
+
+# Check what happens if we provide an invalid argument to -r, which is interpreted as a time string
+BadTimeStringPerfFilter

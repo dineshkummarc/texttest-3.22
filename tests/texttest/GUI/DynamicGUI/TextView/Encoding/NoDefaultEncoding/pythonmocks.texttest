@@ -1,0 +1,2 @@
+<-PYT:locale.getdefaultlocale()
+->RET:(None, None)

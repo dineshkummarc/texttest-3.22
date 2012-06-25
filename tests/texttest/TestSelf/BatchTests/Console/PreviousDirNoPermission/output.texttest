@@ -1,0 +1,10 @@
+Using Application HELLO, version batch
+Removing previous write directory /carm/proj/texttest-tmp/geoff/texttest.09Aug172353.2703/texttest/TestSelf/BatchTests/Console/PreviousDirNoPermission/texttesttmp/hello.batch.27Sep093012.872
+Could not change permissions to be able to remove directory /carm/proj/texttest-tmp/geoff/texttest.09Aug172353.2703/texttest/TestSelf/BatchTests/Console/PreviousDirNoPermission/texttesttmp/hello.batch.27Sep093012.872 : - [Errno 1] Operation not permitted.
+Running HELLO.batch test-suite TargetApp
+  Running HELLO.batch test-case BothDiff
+Comparing differences for HELLO.batch test-suite TargetApp
+  Comparing differences for HELLO.batch test-case BothDiff (on errors.hello,output.hello)
+  HELLO.batch test-case BothDiff FAILED on gewoia : differences in errors,output
+Creating batch report for application HELLO ...
+done.

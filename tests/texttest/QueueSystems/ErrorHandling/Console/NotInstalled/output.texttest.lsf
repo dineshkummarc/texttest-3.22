@@ -1,0 +1,11 @@
+Using LSF queues for Application SLEEP
+Q: Submitting SLEEP test-case Basic to default LSF queue
+S: SLEEP test-case Basic not compared:
+Failed to submit to LSF (local machine is not a submit host: running 'bsub' failed.)
+Submission command was 'bsub -J Test-Basic-SLEEP -u nobody -o Test-Basic-SLEEP.log -e Test-Basic-SLEEP.errors ... '
+
+Q: Submitting SLEEP test-case Basic2 to default LSF queue
+S: SLEEP test-case Basic2 not compared:
+Failed to submit to LSF (local machine is not a submit host: running 'bsub' failed.)
+Submission command was 'bsub -J Test-Basic2-SLEEP -u nobody -o Test-Basic2-SLEEP.log -e Test-Basic2-SLEEP.errors ... '
+

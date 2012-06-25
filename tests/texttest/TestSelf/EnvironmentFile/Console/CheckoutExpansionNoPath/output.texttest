@@ -1,0 +1,17 @@
+Using Application Env Variables, version bad
+Running Env Variables.bad test-suite TargetApp
+  Running Env Variables.bad test-suite Suite1
+    Running Env Variables.bad test-case Test1
+Comparing differences for Env Variables.bad test-suite TargetApp
+  Comparing differences for Env Variables.bad test-suite Suite1
+    Comparing differences for Env Variables.bad test-case Test1 (on output.env)
+    Env Variables.bad test-case Test1 FAILED : differences in output
+    View details(v), Save Version bad(1), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+1,2c1,2
+< VAR1 = value1
+< VAR2 = value2
+---
+> VAR1 = BAD/PATH
+> VAR2 = BAD
+    Save Version bad(1), Save(s) or continue(any other key)?

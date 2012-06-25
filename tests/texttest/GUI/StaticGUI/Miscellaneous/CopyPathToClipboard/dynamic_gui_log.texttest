@@ -1,0 +1,143 @@
+
+---------- Window 'DIP tests (started at 02Aug16:34:23) - TextTest dynamic GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+  _Kill (Stock image 'gtk-stop', greyed out, accelerator 'Ctrl+Delete', tooltip 'Kill selected tests')
+  _Save (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S', tooltip 'Save results for selected tests')
+  Progress bar set to fraction 0.0, text '0 of 1 tests completed'
+...........
+
+Showing Test Tree with columns: Tests: 0/1 selected, all hidden , Details
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 02Aug16:34:24.' , Image 'throbber_inactive.png'
+------------------------------------------------------------------------------------------
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (dip) (black/white,bold) | (white)
+->   Game9952 (black/white,bold) | (white)
+->     A03 (black/white) | (white)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (dip) (black/white,bold) | (white)
+->   Game9952 (black/white,bold) | (white)
+->     A03 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (dip) (black/white,bold) | (white)
+->   Game9952 (black/white,bold) | (white)
+->     A03 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (dip) (black/white,bold) | (white)
+->   Game9952 (black/white,bold) | (white)
+->     A03 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Progress bar set to fraction 1.0, text 'All 1 tests completed at 02Aug16:34:24'
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (dip) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Expected application event 'completion of test actions' occurred, proceeding.
+
+'show test suite' event created with arguments 'TargetApp (dip)'
+
+Expanded row in Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (dip) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+->   Game9952 (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+->     A03 (black/DarkSeaGreen2) | (DarkSeaGreen2)
+
+'set test selection to' event created with arguments 'A03'
+
+Changed selection in Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (dip) (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+->   Game9952 (black/white,bold) | All 1 tests successful (DarkSeaGreen2)
+->     A03 (black/DarkSeaGreen2) | (DarkSeaGreen2)   ***
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: A03 , Details
+-> Comparison Files (bold)
+->   output.dip (DarkSeaGreen2) | (DarkSeaGreen2)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+Test succeeded
+===============================
+
+'view actions for file' event created with arguments 'output.dip'
+
+Changed selection in File Tree with columns: A03 , Details
+-> Comparison Files (bold)
+->   output.dip (DarkSeaGreen2) | (DarkSeaGreen2)   ***
+
+---------- Popup Window ----------
+'View File' (Stock image 'gtk-open', accelerator 'Ctrl+O')
+'View Filtered File'
+  ----
+'View Original File'
+'View Filtered Original File'
+  ----
+'View Differences' (greyed out)
+'View Raw Differences'
+  ----
+'View Differences (between tests)' (greyed out)
+'View Raw Differences (between tests)' (greyed out)
+  ----
+'Follow File Progress' (greyed out)
+  ----
+'_File Properties' (Stock image 'gtk-properties')
+'Copy Path To Clipboard'
+  ----
+'Select Tests With Same Diff' (greyed out)
+  ----
+'_Save' (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S')
+'Save _As...' (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+Alt+S')
+----------------------------------
+
+'copy path to clipboard' event created with arguments ''
+Set CLIPBOARD text to '/carm/proj/texttest-tmp/geoff/dynamic_gui.02Aug163317.28925/texttest.gui/GUI/StaticGUI/Miscellaneous/CopyPathToClipboard/texttesttmp/dip.02Aug163423.20441/dip/Game9952/A03/output.dip'
+Set PRIMARY text to '/carm/proj/texttest-tmp/geoff/dynamic_gui.02Aug163317.28925/texttest.gui/GUI/StaticGUI/Miscellaneous/CopyPathToClipboard/texttesttmp/dip.02Aug163423.20441/dip/Game9952/A03/output.dip'
+
+Changing GUI status to: 'Copied full path of selected file to clipboard.'
+
+'quit' event created with arguments ''

@@ -1,0 +1,9 @@
+wait for all tests to be read
+enter file extension to use for texttest files associated with this application = hello
+press define
+set test selection to TargetApp (hello)
+set file selection to Definition Files
+create a new file or directory, possibly by copying it
+press create
+wait for file editing operations to complete
+quit

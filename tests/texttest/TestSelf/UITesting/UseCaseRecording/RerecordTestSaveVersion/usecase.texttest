@@ -1,0 +1,7 @@
+wait for all tests to be read
+set test selection to AddMovie under TargetApp (gui)
+record use-case
+enter version to record = version
+press record
+wait for replay GUI to be closed
+quit

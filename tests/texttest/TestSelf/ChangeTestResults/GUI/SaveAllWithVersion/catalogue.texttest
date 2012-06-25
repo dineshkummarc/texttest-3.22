@@ -1,0 +1,11 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------BothDiff
+------------errors.hello.2
+------------output.hello.2
+--------ErrDiff
+------------errors.hello.2
+--------OutDiff
+------------output.hello.2
+----texttesttmp

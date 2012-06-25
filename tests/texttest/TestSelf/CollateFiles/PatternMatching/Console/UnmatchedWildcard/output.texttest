@@ -1,0 +1,17 @@
+Using Application GEN
+Running GEN test-suite TargetApp
+  Running GEN test-case Generate
+Comparing differences for GEN test-suite TargetApp
+  Comparing differences for GEN test-case Generate (on catalogue.gen,created_1.gen,created_2.gen,created_WILDCARD.gen,generated_first.gen,generated_second.gen,generated_third.gen,output.gen)
+  GEN test-case Generate FAILED : new results in created_WILDCARD, missing results for output
+  View details(v), Save(s) or continue(any other key)?
+---------- New result in created_WILDCARD ----------
+created_1.dump
+Today is Sunday
+---------- Missing result in output ----------
+Generating generated_first.dump
+Generating generated_second.dump
+Generating generated_third.dump
+Generating created_1.dump
+Generating created_2.dump
+  Save(s) or continue(any other key)?

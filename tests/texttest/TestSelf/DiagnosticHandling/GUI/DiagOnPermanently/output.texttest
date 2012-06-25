@@ -1,0 +1,5 @@
+Using Application DIAG, version dummy
+Running DIAG.dummy test-suite TargetApp
+  Running DIAG.dummy test-case TestAlwaysDiag
+Comparing differences for DIAG.dummy test-suite TargetApp
+  Comparing differences for DIAG.dummy test-case TestAlwaysDiag (on errors.diag,first.diag.dummy,output.diag,second.diag,third.diag)

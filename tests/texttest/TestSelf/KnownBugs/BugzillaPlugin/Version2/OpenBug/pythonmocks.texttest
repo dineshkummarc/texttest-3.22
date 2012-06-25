@@ -1,0 +1,5 @@
+<-PYT:import urllib2
+<-PYT:urllib2.urlopen('http://bugzilla.myveryoldsite.com/cli.cgi?bug=42')
+->RET:Instance('addinfourl', 'addinfourl1')
+<-PYT:addinfourl1.read()
+->RET:'hello:jaeger:4:jaeger:Not greeting the world properly:jaeger:2003-04-14 11:54:32:jaeger:NEW:jaeger:enhancement:jaeger:265:jaeger:\nIt\'s meant to be a hello world program!:jaeger:'

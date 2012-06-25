@@ -1,0 +1,8 @@
+import_config_file:$STANDARD
+
+checkout_location:$TEXTTEST_HOME
+config_module:queuesystem
+
+default_interface:console
+
+batch_recipients:tom,dick,harry

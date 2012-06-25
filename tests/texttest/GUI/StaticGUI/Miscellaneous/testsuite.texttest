@@ -1,0 +1,29 @@
+# Check we can set the keeptmp flag from the static GUI without causing trouble...
+RunKeepTmp
+
+# Check we can create environment, input files etc.
+CreateFiles
+
+# Check that expansion expands the whole suite in the normal case
+ExpandAll
+
+# Check we can use test creation mode, where we don't want everything expanded by default
+CollapseStaticSuites
+
+# Select in collapsed suites, expand on demand
+SelectInCollapsed
+
+# Check that we can view the various Help/About dialogs
+ViewHelp
+
+# Check we can define our own definition files for display
+DefinitionFiles
+
+# Check we can run the replace script from the static GUI
+ReplaceText
+
+# Make sure script works correctly if the new text is empty
+RemoveText
+
+# Test we can copy file paths to the clipboard
+CopyPathToClipboard

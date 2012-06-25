@@ -1,0 +1,11 @@
+Using SGE queues for Application SLEEP
+Q: Submitting SLEEP test-case Basic to default SGE queue
+S: SLEEP test-case Basic not compared:
+Failed to submit to SGE (local machine is not a submit host: running 'qsub' failed.)
+Submission command was 'qsub -N Test-Basic-SLEEP -w e -notify -m n -cwd -b y -V -o Test-Basic-SLEEP.log -e Test-Basic-SLEEP.errors ... '
+
+Q: Submitting SLEEP test-case Basic2 to default SGE queue
+S: SLEEP test-case Basic2 not compared:
+Failed to submit to SGE (local machine is not a submit host: running 'qsub' failed.)
+Submission command was 'qsub -N Test-Basic2-SLEEP -w e -notify -m n -cwd -b y -V -o Test-Basic2-SLEEP.log -e Test-Basic2-SLEEP.errors ... '
+

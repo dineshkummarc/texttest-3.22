@@ -1,0 +1,5 @@
+wait for all tests to be read
+set test selection to Test
+select file file under subdir
+wait for file editing operations to complete
+quit

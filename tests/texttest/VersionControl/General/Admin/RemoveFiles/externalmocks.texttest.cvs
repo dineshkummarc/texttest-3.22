@@ -1,0 +1,7 @@
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/RemoveFiles/TargetApp/Test1; cvs rm -f /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/RemoveFiles/TargetApp/Test1/errors.hello
+->FIL:Test1
+->ERR:cvs remove: scheduling `/carm/proj/texttest-tmp/geoff/texttest.18Mar164421.4923/texttest.cvs/VersionControl/General/Admin/RemoveFiles/TargetApp/Test1/errors.hello' for removal
+cvs remove: use 'cvs commit' to remove this file permanently
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/RemoveFiles/TargetApp/Test1; cvs rm -f /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/RemoveFiles/TargetApp/Test1/output.hello.version
+->FIL:Test1.edit_2
+->ERR:cvs remove: nothing known about `/carm/proj/texttest-tmp/geoff/texttest.18Mar164421.4923/texttest.cvs/VersionControl/General/Admin/RemoveFiles/TargetApp/Test1/output.hello.version'

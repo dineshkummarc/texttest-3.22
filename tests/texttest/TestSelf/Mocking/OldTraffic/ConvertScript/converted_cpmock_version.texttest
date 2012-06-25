@@ -1,0 +1,11 @@
+[command line]
+intercepts = foo,bar,versioned
+environment = DEFAULTVAR
+
+[foo]
+environment = FOOVAR
+
+[python]
+intercepts = baz,baz2
+ignore_callers = badcaller,badcaller2
+

@@ -1,0 +1,9 @@
+# Make sure we can handle unicode characters in the bug text
+BugWithUnicode
+
+# If we don't have an encoding and the bug has unicode in it, do something sensible...
+NoEncoding
+
+# Make sure we can handle unprintable characters in the bug text. Bug contains characters that 
+# cannot be rendered in latin-1.
+UnprintableChars

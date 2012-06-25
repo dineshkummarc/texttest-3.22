@@ -1,0 +1,5 @@
+Using Application CPU
+Running CPU test-suite TargetApp
+  Running CPU test-case Test
+Comparing differences for CPU test-suite TargetApp
+  Comparing differences for CPU test-case Test - SUCCESS! (on errors.cpu,output.cpu)

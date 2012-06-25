@@ -1,0 +1,9 @@
+Using Application MEM
+Running MEM test-suite TargetApp
+  Running MEM test-suite Suite
+    Running MEM test-case Success
+Comparing differences for MEM test-suite TargetApp
+  Comparing differences for MEM test-suite Suite
+    Comparing differences for MEM test-case Success - SUCCESS! (on output.mem)
+    Running MEM test-case Failures
+    Comparing differences for MEM test-case Failures - SUCCESS! (on output.mem)

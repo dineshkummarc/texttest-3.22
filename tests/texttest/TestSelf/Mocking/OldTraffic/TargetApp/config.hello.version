@@ -1,0 +1,8 @@
+collect_traffic:versioned
+
+collect_traffic_python_ignore_callers:badcaller
+collect_traffic_python_ignore_callers:badcaller2
+
+[collect_traffic_environment]
+foo:FOOVAR
+default:DEFAULTVAR

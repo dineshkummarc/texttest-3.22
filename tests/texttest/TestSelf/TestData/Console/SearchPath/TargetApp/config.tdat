@@ -1,0 +1,10 @@
+import_config_file:$STANDARD
+
+executable:${TEXTTEST_HOME}/testdata.py
+
+default_interface:console
+
+copy_test_path:my_personal_file
+
+[extra_search_directory]
+default:$TEXTTEST_PERSONAL_CONFIG

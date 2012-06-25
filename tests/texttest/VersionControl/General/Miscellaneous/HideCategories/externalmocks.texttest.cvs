@@ -1,0 +1,78 @@
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/HideCategories/TargetApp/Test2/errors.hello
+->OUT:===================================================================
+File: errors.hello     	Status: Up-to-date
+
+   Working revision:	1.1.1.1	Mon Feb 23 01:01:26 2009
+   Repository revision:	1.1.1.1	/carm/proj/texttest-tmp/geoff/texttest.26Feb083540.12919/texttest/GUI/StaticGUI/CVSPlugin/HideCategories/cvsroot/TargetApp/Test2/errors.hello,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/HideCategories/TargetApp/Test2/output.hello
+->OUT:===================================================================
+File: output.hello     	Status: Locally Modified
+
+   Working revision:	1.2	Sun Feb 22 20:09:35 2009
+   Repository revision:	1.2	/carm/proj/texttest-tmp/geoff/texttest.26Feb083540.12919/texttest/GUI/StaticGUI/CVSPlugin/HideCategories/cvsroot/TargetApp/Test2/output.hello,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/HideCategories/TargetApp/Suite/Subsuite/Test3/errors.hello
+->OUT:===================================================================
+File: errors.hello     	Status: Up-to-date
+
+   Working revision:	1.1.1.1	Mon Feb 23 01:01:26 2009
+   Repository revision:	1.1.1.1	/carm/proj/texttest-tmp/geoff/texttest.26Feb083540.12919/texttest/GUI/StaticGUI/CVSPlugin/HideCategories/cvsroot/TargetApp/Suite/Subsuite/Test3/errors.hello,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/HideCategories/TargetApp/Suite/Subsuite/Test3/output.hello
+->OUT:===================================================================
+File: output.hello     	Status: Needs Merge
+
+   Working revision:	1.1.1.1	Thu Feb 19 20:26:26 2009
+   Repository revision:	1.2	/carm/proj/texttest-tmp/geoff/texttest.26Feb083540.12919/texttest/GUI/StaticGUI/CVSPlugin/HideCategories/cvsroot/TargetApp/Suite/Subsuite/Test3/output.hello,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/HideCategories/TargetApp/Suite/Subsuite/Test4/errors.hello
+->OUT:===================================================================
+File: errors.hello     	Status: Unknown
+
+   Working revision:	No entry for errors.hello
+   Repository revision:	No revision control file
+
+->ERR:cvs status: cannot open CVS/Entries for reading: No such file or directory
+cvs status: use `cvs add' to create an entry for /carm/proj/texttest-tmp/geoff/texttest.26Feb083540.12919/texttest/GUI/StaticGUI/CVSPlugin/HideCategories/TargetApp/Suite/Subsuite/Test4/errors.hello
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/HideCategories/TargetApp/Suite/Subsuite/Test4/output.hello
+->OUT:===================================================================
+File: output.hello     	Status: Unknown
+
+   Working revision:	No entry for output.hello
+   Repository revision:	No revision control file
+
+->ERR:cvs status: cannot open CVS/Entries for reading: No such file or directory
+cvs status: use `cvs add' to create an entry for /carm/proj/texttest-tmp/geoff/texttest.26Feb083540.12919/texttest/GUI/StaticGUI/CVSPlugin/HideCategories/TargetApp/Suite/Subsuite/Test4/output.hello
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/HideCategories/TargetApp/Suite/Subsuite/testsuite.hello
+->OUT:===================================================================
+File: testsuite.hello  	Status: Locally Modified
+
+   Working revision:	1.2	Result of merge
+   Repository revision:	1.2	/carm/proj/texttest/geoff/Testing/Automatic//texttest/GUI/StaticGUI/CVSPlugin/cvsroot/TargetApp/Suite/Subsuite/testsuite.hello,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/HideCategories/TargetApp/Suite/testsuite.hello
+->OUT:===================================================================
+File: testsuite.hello  	Status: Up-to-date
+
+   Working revision:	1.1.1.1	Mon Feb 23 01:01:26 2009
+   Repository revision:	1.1.1.1	/carm/proj/texttest-tmp/geoff/texttest.26Feb083540.12919/texttest/GUI/StaticGUI/CVSPlugin/HideCategories/cvsroot/TargetApp/Suite/testsuite.hello,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+

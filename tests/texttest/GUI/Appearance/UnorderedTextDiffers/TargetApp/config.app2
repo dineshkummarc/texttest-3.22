@@ -1,0 +1,4 @@
+executable:${TEXTTEST_HOME}/hello.py
+
+[unordered_text]
+output:blah

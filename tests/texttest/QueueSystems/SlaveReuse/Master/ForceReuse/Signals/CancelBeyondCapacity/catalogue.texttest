@@ -1,0 +1,13 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------self_test.30Apr164211.27024
+------------hello
+----------------Suite
+--------------------Test
+------------------------framework_tmp
+----------------------------teststate
+----------------Test
+--------------------framework_tmp
+------------------------teststate
+------------slavelogs

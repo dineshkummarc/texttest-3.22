@@ -1,0 +1,5 @@
+# Make sure we can combine locally submitted jobs with those submitted to the grid
+LocalAndGrid
+
+# Make sure we can submit a flag that will only be recognised by the queuesystem configuration
+AllLocal

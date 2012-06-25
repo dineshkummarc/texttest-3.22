@@ -1,0 +1,5 @@
+
+# Which machine to check performance on
+[performance_test_machine]
+logperf:perf_machine1
+logperf:perf_machine2

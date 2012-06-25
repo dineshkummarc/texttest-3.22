@@ -1,0 +1,10 @@
+#!/bin/sh
+
+cd '/carm/proj/texttest-tmp/geoff/texttest.23Sep102221.19485/texttest/TestSelf/RunRemotely/SharedFilesystem/EnvironmentVariables/texttesttmp/console.23Sep102227.19491/hello/Test'
+FUNNY_SHELL_SYNTAX='test $(BAD_VARIABLE)'
+export FUNNY_SHELL_SYNTAX
+MY_ENV_VAR='test data'
+export MY_ENV_VAR
+PATH='/carm/proj/texttest-tmp/geoff/texttest.23Sep102221.19485/texttest/TestSelf/RunRemotely/SharedFilesystem/EnvironmentVariables/texttesttmp/console.23Sep102227.19491/hello/Test:'${PATH}
+export PATH
+exec python /carm/proj/texttest-tmp/geoff/texttest.23Sep102221.19485/texttest/TestSelf/RunRemotely/SharedFilesystem/EnvironmentVariables/TargetApp/hello.py

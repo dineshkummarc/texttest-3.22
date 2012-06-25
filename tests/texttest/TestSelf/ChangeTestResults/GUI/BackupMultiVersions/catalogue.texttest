@@ -1,0 +1,23 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------OutDiff
+------------errors.hello.old1
+------------errors.hello.old2
+------------errors.hello.old3
+------------output.hello.old1
+------------output.hello.old2
+------------output.hello.old3
+----texttesttmp
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------OutDiff
+------------output.hello
+
+The following existing files/directories were deleted:
+<Test Directory>
+----TargetApp
+--------OutDiff
+------------errors.hello

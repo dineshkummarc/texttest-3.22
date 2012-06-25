@@ -1,0 +1,13 @@
+Using Application VER, version explicit.other2
+Running VER.explicit.other2 test-suite TargetApp
+  Running VER.explicit.other2 test-case Test
+Comparing differences for VER.explicit.other2 test-suite TargetApp
+  Comparing differences for VER.explicit.other2 test-case Test (on errors.ver,output.ver.implicit)
+  VER.explicit.other2 test-case Test FAILED : differences in output
+  View details(v), Save Version explicit.other2.implicit(1), Save Version explicit.other2(2), Save Version explicit.implicit(3), Save Version explicit(4), Save Version other2.implicit(5), Save Version other2(6), Save Version implicit(7), Save(s) or continue(any other key)?
+---------- Differences in output ----------
+1c1
+< explicit_var
+---
+> explicit_other2_var
+  Save Version explicit.other2.implicit(1), Save Version explicit.other2(2), Save Version explicit.implicit(3), Save Version explicit(4), Save Version other2.implicit(5), Save Version other2(6), Save Version implicit(7), Save(s) or continue(any other key)?

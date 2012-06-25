@@ -1,0 +1,1 @@
+-v dip -s batch.CollectFiles -b some_session

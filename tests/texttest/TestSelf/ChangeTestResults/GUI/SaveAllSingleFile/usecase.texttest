@@ -1,0 +1,6 @@
+wait for completion of test actions
+set test selection to BothDiff,OutDiff,Success,ErrDiff
+set file selection to output.hello
+save results for selected tests
+view options for Status
+quit

@@ -1,0 +1,26 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------Suite
+------------Subsuite
+----------------Test4
+--------------------CVS
+------------------------Entries
+------------------------Repository
+------------------------Root
+------------------------errors.hello,t
+------------------------output.hello,t
+--------Test1
+------------CVS
+----------------output.hello.version,t
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------Suite
+------------Subsuite
+----------------CVS
+--------------------Entries
+--------Test1
+------------CVS
+----------------Entries

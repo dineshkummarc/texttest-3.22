@@ -1,0 +1,4 @@
+executable:${TEXTTEST_HOME}/hello.py
+
+copy_test_path:file
+copy_test_path:file.ext

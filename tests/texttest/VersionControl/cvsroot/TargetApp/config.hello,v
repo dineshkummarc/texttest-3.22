@@ -1,0 +1,58 @@
+head	1.2;
+access;
+symbols
+	othertag:1.1.1.1 tag:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2009.02.19.20.37.42;	author geoff;	state Exp;
+branches;
+next	1.1;
+commitid	yiSKnJ4Ivi96o5Dt;
+
+1.1
+date	2009.02.19.20.26.26;	author geoff;	state Exp;
+branches
+	1.1.1.1;
+next	;
+commitid	rWzEIC5JwaIek5Dt;
+
+1.1.1.1
+date	2009.02.19.20.26.26;	author geoff;	state Exp;
+branches;
+next	;
+commitid	rWzEIC5JwaIek5Dt;
+
+
+desc
+@@
+
+
+1.2
+log
+@Don't forget CVS!
+@
+text
+@import_config_file:$STANDARD
+
+interactive_action_module:cvs
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 2
+@
+
+
+1.1.1.1
+log
+@Initial import
+@
+text
+@@

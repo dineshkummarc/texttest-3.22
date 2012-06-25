@@ -1,0 +1,13 @@
+wait for all tests to be read
+set test selection to Test1
+version control log latest for the selected files
+close log latest window
+select indicated tests
+version control log latest for the selected files
+view tab Test2
+close log latest window
+set test selection to Test3
+set test selection to Suite
+version control log latest for the selected files
+close log latest window
+quit

@@ -1,0 +1,25 @@
+wait for all tests to be read
+set test selection to Test1
+version control log for the selected files
+close log window
+set test selection to Test1,Test2
+version control log for the selected files
+select output.hello under Test2
+close log window
+set test selection to Test2
+set test selection to TargetApp (hello)
+set file selection to testsuite.hello
+version control log for the selected files
+close log window
+set test selection to Suite
+recursive version control log for the selected files
+select testsuite.hello under Subsuite
+close log window
+set test selection to Test1
+set file selection to output.hello
+version control log for the selected files
+close log window
+set test selection to Test1,Test2
+version control log for the selected files
+close log window
+quit

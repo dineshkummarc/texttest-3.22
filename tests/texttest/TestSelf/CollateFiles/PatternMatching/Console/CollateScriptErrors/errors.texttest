@@ -1,0 +1,10 @@
+WARNING: Errors occurred running collate_script(s) /carm/proj/texttest-tmp/geoff/texttest.03Nov171142.19187/texttest/TestSelf/CollateFiles/PatternMatching/Console/CollateScriptErrors/TargetApp/source/firstcoll.py and /carm/proj/texttest-tmp/geoff/texttest.03Nov171142.19187/texttest/TestSelf/CollateFiles/PatternMatching/Console/CollateScriptErrors/TargetApp/source/badcoll.py
+while trying to extract file at 
+/carm/proj/texttest-tmp/geoff/texttest.03Nov171142.19187/texttest/TestSelf/CollateFiles/PatternMatching/Console/CollateScriptErrors/texttesttmp/gen.03Nov171149.19192/gen/Generate/created_1.dump : 
+NameError: name 'no_such_id' is not defined
+
+WARNING: Errors occurred running collate_script(s) /carm/proj/texttest-tmp/geoff/texttest.03Nov171142.19187/texttest/TestSelf/CollateFiles/PatternMatching/Console/CollateScriptErrors/TargetApp/source/firstcoll.py and /carm/proj/texttest-tmp/geoff/texttest.03Nov171142.19187/texttest/TestSelf/CollateFiles/PatternMatching/Console/CollateScriptErrors/TargetApp/source/badcoll.py
+while trying to extract file at 
+/carm/proj/texttest-tmp/geoff/texttest.03Nov171142.19187/texttest/TestSelf/CollateFiles/PatternMatching/Console/CollateScriptErrors/texttesttmp/gen.03Nov171149.19192/gen/Generate/created_2.dump : 
+NameError: name 'no_such_id' is not defined
+

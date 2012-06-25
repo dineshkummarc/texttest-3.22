@@ -1,0 +1,8 @@
+<-SRV:TextTest slave server started on 10.67.7.96:54952
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.lsf/QueueSystems/ErrorHandling/Console/BadQueueKnownBug/texttesttmp/local.kb.01Mar115147.5754/slavelogs; bsub -J Test-Basic-SLEEP.kb -q non_existent -u nobody -o Test-Basic-SLEEP.kb.log -e Test-Basic-SLEEP.kb.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.lsf/QueueSystems/ErrorHandling/Console/BadQueueKnownBug/TargetApp -a sleep.kb -l -tp 'Basic' -slave /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.lsf/QueueSystems/ErrorHandling/Console/BadQueueKnownBug/texttesttmp/local.kb.01Mar115147.5754 -servaddr 10.67.7.96:37524 -b local""
+->ERR:non_existent: No such queue. Job not submitted.
+->EXC:255
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.lsf/QueueSystems/ErrorHandling/Console/BadQueueKnownBug/texttesttmp/local.kb.01Mar115147.5754/slavelogs; bsub -J Test-Basic2-SLEEP.kb -q non_existent -u nobody -o Test-Basic2-SLEEP.kb.log -e Test-Basic2-SLEEP.kb.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.lsf/QueueSystems/ErrorHandling/Console/BadQueueKnownBug/TargetApp -a sleep.kb -l -tp 'Basic2' -slave /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.lsf/QueueSystems/ErrorHandling/Console/BadQueueKnownBug/texttesttmp/local.kb.01Mar115147.5754 -servaddr 10.67.7.96:37524 -b local""
+->ERR:non_existent: No such queue. Job not submitted.
+->EXC:255
+<-SRV:Completed submission of all tests

@@ -1,0 +1,11 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------Test
+------------foobar.hello
+
+The following existing files/directories were deleted:
+<Test Directory>
+----TargetApp
+--------Test
+------------options.hello

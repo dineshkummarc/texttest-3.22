@@ -1,0 +1,2 @@
+<-PYT:subprocess.Popen(['hg', 'status', '-A', '/nfs/vm/texttest/geoff/Testing/Automatic/texttest/VersionControl/TargetApp/Test1/errors.hello'], stderr=-1, stdout=-1, universal_newlines=True)
+->RET:raise exceptions.OSError('[Errno 2] No such file or directory')

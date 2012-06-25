@@ -1,0 +1,5 @@
+# Same on all platforms, Windows uses Cygwin here
+follow_program:xterm -bg white -T $TEXTTEST_FOLLOW_FILE_TITLE -e tail -f
+
+[view_file_on_remote_machine]
+output:1

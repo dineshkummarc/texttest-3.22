@@ -1,0 +1,6 @@
+<-CMD:hg status -A /a/dereferenced/path/to/errors.hello
+->OUT:M TargetApp/Test1/errors.hello
+<-CMD:hg status -A /carm/proj/texttest-tmp/geoff/texttest.hg.17Aug122324.7032/texttest.hg/VersionControl/HgSpecific/SymbolicLinks/TargetApp/Test1/output.hello
+->OUT:C TargetApp/Test1/output.hello
+<-CMD:hg status -A /nfs/vm/texttest/geoff/Testing/Automatic/texttest/VersionControl/TargetApp/Test1/output.hello.version
+->OUT:? TargetApp/Test1/output.hello.version

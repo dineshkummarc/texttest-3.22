@@ -1,0 +1,10 @@
+import_config_file:$STANDARD
+import_config_file:capturemock_config
+
+config_module:queuesystem
+
+slow_motion_replay_speed:3
+create_catalogues:true
+partial_copy_test_path:nonsense
+
+performance_test_machine:any

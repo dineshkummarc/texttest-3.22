@@ -1,0 +1,15 @@
+import_config_file:$STANDARD
+
+default_interface:console
+
+remote_shell_program:ssh
+
+remote_copy_program:scp
+
+default_machine:testnet-s16
+
+[collate_file]
+localfile:local
+
+[view_file_on_remote_machine]
+extra:1

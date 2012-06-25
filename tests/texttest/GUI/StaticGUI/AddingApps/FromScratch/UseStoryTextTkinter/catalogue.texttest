@@ -1,0 +1,8 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------capturemockrc.hello
+--------config.hello
+--------testsuite.hello
+--------storytext_files
+------------ui_map.conf

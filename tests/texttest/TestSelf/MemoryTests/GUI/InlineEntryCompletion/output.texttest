@@ -1,0 +1,7 @@
+Using Application MEM, version foobar
+Running MEM.foobar test-suite TargetApp
+  Running MEM.foobar test-suite Suite
+    Running MEM.foobar test-case Failures
+Comparing differences for MEM.foobar test-suite TargetApp
+  Comparing differences for MEM.foobar test-suite Suite
+    Comparing differences for MEM.foobar test-case Failures (on memory.mem,output.mem)

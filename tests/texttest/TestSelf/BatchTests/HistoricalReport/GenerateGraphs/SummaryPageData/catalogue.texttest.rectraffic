@@ -1,0 +1,10 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------testsuite.app1
+--------testsuite.app2
+----report
+--------app1
+------------images
+----------------GenerateGraphs_default.png
+----------------GenerateGraphs_version2.png

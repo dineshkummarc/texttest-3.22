@@ -1,0 +1,6 @@
+I wrote a file in /some/path/preamble/console.19May170622.3202/appdir/path/to/my/test today.
+And on Windows, I wrote one called C:\DOCUME~1\myname\desktop\app.20jun143332.3495\path\to\my\test as well.
+But the default location on Windows has spaces in it, like C:\Documents and Settings\myname\desktop\app.20jun143332.3495\path\to\my\test
+And you can even get them on the same line, like "C:\Documents and Settings\geoff\.texttest\tmp\dynamic_gui.10Sep143400.1360\myname\path\to\my\test" and "C:/Documents and Settings/geoff/.texttest/tmp/dynamic_gui.10Sep143400.1360/myname/path/to/my/test"
+I set a variable file=/preamble/console.19May170622.3202/app/path/to/my/test
+And quoted it a bit "/home/texttesttmp/console.19May144643.85453/path/to/my/test".

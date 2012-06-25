@@ -1,0 +1,12 @@
+
+import_config_file:$STANDARD
+
+min_time_for_performance_force:2
+
+performance_test_resource:performance_resource
+
+config_module:queuesystem
+
+default_interface:console
+
+log_file:output

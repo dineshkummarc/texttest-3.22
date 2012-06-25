@@ -1,0 +1,4 @@
+# Isn't really a config module
+config_module:plugins
+
+default_interface:console

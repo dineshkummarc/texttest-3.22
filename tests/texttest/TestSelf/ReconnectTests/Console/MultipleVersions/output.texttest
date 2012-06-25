@@ -1,0 +1,8 @@
+Using Application HELLO, version v1
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.15Aug155252.6587/texttest/TestSelf/ReconnectTests/Console/MultipleVersions/texttesttmp/hello.v1.13Apr104321.3824/hello.v1
+Using Application HELLO, version v2
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.15Aug155252.6587/texttest/TestSelf/ReconnectTests/Console/MultipleVersions/texttesttmp/hello.v2.13Apr104321.3824/hello.v2
+Reconnecting to HELLO.v1 test-suite TargetApp
+  Reconnecting to HELLO.v1 test-case Test (state success)
+Reconnecting to HELLO.v2 test-suite TargetApp
+  Reconnecting to HELLO.v2 test-case Test (state success)

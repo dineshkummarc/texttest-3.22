@@ -1,0 +1,12 @@
+executable:${TEXTTEST_ROOT}/testdata.py
+
+default_interface:console
+
+create_catalogues:true
+
+home_operating_system:posix
+
+copy_test_path:writefile
+
+[collate_file]
+editedfile:writefile

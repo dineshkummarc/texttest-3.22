@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HELLO.BothDiff" failures="1" tests="1" time="0" errors="0">
+  <properties/>
+  <testcase name="BothDiff" time="0" classname="HELLO">
+    <failure type="differences" message="errors different(+)">
+    <![CDATA[
+---------- Differences in errors ----------
+0a1
+> Error text
+---------- Differences in output ----------
+0a1
+> Hello World!
+
+]]>
+    </failure>
+  </testcase>
+</testsuite>

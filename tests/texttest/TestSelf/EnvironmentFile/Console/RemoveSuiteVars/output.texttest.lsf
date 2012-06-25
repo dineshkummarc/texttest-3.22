@@ -1,0 +1,8 @@
+TextTest will write diagnostics in /users/geoff/texttesttmp/texttest.lsf.13Jun125151/TestSelf/EnvironmentFile/Console/RemoveSuiteVars based on file at /users/geoff/work/master/Testing/Automatic/texttest/logging.texttest
+Using LSF queues for Application Env Variables, version lsf
+Q: Submitting test Test1 to default LSF queue
+Q: Submitting test Test2 to default LSF queue
+S: Test Test1 FAILED on forestville : missing results for errors
+View details(v), Save Version lsf(1), Save(s) or continue(any other key)?
+S: Test Test2 FAILED on forestville : missing results for errors
+View details(v), Save Version lsf(1), Save(s) or continue(any other key)?

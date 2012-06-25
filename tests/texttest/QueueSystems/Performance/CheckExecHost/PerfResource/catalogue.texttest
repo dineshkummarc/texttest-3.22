@@ -1,0 +1,14 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------console.resource.30Apr164210.4989
+------------perf.resource
+----------------Failures
+--------------------errors.perf
+--------------------logperf.perf
+--------------------output.perf
+--------------------framework_tmp
+------------------------errors.perfcmp
+------------------------errors.perforigcmp
+------------------------output.perfcmp
+------------------------output.perforigcmp

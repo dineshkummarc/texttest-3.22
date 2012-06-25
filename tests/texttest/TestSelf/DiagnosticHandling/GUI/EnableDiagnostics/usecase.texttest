@@ -1,0 +1,13 @@
+wait for all tests to be read
+set test selection to Test
+view actions for file Data Files
+create a new file or directory, possibly by copying it
+press create
+wait for file editing operations to complete
+set file selection to logging.diag
+view actions for file Data Files
+create a new file or directory, possibly by copying it
+enter version identifier to use = tmp
+press create
+wait for file editing operations to complete
+quit

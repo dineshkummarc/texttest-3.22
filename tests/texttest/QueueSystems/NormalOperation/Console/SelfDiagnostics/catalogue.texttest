@@ -1,0 +1,16 @@
+The following new files/directories were created:
+<Test Directory>
+----log
+--------actionrunner.diag
+--------filecomparison.diag
+--------rundependenttext.diag
+--------testcomparison.diag
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----texttesttmp
+
+The following existing files/directories were deleted:
+<Test Directory>
+----log
+--------previous.diag

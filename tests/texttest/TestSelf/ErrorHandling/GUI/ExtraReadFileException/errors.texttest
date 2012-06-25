@@ -1,0 +1,8 @@
+Description of exception thrown :
+Traceback (most recent call last):
+  File "/users/geoff/work/master/Testing/TextTest/lib/testmodel.py", line 1142, in __call__
+    return self.targetCall(*args, **kwargs)
+  File "/carm/proj/texttest-tmp/geoff/texttest.gui.16Aug120042.31700/texttest.gui/TestSelf/ErrorHandling/GUI/ExtraReadFileException/customconfig.py", line 9, in extraReadFiles
+    raise RuntimeError, "We don't know what we're doing!"
+RuntimeError: We don't know what we're doing!
+WARNING - ignoring exception thrown by 'customconfig' configuration while requesting extra data files, not displaying any such files

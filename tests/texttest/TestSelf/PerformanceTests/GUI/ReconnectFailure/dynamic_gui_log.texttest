@@ -1,0 +1,221 @@
+
+---------- Window 'PERF tests (started at 09Jun14:03:28) - TextTest dynamic GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+  _Kill (Stock image 'gtk-stop', greyed out, accelerator 'Ctrl+Delete', tooltip 'Kill selected tests')
+  _Save (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S', tooltip 'Save results for selected tests')
+  Progress bar set to fraction 0.0, text 'All 0 tests completed at 09Jun14:03:38'
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected , Details
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Jun14:03:38.' , Image 'throbber_inactive.png'
+-------------------------------------------------------------------------------------------
+
+Progress bar set to fraction 0.0, text '0 of 1 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (perf) (black/white,bold) | (white)
+->   Success (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+
+Progress bar set to fraction 0.0, text '0 of 2 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/2 selected, none hidden , Details
+-> TargetApp (perf) (black/white,bold) | (white)
+->   Success (black/white) | (white)
+->   Failures (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+
+Progress bar set to fraction 0.0, text '0 of 3 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/3 selected, none hidden , Details
+-> TargetApp (perf) (black/white,bold) | (white)
+->   Success (black/white) | (white)
+->   Failures (black/white) | (white)
+->   FailuresCurrBelowLimit (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+
+Progress bar set to fraction 0.0, text '0 of 4 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (perf) (black/white,bold) | (white)
+->   Success (black/white) | (white)
+->   Failures (black/white) | (white)
+->   FailuresCurrBelowLimit (black/white) | (white)
+->   FailuresZeroTime (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 4 (white,bold) | Check box (checked)
+
+Progress bar set to fraction 0.25, text '1 of 4 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (perf) (black/white,bold) | (white)
+->   Success (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   Failures (black/white) | (white)
+->   FailuresCurrBelowLimit (black/white) | (white)
+->   FailuresZeroTime (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Progress bar set to fraction 0.5, text '2 of 4 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (perf) (black/white,bold) | (white)
+->   Success (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   Failures (black/DarkSeaGreen2) | 96% faster (salmon)
+->   FailuresCurrBelowLimit (black/white) | (white)
+->   FailuresZeroTime (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Performance differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     Faster (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+Progress bar set to fraction 0.75, text '3 of 4 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (perf) (black/white,bold) | (white)
+->   Success (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   Failures (black/DarkSeaGreen2) | 96% faster (salmon)
+->   FailuresCurrBelowLimit (black/salmon) | no results (salmon)
+->   FailuresZeroTime (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+-> Failed (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->   Performance differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     Faster (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Unrunnable (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     no results (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+Progress bar set to fraction 1.0, text 'All 4 tests completed at 09Jun14:03:38'
+
+Updated : Test Tree with columns: Tests: 0/4 selected, none hidden , Details
+-> TargetApp (perf) (black/white,bold) | (white)
+->   Success (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   Failures (black/DarkSeaGreen2) | 96% faster (salmon)
+->   FailuresCurrBelowLimit (black/salmon) | no results (salmon)
+->   FailuresZeroTime (black/salmon) | no results (salmon)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+-> Failed (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->   Performance differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     Faster (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Unrunnable (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->     no results (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+
+Expected application event 'completion of test actions' occurred, proceeding.
+
+'set test selection to' event created with arguments 'Failures'
+
+No longer greyed out : _Save
+
+Changed selection in Test Tree with columns: Tests: 1/4 selected, none hidden , Details
+-> TargetApp (perf) (black/white,bold) | (white)
+->   Success (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   Failures (black/DarkSeaGreen2) | 96% faster (salmon)   ***
+->   FailuresCurrBelowLimit (black/salmon) | no results (salmon)
+->   FailuresZeroTime (black/salmon) | no results (salmon)
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: Failures , Details
+-> Comparison Files (bold)
+->   errors.perf (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.perf (DarkSeaGreen2) | (DarkSeaGreen2)
+->   performance.perf (salmon) | 96% faster (salmon)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+Test ran faster :
+------------------ Differences in performance(faster) --------------------
+1,2c1,2
+< CPU time   :       10.0 sec. on sedom
+< Real time  :       18.2 sec.
+---
+> CPU time   :       5.1 sec. on frankfort
+> Real time  :       7.4 sec.
+===============================
+
+'save results with non-default settings' event created with arguments ''
+
+---------- Dialog 'Saving 1 tests' ----------
+Default widget is 'gtk-save'
+'Version to save:'
+Text entry (set to '<existing version>') (drop-down list containing ['<existing version>', '<full version>', ''])
+'Version(s) to save previous results as:'
+Text entry
+Check button 'Replace successfully compared files also'
+.....'Save'......
+Radio button 'Average performance'
+Radio button 'Exact performance' (checked)
+---------------
+Button 'gtk-save' (Stock image 'gtk-save') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+---------------------------------------------
+
+'enter version to save =' event created with arguments '2'
+Edited 'Version to save' Text entry (set to '2')
+
+'choose average performance for save' event created with arguments ''
+Toggled Radio button 'Average performance' (checked)
+Toggled Radio button 'Exact performance'
+
+'press ok' event created with arguments ''
+
+Changing GUI status to: 'Saving PERF test-case Failures : performance(faster), version '2''
+
+Greyed out : _Save
+
+Updated : Test Tree with columns: Tests: 1/4 selected, none hidden , Details
+-> TargetApp (perf) (black/white,bold) | (white)
+->   Success (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   Failures (black/DarkSeaGreen2) | (DarkSeaGreen2)   ***
+->   FailuresCurrBelowLimit (black/salmon) | no results (salmon)
+->   FailuresZeroTime (black/salmon) | no results (salmon)
+
+Updated : File Tree with columns: Failures , Details
+-> Comparison Files (bold)
+->   errors.perf (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.perf (DarkSeaGreen2) | (DarkSeaGreen2)
+->   performance.perf.2 (DarkSeaGreen2) | (DarkSeaGreen2)
+
+========== Text Info ==========
+Test succeeded
+(Saved at 14:03)
+===============================
+
+Changing GUI status to: 'Saved 1 tests.'
+
+'quit' event created with arguments ''

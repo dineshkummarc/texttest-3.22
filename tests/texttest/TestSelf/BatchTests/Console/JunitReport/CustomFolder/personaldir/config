@@ -1,0 +1,8 @@
+[batch_use_collection]
+junitformat:true
+
+[batch_junit_format]
+junitformat:true
+
+[batch_junit_folder]
+junitformat:some_folder_somewhere

@@ -1,0 +1,6 @@
+style "textteststyle"
+{ 
+   text[ACTIVE] = "blue"
+}
+
+widget "*" style "textteststyle"

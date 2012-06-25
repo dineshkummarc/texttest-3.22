@@ -1,0 +1,13 @@
+Using SGE queues for Application HELLO, checkout /carm/proj/texttest-tmp/geoff/texttest.22Feb095742.13861/texttest.sge/QueueSystems/SlaveReuse/Master/ForceReuse/Signals/CancelBeyondCapacity/TargetApp/
+Q: Submitting HELLO test-case Test to default SGE queue
+
+Expected application event 'all tests to be read' occurred, proceeding.
+Expected application event 'test Test under TargetApp to become pending' occurred, proceeding.
+
+Generating signal SIGUSR2
+Terminating testing due to external interruption (RUNLIMIT2)
+T: Cancelling HELLO test-case Test in SGE (job 121427)
+S: HELLO test-case Test not compared:  Test job 121427 was cancelled (while still pending in SGE) at 09:59
+S: HELLO test-case Test not compared:  Test run was cancelled before it had started
+Creating batch report for application HELLO ...
+done.

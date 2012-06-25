@@ -1,0 +1,8 @@
+# Ordered list of tests in test suite. Add as appropriate
+
+
+# Make sure we can set bugs to depend on execution hosts
+ExecutionHost
+
+# Copy of ExecutionHost, but don't match the machine name
+ExecutionHostNoBug

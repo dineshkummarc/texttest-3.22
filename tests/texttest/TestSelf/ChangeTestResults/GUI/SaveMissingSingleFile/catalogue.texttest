@@ -1,0 +1,9 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+
+The following existing files/directories were deleted:
+<Test Directory>
+----TargetApp
+--------BothDiff
+------------errors.hello

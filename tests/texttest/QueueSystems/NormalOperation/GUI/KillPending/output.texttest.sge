@@ -1,0 +1,5 @@
+Using SGE queues for Application SLEEP
+Q: Submitting SLEEP test-case Basic to default SGE queue
+Q: Submitting SLEEP test-case Basic2 to default SGE queue
+T: Cancelling SLEEP test-case Basic2 in SGE (job 7481)
+T: Cancelling SLEEP test-case Basic in SGE (job 7480)

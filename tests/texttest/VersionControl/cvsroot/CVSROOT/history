@@ -1,0 +1,9 @@
+O499dc086|geoff|~/tests/texttest/GUI/StaticGUI/CVSPlugin/*0|TargetApp||TargetApp
+M499dc316|geoff|~/tests/texttest/GUI/StaticGUI/CVSPlugin/*0|TargetApp|1.2|config.hello
+M49a1b11c|geoff|~/tests/texttest/GUI/StaticGUI/CVSPlugin/*0|TargetApp/Test2|1.2|output.hello
+O49a463d8|geoff|~/code/*0|TargetApp||TargetApp
+M49a464e0|geoff|~/code/*0|TargetApp/Test1|1.2|errors.hello
+O49a567d4|geoff|~/tmp/*0|TargetApp||TargetApp
+M49a568ea|geoff|~/tmp/*0|TargetApp/Suite/Subsuite/Test3|1.2|output.hello
+M49a64535|geoff|~/tmp/*0|TargetApp/Suite/Subsuite|1.2|testsuite.hello
+G49a64592|geoff|/nfs/vm/texttest/geoff/Testing/Automatic/texttest/GUI/StaticGUI/CVSPlugin/*0|TargetApp/Suite/Subsuite|1.2|testsuite.hello

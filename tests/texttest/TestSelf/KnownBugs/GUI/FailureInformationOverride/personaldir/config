@@ -1,0 +1,5 @@
+# Test that this is used by default also
+log_file:output
+
+[gui_entry_overrides]
+trigger_even_if_other_files_differ:1

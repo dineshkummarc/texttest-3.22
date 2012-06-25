@@ -1,0 +1,9 @@
+wait for completion of test actions
+select file output.hello
+quit
+answer no to texttest confirmation
+set file selection to output.hello
+view filtered file
+wait for the viewer process to start
+quit
+answer yes to texttest confirmation

@@ -1,0 +1,17 @@
+<-CMD:cvs rm -f /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/RemoveTests/TargetApp/Test1
+->FIL:Test1
+->ERR:cvs remove: Removing /carm/proj/texttest-tmp/geoff/texttest.18Mar165307.5121/texttest.cvs/VersionControl/General/Admin/RemoveTests/TargetApp/Test1
+cvs remove: scheduling `/carm/proj/texttest-tmp/geoff/texttest.18Mar165307.5121/texttest.cvs/VersionControl/General/Admin/RemoveTests/TargetApp/Test1/errors.hello' for removal
+cvs remove: scheduling `/carm/proj/texttest-tmp/geoff/texttest.18Mar165307.5121/texttest.cvs/VersionControl/General/Admin/RemoveTests/TargetApp/Test1/output.hello' for removal
+cvs remove: use 'cvs commit' to remove these files permanently
+<-CMD:cvs rm -f /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/RemoveTests/TargetApp/Suite/Subsuite/Test3
+->FIL:Test3
+->ERR:cvs remove: Removing /carm/proj/texttest-tmp/geoff/texttest.18Mar165307.5121/texttest.cvs/VersionControl/General/Admin/RemoveTests/TargetApp/Suite/Subsuite/Test3
+cvs remove: scheduling `/carm/proj/texttest-tmp/geoff/texttest.18Mar165307.5121/texttest.cvs/VersionControl/General/Admin/RemoveTests/TargetApp/Suite/Subsuite/Test3/errors.hello' for removal
+cvs remove: scheduling `/carm/proj/texttest-tmp/geoff/texttest.18Mar165307.5121/texttest.cvs/VersionControl/General/Admin/RemoveTests/TargetApp/Suite/Subsuite/Test3/output.hello' for removal
+cvs remove: use 'cvs commit' to remove these files permanently
+<-CMD:cvs rm -f /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Admin/RemoveTests/TargetApp/Suite/Subsuite/Test4
+->ERR:cvs remove: Removing /carm/proj/texttest-tmp/geoff/texttest.18Mar165307.5121/texttest.cvs/VersionControl/General/Admin/RemoveTests/TargetApp/Suite/Subsuite/Test4
+cvs remove: in directory /carm/proj/texttest-tmp/geoff/texttest.18Mar165307.5121/texttest.cvs/VersionControl/General/Admin/RemoveTests/TargetApp/Suite/Subsuite/Test4:
+cvs [remove aborted]: there is no version here; do 'cvs checkout' first
+->EXC:1

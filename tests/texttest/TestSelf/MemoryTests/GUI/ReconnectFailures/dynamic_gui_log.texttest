@@ -1,0 +1,92 @@
+
+---------- Window 'MEM tests (started at 09Jun14:03:25) - TextTest dynamic GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+  _Kill (Stock image 'gtk-stop', greyed out, accelerator 'Ctrl+Delete', tooltip 'Kill selected tests')
+  _Save (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S', tooltip 'Save results for selected tests')
+  Progress bar set to fraction 0.0, text 'All 0 tests completed at 09Jun14:03:28'
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected , Details
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Jun14:03:28.' , Image 'throbber_inactive.png'
+------------------------------------------------------------------------------------------
+
+Progress bar set to fraction 0.0, text '0 of 1 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (mem) (black/white,bold) | (white)
+->   Suite (black/white,bold) | (white)
+->     Failures (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+
+Progress bar set to fraction 1.0, text 'All 1 tests completed at 09Jun14:03:28'
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (mem) (black/white,bold) | (white)
+->   Suite (black/white,bold) | (white)
+->     Failures (black/DarkSeaGreen2) | 13% larger (salmon)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Performance differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     Memory+ (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+No longer greyed out : _Save
+
+Changed selection in Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (mem) (black/white,bold) | (white)
+->   Suite (black/white,bold) | (white)
+->     Failures (black/DarkSeaGreen2) | 13% larger (salmon)   ***
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: Failures , Details
+-> Comparison Files (bold)
+->   memory.mem (salmon) | 13% larger (salmon)
+->   output.mem (DarkSeaGreen2) | (DarkSeaGreen2)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+Test used more memory :
+---------- Differences in memory(larger) ----------
+1c1
+< Max Memory  :      42.3 MB
+---
+> Max Memory  :      47.8 MB
+===============================
+
+Expected application event 'completion of test actions' occurred, proceeding.
+
+'view options for' event created with arguments 'Status'
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Performance differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     Memory+ (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+'quit' event created with arguments ''

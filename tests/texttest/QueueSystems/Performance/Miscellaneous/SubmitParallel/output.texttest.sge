@@ -1,0 +1,10 @@
+Using SGE queues for Application PERF, version resource.parallel
+Q: Submitting PERF.resource.parallel test-case Failures to default SGE queue
+S: PERF.resource.parallel test-case Failures FAILED on perf_machine1, perf_machine2 : new results in logperf
+View details(v), Save Version resource.parallel(1), Save Version resource(2), Save Version parallel(3), Save(s) or continue(any other key)?
+------------------ New result in logperf --------------------
+Total Logperf  :      5.0 seconds on perf_machine1,perf_machine2
+Also on perf_machine1 : geoff's job 'Test-Failures-PERF.resource.parallel'
+Also on perf_machine1 : altenst's job 'Test-439crew.demo.38hr.cg.xprs.25KNR_perm3.perm_jk_spp-CS.master.i386_linux.perm'
+Also on perf_machine2 : altenst's job 'Test-99crew.3weeks.vert.apc.global.cg_perm0.perm_ib_crm-CS.master.i386_linux.perm'
+Save Version resource.parallel(1), Save Version resource(2), Save Version parallel(3), Save(s) or continue(any other key)?

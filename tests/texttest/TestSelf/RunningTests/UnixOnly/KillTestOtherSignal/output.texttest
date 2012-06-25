@@ -1,0 +1,23 @@
+Using Application SLEEP
+Running SLEEP test-suite TargetApp
+  Running SLEEP test-suite Suite1
+    Running SLEEP test-case Basic
+
+Expected application event 'all tests to be read' occurred, proceeding.
+Expected application event 'test Basic to start' occurred, proceeding.
+
+Generating signal SIGUSR1
+Terminating testing due to external interruption (RUNLIMIT1)
+Killing running test (process id 1805)
+Comparing differences for SLEEP test-suite TargetApp
+  Comparing differences for SLEEP test-suite Suite1
+    Comparing differences for SLEEP test-case Basic (on errors.sleep,output.sleep)
+    SLEEP test-case Basic were terminated before completion (SIGUSR1) : differences in output
+    View details(v), Save(s) or continue(any other key)?
+Test terminated by signal SIGUSR1
+---------- Differences in output ----------
+2d1
+< Done
+    Save(s) or continue(any other key)?
+    SLEEP test-case Basic2 not compared:  Test run was cancelled before it had started
+    SLEEP test-case Basic3 not compared:  Test run was cancelled before it had started

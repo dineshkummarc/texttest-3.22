@@ -1,0 +1,20 @@
+# Add a few tests and suites, create some files, change some descriptions...
+TestsAndSuites
+
+# Make sure the auto-sort plays nicely...
+AutoSort
+
+# Refresh shouldn't add tests that wouldn't have been added initially...
+FilterSuite
+
+# What happens if refresh turns an existing test into a suite, or vice versa?
+ChangeType
+
+# Make sure a refresh that triggers several removals in the same suite works
+RemoveSeveral
+
+# Remove a suite, refresh, then re-add. Hopefully not a coredump!
+RemoveAndReaddSuite
+
+# Check that freestanding comments don't end up in the description when we refresh
+EmptyLineComment

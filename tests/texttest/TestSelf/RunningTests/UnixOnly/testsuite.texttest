@@ -1,0 +1,33 @@
+# Check we can kill a running test. Here because this program goes on long 
+# enought not to be a too severe race condition...
+# Only works on UNIX because it relies on PyUseCase's signal recording,
+# which currently doesn't work on Windows. The functionality tested does
+# however work on Windows
+KillTest
+
+# Check messages when using some non-standard signal
+KillTestOtherSignal
+
+# If the test process is killed externally, wait a while to see if we also get a kill notification
+KillTestExternal
+
+# Check we can kill a running test, and that extra versions get cleared properly
+KillExtraVersion
+
+# Check that application events handle tests changing unique name at a later point...
+KillExtraVersionSlowRead
+
+# Check what happens if we kill the tests before they start. This has had a tendency to be ignored...
+KillBeforeTestsStart
+
+# See what happens if we quit before reading is complete
+KillDuringRead
+
+# Sending SIGQUIT should print a stack
+ShowStackTrace
+
+# Set a timeout so the test is terminated after a while
+KillViaTimeout
+
+# Ssh doesn't kill things remotely : need to help it out
+KillSshTest

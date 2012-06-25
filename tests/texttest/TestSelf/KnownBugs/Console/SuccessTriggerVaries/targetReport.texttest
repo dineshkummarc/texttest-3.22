@@ -1,0 +1,19 @@
+known bugs=1
+23Jul2009
+HELLO success : 1 tests : 1 known bugs
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests had known bugs : 
+In HELLO.success test-suite TargetApp:
+  - HELLO.success test-case Test : Delay bug 2
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that had known bugs follows...
+--------------------------------------------------------
+TEST had known bugs (Delay bug 2) on gewoia : HELLO.success test-case Test (under Test)
+Known problem 2
+

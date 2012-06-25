@@ -1,0 +1,134 @@
+# Test for arguments that aren't recognised
+BadArguments
+
+# Test that extra arguments for plugin scripts are parsed correctly
+CountTestsBadArg
+
+# Check for error if nothing is found
+NoApps
+
+# Check we can still reject nonsense arguments if we don't have any applications
+NoAppsBadArgs
+
+# Test for applications that aren't recognised
+BadApplication
+
+# Make sure we don't crash if the same app is given twice
+RepeatApplication
+
+# Make sure we don't crash if the same version is given twice
+RepeatVersion
+
+# Check temporary directory name if only part is repeated
+RepeatVersionPart
+
+# See what happens if we file a directory named as a config file should be
+BadAppDirectory
+
+# Check we get errors if we reconnect to things that don't exist
+# Should really be under reconnect but this tests specifically for no texttesttmp
+BadReconnect
+
+# Make sure we can highlight when people put stupid stuff in their config files
+CrapInConfigFile
+
+# Some error conditions - Config module isn't there, Config module contains nonsense, config module contains bad import and config module is a valid module but not a config module
+NoConfig
+ConfigModuleNotConfig
+
+# Test we don't crash when binary is not defined
+NoBinary
+
+# Also interpreter set to invalid path...
+BadInterpreter
+
+# Also interpreter set to invalid relative path...
+BadRelativeInterpreter
+
+# Check that exceptions in one application don't crash others
+AppsIndependent
+
+# Check that exceptions in one version of an application don't crash others
+VersionsIndependent
+
+# Check we don't create a temporary path with a space in it!
+MultiVersionsWithSpace
+
+# Check that -r does not remove everything without a performance file
+PerfFilterNoPerf
+
+# Make sure -t doesn't crash everything if provided without an argument
+NoTestNameArg
+
+# Make sure -v doesn't crash everything if provided without an argument
+NoVersionArg
+
+# Check that dashes in the TEXTTEST_HOME variable don't fool us,
+# and that we don't crash if the directory doesn't exist
+DashesInTEXTTEST_HOME
+
+# See what happens when we try to run a non-existent script
+BadScript
+
+# Give a script an argument it doesn't expect
+BadScriptArguments
+
+# Check we exit with error if given non-existent file
+NoFileFilter
+
+# Same, but with absolute file
+NoAbsoluteFileFilter
+
+# Test what happens when the file filter directory doesn't even exist
+NoFileFilterDir
+
+# import_config_file with non-existent file
+BadImportedConfig
+
+# Crash if we specify the default version twice
+DuplicateVersion
+
+# Check we don't crash with a single - in arguments
+LoneDash
+
+# Enforce usage of an up-to-date python version
+PythonTooOld
+
+# Make sure we don't reject if the Python version is newer
+PythonNewer
+
+# Bug from Steve Cochran on users list - machine names with one letter crash TextTest...
+OneLetterMachine
+
+# Searching for stack trace found by Jesper
+DoubleDottedVersion
+
+# Make sure that we accept and ignore command line flags, even if the functionality is disabled
+FlagsDisabled
+
+# What happens if the test is called e.g. "environment"
+TestHasReservedName
+
+# Try giving an argument to -cp that isn't a number
+IllegalCopyArg
+
+# Don't load configurations from emacs backup files ending in ~
+IgnoreEmacsBackups
+
+# Check we produce a warning of some sort if definition files are regenerated without an indicator
+DefinitionFileRebuilt
+
+# Check that we don't fall over if StoryText can't be imported
+NoStoryText
+
+# Reject configuration if data file names clash with definition files
+BadDataFileName
+
+# See what happens if we get a nonsense default_interface
+BadInterface
+
+# Errors caused by custom configuration modules
+CustomConfig
+
+# Tests for not being able to run the GUI due to GTK issues
+GtkFail

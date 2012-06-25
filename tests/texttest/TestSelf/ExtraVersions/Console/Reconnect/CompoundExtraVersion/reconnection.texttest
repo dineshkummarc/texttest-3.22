@@ -1,0 +1,31 @@
+Reconnection INFO - Finding reconnect 'extra versions' for HELLO given tmp info 'None'
+Reconnection INFO - Looking for run directories under /carm/proj/texttest-tmp/geoff/texttest.15Feb081949.3664/texttest/TestSelf/ExtraVersions/Console/Reconnect/CompoundExtraVersion/texttesttmp
+Reconnection INFO - Found run directories ['/carm/proj/texttest-tmp/geoff/texttest.15Feb081949.3664/texttest/TestSelf/ExtraVersions/Console/Reconnect/CompoundExtraVersion/texttesttmp/console.18Jul111758.14417']
+Reconnection INFO - Getting extra versions from directories, versions from config = set(['extra1.subextra', 'extra1', 'extra2', 'subextra'])
+Reconnection INFO - Considering version lists [['']] with dirs ['/carm/proj/texttest-tmp/geoff/texttest.15Feb081949.3664/texttest/TestSelf/ExtraVersions/Console/Reconnect/CompoundExtraVersion/texttesttmp/console.18Jul111758.14417']
+Reconnection INFO - Found list ['extra1', 'subextra']
+Reconnection INFO - Considering version list []
+Reconnection INFO - Caching HELLO = /carm/proj/texttest-tmp/geoff/texttest.15Feb081949.3664/texttest/TestSelf/ExtraVersions/Console/Reconnect/CompoundExtraVersion/texttesttmp/console.18Jul111758.14417
+Reconnection INFO - Extra versions found as []
+Reconnection INFO - Searching for run directory for HELLO
+Reconnection INFO - Found run directory '/carm/proj/texttest-tmp/geoff/texttest.15Feb081949.3664/texttest/TestSelf/ExtraVersions/Console/Reconnect/CompoundExtraVersion/texttesttmp/console.18Jul111758.14417'
+Reconnection INFO - Looking for directory with versions frozenset([])
+Reconnection INFO - Found application directory None
+Reconnection INFO - Searching for run directory for HELLO.extra1
+Reconnection INFO - Searching for run directory for HELLO
+Reconnection INFO - Found run directory '/carm/proj/texttest-tmp/geoff/texttest.15Feb081949.3664/texttest/TestSelf/ExtraVersions/Console/Reconnect/CompoundExtraVersion/texttesttmp/console.18Jul111758.14417'
+Reconnection INFO - Looking for directory with versions frozenset(['extra1'])
+Reconnection INFO - Found application directory None
+Reconnection INFO - Searching for run directory for HELLO.extra2
+Reconnection INFO - Searching for run directory for HELLO
+Reconnection INFO - Found run directory '/carm/proj/texttest-tmp/geoff/texttest.15Feb081949.3664/texttest/TestSelf/ExtraVersions/Console/Reconnect/CompoundExtraVersion/texttesttmp/console.18Jul111758.14417'
+Reconnection INFO - Looking for directory with versions frozenset(['extra2'])
+Reconnection INFO - Found application directory None
+Reconnection INFO - Searching for run directory for HELLO.extra1.subextra
+Reconnection INFO - Searching for run directory for HELLO.extra1
+Reconnection INFO - Searching for run directory for HELLO
+Reconnection INFO - Found run directory '/carm/proj/texttest-tmp/geoff/texttest.15Feb081949.3664/texttest/TestSelf/ExtraVersions/Console/Reconnect/CompoundExtraVersion/texttesttmp/console.18Jul111758.14417'
+Reconnection INFO - Looking for directory with versions frozenset(['subextra', 'extra1'])
+Reconnection INFO - Found application directory '/carm/proj/texttest-tmp/geoff/texttest.15Feb081949.3664/texttest/TestSelf/ExtraVersions/Console/Reconnect/CompoundExtraVersion/texttesttmp/console.18Jul111758.14417/hello.extra1.subextra'
+Reconnection INFO - Reconnecting to test at /carm/proj/texttest-tmp/geoff/texttest.15Feb081949.3664/texttest/TestSelf/ExtraVersions/Console/Reconnect/CompoundExtraVersion/texttesttmp/console.18Jul111758.14417/hello.extra1.subextra/Common
+Reconnection INFO - Loaded state file at /carm/proj/texttest-tmp/geoff/texttest.15Feb081949.3664/texttest/TestSelf/ExtraVersions/Console/Reconnect/CompoundExtraVersion/texttesttmp/console.18Jul111758.14417/hello.extra1.subextra/Common/framework_tmp/teststate - True

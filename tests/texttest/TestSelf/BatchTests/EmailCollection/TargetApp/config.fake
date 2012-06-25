@@ -1,0 +1,5 @@
+import_config_file:$STANDARD
+
+[batch_recipients]
+some_session:tom
+other_session:harry

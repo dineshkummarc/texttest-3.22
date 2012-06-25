@@ -1,0 +1,17 @@
+# Colours for TextTest GUI. These are used in the left window for tests
+# Valid colour values can be found from the last column of the file
+# /usr/lib/python2.2/site-packages/pynche/X/rgb.txt
+[test_colours]
+success:pale green
+failure:orange
+running:turquoise
+not_started:purple
+static:grey
+
+# Colours for TextTest GUI. These are used in the right window for files
+[file_colours]
+success:dark green
+failure:pink
+running:orange
+not_started:grey
+static:yellow

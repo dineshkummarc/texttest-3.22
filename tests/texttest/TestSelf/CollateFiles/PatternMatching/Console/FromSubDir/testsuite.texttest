@@ -1,0 +1,5 @@
+# Make sure it works when we have a target pattern and are fetching from a subdirectory
+TargetPattern
+
+# What happens if we treat the directory name as variable when collating?
+TmpDirName

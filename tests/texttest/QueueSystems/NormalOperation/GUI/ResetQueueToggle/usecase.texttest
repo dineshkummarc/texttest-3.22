@@ -1,0 +1,8 @@
+wait for all tests to be read
+select indicated tests
+view options for Running
+choose never for use grid
+reset running options
+run selected tests
+wait for dynamic GUI to be closed
+quit

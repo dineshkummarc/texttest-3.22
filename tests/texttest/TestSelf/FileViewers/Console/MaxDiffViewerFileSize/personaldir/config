@@ -1,0 +1,3 @@
+# A ridiculously low limit just to try
+[max_file_size]
+diff:0.002kilobytes

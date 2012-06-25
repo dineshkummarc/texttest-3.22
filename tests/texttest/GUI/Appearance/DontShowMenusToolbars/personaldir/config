@@ -1,0 +1,5 @@
+
+[hide_gui_element]
+static_menubar:1
+dynamic_menubar:1
+toolbar:1

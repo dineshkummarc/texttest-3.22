@@ -1,0 +1,22 @@
+wait for completion of test actions
+select file output.hello
+wait for the viewer process to start
+select file errors.hello
+wait for the viewer process to start
+set file selection to output.hello
+view actions for file output.hello
+view filtered file
+wait for the viewer process to start
+set file selection to output.hello
+view actions for file output.hello
+view raw differences
+wait for the viewer process to start
+set file selection to errors.hello
+view actions for file errors.hello
+view raw differences
+wait for the viewer process to start
+set file selection to output.hello
+view actions for file output.hello
+view file
+wait for the viewer process to start
+quit

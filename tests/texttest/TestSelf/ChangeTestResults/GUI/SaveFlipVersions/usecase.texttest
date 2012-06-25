@@ -1,0 +1,5 @@
+wait for completion of test actions
+save results for selected tests
+show test suite TargetApp (hello.4.2)
+set test selection to Test
+quit

@@ -1,0 +1,6 @@
+Using Application FAKE
+Collecting batch files locally...
+Found file called batchreport.fake
+Found file called batchreport.fake
+Creating batch report for application FAKE ...
+not sent: all tests succeeded.

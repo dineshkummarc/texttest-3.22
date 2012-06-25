@@ -1,0 +1,8 @@
+# Show file properties
+Basic
+
+# Checking properties of new files
+NewFiles
+
+# Show file properties on a file that has been externally removed
+RemovedFiles

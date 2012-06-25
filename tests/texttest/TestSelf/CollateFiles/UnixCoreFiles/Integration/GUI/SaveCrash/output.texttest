@@ -1,0 +1,5 @@
+Using Application CORE
+Running CORE test-suite TargetApp
+  Running CORE test-case DumpCore
+Comparing differences for CORE test-suite TargetApp
+  Comparing differences for CORE test-case DumpCore (on errors.core,output.core,stacktrace.core)

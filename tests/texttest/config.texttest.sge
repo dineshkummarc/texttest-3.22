@@ -1,0 +1,6 @@
+base_version:queuesystem
+
+link_test_path:sgehostfile
+
+[test_data_environment]
+sgehostfile:PE_HOSTFILE

@@ -1,0 +1,4 @@
+[gui_entry_options]
+# This should have no effect...
+test_names_containing:{CLEAR LIST}
+test_names_containing:foobar

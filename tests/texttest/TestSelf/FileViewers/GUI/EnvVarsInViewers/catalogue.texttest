@@ -1,0 +1,12 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------test1
+------------errors.hello
+----texttesttmp
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------test1
+------------output.hello

@@ -1,0 +1,2 @@
+[command line]
+intercepts = rsh,ssh,scp,rsync

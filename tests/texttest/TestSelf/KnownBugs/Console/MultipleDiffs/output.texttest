@@ -1,0 +1,8 @@
+Using Application HELLO, version textinfile.baderr
+Running HELLO.textinfile.baderr test-suite TargetApp
+  Running HELLO.textinfile.baderr test-case Test
+Comparing differences for HELLO.textinfile.baderr test-suite TargetApp
+  Comparing differences for HELLO.textinfile.baderr test-case Test (on errors.hello.baderr,output.hello)
+  HELLO.textinfile.baderr test-case Test FAILED on gewoia : differences in errors,output
+Creating batch report for application HELLO ...
+File written.

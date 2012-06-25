@@ -1,0 +1,28 @@
+import_config_file:${STANDARD}
+
+# Path to the executable
+executable:${TEXTTEST_HOME}/fakememory.py
+
+default_interface:console
+
+log_file:output
+
+discard_file:errors
+
+[run_dependent_text]
+output:Memory usage
+[end]
+
+# ------ Memory settings -------
+
+# String to look for to check for memory
+[performance_logfile_extractor]
+memory:usage now
+
+# How much variation in memory do we allow, in percentage of total memory used? 
+[performance_variation_%]
+memory:5
+
+# How much memory (in MB) must be used before we consider it worthwhile to check memory?
+[performance_test_minimum]
+memory:15

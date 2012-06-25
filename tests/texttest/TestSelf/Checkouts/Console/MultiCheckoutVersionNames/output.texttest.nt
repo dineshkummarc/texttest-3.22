@@ -1,0 +1,20 @@
+WARNING: The checkout '/some/long/path' does not exist.
+WARNING: The checkout 'c:\some\shorter\path' does not exist.
+WARNING: The checkout '/some/dotted.name/path' does not exist.
+Using Application HELLO, checkout C:/TextTest/personal/tmp/texttest.29Jul133101.3480/texttest/TestSelf/Checkouts/Console/MultiCheckoutVersionNames/TargetApp/checkout1/source
+Using Application HELLO, version long, checkout /some/long/path
+Using Application HELLO, version shorter, checkout c:\some\shorter\path
+Using Application HELLO, version dotted_name, checkout /some/dotted.name/path
+Counting HELLO test-suite TargetApp
+  Counting HELLO test-case Test
+Counting HELLO.long test-suite TargetApp
+  Counting HELLO.long test-case Test
+Counting HELLO.shorter test-suite TargetApp
+  Counting HELLO.shorter test-case Test
+Counting HELLO.dotted_name test-suite TargetApp
+  Counting HELLO.dotted_name test-case Test
+Application HELLO has 1 tests
+Application HELLO, version long has 1 tests
+Application HELLO, version shorter has 1 tests
+Application HELLO, version dotted_name has 1 tests
+There are 4 tests in total.

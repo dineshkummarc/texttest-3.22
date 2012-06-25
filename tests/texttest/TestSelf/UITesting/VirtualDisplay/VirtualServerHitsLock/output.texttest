@@ -1,0 +1,7 @@
+Using Application DISP
+Tests will run with DISPLAY variable set to :3979.0
+Running DISP test-suite TargetApp
+  Running DISP test-case Test
+Comparing differences for DISP test-suite TargetApp
+  Comparing differences for DISP test-case Test - SUCCESS! (on errors.disp,output.disp)
+Killing Xvfb process 13970

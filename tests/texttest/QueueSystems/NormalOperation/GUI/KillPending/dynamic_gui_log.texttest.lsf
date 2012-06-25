@@ -1,0 +1,176 @@
+Top Window title is TextTest dynamic GUI (tests started at 11Jun18:06:37)
+Default widget is <type 'gtk.TreeView'>
+Setting window width to 60% of screen.
+Setting window height to 83% of screen.
+
+Viewing toggle action with title '_Toolbar'
+Viewing toggle action with title '_Shortcut bar'
+Viewing toggle action with title '_Status bar'
+Viewing action with title '_Quit', stock id ''gtk-quit'', accelerator ''<control>q''
+Viewing action with title 'View File' (greyed out)
+Viewing action with title 'View Filtered File' (greyed out)
+Viewing action with title 'View Raw Differences' (greyed out)
+Viewing action with title 'View Differences' (greyed out)
+Viewing action with title 'Follow File Progress' (greyed out)
+Viewing action with title '_Save', stock id ''gtk-save'', accelerator ''<control>s'' (greyed out)
+Viewing action with title 'S_ave Selection...', stock id ''gtk-save-as'', accelerator ''<control><shift>s'' (greyed out)
+Viewing action with title '_Kill', stock id ''gtk-stop'' (greyed out)
+Viewing action with title '_Migration Notes'
+Viewing action with title 'Component _Versions'
+Viewing action with title '_About TextTest', stock id ''gtk-about''
+
+UI layout: 
+<ui>
+  <menubar name="MainMenuBar">
+    <menu name="filemenu" action="filemenu">
+      <placeholder name="FirstInFileMenu">
+        <menuitem name="Save" action="Save"/>
+        <separator/>
+      </placeholder>
+      <menuitem name="Save Selection..." action="Save Selection..."/>
+      <separator/>
+      <menuitem name="Quit" action="Quit"/>
+    </menu>
+    <menu name="editmenu" action="editmenu">
+    </menu>
+    <menu name="viewmenu" action="viewmenu">
+      <menuitem name="Toolbar" action="Toolbar"/>
+      <menuitem name="Shortcut bar" action="Shortcut bar"/>
+      <menuitem name="Status bar" action="Status bar"/>
+    </menu>
+    <menu name="actionsmenu" action="actionsmenu">
+      <menuitem name="Kill" action="Kill"/>
+    </menu>
+    <placeholder name="ExtraMenus">
+    </placeholder>
+    <menu name="helpmenu" action="helpmenu">
+      <menuitem name="Migration Notes" action="Migration Notes"/>
+      <separator/>
+      <menuitem name="Component Versions" action="Component Versions"/>
+      <separator/>
+      <menuitem name="About TextTest" action="About TextTest"/>
+    </menu>
+  </menubar>
+  <toolbar name="MainToolBar">
+    <toolitem name="Quit" action="Quit"/>
+    <toolitem name="Kill" action="Kill"/>
+    <toolitem name="Save" action="Save"/>
+    <separator/>
+  </toolbar>
+  <popup name="TestPopupMenu">
+  </popup>
+  <popup name="TestFilePopupMenu">
+    <menuitem name="View File" action="View File"/>
+    <menuitem name="View Filtered File" action="View Filtered File"/>
+    <separator/>
+    <menuitem name="View Differences" action="View Differences"/>
+    <menuitem name="View Raw Differences" action="View Raw Differences"/>
+    <separator/>
+    <menuitem name="Follow File Progress" action="Follow File Progress"/>
+  </popup>
+</ui>
+
+Progress bar set to fraction 0.0, text '0 of 2 tests completed'
+
+Test Tree description...
+-> TargetApp (sleep)
+->   Basic
+->   Basic2
+
+Test column header set to 'Tests: 0/2 selected, none hidden'
+
+Pane separator positioned 50% from the left edge
+
+Tabs showing : Status
+
+Test progress:
+--> Not started : 2, colour 'white', font 'bold'
+
+Changing GUI status to: 'TextTest started at 11Jun18:06:38.'
+
+Waiting for application event 'test Basic to become pending' to occur.
+Waiting for application event 'test Basic2 to become pending' to occur.
+Redrawing test Basic coloured white
+(Second column 'PEND' coloured white)
+
+Test progress:
+--> Not started : 1, colour 'white', font 'bold'
+--> Pending : 1, colour 'white', font 'bold'
+Redrawing test Basic2 coloured white
+(Second column 'PEND' coloured white)
+
+Test progress:
+--> Not started : 0, colour 'white', font ''
+--> Pending : 2, colour 'white', font 'bold'
+Expected application event 'test Basic to become pending' occurred, proceeding.
+Expected application event 'test Basic2 to become pending' occurred, proceeding.
+
+'set test selection to' event created with arguments 'Basic,Basic2'
+
+Test column header set to 'Tests: 1/2 selected, none hidden'
+Setting sensitivity of action 'S_ave Selection...' to True
+Setting sensitivity of action '_Kill' to True
+
+Setting file-view title to 'Basic'
+Adding file errors.sleep under heading 'Standard Files', coloured white
+Adding file output.sleep under heading 'Standard Files', coloured white
+Adding file output.sleep.cpulimit under heading 'Standard Files', coloured white
+Adding file options.sleep under heading 'Definition Files', coloured white
+Adding file options.sleep.killing under heading 'Definition Files', coloured white
+Adding file options.sleep.killing2 under heading 'Definition Files', coloured white
+Adding file options.sleep.killing3 under heading 'Definition Files', coloured white
+
+Viewing action with title '_Update Info' (greyed out)
+
+Tabs showing : Text Info
+
+---------- Text Info Window ----------
+Job pending in LSF
+--------------------------------------
+
+Tabs showing : Test, Status
+
+Test column header set to 'Tests: All 2 selected, none hidden'
+Setting file-view title to 'Sample from 2 tests'
+
+'kill selected tests' event created with arguments ''
+
+Changing GUI status to: 'Killing 2 tests ...'
+Killing SLEEP test-case Basic2
+Killing SLEEP test-case Basic
+
+Changing GUI status to: 'Killed 2 tests.'
+
+Changing GUI status to: 'Performed 'Kill selected tests' on 2 tests.'
+
+Waiting for application event 'completion of test actions' to occur.
+Redrawing test Basic2 coloured red
+(Second column 'cancelled pending job at 18:06' coloured red)
+Setting sensitivity of action '_Kill' to False
+
+Progress bar set to fraction 0.5, text '1 of 2 tests completed (1 tests failed)'
+Redrawing test Basic coloured red
+(Second column 'cancelled pending job at 18:06' coloured red)
+
+Setting file-view title to 'Sample from 2 tests'
+
+---------- Text Info Window ----------
+Test were cancelled before starting :
+Test job was cancelled (while still pending in LSF) at 18:06
+--------------------------------------
+
+Progress bar set to fraction 1.0, text 'All 2 tests completed at 11Jun18:06:44 (2 tests failed)'
+Expected application event 'completion of test actions' occurred, proceeding.
+
+'view options for' event created with arguments 'Status'
+
+Test progress:
+--> Not started : 0, colour 'white', font ''
+--> Pending : 0, colour 'white', font ''
+--> Failed : 2, colour 'red', font 'bold'
+----> Cancelled : 2, colour 'red', font 'bold'
+------> cancelled pending job at 18:06 : 2, colour 'red', font 'bold'
+
+'quit' event created with arguments ''
+
+Changing GUI status to: 'Removing all temporary files ...'

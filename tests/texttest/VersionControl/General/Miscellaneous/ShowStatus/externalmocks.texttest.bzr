@@ -1,0 +1,16 @@
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.07May104423.11266/texttest.bzr/VersionControl/General/Miscellaneous/ShowStatus/TargetApp/Test1/errors.hello
+->OUT:modified:
+  TargetApp/Test1/errors.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.07May104423.11266/texttest.bzr/VersionControl/General/Miscellaneous/ShowStatus/TargetApp/Test1/output.hello
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.07May104423.11266/texttest.bzr/VersionControl/General/Miscellaneous/ShowStatus/TargetApp/Test1/output.hello.version
+->OUT:unknown:
+  TargetApp/Test1/output.hello.version
+<-CMD:bzr annotate /carm/proj/texttest-tmp/geoff/texttest.07May104423.11266/texttest.bzr/VersionControl/General/Miscellaneous/ShowStatus/TargetApp/Test1/errors.hello
+<-CMD:bzr diff -r -1 /carm/proj/texttest-tmp/geoff/texttest.07May104423.11266/texttest.bzr/VersionControl/General/Miscellaneous/ShowStatus/TargetApp/Test1/errors.hello
+->OUT:=== modified file 'TargetApp/Test1/errors.hello'
+1d0
+< Added an extra line
+->EXC:1
+<-CMD:bzr status /carm/proj/texttest-tmp/geoff/texttest.07May104423.11266/texttest.bzr/VersionControl/General/Miscellaneous/ShowStatus/TargetApp/Test2/output.hello
+->OUT:modified:
+  TargetApp/Test2/output.hello

@@ -1,0 +1,3 @@
+[gui_entry_overrides]
+version_to_record:some_version
+checkout_to_use_for_recording:some_checkout

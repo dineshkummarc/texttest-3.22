@@ -1,0 +1,32 @@
+Segmentation Fault in __pollsys
+-------------------------------
+(Core file at fakecore)
+(Created by binary /bin/grep)
+t@2 (l@2) program terminated by signal SEGV (Segmentation Fault)
+Stack trace from DBX :
+__pollsys
+_pollsys
+_pselect
+_select
+floatsleep
+time_sleep
+call_function
+PyEval_EvalFrame
+fast_function
+call_function
+PyEval_EvalFrame
+PyEval_EvalCodeEx
+function_call
+PyObject_Call
+ext_do_call
+PyEval_EvalFrame
+fast_function
+call_function
+PyEval_EvalFrame
+PyEval_EvalCodeEx
+function_call
+PyObject_Call
+instancemethod_call
+PyObject_Call
+PyEval_CallObjectWithKeywords
+t_bootstrap

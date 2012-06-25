@@ -1,0 +1,13 @@
+Using Application FPDIFF
+Running FPDIFF test-suite TargetApp
+  Running FPDIFF test-case Test
+Comparing differences for FPDIFF test-suite TargetApp
+  Comparing differences for FPDIFF test-case Test (on errors.fpdiff,output.fpdiff)
+  FPDIFF test-case Test FAILED : differences in errors
+  View details(v), Save(s) or continue(any other key)?
+---------- Differences in errors ----------
+5c5
+< 0
+---
+> 1
+  Save(s) or continue(any other key)?

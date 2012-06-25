@@ -1,0 +1,3 @@
+[collate_file]
+writefile*:{CLEAR LIST}
+writefile*:*/writefile*.dump

@@ -1,0 +1,16 @@
+Using Application CPU
+Running CPU test-suite TargetApp
+  Running CPU test-case Test
+Not writing performance file for CPU test-case Test
+Comparing differences for CPU test-suite TargetApp
+  Comparing differences for CPU test-case Test (on errors.cpu,output.cpu)
+  CPU test-case Test FAILED : differences in errors,output
+  View details(v), Save(s) or continue(any other key)?
+---------- Differences in errors ----------
+0a1,2
+> time: illegal option -- o
+> usage: time [-p] utility [argument...]
+---------- Differences in output ----------
+1d0
+< Hello
+  Save(s) or continue(any other key)?

@@ -1,0 +1,54 @@
+zippy=1,lazy=2,succeeded=1
+08Apr2008
+PERF : 4 tests : 1 zippy, 2 lazy
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests were zippier : 
+In PERF test-suite TargetApp:
+  - PERF test-case Failures               : 100% zippier
+
+The following tests were lazier : 
+In PERF test-suite TargetApp:
+  - PERF test-case FailuresCurrBelowLimit : 150% lazier
+  - PERF test-case FailuresZeroTime       : infinitely lazier
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that were zippier follows...
+--------------------------------------------------------
+TEST were zippier on portmoller : PERF test-case Failures (under Failures)
+---------- Differences in performance(zippier) ----------
+1,2c1
+< CPU time   :       10.0 sec. on sedom
+< Real time  :       18.2 sec.
+---
+> Total Performance  :      5.0 seconds on portmoller
+
+Detailed information for the tests that were lazier follows...
+--------------------------------------------------------
+TEST were lazier on portmoller : PERF test-case FailuresCurrBelowLimit (under FailuresCurrBelowLimit)
+---------- Differences in performance(lazier) ----------
+1,2c1
+< CPU time   :       2.0 sec. on sedom
+< Real time  :       18.2 sec.
+---
+> Total Performance  :      5.0 seconds on portmoller
+--------------------------------------------------------
+TEST were lazier on portmoller : PERF test-case FailuresZeroTime (under FailuresZeroTime)
+---------- Differences in performance(lazier) ----------
+1,2c1
+< CPU time   :       0.0 sec. on sedom
+< Real time  :       18.2 sec.
+---
+> Total Performance  :      5.0 seconds on portmoller
+
+Summary of all Successful tests follows...
+---------------------------------------------------------------------------------
+The following tests succeeded : 
+In PERF test-suite TargetApp:
+  - PERF test-case Success
+
+

@@ -1,0 +1,11 @@
+# Test with only output differences
+OutDiff
+
+# Test that works
+Success
+
+# Test where both output and errors differ
+BothDiff
+
+# A test suite
+suite

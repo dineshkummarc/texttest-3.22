@@ -1,0 +1,64 @@
+Observer raised exception while calling notifyLifecycleChange :
+Description of exception thrown :
+Traceback (most recent call last):
+  File "/users/geoff/work/master/Testing/TextTest/lib/plugins.py", line 532, in notifyObserver
+    method(self, *args, **kwargs)
+  File "/carm/proj/texttest-tmp/geoff/texttest.28Jan133616.2263/texttest/TestSelf/ErrorHandling/Console/CustomConfig/ErrorFromNotify/customconfig.py", line 13, in notifyLifecycleChange
+    asfgagsdg
+NameError: global name 'asfgagsdg' is not defined
+Observer raised exception while calling notifyLifecycleChange :
+Description of exception thrown :
+Traceback (most recent call last):
+  File "/users/geoff/work/master/Testing/TextTest/lib/plugins.py", line 532, in notifyObserver
+    method(self, *args, **kwargs)
+  File "/carm/proj/texttest-tmp/geoff/texttest.28Jan133616.2263/texttest/TestSelf/ErrorHandling/Console/CustomConfig/ErrorFromNotify/customconfig.py", line 13, in notifyLifecycleChange
+    asfgagsdg
+NameError: global name 'asfgagsdg' is not defined
+Observer raised exception while calling notifyLifecycleChange :
+Description of exception thrown :
+Traceback (most recent call last):
+  File "/users/geoff/work/master/Testing/TextTest/lib/plugins.py", line 532, in notifyObserver
+    method(self, *args, **kwargs)
+  File "/carm/proj/texttest-tmp/geoff/texttest.28Jan133616.2263/texttest/TestSelf/ErrorHandling/Console/CustomConfig/ErrorFromNotify/customconfig.py", line 13, in notifyLifecycleChange
+    asfgagsdg
+NameError: global name 'asfgagsdg' is not defined
+Observer raised exception while calling notifyLifecycleChange :
+Description of exception thrown :
+Traceback (most recent call last):
+  File "/users/geoff/work/master/Testing/TextTest/lib/plugins.py", line 532, in notifyObserver
+    method(self, *args, **kwargs)
+  File "/carm/proj/texttest-tmp/geoff/texttest.28Jan133616.2263/texttest/TestSelf/ErrorHandling/Console/CustomConfig/ErrorFromNotify/customconfig.py", line 13, in notifyLifecycleChange
+    asfgagsdg
+NameError: global name 'asfgagsdg' is not defined
+Observer raised exception while calling notifyLifecycleChange :
+Description of exception thrown :
+Traceback (most recent call last):
+  File "/users/geoff/work/master/Testing/TextTest/lib/plugins.py", line 532, in notifyObserver
+    method(self, *args, **kwargs)
+  File "/carm/proj/texttest-tmp/geoff/texttest.28Jan133616.2263/texttest/TestSelf/ErrorHandling/Console/CustomConfig/ErrorFromNotify/customconfig.py", line 13, in notifyLifecycleChange
+    asfgagsdg
+NameError: global name 'asfgagsdg' is not defined
+Observer raised exception while calling notifyLifecycleChange :
+Description of exception thrown :
+Traceback (most recent call last):
+  File "/users/geoff/work/master/Testing/TextTest/lib/plugins.py", line 532, in notifyObserver
+    method(self, *args, **kwargs)
+  File "/carm/proj/texttest-tmp/geoff/texttest.28Jan133616.2263/texttest/TestSelf/ErrorHandling/Console/CustomConfig/ErrorFromNotify/customconfig.py", line 13, in notifyLifecycleChange
+    asfgagsdg
+NameError: global name 'asfgagsdg' is not defined
+Observer raised exception while calling notifyLifecycleChange :
+Description of exception thrown :
+Traceback (most recent call last):
+  File "/users/geoff/work/master/Testing/TextTest/lib/plugins.py", line 532, in notifyObserver
+    method(self, *args, **kwargs)
+  File "/carm/proj/texttest-tmp/geoff/texttest.28Jan133616.2263/texttest/TestSelf/ErrorHandling/Console/CustomConfig/ErrorFromNotify/customconfig.py", line 13, in notifyLifecycleChange
+    asfgagsdg
+NameError: global name 'asfgagsdg' is not defined
+Observer raised exception while calling notifyLifecycleChange :
+Description of exception thrown :
+Traceback (most recent call last):
+  File "/users/geoff/work/master/Testing/TextTest/lib/plugins.py", line 532, in notifyObserver
+    method(self, *args, **kwargs)
+  File "/carm/proj/texttest-tmp/geoff/texttest.28Jan133616.2263/texttest/TestSelf/ErrorHandling/Console/CustomConfig/ErrorFromNotify/customconfig.py", line 13, in notifyLifecycleChange
+    asfgagsdg
+NameError: global name 'asfgagsdg' is not defined

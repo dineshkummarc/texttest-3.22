@@ -1,0 +1,17 @@
+wait for all tests to be read
+set test selection to S01.99
+move selected test down in suite
+move selected test down in suite
+move selected test to last in suite
+move selected test up in suite
+move selected test up in suite
+move selected test up in suite
+move selected test up in suite
+move selected test to first in suite
+set test selection to Game9952
+move selected test to last in suite
+set test selection to S01
+set test selection to Game47
+set test selection to npstIII
+move selected test down in suite
+quit

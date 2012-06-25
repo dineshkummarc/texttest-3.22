@@ -1,0 +1,4 @@
+I'm just a nonsense text file. 
+Does it work to use me as a filter file?
+
+Bye now!

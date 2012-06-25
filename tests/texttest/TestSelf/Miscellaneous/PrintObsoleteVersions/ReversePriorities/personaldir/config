@@ -1,0 +1,6 @@
+[run_dependent_text]
+output:Hello
+
+[version_priority]
+2:4
+4:1

@@ -1,0 +1,34 @@
+succeeded=6
+01Oct2007
+HELLO batch : 6 tests, all successful
+
+HELLO batch : 2 tests, all successful
+HELLO batch.extra1 : 2 tests, all successful
+HELLO batch.extra2 : 2 tests, all successful
+
+Summary of all Successful tests follows...
+---------------------------------------------------------------------------------
+HELLO batch : 2 tests, all successful
+
+The following tests succeeded : 
+In HELLO.batch test-suite TargetApp:
+  - HELLO.batch test-case Common
+  - HELLO.batch test-case Base
+
+
+HELLO batch.extra1 : 2 tests, all successful
+
+The following tests succeeded : 
+In HELLO.batch.extra1 test-suite TargetApp:
+  - HELLO.batch.extra1 test-case Common
+  - HELLO.batch.extra1 test-case Extra1
+
+
+HELLO batch.extra2 : 2 tests, all successful
+
+The following tests succeeded : 
+In HELLO.batch.extra2 test-suite TargetApp:
+  - HELLO.batch.extra2 test-case Common
+  - HELLO.batch.extra2 test-case Extra2
+
+

@@ -1,0 +1,5 @@
+# Tests for the testcustomize.py hook
+TestCustomize
+
+# Tests for integration with CaptureMock
+CaptureMock

@@ -1,0 +1,7 @@
+[Migrated section 1]
+search_string:World
+search_file:output
+trigger_on_absence:1
+full_description:We're supposed to be saying hello to the world!
+brief_description:No World!
+internal_error:1

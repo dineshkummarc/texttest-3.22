@@ -1,0 +1,8 @@
+import_config_file:$STANDARD
+
+# make it different
+executable:${TEXTTEST_HOME}/overwritetests.py
+
+discard_file:errors
+
+link_test_path:datafile

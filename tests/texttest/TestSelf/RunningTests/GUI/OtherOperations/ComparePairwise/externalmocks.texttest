@@ -1,0 +1,2 @@
+<-CMD:tkdiff /carm/proj/texttest-tmp/geoff/texttest.gui.02Aug164832.32364/texttest.gui/TestSelf/RunningTests/GUI/OtherOperations/ComparePairwise/texttesttmp/console.02Aug164836.32367/hello/Suite1/Basic/framework_tmp/output.hellocmp /carm/proj/texttest-tmp/geoff/texttest.gui.02Aug164832.32364/texttest.gui/TestSelf/RunningTests/GUI/OtherOperations/ComparePairwise/texttesttmp/console.02Aug164836.32367/hello/Suite1/Basic2/framework_tmp/output.hellopartcmp
+->EXC:1

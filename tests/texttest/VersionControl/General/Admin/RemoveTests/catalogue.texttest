@@ -1,0 +1,25 @@
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------testsuite.hello
+--------Suite
+------------Subsuite
+----------------testsuite.hello
+
+The following existing files/directories were deleted:
+<Test Directory>
+----TargetApp
+--------Suite
+------------Subsuite
+----------------Test3
+--------------------errors.hello
+--------------------output.hello
+----------------Test4
+--------------------errors.hello
+--------------------errors.hello.ignored_by_vcs
+--------------------output.hello
+--------Test1
+------------errors.hello
+------------output.hello
+------------output.hello.version

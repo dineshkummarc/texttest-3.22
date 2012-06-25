@@ -1,0 +1,47 @@
+Received SIGQUIT: showing current stack trace below:
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/bin/texttest.py", line 28, in ?
+    program.run()
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/engine.py", line 295, in run
+    self._run()
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/engine.py", line 316, in _run
+    self.createAndRunSuites(allApps)
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/engine.py", line 349, in createAndRunSuites
+    self.runThreads()
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/engine.py", line 428, in runThreads
+    mainThreadRunner.run()
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/engine.py", line 103, in run
+    self.performNotify("AllReadAndNotified") # triggers the ActionRunner to start if needed, do this in the same thread!
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/plugins.py", line 471, in performNotify
+    self.notifyObserver(observer, methodName, *args, **kwargs)
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/plugins.py", line 481, in notifyObserver
+    method(*args, **kwargs)
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/default/actionrunner.py", line 116, in notifyAllReadAndNotified
+    self.runAllTests()
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/default/actionrunner.py", line 39, in runAllTests
+    self.runQueue(self.getTestForRun, self.runTest, "running")
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/default/actionrunner.py", line 81, in runQueue
+    runMethod(test)
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/default/actionrunner.py", line 126, in runTest
+    self.currentTestRunner.performActions(self.previousTestRunner)
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/default/actionrunner.py", line 273, in performActions
+    self.callAction(action)
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/default/actionrunner.py", line 296, in callAction
+    self.handleExceptions(self.test.callAction, action)
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/default/actionrunner.py", line 248, in handleExceptions
+    return method(*args)
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/testmodel.py", line 581, in callAction
+    return action(self)
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/default/__init__.py", line 1101, in __call__
+    return self.runTest(test)
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/default/__init__.py", line 1118, in runTest
+    self.wait(process)
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/default/__init__.py", line 1193, in wait
+    plugins.retryOnInterrupt(process.wait)
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/plugins.py", line 887, in retryOnInterrupt
+    return function(*args)
+  File "/usr/lib64/python2.4/subprocess.py", line 1007, in wait
+    pid, sts = os.waitpid(self.pid, 0)
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/usecase.py", line 566, in recordSignal
+    realHandler(signum, stackFrame)
+  File "/users/geoff/work/tt_coverage/Testing/TextTest/lib/engine.py", line 135, in printStackTrace
+    print_stack()

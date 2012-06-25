@@ -1,0 +1,8 @@
+batch_result_repository:repository
+historical_report_location:report
+
+[performance_variation_serious_%]
+memory:20
+
+[historical_report_resource_pages]
+self_test:memory

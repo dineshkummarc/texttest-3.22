@@ -1,0 +1,33 @@
+# Check batch report produced by two tests running with LSF in the same suite
+Batch2Tests
+
+# SGE doesn't like job names with digits, it would seem...
+TestNameWithDigit
+
+# Check the -keepslave flag does what it should
+KeepInfoInSlave
+
+# Don't send filtering notifications in batch mode, it just creates network traffic for no reason
+BatchSlave
+
+# Make sure the slave gets all the flags it needs
+SlaveTransferFlags
+
+# If we have multiple applications, submit some from each in order
+InterleaveTests
+
+# Make sure we put slave diagnostics in a separate location
+SelfDiagnostics
+
+# Make sure we pass on the location of the log file to the slaves if it's explicitly given
+SelfDiagnosticsExplicit
+DocumentEnvironment
+
+# Make sure the slave can reconnect correctly
+SlaveReconnect
+
+# We should never add extra versions in the slave, even though we need to some them up due to side-effects...
+SlaveReconnectNoExtra
+
+# If a known bug with the rerun flag is triggered, don't rerun locally, notify the master of this
+SlaveAutoRerun

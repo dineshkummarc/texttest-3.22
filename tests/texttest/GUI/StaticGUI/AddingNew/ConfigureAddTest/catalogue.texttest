@@ -1,0 +1,8 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------testsuite.hello
+--------testsuite.hello_config
+--------Test
+--------TestConfig
+------------environment.hello_config

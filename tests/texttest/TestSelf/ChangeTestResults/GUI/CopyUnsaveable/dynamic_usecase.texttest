@@ -1,0 +1,5 @@
+wait for completion of test actions
+set test selection to OutDiff under TargetApp (hello.copy_1)
+save results with non-default settings
+press cancel
+quit

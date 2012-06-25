@@ -1,0 +1,14 @@
+# Path to the executable
+executable:${TEXTTEST_HOME}/writetimestr.py
+
+[performance_test_machine]
+time:any
+
+[run_dependent_text]
+output:some time
+
+[performance_logfile]
+time:output
+
+[performance_logfile_extractor]
+time:some time

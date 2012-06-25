@@ -1,0 +1,53 @@
+# No previous apps exist to cling onto...
+AddAndRun
+
+# Make sure the second application appears
+AddTwoApps
+
+# No previous apps exist to cling onto: can we view the config file?
+ViewConfigOnNewApp
+
+# Make sure the import file dialog comes up correctly when we start from scratch
+ImportFile
+
+# Start from nothing, create a test and rename it
+RenameTest
+
+# Check we can enable the UI testing option and that it works...
+EnableUIOption
+
+# Set it up to use StoryText with PyGTK
+UseStoryTextGtk
+
+# Check we can choose a Tkinter GUI
+UseStoryTextTkinter
+
+# Check we can choose a wxPython GUI
+UseStoryTextwxPython
+
+# Set it up to use SWT via Jython
+UseStoryTextSWT
+
+# Set it up to use StoryText on Eclipse RCP
+UseStoryTextRCP
+
+# Set it up to use Java Swing via StoryText and Jython
+UseStoryTextSwing
+
+# Instead of providing a full path, test a Java class instead
+UseJavaClass
+
+# Choose the virtual display only option
+VirtualDisplayOnly
+
+# Record shouldn't become active if we select a file
+RecordStaysInactive
+
+# Test that it is not possible to load a selection when no test is loaded
+LoadSelectionDisabled
+
+# Check that settings in the personal config file can affect the initial dialog
+PersonalConfig
+
+# Make sure we don't crash if shortcuts can't be added, for example if $TEXTTEST_HOME = $HOME
+AddShortcutFails

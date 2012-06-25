@@ -1,0 +1,2 @@
+# Check that we can temporarily disable partial copying, also remotely
+PartialCopyIgnoreCatalogues

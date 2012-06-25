@@ -1,0 +1,12 @@
+Using Application SLEEP, version killing
+Running SLEEP.killing test-suite TargetApp
+  Running SLEEP.killing test-case Basic
+
+Expected application event 'all tests to be read' occurred, proceeding.
+Expected application event 'test Basic to start' occurred, proceeding.
+
+Generating signal SIGUSR2
+Terminating testing due to external interruption (RUNLIMIT2)
+Killing running test (process id 14033)
+Comparing differences for SLEEP.killing test-suite TargetApp
+  Comparing differences for SLEEP.killing test-case Basic (on errors.sleep,output.sleep)

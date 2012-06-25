@@ -1,0 +1,14 @@
+# Check that it works and that all versions match up correctly
+VersionMatch
+
+# If we pick up multiple versions, make sure we pick up their extra versions also
+MultiVersions
+
+# If we pick up multiple versions implicitly, make sure we pick up their extra versions also
+ImplicitVersions
+
+# If we specify the extra version on the command line, make sure it gets found
+ExtraVersionExplicit
+
+# If the extra version is a compound, make sure we don't get spurious recombinations
+CompoundExtraVersion

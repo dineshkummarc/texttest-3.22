@@ -1,0 +1,19 @@
+cancelled=1
+22Feb2010
+SLEEP killing : 1 tests : 1 cancelled
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests were cancelled before starting : 
+In SLEEP.killing test-suite TargetApp:
+  - SLEEP.killing test-case Basic : cancelled pending job at 09:58
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that were cancelled before starting follows...
+--------------------------------------------------------
+TEST were cancelled before starting : SLEEP.killing test-case Basic (under Basic)
+Test job 1 was cancelled (while still pending in LSF) at 09:58
+

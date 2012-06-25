@@ -1,0 +1,7 @@
+[section]
+search_string:Sleeping for
+search_file:output
+brief_description:Sleeping Sickness
+full_description:Test has the Sleeping Sickness!
+trigger_on_success:1
+rerun_count:1

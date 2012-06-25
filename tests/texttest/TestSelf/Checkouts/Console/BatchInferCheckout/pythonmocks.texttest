@@ -1,0 +1,31 @@
+<-PYT:import smtplib
+<-PYT:smtplib.SMTP()
+->RET:Instance('SMTP', 'smtp1')
+<-PYT:smtp1.connect('localhost')
+->RET:(220, 'juliaca.got.jeppesensystems.com ESMTP Sendmail 8.13.8/8.13.8; Tue, 9 Feb 2010 15:20:31 +0100')
+<-PYT:smtp1.sendmail('geoff@localhost', ['fakeuser'], '''From: geoff@localhost
+To: fakeuser
+Subject: 09Feb2010 HELLO : 1 tests : 1 FAILED
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests FAILED : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Test : output different
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that FAILED follows...
+--------------------------------------------------------
+TEST FAILED on juliaca : HELLO test-case Test (under Test)
+---------- Differences in output ----------
+1c1
+< Hello
+---
+> Hello from batch mode!
+
+''')
+->RET:{}
+<-PYT:smtp1.quit()

@@ -1,0 +1,19 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------env.01Sep170825.8903
+------------env
+----------------Suite1
+--------------------Test1
+------------------------output.env
+------------------------framework_tmp
+----------------------------output.envcmp
+----------------------------output.envorigcmp
+----------------------------teststate
+--------static_gui.01Sep170823.8864
+------------dynamic_run1
+----------------errors.log
+----------------gui_select
+----------------output.log
+----------------temporary_settings
+--------------------environment.env

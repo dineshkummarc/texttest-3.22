@@ -1,0 +1,1 @@
+-a hello -c checkout1,/some/long/path,c:\some\shorter\path,/some/dotted.name/path -s default.CountTest

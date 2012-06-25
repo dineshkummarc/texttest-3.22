@@ -1,0 +1,8 @@
+Using Application CORE
+Running CORE test-suite TargetApp
+  Running CORE test-case DumpCore
+Comparing differences for CORE test-suite TargetApp
+  Comparing differences for CORE test-case DumpCore (on errors.core,output.core,stacktrace.core)
+  CORE test-case DumpCore CRASHED (Segmentation fault in ___newselect_nocancel) on redenaco :
+Creating batch report for application CORE ...
+File written.

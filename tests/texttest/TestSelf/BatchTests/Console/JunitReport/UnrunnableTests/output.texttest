@@ -1,0 +1,13 @@
+Using Application HELLO
+Reconnecting to test results in directory /carm/proj/texttest-tmp/geoff/texttest.29Jul161821.22560/texttest/TestSelf/BatchTests/Console/JunitReport/UnrunnableTests/texttesttmp/console.13Apr113811.3289/hello
+Reconnecting to HELLO test-suite TargetApp
+  Reconnecting to HELLO test-case OutDiff (state unrunnable)
+  HELLO test-case OutDiff not compared:  No file found to load results from under /carm/proj/texttest-tmp/geoff/texttest.29Jul161821.22560/texttest/TestSelf/BatchTests/Console/JunitReport/UnrunnableTests/texttesttmp/console.13Apr113811.3289/hello/OutDiff
+  Reconnecting to HELLO test-case Success (state success)
+  Reconnecting to HELLO test-case BothDiff (state unrunnable)
+  HELLO test-case BothDiff not compared:  No file found to load results from under /carm/proj/texttest-tmp/geoff/texttest.29Jul161821.22560/texttest/TestSelf/BatchTests/Console/JunitReport/UnrunnableTests/texttesttmp/console.13Apr113811.3289/hello/BothDiff
+  Reconnecting to HELLO test-suite suite
+    Reconnecting to HELLO test-case OutDiff2 (state failure)
+    HELLO test-case OutDiff2 FAILED on portmoller : differences in output
+Creating batch report for application HELLO ...
+File written.

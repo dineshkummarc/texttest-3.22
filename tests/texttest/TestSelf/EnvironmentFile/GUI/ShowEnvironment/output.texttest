@@ -1,0 +1,9 @@
+Using Application Env Variables, version cmdvar
+Running Env Variables.cmdvar test-suite TargetApp
+  Running Env Variables.cmdvar test-suite Suite1
+    Running Env Variables.cmdvar test-case Test1
+Comparing differences for Env Variables.cmdvar test-suite TargetApp
+  Comparing differences for Env Variables.cmdvar test-suite Suite1
+    Comparing differences for Env Variables.cmdvar test-case Test1 (on output.env)
+  Running Env Variables.cmdvar test-case Test2
+  Comparing differences for Env Variables.cmdvar test-case Test2 - SUCCESS! (on output.env)

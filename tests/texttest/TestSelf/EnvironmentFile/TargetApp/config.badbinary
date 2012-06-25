@@ -1,0 +1,7 @@
+import_config_file:$STANDARD
+
+# Path to the executable. Call it "binary" to check for
+# back-compatibility
+binary:/non_existent_file.py
+
+default_interface:console

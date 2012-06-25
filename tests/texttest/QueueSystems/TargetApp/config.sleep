@@ -1,0 +1,15 @@
+# Path to the executable
+executable:${TEXTTEST_HOME}/sleep.py
+
+config_module:queuesystem
+
+default_interface:console
+
+[batch_use_collection]
+default:true
+
+[run_dependent_text]
+errors:locale
+
+[version_priority]
+extra_test:1

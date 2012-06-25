@@ -1,0 +1,8 @@
+wait for all tests to be read, test Basic to start
+set test selection to Basic2
+kill selected tests
+wait for test Basic2 to complete
+set test selection to Basic
+kill selected tests
+wait for test Basic to complete, test Basic3 to start
+quit

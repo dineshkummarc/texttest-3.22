@@ -1,0 +1,22 @@
+Using Application SLEEP
+Using Application SLEEP, version extra
+Running SLEEP test-suite TargetApp
+  Running SLEEP test-suite Suite1
+    Running SLEEP test-case Basic
+
+Expected application event 'all tests to be read' occurred, proceeding.
+Expected application event 'test Basic version <default> to start' occurred, proceeding.
+
+Generating signal SIGINT
+Terminating testing due to external interruption
+Killing running test (process id 9543)
+Comparing differences for SLEEP test-suite TargetApp
+  Comparing differences for SLEEP test-suite Suite1
+    Comparing differences for SLEEP test-case Basic (on errors.sleep,output.sleep)
+    SLEEP test-case Basic were terminated before completion (INTERRUPT) : differences in output
+    View details(v), Save(s) or continue(any other key)?
+    SLEEP test-case Basic2 not compared:  Test run was cancelled before it had started
+    SLEEP test-case Basic3 not compared:  Test run was cancelled before it had started
+    SLEEP.extra test-case Basic not compared:  Test run was cancelled before it had started
+    SLEEP.extra test-case Basic2 not compared:  Test run was cancelled before it had started
+    SLEEP.extra test-case Basic3 not compared:  Test run was cancelled before it had started

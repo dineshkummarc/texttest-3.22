@@ -1,0 +1,8 @@
+wait for all tests to be read
+set test selection to S02
+set file selection to output.dip
+view actions for file output.dip
+rename selected file
+enter new name for file = input.dip
+press ok
+quit

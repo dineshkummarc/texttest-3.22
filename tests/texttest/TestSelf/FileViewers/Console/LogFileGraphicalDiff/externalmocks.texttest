@@ -1,0 +1,2 @@
+<-CMD:tkdiff /carm/proj/texttest-tmp/geoff/texttest.16Jun105412.25889/texttest/TestSelf/FileViewers/Console/LogFileGraphicalDiff/texttesttmp/console.16Jun105418.2913/hello/Test/framework_tmp/output.helloorigcmp /carm/proj/texttest-tmp/geoff/texttest.16Jun105412.25889/texttest/TestSelf/FileViewers/Console/LogFileGraphicalDiff/texttesttmp/console.16Jun105418.2913/hello/Test/framework_tmp/output.hellocmp
+->EXC:-15

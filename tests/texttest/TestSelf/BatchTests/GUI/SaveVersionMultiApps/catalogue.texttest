@@ -1,0 +1,36 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------BothDiff
+------------errors.hello.batch.1
+------------output.hello.batch.1
+----repository
+--------hello
+------------batch.1
+----------------BothDiff
+--------------------teststate_11Feb2009
+------------batch.2
+----------------BothDiff
+--------------------teststate_11Feb2009
+----texttesttmp
+--------self_test.batch.1++batch.2.11Feb180848.11690
+------------hello.batch.1
+----------------BothDiff
+--------------------errors.hello
+--------------------output.hello
+--------------------framework_tmp
+------------------------errors.hellocmp
+------------------------errors.helloorigcmp
+------------------------output.hellocmp
+------------------------output.helloorigcmp
+------------------------teststate
+------------hello.batch.2
+----------------BothDiff
+--------------------errors.hello
+--------------------output.hello
+--------------------framework_tmp
+------------------------errors.hellocmp
+------------------------errors.helloorigcmp
+------------------------output.hellocmp
+------------------------output.helloorigcmp
+------------------------teststate

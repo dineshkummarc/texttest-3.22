@@ -1,0 +1,11 @@
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.03Jul110252.5893/texttest/TestSelf/CollateFiles/UnixCoreFiles/Integration/GUI/InteractiveCrash/texttesttmp/dynamic_gui.03Jul110302.19896/core/DumpCore; interpretcore /carm/proj/texttest-tmp/geoff/texttest.03Jul110252.5893/texttest/TestSelf/CollateFiles/UnixCoreFiles/Integration/GUI/InteractiveCrash/texttesttmp/dynamic_gui.03Jul110302.19896/core/DumpCore/core
+->OUT:Segmentation fault in ___newselect_nocancel
+-------------------------------------------
+Program terminated with signal 11, Segmentation fault.
+(Core file at /carm/proj/texttest-tmp/geoff/texttest.11Dec180717/texttest/TestSelf/CollateFiles/UnixOnly/GUI/InteractiveCrash/texttesttmp/dynamic_gui.11Dec180741/core/DumpCore/core)
+(Created by binary /bin/grep)
+Stack trace from gdb :
+___newselect_nocancel 
+inittime_the_fake_version 
+?? 
+?? 

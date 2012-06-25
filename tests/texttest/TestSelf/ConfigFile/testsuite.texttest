@@ -1,0 +1,29 @@
+# Check for correct resets of default format in config file
+ConfigFileReset
+
+# Check we can define subdirectories as tests, and refer to files in the base
+MultipleSubDirs
+
+# Don't load more than one app with the same name
+MultipleAppsSameName
+
+# Make sure we can set TEXTTEST_PATH and read applications from many sources
+MultipleRootDirs
+
+# Make sure we can do everything we need to do importing config files, i.e. read from different directories, get priority right etc.
+ImportConfigFiles
+
+# Make sure versioned config files are picked up from extra search directories
+VersionedFileInExtraDir
+
+# Config files should be able to import each other indefinitely
+IndirectImport
+
+# Check that {CLEAR name} works in the config file
+ClearSingleItems
+
+# Check we can import config files under any root in TEXTTEST_PATH
+MultipleRootImportConfig
+
+# Make sure we can override config file settings in tests
+ConfigFileInTest

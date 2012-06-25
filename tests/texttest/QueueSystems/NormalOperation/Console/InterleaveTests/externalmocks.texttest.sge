@@ -1,0 +1,18 @@
+<-SRV:TextTest slave server started on 10.67.7.71:47194
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/NormalOperation/Console/InterleaveTests/texttesttmp/console.01Mar115127.26112/slavelogs; qsub -N Test-Test-HELLO -l no_such_resource -w e -notify -m n -cwd -b y -V -o Test-Test-HELLO.log -e Test-Test-HELLO.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/NormalOperation/Console/InterleaveTests/TargetApp -a hello -l -tp 'Test' -slave /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/NormalOperation/Console/InterleaveTests/texttesttmp/console.01Mar115127.26112 -servaddr 10.67.7.71:45982""
+->ERR:Unable to run job: unknown resource "no_such_resource".
+Exiting.
+->EXC:1
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/NormalOperation/Console/InterleaveTests/texttesttmp/console.01Mar115127.26112/slavelogs; qsub -N Test-Test-HELLO2 -l no_such_resource -w e -notify -m n -cwd -b y -V -o Test-Test-HELLO2.log -e Test-Test-HELLO2.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/NormalOperation/Console/InterleaveTests/TargetApp -a hello2 -l -tp 'Test' -slave /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/NormalOperation/Console/InterleaveTests/texttesttmp/console.01Mar115127.26112 -servaddr 10.67.7.71:45982""
+->ERR:Unable to run job: unknown resource "no_such_resource".
+Exiting.
+->EXC:1
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/NormalOperation/Console/InterleaveTests/texttesttmp/console.01Mar115127.26112/slavelogs; qsub -N Test-Test_copy-HELLO2 -l no_such_resource -w e -notify -m n -cwd -b y -V -o Test-Test_copy-HELLO2.log -e Test-Test_copy-HELLO2.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/NormalOperation/Console/InterleaveTests/TargetApp -a hello2 -l -tp 'Test_copy' -slave /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/NormalOperation/Console/InterleaveTests/texttesttmp/console.01Mar115127.26112 -servaddr 10.67.7.71:45982""
+->ERR:Unable to run job: unknown resource "no_such_resource".
+Exiting.
+->EXC:1
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/NormalOperation/Console/InterleaveTests/texttesttmp/console.01Mar115127.26112/slavelogs; qsub -N Test-Test_copy-HELLO -l no_such_resource -w e -notify -m n -cwd -b y -V -o Test-Test_copy-HELLO.log -e Test-Test_copy-HELLO.errors "exec $SHELL -c "exec /users/geoff/work/master/Testing/TextTest/bin/texttest.py -d /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/NormalOperation/Console/InterleaveTests/TargetApp -a hello -l -tp 'Test_copy' -slave /carm/proj/texttest-tmp/geoff/texttest.01Mar115050.19486/texttest.sge/QueueSystems/NormalOperation/Console/InterleaveTests/texttesttmp/console.01Mar115127.26112 -servaddr 10.67.7.71:45982""
+->ERR:Unable to run job: unknown resource "no_such_resource".
+Exiting.
+->EXC:1
+<-SRV:Completed submission of all tests

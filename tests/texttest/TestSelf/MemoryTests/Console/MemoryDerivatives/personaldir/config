@@ -1,0 +1,3 @@
+# String to look for to check for memory
+[performance_logfile_extractor]
+othermemvalue:usage now

@@ -1,0 +1,20 @@
+# S01.99's comment
+S01.99
+A01
+S02
+
+# Comment for A02
+A02
+
+# Additional comment for renamed test
+S03_copy
+
+# Extra comment without a test , to make sure it doesn't 
+# get thrown away. See also bugzilla 13073.
+
+# A03 description
+A03
+S04
+A04
+S05
+A05

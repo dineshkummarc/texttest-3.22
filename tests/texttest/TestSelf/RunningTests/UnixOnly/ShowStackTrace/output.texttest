@@ -1,0 +1,12 @@
+Using Application SLEEP
+Running SLEEP test-suite TargetApp
+  Running SLEEP test-suite Suite1
+    Running SLEEP test-case Basic
+
+Expected application event 'all tests to be read' occurred, proceeding.
+Expected application event 'test Basic to start' occurred, proceeding.
+
+Generating signal SIGQUIT
+Comparing differences for SLEEP test-suite TargetApp
+  Comparing differences for SLEEP test-suite Suite1
+    Comparing differences for SLEEP test-case Basic - SUCCESS! (on errors.sleep,output.sleep)

@@ -1,0 +1,4 @@
+wait for all tests to be read
+set test selection to t1 under suite2
+refresh the whole test suite so that it reflects file changes
+quit

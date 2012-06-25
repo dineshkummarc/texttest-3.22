@@ -1,0 +1,5 @@
+# Make sure we can get hold of files written remotely by the SUT
+CollateFiles
+
+# Make sure discarding files is done after we get them, not before...
+DiscardFile

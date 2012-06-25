@@ -1,0 +1,51 @@
+<-PYT:import smtplib
+<-PYT:smtplib.SMTP()
+->RET:Instance('SMTP', 'smtp1')
+<-PYT:smtp1.connect('localhost')
+->RET:(220, 'gewoia.jeppesensystems.com ESMTP Sendmail 8.13.8/8.13.8; Tue, 12 Oct 2010 15:25:37 +0200')
+<-PYT:smtp1.sendmail('fakeuser', ['tom', 'dick', 'harry'], '''From: fakeuser
+To: tom,dick,harry
+Subject: 13Oct2010 HELLO : 4 tests : 3 FAILED
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests FAILED : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case OutDiff  : output different
+  - HELLO test-case BothDiff : errors different(+)
+  In HELLO test-suite suite:
+    - HELLO test-case OutDiff2 : output different
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that FAILED follows...
+--------------------------------------------------------
+2 TESTS FAILED on kilimanjaro :
+---------- Differences in output ----------
+0a1
+> Hello World!
+
+-- HELLO test-case OutDiff (under OutDiff)
+-- HELLO test-case OutDiff2 (under suite/OutDiff2)
+--------------------------------------------------------
+TEST FAILED on kilimanjaro : HELLO test-case BothDiff (under BothDiff)
+---------- Differences in errors ----------
+0a1
+> Error text
+---------- Differences in output ----------
+0a1
+> Hello World!
+
+Summary of all Successful tests follows...
+---------------------------------------------------------------------------------
+The following tests succeeded : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Success
+
+
+''')
+->RET:raise Instance('SMTPSenderRefused(SMTPResponseException, SMTPException, exceptions.Exception)', 'smtpsenderrefused1')
+<-PYT:smtpsenderrefused1.__str__()
+->RET:"(553, '5.5.4 <fakeuser>... Domain name required for sender address fakeuser', 'fakeuser')"

@@ -1,0 +1,495 @@
+
+---------- Window 'HELLO tests (started at 09Jun14:03:39) - TextTest dynamic GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+  _Kill (Stock image 'gtk-stop', greyed out, accelerator 'Ctrl+Delete', tooltip 'Kill selected tests')
+  _Save (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S', tooltip 'Save results for selected tests')
+  Progress bar set to fraction 0.0, text '0 of 6 tests completed'
+...........
+
+Showing Test Tree with columns: Tests: 0/6 selected, all hidden , Details
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 6 (white,bold) | Check box (checked)
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Jun14:03:40.' , Image 'throbber_inactive.png'
+--------------------------------------------------------------------------------------------
+
+Updated : Test Tree with columns: Tests: 0/6 selected, 5 hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, 4 hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Base (black/white) | (white)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, 3 hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Base (black/white) | (white)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, 2 hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Base (black/white) | (white)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra1 (black/white) | (white)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, 1 hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Base (black/white) | (white)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra1 (black/white) | (white)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Base (black/white) | (white)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra1 (black/white) | (white)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Common (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Base (black/white) | (white)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra1 (black/white) | (white)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 5 (white,bold) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Common (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Base (black/white) | (white)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra1 (black/white) | (white)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 5 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Common (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Base (black/white) | (white)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra1 (black/white) | (white)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 5 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Progress bar set to fraction 0.166666666667, text '1 of 6 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Common (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   Base (black/white) | (white)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra1 (black/white) | (white)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 5 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Common (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   Base (black/LightGoldenrod1) | (LightGoldenrod1)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra1 (black/white) | (white)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 4 (white,bold) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Common (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   Base (black/LightGoldenrod1) | (LightGoldenrod1)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra1 (black/white) | (white)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 4 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Common (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   Base (black/LightGoldenrod1) | (LightGoldenrod1)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra1 (black/white) | (white)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 4 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 1 (DarkSeaGreen2,bold) | Check box (checked)
+
+Progress bar set to fraction 0.333333333333, text '2 of 6 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra1 (black/white) | (white)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 4 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 2 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Extra1 (black/white) | (white)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 2 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Extra1 (black/white) | (white)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 2 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Extra1 (black/white) | (white)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 2 (DarkSeaGreen2,bold) | Check box (checked)
+
+Progress bar set to fraction 0.5, text '3 of 6 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   Extra1 (black/white) | (white)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 3 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   Extra1 (black/LightGoldenrod1) | (LightGoldenrod1)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 3 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   Extra1 (black/LightGoldenrod1) | (LightGoldenrod1)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 3 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra1) (black/white,bold) | (white)
+->   Common (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   Extra1 (black/LightGoldenrod1) | (LightGoldenrod1)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 3 (DarkSeaGreen2,bold) | Check box (checked)
+
+Progress bar set to fraction 0.666666666667, text '4 of 6 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra1) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/white) | (white)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 4 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra1) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 4 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra1) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 4 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra1) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/LightGoldenrod1) | (LightGoldenrod1)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 4 (DarkSeaGreen2,bold) | Check box (checked)
+
+Progress bar set to fraction 0.833333333333, text '5 of 6 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra1) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   Extra2 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 5 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra1) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   Extra2 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 5 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra1) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   Extra2 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 5 (DarkSeaGreen2,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra1) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra2) (black/white,bold) | (white)
+->   Common (black/DarkSeaGreen2) | (DarkSeaGreen2)
+->   Extra2 (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 5 (DarkSeaGreen2,bold) | Check box (checked)
+
+Progress bar set to fraction 1.0, text 'All 6 tests completed at 09Jun14:03:41'
+
+Updated : Test Tree with columns: Tests: 0/6 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra1) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+-> TargetApp (hello.extra2) (black/white,bold) | All 2 tests successful (DarkSeaGreen2)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Succeeded (DarkSeaGreen2,bold) | 6 (DarkSeaGreen2,bold) | Check box (checked)
+
+Expected application event 'completion of test actions' occurred, proceeding.
+
+'view options for' event created with arguments 'Run Info'
+
+Current page changed in Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Run Info'
+...........
+
+========== Run Info ==========
+Application name : HELLO
+Version          : 
+Number of tests  : 2
+Executable       : /carm/proj/texttest-tmp/geoff/dynamic_gui.09Jun140245.14502/texttest.gui/TestSelf/ExtraVersions/GUI/RunInfo/TargetApp/hello.py
+
+Application name : HELLO
+Version          : extra1
+Number of tests  : 2
+Executable       : /carm/proj/texttest-tmp/geoff/dynamic_gui.09Jun140245.14502/texttest.gui/TestSelf/ExtraVersions/GUI/RunInfo/TargetApp/hello.py
+
+Application name : HELLO
+Version          : extra2
+Number of tests  : 2
+Executable       : /carm/proj/texttest-tmp/geoff/dynamic_gui.09Jun140245.14502/texttest.gui/TestSelf/ExtraVersions/GUI/RunInfo/TargetApp/hello.py
+
+Command line     : /users/geoff/work/master/Testing/TextTest/bin/texttest.py -g -a hello,hello.extra1,hello.extra2 -m localhost -cp 1 -xr /carm/proj/texttest-tmp/geoff/dynamic_gui.09Jun140245.14502/texttest.gui/TestSelf/ExtraVersions/GUI/RunInfo/log/logging.debug -xw /carm/proj/texttest-tmp/geoff/dynamic_gui.09Jun140245.14502/texttest.gui/TestSelf/ExtraVersions/GUI/RunInfo/log -vanilla site -count 6 -f /carm/proj/texttest-tmp/geoff/dynamic_gui.09Jun140245.14502/texttest.gui/TestSelf/ExtraVersions/GUI/RunInfo/texttesttmp/static_gui.09Jun140338.25980/dynamic_run1/gui_select -fd /carm/proj/texttest-tmp/geoff/dynamic_gui.09Jun140245.14502/texttest.gui/TestSelf/ExtraVersions/GUI/RunInfo/texttesttmp/static_gui.09Jun140338.25980/temporary_filter_files
+
+Start time       : 09Jun14:03:39
+End time         : 09Jun14:03:41
+==============================
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Test Run Info ==========
+Selected test  : none
+===================================
+
+'quit' event created with arguments ''

@@ -1,0 +1,10 @@
+WARNING: Could not parse config line crap
+WARNING: Config entry name 'full_name' incorrectly used as a section marker.
+WARNING: Config entry name 'my_version' in section 'version_priority' given an invalid value 'not_a_number', ignoring.
+WARNING: Config entry name 'no_such_entry' not recognised.
+WARNING: Config section name 'no_such_section' not recognised.
+WARNING: Config entry name 'crap' not recognised.
+WARNING: Config entry name 'collate_file' is only valid as a section marker.
+WARNING: Config entry name 'executable' found in section 'run_dependent_text', but defined at global scope. Did you forget an [end] marker?
+Rejected Application HELLO, version a - no tests matching the selection criteria found.
+Rejected Application HELLO, version b - no tests matching the selection criteria found.

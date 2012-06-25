@@ -1,0 +1,5 @@
+[Migrated section 1]
+search_string:after [0-9]* seconds
+search_file:output
+bug_system:bugzillav2
+bug_id:42

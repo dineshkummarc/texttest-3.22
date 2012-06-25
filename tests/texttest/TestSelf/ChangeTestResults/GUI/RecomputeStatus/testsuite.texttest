@@ -1,0 +1,42 @@
+# Check that when one version is saved the other takes account of it
+SaveOtherVersion
+
+# Check it still works if refreshing hides the test
+SaveAndHide
+
+# Make sure we can recompute the status of multiple tests at once
+MultipleTests
+
+# Check that recomputation works when tests have missing files
+MissingFiles
+
+# Make sure we can recompute marked tests correctly
+MarkedTest
+
+# Check that we can update which file to compare against
+SaveVersionNewFiles
+
+# Make sure that if we change standard file, we make sure we recompute the filtering of the original file
+RefilterComparison
+
+# Check the refresh icon is still there if the test is selected and deselected
+IconRemains
+
+# If we add filterings etc. that should be reflected when we recompute
+ConfigFileChanges
+
+# If we add filterings etc. that should be reflected when we recompute, also if the config file is under a test
+TestConfigChanges
+
+# If we add filterings etc. that should be reflected when we recompute. Cover the case when the app config is
+# changed and there exists a test config
+TestConfigAppChanges
+
+# If tests are called 'config', don't get confused...
+TestNamedConfig
+
+# Check we can revert a save by changing the file and recomputing
+SaveToFailed
+
+# If a green test becomes red and vice versa, don't collapse the suite
+TestsSwapStatus

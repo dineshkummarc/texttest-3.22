@@ -1,0 +1,17 @@
+[general]
+server_multithreaded = False
+
+[command line]
+intercepts = async_program,foo,bar,versioned
+environment = DEFAULTVAR
+
+[async_program]
+asynchronous = True
+
+[foo]
+environment = FOOVAR
+
+[python]
+intercepts = baz,baz2
+ignore_callers = badcaller,badcaller2
+

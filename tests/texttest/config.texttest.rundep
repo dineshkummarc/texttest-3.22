@@ -1,0 +1,8 @@
+executable:$TEXTTEST_CHECKOUT/lib/default/rundependent.py
+
+create_catalogues:false
+
+copy_test_path:{CLEAR LIST}
+partial_copy_test_path:{CLEAR LIST}
+link_test_path:{CLEAR LIST}
+link_test_path:log

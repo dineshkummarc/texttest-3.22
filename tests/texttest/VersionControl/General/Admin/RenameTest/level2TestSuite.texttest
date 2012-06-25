@@ -1,0 +1,5 @@
+# In a subsuite - other tests not added in CVS
+Test3
+
+# Not in version control
+TestNoVCS

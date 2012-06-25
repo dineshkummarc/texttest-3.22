@@ -1,0 +1,37 @@
+Using Application HELLO
+Using Application HELLO, version extra1
+Using Application HELLO, version extra2
+Using Application HELLO, version batch_extra1
+Using Application HELLO, version batch_extra2
+Running HELLO test-suite TargetApp
+  Running HELLO test-case Common
+Comparing differences for HELLO test-suite TargetApp
+  Comparing differences for HELLO test-case Common - SUCCESS! (on errors.hello,output.hello)
+  Running HELLO test-case Base
+  Comparing differences for HELLO test-case Base - SUCCESS! (on errors.hello,output.hello)
+Running HELLO.extra1 test-suite TargetApp
+  Running HELLO.extra1 test-case Common
+Comparing differences for HELLO.extra1 test-suite TargetApp
+  Comparing differences for HELLO.extra1 test-case Common - SUCCESS! (on errors.hello,output.hello)
+  Running HELLO.extra1 test-case Extra1
+  Comparing differences for HELLO.extra1 test-case Extra1 - SUCCESS! (on errors.hello,output.hello.extra1)
+Running HELLO.extra2 test-suite TargetApp
+  Running HELLO.extra2 test-case Common
+Comparing differences for HELLO.extra2 test-suite TargetApp
+  Comparing differences for HELLO.extra2 test-case Common - SUCCESS! (on errors.hello,output.hello)
+  Running HELLO.extra2 test-case Extra2
+  Comparing differences for HELLO.extra2 test-case Extra2 - SUCCESS! (on errors.hello,output.hello)
+Running HELLO.batch_extra1 test-suite TargetApp
+  Running HELLO.batch_extra1 test-case Common
+Comparing differences for HELLO.batch_extra1 test-suite TargetApp
+  Comparing differences for HELLO.batch_extra1 test-case Common - SUCCESS! (on errors.hello,output.hello)
+  Running HELLO.batch_extra1 test-case Base
+  Comparing differences for HELLO.batch_extra1 test-case Base - SUCCESS! (on errors.hello,output.hello)
+Running HELLO.batch_extra2 test-suite TargetApp
+  Running HELLO.batch_extra2 test-case Common
+Comparing differences for HELLO.batch_extra2 test-suite TargetApp
+  Comparing differences for HELLO.batch_extra2 test-case Common - SUCCESS! (on errors.hello,output.hello)
+  Running HELLO.batch_extra2 test-case Base
+  Comparing differences for HELLO.batch_extra2 test-case Base - SUCCESS! (on errors.hello,output.hello)
+Creating batch report for application HELLO ...
+done.

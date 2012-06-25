@@ -1,0 +1,5 @@
+# Check we can get a quick overview of the filtered file from the static GUI
+TestFiltering
+
+# Check we can get a quick overview of a file not defined in run_dependent_text
+TestFiltering_no_dependent_text

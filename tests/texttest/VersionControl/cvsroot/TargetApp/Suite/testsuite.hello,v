@@ -1,0 +1,41 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  othertag:1.1.1.1 tag:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2009.02.19.20.26.26;  author geoff;  state Exp;
+branches 1.1.1.1;
+next     ;
+commitid        rWzEIC5JwaIek5Dt;
+
+1.1.1.1
+date     2009.02.19.20.26.26;  author geoff;  state Exp;
+branches ;
+next     ;
+commitid        rWzEIC5JwaIek5Dt;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@Subsuite
+@
+
+
+1.1.1.1
+log
+@Initial import
+@
+text
+@@

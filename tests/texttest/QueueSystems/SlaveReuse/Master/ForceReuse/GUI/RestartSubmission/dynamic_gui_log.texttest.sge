@@ -1,0 +1,141 @@
+
+---------- Window 'HELLO tests under /carm/proj/texttest-tmp/geoff/texttest.sge.gui.18Aug143726.7103/texttest.sge.gui/QueueSystems/SlaveReuse/Master/ForceReuse/GUI/RestartSubmission/TargetApp/ (started at 18Aug14:37:34) - TextTest dynamic GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+  _Kill (Stock image 'gtk-stop', greyed out, accelerator 'Ctrl+Delete', tooltip 'Kill selected tests')
+  _Save (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S', tooltip 'Save results for selected tests')
+  Progress bar set to fraction 0.0, text 'All 0 tests completed at 18Aug14:37:37'
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected , Details
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 18Aug14:37:37.' , Image 'throbber_inactive.png'
+----------------------------------------------------------------------------------------------------
+
+Progress bar set to fraction 0.0, text '0 of 1 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test (black/grey80) | PEND (grey80)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Pending (grey80,bold) | 1 (grey80,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test (black/LightGoldenrod1) | RUN (juliaca) (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Pending (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Expected application event 'all tests to be read' occurred, proceeding.
+Expected application event 'test Test to start' occurred, proceeding.
+
+'set test selection to' event created with arguments 'Test'
+
+No longer greyed out : _Kill
+
+Changed selection in Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test (black/LightGoldenrod1) | RUN (juliaca) (LightGoldenrod1)   ***
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: Test , Details
+-> Temporary Files
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+Running on juliaca
+
+To obtain the latest progress information and an up-to-date comparison of the files above, perform 'recompute status' (press 'F5')
+===============================
+
+'kill selected tests' event created with arguments ''
+
+Changing GUI status to: 'Killing 1 tests ...'
+
+Waiting for application event 'completion of test actions' to occur.
+
+Changing GUI status to: 'Performed 'Kill selected tests' on test Test.'
+
+Updated : Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test (black/LightGoldenrod1) | RUN (juliaca) (LightGoldenrod1)   ***
+
+Updated : File Tree with columns: Test , Details
+-> Temporary Files
+
+========== Text Info ==========
+Running on juliaca
+
+To obtain the latest progress information and an up-to-date comparison of the files above, perform 'recompute status' (press 'F5')
+===============================
+
+Greyed out : _Kill
+No longer greyed out : _Save
+
+Progress bar set to fraction 1.0, text 'All 1 tests completed at 18Aug14:37:42'
+
+Updated : Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test (black/salmon) | KILLED (salmon)   ***
+
+Updated : File Tree with columns: Test , Details
+-> Comparison Files (bold)
+->   errors.hello (salmon) | (salmon)
+->   output.hello (salmon) | (salmon)
+
+========== Text Info ==========
+Test were terminated before completion (KILLED) on juliaca :
+Test killed explicitly at 11:41
+---------- Differences in errors ----------
+0a1,4
+> Traceback (most recent call last):
+>   File "/carm/proj/texttest-tmp/geoff/texttest.sge.29May114128.809/texttest.sge/QueueSystems/SlaveReuse/Master/ForceReuse/GUI/RestartSubmission/TargetApp/hello.py", line 4, in ?
+>     sleep(10)
+> KeyboardInterrupt
+---------- Differences in output ----------
+1d0
+< Hello
+===============================
+
+Changed selection in Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (hello) (black/white,bold) | (white)
+->   Test (black/salmon) | KILLED (salmon)   ***
+
+Updated : File Tree with columns: Test , Details
+-> Comparison Files (bold)
+->   errors.hello (salmon) | (salmon)
+->   output.hello (salmon) | (salmon)
+
+Expected application event 'completion of test actions' occurred, proceeding.
+
+'quit' event created with arguments ''

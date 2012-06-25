@@ -1,0 +1,12 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------BothDiff
+------------newout.hello
+----texttesttmp
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------BothDiff
+------------output.hello

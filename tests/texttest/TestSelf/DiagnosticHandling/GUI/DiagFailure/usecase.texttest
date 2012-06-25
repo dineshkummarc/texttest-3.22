@@ -1,0 +1,7 @@
+wait for completion of test actions
+set file selection to third.diag
+save results with non-default settings
+enter version to save = tmp
+press ok
+save results for selected tests
+quit

@@ -1,0 +1,18 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------junitformat.22Feb210135.10521
+------------batchreport.hello
+------------hello
+----------------Test
+--------------------errors.hello
+--------------------output.hello
+--------------------framework_tmp
+------------------------errors.hellocmp
+------------------------errors.helloorigcmp
+------------------------output.hellocmp
+------------------------output.helloorigcmp
+------------------------teststate
+------------junitreport
+----------------hello
+--------------------Test.xml

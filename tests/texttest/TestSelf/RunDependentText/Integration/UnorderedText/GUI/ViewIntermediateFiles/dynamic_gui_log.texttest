@@ -1,0 +1,310 @@
+
+---------- Window 'RDT tests (started at 02Aug16:32:28) - TextTest dynamic GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+  _Kill (Stock image 'gtk-stop', greyed out, accelerator 'Ctrl+Delete', tooltip 'Kill selected tests')
+  _Save (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S', tooltip 'Save results for selected tests')
+  Progress bar set to fraction 0.0, text 'All 0 tests completed at 02Aug16:32:30'
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected , Details
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 02Aug16:32:30.' , Image 'throbber_inactive.png'
+------------------------------------------------------------------------------------------
+
+Progress bar set to fraction 0.0, text '0 of 1 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (rdt) (black/white,bold) | (white)
+->   Test (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (rdt) (black/white,bold) | (white)
+->   Test (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (rdt) (black/white,bold) | (white)
+->   Test (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (rdt) (black/white,bold) | (white)
+->   Test (black/LightGoldenrod1) | (LightGoldenrod1)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (LightGoldenrod1,bold) | 1 (LightGoldenrod1,bold) | Check box (checked)
+
+Progress bar set to fraction 1.0, text 'All 1 tests completed at 02Aug16:32:31'
+
+Updated : Test Tree with columns: Tests: 0/1 selected, none hidden , Details
+-> TargetApp (rdt) (black/white,bold) | (white)
+->   Test (black/salmon) | output different (salmon)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Initial filter (white) | 0 (white) | Check box (checked)
+-> Running (white) | 0 (white) | Check box (checked)
+-> Final filter (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+No longer greyed out : _Save
+
+Changed selection in Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (rdt) (black/white,bold) | (white)
+->   Test (black/salmon) | output different (salmon)   ***
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: Test , Details
+-> Comparison Files (bold)
+->   errors.rdt (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.rdt (salmon) | (salmon)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+Test FAILED :
+---------- Differences in output ----------
+2d1
+< Extra stuff
+===============================
+
+Expected application event 'completion of test actions' occurred, proceeding.
+
+'set test selection to' event created with arguments 'Test'
+
+Changed selection in Test Tree with columns: Tests: All 1 selected, none hidden , Details
+-> TargetApp (rdt) (black/white,bold) | (white)
+->   Test (black/salmon) | output different (salmon)   ***
+
+'set file selection to' event created with arguments 'output.rdt'
+
+Changed selection in File Tree with columns: Test , Details
+-> Comparison Files (bold)
+->   errors.rdt (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.rdt (salmon) | (salmon)   ***
+
+'view actions for file' event created with arguments 'output.rdt'
+
+---------- Popup Window ----------
+'View File' (Stock image 'gtk-open', accelerator 'Ctrl+O')
+'View Content-Filtered File'
+'View Filtered File'
+  ----
+'View Original File'
+'View Content-Filtered Original File'
+'View Filtered Original File'
+  ----
+'View Differences'
+'View Content-Filtered Differences'
+'View Raw Differences'
+  ----
+'View Differences (between tests)' (greyed out)
+'View Content-Filtered Differences (between tests)' (greyed out)
+'View Raw Differences (between tests)' (greyed out)
+  ----
+'Follow File Progress' (greyed out)
+  ----
+'_File Properties' (Stock image 'gtk-properties')
+'Copy Path To Clipboard'
+  ----
+'Select Tests With Same Diff'
+  ----
+'_Save' (Stock image 'gtk-save', accelerator 'Ctrl+S')
+'Save _As...' (Stock image 'gtk-save', accelerator 'Ctrl+Alt+S')
+----------------------------------
+
+'view content-filtered differences' event created with arguments ''
+
+Waiting for application event 'the graphical difference program to terminate' to occur.
+
+Changing GUI status to: 'Started "tkdiff output.rdtorigcmp.normal output.rdtcmp.normal" in background (from test Test).'
+
+Changed selection in File Tree with columns: Test , Details
+-> Comparison Files (bold)
+->   errors.rdt (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.rdt (salmon) | (salmon)
+
+Expected application event 'the graphical difference program to terminate' occurred, proceeding.
+
+'set file selection to' event created with arguments 'output.rdt'
+
+Changed selection in File Tree with columns: Test , Details
+-> Comparison Files (bold)
+->   errors.rdt (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.rdt (salmon) | (salmon)   ***
+
+'view actions for file' event created with arguments 'output.rdt'
+
+---------- Popup Window ----------
+'View File' (Stock image 'gtk-open', accelerator 'Ctrl+O')
+'View Content-Filtered File'
+'View Filtered File'
+  ----
+'View Original File'
+'View Content-Filtered Original File'
+'View Filtered Original File'
+  ----
+'View Differences'
+'View Content-Filtered Differences'
+'View Raw Differences'
+  ----
+'View Differences (between tests)' (greyed out)
+'View Content-Filtered Differences (between tests)' (greyed out)
+'View Raw Differences (between tests)' (greyed out)
+  ----
+'Follow File Progress' (greyed out)
+  ----
+'_File Properties' (Stock image 'gtk-properties')
+'Copy Path To Clipboard'
+  ----
+'Select Tests With Same Diff'
+  ----
+'_Save' (Stock image 'gtk-save', accelerator 'Ctrl+S')
+'Save _As...' (Stock image 'gtk-save', accelerator 'Ctrl+Alt+S')
+----------------------------------
+
+'view content-filtered file' event created with arguments ''
+
+Waiting for application event 'file editing operations to complete' to occur.
+
+Changing GUI status to: 'Started "emacs output.rdtcmp.normal" in background (from test Test).'
+
+Changed selection in File Tree with columns: Test , Details
+-> Comparison Files (bold)
+->   errors.rdt (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.rdt (salmon) | (salmon)
+
+Expected application event 'file editing operations to complete' occurred, proceeding.
+
+'set file selection to' event created with arguments 'output.rdt'
+
+Changed selection in File Tree with columns: Test , Details
+-> Comparison Files (bold)
+->   errors.rdt (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.rdt (salmon) | (salmon)   ***
+
+'view actions for file' event created with arguments 'output.rdt'
+
+---------- Popup Window ----------
+'View File' (Stock image 'gtk-open', accelerator 'Ctrl+O')
+'View Content-Filtered File'
+'View Filtered File'
+  ----
+'View Original File'
+'View Content-Filtered Original File'
+'View Filtered Original File'
+  ----
+'View Differences'
+'View Content-Filtered Differences'
+'View Raw Differences'
+  ----
+'View Differences (between tests)' (greyed out)
+'View Content-Filtered Differences (between tests)' (greyed out)
+'View Raw Differences (between tests)' (greyed out)
+  ----
+'Follow File Progress' (greyed out)
+  ----
+'_File Properties' (Stock image 'gtk-properties')
+'Copy Path To Clipboard'
+  ----
+'Select Tests With Same Diff'
+  ----
+'_Save' (Stock image 'gtk-save', accelerator 'Ctrl+S')
+'Save _As...' (Stock image 'gtk-save', accelerator 'Ctrl+Alt+S')
+----------------------------------
+
+'view content-filtered original file' event created with arguments ''
+
+Waiting for application event 'file editing operations to complete' to occur.
+
+Changing GUI status to: 'Started "emacs output.rdtorigcmp.normal" in background (from test Test).'
+
+Changed selection in File Tree with columns: Test , Details
+-> Comparison Files (bold)
+->   errors.rdt (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.rdt (salmon) | (salmon)
+
+Expected application event 'file editing operations to complete' occurred, proceeding.
+
+'view actions for file' event created with arguments 'errors.rdt'
+
+Changed selection in File Tree with columns: Test , Details
+-> Comparison Files (bold)
+->   errors.rdt (DarkSeaGreen2) | (DarkSeaGreen2)   ***
+->   output.rdt (salmon) | (salmon)
+
+---------- Popup Window ----------
+'View File' (Stock image 'gtk-open', accelerator 'Ctrl+O')
+'View Content-Filtered File' (greyed out)
+'View Filtered File'
+  ----
+'View Original File'
+'View Content-Filtered Original File' (greyed out)
+'View Filtered Original File'
+  ----
+'View Differences' (greyed out)
+'View Content-Filtered Differences' (greyed out)
+'View Raw Differences'
+  ----
+'View Differences (between tests)' (greyed out)
+'View Content-Filtered Differences (between tests)' (greyed out)
+'View Raw Differences (between tests)' (greyed out)
+  ----
+'Follow File Progress' (greyed out)
+  ----
+'_File Properties' (Stock image 'gtk-properties')
+'Copy Path To Clipboard'
+  ----
+'Select Tests With Same Diff' (greyed out)
+  ----
+'_Save' (Stock image 'gtk-save', accelerator 'Ctrl+S')
+'Save _As...' (Stock image 'gtk-save', accelerator 'Ctrl+Alt+S')
+----------------------------------
+
+'view original file' event created with arguments ''
+
+Waiting for application event 'file editing operations to complete' to occur.
+
+Changing GUI status to: 'Started "emacs errors.rdt" in background (from test Test).'
+
+Changed selection in File Tree with columns: Test , Details
+-> Comparison Files (bold)
+->   errors.rdt (DarkSeaGreen2) | (DarkSeaGreen2)
+->   output.rdt (salmon) | (salmon)
+
+Expected application event 'file editing operations to complete' occurred, proceeding.
+
+'quit' event created with arguments ''

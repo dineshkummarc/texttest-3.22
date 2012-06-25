@@ -1,0 +1,5 @@
+Using Application HELLO, version 4.2
+Running HELLO.4.2 test-suite TargetApp
+  Running HELLO.4.2 test-case Test
+Comparing differences for HELLO.4.2 test-suite TargetApp
+  Comparing differences for HELLO.4.2 test-case Test (on errors.hello,output.hello.2.4)

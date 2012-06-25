@@ -1,0 +1,6 @@
+wait for all tests to be read
+enter file extension to use for texttest files associated with this application = hello
+select gui-testing option named Eclipse RCP GUI with StoryText
+press define
+view options for Config
+quit

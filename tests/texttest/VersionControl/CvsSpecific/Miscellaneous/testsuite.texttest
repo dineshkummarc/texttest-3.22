@@ -1,0 +1,9 @@
+# These test only work in CVS
+# When CVSROOT is not set, use the CVS directories themselves
+NoCVSRoot
+
+# When CVSROOT is not set, use the CVS directories themselves
+CVSRootFromFile
+
+# Test the CVSLogLatest action
+CVSLogLatest

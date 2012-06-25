@@ -1,0 +1,18 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------console.absdata.30Apr164150.30803
+------------tdat.absdata
+----------------Test2
+--------------------errors.tdat
+--------------------output.tdat
+--------------------readonlyfile
+--------------------testdata.py
+--------------------framework_tmp
+------------------------catalogue.tdatorigcmp
+------------------------errors.tdatcmp
+------------------------errors.tdatorigcmp
+------------------------options.tdatorigcmp
+------------------------output.tdatcmp
+------------------------output.tdatorigcmp
+------------------------teststate

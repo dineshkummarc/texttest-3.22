@@ -1,0 +1,5 @@
+# Check the GUI terminates properly on getting SIGINT
+Dynamic
+
+# Check the static GUI terminates gracefully and doesn't write stack traces
+Static

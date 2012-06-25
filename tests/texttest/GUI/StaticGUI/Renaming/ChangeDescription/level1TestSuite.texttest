@@ -1,0 +1,20 @@
+# S01.99's comment
+S01.99
+
+# A new comment for test A01
+A01
+S02
+
+# A new comment for test A02
+A02
+S03
+
+# Extra comment without a test , to make sure it doesn't 
+# get thrown away. See also bugzilla 13073.
+
+# A new comment for test A03, which previously (?) had placeholders for empty lines. Still there?
+A03
+S04
+A04
+S05
+A05

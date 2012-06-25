@@ -1,0 +1,3 @@
+[run_dependent_text]
+# race condition
+dynamic_gui_log:\.hello \(LightGoldenrod1\) \| \(LightGoldenrod1\)

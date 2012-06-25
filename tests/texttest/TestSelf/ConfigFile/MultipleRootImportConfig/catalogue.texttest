@@ -1,0 +1,22 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------console.10Sep115813.1900
+------------hello
+----------------Test
+--------------------errors.hello
+--------------------output.hello
+--------------------framework_tmp
+------------------------errors.hellocmp
+------------------------errors.helloorigcmp
+------------------------output.hellocmp
+------------------------output.helloorigcmp
+------------------------teststate
+------------hello2
+----------------Test
+--------------------errors.hello2
+--------------------output.hello2
+--------------------framework_tmp
+------------------------errors.hello2cmp
+------------------------output.hello2cmp
+------------------------teststate

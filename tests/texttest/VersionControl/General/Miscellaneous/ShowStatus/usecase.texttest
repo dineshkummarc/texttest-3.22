@@ -1,0 +1,13 @@
+wait for all tests to be read
+set test selection to Test1
+version control status for the selected files
+show version control annotations
+close annotate window
+show version control differences
+close difference window
+close status window
+set test selection to Test2
+set file selection to output.hello
+version control status for the selected files
+close status window
+quit

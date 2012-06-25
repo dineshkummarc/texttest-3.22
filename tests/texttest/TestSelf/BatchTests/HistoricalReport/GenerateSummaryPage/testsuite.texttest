@@ -1,0 +1,20 @@
+# Check we can build a summary page based on an existing report
+Basic
+
+# Check we can build a summary page based on an existing report
+BasicWithPie
+
+# Check we don't crash on trying to build piecharts without matplotlib installed
+PieNoMatplotlib
+
+# Provide a template, set the sort order in it
+TemplateSortOrder
+
+# Check we pick up versions with underscores in their names
+UnderscoresInVersions
+
+# Build a page with a different name and link to different base paths
+ChangePaths
+
+# If we have non-standard performance files they should sort under performance
+NonStandardPerformance

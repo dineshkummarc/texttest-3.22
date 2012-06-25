@@ -1,0 +1,23 @@
+# Useful default test program
+executable:${TEXTTEST_ROOT}/hello.py
+
+# don't spew graphical viewers from console runs
+# unless requested
+log_file:none
+
+# get filter files everywhere, can be useful
+home_operating_system:none
+
+# But then need to make sure we don't get offered these as versions...
+unsaveable_version:posix
+unsaveable_version:nt
+
+# Even on Windows, for consistency!
+view_program:emacs
+
+# Bug in GTK2.10, ignore
+suppress_stderr_text:IA__g_object_remove_toggle_ref: couldn't find toggle ref{LINES 2}
+suppress_stderr_text:^$
+suppress_stderr_text:DeprecationWarning{LINES 2}
+
+

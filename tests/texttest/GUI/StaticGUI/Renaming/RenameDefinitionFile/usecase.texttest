@@ -1,0 +1,9 @@
+wait for all tests to be read
+set test selection to Test
+set file selection to options.hello
+view actions for file options.hello
+rename selected file
+enter new name for file = foobar.hello
+press ok
+answer yes to texttest confirmation
+quit

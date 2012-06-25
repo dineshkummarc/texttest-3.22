@@ -1,0 +1,18 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------static_gui.gui.07Aug112058.7565
+------------dynamic_run1
+----------------errors.log
+----------------gui_select
+----------------output.log
+------------dynamic_run2
+----------------errors.log
+----------------output.log
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------AddMovie
+------------output.gui
+------------usecase.gui

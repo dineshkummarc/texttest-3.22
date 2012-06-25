@@ -1,0 +1,13 @@
+TextTest will write diagnostics in /users/geoff/texttesttmp/texttest.07Nov150842/TestSelf/PerformanceTests/GUI/RegisterFailureLogfile based on file at /users/geoff/work/master/Testing/Automatic/texttest/log4py.conf
+Using Application PERF, version logfile
+Running PERF test-suite TargetApp
+  Running PERF test-case Success               
+Comparing differences for PERF test-suite TargetApp
+  Comparing differences for PERF test-case Success                - SUCCESS! (on errors.perf,logperf.perf.logfile,output.perf)
+  Running PERF test-case Failures              
+  Comparing differences for PERF test-case Failures               (on errors.perf,logperf.perf.logfile,output.perf)
+  Running PERF test-case FailuresCurrBelowLimit
+  Comparing differences for PERF test-case FailuresCurrBelowLimit (on errors.perf,logperf.perf.logfile,output.perf)
+  Running PERF test-case FailuresNewBelowLimit 
+  Comparing differences for PERF test-case FailuresNewBelowLimit  (on errors.perf,logperf.perf.logfile,output.perf)
+Killed process 29711 with signal 2

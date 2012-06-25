@@ -1,0 +1,32 @@
+# Full path to the System Under Test
+executable:/carm/proj/texttest-tmp/geoff/texttest.gui.10Nov212850.9137/texttest.gui/GUI/StaticGUI/AddingApps/FromScratch/UseStoryTextGtk/TargetApp/hello.py
+
+# Naming scheme to use for files for stdin,stdout and stderr
+filename_convention_scheme:standard
+
+# Mode for Use-case recording (GUI, console or disabled)
+use_case_record_mode:GUI
+
+# How long in seconds to wait between each GUI action
+slow_motion_replay_speed:3.0
+
+# Which Use-case recorder is being used
+use_case_recorder:storytext
+
+# Program to use as interpreter for the SUT
+interpreter:storytext
+
+## XDG_CONFIG_HOME points to user's ~/.config directory.
+## Behaviour of e.g. FileChoosers can vary wildly depending on settings there.
+## The following settings makes sure it uses an empty test-dependent directory instead.
+
+# Paths to be copied to the sandbox when running tests
+copy_test_path:xdg_config_home
+
+# Elements under test data structures which should not be viewed or change-monitored
+test_data_ignore:xdg_config_home
+
+# Environment variables to be redirected for linked/copied test data
+[test_data_environment]
+xdg_config_home:XDG_CONFIG_HOME
+[end]

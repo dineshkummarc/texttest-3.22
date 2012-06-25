@@ -1,0 +1,5 @@
+# See what happens if we can't find the server
+BadServerAddress
+
+# Check slave handles master dropping connection without leaking lots of stuff
+MasterResetsConnection

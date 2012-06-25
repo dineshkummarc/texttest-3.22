@@ -1,0 +1,64 @@
+StartWithSelection
+
+# Check we can save selections (all variants)
+SaveSelection
+
+# Check that the order of tests in a selection doesn't depend on how they were selected
+SaveSelectionOrder
+
+# Check we can handle saving a selection that exists
+SaveExistingSelection
+
+# Check error handling on save selection
+SaveBadSelection
+
+# Check we can save selections (all variants)
+SaveSelectionNoPermission
+
+# Check we can save selections based on a whole suite
+SaveSuiteSelection
+
+# Check we can save selections based on the root suite, don't make them empty!
+SaveRootSuiteSelection
+
+# Check we can provide a selection on the command line, and then subsequently save it again
+SaveCmdLineSelection
+
+# Check we can save selections based on a suite with subsuites hidden
+SubSuitesHidden
+
+# Test the Load Selection functionality
+LoadSelection
+
+# Make sure the ... ellipsis works correctly
+LoadSelectionFromTab
+
+# Check we can load the selections from the criteria we save
+LoadCriteriaSelection
+
+# What happens if we try to use a python script, a text file, a gif image and a word document as a filter file?
+LoadStrangeFilterFiles
+
+# If I select a directory once, will it be default next time?
+DefaultLoadDirectory
+
+# What happens if we try to load a file which doesn't exist?
+LoadNonExistingFile
+
+# Check we can do a round-trip, run tests, save failures, load them into static GUI
+LoadFailuresForRerun
+
+# Make sure we can still read versioned tests after loading a selection
+LoadVersionAfterSelection
+
+# Try the file filter drop-down list, and try expanding the selection by another file filter
+FileFilterExtend
+
+# Create 2 dynamic file filters, select first one and then extend with the other
+DynamicFileFilterExtend
+
+# Check we can extend a filter even when the contents have no suites in common
+FileFilterExtend2Suites
+
+# Check what happens if all the directories are empty
+LoadFromEmpty

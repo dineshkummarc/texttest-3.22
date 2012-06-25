@@ -1,0 +1,11 @@
+# write xml files in junit format
+Basic
+
+# write xml files in junit format
+UnrunnableTests
+
+# write xml files in junit format to custom folder
+CustomFolder
+
+# Check we handle XML output in the failure descriptions
+XmlInFailureDescription

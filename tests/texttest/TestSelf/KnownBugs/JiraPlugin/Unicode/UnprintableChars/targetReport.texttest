@@ -1,0 +1,50 @@
+internal errors=1
+01Oct2010
+HELLO : 1 tests : 1 internal errors
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests had internal errors : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Test : bug FAK-42 (Fixed)
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that had internal errors follows...
+--------------------------------------------------------
+TEST had internal errors (bug FAK-42 (Fixed)) on kisaumi : HELLO test-case Test (under Test)
+**************************************************
+Key: MDLRAVE-1724
+Summary: RaveEtable DaveTableHandle::getColumnName() returns garbage
+Status: Resolved
+Resolution: Fixed
+
+Components: Rave
+Affectsversions: master
+Assignee: michael
+Created: 2010-02-04 09:35:17.0
+Customfieldvalues: C17, None, x86_64_solaris
+Fixversions: master
+Priority: 4
+Reporter: perb
+Updated: 2010-04-20 14:18:51.0
+**************************************************
+
+View bug MDLRAVE-1724 using Jira URL=http://www.myjirasite.com/browse/MDLRAVE-1724
+
+Nightjob tests for ETABLE dave crew_cols fails on master/solaris. It prints lines like
+
+Column ??L:2 label="" legacy="" help="" size=-1 width=-1 sortno=-1
+
+instead of:
+
+Column revid:2 label="" legacy="" help="" size=-1 width=-1 sortno=-1
+
+---------- Differences in output ----------
+1c1
+< Hello world
+---
+> Hello after 5 seconds
+

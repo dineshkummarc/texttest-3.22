@@ -1,0 +1,5 @@
+Using Application HELLO, version someversion.extra1
+Running HELLO.someversion.extra1 test-suite TargetApp
+  Running HELLO.someversion.extra1 test-case Common
+Comparing differences for HELLO.someversion.extra1 test-suite TargetApp
+  Comparing differences for HELLO.someversion.extra1 test-case Common - SUCCESS! (on errors.hello,output.hello)

@@ -1,0 +1,8 @@
+# Tests for normal operation using a queue system
+NormalOperation
+
+# Tests for reusing the slaves for several tests
+SlaveReuse
+
+# Various error conditions
+ErrorHandling

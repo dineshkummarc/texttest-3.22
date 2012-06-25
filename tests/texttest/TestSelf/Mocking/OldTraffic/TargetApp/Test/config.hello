@@ -1,0 +1,4 @@
+collect_traffic_use_threads:false
+
+[collect_traffic]
+asynchronous:async_program

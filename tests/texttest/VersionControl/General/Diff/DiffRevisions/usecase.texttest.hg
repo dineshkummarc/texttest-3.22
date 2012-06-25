@@ -1,0 +1,16 @@
+wait for all tests to be read
+set test selection to Test2
+version control status for the selected files
+select output.hello
+set first revision to 1
+show version control differences
+close difference window
+set first revision to 
+set second revision to 1
+show version control differences
+close difference window
+set first revision to tip
+show version control differences
+close difference window
+close status window
+quit

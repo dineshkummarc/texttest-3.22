@@ -1,0 +1,6 @@
+wait for completion of test actions
+show test suite TargetApp (dip)
+set test selection to A03
+view actions for file output.dip
+copy path to clipboard
+quit

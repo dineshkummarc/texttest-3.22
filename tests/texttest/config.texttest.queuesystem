@@ -1,0 +1,46 @@
+# Checkout depends on the local machine, and the architecture
+[run_dependent_text]
+errors:Unexpected TextTest slave{WORD -3}{REPLACE <machine>}
+errors:WARNING: Received request{WORD -3}{REPLACE <machine>}
+errors:already registered from{WORD -3}{REPLACE <machine>}
+output:File .* line .* in
+output:lost the job{WORD -1}
+output:executing on
+output:Time.*real{LINES 9}
+output:Unexpected output from{WORD 7}
+output:at [0-3][0-9]:[0-6][0-9]{REPLACE at <time of day>}
+output:Created process{WORD -1}
+output:Cancelling{WORD -1}
+output:Cancellation in progress
+dynamic_gui_log:File .* line .* in
+dynamic_gui_log:Adding file .*.sleep under heading '.*Files', coloured yellow
+dynamic_gui_log:terminated before completion.*on{WORD -2}{REPLACE <machine>}
+dynamic_gui_log:-servaddr [0-9\.:]*{REPLACE -servaddr <host:port>}
+#catalogue:sleep.killing{LINES 20}
+catalogue:-core.[0-9]*$
+catalogue:-core$
+catalogue:-stacktrace.collate_errs
+*Report:at [0-3][0-9]:[0-6][0-9]{REPLACE at <time of day>}
+*Report:File .* line .* in
+traffic:[^/]*[0-9]{2}[A-Za-z][a-z][a-z][0-9]{6}\.[0-9]*{REPLACE <target tmp dir>}
+*mocks:[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*:[0-9]*{REPLACE <host:port>}
+traffic:[^ ]*/(texttest/logging.texttest){REPLACE <texttest_home>/\1}
+externalmocks:[^ ]*/texttest[\.py]* {REPLACE <path_to_texttest> }
+externalmocks:<-CLI:[0-9]*{REPLACE <-CLI:<pid>}
+traffic:'pid'${LINES 3}
+externalmocks:S'Running on{WORD 3}{REPLACE <host>'}
+externalmocks:S'.*result files on{WORD -1}{REPLACE <host>'}
+externalmocks:S'RUN (.*)'{WORD 2}{REPLACE (<host>)}
+externalmocks:executionHosts{LINES 4}
+*mocks:at [0-3][0-9]:[0-6][0-9]{REPLACE at <time of day>}
+traffic:S'returncode'{LINES 3}
+traffic:/core[\.]*[0-9]*{REPLACE /<corefile>}
+externalmocks:^S'Traceback
+traffic:Real time{WORD -8+}{REPLACE <time data>}
+
+[collate_file]
+targetPerf:texttesttmp/*/*/Failures/logperf.perf*
+targetPerfSaved:TargetApp/Failures/logperf.perf*
+[end]
+
+unsaveable_version:queuesystem

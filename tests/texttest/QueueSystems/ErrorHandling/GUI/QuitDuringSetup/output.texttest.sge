@@ -1,0 +1,7 @@
+Using SGE queues for Application HELLO
+Q: Submitting HELLO test-case Test1 to default SGE queue
+Waiting Q thread for 5 seconds
+Q: Submitting HELLO test-case Test2 to default SGE queue
+Waiting Q thread for 5 seconds
+T: Cancelling HELLO test-case Test1 in SGE (job 8512)
+T: Cancelling HELLO test-case Test2 in SGE (job 8513)

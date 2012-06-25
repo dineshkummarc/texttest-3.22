@@ -1,0 +1,9 @@
+Using SGE queues for Application HELLO, checkout /carm/proj/texttest-tmp/geoff/texttest.sge.23Feb102316.7569/texttest.sge/QueueSystems/SlaveReuse/Master/ForceReuse/Console/NoReuseWithProxy/TargetApp/
+Q: Submitting HELLO test-case Test to default SGE queue
+S: HELLO test-case Test FAILED on centreville.carmen.se : differences in output
+View details(v), Save(s) or continue(any other key)?
+Q: Submitting HELLO test-case Test to default SGE queue
+S: HELLO test-case Test not compared:
+Failed to submit to SGE (Unable to run job: unknown resource "no_such_resource".)
+Submission command was 'qsub -sync y -N Test-Test.Suite-HELLO -w e -notify -m n -cwd -b y -V -o Test-Test.Suite-HELLO.log -e Test-Test.Suite-HELLO.errors ... '
+

@@ -1,0 +1,6 @@
+wait for all tests to be read
+search for files for 'tests listed in file'
+choose filter file metafail.hello
+open selected file
+select indicated tests
+quit

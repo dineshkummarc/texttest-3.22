@@ -1,0 +1,10 @@
+Rejected Application HELLO - collect_traffic settings have been deprecated.
+They have been replaced by using the CaptureMock program which is now separate from TextTest.
+Please run with '-s traffic.ConvertToCaptureMock' and consult the migration notes at
+/usr/local/share/texttest/doc/MigrationNotes_from_3.20
+
+Rejected Application HELLO, version version - collect_traffic settings have been deprecated.
+They have been replaced by using the CaptureMock program which is now separate from TextTest.
+Please run with '-s traffic.ConvertToCaptureMock' and consult the migration notes at
+/usr/local/share/texttest/doc/MigrationNotes_from_3.20
+

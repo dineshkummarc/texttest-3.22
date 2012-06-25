@@ -1,0 +1,17 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------console.gui.1.01Oct145552.27293
+------------Xvfb
+----------------Xvfb.3979.manyara
+------------hello.gui.1
+----------------Test
+--------------------errors.hello
+--------------------output.hello
+--------------------framework_tmp
+------------------------errors.hellocmp
+------------------------errors.helloorigcmp
+------------------------output.hellocmp
+------------------------output.helloorigcmp
+------------hello.gui.2
+----------------Suite

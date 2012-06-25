@@ -1,0 +1,2 @@
+# Dictionary of environment to variables to set in test suite
+VAR1:the_wrong_value

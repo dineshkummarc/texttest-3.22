@@ -1,0 +1,18 @@
+2010-02-09 14:32:53,588 - Using Application HELLO
+2010-02-09 14:32:53,613 - Running HELLO test-suite TargetApp
+2010-02-09 14:32:53,613 -   Running HELLO test-case OutDiff
+2010-02-09 14:32:53,677 - Comparing differences for HELLO test-suite TargetApp
+2010-02-09 14:32:53,694 -   Comparing differences for HELLO test-case OutDiff (on errors.hello,output.hello)
+2010-02-09 14:32:53,695 -   HELLO test-case OutDiff FAILED on gewoia : differences in output
+2010-02-09 14:32:53,725 -   Running HELLO test-case Success
+2010-02-09 14:32:53,801 -   Comparing differences for HELLO test-case Success - SUCCESS! (on errors.hello,output.hello)
+2010-02-09 14:32:53,830 -   Running HELLO test-case BothDiff
+2010-02-09 14:32:53,908 -   Comparing differences for HELLO test-case BothDiff (on errors.hello,output.hello)
+2010-02-09 14:32:53,909 -   HELLO test-case BothDiff FAILED on gewoia : differences in errors,output
+2010-02-09 14:32:53,933 -   Running HELLO test-suite suite
+2010-02-09 14:32:53,933 -     Running HELLO test-case OutDiff2
+2010-02-09 14:32:53,991 -   Comparing differences for HELLO test-suite suite
+2010-02-09 14:32:54,007 -     Comparing differences for HELLO test-case OutDiff2 (on errors.hello,output.hello)
+2010-02-09 14:32:54,008 -     HELLO test-case OutDiff2 FAILED on gewoia : differences in output
+2010-02-09 14:32:54,029 - Creating batch report for application HELLO ...
+2010-02-09 14:32:54,114 - done.

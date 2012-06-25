@@ -1,0 +1,16 @@
+# Path to the executable
+executable:${TEXTTEST_HOME}/writehosts.py
+
+queue_system_proxy_executable:${TEXTTEST_HOME}/proxy.py
+
+queue_system_resource:short
+queue_system_resource:osversion=RHEL5
+
+queue_system_proxy_resource:short
+queue_system_proxy_resource:osversion=RHEL4
+
+config_module:queuesystem
+
+default_interface:dynamic_gui
+
+

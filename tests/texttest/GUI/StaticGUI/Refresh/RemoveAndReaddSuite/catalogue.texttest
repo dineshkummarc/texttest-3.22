@@ -1,0 +1,15 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------orig
+------------suite2
+----------------t1_copy
+--------------------output.hello
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------orig
+------------testsuite.hello
+------------suite2
+----------------testsuite.hello

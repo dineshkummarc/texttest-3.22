@@ -1,0 +1,4 @@
+wait for completion of test actions
+select file another file.hello
+wait for the graphical difference program to terminate
+quit

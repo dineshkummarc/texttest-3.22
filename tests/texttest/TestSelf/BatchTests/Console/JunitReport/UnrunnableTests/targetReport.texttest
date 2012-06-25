@@ -1,0 +1,42 @@
+unrunnable=2,FAILED=1,succeeded=1
+29Jul2010
+HELLO : 4 tests : 2 unrunnable, 1 FAILED
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests could not be run : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case OutDiff  : no results
+  - HELLO test-case BothDiff : no results
+
+The following tests FAILED : 
+In HELLO test-suite TargetApp:
+  In HELLO test-suite suite:
+    - HELLO test-case OutDiff2 : output different
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that could not be run follows...
+--------------------------------------------------------
+TEST could not be run : HELLO test-case OutDiff (under OutDiff)
+No file found to load results from under /carm/proj/texttest-tmp/geoff/texttest.29Jul161821.22560/texttest/TestSelf/BatchTests/Console/JunitReport/UnrunnableTests/texttesttmp/console.13Apr113811.3289/hello/OutDiff
+--------------------------------------------------------
+TEST could not be run : HELLO test-case BothDiff (under BothDiff)
+No file found to load results from under /carm/proj/texttest-tmp/geoff/texttest.29Jul161821.22560/texttest/TestSelf/BatchTests/Console/JunitReport/UnrunnableTests/texttesttmp/console.13Apr113811.3289/hello/BothDiff
+
+Detailed information for the tests that FAILED follows...
+--------------------------------------------------------
+TEST FAILED on portmoller : HELLO test-case OutDiff2 (under suite/OutDiff2)
+------------------ Differences in output --------------------
+0a1
+> Hello World!
+
+Summary of all Successful tests follows...
+---------------------------------------------------------------------------------
+The following tests succeeded : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Success
+
+

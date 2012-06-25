@@ -1,0 +1,10 @@
+Using Application MEM, version nomemfile
+----------------------------------------------------------------------------------------------------
+Application MEM, version nomemfile       Version 'nomemfile' Version 'badformat'       memory change
+----------------------------------------------------------------------------------------------------
+  NoMemFile                                              N/A                 N/APerformance comparison failed
+  NoOutputFile                                       42.3 MB                 N/APerformance comparison failed
+------------------------------------------------------------------------------------------------------------------------
+Application/Version                                    Total   Total (badformat)       memory change        No. of Tests
+------------------------------------------------------------------------------------------------------------------------
+Application MEM, version nomemfile                   42.3 MB                 N/APerformance comparison failed                   2

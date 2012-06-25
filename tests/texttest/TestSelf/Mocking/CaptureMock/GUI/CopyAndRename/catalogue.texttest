@@ -1,0 +1,27 @@
+The following new files/directories were created:
+<Test Directory>
+----TargetApp
+--------newname
+------------catalogue.edit
+------------editedfile.edit
+------------editedfile2.edit
+------------editedfile3.edit
+------------errors.edit
+------------output.edit
+------------traffic.edit
+------------file_edits
+----------------file
+----------------file.edit_2
+----------------file2
+----------------writedir
+--------------------subdir
+------------------------file
+------------file_edits.version
+----------------file
+----------------file.edit_2
+----------------file2
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----TargetApp
+--------testsuite.edit

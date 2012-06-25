@@ -1,0 +1,17 @@
+The following new files/directories were created:
+<Test Directory>
+----texttesttmp
+--------console.07Jun103143.6716
+------------core
+----------------DumpCore
+--------------------core
+--------------------errors.core
+--------------------output.core
+--------------------stacktrace.core
+--------------------framework_tmp
+------------------------errors.corecmp
+------------------------errors.coreorigcmp
+------------------------output.corecmp
+------------------------output.coreorigcmp
+------------------------stacktrace.corecmp
+------------------------teststate

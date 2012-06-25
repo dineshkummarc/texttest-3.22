@@ -1,0 +1,9 @@
+2009-11-25 09:35:28,586 - Using Application HELLO
+2009-11-25 09:35:28,623 - Counting HELLO test-suite TargetApp
+2009-11-25 09:35:28,623 -   Counting HELLO test-case OutDiff
+2009-11-25 09:35:28,623 -   Counting HELLO test-case Success
+2009-11-25 09:35:28,624 -   Counting HELLO test-case BothDiff
+2009-11-25 09:35:28,624 -   Counting HELLO test-suite suite
+2009-11-25 09:35:28,624 -     Counting HELLO test-case OutDiff2
+Application HELLO has 4 tests
+There are 4 tests in total.

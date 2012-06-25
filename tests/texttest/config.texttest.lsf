@@ -1,0 +1,11 @@
+base_version:queuesystem
+
+# Checkout depends on the local machine, and the architecture
+[run_dependent_text]
+output:batch system daemon
+output:No LSF installation
+dynamic_gui_log:batch system daemon
+dynamic_gui_log:No LSF installation
+*Report:batch system daemon
+*Report:No LSF installation
+[end]

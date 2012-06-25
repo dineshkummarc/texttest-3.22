@@ -1,0 +1,5 @@
+
+link_test_path:coveragerc
+
+[test_data_environment]
+coveragerc:COVERAGE_PROCESS_START

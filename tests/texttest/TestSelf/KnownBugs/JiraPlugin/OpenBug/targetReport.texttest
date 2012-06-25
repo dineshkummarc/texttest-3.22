@@ -1,0 +1,41 @@
+known bugs=1
+22Jan2010
+HELLO : 1 tests : 1 known bugs
+
+Summary of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+The following tests had known bugs : 
+In HELLO test-suite TargetApp:
+  - HELLO test-case Test : bug FAK-42 (Open)
+
+
+Details of all Unsuccessful tests follows...
+---------------------------------------------------------------------------------
+
+Detailed information for the tests that had known bugs follows...
+--------------------------------------------------------
+TEST had known bugs (bug FAK-42 (Open)) on kikweto : HELLO test-case Test (under Test)
+**************************************************
+Key: FAK-42
+Summary: Sample issue
+Status: Open
+Assignee: geoff
+
+Components: The Component Name
+Created: 2009-04-20 16:31:08.0
+Priority: 3
+Reporter: geoff
+Updated: 2009-09-25 13:16:21.0
+**************************************************
+
+View bug FAK-42 using Jira URL=http://www.myjirasite.com/browse/FAK-42
+
+The description is a long string
+with lots of linebreaks.
+
+---------- Differences in output ----------
+1c1
+< Hello world
+---
+> Hello after 5 seconds
+

@@ -1,0 +1,26 @@
+# Check for nice reporting in GUI
+DiagFailure
+
+# Check we can turn diagnostics on all the time by placing the file in the test
+DiagOnPermanently
+
+# Check we can press a button to turn on diagnostics
+EnableDiagnostics
+
+# Check we can overwrite an existing file
+RecreateDiagnostics
+
+# Make sure we don't get mismatches if tests with permanent diagnostics are run with temporary additional diags
+TempDiagOnPermanent
+
+# Make sure that diagnostics are copied correctly when copying tests
+CopyTests
+
+# Make sure we don't crash if there isn't a diagnostics file
+DiagNoFile
+
+# See what happens when we save lack of diags and then the other test completes
+CompleteAfterRemovedDiags
+
+# See what happens when we save lack of diags and recompute the other test
+RecomputeRemovedDiags

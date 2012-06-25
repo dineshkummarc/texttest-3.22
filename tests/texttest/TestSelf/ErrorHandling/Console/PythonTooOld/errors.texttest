@@ -1,0 +1,2 @@
+Could not start TextTest due to Python version problems :
+TextTest trunk requires at least Python 2.6.0: found version 2.3.4.

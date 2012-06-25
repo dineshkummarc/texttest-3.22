@@ -1,0 +1,17 @@
+Using Application HELLO, version version
+Running HELLO.version test-suite TargetApp
+  Running HELLO.version test-suite Suite1
+    Running HELLO.version test-case One1
+Comparing differences for HELLO.version test-suite TargetApp
+  Comparing differences for HELLO.version test-suite Suite1
+    Comparing differences for HELLO.version test-case One1 - SUCCESS! (on errors.hello,output.hello)
+    Running HELLO.version test-case Two
+    Comparing differences for HELLO.version test-case Two (on errors.hello,output.hello)
+    Running HELLO.version test-case Three
+    Comparing differences for HELLO.version test-case Three (on errors.hello,output.hello)
+  Running HELLO.version test-suite Super
+    Running HELLO.version test-suite Suite2
+      Running HELLO.version test-case One
+  Comparing differences for HELLO.version test-suite Super
+    Comparing differences for HELLO.version test-suite Suite2
+      Comparing differences for HELLO.version test-case One - SUCCESS! (on errors.hello,output.hello)

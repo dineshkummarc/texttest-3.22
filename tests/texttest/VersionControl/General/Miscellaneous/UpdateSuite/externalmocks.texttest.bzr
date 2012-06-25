@@ -1,0 +1,5 @@
+<-CMD:cd /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.bzr/VersionControl/General/Miscellaneous/UpdateSuite/TargetApp; bzr update
+->FIL:TargetApp
+->ERR:+N  TargetApp/Test/result.hello
+All changes applied successfully.
+Updated to revision 2.

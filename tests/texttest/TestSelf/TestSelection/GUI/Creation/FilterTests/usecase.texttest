@@ -1,0 +1,9 @@
+wait for all tests to be read
+enter test names containing = e
+select indicated tests
+show only tests that are currently selected
+enter test names containing = T
+select indicated tests
+show only tests that are currently selected
+show all tests
+quit

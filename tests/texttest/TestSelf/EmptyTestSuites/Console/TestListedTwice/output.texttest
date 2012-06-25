@@ -1,0 +1,7 @@
+Using Application HELLO, version testtwice
+Running HELLO.testtwice test-suite TargetApp
+  Running HELLO.testtwice test-suite SuiteWithTest
+    Running HELLO.testtwice test-case Test
+Comparing differences for HELLO.testtwice test-suite TargetApp
+  Comparing differences for HELLO.testtwice test-suite SuiteWithTest
+    Comparing differences for HELLO.testtwice test-case Test - SUCCESS! (on errors.hello,output.hello)

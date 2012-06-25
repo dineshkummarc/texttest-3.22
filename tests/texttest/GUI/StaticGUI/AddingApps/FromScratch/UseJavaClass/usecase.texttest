@@ -1,0 +1,5 @@
+wait for all tests to be read
+enter file extension to use for texttest files associated with this application = hello
+set java class to com.company.MyClass
+press define
+quit

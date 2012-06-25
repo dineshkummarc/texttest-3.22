@@ -1,0 +1,9 @@
+wait for all tests to be read
+set test selection to Test4
+remove selected tests
+answer yes to texttest confirmation
+set test selection to Subsuite
+cut selected tests
+set test selection to Test1
+paste tests from clipboard
+quit

@@ -1,0 +1,8 @@
+2010-08-09 11:51:08,097 - Using Application HELLO
+2010-08-09 11:51:08,121 - Running HELLO test-suite TargetApp
+2010-08-09 11:51:08,121 -   Running HELLO test-case BothDiff
+2010-08-09 11:51:08,264 - Comparing differences for HELLO test-suite TargetApp
+2010-08-09 11:51:08,286 -   Comparing differences for HELLO test-case BothDiff (on errors.hello,output.hello)
+2010-08-09 11:51:08,287 -   HELLO test-case BothDiff FAILED on gewoia : differences in errors,output
+2010-08-09 11:51:08,293 - Creating batch report for application HELLO ...
+2010-08-09 11:51:08,318 - done.

@@ -1,0 +1,11 @@
+auto_collapse_successful:1
+
+# For this test, we want the failure and success colors to be the same, 
+# to test how the collapse code reacts to this, since it bases collapsing
+# on the color of the 'details' column. Thus, this should collapse even 
+# failed suites, which really isn't correct, but which is the current behaviour.
+# Obviously, the example might be a bit contrieved, but it is good to highlight 
+# the fact that the code currently doesn't work perfectly under all circumstances.
+[test_colours]
+success:green
+failure:green

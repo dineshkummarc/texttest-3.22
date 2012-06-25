@@ -1,0 +1,5 @@
+<-PYT:import urllib2
+<-PYT:urllib2.urlopen('http://bugzilla.myveryoldsite.com/cli.cgi?bug=42')
+->RET:Instance('addinfourl', 'addinfourl1')
+<-PYT:addinfourl1.read()
+->RET:''

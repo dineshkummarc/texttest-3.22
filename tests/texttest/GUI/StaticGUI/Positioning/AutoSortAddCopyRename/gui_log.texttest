@@ -1,0 +1,536 @@
+
+---------- Window 'DIP test management - TextTest static GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_Edit' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+    ----
+  _Select (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+  Refresh (Stock image 'gtk-refresh', accelerator 'F5', tooltip 'Refresh the whole test suite so that it reflects file changes')
+  _Run (Stock image 'gtk-execute', greyed out, accelerator 'Ctrl+R', tooltip 'Run selected tests')
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Selection , Config
+Viewing page 'Selection'
+Viewing table with 7 rows and 2 columns.
+'Tests for version  ' (tooltip 'Select tests for a specific version.') | Text entry (drop-down list containing ['', '<default>'])
+'Test names containing  ' (tooltip 'Select tests for which the name contains the entered text. The text can be a regular expression.') | Text entry
+'Test paths containing  ' (tooltip 'Select tests for which the full path to the test (e.g. suite1/subsuite/testname) contains the entered text. The text can be a regular expression. You can select tests by suite name this way.') | Text entry
+'Tests listed in file  ' | Text entry , Button '...'
+'Descriptions containing  ' (tooltip 'Select tests for which the description (comment) matches the entered text. The text can be a regular expression.') | Text entry
+'Test-files containing  ' (tooltip 'Select tests which have a file containing the entered text. The text can be a regular expression : e.g. enter '.*' to only look for the file without checking the contents.') | Text entry
+'Test-file to search  ' (tooltip 'When the 'test-files containing' field is non-empty, apply the search in files with the given stem. Unix-style file expansion (note not regular expressions) may be used. For example '*' will look in any file.') | Text entry (drop-down list containing [''])
+.....'Selection'......
+Check button 'Select in collapsed suites' (tooltip 'Select in currently collapsed suites as well?')
+Radio button 'Discard' (checked) (tooltip 'Unselect all currently selected tests before applying the new selection criteria.') , Radio button 'Refine' (tooltip 'Apply the new selection criteria only to the currently selected tests, to obtain a subselection.') , Radio button 'Extend' (tooltip 'Keep the currently selected tests even if they do not match the new criteria, and extend the selection with all other tests which meet the new criteria.') , Radio button 'Exclude' (tooltip 'After applying the new selection criteria to all tests, unselect the currently selected tests, to exclude them from the new selection.')
+Button '_Select' (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+.....'Filtering'......
+Radio button 'Discard' (checked) (tooltip 'Show all tests which match the criteria, and hide all those that do not.') , Radio button 'Refine' (tooltip 'Hide all tests which do not match the criteria. Do not show any tests that aren't already shown.') , Radio button 'Extend' (tooltip 'Show all tests which match the criteria. Do not hide any tests that are currently shown.')
+Button 'Filter' (Stock image 'gtk-find', accelerator 'Ctrl+F', tooltip 'filter tests to show only those indicated')
+Button 'Reset Tab' (tooltip 'Reset all the settings in the current tab to their default values')
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Jun14:04:00.' , Image 'throbber_inactive.png'
+------------------------------------------------------------------------
+
+Changing GUI status to: 'Reading tests ...'
+
+Column titles changed in Test Tree with columns: Tests: 0/1 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/2 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/3 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/4 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/5 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/6 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/7 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/8 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/9 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/10 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/11 selected
+
+Updated : Test Tree with columns: Tests: 0/11 selected
+-> TargetApp (dip) (black/grey90,bold)
+->   Game9952 (black/grey90,bold)
+->     A01 (black/grey90)
+->     A02 (black/grey90)
+->     A03 (black/grey90)
+->     A04 (black/grey90)
+->     A05 (black/grey90)
+->     S01.99 (black/grey90)
+->     S02 (black/grey90)
+->     S03 (black/grey90)
+->     S04 (black/grey90)
+->     S05 (black/grey90)
+->   npstIII (black/grey90,bold)
+->     Game47 (black/grey90,bold)
+->       S01 (black/grey90)
+Updated drop-down list in 'Test-file to search' Text entry (set to 'output') (drop-down list containing ['output'])
+
+Changing GUI status to: 'Reading tests completed at 09Jun14:04:00.'
+
+Expected application event 'all tests to be read' occurred, proceeding.
+
+'set test selection to' event created with arguments 'A05'
+
+No longer greyed out : _Run
+
+Changed selection in Test Tree with columns: Tests: 1/11 selected
+-> TargetApp (dip) (black/grey90,bold)
+->   Game9952 (black/grey90,bold)
+->     A01 (black/grey90)
+->     A02 (black/grey90)
+->     A03 (black/grey90)
+->     A04 (black/grey90)
+->     A05 (black/grey90)   ***
+->     S01.99 (black/grey90)
+->     S02 (black/grey90)
+->     S03 (black/grey90)
+->     S04 (black/grey90)
+->     S05 (black/grey90)
+->   npstIII (black/grey90,bold)
+->     Game47 (black/grey90,bold)
+->       S01 (black/grey90)
+
+Current page changed in Notebook with tabs: Test , Selection , Running , Config
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: A05
+-> Standard Files (white,bold)
+->   output.dip (grey90)
+-> Definition Files (white)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+
+Description:
+<No description provided>
+
+Full path:
+Game9952/A05
+===============================
+
+'copy selected tests' event created with arguments ''
+
+Updated : Test Tree with columns: Tests: 1/11 selected
+-> TargetApp (dip) (black/grey90,bold)
+->   Game9952 (black/grey90,bold)
+->     A01 (black/grey90)
+->     A02 (black/grey90)
+->     A03 (black/grey90)
+->     A04 (black/grey90)
+->     A05 (grey60/grey90)   ***
+->     S01.99 (black/grey90)
+->     S02 (black/grey90)
+->     S03 (black/grey90)
+->     S04 (black/grey90)
+->     S05 (black/grey90)
+->   npstIII (black/grey90,bold)
+->     Game47 (black/grey90,bold)
+->       S01 (black/grey90)
+
+Changing GUI status to: 'Performed 'Copy selected tests' on test Game9952/A05.'
+
+'set test selection to' event created with arguments 'S05'
+
+Changed selection in Test Tree with columns: Tests: 1/11 selected
+-> TargetApp (dip) (black/grey90,bold)
+->   Game9952 (black/grey90,bold)
+->     A01 (black/grey90)
+->     A02 (black/grey90)
+->     A03 (black/grey90)
+->     A04 (black/grey90)
+->     A05 (grey60/grey90)
+->     S01.99 (black/grey90)
+->     S02 (black/grey90)
+->     S03 (black/grey90)
+->     S04 (black/grey90)
+->     S05 (black/grey90)   ***
+->   npstIII (black/grey90,bold)
+->     Game47 (black/grey90,bold)
+->       S01 (black/grey90)
+
+Updated : File Tree with columns: S05
+-> Standard Files (white,bold)
+->   output.dip (grey90)
+-> Definition Files (white)
+
+========== Text Info ==========
+
+Description:
+<No description provided>
+
+Full path:
+Game9952/S05
+===============================
+
+'paste tests from clipboard' event created with arguments ''
+
+Updated : Test Tree with columns: Tests: 1/12 selected
+-> TargetApp (dip) (black/grey90,bold)
+->   Game9952 (black/grey90,bold)
+->     A01 (black/grey90)
+->     A02 (black/grey90)
+->     A03 (black/grey90)
+->     A04 (black/grey90)
+->     A05 (grey60/grey90)
+->     A05_copy (black/grey90)   ***
+->     S01.99 (black/grey90)
+->     S02 (black/grey90)
+->     S03 (black/grey90)
+->     S04 (black/grey90)
+->     S05 (black/grey90)
+->   npstIII (black/grey90,bold)
+->     Game47 (black/grey90,bold)
+->       S01 (black/grey90)
+
+Updated : File Tree with columns: A05__copy
+-> Standard Files (white,bold)
+->   output.dip (grey90)
+-> Definition Files (white)
+
+========== Text Info ==========
+
+Description:
+Copy of A05
+
+Full path:
+Game9952/A05_copy
+===============================
+
+Changing GUI status to: 'Pasted test Game9952/A05_copy to suite 'Game9952''
+
+'rename selected test' event created with arguments ''
+
+---------- Dialog 'Rename selected test' ----------
+Default widget is 'gtk-ok'
+'<b>A05_copy</b>'
+'
+New name:'
+Text entry (set to 'A05_copy')
+'
+New description:'
+...........
+
+========== New description ==========
+Copy of A05
+=====================================
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+---------------------------------------------------
+
+'enter new name =' event created with arguments 'A04_copy'
+Edited 'New name' Text entry (set to 'A04_copy')
+
+'enter new description =' event created with arguments 'Copy of A04'
+
+========== New description ==========
+Copy of A04
+=====================================
+
+'press ok' event created with arguments ''
+
+Updated : Test Tree with columns: Tests: 1/12 selected
+-> TargetApp (dip) (black/grey90,bold)
+->   Game9952 (black/grey90,bold)
+->     A01 (black/grey90)
+->     A02 (black/grey90)
+->     A03 (black/grey90)
+->     A04 (black/grey90)
+->     A04_copy (black/grey90)   ***
+->     A05 (grey60/grey90)
+->     S01.99 (black/grey90)
+->     S02 (black/grey90)
+->     S03 (black/grey90)
+->     S04 (black/grey90)
+->     S05 (black/grey90)
+->   npstIII (black/grey90,bold)
+->     Game47 (black/grey90,bold)
+->       S01 (black/grey90)
+
+Updated : File Tree with columns: A04__copy
+-> Standard Files (white,bold)
+->   output.dip (grey90)
+-> Definition Files (white)
+
+========== Text Info ==========
+
+Description:
+Copy of A04
+
+Full path:
+Game9952/A04_copy
+===============================
+
+Changing GUI status to: 'Renamed test A05_copy to A04_copy and changed description.'
+
+'set test selection to' event created with arguments 'S04'
+
+Changed selection in Test Tree with columns: Tests: 1/12 selected
+-> TargetApp (dip) (black/grey90,bold)
+->   Game9952 (black/grey90,bold)
+->     A01 (black/grey90)
+->     A02 (black/grey90)
+->     A03 (black/grey90)
+->     A04 (black/grey90)
+->     A04_copy (black/grey90)
+->     A05 (grey60/grey90)
+->     S01.99 (black/grey90)
+->     S02 (black/grey90)
+->     S03 (black/grey90)
+->     S04 (black/grey90)   ***
+->     S05 (black/grey90)
+->   npstIII (black/grey90,bold)
+->     Game47 (black/grey90,bold)
+->       S01 (black/grey90)
+
+Updated : File Tree with columns: S04
+-> Standard Files (white,bold)
+->   output.dip (grey90)
+-> Definition Files (white)
+
+========== Text Info ==========
+
+Description:
+<No description provided>
+
+Full path:
+Game9952/S04
+===============================
+
+'rename selected test' event created with arguments ''
+
+---------- Dialog 'Rename selected test' ----------
+Default widget is 'gtk-ok'
+'<b>S04</b>'
+'
+New name:'
+Text entry (set to 'S04')
+'
+New description:'
+...........
+
+========== New description ==========
+
+=====================================
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+---------------------------------------------------
+
+'enter new name =' event created with arguments 'S01.87'
+Edited 'New name' Text entry (set to 'S01.87')
+
+'press ok' event created with arguments ''
+
+Updated : Test Tree with columns: Tests: 1/12 selected
+-> TargetApp (dip) (black/grey90,bold)
+->   Game9952 (black/grey90,bold)
+->     A01 (black/grey90)
+->     A02 (black/grey90)
+->     A03 (black/grey90)
+->     A04 (black/grey90)
+->     A04_copy (black/grey90)
+->     A05 (grey60/grey90)
+->     S01.87 (black/grey90)   ***
+->     S01.99 (black/grey90)
+->     S02 (black/grey90)
+->     S03 (black/grey90)
+->     S05 (black/grey90)
+->   npstIII (black/grey90,bold)
+->     Game47 (black/grey90,bold)
+->       S01 (black/grey90)
+
+Updated : File Tree with columns: S01.87
+-> Standard Files (white,bold)
+->   output.dip (grey90)
+-> Definition Files (white)
+
+========== Text Info ==========
+
+Description:
+<No description provided>
+
+Full path:
+Game9952/S01.87
+===============================
+
+Changing GUI status to: 'Renamed test S04 to S01.87.'
+
+'set test selection to' event created with arguments 'Game9952'
+
+Changed selection in Test Tree with columns: Tests: 1 suite selected
+-> TargetApp (dip) (black/grey90,bold)
+->   Game9952 (black/grey90,bold)   ***
+->     A01 (black/grey90)
+->     A02 (black/grey90)
+->     A03 (black/grey90)
+->     A04 (black/grey90)
+->     A04_copy (black/grey90)
+->     A05 (grey60/grey90)
+->     S01.87 (black/grey90)
+->     S01.99 (black/grey90)
+->     S02 (black/grey90)
+->     S03 (black/grey90)
+->     S05 (black/grey90)
+->   npstIII (black/grey90,bold)
+->     Game47 (black/grey90,bold)
+->       S01 (black/grey90)
+
+Updated : File Tree with columns: Game9952
+-> Definition Files (white,bold)
+->   environment (grey90)
+->   testsuite.dip (grey90)
+->   testsuite.dip.small (grey90)
+
+========== Text Info ==========
+
+Description:
+<No description provided>
+
+Full path:
+Game9952
+===============================
+
+'add test' event created with arguments ''
+
+---------- Dialog 'Add Test' ----------
+Default widget is 'gtk-ok'
+'Test Name:'
+Text entry
+'Test Description:' (tooltip 'Enter a description of the new test which will be inserted as a comment in the testsuite file.')
+...........
+
+========== Test Description ==========
+
+======================================
+'
+Place Test:' (tooltip 'Where in the test suite should the test be placed?')
+Text entry (set to 'last in suite') (drop-down list containing ['first in suite', 'after A01', 'after A02', 'after A03', 'after A04', 'after A04_copy', 'after A05', 'after S01.87', 'after S01.99', 'after S02', 'after S03', 'after S05', 'last in suite'])
+'Command line options:'
+Text entry
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+---------------------------------------
+
+'enter test name =' event created with arguments 'B01'
+Edited 'Test Name' Text entry (set to 'B01')
+
+'enter test description =' event created with arguments 'Correctly ordered?'
+
+========== Test Description ==========
+Correctly ordered?
+======================================
+
+'press ok' event created with arguments ''
+
+Updated : Test Tree with columns: Tests: 1/13 selected
+-> TargetApp (dip) (black/grey90,bold)
+->   Game9952 (black/grey90,bold)
+->     A01 (black/grey90)
+->     A02 (black/grey90)
+->     A03 (black/grey90)
+->     A04 (black/grey90)
+->     A04_copy (black/grey90)
+->     A05 (grey60/grey90)
+->     B01 (black/grey90)   ***
+->     S01.87 (black/grey90)
+->     S01.99 (black/grey90)
+->     S02 (black/grey90)
+->     S03 (black/grey90)
+->     S05 (black/grey90)
+->   npstIII (black/grey90,bold)
+->     Game47 (black/grey90,bold)
+->       S01 (black/grey90)
+
+Updated : File Tree with columns: B01
+-> Standard Files (white)
+-> Definition Files (white)
+
+========== Text Info ==========
+
+Description:
+Correctly ordered?
+
+Full path:
+Game9952/B01
+===============================
+
+Changing GUI status to: 'Added new DIP test-case B01'
+
+'rename selected test' event created with arguments ''
+
+---------- Dialog 'Rename selected test' ----------
+Default widget is 'gtk-ok'
+'<b>B01</b>'
+'
+New name:'
+Text entry (set to 'B01')
+'
+New description:'
+...........
+
+========== New description ==========
+Correctly ordered?
+=====================================
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+---------------------------------------------------
+
+'enter new name =' event created with arguments 'S06'
+Edited 'New name' Text entry (set to 'S06')
+
+'press ok' event created with arguments ''
+
+Updated : Test Tree with columns: Tests: 1/13 selected
+-> TargetApp (dip) (black/grey90,bold)
+->   Game9952 (black/grey90,bold)
+->     A01 (black/grey90)
+->     A02 (black/grey90)
+->     A03 (black/grey90)
+->     A04 (black/grey90)
+->     A04_copy (black/grey90)
+->     A05 (grey60/grey90)
+->     S01.87 (black/grey90)
+->     S01.99 (black/grey90)
+->     S02 (black/grey90)
+->     S03 (black/grey90)
+->     S05 (black/grey90)
+->     S06 (black/grey90)   ***
+->   npstIII (black/grey90,bold)
+->     Game47 (black/grey90,bold)
+->       S01 (black/grey90)
+
+Updated : File Tree with columns: S06
+-> Standard Files (white)
+-> Definition Files (white)
+
+========== Text Info ==========
+
+Description:
+Correctly ordered?
+
+Full path:
+Game9952/S06
+===============================
+
+Changing GUI status to: 'Renamed test B01 to S06.'
+
+'quit' event created with arguments ''

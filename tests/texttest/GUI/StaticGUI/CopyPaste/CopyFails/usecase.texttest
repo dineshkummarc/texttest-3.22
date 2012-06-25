@@ -1,0 +1,8 @@
+wait for all tests to be read
+set test selection to A05
+view actions for test A05
+copy selected tests
+view actions for test A05
+paste tests from clipboard
+agree to texttest message
+quit

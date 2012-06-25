@@ -1,0 +1,232 @@
+
+---------- Window 'HELLO test management - TextTest static GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_Edit' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+    ----
+  _Select (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+  Refresh (Stock image 'gtk-refresh', accelerator 'F5', tooltip 'Refresh the whole test suite so that it reflects file changes')
+  _Run (Stock image 'gtk-execute', greyed out, accelerator 'Ctrl+R', tooltip 'Run selected tests')
+...........
+
+Showing Test Tree with columns: Tests: All 0 selected
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Selection , Config
+Viewing page 'Selection'
+Viewing table with 7 rows and 2 columns.
+'Tests for version  ' (tooltip 'Select tests for a specific version.') | Text entry (drop-down list containing ['', '<default>', 'extra'])
+'Test names containing  ' (tooltip 'Select tests for which the name contains the entered text. The text can be a regular expression.') | Text entry
+'Test paths containing  ' (tooltip 'Select tests for which the full path to the test (e.g. suite1/subsuite/testname) contains the entered text. The text can be a regular expression. You can select tests by suite name this way.') | Text entry
+'Tests listed in file  ' | Text entry , Button '...'
+'Descriptions containing  ' (tooltip 'Select tests for which the description (comment) matches the entered text. The text can be a regular expression.') | Text entry
+'Test-files containing  ' (tooltip 'Select tests which have a file containing the entered text. The text can be a regular expression : e.g. enter '.*' to only look for the file without checking the contents.') | Text entry
+'Test-file to search  ' (tooltip 'When the 'test-files containing' field is non-empty, apply the search in files with the given stem. Unix-style file expansion (note not regular expressions) may be used. For example '*' will look in any file.') | Text entry (drop-down list containing [''])
+.....'Selection'......
+Check button 'Select in collapsed suites' (tooltip 'Select in currently collapsed suites as well?')
+Radio button 'Discard' (checked) (tooltip 'Unselect all currently selected tests before applying the new selection criteria.') , Radio button 'Refine' (tooltip 'Apply the new selection criteria only to the currently selected tests, to obtain a subselection.') , Radio button 'Extend' (tooltip 'Keep the currently selected tests even if they do not match the new criteria, and extend the selection with all other tests which meet the new criteria.') , Radio button 'Exclude' (tooltip 'After applying the new selection criteria to all tests, unselect the currently selected tests, to exclude them from the new selection.')
+Button '_Select' (Stock image 'gtk-find', accelerator 'Ctrl+Alt+F', tooltip 'Select indicated tests')
+.....'Filtering'......
+Radio button 'Discard' (checked) (tooltip 'Show all tests which match the criteria, and hide all those that do not.') , Radio button 'Refine' (tooltip 'Hide all tests which do not match the criteria. Do not show any tests that aren't already shown.') , Radio button 'Extend' (tooltip 'Show all tests which match the criteria. Do not hide any tests that are currently shown.')
+Button 'Filter' (Stock image 'gtk-find', accelerator 'Ctrl+F', tooltip 'filter tests to show only those indicated')
+Button 'Reset Tab' (tooltip 'Reset all the settings in the current tab to their default values')
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Aug10:11:35.' , Image 'throbber_inactive.png'
+--------------------------------------------------------------------------
+
+Changing GUI status to: 'Reading tests ...'
+
+Column titles changed in Test Tree with columns: Tests: 0/1 selected
+
+Column titles changed in Test Tree with columns: Tests: 0/2 selected, 0/1 distinct
+
+Updated : Test Tree with columns: Tests: 0/2 selected, 0/1 distinct
+-> TargetApp (hello) (black/grey90,bold)
+->   Test (black/grey90)
+Updated drop-down list in 'Test-file to search' Text entry (set to 'errors') (drop-down list containing ['errors', 'output'])
+
+Changing GUI status to: 'Reading tests completed at 09Aug10:11:35.'
+
+Expected application event 'all tests to be read' occurred, proceeding.
+
+'set test selection to' event created with arguments 'TargetApp (hello)'
+
+No longer greyed out : _Run
+
+Changed selection in Test Tree with columns: Tests: 2 suites selected, versions <default>,extra
+-> TargetApp (hello) (black/grey90,bold)   ***
+->   Test (black/grey90)
+
+Current page changed in Notebook with tabs: Test , Selection , Running , Config
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: TargetApp
+-> Definition Files (white,bold)
+->   config.hello (grey90)
+->   testsuite.hello (grey90)
+-> Data Files (white)
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+
+Description:
+Root test suite
+===============================
+
+'view actions for file' event created with arguments 'testsuite.hello'
+
+Changed selection in File Tree with columns: TargetApp
+-> Definition Files (white,bold)
+->   config.hello (grey90)
+->   testsuite.hello (grey90)   ***
+-> Data Files (white)
+
+========== Text Info ==========
+
+Description:
+Root test suite
+
+Preview of testsuite.hello:
+Test
+===============================
+
+---------- Popup Window ----------
+'View File' (Stock image 'gtk-open', accelerator 'Ctrl+O')
+'Test Filtering'
+'_File Properties' (Stock image 'gtk-properties')
+'Copy Path To Clipboard'
+  ----
+'Create/_Import' (Stock image 'gtk-new', accelerator 'Ctrl+N')
+  ----
+'_Rename...' (Stock image 'gtk-italic')
+'Remove...' (Stock image 'gtk-delete')
+----------------------------------
+
+'show properties of selected files' event created with arguments ''
+
+Changing GUI status to: 'Performed 'Show properties of selected files' on 1 files.'
+
+---------- Dialog 'Show properties of selected files' ----------
+Default widget is 'gtk-close'
+Expander: '/carm/proj/texttest-tmp/geoff/dynamic_gui.09Aug101024.27469/texttest.gui/GUI/StaticGUI/FileProperties/Basic/TargetApp'
+-> Viewing table with 1 rows and 7 columns.
+'-rw-rw-r--' | '1' | 'geoff' | 'carm' | '5' | 'Feb 15  2009' | 'testsuite.hello'
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+----------------------------------------------------------------
+
+'press close' event created with arguments ''
+
+'set test selection to' event created with arguments 'Test'
+
+Changed selection in Test Tree with columns: Tests: All 2 selected, versions <default>,extra
+-> TargetApp (hello) (black/grey90,bold)
+->   Test (black/grey90)   ***
+
+Updated : File Tree with columns: Test
+-> Standard Files (white,bold)
+->   errors.hello (grey90)
+->   output.hello (grey90)
+-> Definition Files (white)
+-> Data Files (white,bold)
+->   datadir (grey90)
+
+========== Text Info ==========
+
+Description:
+<No description provided>
+
+Full path:
+Test
+===============================
+
+'set file selection to' event created with arguments 'output.hello,datadir'
+
+Changed selection in File Tree with columns: Test
+-> Standard Files (white,bold)
+->   errors.hello (grey90)
+->   output.hello (grey90)   ***
+-> Definition Files (white)
+-> Data Files (white,bold)
+->   datadir (grey90)   ***
+
+========== Text Info ==========
+
+Description:
+<No description provided>
+
+Full path:
+Test
+
+Preview of output.hello:
+Hello
+===============================
+
+'view actions for file' event created with arguments 'datadir'
+
+---------- Popup Window ----------
+'View File' (Stock image 'gtk-open', accelerator 'Ctrl+O')
+'Test Filtering' (greyed out)
+'_File Properties' (Stock image 'gtk-properties')
+'Copy Path To Clipboard' (greyed out)
+  ----
+'Create/_Import' (Stock image 'gtk-new', greyed out, accelerator 'Ctrl+N')
+  ----
+'_Rename...' (Stock image 'gtk-italic', greyed out)
+'Remove...' (Stock image 'gtk-delete')
+----------------------------------
+
+'show properties of selected files' event created with arguments ''
+
+Changing GUI status to: 'Performed 'Show properties of selected files' on 2 files.'
+
+---------- Dialog 'Show properties of selected files' ----------
+Default widget is 'gtk-close'
+Expander: '/carm/proj/texttest-tmp/geoff/dynamic_gui.09Aug101024.27469/texttest.gui/GUI/StaticGUI/FileProperties/Basic/TargetApp/Test'
+-> Viewing table with 2 rows and 7 columns.
+'lrwxrwxrwx' | '1' | 'geoff' | 'carm' | '4' | 'Nov 03 15:50' | 'output.hello'
+'drwxrwxr-x' | '2' | 'geoff' | 'carm' | '4096' | 'Aug 18 10:43' | 'datadir'
+---------------
+Button 'gtk-close' (Stock image 'gtk-close')
+----------------------------------------------------------------
+
+'press close' event created with arguments ''
+
+'run selected tests' event created with arguments ''
+
+Waiting for application event 'dynamic GUI to be closed' to occur.
+
+Changing GUI status to: 'Started 2 tests at 09Aug10:11:35.'
+
+Updated : File Tree with columns: Test
+-> Standard Files (white,bold)
+->   errors.hello (grey90)
+->   output.hello (grey90)   ***
+-> Definition Files (white)
+-> Data Files (white,bold)
+->   datadir (grey90)   ***
+
+========== Text Info ==========
+
+Description:
+<No description provided>
+
+Full path:
+Test
+
+Preview of output.hello:
+Hello
+===============================
+
+Expected application event 'dynamic GUI to be closed' occurred, proceeding.
+
+'quit' event created with arguments ''

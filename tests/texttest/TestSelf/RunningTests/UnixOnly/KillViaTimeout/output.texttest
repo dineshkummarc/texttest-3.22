@@ -1,0 +1,15 @@
+Using Application SLEEP
+Running SLEEP test-suite TargetApp
+  Running SLEEP test-suite Suite1
+    Running SLEEP test-case Basic
+Killing running test (process id 20977)
+Comparing differences for SLEEP test-suite TargetApp
+  Comparing differences for SLEEP test-suite Suite1
+    Comparing differences for SLEEP test-case Basic (on errors.sleep,output.sleep)
+    SLEEP test-case Basic were terminated before completion (TIMEOUT) : differences in output
+    View details(v), Save(s) or continue(any other key)?
+Test exceeded wallclock time limit of 2.0 seconds
+---------- Differences in output ----------
+2d1
+< Done
+    Save(s) or continue(any other key)?

@@ -1,0 +1,2 @@
+<-PYT:datetime.datetime.utcnow()
+->RET:datetime.datetime(2009, 4, 3, 23, 0)

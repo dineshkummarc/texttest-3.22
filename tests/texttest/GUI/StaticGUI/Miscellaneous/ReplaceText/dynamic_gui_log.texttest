@@ -1,0 +1,188 @@
+
+---------- Window 'DIP tests (started at 09Jun16:09:20) - TextTest dynamic GUI' ----------
+Focus widget is 'Test Tree'
+
+Menu Bar : '_File' (+) , '_View' (+) , '_Actions' (+) , '_Help' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit')
+  _Kill (Stock image 'gtk-stop', greyed out, accelerator 'Ctrl+Delete', tooltip 'Kill selected tests')
+  _Save (Stock image 'gtk-save', greyed out, accelerator 'Ctrl+S', tooltip 'Save results for selected tests')
+  Progress bar set to fraction 0.0, text '0 of 3 tests completed'
+...........
+
+Showing Test Tree with columns: Tests: 0/3 selected, all hidden , Details
+
+------------------------------ (vertical pane separator)
+...........
+
+Showing Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 3 (white,bold) | Check box (checked)
+'Shortcuts:' , Button '_New'
+...........
+'TextTest started at 09Jun16:09:23.' , Image 'throbber_inactive.png'
+------------------------------------------------------------------------------------------
+
+Updated : Test Tree with columns: Tests: 0/3 selected, 2 hidden , Details
+-> TargetApp (dip) (black/white,bold) | (white)
+->   Game9952 (black/white,bold) | (white)
+->     S01.99 (black/white) | (white)
+
+Updated : Test Tree with columns: Tests: 0/3 selected, 1 hidden , Details
+-> TargetApp (dip) (black/white,bold) | (white)
+->   Game9952 (black/white,bold) | (white)
+->     S01.99 (black/white) | (white)
+->     S03 (black/white) | (white)
+
+Updated : Test Tree with columns: Tests: 0/3 selected, none hidden , Details
+-> TargetApp (dip) (black/white,bold) | (white)
+->   Game9952 (black/white,bold) | (white)
+->     S01.99 (black/white) | (white)
+->     S03 (black/white) | (white)
+->     A04 (black/white) | (white)
+
+Progress bar set to fraction 0.333333333333, text '1 of 3 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/3 selected, none hidden , Details
+-> TargetApp (dip) (black/white,bold) | (white)
+->   Game9952 (black/white,bold) | (white)
+->     S01.99 (black/salmon) | output different (salmon)
+->     S03 (black/white) | (white)
+->     A04 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 2 (white,bold) | Check box (checked)
+-> Failed (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 1 (salmon,bold) | Check box (checked)
+
+Progress bar set to fraction 0.666666666667, text '2 of 3 tests completed'
+
+Updated : Test Tree with columns: Tests: 0/3 selected, none hidden , Details
+-> TargetApp (dip) (black/white,bold) | (white)
+->   Game9952 (black/white,bold) | (white)
+->     S01.99 (black/salmon) | output different (salmon)
+->     S03 (black/salmon) | output different (salmon)
+->     A04 (black/white) | (white)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white,bold) | 1 (white,bold) | Check box (checked)
+-> Failed (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+->       Group 1 (salmon,bold) | 2 (salmon,bold) | Check box (checked)
+
+Progress bar set to fraction 1.0, text 'All 3 tests completed at 09Jun16:09:23'
+
+Updated : Test Tree with columns: Tests: 0/3 selected, none hidden , Details
+-> TargetApp (dip) (black/white,bold) | (white)
+->   Game9952 (black/white,bold) | (white)
+->     S01.99 (black/salmon) | output different (salmon)
+->     S03 (black/salmon) | output different (salmon)
+->     A04 (black/salmon) | output different (salmon)
+
+Updated : Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->       Group 1 (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+
+Expected application event 'completion of test actions' occurred, proceeding.
+
+'select tests in category' event created with arguments 'Group 1'
+
+No longer greyed out : _Save
+
+Changed selection in Test Tree with columns: Tests: All 3 selected, none hidden , Details
+-> TargetApp (dip) (black/white,bold) | (white)
+->   Game9952 (black/white,bold) | (white)
+->     S01.99 (black/salmon) | output different (salmon)   ***
+->     S03 (black/salmon) | output different (salmon)   ***
+->     A04 (black/salmon) | output different (salmon)   ***
+
+Child visibility changed in Notebook with tabs: Test , Status , Selection , Run Info
+
+Changed selection in Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Failed (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->   Differences (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->     output different (salmon,bold) | 3 (salmon,bold) | Check box (checked)
+->       Group 1 (salmon,bold) | 3 (salmon,bold) | Check box (checked)   ***
+
+'view options for' event created with arguments 'Test'
+
+Current page changed in Notebook with tabs: Test , Status , Selection , Run Info
+Viewing page 'Test'
+...........
+
+Showing File Tree with columns: Sample from 3 tests , Details
+-> Comparison Files (bold)
+->   output.dip (salmon) | (salmon)   ***
+
+------------------------------ (horizontal pane separator)
+...........
+
+========== Text Info ==========
+Test FAILED :
+---------- Differences in output ----------
+1c1
+< Hello World!
+---
+> Goodbye World!
+===============================
+
+'save results for selected tests' event created with arguments ''
+
+Changing GUI status to: 'Saving DIP test-case S01.99 : output, existing version'
+
+Updated : Test Tree with columns: Tests: All 3 selected, none hidden , Details
+-> TargetApp (dip) (black/white,bold) | (white)
+->   Game9952 (black/white,bold) | (white)
+->     S01.99 (black/DarkSeaGreen2) | (DarkSeaGreen2)   ***
+->     S03 (black/salmon) | output different (salmon)   ***
+->     A04 (black/salmon) | output different (salmon)   ***
+
+Updated : File Tree with columns: Sample from 3 tests , Details
+-> Comparison Files (bold)
+->   output.dip (DarkSeaGreen2) | (DarkSeaGreen2)
+
+========== Text Info ==========
+Test succeeded
+(Saved at 16:09)
+===============================
+
+Changing GUI status to: 'Saving DIP test-case S03 : output, existing version'
+
+Updated : Test Tree with columns: Tests: All 3 selected, none hidden , Details
+-> TargetApp (dip) (black/white,bold) | (white)
+->   Game9952 (black/white,bold) | (white)
+->     S01.99 (black/DarkSeaGreen2) | (DarkSeaGreen2)   ***
+->     S03 (black/DarkSeaGreen2) | (DarkSeaGreen2)   ***
+->     A04 (black/salmon) | output different (salmon)   ***
+
+Changing GUI status to: 'Saving DIP test-case A04 : output, existing version'
+
+Greyed out : _Save
+
+Updated : Test Tree with columns: Tests: 0/3 selected, none hidden , Details
+-> TargetApp (dip) (black/white,bold) | All 3 tests successful (DarkSeaGreen2)
+
+Current page changed in Notebook with tabs: Status , Selection , Run Info
+Viewing page 'Status'
+
+Showing Test Status View with columns: Status , Number , Visible
+-> Not started (white) | 0 (white) | Check box (checked)
+-> Failed (white) | 0 (white) | Check box (checked)
+->   Differences (white) | 0 (white) | Check box (checked)
+->     output different (white) | 0 (white) | Check box (checked)
+->       Group 1 (white) | 0 (white) | Check box (checked)   ***
+-> Succeeded (DarkSeaGreen2,bold) | 3 (DarkSeaGreen2,bold) | Check box (checked)
+->   Saved (DarkSeaGreen2,bold) | 3 (DarkSeaGreen2,bold) | Check box (checked)
+
+Changing GUI status to: 'Saved 3 tests.'
+
+'quit' event created with arguments ''

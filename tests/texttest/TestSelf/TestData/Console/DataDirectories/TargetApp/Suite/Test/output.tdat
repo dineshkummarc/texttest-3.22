@@ -1,0 +1,3 @@
+somedir/dummy : dummy file
+somedir/subdir/testfile : dummy file in subdir
+somedir/testfile : dummy file

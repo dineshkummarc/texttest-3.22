@@ -1,0 +1,23 @@
+# See what happens if the grid programs aren't available
+NotInstalled
+
+# Test that we can override default_queue via the config file, and what happens when the queue doesn't exist
+BadQueue
+
+# Check for -q on command line
+BadQueueCommandLine
+
+# Copy of BadQueue, but mark the text as known bug, to check we can do this from the master process
+BadQueueKnownBug
+
+# Check that we read LSF_RESOURCE environment variable
+BadResource
+
+# Basic test for specifying performance machines - that a non-existent pair of machines cause errors
+BadPerformanceMachine
+
+# Check we can cope with bad models too...
+BadPerformanceModel
+
+# Make sure stack traces are found properly when slave crashes
+SlaveCrash

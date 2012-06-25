@@ -1,0 +1,6 @@
+# Just add some indirections, we should be able to handle this...
+checkout_location:$TEXTTEST_SANDBOX/repository
+
+[batch_result_repository]
+self_test:$TEXTTEST_CHECKOUT
+[end]

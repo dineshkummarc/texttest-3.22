@@ -1,0 +1,9 @@
+<-CMD:hg rm --force /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/MoveSuite/TargetApp/Suite/Subsuite/Test4
+<-CMD:hg status -A /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/MoveSuite/TargetApp/Suite/Subsuite/Test3/errors.hello
+->OUT:C TargetApp/Suite/Subsuite/Test3/errors.hello
+<-CMD:hg mv /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/MoveSuite/TargetApp/Suite/Subsuite /nfs/vm/texttest-tmp/geoff/texttest.05May155154.23228/texttest.hg/VersionControl/General/Admin/MoveSuite/TargetApp/Subsuite
+->FIL:Subsuite
+->FIL:Subsuite.edit_2
+->OUT:moving TargetApp/Suite/Subsuite/Test3/errors.hello to TargetApp/Subsuite/Test3/errors.hello
+moving TargetApp/Suite/Subsuite/Test3/output.hello to TargetApp/Subsuite/Test3/output.hello
+moving TargetApp/Suite/Subsuite/testsuite.hello to TargetApp/Subsuite/testsuite.hello

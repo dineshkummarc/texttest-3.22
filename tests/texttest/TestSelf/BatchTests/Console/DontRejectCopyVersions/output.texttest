@@ -1,0 +1,10 @@
+Using Application HELLO, version batch
+Using Application HELLO, version batch.copy_1
+Running HELLO.batch test-suite TargetApp
+  Running HELLO.batch test-case Success
+Comparing differences for HELLO.batch test-suite TargetApp
+  Comparing differences for HELLO.batch test-case Success - SUCCESS! (on errors.hello,output.hello)
+Running HELLO.batch.copy_1 test-suite TargetApp
+  Running HELLO.batch.copy_1 test-case Success
+Comparing differences for HELLO.batch.copy_1 test-suite TargetApp
+  Comparing differences for HELLO.batch.copy_1 test-case Success - SUCCESS! (on errors.hello,output.hello)

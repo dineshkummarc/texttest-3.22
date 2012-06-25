@@ -1,0 +1,5 @@
+wait for completion of test actions
+show test suite TargetApp (sleep)
+set test selection to Basic
+recompute test status, including progress information if appropriate
+quit

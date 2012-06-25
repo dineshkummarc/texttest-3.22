@@ -1,0 +1,12 @@
+# don't run the SGE/LSF tests for now : they don't work on Windows...
+# don't run the tests that receive signals either
+extra_version:{CLEAR intcore}
+extra_version:{CLEAR signals}
+extra_version:{CLEAR sge}
+extra_version:{CLEAR sge.gui}
+extra_version:{CLEAR lsf}
+extra_version:{CLEAR lsf.gui}
+
+[run_dependent_text]
+# Save us having to maintain a separate .nt GUI log which is updated too often for this to be convenient
+gui_log:&lt;default browser&gt;{REPLACE firefox}

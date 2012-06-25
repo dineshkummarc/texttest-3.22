@@ -1,0 +1,5 @@
+performance_variation_%:0
+
+# Trigger errors different
+[run_dependent_text]
+errors:{CLEAR LIST}

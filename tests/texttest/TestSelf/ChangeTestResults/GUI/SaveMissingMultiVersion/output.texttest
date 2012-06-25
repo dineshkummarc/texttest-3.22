@@ -1,0 +1,5 @@
+Using Application HELLO, version 2
+Running HELLO.2 test-suite TargetApp
+  Running HELLO.2 test-case BothDiff
+Comparing differences for HELLO.2 test-suite TargetApp
+  Comparing differences for HELLO.2 test-case BothDiff (on output.hello,errors.hello.2)

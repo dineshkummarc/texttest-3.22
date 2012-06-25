@@ -1,0 +1,1 @@
+-a hello.version -v version.subversion -keeptmp

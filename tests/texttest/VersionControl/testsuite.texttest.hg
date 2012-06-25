@@ -1,0 +1,5 @@
+# Tests that need to be run on every VCS belong here
+General
+
+# Tests for issues that only affect Mercurial (hg)
+HgSpecific

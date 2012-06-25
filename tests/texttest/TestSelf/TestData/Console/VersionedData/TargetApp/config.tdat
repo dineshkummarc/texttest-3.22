@@ -1,0 +1,12 @@
+import_config_file:$STANDARD
+
+executable:${TEXTTEST_HOME}/testdata.py
+
+default_interface:console
+
+create_catalogues:true
+
+link_test_path:readonly.file
+
+[test_data_environment]
+readonly.file:READ_ONLY_FILE

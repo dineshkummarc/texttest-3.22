@@ -1,0 +1,8 @@
+wait for all tests to be read, test Basic to start
+set test selection to Basic
+recompute test status, including progress information if appropriate
+select file output.hello
+set file selection to output.hello
+follow file progress
+wait for completion of test actions, the file-following program to terminate
+quit

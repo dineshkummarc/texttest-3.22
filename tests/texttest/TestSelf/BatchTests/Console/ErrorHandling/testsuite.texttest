@@ -1,0 +1,20 @@
+# Handle preexisting files in batch repository
+RepositoryFileExists
+
+# Handle not being able to write to batch repository
+RepositoryNotWriteable
+
+# Test that we can run -b without a session name
+NoSessionName
+
+# Check what happens when we can't connect to the server
+NoSuchServer
+
+# Check what happens when the username or password is wrong
+NoSuchUser
+
+# Check what happens when sender is all wrong...
+NoSuchSender
+
+# Error message if we collect without a correct temporary directory
+CollectNoTmpDir

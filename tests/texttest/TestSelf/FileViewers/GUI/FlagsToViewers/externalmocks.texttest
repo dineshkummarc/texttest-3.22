@@ -1,0 +1,4 @@
+<-CMD:tkdiff -L original -L current /carm/proj/texttest-tmp/geoff/texttest.19Jun181440.23070/texttest/TestSelf/FileViewers/GUI/FlagsToViewers/texttesttmp/dynamic_gui.19Jun181451.4426/hello/Test/framework_tmp/output.helloorigcmp /carm/proj/texttest-tmp/geoff/texttest.19Jun181440.23070/texttest/TestSelf/FileViewers/GUI/FlagsToViewers/texttesttmp/dynamic_gui.19Jun181451.4426/hello/Test/framework_tmp/output.hellocmp
+->EXC:1
+<-CMD:emacs -q /carm/proj/texttest-tmp/geoff/texttest.19Jun181440.23070/texttest/TestSelf/FileViewers/GUI/FlagsToViewers/texttesttmp/dynamic_gui.19Jun181451.4426/hello/Test/errors.hello
+->EXC:1

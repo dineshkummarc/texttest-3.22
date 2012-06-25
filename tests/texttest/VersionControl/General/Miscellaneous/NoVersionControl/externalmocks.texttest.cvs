@@ -1,0 +1,29 @@
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/NoVersionControl/TargetApp/Suite/Subsuite/Test4/errors.hello
+->OUT:===================================================================
+File: errors.hello     	Status: Unknown
+
+   Working revision:	No entry for errors.hello
+   Repository revision:	No revision control file
+
+->ERR:cvs status: cannot open CVS/Entries for reading: No such file or directory
+cvs status: use `cvs add' to create an entry for /carm/proj/texttest-tmp/geoff/texttest.25Feb163809.5271/texttest/GUI/StaticGUI/CVSPlugin/NoVersionControl/TargetApp/Suite/Subsuite/Test4/errors.hello
+<-CMD:cvs status /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/NoVersionControl/TargetApp/Suite/Subsuite/Test4/output.hello
+->OUT:===================================================================
+File: output.hello     	Status: Unknown
+
+   Working revision:	No entry for output.hello
+   Repository revision:	No revision control file
+
+->ERR:cvs status: cannot open CVS/Entries for reading: No such file or directory
+cvs status: use `cvs add' to create an entry for /carm/proj/texttest-tmp/geoff/texttest.25Feb163809.5271/texttest/GUI/StaticGUI/CVSPlugin/NoVersionControl/TargetApp/Suite/Subsuite/Test4/output.hello
+<-CMD:cvs log -N /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/NoVersionControl/TargetApp/Suite/Subsuite/Test4/errors.hello
+->ERR:cvs log: cannot open CVS/Entries for reading: No such file or directory
+cvs log: nothing known about errors.hello
+->EXC:1
+<-CMD:cvs annotate /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/NoVersionControl/TargetApp/Suite/Subsuite/Test4/errors.hello
+->ERR:cvs annotate: cannot open CVS/Entries for reading: No such file or directory
+->EXC:1
+<-CMD:cvs diff -N -r HEAD /carm/proj/texttest-tmp/geoff/texttest.05May155154.23228/texttest.cvs/VersionControl/General/Miscellaneous/NoVersionControl/TargetApp/Suite/Subsuite/Test4/errors.hello
+->ERR:cvs diff: cannot open CVS/Entries for reading: No such file or directory
+cvs diff: I know nothing about /carm/proj/texttest-tmp/geoff/texttest.25Feb163809.5271/texttest/GUI/StaticGUI/CVSPlugin/NoVersionControl/TargetApp/Suite/Subsuite/Test4/errors.hello
+->EXC:1
